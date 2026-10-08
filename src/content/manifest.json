@@ -1,0 +1,176 @@
+{
+  "fetched": "2026-10-08",
+  "articles": {
+    "Coffee": {
+      "title": "Coffee",
+      "description": "Brewed beverage",
+      "revision": 1371799424,
+      "url": "https://en.wikipedia.org/wiki/Coffee",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Coffee&oldid=1371799424",
+      "image": {
+        "src": "/content/images/Coffee.jpg",
+        "width": 330,
+        "height": 206,
+        "credit": {
+          "file": "Latte_and_dark_coffee.jpg",
+          "artist": "Bex Walton",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Latte_and_dark_coffee.jpg"
+        }
+      }
+    },
+    "Lloyd-s-of-London": {
+      "title": "Lloyd's of London",
+      "description": "Insurance market in England",
+      "revision": 1371088846,
+      "url": "https://en.wikipedia.org/wiki/Lloyd's_of_London",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Lloyd's_of_London&oldid=1371088846",
+      "image": {
+        "src": "/content/images/Lloyd-s-of-London.jpg",
+        "width": 330,
+        "height": 495,
+        "credit": {
+          "file": "Lloyd's_insurance_exterior_at_night.jpg",
+          "artist": "Lloyd's of London",
+          "license": "CC BY 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Lloyd's_insurance_exterior_at_night.jpg"
+        }
+      }
+    },
+    "Coffeehouse": {
+      "title": "Coffeehouse",
+      "description": "Establishment that serves coffee",
+      "revision": 1377043428,
+      "url": "https://en.wikipedia.org/wiki/Coffeehouse",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Coffeehouse&oldid=1377043428",
+      "image": {
+        "src": "/content/images/Coffeehouse.jpg",
+        "width": 330,
+        "height": 248,
+        "credit": {
+          "file": "Café_de_Flore.jpg",
+          "artist": "Arnaud 25",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:Caf%C3%A9_de_Flore.jpg"
+        }
+      }
+    },
+    "Sandwich": {
+      "title": "Sandwich",
+      "description": "Food made with bread and other ingredients",
+      "revision": 1377592726,
+      "url": "https://en.wikipedia.org/wiki/Sandwich",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Sandwich&oldid=1377592726",
+      "image": {
+        "src": "/content/images/Sandwich.jpg",
+        "width": 330,
+        "height": 248,
+        "credit": {
+          "file": "Bacon,_lettuce,_tomato,_and_avocado.jpg",
+          "artist": "Jami430",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Bacon%2C_lettuce%2C_tomato%2C_and_avocado.jpg"
+        }
+      }
+    },
+    "Hawaiian-Islands": {
+      "title": "Hawaiian Islands",
+      "description": "Archipelago in the Pacific Ocean",
+      "revision": 1378857085,
+      "url": "https://en.wikipedia.org/wiki/Hawaiian_Islands",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Hawaiian_Islands&oldid=1378857085",
+      "image": {
+        "src": "/content/images/Hawaiian-Islands.jpg",
+        "width": 330,
+        "height": 257,
+        "credit": {
+          "file": "Hawaje-NoRedLine.jpg",
+          "artist": "Jacques Descloitres",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:Hawaje-NoRedLine.jpg"
+        }
+      }
+    },
+    "John-Montagu-4th-Earl-of-Sandwich": {
+      "title": "John Montagu, 4th Earl of Sandwich",
+      "description": "British statesman (1718–1792)",
+      "revision": 1378201147,
+      "url": "https://en.wikipedia.org/wiki/John_Montagu%2C_4th_Earl_of_Sandwich",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=John_Montagu%2C_4th_Earl_of_Sandwich&oldid=1378201147",
+      "image": {
+        "src": "/content/images/John-Montagu-4th-Earl-of-Sandwich.jpg",
+        "width": 330,
+        "height": 504,
+        "credit": {
+          "file": "John_Montagu,_4th_Earl_of_Sandwich.jpg",
+          "artist": "Thomas Gainsborough",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:John_Montagu%2C_4th_Earl_of_Sandwich.jpg"
+        }
+      }
+    },
+    "Copper-sheathing": {
+      "title": "Copper sheathing",
+      "description": "Ship hull covering",
+      "revision": 1369660444,
+      "url": "https://en.wikipedia.org/wiki/Copper_sheathing",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Copper_sheathing&oldid=1369660444",
+      "image": {
+        "src": "/content/images/Copper-sheathing.jpg",
+        "width": 330,
+        "height": 220,
+        "credit": {
+          "file": "Cutty_Sark_stern.jpg",
+          "artist": "Cmglee",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Cutty_Sark_stern.jpg"
+        }
+      }
+    },
+    "Haitian-Revolution": {
+      "title": "Haitian Revolution",
+      "description": "1791–1804 slave revolt in Hispanola",
+      "revision": 1378019905,
+      "url": "https://en.wikipedia.org/wiki/Haitian_Revolution",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Haitian_Revolution&oldid=1378019905",
+      "image": {
+        "src": "/content/images/Haitian-Revolution.jpg",
+        "width": 330,
+        "height": 224,
+        "credit": {
+          "file": "Incendie_de_la_Plaine_du_Cap._Massacre_des_Blancs_par_les_esclaves_noirs_révoltés._France_militaire._Martinet_et_Masson.jpg",
+          "artist": "Aaron Martinet / Alphonse-Charles Masson",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:Incendie_de_la_Plaine_du_Cap._Massacre_des_Blancs_par_les_esclaves_noirs_r%C3%A9volt%C3%A9s._France_militaire._Martinet_et_Masson.jpg"
+        }
+      }
+    },
+    "Gabriel-de-Clieu": {
+      "title": "Gabriel de Clieu",
+      "description": "French naval officer",
+      "revision": 1244080582,
+      "url": "https://en.wikipedia.org/wiki/Gabriel_de_Clieu",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Gabriel_de_Clieu&oldid=1244080582",
+      "image": {
+        "src": "/content/images/Gabriel-de-Clieu.jpg",
+        "width": 330,
+        "height": 402,
+        "credit": {
+          "file": "Gabriel_de_Clieu.jpg",
+          "artist": "Unknown 18th-century artist",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:Gabriel_de_Clieu.jpg"
+        }
+      }
+    }
+  }
+}
