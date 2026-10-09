@@ -115,14 +115,11 @@ button {
 .stack-slot {
   position: absolute;
   inset: 0 0 22px 0;
-  transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1), opacity 0.35s;
   transform-origin: 50% 100%;
 }
 .slot-1 { transform: translateY(11px) scale(0.955); }
 .slot-2 { transform: translateY(22px) scale(0.91); }
 .slot-1 .card, .slot-2 .card { pointer-events: none; }
-.slot-2 { animation: slot-in 0.35s ease-out; }
-@keyframes slot-in { from { opacity: 0; } }
 .stack-drag {
   height: 100%;
   touch-action: pan-y;
@@ -333,7 +330,6 @@ sup.cited { color: var(--visited); }
   background: var(--thread);
   box-shadow: 0 0 0 4px rgba(51, 102, 204, 0.16), 0 2px 4px rgba(0, 0, 0, 0.25);
   position: relative;
-  animation: knot-in 0.4s cubic-bezier(0.2, 1.4, 0.4, 1);
 }
 .knot-dot::after {
   /* the twist in the knot */
@@ -344,7 +340,6 @@ sup.cited { color: var(--visited); }
   border-radius: 50%;
   transform: rotate(-20deg);
 }
-@keyframes knot-in { from { transform: scale(0.2); opacity: 0; } }
 .phase-tumble .knot, .phase-ending .knot { opacity: 0; pointer-events: none; }
 
 .pull-hint {
@@ -360,19 +355,16 @@ sup.cited { color: var(--visited); }
   color: var(--ink-2);
   z-index: 6;
   pointer-events: none;
-  animation: fade-in 0.6s 1.6s both;
 }
 .pull-hint::after { content: ' ↑'; }
-@keyframes fade-in { from { opacity: 0; } }
 
 .back-to-thread {
   position: absolute;
   left: 50%;
   bottom: calc(56px + 34px);
   z-index: 8;
-  transform: translate(-50%, 12px);
-  opacity: 0;
-  pointer-events: none;
+  transform: translateX(-50%);
+  visibility: hidden;
   padding: 8px 14px;
   border: 1px solid var(--rule);
   border-radius: 999px;
@@ -381,9 +373,8 @@ sup.cited { color: var(--visited); }
   font-weight: 600;
   color: var(--link);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
-  transition: opacity 0.25s, transform 0.25s;
 }
-.back-to-thread.is-shown { opacity: 1; transform: translate(-50%, 0); pointer-events: auto; }
+.back-to-thread.is-shown { visibility: visible; }
 
 /* Top bar with progress knots */
 .hole-bar {
@@ -419,7 +410,6 @@ sup.cited { color: var(--visited); }
   border-radius: 50%;
   background: var(--rule-2);
   position: relative;
-  transition: background 0.4s, box-shadow 0.4s;
 }
 .progress li + li { margin-left: 22px; }
 .progress li + li::before {
@@ -609,29 +599,24 @@ a.rh-onward mark.rh-hl { color: var(--link); }
   margin: 0 0 10px;
 }
 .cite-swap { position: relative; display: inline-block; white-space: nowrap; }
-.cite-swap sup { transition: opacity 0.4s, transform 0.4s; display: inline-block; }
+.cite-swap sup { display: inline-block; }
 .cite-swap .cited {
   position: absolute;
   left: 0;
   bottom: 0.9em;
-  opacity: 0;
-  transform: translateY(6px);
+  visibility: hidden;
   font-size: 13px;
 }
 .cite-swap .cn { font-size: 13px; vertical-align: 0.9em; }
-.stage-3 .cite-swap .cn, .stage-4 .cite-swap .cn { opacity: 0; transform: translateY(-6px); }
-.stage-3 .cite-swap .cited, .stage-4 .cite-swap .cited { opacity: 1; transform: none; }
+.stage-3 .cite-swap .cn, .stage-4 .cite-swap .cn { visibility: hidden; }
+.stage-3 .cite-swap .cited, .stage-4 .cite-swap .cited { visibility: visible; }
 .end-payoff { margin: 0 0 18px; font-size: 15px; color: var(--ink-2); line-height: 1.5; }
 
 .end-diagram {
   position: relative;
   height: 440px;
   margin: 0 0 8px;
-  transform: scale(1.08);
-  transform-origin: 100% 100%;
-  transition: transform 0.9s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
-.stage-2 .end-diagram, .stage-3 .end-diagram, .stage-4 .end-diagram { transform: none; }
 .end-diagram .infobox { position: absolute; width: 40%; max-width: 240px; z-index: 1; }
 .end-diagram .ib-img { aspect-ratio: 16 / 10; }
 .end-diagram .ib-desc { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
@@ -680,8 +665,8 @@ a.rh-onward mark.rh-hl { color: var(--link); }
 }
 
 
-.end-after { opacity: 0; transform: translateY(8px); transition: opacity 0.5s, transform 0.5s; }
-.stage-4 .end-after { opacity: 1; transform: none; }
+.end-after { visibility: hidden; }
+.stage-4 .end-after { visibility: visible; }
 
 .wk-h2 {
   font-family: var(--serif);
@@ -724,5 +709,5 @@ a.rh-onward mark.rh-hl { color: var(--link); }
 .shelf-date { font-family: var(--sans); font-size: 12px; color: var(--ink-3); }
 
 @media (prefers-reduced-motion: reduce) {
-  .stack-slot, .end-diagram, .end-diagram .end-right, .cite-swap sup, .end-after { transition-duration: 0.01s !important; }
+  .end-diagram .end-right { transition-duration: 0.01s !important; }
 }

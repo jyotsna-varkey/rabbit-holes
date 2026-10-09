@@ -51,12 +51,12 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
   - [x] 14c. Pull only from the knot: tapping the onward link no longer pulls (item 12).
   - [x] 14d. Left arrow = back on laptop (item 13).
   - [x] 14e. Laptop layout checked and fixed: margin thread follows the text column (item 14).
-  - [ ] 14f. Motion only for thread, focus blur, tumble and the end card's swing (item 15).
+  - [x] 14f. Motion only for thread, focus blur, tumble and the end card's swing (item 15).
   - [ ] 14g. Remove extras: Did you know, See also, stack buttons (item 16; recall went in step 13).
   - [ ] 14h. Go deeper opens real Wikipedia at the passage (item 17).
 
 ## Current step
-14f
+14g
 
 ## Decisions
 - React + TypeScript + framer-motion, approved by the owner on 2026-10-09
@@ -94,6 +94,12 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
   Wikipedia in a new tab), since only the knot may pull.
 - Left arrow = back means: previous knot; on the first knot, back to the
   stack; on the ending, back to the last knot. Escape still closes the hole.
+- Allowed motion (tests/e2e/motion.spec.ts): thread, its knots, focus veils,
+  tumble (with the top bar and knot fading in as it lands), the end card's
+  swing. Removed: stack cards sliding forward, knot pop-in, pull-hint fade,
+  progress-dot fades, back-to-thread slide, citation crossfade, ending
+  zoom-out, references fade. The card following your finger and flying off
+  on a swipe is the gesture itself, not added motion.
 - The rope is string, not a rod: it resists stretching only. A two-sided
   constraint made the slack zigzag. Spans that are taut are drawn straight,
   and a span whose ends jump > 140px is reset, to stop leftover loops after a
