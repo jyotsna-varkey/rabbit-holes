@@ -53,7 +53,7 @@ export type PageInfo = {
 };
 
 const holeFiles = import.meta.glob<Hole>('../../holes/*.json', { eager: true, import: 'default' });
-const imageUrls = import.meta.glob<string>('../../holes/snapshots/images/*', { eager: true, query: '?url', import: 'default' });
+const imageUrls = import.meta.glob<string>('../../holes/snapshots/images/**/*', { eager: true, query: '?url', import: 'default' });
 const pageHtml = import.meta.glob<string>('../../holes/snapshots/pages/*.html', { query: '?raw', import: 'default' });
 
 // The stack starts with the hole the spec was written around; any others follow by id.

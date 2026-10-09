@@ -11,7 +11,7 @@
 // Output: holes/snapshots/pages/*.html, holes/snapshots/images/*,
 //         holes/snapshots/manifest.json
 
-import { readFile, readdir, writeFile, mkdir } from 'node:fs/promises';
+import { readFile, readdir, writeFile, mkdir, rm } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { parseHTML } from 'linkedom';
 import { keyOf, knotProblems, loadDom } from './knots.mjs';
@@ -82,10 +82,9 @@ function cleanArticle(html) {
     }
   }
   for (const img of body.querySelectorAll('img')) {
-    for (const attr of ['src', 'srcset']) {
-      const v = img.getAttribute(attr);
-      if (v) img.setAttribute(attr, v.replace(/(^|\s|,)\/\//g, '$1https://'));
-    }
+    const src = img.getAttribute('src');
+    if (src) img.setAttribute('src', src.replace(/^\/\//, 'https://'));
+    img.removeAttribute('srcset');
     img.setAttribute('loading', 'lazy');
     img.setAttribute('decoding', 'async');
   }
@@ -110,6 +109,33 @@ function cleanArticle(html) {
     if (el.tagName === 'A' && el.getAttribute('rel')?.startsWith('mw:')) el.removeAttribute('rel');
   }
   return body;
+}
+
+/**
+ * Download every image an article shows into holes/snapshots/images/pages/<key>/
+ * and point the <img> at it with data-asset (the app resolves it to the bundled
+ * file), so reading never fetches from Wikimedia.
+ */
+async function bundleImages(body, key) {
+  const dir = `${SNAP}/images/pages/${key}`;
+  await rm(dir, { recursive: true, force: true });
+  await mkdir(dir, { recursive: true });
+  const saved = new Map();
+  let n = 0;
+  for (const img of body.querySelectorAll('img')) {
+    const src = img.getAttribute('src');
+    img.removeAttribute('src');
+    if (!src || !/^https:\/\//.test(src)) continue;
+    let file = saved.get(src);
+    if (!file) {
+      const base = decodeURIComponent(src.split('/').pop()).replace(/[^A-Za-z0-9._-]+/g, '_').slice(-60);
+      file = `${String(++n).padStart(3, '0')}-${base}`;
+      await writeFile(`${dir}/${file}`, await get(src, 'bytes'));
+      saved.set(src, file);
+    }
+    img.setAttribute('data-asset', `snapshots/images/pages/${key}/${file}`);
+  }
+  console.log(`  ${saved.size} images bundled for ${key}`);
 }
 
 async function commonsCredit(imageUrl) {
@@ -158,6 +184,7 @@ for (const title of new Set([...knotPages.keys(), ...endpointPages])) {
   if (isKnotPage) {
     const html = await get(`${API}/page/html/${pathTitle(summary.titles.canonical)}/${revision}`, 'text');
     const body = cleanArticle(html);
+    await bundleImages(body, key);
     await writeFile(`${SNAP}/pages/${key}.html`, body.innerHTML);
   }
 

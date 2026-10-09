@@ -1,5 +1,5 @@
 import { forwardRef, useEffect, useImperativeHandle, useLayoutEffect, useRef, useState } from 'react';
-import { loadArticle, pageOf, type Knot } from '../content';
+import { holesAsset, loadArticle, pageOf, type Knot } from '../content';
 import { anchorPoint, markPassage, type Passage } from '../lib/passage';
 import type { Pt } from '../lib/rope';
 
@@ -130,6 +130,11 @@ export const ArticlePage = forwardRef<ArticlePageHandle, Props>(function Article
     if (html == null || !body.current) return;
     const root = body.current;
     root.innerHTML = html;
+    // Article images ship in /holes; point each one at its bundled file.
+    for (const img of Array.from(root.querySelectorAll<HTMLImageElement>('img[data-asset]'))) {
+      const src = holesAsset(img.dataset.asset!);
+      if (src) img.src = src;
+    }
     const passage = markPassage(root, knot.passage, knot.onwardLinkText, knot.nextPage);
     const st = s.current;
     st.passage = passage;

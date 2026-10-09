@@ -43,14 +43,19 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          passage matching; e2e tests for home, enter, knot pull, short drag.
 - [x] 13. Holes in /holes, one file per hole, spec schema. Data tests.
          Fetch script reads /holes. (Completes steps 1, 10 and 11.)
-- [ ] 14. Spec fixes: bundle article images, no runtime Wikimedia requests
-         (item 8); grey [citation needed]; pull only from the knot; left arrow =
-         back; laptop works; motion only for thread/blur/tumble/end card; remove
-         extras (Did you know, recall, See also, stack buttons); Go deeper opens
-         the passage. Playwright tests for each.
+- [ ] 14. Spec fixes, one commit each, each with a Playwright or data test:
+  - [x] 14a. Article images bundled in holes/snapshots/images/pages; no
+             requests to Wikipedia/Wikimedia while reading (item 8).
+  - [ ] 14b. [citation needed] is grey on cards and the ending (item 11).
+  - [ ] 14c. Pull only from the knot: tapping the onward link no longer pulls (item 12).
+  - [ ] 14d. Left arrow = back on laptop (item 13).
+  - [ ] 14e. Laptop layout checked and fixed: margin thread follows the text column (item 14).
+  - [ ] 14f. Motion only for thread, focus blur, tumble and the end card's swing (item 15).
+  - [ ] 14g. Remove extras: Did you know, See also, stack buttons (item 16; recall went in step 13).
+  - [ ] 14h. Go deeper opens real Wikipedia at the passage (item 17).
 
 ## Current step
-14
+14b
 
 ## Decisions
 - React + TypeScript + framer-motion, approved by the owner on 2026-10-09
