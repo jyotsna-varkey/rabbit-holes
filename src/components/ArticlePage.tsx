@@ -23,7 +23,6 @@ type Props = {
   /** Start at the top of the article and wait for arrive(), instead of opening on the passage. */
   arriveFromTop: boolean;
   onFocusChange(focused: boolean): void;
-  onPull(): void;
 };
 
 // The band of the screen the passage is centred in: below the top bar, above the knot.
@@ -34,7 +33,7 @@ const LOOK_AWAY = 48;
 const ease = (t: number) => (t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2);
 
 export const ArticlePage = forwardRef<ArticlePageHandle, Props>(function ArticlePage(
-  { knot, top, height, arriveFromTop, onFocusChange, onPull },
+  { knot, top, height, arriveFromTop, onFocusChange },
   ref,
 ) {
   const article = pageOf(knot.page);
@@ -57,8 +56,8 @@ export const ArticlePage = forwardRef<ArticlePageHandle, Props>(function Article
     arrived: !arriveFromTop,
     arrivePending: false,
   });
-  const cb = useRef({ onFocusChange, onPull });
-  cb.current = { onFocusChange, onPull };
+  const cb = useRef({ onFocusChange });
+  cb.current = { onFocusChange };
 
   useEffect(() => {
     let live = true;
@@ -175,11 +174,6 @@ export const ArticlePage = forwardRef<ArticlePageHandle, Props>(function Article
     hatnote.textContent = knot.hatnote;
     block.parentNode!.insertBefore(hatnote, block);
     st.hatnote = hatnote;
-
-    passage.onward?.addEventListener('click', (e) => {
-      e.preventDefault();
-      cb.current.onPull();
-    });
 
     if (st.arrived) goToPassage(false);
     else if (st.arrivePending) goToPassage(true);

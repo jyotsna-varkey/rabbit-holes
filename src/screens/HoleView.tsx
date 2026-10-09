@@ -220,7 +220,6 @@ export function HoleView({ hole, from, onClose, onNext, onOpenHole, onSettled }:
               height={h}
               arriveFromTop={k === 0}
               onFocusChange={(f) => { if (k === live.current.index) setFocused(f); }}
-              onPull={() => { if (k === live.current.index) commit(); }}
             />
           ))}
           {(index >= n - 2 || phase === 'ending') && (

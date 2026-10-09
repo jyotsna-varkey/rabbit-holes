@@ -18,9 +18,9 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
         passage (src/components/ArticlePage.tsx, src/lib/passage.ts).
 - [~] 3. Focus: auto-scroll once on arrival, veils blur above/below, reader
         scroll lifts the blur, "Back to the thread" button.
-- [~] 4. Knot pull: knot handle at the bottom; drag up advances; click knot and
-        down arrow also advance. Pull also fires from tapping the onward link
-        (spec says knot only — to fix, step 14).
+- [x] 4. Knot pull: knot handle at the bottom; drag up advances; click knot and
+        down arrow also advance; nothing else pulls (tests/e2e/hole.spec.ts,
+        pull-only-knot.spec.ts).
 - [~] 5. Thread: Verlet rope (src/lib/rope.ts). Runs down the left margin into
         the hatnote, hidden behind the passage, out of the onward link to the
         knot. Sags, goes taut while pulling, springs back.
@@ -47,7 +47,7 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
   - [x] 14a. Article images bundled in holes/snapshots/images/pages; no
              requests to Wikipedia/Wikimedia while reading (item 8).
   - [x] 14b. [citation needed] is grey on cards and the ending (item 11).
-  - [ ] 14c. Pull only from the knot: tapping the onward link no longer pulls (item 12).
+  - [x] 14c. Pull only from the knot: tapping the onward link no longer pulls (item 12).
   - [ ] 14d. Left arrow = back on laptop (item 13).
   - [ ] 14e. Laptop layout checked and fixed: margin thread follows the text column (item 14).
   - [ ] 14f. Motion only for thread, focus blur, tumble and the end card's swing (item 15).
@@ -55,7 +55,7 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
   - [ ] 14h. Go deeper opens real Wikipedia at the passage (item 17).
 
 ## Current step
-14c
+14d
 
 ## Decisions
 - React + TypeScript + framer-motion, approved by the owner on 2026-10-09
@@ -89,6 +89,8 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
   (linkedom lacks it); real-browser behaviour is covered by Playwright.
 - The screenshot script creates screenshots/ if missing (one line added to
   the CLAUDE.md version).
+- Tapping the onward link now behaves like any article link (opens
+  Wikipedia in a new tab), since only the knot may pull.
 - The rope is string, not a rod: it resists stretching only. A two-sided
   constraint made the slack zigzag. Spans that are taut are drawn straight,
   and a span whose ends jump > 140px is reset, to stop leftover loops after a
