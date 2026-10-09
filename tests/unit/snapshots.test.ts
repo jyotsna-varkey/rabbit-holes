@@ -19,6 +19,13 @@ describe.each(pages)('%s', (file) => {
     expect(remote).toEqual([]);
   });
 
+  it('names every bundled image after its file, with an image extension', () => {
+    const bad = [...html.matchAll(/data-asset="([^"]+)"/g)]
+      .map((m) => m[1])
+      .filter((p) => !/\/\d{3}-[^/?&=]+\.(jpe?g|png|gif|svg|webp)$/i.test(p));
+    expect(bad).toEqual([]);
+  });
+
   it('ships every image it shows', () => {
     const missing = [...html.matchAll(/data-asset="([^"]+)"/g)]
       .map((m) => m[1])

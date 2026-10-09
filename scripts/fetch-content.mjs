@@ -123,7 +123,8 @@ async function bundleImages(body, key) {
   const saved = new Map();
   let n = 0;
   for (const img of body.querySelectorAll('img')) {
-    const src = img.getAttribute('src');
+    // Thumb URLs carry tracking query strings; the file is the path alone.
+    const src = img.getAttribute('src')?.split('?')[0];
     img.removeAttribute('src');
     if (!src || !/^https:\/\//.test(src)) continue;
     let file = saved.get(src);
