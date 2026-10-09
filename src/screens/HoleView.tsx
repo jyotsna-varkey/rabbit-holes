@@ -113,6 +113,26 @@ export function HoleView({ hole, from, onClose, onNext, onOpenHole, onSettled }:
     L.busy = false;
   }, [n, offset]);
 
+  // Back: the previous knot, the last knot from the ending, or the stack from the first knot.
+  const back = useCallback(async () => {
+    const L = live.current;
+    if (L.busy) return;
+    if (L.phase === 'reading' && L.index === 0) {
+      onClose();
+      return;
+    }
+    if (L.phase !== 'reading' && L.phase !== 'ending') return;
+    L.busy = true;
+    const to = L.phase === 'ending' ? n - 1 : L.index - 1;
+    await animate(offset, to * L.size.h, { type: 'spring', stiffness: 210, damping: 30, restDelta: 0.5 });
+    thread.current?.reset();
+    live.current.index = to;
+    setIndex(to);
+    setPhase('reading');
+    setFocused(true);
+    L.busy = false;
+  }, [n, offset, onClose]);
+
   const cancel = useCallback((velocity = 0) => {
     animate(offset, live.current.index * live.current.size.h, { type: 'spring', stiffness: 380, damping: 32, velocity });
   }, [offset]);
@@ -154,10 +174,14 @@ export function HoleView({ hole, from, onClose, onNext, onOpenHole, onSettled }:
         e.preventDefault();
         commit();
       }
+      if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        back();
+      }
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [commit, onClose]);
+  }, [commit, back, onClose]);
 
   // One loop drives the thread, the knot and the focus veils.
   useEffect(() => {

@@ -48,14 +48,14 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
              requests to Wikipedia/Wikimedia while reading (item 8).
   - [x] 14b. [citation needed] is grey on cards and the ending (item 11).
   - [x] 14c. Pull only from the knot: tapping the onward link no longer pulls (item 12).
-  - [ ] 14d. Left arrow = back on laptop (item 13).
+  - [x] 14d. Left arrow = back on laptop (item 13).
   - [ ] 14e. Laptop layout checked and fixed: margin thread follows the text column (item 14).
   - [ ] 14f. Motion only for thread, focus blur, tumble and the end card's swing (item 15).
   - [ ] 14g. Remove extras: Did you know, See also, stack buttons (item 16; recall went in step 13).
   - [ ] 14h. Go deeper opens real Wikipedia at the passage (item 17).
 
 ## Current step
-14d
+14e
 
 ## Decisions
 - React + TypeScript + framer-motion, approved by the owner on 2026-10-09
@@ -91,6 +91,8 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
   the CLAUDE.md version).
 - Tapping the onward link now behaves like any article link (opens
   Wikipedia in a new tab), since only the knot may pull.
+- Left arrow = back means: previous knot; on the first knot, back to the
+  stack; on the ending, back to the last knot. Escape still closes the hole.
 - The rope is string, not a rod: it resists stretching only. A two-sided
   constraint made the slack zigzag. Spans that are taut are drawn straight,
   and a span whose ends jump > 140px is reset, to stop leftover loops after a

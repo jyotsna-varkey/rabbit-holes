@@ -9,6 +9,8 @@ export type ThreadHandle = {
   update(pins: Pt[], slack: number | number[], frameDt: number, gravity?: Pt): void;
   /** Drop the first k spans and keep the rest, so a thread can move on without snapping. */
   shift(k: number): void;
+  /** Forget every span; each is laid straight on the next update and falls into place. */
+  reset(): void;
 };
 
 type Props = {
@@ -58,6 +60,9 @@ export const Thread = forwardRef<ThreadHandle, Props>(function Thread(
     },
     shift(k) {
       ropes.current = ropes.current.slice(k);
+    },
+    reset() {
+      ropes.current = [];
     },
   }), [spans, points]);
 
