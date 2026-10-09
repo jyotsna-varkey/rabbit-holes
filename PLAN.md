@@ -27,7 +27,8 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
 - [~] 6. Progress knots in the top bar: purple visited, ring current, grey ahead.
 - [~] 7. Ending: end card swings in, purple thread through numbered knots,
         [citation needed] → [1–N], references list, Go deeper / Next hole /
-        Keep it, shelf in localStorage. Has extras to remove (step 14).
+        Keep it, shelf in localStorage (tests/e2e/ending.spec.ts). Has
+        extras to remove (step 14g).
 - [~] 8. Home stack: three cards with two peeking, swipe right to enter,
         swipe left to send to back (also logged to localStorage).
 - [~] 9. Tumble: the start infobox grows into the first article, then the page
@@ -49,13 +50,13 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
   - [x] 14b. [citation needed] is grey on cards and the ending (item 11).
   - [x] 14c. Pull only from the knot: tapping the onward link no longer pulls (item 12).
   - [x] 14d. Left arrow = back on laptop (item 13).
-  - [ ] 14e. Laptop layout checked and fixed: margin thread follows the text column (item 14).
+  - [x] 14e. Laptop layout checked and fixed: margin thread follows the text column (item 14).
   - [ ] 14f. Motion only for thread, focus blur, tumble and the end card's swing (item 15).
   - [ ] 14g. Remove extras: Did you know, See also, stack buttons (item 16; recall went in step 13).
   - [ ] 14h. Go deeper opens real Wikipedia at the passage (item 17).
 
 ## Current step
-14e
+14f
 
 ## Decisions
 - React + TypeScript + framer-motion, approved by the owner on 2026-10-09
@@ -118,8 +119,6 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
 - Counting knot pages only, every hole touches 2 distinct pages, not 3;
   Sandwich → Copper-bottomed touches 2 even counting its end card. Needs an
   owner decision (does the end card count?). Test is `todo` until then.
-- Laptop: the margin thread runs at the window's left edge, far from the
-  centred text column (fix in step 14).
 - Re-fetching pinned revisions gives slightly different markup (Parsoid
   output changes, e.g. data-mw-wikitext attributes); text is identical.
 - iOS haptics use the iOS 18 switch-control workaround; untested on a device.

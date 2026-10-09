@@ -213,9 +213,11 @@ export const ArticlePage = forwardRef<ArticlePageHandle, Props>(function Article
   useImperativeHandle(ref, () => ({
     entry() {
       const hn = s.current.hatnote;
-      if (!hn || !section.current) return null;
+      if (!hn || !section.current || !body.current) return null;
       const r = hn.getBoundingClientRect();
-      return { x: section.current.getBoundingClientRect().left + 7, y: r.top + 11 };
+      // In the gutter just left of the text column (the window edge on a phone).
+      const x = Math.max(section.current.getBoundingClientRect().left + 7, body.current.getBoundingClientRect().left - 9);
+      return { x, y: r.top + 11 };
     },
     anchor() {
       const p = s.current.passage;

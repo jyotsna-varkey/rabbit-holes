@@ -201,12 +201,13 @@ export function HoleView({ hole, from, onClose, onNext, onOpenHole, onSettled }:
       const rootBox = root.current!.getBoundingClientRect();
       const local = (p: Pt | null | undefined) => (p ? { x: p.x - rootBox.left, y: p.y - rootBox.top } : null);
       const kx = w / 2;
-      const gx = 7;
       const knotPt = { x: kx, y: h - KNOT_LIFT - pulledBy };
       const curPage = pages.current.get(i);
       const nextPage = i + 1 < n ? pages.current.get(i + 1) : null;
       // Down the margin into the hatnote, hidden behind the passage, out of the onward word, to the knot.
-      const curIn = local(curPage?.entry()) ?? { x: gx, y: -200 };
+      const entry = local(curPage?.entry());
+      const gx = entry?.x ?? 7;
+      const curIn = entry ?? { x: gx, y: -200 };
       const curOut = local(curPage?.anchor()) ?? { x: kx, y: -200 };
       const nextIn = local(nextPage?.entry()) ?? local(ending.current?.socket()) ?? { x: gx, y: h + 200 };
       const nextOut = local(nextPage?.anchor()) ?? nextIn;
