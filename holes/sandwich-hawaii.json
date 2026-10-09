@@ -19,9 +19,9 @@
       "url": "https://en.wikipedia.org/wiki/Sandwich",
       "revision": 1377592726,
       "section": "Early sandwiches and sandwich-like foods",
-      "passage": "It is commonly said that Lord Sandwich, during long sessions of cribbage and other card games at public gambling houses, would order his valet to bring him roast beef between two pieces of toasted bread. He was fond of this form of food because it allowed him to continue gambling while eating, without the need for a fork, and without getting his cards greasy from eating meat with his bare hands.",
+      "passage": "The sandwich is named after John Montagu, 4th Earl of Sandwich, an eighteenth-century English aristocrat. It is commonly said that Lord Sandwich, during long sessions of cribbage and other card games at public gambling houses, would order his valet to bring him roast beef between two pieces of toasted bread. He was fond of this form of food because it allowed him to continue gambling while eating, without the need for a fork, and without getting his cards greasy from eating meat with his bare hands.",
       "hatnote": "Lunch is named after an aristocrat who didn't want to stop playing cards. Allegedly.",
-      "onwardLinkText": null,
+      "onwardLinkText": "John Montagu, 4th Earl of Sandwich",
       "nextPage": "John Montagu, 4th Earl of Sandwich"
     },
     {
@@ -47,7 +47,6 @@
   ],
   "payoff": "The man on your lunch label also has his name on a Pacific archipelago, and an Antarctic one.",
   "caveats": [
-    "Knot 1: the link to John Montagu, 4th Earl of Sandwich is outside the quoted passage.",
     "Knot 3 is about 90 words; trim to the first two and last sentence if the card needs to be shorter."
   ]
 }

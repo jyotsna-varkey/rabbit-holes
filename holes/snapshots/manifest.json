@@ -276,9 +276,7 @@
       },
       "fragments": {
         "Frenchman Gabriel de Clieu took a coffee plant to the French territory of Martin": "Frenchman Gabriel de Clieu took a coffee plant to the",
-        "Coffee was cultivated in Saint-Domingue, now Haiti, from 1734, and by 1788 it su": "Coffee was cultivated in Saint-Domingue, now Haiti, from 1734, and",
         "Though coffee has become a global commodity, it has a history tied to food tradi": "Though coffee has become a global commodity, it has a",
-        "Up to the end of the 17th century, Yemen was the world's main producer for coffe": "Up to the end of the 17th century, Yemen was",
         "Within the Ottoman Empire, the first coffeehouse opened in 1555 in Tahtakale, Is": "Within the Ottoman Empire, the first coffeehouse opened in 1555"
       }
     },
@@ -303,6 +301,30 @@
       },
       "fragments": {
         "According to de Clieu's account, water was rationed on the voyage, and he shared": "According to de Clieu's account, water was rationed on the"
+      }
+    },
+    "Saint-Domingue": {
+      "title": "Saint-Domingue",
+      "description": "French colony on the island of Hispaniola (1659–1803)",
+      "revision": 1375329470,
+      "url": "https://en.wikipedia.org/wiki/Saint-Domingue",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Saint-Domingue&oldid=1375329470",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Saint-Domingue.webp",
+        "width": 330,
+        "height": 220,
+        "credit": {
+          "file": "Pavillon_LouisXIV.svg",
+          "artist": "Bluebear2",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Pavillon_LouisXIV.svg"
+        }
+      },
+      "fragments": {
+        "Saint-Domingue became known as the \"Pearl of the Antilles\" – one of the richest ": "Saint-Domingue became known as the \"Pearl of the Antilles\" –",
+        "In 1791, Africans, who had been forced into bondage, and some Creoles took part ": "In 1791, Africans, who had been forced into bondage, and"
       }
     },
     "Coffeehouse": {
@@ -1396,7 +1418,7 @@
         }
       },
       "fragments": {
-        "He had remarked that coppering \"gave additional strength to the navy\" and he rep": "He had remarked that coppering \"gave additional strength to the",
+        "Prior to 1778 Keppel failed to persuade Sandwich to ignore technical difficultie": "Prior to 1778 Keppel failed to persuade Sandwich to ignore",
         "The sober alternative to this account is provided by Sandwich's biographer N. A.": "The sober alternative to this account is provided by Sandwich's",
         "Lord Sandwich was a great supporter of Captain James Cook. As First Lord of the ": "Lord Sandwich was a great supporter of Captain James Cook"
       }
@@ -1445,7 +1467,7 @@
         }
       },
       "fragments": {
-        "It is commonly said that Lord Sandwich, during long sessions of cribbage and oth": "It is commonly said that Lord Sandwich, during long sessions"
+        "The sandwich is named after John Montagu, 4th Earl of Sandwich, an eighteenth-ce": "The sandwich is named after John Montagu, 4th Earl of"
       }
     },
     "Silk": {

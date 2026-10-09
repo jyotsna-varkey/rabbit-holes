@@ -79,8 +79,18 @@ describe.each(holes)('$file', ({ file, hole }) => {
     }
   });
 
-  // Rules from PLAN step 1 that the current hole library does not meet; waiting on an
-  // owner decision (see PLAN.md Known issues) rather than being weakened.
-  it.todo('touches at least 3 distinct Wikipedia pages');
-  it.todo('has onwardLinkText on every knot except the last');
+  // Content rules (PLAN step 1, as decided by the owner on 2026-10-09).
+  it('touches at least 3 distinct Wikipedia pages, counting the start and end cards', () => {
+    const pages = new Set([hole.start.page, ...hole.knots.map((k: { page: string }) => k.page), hole.end.page]);
+    expect(pages.size).toBeGreaterThanOrEqual(3);
+  });
+
+  it('has an onward link in the passage of every knot (but the last) whose next knot is on another page', () => {
+    const missing = hole.knots
+      .map((k: { page: string; nextPage: string; onwardLinkText: string | null }, i: number) => ({ ...k, n: i + 1 }))
+      .filter((k: { n: number; page: string; nextPage: string; onwardLinkText: string | null }) =>
+        k.n < hole.knots.length && k.nextPage !== k.page && !k.onwardLinkText)
+      .map((k: { n: number; page: string; nextPage: string }) => `knot ${k.n}: ${k.page} → ${k.nextPage}`);
+    expect(missing).toEqual([]);
+  });
 });

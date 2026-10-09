@@ -73,12 +73,27 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          under that). Test: tests/unit/bundle.test.ts builds and checks a
          250 KB budget with no inlined images. Lazy-loading hole passages
          would save ~30 KB more; not done.
+- [x] 19. Content rules as data tests, replacing the 8 todos (owner
+         decisions 2026-10-09): every hole touches 3+ distinct pages counting
+         start and end cards; every knot except the last has an onward link
+         inside its passage when the next knot is on a different page.
+- [x] 20. Bring the original four holes up to those rules. Committed with 19
+         (19's tests fail without 20's content):
+         coffee-insurance knot 2 → the Istanbul/Venice coffeehouse paragraph
+         (Mocha passage had no Coffeehouse link); sandwich-hawaii knot 1 and
+         copper knot 1 start one sentence earlier, where the link is;
+         copper's end card → Lloyd's of London (third page); coffee-haiti →
+         Coffee → de Clieu → Saint-Domingue ×2 → Haitian Revolution.
+         Three committed e2e expectations updated to the new coffee knot 2
+         (hatnote, its reference link, "about 4 min") with owner approval.
+- [ ] 21. Swipe hint on home in a handwriting font (Caveat, bundled locally);
+         note the exception in SPEC.md.
 - [ ] 15. Cover the remaining [~] steps with tests: swipe left sends the card
          to the back (8); "Back to the thread" re-centres and blur returns (3);
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
-15 (after the owner decisions under Known issues)
+21
 
 ## Decisions
 - React + TypeScript + framer-motion, approved by the owner on 2026-10-09
@@ -167,31 +182,28 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
   Hole files and snapshots keep the "snapshots/images/…" paths; holesAsset()
   maps them. Chosen over a custom copy plugin, which needed @types/node (a
   new dependency).
+- Content rules (owner, 2026-10-09): the end card counts toward "3+
+  distinct pages"; "onward link on every knot except the last" applies only
+  when the next knot is on a different page.
+- Swipe hint (owner, 2026-10-09): yes, handwritten, Caveat font, saved in the
+  project (no runtime font requests); SPEC.md gets a note that it's the one
+  exception to "Wikipedia's own visual vocabulary".
 - The rope is string, not a rod: it resists stretching only. A two-sided
   constraint made the slack zigzag. Spans that are taut are drawn straight,
   and a span whose ends jump > 140px is reset, to stop leftover loops after a
   pull.
 
 ## Known issues
-- Knots whose passage has no link to the next page (thread leaves from the
-  passage's end): coffee-insurance 2 (coffeehouse link is in the Venice 1647
-  paragraph), sandwich-hawaii 1 (Earl's link is outside the passage),
-  sandwich-copper-bottomed 1 ("copper sheath" link is outside the passage),
-  coffee-haiti 2 (next page is Coffee; passage links Saint-Domingue).
-  Same-page continuations have no link by nature. PLAN step 1's rule
-  "onwardLinkText on every knot except the last" fails for all four holes.
-- sandwich-copper-bottomed knot 3 used to leave via the "Lloyd's of London"
-  link, but its end card is Copper-bottomed (Copper sheathing), so it now
-  leaves from the passage's end.
 - Copper sheathing "By 1781" sentence has no full stop on Wikipedia; the
   passage matches that exactly.
+- coffee-haiti no longer includes the Coffee page's sentence that
+  plantation conditions "were a factor in the Haitian Revolution": it can't
+  be reached by a link (Saint-Domingue doesn't link to Coffee).
+- coffee-insurance lost its Mocha knot to the coffeehouse paragraph; a
+  5-knot version (Mocha back as knot 2) is possible if wanted.
 - Copper hole knot 3 hatnote has an added line ("Wikipedia still wants a
   source for this one") — owner to confirm.
 - Haitian Revolution lead image (on the home card) is a massacre engraving.
-- Coffee → Haiti knot 3 loops back to the Coffee article (library note).
-- Counting knot pages only, every hole touches 2 distinct pages, not 3;
-  Sandwich → Copper-bottomed touches 2 even counting its end card. Needs an
-  owner decision (does the end card count?). Test is `todo` until then.
 - Re-fetching pinned revisions gives slightly different markup (Parsoid
   output changes, e.g. data-mw-wikitext attributes); text is identical.
 - With the stack buttons gone, nothing on home tells a first-time reader
@@ -227,3 +239,5 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
   every hole played end to end. Then step 17 (images to WebP, 52.8 → 22.0
   MB, none removed) and step 18 (entry script 781 → 178 KB gzipped). Next:
   owner review of drafts and decisions, step 15.
+- 2026-10-09 (later): Owner decided the content rules; steps 19–20 turn them
+  into tests and fix the original four holes. Next: swipe hint (21).

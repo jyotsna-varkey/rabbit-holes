@@ -28,10 +28,10 @@
       "page": "Coffee",
       "url": "https://en.wikipedia.org/wiki/Coffee",
       "revision": 1371799424,
-      "section": "Mass production",
-      "passage": "Up to the end of the 17th century, Yemen was the world's main producer for coffee, and Mocha was the world's largest shipping port for coffee.",
-      "hatnote": "The name on your café menu is a Yemeni port.",
-      "onwardLinkText": null,
+      "section": "Historical transmission",
+      "passage": "Within the Ottoman Empire, the first coffeehouse opened in 1555 in Tahtakale, Istanbul. Since Tahtakale is to the West of the Bosporus, this would likely have been the first coffee house in Europe. Thriving trade brought many goods, including coffee, from the Ottoman Empire to Venice. Coffee became more widely accepted in Europe after Pope Clement VIII declared it a Christian beverage in 1600, despite appeals to ban the \"Muslim drink\". Coffee had spread to Italy by 1600 and then to the rest of Europe, Indonesia, and the Americas. The first European coffeehouse outside of the Ottoman Empire opened in Venice in 1647.",
+      "hatnote": "From Yemen, coffee spread to Istanbul's coffeehouses, and on to Venice.",
+      "onwardLinkText": "coffeehouse",
       "nextPage": "Coffeehouse"
     },
     {
@@ -58,6 +58,6 @@
   "payoff": "A drink for staying awake at prayers ended up underwriting the world's ships.",
   "caveats": [
     "The Kaldi goatherd story is flagged on the Coffee page as likely apocryphal; kept out of the thread.",
-    "Knot 2: the \"coffeehouse\" link is in a later paragraph (Venice, 1647), not in the Mocha passage."
+    "Knot 2 is the Istanbul/Venice coffeehouse paragraph; the Mocha passage it replaced had no link to Coffeehouse. The same paragraph opens coffee-titanic."
   ]
 }

@@ -3,7 +3,7 @@ import { enterTopHole, pullKnot } from './helpers';
 
 const HATNOTES = [
   "It started as a monk's way to stay up for night prayers.",
-  'The name on your café menu is a Yemeni port.',
+  "From Yemen, coffee spread to Istanbul's coffeehouses, and on to Venice.",
 ];
 
 test('home shows the coffee hole on top with an unproven claim', async ({ page }) => {
@@ -11,7 +11,7 @@ test('home shows the coffee hole on top with an unproven claim', async ({ page }
   const claim = page.locator('.slot-0 .card-claim');
   await expect(claim).toContainText("Coffee built the world's insurance industry.");
   await expect(claim).toContainText('citation needed');
-  await expect(page.locator('.slot-0 .card-meta')).toHaveText('4 knots · about 3 min');
+  await expect(page.locator('.slot-0 .card-meta')).toHaveText('4 knots · about 4 min');
 });
 
 test('swiping right enters the hole and focuses the first passage', async ({ page }) => {
