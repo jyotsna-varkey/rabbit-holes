@@ -55,7 +55,6 @@ export type PageInfo = {
 };
 
 const holeFiles = import.meta.glob<Hole>('../../holes/*.json', { eager: true, import: 'default' });
-const imageUrls = import.meta.glob<string>('../../holes/snapshots/images/**/*', { eager: true, query: '?url', import: 'default' });
 const pageHtml = import.meta.glob<string>('../../holes/snapshots/pages/*.html', { query: '?raw', import: 'default' });
 
 // The stack starts with the hole the spec was written around and the first library,
@@ -77,8 +76,13 @@ export const keyOf = (title: string) => title.replace(/[^A-Za-z0-9]+/g, '-').rep
 export const pageOf = (title: string) => pages[keyOf(title)];
 export const holeById = (id: string) => holes.find((h) => h.id === id)!;
 
-/** URL of a file under /holes, as bundled by Vite. */
-export const holesAsset = (path: string) => (path ? imageUrls[`../../holes/${path}`] ?? null : null);
+/**
+ * URL of an image under /holes ("snapshots/images/…"). holes/snapshots/images is
+ * Vite's static folder (vite.config.ts), so images are plain files at the site
+ * root and never end up inside the JS.
+ */
+export const holesAsset = (path: string) =>
+  path ? `${import.meta.env.BASE_URL}${path.replace(/^snapshots\/images\//, '')}` : null;
 
 export function endpointInfo(e: Endpoint) {
   const page = pageOf(e.page);

@@ -66,15 +66,19 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          manifest and hole files updated. Data test: every bundled raster
          image is WebP, plus a size budget. Result: 1,615 images,
          52.8 MB → 22.0 MB, none removed.
-- [ ] 18. Slim the main JS bundle: hole passages load when a hole is opened,
-         images are served as files instead of a compiled URL map. No
-         visible change.
+- [x] 18. Slim the main JS bundle: images are served as plain files from
+         Vite's static folder (holes/snapshots/images) instead of imports.
+         Entry script 781 KB → 178 KB gzipped (it had grown in step 17: Vite
+         inlines images under 4 KB as base64, and 310 recompressed images fell
+         under that). Test: tests/unit/bundle.test.ts builds and checks a
+         250 KB budget with no inlined images. Lazy-loading hole passages
+         would save ~30 KB more; not done.
 - [ ] 15. Cover the remaining [~] steps with tests: swipe left sends the card
          to the back (8); "Back to the thread" re-centres and blur returns (3);
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
-18
+15 (after the owner decisions under Known issues)
 
 ## Decisions
 - React + TypeScript + framer-motion, approved by the owner on 2026-10-09
@@ -158,6 +162,11 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
   animated GIFs stay animated; SVGs untouched. scripts/images.mjs is shared
   by the fetch script (new downloads) and scripts/compress-images.mjs
   (existing files, safe to re-run). Checked at 3x phone resolution.
+- Image URLs: holes/snapshots/images is Vite's publicDir, so an image at
+  holes/snapshots/images/pages/Coffee/x.webp is served at /pages/Coffee/x.webp.
+  Hole files and snapshots keep the "snapshots/images/…" paths; holesAsset()
+  maps them. Chosen over a custom copy plugin, which needed @types/node (a
+  new dependency).
 - The rope is string, not a rod: it resists stretching only. A two-sided
   constraint made the slack zigzag. Spans that are taut are drawn straight,
   and a span whose ends jump > 140px is reset, to stop leftover loops after a
@@ -194,8 +203,8 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
 - Reading-copy passages are whole paragraphs (often 150–250 words) and many
   onward links sit mid-paragraph, so the thread crosses the rest of the
   passage on its way to the knot. Kept as-is for beta feedback (owner).
-- Size: images now 22 MB (step 17). The main JS bundle is ~390 KB gzipped
-  (all hole JSON, the manifest and the image URL map load up front): step 18.
+- Size: images 22 MB (step 17); entry script 178 KB gzipped (step 18);
+  each article loads as its own chunk when opened.
   The original 53 MB of images is still in git history (commit 393d6e7);
   shrinking the repo itself would mean rewriting history (owner decision;
   nothing has been pushed yet).
@@ -215,4 +224,6 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
   files named from URL query strings. Next: owner decisions, then step 15.
 - 2026-10-09 (later): Imported reading-copy holes 1–20 (step 16): 80 knots
   verified against pinned revisions, drafts written for claims/hatnotes,
-  every hole played end to end. Next: owner review of drafts, step 15.
+  every hole played end to end. Then step 17 (images to WebP, 52.8 → 22.0
+  MB, none removed) and step 18 (entry script 781 → 178 KB gzipped). Next:
+  owner review of drafts and decisions, step 15.
