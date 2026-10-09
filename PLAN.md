@@ -7,9 +7,9 @@ and it has been committed. Update this file at the end of every session.
 browser, but not yet covered by tests. It becomes [x] once tests cover it.
 
 ## Steps
-- [~] 0. Setup: git init, Vite, Vitest, Playwright, screenshot script.
+- [x] 0. Setup: git init, Vite, Vitest, Playwright, screenshot script.
         Built with React + TypeScript + framer-motion instead of vanilla JS
-        (see Decisions). Vitest, Playwright and the screenshot script: not yet.
+        (see Decisions). Test tooling added in step 12.
 - [~] 1. Hole data: coffee-insurance is in src/content/holes.json (old schema).
         Not yet in /holes, no data test.
 - [~] 2. Static page view: Wikipedia-style page with title, "From Wikipedia",
@@ -35,8 +35,10 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
 - [~] 11. Verbatim check script: scripts/fetch-content.mjs fetches each article
          at a pinned revision, cleans it, saves HTML + lead image + Commons
          credit, and fails if a passage or onward link is missing. Run manually.
-- [ ] 12. Test harness: Vitest, Playwright (chromium), `npm test`,
-         `npm run shot`, screenshots/ ignored. Smoke tests for what exists.
+- [x] 12. Test harness: Vitest (tests/unit), Playwright (tests/e2e, phone
+         390×844 + laptop 1280×800), `npm test`, `npm run test:e2e`,
+         `npm run shot`, screenshots/ ignored. Unit tests for the rope and
+         passage matching; e2e tests for home, enter, knot pull, short drag.
 - [ ] 13. Holes in /holes, one file per hole, spec schema. Data tests.
          Fetch script reads /holes. (Completes steps 1, 10 and 11.)
 - [ ] 14. Spec fixes: bundle article images, no runtime Wikimedia requests
@@ -46,7 +48,7 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          the passage. Playwright tests for each.
 
 ## Current step
-12
+13
 
 ## Decisions
 - React + TypeScript + framer-motion, approved by the owner on 2026-10-09
@@ -59,6 +61,12 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
 - The thread hides behind the passage (margin → hatnote, then out of the
   onward link) because running it straight through the text made the passage
   hard to read. Tried first: a single line top → link → knot; rejected.
+- `npm test` runs Vitest only (as CLAUDE.md says); browser tests run with
+  `npm run test:e2e`, which reuses a running dev server or starts one.
+- Unit tests use linkedom for a DOM, with a small `Text.splitText` stand-in
+  (linkedom lacks it); real-browser behaviour is covered by Playwright.
+- The screenshot script creates screenshots/ if missing (one line added to
+  the CLAUDE.md version).
 - The rope is string, not a rod: it resists stretching only. A two-sided
   constraint made the slack zigzag. Spans that are taut are drawn straight,
   and a span whose ends jump > 140px is reset, to stop leftover loops after a
