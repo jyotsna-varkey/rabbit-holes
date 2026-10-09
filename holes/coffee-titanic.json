@@ -1,0 +1,62 @@
+{
+  "id": "coffee-titanic",
+  "claim": "The Titanic was insured by a market that grew out of a coffee shop.",
+  "start": {
+    "title": "Coffee",
+    "page": "Coffee",
+    "description": "Brewed beverage",
+    "image": "snapshots/images/Coffee.jpg"
+  },
+  "end": {
+    "title": "Titanic",
+    "page": "Titanic",
+    "description": "British passenger liner that sank in 1912",
+    "image": "snapshots/images/Titanic.jpg"
+  },
+  "knots": [
+    {
+      "page": "Coffee",
+      "url": "https://en.wikipedia.org/wiki/Coffee",
+      "revision": 1371799424,
+      "section": "Historical transmission",
+      "passage": "Within the Ottoman Empire, the first coffeehouse opened in 1555 in Tahtakale, Istanbul. Since Tahtakale is to the West of the Bosporus, this would likely have been the first coffee house in Europe. Thriving trade brought many goods, including coffee, from the Ottoman Empire to Venice. Coffee became more widely accepted in Europe after Pope Clement VIII declared it a Christian beverage in 1600, despite appeals to ban the \"Muslim drink\". Coffee had spread to Italy by 1600 and then to the rest of Europe, Indonesia, and the Americas. The first European coffeehouse outside of the Ottoman Empire opened in Venice in 1647.",
+      "hatnote": "Coffee reached Europe by way of Istanbul and Venice.",
+      "onwardLinkText": "coffeehouse",
+      "nextPage": "Coffeehouse"
+    },
+    {
+      "page": "Coffeehouse",
+      "url": "https://en.wikipedia.org/wiki/Coffeehouse",
+      "revision": 1379296908,
+      "section": "England",
+      "passage": "Coffeehouses not only boosted the popularity of print news culture, they also helped the growth of various financial markets including insurance and stocks. Lloyd's Coffee House was where underwriters of ship insurance met to do business, leading to the establishment of Lloyd's of London insurance market and other related businesses. In 1773 the stockbrokers who had been meeting at New Jonathan's Coffee-house renamed it \"The Stock Exchange\".",
+      "hatnote": "In London, coffeehouses turned into trading floors.",
+      "onwardLinkText": "Lloyd's of London",
+      "nextPage": "Lloyd's of London"
+    },
+    {
+      "page": "Lloyd's of London",
+      "url": "https://en.wikipedia.org/wiki/Lloyd's_of_London",
+      "revision": 1371088846,
+      "section": "Early 20th century: San Francisco earthquake and first Lloyd's building",
+      "passage": "A year later in April 1912 Lloyd's suffered perhaps its most famous loss: the sinking of the Titanic. It was insured for £1 million (equivalent to £124 million in 2024), which represented 20 per cent of the entire market's capacity, making it the largest marine risk ever insured. The record of its sinking in the 1912 \"Loss Book\" is on display in the Lloyd's building.",
+      "hatnote": "One coffeehouse's insurers took on the Titanic: a fifth of the whole market.",
+      "onwardLinkText": "Titanic",
+      "nextPage": "Titanic"
+    },
+    {
+      "page": "Titanic",
+      "url": "https://en.wikipedia.org/wiki/Titanic",
+      "revision": 1375768600,
+      "section": "Atlantic crossing",
+      "passage": "Titanic received a series of warnings from other ships of drifting ice in the area of the Grand Banks of Newfoundland, but Captain Smith ignored them. One of the ships to warn Titanic was the Atlantic Line's Mesaba. Nevertheless, Titanic continued to steam at full speed, which was standard practice at the time. Although not trying to set a speed record, timekeeping was a priority, and under prevailing maritime practices, ships were often operated at close to full speed; ice warnings were seen as advisories, and reliance was placed upon lookouts and the watch on the bridge. It was generally believed that ice posed little danger to large vessels. Close calls with ice were not uncommon, and even head-on collisions had not been disastrous. In 1907, SS Kronprinz Wilhelm, a German liner, had rammed an iceberg but still completed the voyage, and Captain Smith said in 1907 that he \"could not imagine any condition which would cause a ship to founder. Modern shipbuilding has gone beyond that.\"",
+      "hatnote": "Its captain had said he couldn't imagine a modern ship foundering.",
+      "onwardLinkText": null,
+      "nextPage": "Titanic"
+    }
+  ],
+  "payoff": "The insurance market born in a coffeehouse took its biggest marine risk on a ship its captain thought couldn't founder.",
+  "caveats": [
+    "Shares the Coffeehouse page with coffee-insurance; both now use the newer revision (1379296908)."
+  ]
+}

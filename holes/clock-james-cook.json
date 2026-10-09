@@ -1,0 +1,62 @@
+{
+  "id": "clock-james-cook",
+  "claim": "Captain Cook took a copy of a carpenter's clock to the edge of Antarctica.",
+  "start": {
+    "title": "Clock",
+    "page": "Clock",
+    "description": "Instrument for measuring, keeping or indicating time",
+    "image": "snapshots/images/Clock.jpg"
+  },
+  "end": {
+    "title": "James Cook",
+    "page": "James Cook",
+    "description": "British explorer and naval officer (1728–1779)",
+    "image": "snapshots/images/James-Cook.jpg"
+  },
+  "knots": [
+    {
+      "page": "Clock",
+      "url": "https://en.wikipedia.org/wiki/Clock",
+      "revision": 1369493558,
+      "section": "Navigation",
+      "passage": "Until advances in the late twentieth century, navigation depended on the ability to measure latitude and longitude. Latitude can be determined through celestial navigation; the measurement of longitude requires accurate knowledge of time. This need was a major motivation for the development of accurate mechanical clocks. John Harrison created the first highly accurate marine chronometer in the mid-18th century. The Noon gun in Cape Town still fires an accurate signal to allow ships to check their chronometers. Many buildings near major ports used to have (some still do) a large ball mounted on a tower or mast arranged to drop at a pre-determined time, for the same purpose. While satellite navigation systems such as GPS require unprecedentedly accurate knowledge of time, this is supplied by equipment on the satellites; vehicles no longer need timekeeping equipment.",
+      "hatnote": "Finding your longitude at sea came down to knowing the time.",
+      "onwardLinkText": "marine chronometer",
+      "nextPage": "Marine chronometer"
+    },
+    {
+      "page": "Marine chronometer",
+      "url": "https://en.wikipedia.org/wiki/Marine_chronometer",
+      "revision": 1378704951,
+      "section": "First examples",
+      "passage": "In 1714, the British government offered a longitude prize for a method of determining longitude at sea, with the awards ranging from £10,000 to £20,000 (£2 million to £4 million in 2026 terms) depending on accuracy. John Harrison, a Yorkshire carpenter, submitted a project in 1730, and in 1735 completed a clock based on a pair of counter-oscillating weighted beams connected by springs whose motion was not influenced by gravity or the motion of a ship. His first two sea timepieces H1 and H2 (completed in 1741) used this system, but he realised that they had a fundamental sensitivity to centrifugal force, which meant that they could never be accurate enough at sea. Construction of his third machine, designated H3, in 1759 included novel circular balances and the invention of the bi-metallic strip and caged roller bearings, inventions which are still widely used. However, H3's circular balances still proved too inaccurate and he eventually abandoned the large machines.",
+      "hatnote": "A Yorkshire carpenter spent decades building clocks for a prize.",
+      "onwardLinkText": "John Harrison",
+      "nextPage": "John Harrison"
+    },
+    {
+      "page": "John Harrison",
+      "url": "https://en.wikipedia.org/wiki/John_Harrison",
+      "revision": 1376497394,
+      "section": "H4",
+      "passage": "In total, Harrison received £23,065 for his work on chronometers. He received £4,315 in increments from the Board of Longitude for his work, £10,000 as an interim payment for H4 in 1765 and £8,750 from Parliament in 1773. This gave him a reasonable income for most of his life (equivalent to roughly £450,000 per year in 2007, though all his costs, such as materials and subcontracting work to other horologists, had to come out of this). He became the equivalent of a multi-millionaire (in today's terms) in the final decade of his life. Captain James Cook used K1, a copy of H4, on his second and third voyages, having used the lunar distance method on his first voyage. K1 was made by Larcum Kendall, who had been apprenticed to John Jefferys. Cook's log is full of praise for the watch and the charts of the southern Pacific Ocean he made with its use were remarkably accurate. K2 was loaned to Lieutenant William Bligh, commander of HMS Bounty, but it was retained by Fletcher Christian following the infamous mutiny. It was not recovered from Pitcairn Island until 1808, when it was given to Captain Mayhew Folger, and then passed through several hands before reaching the National Maritime Museum in London.",
+      "hatnote": "Copies of his watch went with Cook, and with the Bounty.",
+      "onwardLinkText": "James Cook",
+      "nextPage": "James Cook"
+    },
+    {
+      "page": "James Cook",
+      "url": "https://en.wikipedia.org/wiki/James_Cook",
+      "revision": 1378699996,
+      "section": "Search for Terra Australis",
+      "passage": "After departing England, the ships travelled south to the Dutch Cape Colony and stopped at Cape Town in November 1772. From there they sailed eastwards, planning to circumnavigate the globe roughly between latitude 50°S and 70°S. In late November 1772, the ships sighted their first icebergs and Cook performed an experiment: his crew retrieved blocks of ice and melted them on board the ships, producing good quality fresh water, proving that drinking water could be obtained from sea ice. On 17 January 1773 the crews became the first recorded Europeans to cross the Antarctic Circle. Despite his mission to find Terra Australis, Cook never sighted Antarctica in any of his voyages, but on 18 January – unbeknownst to him – the ships approached within 75 miles (121 km) of that continent.",
+      "hatnote": "On that voyage, Cook's ships came within 75 miles of Antarctica without knowing it.",
+      "onwardLinkText": null,
+      "nextPage": "James Cook"
+    }
+  ],
+  "payoff": "The time problem a carpenter solved sailed with Cook across the Antarctic Circle.",
+  "caveats": [
+    "Knot 4 is Cook's second voyage (1772–75), the one he took K1 on; the passage itself doesn't name the watch."
+  ]
+}

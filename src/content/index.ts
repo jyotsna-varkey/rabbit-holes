@@ -49,6 +49,8 @@ export type PageInfo = {
   url: string;
   permalink: string;
   snapshot: boolean;
+  /** Text-fragment anchors by passage opening (first 80 characters), from the fetch script. */
+  fragments?: Record<string, string>;
   image: { file: string; width: number; height: number; credit: ImageCredit | null } | null;
 };
 
@@ -56,8 +58,16 @@ const holeFiles = import.meta.glob<Hole>('../../holes/*.json', { eager: true, im
 const imageUrls = import.meta.glob<string>('../../holes/snapshots/images/**/*', { eager: true, query: '?url', import: 'default' });
 const pageHtml = import.meta.glob<string>('../../holes/snapshots/pages/*.html', { query: '?raw', import: 'default' });
 
-// The stack starts with the hole the spec was written around; any others follow by id.
-const STACK_ORDER = ['coffee-insurance', 'sandwich-hawaii', 'sandwich-copper-bottomed', 'coffee-haiti'];
+// The stack starts with the hole the spec was written around and the first library,
+// then the reading copy's top 20 in its ranked order; any others follow by id.
+const STACK_ORDER = [
+  'coffee-insurance', 'sandwich-hawaii', 'sandwich-copper-bottomed', 'coffee-haiti',
+  'aluminium-charles-martin-hall', 'piano-4-33', 'coffee-titanic', 'whale-moby-dick', 'ice-7-eleven',
+  'nutmeg-dutch-conquest-of-the-banda-islands', 'airship-parasite-aircraft', 'computer-jacques-cousteau',
+  'mirror-claw-of-archimedes', 'mushroom-tollund-man', 'silk-sogdian-language', 'eraser-johann-jacob-schweppe',
+  'clock-james-cook', 'cotton-interchangeable-parts', 'tennis-french-revolution', 'gold-alchemy',
+  'snow-photography', 'umbrella-thomas-coram', 'pencil-seathwaite-cumberland', 'horse-simonides-of-ceos',
+];
 const rank = (id: string) => (STACK_ORDER.includes(id) ? STACK_ORDER.indexOf(id) : STACK_ORDER.length);
 
 export const holes = Object.values(holeFiles).sort((a, b) => rank(a.id) - rank(b.id) || a.id.localeCompare(b.id));
@@ -83,14 +93,16 @@ export function endpointInfo(e: Endpoint) {
 
 /**
  * Live Wikipedia URL that opens the page scrolled to this knot's passage (a text
- * fragment). Uses the passage's first 10 words, stopping before any word with a
- * quote mark (the live page may use curly ones); the data test checks each one
- * matches only the passage on its page.
+ * fragment). The fetch script stores the shortest opening that's unique on the
+ * page; otherwise the first 10 words, stopping before any word with a quote
+ * mark. The data test checks each one matches only the passage on its page.
  */
 export function passageUrl(k: Knot) {
   const all = k.passage.split(/\s+/);
   const quoted = all.findIndex((w) => /['"\u2018\u2019\u201C\u201D]/.test(w));
-  const words = all.slice(0, Math.min(10, quoted < 0 ? 10 : Math.max(quoted, 4))).join(' ').replace(/[,.;:]+$/, '');
+  const words =
+    pageOf(k.page)?.fragments?.[k.passage.slice(0, 80)] ??
+    all.slice(0, Math.min(10, quoted < 0 ? 10 : Math.max(quoted, 4))).join(' ').replace(/[,.;:]+$/, '');
   const enc = encodeURIComponent(words).replace(/-/g, '%2D');
   return `${k.url}#:~:text=${enc}`;
 }

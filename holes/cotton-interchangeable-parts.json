@@ -1,0 +1,62 @@
+{
+  "id": "cotton-interchangeable-parts",
+  "claim": "The cotton gin leads to the first mass-produced clocks.",
+  "start": {
+    "title": "Cotton",
+    "page": "Cotton",
+    "description": "Plant fiber from the genus Gossypium",
+    "image": "snapshots/images/Cotton.jpg"
+  },
+  "end": {
+    "title": "Interchangeable parts",
+    "page": "Interchangeable parts",
+    "description": "Practically identical components",
+    "image": "snapshots/images/Interchangeable-parts.jpg"
+  },
+  "knots": [
+    {
+      "page": "Cotton",
+      "url": "https://en.wikipedia.org/wiki/Cotton",
+      "revision": 1375610201,
+      "section": "Eastern world",
+      "passage": "Handheld roller cotton gins had been used in India since the 6th century, and was then introduced to other countries from there. Between the 12th and 14th centuries, dual-roller gins appeared in India and China. The Indian version of the dual-roller gin was prevalent throughout the Mediterranean cotton trade by the 16th century. This mechanical device was, in some areas, driven by water power.",
+      "hatnote": "Roller gins for cotton go back centuries in India.",
+      "onwardLinkText": "cotton gins",
+      "nextPage": "Cotton gin"
+    },
+    {
+      "page": "Cotton gin",
+      "url": "https://en.wikipedia.org/wiki/Cotton_gin",
+      "revision": 1378916260,
+      "section": "lead",
+      "passage": "A modern mechanical cotton gin was created by American inventor Eli Whitney in 1793 and patented in 1794. Whitney's gin used a combination of a wire screen and small wire hooks to pull the cotton through, while brushes continuously removed the loose cotton lint to prevent jams. It made cotton farming more profitable, leading to a boom in cotton production in the United States. Whitney had hoped his invention would reduce the amount of labor needed to process cotton, but it increased the need for laborers to harvest the crop as picking cotton was now the bottleneck in the process. This inadvertently led to an increase in the use of slaves. Cotton harvesting machines did not arrive until the 1930s. So, as cotton farmers expanded their plantations, they bought more slaves to pick the cotton.",
+      "hatnote": "Whitney's gin was meant to save labour; it drove more slavery instead.",
+      "onwardLinkText": "Eli Whitney",
+      "nextPage": "Eli Whitney"
+    },
+    {
+      "page": "Eli Whitney",
+      "url": "https://en.wikipedia.org/wiki/Eli_Whitney",
+      "revision": 1372573496,
+      "section": "Career",
+      "passage": "Whitney is most famous for two innovations which came to have significant impacts on the United States in the mid-19th century: the cotton gin (1793) and his advocacy of interchangeable parts. In the South, the cotton gin revolutionized the way cotton was harvested and reinvigorated slavery. Conversely, in the North the adoption of interchangeable parts revolutionized the manufacturing industry, contributing greatly to the Union's victory in the Civil War.",
+      "hatnote": "Whitney is just as famous for championing interchangeable parts.",
+      "onwardLinkText": "interchangeable parts",
+      "nextPage": "Interchangeable parts"
+    },
+    {
+      "page": "Interchangeable parts",
+      "url": "https://en.wikipedia.org/wiki/Interchangeable_parts",
+      "revision": 1378395733,
+      "section": "Terry's clocks: success in wood",
+      "passage": "Eli Terry was using interchangeable parts using a milling machine as early as 1800. Ward Francillon, a horologist, concluded in a study that Terry had already accomplished interchangeable parts as early as 1800. The study examined several of Terry's clocks produced between 1800–1807. The parts were labelled and interchanged as needed. The study concluded that all clock pieces were interchangeable. The very first mass production using interchangeable parts in America was Eli Terry's 1806 Porter Contract, which called for the production of 4000 clocks in three years. During this contract, Terry crafted four-thousand wooden gear tall case movements, at a time when the annual average was about a dozen. Unlike Eli Whitney, Terry manufactured his products without government funding. Terry saw the potential of clocks becoming a household object. With the use of a milling machine, Terry was able to mass-produce clock wheels and plates a few dozen at the same time. Jigs and templates were used to make uniform pinions, so that all parts could be assembled using an assembly line.",
+      "hatnote": "A clockmaker put them to work first, 4,000 clocks at a time.",
+      "onwardLinkText": null,
+      "nextPage": "Interchangeable parts"
+    }
+  ],
+  "payoff": "The gin's inventor is famous for interchangeable parts, but America's first mass production with them made clocks.",
+  "caveats": [
+    "Covers slavery (knots 2 and 3)."
+  ]
+}

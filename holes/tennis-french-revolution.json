@@ -1,0 +1,62 @@
+{
+  "id": "tennis-french-revolution",
+  "claim": "A tennis court helped start the French Revolution.",
+  "start": {
+    "title": "Tennis",
+    "page": "Tennis",
+    "description": "Racket sport",
+    "image": "snapshots/images/Tennis.jpg"
+  },
+  "end": {
+    "title": "French Revolution",
+    "page": "French Revolution",
+    "description": "1789–1799 sociopolitical change in France",
+    "image": "snapshots/images/French-Revolution.jpg"
+  },
+  "knots": [
+    {
+      "page": "Tennis",
+      "url": "https://en.wikipedia.org/wiki/Tennis",
+      "revision": 1375888835,
+      "section": "Predecessors",
+      "passage": "Historians believe that the game's ancient origin lay in 12th-century northern France, where a ball was struck with the palm of the hand. Louis X of France was a keen player of jeu de paume (\"game of the palm\"), which evolved into real tennis, and became notable as the first person to construct indoor tennis courts in the modern style. Louis was unhappy with playing tennis outdoors and accordingly had indoor, enclosed courts made in Paris \"around the end of the 13th century\". In due course this design spread across royal palaces all over Europe. In June 1316 at Vincennes, Val-de-Marne, and following a particularly exhausting game, Louis drank a large quantity of cooled wine and subsequently died of either pneumonia or pleurisy, although there was also suspicion of poisoning. Because of the contemporary accounts of his death, Louis X is history's first tennis player known by name. Another of the early enthusiasts of the game was King Charles V of France, who had a court set up at the Louvre Palace.",
+      "hatnote": "The first tennis player known by name was a king, who died after a game.",
+      "onwardLinkText": "real tennis",
+      "nextPage": "Real tennis"
+    },
+    {
+      "page": "Real tennis",
+      "url": "https://en.wikipedia.org/wiki/Real_tennis",
+      "revision": 1377175488,
+      "section": "History",
+      "passage": "The game thrived among the 17th-century nobility in France, Spain, Italy, the Netherlands, and the Habsburg Empire, but suffered under English Puritanism, as it was heavily associated with gambling. By the Age of Napoleon, the royal families of Europe were besieged and real tennis, a court game, was largely abandoned. Real tennis played a role in the history of the French Revolution, through the Tennis Court Oath, a pledge signed by French deputies in a real tennis court, which formed a decisive early step in starting the revolution.",
+      "hatnote": "The game moved indoors, and one of its courts made history.",
+      "onwardLinkText": "Tennis Court Oath",
+      "nextPage": "Tennis Court Oath"
+    },
+    {
+      "page": "Tennis Court Oath",
+      "url": "https://en.wikipedia.org/wiki/Tennis_Court_Oath",
+      "revision": 1377143981,
+      "section": "Background",
+      "passage": "Before the Revolution, French society—aside from royalty—was divided into three estates. The First Estate comprised the clergy; the Second Estate was the nobility. The rest of France—some 97 per cent of the population—was the Third Estate, which ranged from very wealthy city merchants to impoverished rural farmers. The three estates had historically met in the Estates General, a legislative assembly, but this had not happened since 1614, under the reign of Louis XIII. It was the last of the Estates General of the Kingdom of France. Summoned by King Louis XVI, the Estates General of 1789 ended when the Third Estate formed the National Assembly and, against the wishes of the king, invited the other two estates to join. This signaled the outbreak of the French Revolution.",
+      "hatnote": "The Third Estate, 97 per cent of France, broke away.",
+      "onwardLinkText": "Revolution",
+      "nextPage": "French Revolution"
+    },
+    {
+      "page": "French Revolution",
+      "url": "https://en.wikipedia.org/wiki/French_Revolution",
+      "revision": 1379258701,
+      "section": "Proclamation of the First Republic",
+      "passage": "On 20 September, the French defeated the Prussians at the Battle of Valmy, in what was the first major victory by the army of France during the Revolutionary Wars. Emboldened by this, on 22 September the Convention replaced the monarchy with the French First Republic and introduced a new calendar, with 1792 becoming \"Year One\". The next few months were taken up with the trial of Citoyen Louis Capet, formerly Louis XVI. While evenly divided on the question of his guilt, members of the convention were increasingly influenced by radicals based within the Jacobin clubs and Paris Commune. The Brunswick Manifesto made it easy to portray Louis as a threat to the Revolution, especially when extracts from his personal correspondence showed him conspiring with Royalist exiles.",
+      "hatnote": "Within a few years, the king was on trial.",
+      "onwardLinkText": null,
+      "nextPage": "French Revolution"
+    }
+  ],
+  "payoff": "Kings built indoor tennis courts; in one of them, the Revolution that ended the monarchy took its first step.",
+  "caveats": [
+    "Knot 1: Louis X died of pneumonia or pleurisy, though poisoning was suspected."
+  ]
+}

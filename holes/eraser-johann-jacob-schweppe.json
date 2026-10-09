@@ -1,0 +1,62 @@
+{
+  "id": "eraser-johann-jacob-schweppe",
+  "claim": "The scientist who first wrote up the rubber eraser also invented soda water.",
+  "start": {
+    "title": "Eraser",
+    "page": "Eraser",
+    "description": "Stationery item used for erasing marks on paper",
+    "image": "snapshots/images/Eraser.jpg"
+  },
+  "end": {
+    "title": "Johann Jacob Schweppe",
+    "page": "Johann Jacob Schweppe",
+    "description": "German-Swiss scientist (1740–1821)",
+    "image": "snapshots/images/Johann-Jacob-Schweppe.jpg"
+  },
+  "knots": [
+    {
+      "page": "Eraser",
+      "url": "https://en.wikipedia.org/wiki/Eraser",
+      "revision": 1376516241,
+      "section": "History",
+      "passage": "In 1770, the English optician and scientific instrument maker Edward Nairne reportedly developed the first widely marketed rubber eraser for an inventions competition. Until that time the material was known as gum elastic or by its French name caoutchouc borrowed from Quechua. Nairne sold natural rubber erasers for the high price of three shillings per half-inch cube. According to Nairne, he inadvertently picked up a piece of rubber instead of breadcrumbs, discovered rubber's erasing properties, and began selling rubber erasers. The invention was described by Joseph Priestley on April 15, 1770, in a footnote: \"I have seen a substance excellently adapted to the purpose of wiping from paper the mark of black-lead-pencil. ... It is sold by Mr. Nairne, Mathematical Instrument-Maker, opposite the Royal-Exchange.\" In 1770 the word rubber was in general use for any object used for rubbing; the word became attached to the new material sometime between 1770 and 1778.",
+      "hatnote": "Supposedly, an instrument maker picked up rubber instead of breadcrumbs.",
+      "onwardLinkText": "Joseph Priestley",
+      "nextPage": "Joseph Priestley"
+    },
+    {
+      "page": "Joseph Priestley",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Priestley",
+      "revision": 1375145083,
+      "section": "lead",
+      "passage": "Priestley is credited with his independent discovery of oxygen by the thermal decomposition of mercuric oxide, having isolated it in 1774. During his lifetime, Priestley's considerable scientific reputation rested on his invention of carbonated water, his writings on electricity, and his discovery of several \"airs\" (gases), the most famous being what Priestley dubbed \"dephlogisticated air\" (oxygen). Priestley's determination to defend phlogiston theory and to reject what would become the chemical revolution eventually left him isolated within the scientific community.",
+      "hatnote": "The man who wrote it up is better known for oxygen, and for fizzy water.",
+      "onwardLinkText": "carbonated water",
+      "nextPage": "Carbonated water"
+    },
+    {
+      "page": "Carbonated water",
+      "url": "https://en.wikipedia.org/wiki/Carbonated_water",
+      "revision": 1378014099,
+      "section": "lead",
+      "passage": "While Priestley's discovery ultimately led to the creation of the soft drink industry—which began in 1783 when Johann Jacob Schweppe founded Schweppes to sell bottled soda water—he did not benefit financially from his invention. Priestley received scientific recognition when the Council of the Royal Society \"were moved to reward its discoverer with the Copley Medal\" at the anniversary meeting of the Royal Society on 30 November 1773.",
+      "hatnote": "Someone else bottled the fizz and built a business on it.",
+      "onwardLinkText": "Johann Jacob Schweppe",
+      "nextPage": "Johann Jacob Schweppe"
+    },
+    {
+      "page": "Johann Jacob Schweppe",
+      "url": "https://en.wikipedia.org/wiki/Johann_Jacob_Schweppe",
+      "revision": 1351301726,
+      "section": "Biography",
+      "passage": "At the time Schweppe was developing these products, the addition of carbon dioxide to water was considered to have medicinal properties. In 1792, he moved to London to develop the business there, but it was not successful and failed in 1795. However, Erasmus Darwin, the grandfather of Charles Darwin, began talking up the beverage, which started to become popular. Schweppe returned to Geneva and died in 1821. In 1831, King William IV of the United Kingdom adopted the beverage, enabling the use of the famous \"by appointment to\". Subsequently, carbonated water became very popular.",
+      "hatnote": "That business flopped in London until a Darwin started talking it up.",
+      "onwardLinkText": null,
+      "nextPage": "Johann Jacob Schweppe"
+    }
+  ],
+  "payoff": "Priestley invented soda water and wrote up the first eraser; Schweppe made the money.",
+  "caveats": [
+    "Knot 1: the breadcrumb story is Nairne's own account (\"reportedly\", \"according to Nairne\")."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "umbrella-thomas-coram",
+  "claim": "Carrying an umbrella in London once got you mocked in the street.",
+  "start": {
+    "title": "Umbrella",
+    "page": "Umbrella",
+    "description": "Canopy designed to protect against rain or sunlight",
+    "image": "snapshots/images/Umbrella.jpg"
+  },
+  "end": {
+    "title": "Thomas Coram",
+    "page": "Thomas Coram",
+    "description": "English sea captain and philanthropist (c. 1668–1751)",
+    "image": "snapshots/images/Thomas-Coram.jpg"
+  },
+  "knots": [
+    {
+      "page": "Umbrella",
+      "url": "https://en.wikipedia.org/wiki/Umbrella",
+      "revision": 1375562540,
+      "section": "18th and 19th centuries",
+      "passage": "The use of the umbrella or parasol (though not unknown) was uncommon in England during the earlier half of the eighteenth century, as is evident from the comment made by General (then Lieut.-Colonel) James Wolfe, when writing from Paris in 1752; he speaks of the use of umbrellas for protection from the sun and rain and wonders why a similar practice did not occur in England. About the same time, umbrellas came into general use as people found their value and got over the shyness natural to its introduction. Jonas Hanway, the founder of the Magdalen Hospital, has the credit of being the first man who ventured to dare public reproach and ridicule by carrying one habitually in London. As he died in 1786, and he is said to have carried an umbrella for thirty years, the date of its first use by him may be set down at about 1750. John Macdonald relates that in 1770, he used to be addressed as, \"Frenchman, Frenchman! why don't you call a coach?\" whenever he went out with his umbrella. By 1788 however they seem to have been accepted: a London newspaper advertises the sale of \"improved and pocket Umbrellas, on steel frames, with every other kind of common Umbrella.\"",
+      "hatnote": "A London philanthropist braved the jeers by carrying one for decades.",
+      "onwardLinkText": "Jonas Hanway",
+      "nextPage": "Jonas Hanway"
+    },
+    {
+      "page": "Jonas Hanway",
+      "url": "https://en.wikipedia.org/wiki/Jonas_Hanway",
+      "revision": 1372740201,
+      "section": "Opposition to tea",
+      "passage": "In 1757, Samuel Johnson, a tea drinker, wrote an anonymous negative review of Hanway's essay for the Literary Magazine. This led to a heated dispute between them. Johnson's review was controversial as it criticised the Foundling Hospital. The governors of the hospital considered taking legal action against the publisher of the Literary Magazine. However, the publishers of the magazine did not apologise or reveal Johnson's name but decided it was time for him to hand in his resignation as a reviewer.",
+      "hatnote": "Hanway's essay drew Samuel Johnson into a fight over a hospital.",
+      "onwardLinkText": "Foundling Hospital",
+      "nextPage": "Foundling Hospital"
+    },
+    {
+      "page": "Foundling Hospital",
+      "url": "https://en.wikipedia.org/wiki/Foundling_Hospital",
+      "revision": 1376190261,
+      "section": "lead",
+      "passage": "The Foundling Hospital (formally the Hospital for the Maintenance and Education of Exposed and Deserted Young Children) was a children's home in St Pancras, London, England. It was founded in 1739 by the philanthropic sea captain Thomas Coram. It was established for the \"education and maintenance of exposed and deserted young children.\" The word \"hospital\" was used in a more general sense than it is in the 21st century, simply indicating the institution's \"hospitality\" to those less fortunate. Nevertheless, one of the top priorities of the committee at the Foundling Hospital was children's health, as they combated smallpox, fevers, consumption, dysentery and even infections from everyday activities like teething that drove up mortality rates and risked epidemics. With their energies focused on maintaining a disinfected environment, providing simple clothing and fare, the committee paid less attention to and spent less on developing children's education. As a result, financial problems would hound the institution for years to come, despite the growing \"fashionableness\" of charities like the hospital.",
+      "hatnote": "The hospital was a sea captain's charity for abandoned children.",
+      "onwardLinkText": "Thomas Coram",
+      "nextPage": "Thomas Coram"
+    },
+    {
+      "page": "Thomas Coram",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Coram",
+      "revision": 1366168807,
+      "section": "Later life",
+      "passage": "After the loss of his wife, he neglected his private affairs, and fell into difficulties. A subscription was raised for him. He told Brocklesby that as he had never wasted his money in self-indulgence, he was not ashamed to confess that he was poor. On 20 March 1749, an annuity of £161 was assigned to him, the Prince of Wales subscribing £21 annually. The pension was transferred on Coram's death to Richard Leveridge, a retired admired singer.",
+      "hatnote": "Its founder ended up needing a subscription himself.",
+      "onwardLinkText": null,
+      "nextPage": "Thomas Coram"
+    }
+  ],
+  "payoff": "The man who founded a famous charity ended up living on a subscription raised for him.",
+  "caveats": [
+    "Knot 1: Hanway is \"said to\" have carried an umbrella for thirty years."
+  ]
+}

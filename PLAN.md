@@ -54,6 +54,12 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
   - [x] 14f. Motion only for thread, focus blur, tumble and the end card's swing (item 15).
   - [x] 14g. Remove extras: Did you know, See also, stack buttons (item 16; recall went in step 13).
   - [x] 14h. Go deeper opens real Wikipedia at the passage (item 17).
+- [x] 16. Import holes 1–20 from "Rabbit Holes — Reading Copy.txt" (owner
+         request, done before 15). scripts/import-holes.mjs converts entries;
+         the fetch script snapshots, verifies and fills sections, URLs, card
+         descriptions and images. Claims, hatnotes, payoffs and caveats are
+         Claude's drafts, to be reviewed. tests/e2e/all-holes.spec.ts plays
+         every hole end to end.
 - [ ] 15. Cover the remaining [~] steps with tests: swipe left sends the card
          to the back (8); "Back to the thread" re-centres and blur returns (3);
          progress knot colours (6); the tumble lands on the first passage (9).
@@ -108,6 +114,31 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
   to the first 10 words, stopping before a quote mark; the data test checks
   each matches only its passage. Six words weren't enough for Coffee knot 2
   ("Up to the end of the…" appears earlier). Checked live on Wikipedia.
+- Reading-copy holes: id = first page + last page slugs; start/end cards are
+  the first and last knot pages (so the last knot's nextPage is its own page
+  and it has no onward link). Passages are the reading copy's paragraphs,
+  whole, with footnote markers ([12], [a], [13]: 95–98) stripped.
+- Stack order: the original four first, then the reading copy's top 20 in
+  its ranked order.
+- When two holes pin one page to different revisions, the newer revision is
+  used for both and every passage re-verified (Coffeehouse moved to
+  1379296908 for coffee-insurance too).
+- Onward links that point at an old title are followed through Wikipedia's
+  redirect and the snapshot records the real destination (Borrowdale's
+  "Seathwaite" → Seathwaite, Cumberland).
+- `.noexcerpt` is no longer stripped from snapshots: it marks real text
+  (pronunciations). Found because the Ambergris passage didn't match.
+- Images that can't be downloaded (Wikimedia's map tiles answer 403) are
+  removed from the snapshot rather than loaded live. Five maps dropped.
+- Images with no extension in their URL (rendered maths) get one from their
+  bytes.
+- "Open at passage" links use the shortest opening of 10+ words that is
+  unique on the page, computed by the fetch script and stored in the
+  manifest (`fragments`). Ten fixed words weren't enough for Jan Pieterszoon
+  Coen ("He was long considered a national hero in the Netherlands" appears
+  twice).
+- The fetch script skips pages already saved at the same revision
+  (`--refresh` to force).
 - The rope is string, not a rod: it resists stretching only. A two-sided
   constraint made the slack zigzag. Spans that are taut are drawn straight,
   and a span whose ends jump > 140px is reset, to stop leftover loops after a
@@ -139,6 +170,18 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
   to swipe (the spec has no hint). Owner to decide whether a hint is wanted.
 - On a phone the home card now stretches to fill the screen, so the thread
   between the infoboxes hangs very long; a max card height would tighten it.
+- Claims, hatnotes, payoffs and caveats for the 20 reading-copy holes are
+  Claude's drafts; owner to review.
+- Reading-copy passages are whole paragraphs (often 150–250 words) and many
+  onward links sit mid-paragraph, so the thread crosses the rest of the
+  passage on its way to the knot. Trimming passages is an owner decision.
+- Size: holes/snapshots is ~65 MB (1,647 images, 84 pages) and the main JS
+  bundle is ~390 KB gzipped (all hole JSON, the manifest and the image URL
+  map load up front). Worth lazy-loading before hosting.
+- Some Commons credits read oddly (e.g. "Unknown authorUnknown a…") because
+  the Artist metadata is messy; Sogdian language has no lead image.
+- On the ending, [1–N] can wrap onto its own line under the claim.
+- import-holes.mjs used to miss entry 100 (three-digit number); fixed.
 - iOS haptics use the iOS 18 switch-control workaround; untested on a device.
 
 ## Session log
@@ -149,3 +192,6 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
   14a–h (bundled images, grey [citation needed], knot-only pull, left arrow,
   laptop layout, motion, extras removed, Go deeper). Found and fixed: image
   files named from URL query strings. Next: owner decisions, then step 15.
+- 2026-10-09 (later): Imported reading-copy holes 1–20 (step 16): 80 knots
+  verified against pinned revisions, drafts written for claims/hatnotes,
+  every hole played end to end. Next: owner review of drafts, step 15.

@@ -1,0 +1,62 @@
+{
+  "id": "aluminium-charles-martin-hall",
+  "claim": "The man who made aluminium cheap got a statue light enough to steal.",
+  "start": {
+    "title": "Aluminium",
+    "page": "Aluminium",
+    "description": "Chemical element with atomic number 13 (Al)",
+    "image": "snapshots/images/Aluminium.jpg"
+  },
+  "end": {
+    "title": "Charles Martin Hall",
+    "page": "Charles Martin Hall",
+    "description": "American inventor, businessman, and chemist (1863–1914)",
+    "image": "snapshots/images/Charles-Martin-Hall.jpg"
+  },
+  "knots": [
+    {
+      "page": "Aluminium",
+      "url": "https://en.wikipedia.org/wiki/Aluminium",
+      "revision": 1379040707,
+      "section": "History",
+      "passage": "As Wöhler's method could not yield great quantities of aluminium, the metal remained rare; its cost exceeded that of gold. The first industrial production of aluminium was established in 1856 by French chemist Henri Étienne Sainte-Claire Deville and companions. Sainte-Claire Deville had discovered that aluminium trichloride could be reduced by sodium, which was more convenient and less expensive than potassium, which Wöhler had used. Even then, aluminium was still not of great purity and produced aluminium differed in properties by sample. Because of its electricity-conducting capacity, aluminium was used as the cap of the Washington Monument, completed in 1885, the tallest building in the world at the time. The non-corroding metal cap was intended to serve as a lightning rod peak.",
+      "hatnote": "Before it was cheap, aluminium was a showpiece, fit to crown a monument.",
+      "onwardLinkText": "Washington Monument",
+      "nextPage": "Washington Monument"
+    },
+    {
+      "page": "Washington Monument",
+      "url": "https://en.wikipedia.org/wiki/Washington_Monument",
+      "revision": 1377686994,
+      "section": "Resumption",
+      "passage": "The building of the monument proceeded quickly after Congress had provided sufficient funding. In four years, it was completed, with the 100-ounce (2.83 kg) aluminum apex/lightning-rod being put in place on December 6, 1884. The apex was the largest single piece of aluminum cast at the time, when aluminum commanded a price comparable to silver. Two years later, the Hall–Héroult process made aluminum easier to produce and the price of aluminum plummeted, though it should have provided a lustrous, non-rusting apex. The monument opened to the public on October 9, 1888.",
+      "hatnote": "The monument's tip was the largest aluminium casting of its day.",
+      "onwardLinkText": "Hall–Héroult process",
+      "nextPage": "Hall–Héroult process"
+    },
+    {
+      "page": "Hall–Héroult process",
+      "url": "https://en.wikipedia.org/wiki/Hall%E2%80%93H%C3%A9roult_process",
+      "revision": 1375354537,
+      "section": "Independent discovery",
+      "passage": "The Hall–Héroult process was discovered independently and almost simultaneously in 1886 by the American chemist Charles Martin Hall and by the Frenchman Paul Héroult—both 22 years old. Some authors claim Hall was assisted by his sister Julia Brainerd Hall; however, the extent to which she was involved has been disputed. In 1888, Hall opened the first large-scale aluminium production plant in Pittsburgh. It later became the Alcoa corporation.",
+      "hatnote": "Two 22-year-olds, working separately, made that tip ordinary.",
+      "onwardLinkText": "Charles Martin Hall",
+      "nextPage": "Charles Martin Hall"
+    },
+    {
+      "page": "Charles Martin Hall",
+      "url": "https://en.wikipedia.org/wiki/Charles_Martin_Hall",
+      "revision": 1341504477,
+      "section": "Awards and honors",
+      "passage": "Hall eventually became one of Oberlin College's most prominent benefactors, and an aluminum statue of him exists on the campus. Because of its light weight, Hall's statue was once known for its frequent changes of location, often due to student pranks. Today the statue is glued to a large granite block and sits more permanently on the second floor of Oberlin's science center, where students continue to decorate Hall with appropriate trappings on holidays and other occasions.",
+      "hatnote": "Hall's own statue is made of the metal he made cheap.",
+      "onwardLinkText": null,
+      "nextPage": "Charles Martin Hall"
+    }
+  ],
+  "payoff": "A metal once too precious to waste ended up so light that students kept carrying off its inventor.",
+  "caveats": [
+    "Knot 3: Julia Brainerd Hall's part in the invention is disputed; the hatnote doesn't mention it."
+  ]
+}

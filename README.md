@@ -25,7 +25,20 @@ to a revision, lead images, Commons credits in `manifest.json`).
 ```bash
 node scripts/fetch-content.mjs           # fetch the revisions pinned in holes/*.json, verify every knot
 node scripts/fetch-content.mjs --update  # move every knot to the latest revision, then verify
+node scripts/fetch-content.mjs --refresh # re-download snapshots that are already saved
 ```
+
+New holes can come from the rabbit-hole reading copy (.txt):
+
+```bash
+node scripts/import-holes.mjs "Rabbit Holes — Reading Copy.txt" 21-40
+node scripts/fetch-content.mjs
+```
+
+The import fills in everything that comes from Wikipedia (pages, revisions,
+passages with footnote markers removed, onward link text). The fetch adds
+sections, URLs, card descriptions and images. The claim, hatnotes, payoff and
+caveats are ours to write; `npm test` fails until every hatnote is filled in.
 
 The script fails if any passage isn't found word for word, isn't in the stated
 section, or its onward link isn't inside the passage. `npm test` runs the same

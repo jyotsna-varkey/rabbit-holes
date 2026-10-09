@@ -1,0 +1,62 @@
+{
+  "id": "mirror-claw-of-archimedes",
+  "claim": "Archimedes' death ray failed on TV, but his giant claw passed.",
+  "start": {
+    "title": "Mirror",
+    "page": "Mirror",
+    "description": "Object that reflects an image",
+    "image": "snapshots/images/Mirror.jpg"
+  },
+  "end": {
+    "title": "Claw of Archimedes",
+    "page": "Claw of Archimedes",
+    "description": "Greek anti-ship weapon used in 213–212 BC",
+    "image": "snapshots/images/Claw-of-Archimedes.jpg"
+  },
+  "knots": [
+    {
+      "page": "Mirror",
+      "url": "https://en.wikipedia.org/wiki/Mirror",
+      "revision": 1379302156,
+      "section": "Military applications",
+      "passage": "Tradition states that Archimedes used a large array of mirrors to burn Roman ships during an attack on Syracuse. This has never been proven or disproved. On the TV show MythBusters, a team from MIT tried to recreate the famous \"Archimedes Death Ray\". They were unsuccessful at starting a fire on a ship. Previous attempts to set a boat on fire using only the bronze mirrors available in Archimedes' time were unsuccessful, and the time taken to ignite the craft would have made its use impractical, resulting in the MythBusters team deeming the myth \"busted\". It was however found that the mirrors made it very difficult for the passengers of the targeted boat to see; such a scenario could have impeded attackers and have provided the origin of the legend. (See solar power tower for a practical use of this technique.)",
+      "hatnote": "MythBusters couldn't set a ship alight with mirrors.",
+      "onwardLinkText": "Archimedes",
+      "nextPage": "Archimedes"
+    },
+    {
+      "page": "Archimedes",
+      "url": "https://en.wikipedia.org/wiki/Archimedes",
+      "revision": 1376063220,
+      "section": "lead",
+      "passage": "Archimedes died during the siege of Syracuse, when he was killed by a Roman soldier despite orders that he should not be harmed. Cicero describes visiting Archimedes' tomb, which was surmounted by a sphere and a cylinder that Archimedes requested be placed there to represent his most valued mathematical discovery.",
+      "hatnote": "Archimedes died in the very siege the legend comes from.",
+      "onwardLinkText": "siege of Syracuse",
+      "nextPage": "Siege of Syracuse (213–212 BC)"
+    },
+    {
+      "page": "Siege of Syracuse (213–212 BC)",
+      "url": "https://en.wikipedia.org/wiki/Siege_of_Syracuse_(213%E2%80%93212_BC)",
+      "revision": 1377288244,
+      "section": "Siege",
+      "passage": "Within the city, Archimedes devised defensive devices to counter the Roman efforts including a huge crane-operated hook – the Claw of Archimedes – that was used to lift the enemy ships out of the sea before dropping them to their doom. Legend has it that he also created a giant mirror that was used to deflect the sun's rays onto the ships' sails, setting fire to them. These measures, along with the fire from ballistas and onagers mounted on the city walls, frustrated the Romans and forced them to attempt costly direct assaults.",
+      "hatnote": "His other weapon: a crane that lifted ships out of the sea.",
+      "onwardLinkText": "Claw of Archimedes",
+      "nextPage": "Claw of Archimedes"
+    },
+    {
+      "page": "Claw of Archimedes",
+      "url": "https://en.wikipedia.org/wiki/Claw_of_Archimedes",
+      "revision": 1299107380,
+      "section": "lead",
+      "passage": "The plausibility of this invention was tested in 1999 in the BBC series Secrets of the Ancients and again in early 2005 in the Discovery Channel series Superweapons of the Ancient World. The producers of Superweapons brought together a group of engineers tasked with conceiving and implementing a design that was realistic, given what is known about Archimedes. Within seven days they were able to test their creation, and they did succeed in tipping over a model of a Roman ship so that it would sink. While this does not prove the existence of the Claw, it suggests that it would have been possible.",
+      "hatnote": "Engineers built one, and it tipped over a model ship.",
+      "onwardLinkText": null,
+      "nextPage": "Claw of Archimedes"
+    }
+  ],
+  "payoff": "The mirror trick stays a legend; the claw at least works on a model.",
+  "caveats": [
+    "Neither weapon is proven to have existed; knots 1 and 4 say so."
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "airship-parasite-aircraft",
+  "claim": "The US Navy once flew aircraft carriers that were airships.",
+  "start": {
+    "title": "Airship",
+    "page": "Airship",
+    "description": "Powered lighter-than-air aircraft",
+    "image": "snapshots/images/Airship.jpg"
+  },
+  "end": {
+    "title": "Parasite aircraft",
+    "page": "Parasite aircraft",
+    "description": "Small plane aboard an airborne carrier",
+    "image": "snapshots/images/Parasite-aircraft.jpg"
+  },
+  "knots": [
+    {
+      "page": "Airship",
+      "url": "https://en.wikipedia.org/wiki/Airship",
+      "revision": 1378220008,
+      "section": "The interwar period",
+      "passage": "The U.S. Navy experimented with using airships as airborne aircraft carriers, building on a concept pioneered by the British. The USS Los Angeles was used for initial experiments, and the USS Akron and Macon, the world's largest at the time, were used to test the principle in naval operations. Each carried four F9C Sparrowhawk fighters in its hangar, and could carry a fifth on the trapeze. The idea had mixed results. By the time the Navy began developing a sound doctrine for using the ZRS-type airships, the last of the two built, USS Macon, had been wrecked. Meanwhile, the seaplane had become more capable and was considered a better investment.",
+      "hatnote": "The Navy built airships with fighter planes in their bellies.",
+      "onwardLinkText": "USS Akron",
+      "nextPage": "USS Akron"
+    },
+    {
+      "page": "USS Akron",
+      "url": "https://en.wikipedia.org/wiki/USS_Akron",
+      "revision": 1376438297,
+      "section": "Experimental use as a \"flying aircraft carrier\"",
+      "passage": "Akron and Macon (which was still under construction) were regarded as potential \"flying aircraft carriers\", carrying parasite fighters for reconnaissance. On 3 May 1932, Akron cruised over the coast of New Jersey with Rear Admiral George C. Day, and the Board of Inspection and Survey, on board, and for the first time tested the \"trapeze\" installation for in-flight handling of aircraft. The aviators who carried out those historic \"landings\"—first with a Consolidated N2Y trainer and then with the prototype Curtiss XF9C-1 Sparrowhawk—were Lieutenant D. Ward Harrigan and Lieutenant Howard L. Young. The following day, Akron carried out another demonstration flight, this time with members of the House Committee on Naval Affairs on board; this time, Lieutenants Harrigan and Young gave the lawmakers a demonstration of Akron's aircraft hook-on ability.",
+      "hatnote": "Planes really did hook on to a flying airship, in front of Congress.",
+      "onwardLinkText": "\"flying aircraft carriers",
+      "nextPage": "Airborne aircraft carrier"
+    },
+    {
+      "page": "Airborne aircraft carrier",
+      "url": "https://en.wikipedia.org/wiki/Airborne_aircraft_carrier",
+      "revision": 1370809379,
+      "section": "Boeing 747 Airborne Aircraft Carrier",
+      "passage": "The design of the 747-AAC had space for a crew of 44. The aircraft was designed to carry 10 Boeing Model 985-121 \"microfighters\" with the ability to launch, retrieve, re-arm and refuel.",
+      "hatnote": "Decades later, someone drew up a 747 that carried ten tiny fighters.",
+      "onwardLinkText": "microfighters",
+      "nextPage": "Parasite aircraft"
+    },
+    {
+      "page": "Parasite aircraft",
+      "url": "https://en.wikipedia.org/wiki/Parasite_aircraft",
+      "revision": 1374266765,
+      "section": "1950s",
+      "passage": "During the early years of the Cold War, the United States Air Force experimented with a variety of parasite fighters to protect its Convair B-36 bombers, including the dedicated XF-85 Goblin, and methods of either carrying a Republic F-84 Thunderjet in the bomber's bomb bay (the FICON project), or attached to the bomber's wingtips (Project Tom-Tom). One configuration studied for the XF-85/B-36 combination was for a B-36 to drop the XF-85 for a dash across enemy territory for bombing or reconnaissance and for the pilot to hook onto a different B-36 on the other side of the enemy territory. These projects were all soon abandoned, partly because aerial refueling appeared as a much safer solution to extend the range of fighters.",
+      "hatnote": "Bombers were even meant to drop a fighter and have another bomber catch it.",
+      "onwardLinkText": null,
+      "nextPage": "Parasite aircraft"
+    }
+  ],
+  "payoff": "Every version of the flying hangar lost out to a simpler fix: refuelling in the air.",
+  "caveats": []
+}

@@ -1,0 +1,62 @@
+{
+  "id": "whale-moby-dick",
+  "claim": "Some of Moby-Dick's first reviewers thought its narrator had drowned.",
+  "start": {
+    "title": "Whale",
+    "page": "Whale",
+    "description": "Informal group of large marine mammals",
+    "image": "snapshots/images/Whale.jpg"
+  },
+  "end": {
+    "title": "Moby-Dick",
+    "page": "Moby-Dick",
+    "description": "1851 novel by Herman Melville",
+    "image": "snapshots/images/Moby-Dick.jpg"
+  },
+  "knots": [
+    {
+      "page": "Whale",
+      "url": "https://en.wikipedia.org/wiki/Whale",
+      "revision": 1377720929,
+      "section": "Whaling",
+      "passage": "Whaling by humans has existed since the Stone Age. Ancient whalers used harpoons to spear the bigger animals from boats out at sea. People from Norway and Japan started hunting whales around 2000 B.C. Whales are typically hunted for their meat and blubber by aboriginal groups; they used baleen for baskets or roofing, and made tools and masks out of bones. The Inuit hunted whales in the Arctic Ocean. The Basques started whaling as early as the 11th century, sailing as far as Newfoundland in the 16th century in search of right whales. 18th- and 19th-century whalers hunted whales mainly for their oil, which was used as lamp fuel and a lubricant, baleen or whalebone, which was used for items such as corsets and skirt hoops, and ambergris, which was used as a fixative for perfumes. The most successful whaling nations at this time were the Netherlands, Japan, and the United States.",
+      "hatnote": "Whalers weren't only after oil; some hunted for a perfume ingredient.",
+      "onwardLinkText": "ambergris",
+      "nextPage": "Ambergris"
+    },
+    {
+      "page": "Ambergris",
+      "url": "https://en.wikipedia.org/wiki/Ambergris",
+      "revision": 1376838872,
+      "section": "lead",
+      "passage": "Ambergris (/ˈæmbərɡrɪs/ or /ˈæmbərɡriːs/; Latin: ambra grisea; Old French: ambre gris), ambergrease, or grey amber is a solid, waxy, flammable substance of a dull grey or blackish colour produced in the digestive system of sperm whales. Freshly produced ambergris has a marine, faecal odour. It acquires a sweet, earthy scent as it ages, commonly likened to the fragrance of isopropyl alcohol without the vaporous chemical astringency.",
+      "hatnote": "That perfume ingredient is made in a sperm whale's gut.",
+      "onwardLinkText": "sperm whales",
+      "nextPage": "Sperm whale"
+    },
+    {
+      "page": "Sperm whale",
+      "url": "https://en.wikipedia.org/wiki/Sperm_whale",
+      "revision": 1378129309,
+      "section": "Spermaceti organ and melon",
+      "passage": "Herman Melville's fictional story Moby-Dick suggests that the \"case\" containing the spermaceti serves as a battering ram for use in fights between males. A few famous instances include the well-documented sinking of the ships Essex and Ann Alexander by attackers estimated to weigh only one-fifth as much as the ships. However, the hypothesis that the enlarged head of male sperm whales primarily functions as a weapon in intra-sex competition has been subject to significant criticism, and the rarity of records of head-butting fights between males raises questions about whether such behavior is sufficiently typical to drive strong sexual selection.",
+      "hatnote": "Moby-Dick borrowed a real fear: whales that sink ships.",
+      "onwardLinkText": "Moby-Dick",
+      "nextPage": "Moby-Dick"
+    },
+    {
+      "page": "Moby-Dick",
+      "url": "https://en.wikipedia.org/wiki/Moby-Dick",
+      "revision": 1376535159,
+      "section": "British",
+      "passage": "Because the English edition omitted the epilogue describing Ishmael's escape, British reviewers read a book with a first-person narrator who apparently did not survive. The reviewer of the Literary Gazette asked how Ishmael, \"who appears to have been drowned with the rest, communicated his notes to Mr. Bentley\". The reviewer in the Spectator objected that \"nothing should be introduced into a novel which it is physically impossible for the writer to have known: thus, he must not describe the conversation of miners in a pit if they all perish.\" The Dublin University Magazine asked \"how does it happen that the author is alive to tell the story?\" A few other reviewers, who did not comment upon the apparent impossibility of Ishmael telling the story, pointed out violations of narrative conventions in other passages.",
+      "hatnote": "The British edition left out how the narrator survived.",
+      "onwardLinkText": null,
+      "nextPage": "Moby-Dick"
+    }
+  ],
+  "payoff": "A missing epilogue had British critics asking how a drowned man wrote the book.",
+  "caveats": [
+    "Knot 3: whether sperm whales ram on purpose is disputed; the passage says so."
+  ]
+}

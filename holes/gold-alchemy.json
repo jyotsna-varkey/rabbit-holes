@@ -1,0 +1,60 @@
+{
+  "id": "gold-alchemy",
+  "claim": "Isaac Newton put Britain on the gold standard by accident.",
+  "start": {
+    "title": "Gold",
+    "page": "Gold",
+    "description": "Chemical element with atomic number 79 (Au)",
+    "image": "snapshots/images/Gold.jpg"
+  },
+  "end": {
+    "title": "Alchemy",
+    "page": "Alchemy",
+    "description": "Branch of natural philosophy",
+    "image": "snapshots/images/Alchemy.jpg"
+  },
+  "knots": [
+    {
+      "page": "Gold",
+      "url": "https://en.wikipedia.org/wiki/Gold",
+      "revision": 1378929640,
+      "section": "Monetary use",
+      "passage": "After World War II gold was replaced by a system of nominally convertible currencies related by fixed exchange rates following the Bretton Woods system. Gold standards and the direct convertibility of currencies to gold have been abandoned by world governments, led in 1971 by the United States' refusal to redeem its dollars in gold. Fiat currency now fills most monetary roles. Switzerland was the last country to tie its currency to gold; this was ended by a referendum in 1999.",
+      "hatnote": "Gold stopped backing money in the 20th century; Switzerland held out until 1999.",
+      "onwardLinkText": "Gold standards",
+      "nextPage": "Gold standard"
+    },
+    {
+      "page": "Gold standard",
+      "url": "https://en.wikipedia.org/wiki/Gold_standard",
+      "revision": 1375978719,
+      "section": "lead",
+      "passage": "Historically, the silver standard and bimetallism have been more common than the gold standard. The shift to an international monetary system based on a gold standard reflected accident, network externalities, and path dependence. Great Britain accidentally adopted a de facto gold standard in 1717 when Isaac Newton, master of the Royal Mint, set the exchange rate of silver to gold too low, thus causing silver coins to go out of circulation. As Great Britain became the world's leading financial and commercial power in the 19th century, other states increasingly adopted Britain's monetary system.",
+      "hatnote": "Britain's gold standard began with Newton pricing silver too low.",
+      "onwardLinkText": "Isaac Newton",
+      "nextPage": "Isaac Newton"
+    },
+    {
+      "page": "Isaac Newton",
+      "url": "https://en.wikipedia.org/wiki/Isaac_Newton",
+      "revision": 1378734104,
+      "section": "Alchemy",
+      "passage": "Of an estimated ten million words of writing in Newton's papers, about one million deal with alchemy. Many of Newton's writings on alchemy are copies of other manuscripts, with his own annotations. Alchemical texts mix artisanal knowledge with philosophical speculation, often hidden behind layers of wordplay, allegory, and imagery to protect craft secrets. Some of the content contained in Newton's papers could have been considered heretical by the church.",
+      "hatnote": "Newton wrote about a million words on alchemy.",
+      "onwardLinkText": "alchemy",
+      "nextPage": "Alchemy"
+    },
+    {
+      "page": "Alchemy",
+      "url": "https://en.wikipedia.org/wiki/Alchemy",
+      "revision": 1377992715,
+      "section": "Renaissance and early modern Europe",
+      "passage": "The terms \"chemia\" and \"alchemia\" were used as synonyms in the early modern period, and the differences between alchemy, chemistry and small-scale assaying and metallurgy were not as neat as in the present day. There were important overlaps between practitioners, and trying to classify them into alchemists, chemists and craftsmen is anachronistic. For example, Tycho Brahe (1546–1601), an alchemist better known for his astronomical and astrological investigations, had a laboratory built at his Uraniborg observatory/research institute. Michael Sendivogius (Michał Sędziwój, 1566–1636), a Polish alchemist, philosopher, medical doctor and pioneer of chemistry wrote mystical works but is also credited with distilling oxygen in a lab sometime around 1600. Sendivogious taught his technique to Cornelius Drebbel who, in 1621, applied this in a submarine. Isaac Newton devoted considerably more of his writing to the study of alchemy (see Isaac Newton's occult studies) than he did to either optics or physics. Other early modern alchemists who were eminent in their other studies include Robert Boyle, and Jan Baptist van Helmont. Their Hermeticism complemented rather than precluded their practical achievements in medicine and science.",
+      "hatnote": "In his day, alchemy and chemistry weren't separate fields.",
+      "onwardLinkText": null,
+      "nextPage": "Alchemy"
+    }
+  ],
+  "payoff": "The man who accidentally tied Britain to gold wrote more about alchemy than about optics or physics.",
+  "caveats": []
+}

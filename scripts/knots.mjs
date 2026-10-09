@@ -34,6 +34,35 @@ export function sectionOf(block) {
   return 'lead';
 }
 
+/** Section the passage sits in, or null if the passage isn't on the page. */
+export function passageSection(body, passage) {
+  const p = markPassage(body, passage);
+  return p ? sectionOf(p.block) : null;
+}
+
+/** Key a passage's text-fragment anchor is stored under in the manifest. */
+export const fragmentKey = (passage) => passage.slice(0, 80);
+
+/**
+ * Shortest opening of the passage (10 words or more) that appears exactly once
+ * on the page, for a #:~:text= link. Checked against the snapshot of the same
+ * revision, so quote marks match the live page exactly; at least 10 words
+ * because the live page also has sections the snapshot drops (References). Stops once the words
+ * stop matching the page (a footnote marker sits between them). Null if no
+ * opening is unique.
+ */
+export function fragmentFor(body, passage) {
+  const text = body.textContent.replace(/\s+/g, ' ').toLowerCase();
+  const words = passage.split(/\s+/);
+  for (let n = Math.min(10, words.length); n <= words.length; n++) {
+    const candidate = words.slice(0, n).join(' ').replace(/[,.;:]+$/, '');
+    const count = text.split(candidate.toLowerCase()).length - 1;
+    if (count === 1) return candidate;
+    if (count === 0) break;
+  }
+  return null;
+}
+
 /** Problems with one knot against its article body; empty when it checks out. */
 export function knotProblems(body, knot) {
   const p = markPassage(body, knot.passage, knot.onwardLinkText, knot.nextPage);

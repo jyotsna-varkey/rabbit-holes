@@ -5,6 +5,13 @@
 //                                             (a knot with "revision": null gets the
 //                                             latest, written back into its hole file)
 //   node scripts/fetch-content.mjs --update   move every knot to the latest revision
+//   node scripts/fetch-content.mjs --refresh  re-download snapshots even if already saved
+//
+// Pages already in the manifest at the same revision are not downloaded again.
+// If two holes pin one page to different revisions, the newer one is used for
+// both (and every passage is re-verified against it). For new holes it also
+// fills in, and writes back: each knot's section and canonical URL, and blank
+// card descriptions (Wikipedia's short description) and images (lead image).
 //
 // Knot pages are saved as cleaned HTML; every page (knots and endpoints) gets
 // its lead image and Commons credit.
@@ -14,12 +21,14 @@
 import { readFile, readdir, writeFile, mkdir, rm } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { parseHTML } from 'linkedom';
-import { keyOf, knotProblems, loadDom } from './knots.mjs';
+import { existsSync } from 'node:fs';
+import { fragmentFor, fragmentKey, keyOf, knotProblems, loadDom, passageSection } from './knots.mjs';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const UA = 'RabbitHolesPrototype/0.1 (educational prototype; Wikipedia reader)';
 const API = 'https://en.wikipedia.org/api/rest_v1';
 const UPDATE = process.argv.includes('--update');
+const REFRESH = process.argv.includes('--refresh');
 const SNAP = `${ROOT}holes/snapshots`;
 
 const holeFiles = (await readdir(`${ROOT}holes`)).filter((f) => f.endsWith('.json'));
@@ -50,7 +59,8 @@ const DROP_SELECTORS = [
   'sup.reference', 'sup.mw-ref', '.mw-editsection',
   '.navbox', '.navbox-styles', '.hatnote', '.shortdescription', '.ambox', '.ombox',
   '.sistersitebox', '.side-box', '.reflist', '.mw-references-wrap', 'ol.references',
-  '.portalbox', '.portal', '[role="navigation"]', '.mw-empty-elt', '.noexcerpt',
+  // Not .noexcerpt: it only means "leave out of previews" and marks real text such as pronunciations.
+  '.portalbox', '.portal', '[role="navigation"]', '.mw-empty-elt',
   'audio', 'video', '.mw-authority-control', '.metadata.plainlinks',
 ];
 
@@ -111,6 +121,17 @@ function cleanArticle(html) {
   return body;
 }
 
+/** Image type from its first bytes, for URLs that don't say. */
+function sniffImageType(bytes) {
+  const head = bytes.subarray(0, 64).toString('latin1');
+  if (head.startsWith('\x89PNG')) return 'png';
+  if (head.startsWith('\xff\xd8')) return 'jpg';
+  if (head.startsWith('GIF8')) return 'gif';
+  if (head.startsWith('RIFF') && head.slice(8, 12) === 'WEBP') return 'webp';
+  if (/<svg|<\?xml/.test(head)) return 'svg';
+  return 'bin';
+}
+
 /**
  * Download every image an article shows into holes/snapshots/images/pages/<key>/
  * and point the <img> at it with data-asset (the app resolves it to the bundled
@@ -122,7 +143,7 @@ async function bundleImages(body, key) {
   await mkdir(dir, { recursive: true });
   const saved = new Map();
   let n = 0;
-  for (const img of body.querySelectorAll('img')) {
+  for (const img of [...body.querySelectorAll('img')]) {
     // Thumb URLs carry tracking query strings; the file is the path alone.
     const src = img.getAttribute('src')?.split('?')[0];
     img.removeAttribute('src');
@@ -130,8 +151,19 @@ async function bundleImages(body, key) {
     let file = saved.get(src);
     if (!file) {
       const base = decodeURIComponent(src.split('/').pop()).replace(/[^A-Za-z0-9._-]+/g, '_').slice(-60);
+      let bytes;
+      try {
+        bytes = await get(src, 'bytes');
+      } catch (err) {
+        // e.g. maps.wikimedia.org refuses map tiles (403). Drop the image rather than load it live.
+        console.log(`  ! dropped an image that couldn't be downloaded: ${src} (${err.message.split(' ')[0]})`);
+        (img.closest('.mw-kartographer-map, .mw-kartographer-maplink, figure') ?? img).remove();
+        continue;
+      }
       file = `${String(++n).padStart(3, '0')}-${base}`;
-      await writeFile(`${dir}/${file}`, await get(src, 'bytes'));
+      // Some images (e.g. rendered maths formulas) have no extension in their URL.
+      if (!/\.(jpe?g|png|gif|svg|webp)$/i.test(file)) file += `.${sniffImageType(bytes)}`;
+      await writeFile(`${dir}/${file}`, bytes);
       saved.set(src, file);
     }
     img.setAttribute('data-asset', `snapshots/images/pages/${key}/${file}`);
@@ -164,21 +196,31 @@ for (const { hole } of holes) {
   for (const knot of hole.knots) {
     const pinned = UPDATE ? null : knot.revision;
     const seen = knotPages.get(knot.page);
-    if (seen !== undefined && seen !== null && pinned !== null && seen !== pinned) {
-      throw new Error(`${knot.page} is pinned to both ${seen} and ${pinned}; use one revision per page`);
+    if (seen != null && pinned != null && seen !== pinned) {
+      console.log(`! ${knot.page} is pinned to ${seen} and ${pinned}; using the newer for both`);
     }
-    knotPages.set(knot.page, seen ?? pinned);
+    knotPages.set(knot.page, seen != null && pinned != null ? Math.max(seen, pinned) : seen ?? pinned);
   }
 }
 const endpointPages = new Set(holes.flatMap(({ hole }) => [hole.start.page, hole.end.page]));
 
+const previous = existsSync(`${SNAP}/manifest.json`)
+  ? JSON.parse(await readFile(`${SNAP}/manifest.json`, 'utf8')).pages
+  : {};
 const manifest = { fetched: new Date().toISOString().slice(0, 10), pages: {} };
 const revisions = new Map();
 
 for (const title of new Set([...knotPages.keys(), ...endpointPages])) {
   const key = keyOf(title);
-  const summary = await get(`${API}/page/summary/${pathTitle(title)}`);
   const isKnotPage = knotPages.has(title);
+  const kept = previous[key];
+  const wanted = knotPages.get(title);
+  if (!REFRESH && kept && (isKnotPage ? kept.snapshot && kept.revision === wanted && existsSync(`${SNAP}/pages/${key}.html`) : true)) {
+    manifest.pages[key] = { ...kept, snapshot: isKnotPage, fragments: undefined };
+    revisions.set(title, kept.revision);
+    continue;
+  }
+  const summary = await get(`${API}/page/summary/${pathTitle(title)}`);
   const revision = Number((isKnotPage && knotPages.get(title)) || summary.revision);
   revisions.set(title, revision);
 
@@ -220,21 +262,70 @@ for (const title of new Set([...knotPages.keys(), ...endpointPages])) {
 
 await writeFile(`${SNAP}/manifest.json`, JSON.stringify(manifest, null, 2) + '\n');
 
-// Write pinned revisions back into hole files that had none (or all, with --update).
+// Write back what came from Wikipedia: revisions, canonical URLs, blank sections,
+// blank card descriptions and images.
 for (const { file, hole } of holes) {
-  let changed = false;
+  const changes = new Set();
   for (const knot of hole.knots) {
-    const rev = revisions.get(knot.page);
-    if (knot.revision !== rev) {
-      knot.revision = rev;
-      changed = true;
+    const page = manifest.pages[keyOf(knot.page)];
+    if (knot.revision !== page.revision) { knot.revision = page.revision; changes.add('revision'); }
+    if (knot.url !== page.url) { knot.url = page.url; changes.add('url'); }
+    if (!knot.section) {
+      const section = passageSection(loadDom(await readFile(`${SNAP}/pages/${keyOf(knot.page)}.html`, 'utf8')), knot.passage);
+      if (section) { knot.section = section; changes.add('section'); }
     }
   }
-  if (changed) {
+  for (const end of [hole.start, hole.end]) {
+    const page = manifest.pages[keyOf(end.page)];
+    if (!end.description && page.description) { end.description = page.description; changes.add('description'); }
+    if (!end.image && page.image) { end.image = page.image.file; changes.add('image'); }
+  }
+  if (changes.size) {
     await writeFile(`${ROOT}holes/${file}`, JSON.stringify(hole, null, 2) + '\n');
-    console.log(`  pinned revisions written to holes/${file}`);
+    console.log(`  holes/${file}: wrote ${[...changes].join(', ')}`);
   }
 }
+
+// An onward link may point at an old title that now redirects to the next page
+// (e.g. "Seathwaite, Allerdale" → "Seathwaite, Cumberland"). Resolve those and
+// record the real destination in the snapshot, so the link counts.
+for (const { hole } of holes) {
+  for (const knot of hole.knots) {
+    if (!knot.onwardLinkText) continue;
+    const path = `${SNAP}/pages/${keyOf(knot.page)}.html`;
+    const body = loadDom(await readFile(path, 'utf8'));
+    if (!knotProblems(body, knot).some((p) => p.startsWith('onward link'))) continue;
+    const want = knot.onwardLinkText.replace(/\s+/g, ' ').trim();
+    const targets = new Set(
+      [...body.querySelectorAll('a[data-target]')]
+        .filter((a) => a.textContent.replace(/\s+/g, ' ').trim() === want)
+        .map((a) => a.getAttribute('data-target')),
+    );
+    for (const target of targets) {
+      const q = await get(`https://en.wikipedia.org/w/api.php?action=query&format=json&redirects=1&titles=${encodeURIComponent(target)}`);
+      const resolved = q.query?.redirects?.[0]?.to;
+      if (resolved && resolved.toLowerCase() === knot.nextPage.toLowerCase()) {
+        for (const a of body.querySelectorAll('a[data-target]')) {
+          if (a.getAttribute('data-target') === target) a.setAttribute('data-target', knot.nextPage);
+        }
+        await writeFile(path, body.innerHTML);
+        console.log(`  ${knot.page}: link "${want}" redirects ${target} → ${knot.nextPage}`);
+      }
+    }
+  }
+}
+
+// The text-fragment anchor for each passage's "open at this passage" link.
+for (const { hole } of holes) {
+  for (const knot of hole.knots) {
+    const page = manifest.pages[keyOf(knot.page)];
+    const body = loadDom(await readFile(`${SNAP}/pages/${keyOf(knot.page)}.html`, 'utf8'));
+    const fragment = fragmentFor(body, knot.passage);
+    if (fragment) (page.fragments ??= {})[fragmentKey(knot.passage)] = fragment;
+    else console.log(`  ! no unique opening for a passage on ${knot.page}; its link falls back to the first words`);
+  }
+}
+await writeFile(`${SNAP}/manifest.json`, JSON.stringify(manifest, null, 2) + '\n');
 
 console.log('\nKnot checks');
 let problems = 0;

@@ -1,0 +1,60 @@
+{
+  "id": "ice-7-eleven",
+  "claim": "7-Eleven began as a place that sold ice.",
+  "start": {
+    "title": "Ice",
+    "page": "Ice",
+    "description": "Frozen water; the solid state of water",
+    "image": "snapshots/images/Ice.jpg"
+  },
+  "end": {
+    "title": "7-Eleven",
+    "page": "7-Eleven",
+    "description": "American multinational convenience store chain",
+    "image": "snapshots/images/7-Eleven.jpg"
+  },
+  "knots": [
+    {
+      "page": "Ice",
+      "url": "https://en.wikipedia.org/wiki/Ice",
+      "revision": 1379160755,
+      "section": "Harvesting",
+      "passage": "In the United States, the first cargo of ice was sent from New York City to Charleston, South Carolina, in 1799, and by the first half of the 19th century, ice harvesting had become a big business. Frederic Tudor, who became known as the \"Ice King\", worked on developing better insulation products for long distance shipments of ice, especially to the tropics; this became known as the ice trade.",
+      "hatnote": "Frozen water became big business, and one man wanted to ship it to the tropics.",
+      "onwardLinkText": "Frederic Tudor",
+      "nextPage": "Frederic Tudor"
+    },
+    {
+      "page": "Frederic Tudor",
+      "url": "https://en.wikipedia.org/wiki/Frederic_Tudor",
+      "revision": 1374840879,
+      "section": "Career",
+      "passage": "In 1833, fellow Boston-based merchant Samuel Austin proposed a partnership for selling ice to India, then some 16,000 miles (26,000 km) and four months away from Massachusetts. On May 12, 1833, the brig Tuscany sailed from Boston for Calcutta, its hold filled with 180 tons of ice cut during the winter. When it approached the Ganges in September 1833, many believed the delivery was an elaborate joke, but the ship still had 100 tons of ice upon arrival. Over the next 20 years, Calcutta would become Tudor's most lucrative destination, yielding an estimated $220,000 in profits (equivalent to $8.5 million in 2025). Tudor had three ice houses built in India for storage, in Calcutta, Bombay, and Madras. When Tudor's India business eventually collapsed in the 1880's as a result of commercial refrigeration, the ice house in Madras was sold and remodeled to become the Vivekanandar Illam.",
+      "hatnote": "A ship of New England ice reached Calcutta with over half of it still frozen.",
+      "onwardLinkText": "ice houses",
+      "nextPage": "Ice house (building)"
+    },
+    {
+      "page": "Ice house (building)",
+      "url": "https://en.wikipedia.org/wiki/Ice_house_(building)",
+      "revision": 1363127926,
+      "section": "Texas and the American South",
+      "passage": "In Texas, former ice houses are a cultural tradition. Ice merchants diversified to sell groceries and cold beer, serving as early convenience stores and local gathering places. The widespread 7-Eleven chain of convenience stores in the U.S., first known as U-Tote'm Stores, developed from ice houses operated by ice manufacturers, like the Southland Ice Manufacturing Company, in Houston, Dallas, and San Antonio in the 1930s. Southland was not the only company in the Southern United States to develop a convenience-store corporation from an ice business. Munford Inc. of Atlanta began in the early 20th century by vending both ice and coal from mule-drawn wagons, as the Atlantic Ice and Coal Company. By the 1970s, Munford, Inc. was operating a large chain of convenience stores with the name Majik Market (the company was sold in 1988 and filed Chapter 11 bankruptcy in 1990).",
+      "hatnote": "In Texas, ice houses started selling groceries and cold beer.",
+      "onwardLinkText": "7-Eleven",
+      "nextPage": "7-Eleven"
+    },
+    {
+      "page": "7-Eleven",
+      "url": "https://en.wikipedia.org/wiki/7-Eleven",
+      "revision": 1379249397,
+      "section": "History",
+      "passage": "In 1946, in an effort to continue the company's post-war recovery, the name of the franchise was changed to 7-Eleven to reflect the stores' new hours of operation (7 a.m. to 11 p.m.), which were unprecedented at the time. In 1963, 7-Eleven experimented with a 24-hour schedule in Austin, Texas, after an Austin store stayed open all night to satisfy customer demand. Later on, 24-hour stores were established in Fort Worth and Dallas, Texas, as well as Las Vegas, Nevada. In 1971, Southland acquired convenience stores of the former Pak-A-Sak chain owned by Graham Allen Penniman Sr., of Shreveport, Louisiana.",
+      "hatnote": "The name was simply the opening hours.",
+      "onwardLinkText": null,
+      "nextPage": "7-Eleven"
+    }
+  ],
+  "payoff": "Ice houses turned into corner shops, and one chain named itself after its hours: 7 to 11.",
+  "caveats": []
+}

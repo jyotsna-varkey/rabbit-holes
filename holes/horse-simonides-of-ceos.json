@@ -1,0 +1,62 @@
+{
+  "id": "horse-simonides-of-ceos",
+  "claim": "The inventor of the memory palace was told he should have invented forgetting.",
+  "start": {
+    "title": "Horse",
+    "page": "Horse",
+    "description": "Animal",
+    "image": "snapshots/images/Horse.jpg"
+  },
+  "end": {
+    "title": "Simonides of Ceos",
+    "page": "Simonides of Ceos",
+    "description": "Greek lyric poet (c. 556–468 BC)",
+    "image": "snapshots/images/Simonides-of-Ceos.png"
+  },
+  "knots": [
+    {
+      "page": "Horse",
+      "url": "https://en.wikipedia.org/wiki/Horse",
+      "revision": 1379264111,
+      "section": "Intelligence and learning",
+      "passage": "Studies have indicated that horses perform a number of cognitive tasks on a daily basis, meeting mental challenges that include food procurement and identification of individuals within a social system. They also have good spatial discrimination abilities. They are naturally curious and apt to investigate things they have not seen before. Studies have assessed equine intelligence in areas such as problem solving, speed of learning, and memory. Horses excel at simple learning, but also are able to use more advanced cognitive abilities that involve categorization and concept learning. They can learn using habituation, desensitization, classical conditioning, operant conditioning, and positive and negative reinforcement. One study has indicated that horses can differentiate between \"more or less\" if the quantity involved is less than four.",
+      "hatnote": "Researchers test horses on learning and memory.",
+      "onwardLinkText": "memory",
+      "nextPage": "Memory"
+    },
+    {
+      "page": "Memory",
+      "url": "https://en.wikipedia.org/wiki/Memory",
+      "revision": 1377025593,
+      "section": "Improving",
+      "passage": "Memorization is a method of learning that allows an individual to recall information verbatim. Rote learning is the method most often used. Methods of memorizing things have been the subject of much discussion over the years with some writers, such as Cosmos Rossellius using visual alphabets. The spacing effect shows that an individual is more likely to remember a list of items when rehearsal is spaced over an extended period of time. In contrast to this is cramming: an intensive memorization in a short period of time. The spacing effect is exploited to improve memory in spaced repetition flashcard training. Also relevant is the Zeigarnik effect, which states that people remember uncompleted or interrupted tasks better than completed ones. The so-called Method of loci uses spatial memory to memorize non-spatial information. Another memory improvement technique called Mnemonics is based on linking the material to be recalled with information that is organized in groups of images or words. Example VIBGYOR to remember all the rainbow colors in chronology.",
+      "hatnote": "One memory trick uses imaginary places.",
+      "onwardLinkText": "Method of loci",
+      "nextPage": "Method of loci"
+    },
+    {
+      "page": "Method of loci",
+      "url": "https://en.wikipedia.org/wiki/Method_of_loci",
+      "revision": 1376634308,
+      "section": "Classical Roman accounts",
+      "passage": "The method of loci is traditionally associated with the Greek poet Simonides of Ceos, who is said to have used it to recall the seating arrangement at a banquet hall that collapsed, allowing him to identify the crushed victims by remembering where each person had been seated. The story appears in Cicero's De Oratore (55 BCE) and was later recounted by Quintilian in Institutio Oratoria (circa 95 CE). A detailed description of the technique also appears in the anonymous Rhetorica ad Herennium (circa 90 BCE).",
+      "hatnote": "It's credited to a poet who survived a collapsing banquet hall.",
+      "onwardLinkText": "Simonides of Ceos",
+      "nextPage": "Simonides of Ceos"
+    },
+    {
+      "page": "Simonides of Ceos",
+      "url": "https://en.wikipedia.org/wiki/Simonides_of_Ceos",
+      "revision": 1352230113,
+      "section": "The inventor",
+      "passage": "During the excavation of the rubble of Scopas's dining hall, Simonides was called upon to identify each guest killed. Their bodies had been crushed beyond recognition but he completed the gruesome task by correlating their identities to their positions (loci in Latin) at the table before his departure. He later drew on this experience to develop the 'memory theatre' or 'memory palace', a system for mnemonics widely used in oral societies until the Renaissance. According to Cicero, Themistocles wasn't much impressed with the poet's invention: \"I would rather a technique of forgetting, for I remember what I would rather not remember and cannot forget what I would rather forget.\"",
+      "hatnote": "Not everyone was impressed.",
+      "onwardLinkText": null,
+      "nextPage": "Simonides of Ceos"
+    }
+  ],
+  "payoff": "A technique for remembering everything got the reply that forgetting would be more useful.",
+  "caveats": [
+    "Knot 3: the banquet story is tradition (\"is said to\"), told by Cicero and Quintilian."
+  ]
+}

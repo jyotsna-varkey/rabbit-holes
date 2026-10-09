@@ -1,0 +1,60 @@
+{
+  "id": "piano-4-33",
+  "claim": "One of the most famous piano pieces tells the pianist not to play.",
+  "start": {
+    "title": "Piano",
+    "page": "Piano",
+    "description": "Keyboard instrument",
+    "image": "snapshots/images/Piano.jpg"
+  },
+  "end": {
+    "title": "4′33″",
+    "page": "4′33″",
+    "description": "1952 modernist composition by John Cage",
+    "image": "snapshots/images/4-33.webp"
+  },
+  "knots": [
+    {
+      "page": "Piano",
+      "url": "https://en.wikipedia.org/wiki/Piano",
+      "revision": 1378630582,
+      "section": "Specialized",
+      "passage": "The prepared piano, present in some contemporary art music from the 20th and 21st century is a piano which has objects placed inside it to alter its sound, or has had its mechanism changed in some other way. The scores for music for prepared piano specify the modifications, for example, instructing the pianist to insert pieces of rubber, paper, metal screws, or washers in between the strings. These objects mute the strings or alter their timbre.",
+      "hatnote": "Some scores ask pianists to wedge screws and rubber between the strings.",
+      "onwardLinkText": "prepared piano",
+      "nextPage": "Prepared piano"
+    },
+    {
+      "page": "Prepared piano",
+      "url": "https://en.wikipedia.org/wiki/Prepared_piano",
+      "revision": 1375257369,
+      "section": "John Cage",
+      "passage": "The invention of the \"prepared piano\", per se, is usually traced to John Cage. Cage first prepared a piano when he was commissioned to write music for Bacchanale, a dance by Syvilla Fort (its date is variously given as 1938 or 1940). For some time previously, Cage had been writing exclusively for a percussion ensemble, but the hall where Fort’s dance was to be staged had no room for a percussion group. The only instrument available was a single grand piano. After some consideration, Cage said that he realized it was possible \"to place in the hands of a single pianist the equivalent of an entire percussion orchestra ... With just one musician, you can really do an unlimited number of things on the inside of the piano if you have at your disposal an exploded keyboard\".",
+      "hatnote": "It started because a dance stage had no room for drums.",
+      "onwardLinkText": "John Cage",
+      "nextPage": "John Cage"
+    },
+    {
+      "page": "John Cage",
+      "url": "https://en.wikipedia.org/wiki/John_Cage",
+      "revision": 1379055809,
+      "section": "1950s: Discovering chance",
+      "passage": "In 1952–1953, he completed another mammoth project—Williams Mix for eight magnetic tapes, which Brown, Feldman, Tudor, and Bebe and Louis Barron helped to put together. Also in 1952, Cage composed the piece that became his best-known and most controversial creation: 4′33″. The score instructs the performer not to play the instrument during the entire duration of the piece—four minutes, thirty-three seconds—and is meant to be perceived as consisting of the sounds of the environment that the listeners hear while it is performed. Cage had conceived of \"a silent piece\" years earlier, but was reluctant to write it down; indeed, the premiere (given by Tudor on August 29, 1952, at Woodstock, New York) caused an uproar in the audience. The reaction to 4′33″ was just a part of the larger picture: on the whole, it was the adoption of chance procedures that had disastrous consequences for Cage's reputation. The press, which used to react favorably to his earlier percussion and prepared piano music, ignored his new works, and many valuable friendships and connections were lost. Boulez, who used to promote Cage's work in Europe, was opposed to Cage's particular approach to the use of chance, and so were other composers who came to prominence during the 1950s, such as Karlheinz Stockhausen.",
+      "hatnote": "Then Cage wrote a piece with no notes at all.",
+      "onwardLinkText": "4′33″",
+      "nextPage": "4′33″"
+    },
+    {
+      "page": "4′33″",
+      "url": "https://en.wikipedia.org/wiki/4%E2%80%B233%E2%80%B3",
+      "revision": 1375617582,
+      "section": "First Tacet Edition",
+      "passage": "The so-called First Tacet Edition (or Typed Tacet Edition) (1960) is a typewritten score, originally printed in Edition Peters as EP No. 6777. It lists the three movements using Roman numbers, with the word 'tacet' underneath each. A note by Cage describes the first performance and mentions that \"the work may be performed by any instrumentalist or combination of instrumentalists and last any length of time\". In doing so, Cage not only regulates the reading of the score, but also determines the identity of the composition. Conversely to the initial two manuscripts, Cage notes that the premiere organized the movements into the following durations: 33\", 2'40\" and 1'20\", and adds that their length \"must be found by chance\" performance. The First Tacet Edition is described in Michael Nyman's book Experimental Music: Cage and Beyond, but is not reproduced.",
+      "hatnote": "For all its exact-sounding title, the score lets it last any length of time.",
+      "onwardLinkText": null,
+      "nextPage": "4′33″"
+    }
+  ],
+  "payoff": "The piece named after its exact length lets the performer choose any length.",
+  "caveats": []
+}

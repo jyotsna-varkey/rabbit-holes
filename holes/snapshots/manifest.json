@@ -1,6 +1,260 @@
 {
   "fetched": "2026-10-09",
   "pages": {
+    "Airship": {
+      "title": "Airship",
+      "description": "Powered lighter-than-air aircraft",
+      "revision": 1378220008,
+      "url": "https://en.wikipedia.org/wiki/Airship",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Airship&oldid=1378220008",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Airship.jpg",
+        "width": 330,
+        "height": 220,
+        "credit": {
+          "file": "Zeppellin_NT_amk.JPG",
+          "artist": "AngMoKio",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Zeppellin_NT_amk.JPG"
+        }
+      },
+      "fragments": {
+        "The U.S. Navy experimented with using airships as airborne aircraft carriers, bu": "The U.S. Navy experimented with using airships as airborne aircraft"
+      }
+    },
+    "USS-Akron": {
+      "title": "USS Akron",
+      "description": "U.S. Navy airship destroyed in 1933",
+      "revision": 1376438297,
+      "url": "https://en.wikipedia.org/wiki/USS_Akron",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=USS_Akron&oldid=1376438297",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/USS-Akron.jpg",
+        "width": 330,
+        "height": 256,
+        "credit": {
+          "file": "ZRS-4_landing_h42156.jpg",
+          "artist": "USN",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:ZRS-4_landing_h42156.jpg"
+        }
+      },
+      "fragments": {
+        "Akron and Macon (which was still under construction) were regarded as potential ": "Akron and Macon (which was still under construction) were regarded"
+      }
+    },
+    "Airborne-aircraft-carrier": {
+      "title": "Airborne aircraft carrier",
+      "description": "Type of mother ship aircraft",
+      "revision": 1370809379,
+      "url": "https://en.wikipedia.org/wiki/Airborne_aircraft_carrier",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Airborne_aircraft_carrier&oldid=1370809379",
+      "snapshot": true,
+      "image": null,
+      "fragments": {
+        "The design of the 747-AAC had space for a crew of 44. The aircraft was designed ": "The design of the 747-AAC had space for a crew"
+      }
+    },
+    "Parasite-aircraft": {
+      "title": "Parasite aircraft",
+      "description": "Small plane aboard an airborne carrier",
+      "revision": 1374266765,
+      "url": "https://en.wikipedia.org/wiki/Parasite_aircraft",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Parasite_aircraft&oldid=1374266765",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Parasite-aircraft.jpg",
+        "width": 330,
+        "height": 249,
+        "credit": {
+          "file": "F-84E_FICON.jpg",
+          "artist": "USAF",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:F-84E_FICON.jpg"
+        }
+      },
+      "fragments": {
+        "During the early years of the Cold War, the United States Air Force experimented": "During the early years of the Cold War, the United"
+      }
+    },
+    "Aluminium": {
+      "title": "Aluminium",
+      "description": "Chemical element with atomic number 13 (Al)",
+      "revision": 1379040707,
+      "url": "https://en.wikipedia.org/wiki/Aluminium",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Aluminium&oldid=1379040707",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Aluminium.jpg",
+        "width": 330,
+        "height": 330,
+        "credit": {
+          "file": "Aluminium-4.jpg",
+          "artist": "Unknown authorUnknown author",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Aluminium-4.jpg"
+        }
+      },
+      "fragments": {
+        "As Wöhler's method could not yield great quantities of aluminium, the metal rema": "As Wöhler's method could not yield great quantities of aluminium"
+      }
+    },
+    "Washington-Monument": {
+      "title": "Washington Monument",
+      "description": "U.S. national memorial in Washington, D.C.",
+      "revision": 1377686994,
+      "url": "https://en.wikipedia.org/wiki/Washington_Monument",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Washington_Monument&oldid=1377686994",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Washington-Monument.jpg",
+        "width": 330,
+        "height": 440,
+        "credit": {
+          "file": "Washington_Monument_2022.jpg",
+          "artist": "Greyfiveys",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Washington_Monument_2022.jpg"
+        }
+      },
+      "fragments": {
+        "The building of the monument proceeded quickly after Congress had provided suffi": "The building of the monument proceeded quickly after Congress had"
+      }
+    },
+    "Hall-H-roult-process": {
+      "title": "Hall–Héroult process",
+      "description": "Aluminium smelting process",
+      "revision": 1375354537,
+      "url": "https://en.wikipedia.org/wiki/Hall%E2%80%93H%C3%A9roult_process",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Hall%E2%80%93H%C3%A9roult_process&oldid=1375354537",
+      "snapshot": true,
+      "image": null,
+      "fragments": {
+        "The Hall–Héroult process was discovered independently and almost simultaneously ": "The Hall–Héroult process was discovered independently and almost simultaneously in"
+      }
+    },
+    "Charles-Martin-Hall": {
+      "title": "Charles Martin Hall",
+      "description": "American inventor, businessman, and chemist (1863–1914)",
+      "revision": 1341504477,
+      "url": "https://en.wikipedia.org/wiki/Charles_Martin_Hall",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Charles_Martin_Hall&oldid=1341504477",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Charles-Martin-Hall.jpg",
+        "width": 330,
+        "height": 441,
+        "credit": {
+          "file": "Charles_Martin_Hall_1880s.jpg",
+          "artist": "Unknown (Mondadori Publishers)",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:Charles_Martin_Hall_1880s.jpg"
+        }
+      },
+      "fragments": {
+        "Hall eventually became one of Oberlin College's most prominent benefactors, and ": "Hall eventually became one of Oberlin College's most prominent benefactors"
+      }
+    },
+    "Clock": {
+      "title": "Clock",
+      "description": "Instrument for measuring, keeping or indicating time",
+      "revision": 1369493558,
+      "url": "https://en.wikipedia.org/wiki/Clock",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Clock&oldid=1369493558",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Clock.jpg",
+        "width": 330,
+        "height": 452,
+        "credit": {
+          "file": "Pendulum_clock_by_Jacob_Kock,_antique_furniture_photography,_IMG_0931_edit.jpg",
+          "artist": "Christoph Braun",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Pendulum_clock_by_Jacob_Kock%2C_antique_furniture_photography%2C_IMG_0931_edit.jpg"
+        }
+      },
+      "fragments": {
+        "Until advances in the late twentieth century, navigation depended on the ability": "Until advances in the late twentieth century, navigation depended on"
+      }
+    },
+    "Marine-chronometer": {
+      "title": "Marine chronometer",
+      "description": "Clock used on ships to aid in navigation",
+      "revision": 1378704951,
+      "url": "https://en.wikipedia.org/wiki/Marine_chronometer",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Marine_chronometer&oldid=1378704951",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Marine-chronometer.jpg",
+        "width": 330,
+        "height": 220,
+        "credit": {
+          "file": "Frodsham_chronometer_mechanism.jpg",
+          "artist": "User:Ktr101",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Frodsham_chronometer_mechanism.jpg"
+        }
+      },
+      "fragments": {
+        "In 1714, the British government offered a longitude prize for a method of determ": "In 1714, the British government offered a longitude prize for"
+      }
+    },
+    "John-Harrison": {
+      "title": "John Harrison",
+      "description": "English clockmaker (1693–1776)",
+      "revision": 1376497394,
+      "url": "https://en.wikipedia.org/wiki/John_Harrison",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=John_Harrison&oldid=1376497394",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/John-Harrison.jpg",
+        "width": 330,
+        "height": 403,
+        "credit": {
+          "file": "John_Harrison_(Gemälde).jpg",
+          "artist": "Thomas King († circa 1796date QS:P,+1796-00-00T00:00:00Z/9,P1480,Q5727902)",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:John_Harrison_(Gem%C3%A4lde).jpg"
+        }
+      },
+      "fragments": {
+        "In total, Harrison received £23,065 for his work on chronometers. He received £4": "In total, Harrison received £23,065 for his work on chronometers"
+      }
+    },
+    "James-Cook": {
+      "title": "James Cook",
+      "description": "British explorer and naval officer (1728–1779)",
+      "revision": 1378699996,
+      "url": "https://en.wikipedia.org/wiki/James_Cook",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=James_Cook&oldid=1378699996",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/James-Cook.jpg",
+        "width": 330,
+        "height": 414,
+        "credit": {
+          "file": "Captainjamescookportrait.jpg",
+          "artist": "Nathaniel Dance-Holland",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:Captainjamescookportrait.jpg"
+        }
+      },
+      "fragments": {
+        "After departing England, the ships travelled south to the Dutch Cape Colony and ": "After departing England, the ships travelled south to the Dutch"
+      }
+    },
     "Coffee": {
       "title": "Coffee",
       "description": "Brewed beverage",
@@ -19,6 +273,13 @@
           "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
           "filePage": "https://commons.wikimedia.org/wiki/File:Latte_and_dark_coffee.jpg"
         }
+      },
+      "fragments": {
+        "Frenchman Gabriel de Clieu took a coffee plant to the French territory of Martin": "Frenchman Gabriel de Clieu took a coffee plant to the",
+        "Coffee was cultivated in Saint-Domingue, now Haiti, from 1734, and by 1788 it su": "Coffee was cultivated in Saint-Domingue, now Haiti, from 1734, and",
+        "Though coffee has become a global commodity, it has a history tied to food tradi": "Though coffee has become a global commodity, it has a",
+        "Up to the end of the 17th century, Yemen was the world's main producer for coffe": "Up to the end of the 17th century, Yemen was",
+        "Within the Ottoman Empire, the first coffeehouse opened in 1555 in Tahtakale, Is": "Within the Ottoman Empire, the first coffeehouse opened in 1555"
       }
     },
     "Gabriel-de-Clieu": {
@@ -39,14 +300,17 @@
           "licenseUrl": null,
           "filePage": "https://commons.wikimedia.org/wiki/File:Gabriel_de_Clieu.jpg"
         }
+      },
+      "fragments": {
+        "According to de Clieu's account, water was rationed on the voyage, and he shared": "According to de Clieu's account, water was rationed on the"
       }
     },
     "Coffeehouse": {
       "title": "Coffeehouse",
       "description": "Establishment that serves coffee",
-      "revision": 1377043428,
+      "revision": 1379296908,
       "url": "https://en.wikipedia.org/wiki/Coffeehouse",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Coffeehouse&oldid=1377043428",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Coffeehouse&oldid=1379296908",
       "snapshot": true,
       "image": {
         "file": "snapshots/images/Coffeehouse.jpg",
@@ -59,6 +323,1057 @@
           "licenseUrl": null,
           "filePage": "https://commons.wikimedia.org/wiki/File:Caf%C3%A9_de_Flore.jpg"
         }
+      },
+      "fragments": {
+        "Coffeehouses in Mecca became a concern of imams, who viewed them as places for p": "Coffeehouses in Mecca became a concern of imams, who viewed",
+        "Coffeehouses not only boosted the popularity of print news culture, they also he": "Coffeehouses not only boosted the popularity of print news culture"
+      }
+    },
+    "Lloyd-s-of-London": {
+      "title": "Lloyd's of London",
+      "description": "Insurance market in England",
+      "revision": 1371088846,
+      "url": "https://en.wikipedia.org/wiki/Lloyd's_of_London",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Lloyd's_of_London&oldid=1371088846",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Lloyd-s-of-London.jpg",
+        "width": 330,
+        "height": 495,
+        "credit": {
+          "file": "Lloyd's_insurance_exterior_at_night.jpg",
+          "artist": "Lloyd's of London",
+          "license": "CC BY 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Lloyd's_insurance_exterior_at_night.jpg"
+        }
+      },
+      "fragments": {
+        "A year later in April 1912 Lloyd's suffered perhaps its most famous loss: the si": "A year later in April 1912 Lloyd's suffered perhaps its"
+      }
+    },
+    "Titanic": {
+      "title": "Titanic",
+      "description": "British passenger liner that sank in 1912",
+      "revision": 1375768600,
+      "url": "https://en.wikipedia.org/wiki/Titanic",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Titanic&oldid=1375768600",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Titanic.jpg",
+        "width": 330,
+        "height": 202,
+        "credit": {
+          "file": "RMS_Titanic_3_(cropped_to_ship).jpg",
+          "artist": "Francis Godolphin Osbourne Stuart",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:RMS_Titanic_3_(cropped_to_ship).jpg"
+        }
+      },
+      "fragments": {
+        "Titanic received a series of warnings from other ships of drifting ice in the ar": "Titanic received a series of warnings from other ships of"
+      }
+    },
+    "Computer": {
+      "title": "Computer",
+      "description": "Programmable machine that processes data",
+      "revision": 1374584850,
+      "url": "https://en.wikipedia.org/wiki/Computer",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Computer&oldid=1374584850",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Computer.jpg",
+        "width": 330,
+        "height": 257,
+        "credit": {
+          "file": "ENIAC-changing_a_tube_(cropped).jpg",
+          "artist": "M. Weik",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:ENIAC-changing_a_tube_(cropped).jpg"
+        }
+      },
+      "fragments": {
+        "The Antikythera mechanism is believed to be the earliest known mechanical analog": "The Antikythera mechanism is believed to be the earliest known"
+      }
+    },
+    "Antikythera-mechanism": {
+      "title": "Antikythera mechanism",
+      "description": "Ancient Greek analogue astronomical computer",
+      "revision": 1377274051,
+      "url": "https://en.wikipedia.org/wiki/Antikythera_mechanism",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Antikythera_mechanism&oldid=1377274051",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Antikythera-mechanism.webp",
+        "width": 330,
+        "height": 330,
+        "credit": {
+          "file": "Antikythera_Fragment_A_(Front).webp",
+          "artist": "Logg Tandy",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Antikythera_Fragment_A_(Front).webp"
+        }
+      },
+      "fragments": {
+        "The artefact was among wreckage retrieved from a shipwreck off the coast of the ": "The artefact was among wreckage retrieved from a shipwreck off"
+      }
+    },
+    "Antikythera-wreck": {
+      "title": "Antikythera wreck",
+      "description": "Roman-era shipwreck",
+      "revision": 1362587595,
+      "url": "https://en.wikipedia.org/wiki/Antikythera_wreck",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Antikythera_wreck&oldid=1362587595",
+      "snapshot": true,
+      "image": null,
+      "fragments": {
+        "Some scholars speculated that the ship was carrying part of the loot of the Roma": "Some scholars speculated that the ship was carrying part of"
+      }
+    },
+    "Jacques-Cousteau": {
+      "title": "Jacques Cousteau",
+      "description": "French oceanographer and author (1910–1997)",
+      "revision": 1377425729,
+      "url": "https://en.wikipedia.org/wiki/Jacques_Cousteau",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Jacques_Cousteau&oldid=1377425729",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Jacques-Cousteau.jpg",
+        "width": 330,
+        "height": 463,
+        "credit": {
+          "file": "Cousteau1972_(cropped).jpg",
+          "artist": "Hans Peters for Anefo .",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Cousteau1972_(cropped).jpg"
+        }
+      },
+      "fragments": {
+        "Cousteau was born on 11 June 1910, in Saint-André-de-Cubzac, Gironde, France, to": "Cousteau was born on 11 June 1910, in Saint-André-de-Cubzac, Gironde"
+      }
+    },
+    "Cotton": {
+      "title": "Cotton",
+      "description": "Plant fiber from the genus Gossypium",
+      "revision": 1375610201,
+      "url": "https://en.wikipedia.org/wiki/Cotton",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Cotton&oldid=1375610201",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Cotton.jpg",
+        "width": 330,
+        "height": 236,
+        "credit": {
+          "file": "CottonPlant.JPG",
+          "artist": "Unknown author",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:CottonPlant.JPG"
+        }
+      },
+      "fragments": {
+        "Handheld roller cotton gins had been used in India since the 6th century, and wa": "Handheld roller cotton gins had been used in India since"
+      }
+    },
+    "Cotton-gin": {
+      "title": "Cotton gin",
+      "description": "Machine that separates cotton from seeds",
+      "revision": 1378916260,
+      "url": "https://en.wikipedia.org/wiki/Cotton_gin",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Cotton_gin&oldid=1378916260",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Cotton-gin.jpg",
+        "width": 330,
+        "height": 217,
+        "credit": {
+          "file": "Cotton_gin_EWM_2007.jpg",
+          "artist": "Tom Murphy VII",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:Cotton_gin_EWM_2007.jpg"
+        }
+      },
+      "fragments": {
+        "A modern mechanical cotton gin was created by American inventor Eli Whitney in 1": "A modern mechanical cotton gin was created by American inventor"
+      }
+    },
+    "Eli-Whitney": {
+      "title": "Eli Whitney",
+      "description": "American inventor (1765–1825)",
+      "revision": 1372573496,
+      "url": "https://en.wikipedia.org/wiki/Eli_Whitney",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Eli_Whitney&oldid=1372573496",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Eli-Whitney.jpeg",
+        "width": 330,
+        "height": 426,
+        "credit": {
+          "file": "Eli_Whitney_by_Samuel_Finley_Breese_Morse_1822.jpeg",
+          "artist": "Samuel Finley Breese Morse",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:Eli_Whitney_by_Samuel_Finley_Breese_Morse_1822.jpeg"
+        }
+      },
+      "fragments": {
+        "Whitney is most famous for two innovations which came to have significant impact": "Whitney is most famous for two innovations which came to"
+      }
+    },
+    "Interchangeable-parts": {
+      "title": "Interchangeable parts",
+      "description": "Practically identical components",
+      "revision": 1378395733,
+      "url": "https://en.wikipedia.org/wiki/Interchangeable_parts",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Interchangeable_parts&oldid=1378395733",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Interchangeable-parts.jpg",
+        "width": 330,
+        "height": 238,
+        "credit": {
+          "file": "Ford_assembly_line_-_1913_(restored).jpg",
+          "artist": "Unknown authorUnknown author",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:Ford_assembly_line_-_1913_(restored).jpg"
+        }
+      },
+      "fragments": {
+        "Eli Terry was using interchangeable parts using a milling machine as early as 18": "Eli Terry was using interchangeable parts using a milling machine"
+      }
+    },
+    "Eraser": {
+      "title": "Eraser",
+      "description": "Stationery item used for erasing marks on paper",
+      "revision": 1376516241,
+      "url": "https://en.wikipedia.org/wiki/Eraser",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Eraser&oldid=1376516241",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Eraser.jpg",
+        "width": 330,
+        "height": 165,
+        "credit": {
+          "file": "Office-pink-erasers.jpg",
+          "artist": "Evan-Amos",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:Office-pink-erasers.jpg"
+        }
+      },
+      "fragments": {
+        "In 1770, the English optician and scientific instrument maker Edward Nairne repo": "In 1770, the English optician and scientific instrument maker Edward"
+      }
+    },
+    "Joseph-Priestley": {
+      "title": "Joseph Priestley",
+      "description": "English chemist and polymath (1733–1804)",
+      "revision": 1375145083,
+      "url": "https://en.wikipedia.org/wiki/Joseph_Priestley",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Joseph_Priestley&oldid=1375145083",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Joseph-Priestley.jpg",
+        "width": 330,
+        "height": 449,
+        "credit": {
+          "file": "Joseph_Priestley_(NPG).jpg",
+          "artist": "James Sharples",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:Joseph_Priestley_(NPG).jpg"
+        }
+      },
+      "fragments": {
+        "Priestley is credited with his independent discovery of oxygen by the thermal de": "Priestley is credited with his independent discovery of oxygen by"
+      }
+    },
+    "Carbonated-water": {
+      "title": "Carbonated water",
+      "description": "Water containing dissolved carbon dioxide gas",
+      "revision": 1378014099,
+      "url": "https://en.wikipedia.org/wiki/Carbonated_water",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Carbonated_water&oldid=1378014099",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Carbonated-water.gif",
+        "width": 258,
+        "height": 240,
+        "credit": {
+          "file": "Drinking_glass_00118.gif",
+          "artist": "Nevit Dilmen (talk)",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Drinking_glass_00118.gif"
+        }
+      },
+      "fragments": {
+        "While Priestley's discovery ultimately led to the creation of the soft drink ind": "While Priestley's discovery ultimately led to the creation of the"
+      }
+    },
+    "Johann-Jacob-Schweppe": {
+      "title": "Johann Jacob Schweppe",
+      "description": "German-Swiss scientist (1740–1821)",
+      "revision": 1351301726,
+      "url": "https://en.wikipedia.org/wiki/Johann_Jacob_Schweppe",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Johann_Jacob_Schweppe&oldid=1351301726",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Johann-Jacob-Schweppe.jpg",
+        "width": 330,
+        "height": 330,
+        "credit": {
+          "file": "1783_Johann_Jacob_Schweppe.jpg",
+          "artist": "Unklar",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:1783_Johann_Jacob_Schweppe.jpg"
+        }
+      },
+      "fragments": {
+        "At the time Schweppe was developing these products, the addition of carbon dioxi": "At the time Schweppe was developing these products, the addition"
+      }
+    },
+    "Gold": {
+      "title": "Gold",
+      "description": "Chemical element with atomic number 79 (Au)",
+      "revision": 1378929640,
+      "url": "https://en.wikipedia.org/wiki/Gold",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Gold&oldid=1378929640",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Gold.jpg",
+        "width": 330,
+        "height": 214,
+        "credit": {
+          "file": "Gold-crystals.jpg",
+          "artist": "Alchemist-hp (talk) www.pse-mendelejew.de",
+          "license": "CC BY-SA 3.0 de",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Gold-crystals.jpg"
+        }
+      },
+      "fragments": {
+        "After World War II gold was replaced by a system of nominally convertible curren": "After World War II gold was replaced by a system"
+      }
+    },
+    "Gold-standard": {
+      "title": "Gold standard",
+      "description": "Monetary system based on the value of gold",
+      "revision": 1375978719,
+      "url": "https://en.wikipedia.org/wiki/Gold_standard",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Gold_standard&oldid=1375978719",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Gold-standard.png",
+        "width": 330,
+        "height": 172,
+        "credit": {
+          "file": "Two_20kr_gold_coins.png",
+          "artist": "Anonimski",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Two_20kr_gold_coins.png"
+        }
+      },
+      "fragments": {
+        "Historically, the silver standard and bimetallism have been more common than the": "Historically, the silver standard and bimetallism have been more common"
+      }
+    },
+    "Isaac-Newton": {
+      "title": "Isaac Newton",
+      "description": "English polymath (1642–1727)",
+      "revision": 1378734104,
+      "url": "https://en.wikipedia.org/wiki/Isaac_Newton",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Isaac_Newton&oldid=1378734104",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Isaac-Newton.jpg",
+        "width": 330,
+        "height": 397,
+        "credit": {
+          "file": "Portrait_of_Sir_Isaac_Newton,_1689_(brightened).jpg",
+          "artist": "Godfrey Kneller",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:Portrait_of_Sir_Isaac_Newton%2C_1689_(brightened).jpg"
+        }
+      },
+      "fragments": {
+        "Of an estimated ten million words of writing in Newton's papers, about one milli": "Of an estimated ten million words of writing in Newton's"
+      }
+    },
+    "Alchemy": {
+      "title": "Alchemy",
+      "description": "Branch of natural philosophy",
+      "revision": 1377992715,
+      "url": "https://en.wikipedia.org/wiki/Alchemy",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Alchemy&oldid=1377992715",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Alchemy.jpg",
+        "width": 330,
+        "height": 220,
+        "credit": {
+          "file": "E-codices_zbz-Ms-Rh-0172_044_max_copy.jpg",
+          "artist": "Unknown authorUnknown author",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:E-codices_zbz-Ms-Rh-0172_044_max_copy.jpg"
+        }
+      },
+      "fragments": {
+        "The terms \"chemia\" and \"alchemia\" were used as synonyms in the early modern peri": "The terms \"chemia\" and \"alchemia\" were used as synonyms in"
+      }
+    },
+    "Horse": {
+      "title": "Horse",
+      "description": "Animal",
+      "revision": 1379264111,
+      "url": "https://en.wikipedia.org/wiki/Horse",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Horse&oldid=1379264111",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Horse.jpg",
+        "width": 330,
+        "height": 227,
+        "credit": {
+          "file": "Nokota_Horses_cropped.jpg",
+          "artist": "Nokota_Horses.jpg: François Marchal derivative work: Dana boomer (talk)",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Nokota_Horses_cropped.jpg"
+        }
+      },
+      "fragments": {
+        "Studies have indicated that horses perform a number of cognitive tasks on a dail": "Studies have indicated that horses perform a number of cognitive"
+      }
+    },
+    "Memory": {
+      "title": "Memory",
+      "description": "Faculty of mind to store and retrieve data",
+      "revision": 1377025593,
+      "url": "https://en.wikipedia.org/wiki/Memory",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Memory&oldid=1377025593",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Memory.gif",
+        "width": 330,
+        "height": 179,
+        "credit": {
+          "file": "Memory.gif",
+          "artist": "Bernhard Wenzl",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Memory.gif"
+        }
+      },
+      "fragments": {
+        "Memorization is a method of learning that allows an individual to recall informa": "Memorization is a method of learning that allows an individual"
+      }
+    },
+    "Method-of-loci": {
+      "title": "Method of loci",
+      "description": "Memory techniques adopted in ancient Roman and Greek rhetorical treatises",
+      "revision": 1376634308,
+      "url": "https://en.wikipedia.org/wiki/Method_of_loci",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Method_of_loci&oldid=1376634308",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Method-of-loci.png",
+        "width": 330,
+        "height": 215,
+        "credit": {
+          "file": "Cicero_Denounces_Catiline_in_the_Roman_Senate_by_Cesare_Maccari.png",
+          "artist": "Cesare Maccari",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:Cicero_Denounces_Catiline_in_the_Roman_Senate_by_Cesare_Maccari.png"
+        }
+      },
+      "fragments": {
+        "The method of loci is traditionally associated with the Greek poet Simonides of ": "The method of loci is traditionally associated with the Greek"
+      }
+    },
+    "Simonides-of-Ceos": {
+      "title": "Simonides of Ceos",
+      "description": "Greek lyric poet (c. 556–468 BC)",
+      "revision": 1352230113,
+      "url": "https://en.wikipedia.org/wiki/Simonides_of_Ceos",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Simonides_of_Ceos&oldid=1352230113",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Simonides-of-Ceos.png",
+        "width": 247,
+        "height": 328,
+        "credit": {
+          "file": "Nuremberg_chronicles_f_60r_3.png",
+          "artist": "Michel Wolgemut, Wilhelm Pleydenwurff; Text: Hartmann Schedel",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:Nuremberg_chronicles_f_60r_3.png"
+        }
+      },
+      "fragments": {
+        "During the excavation of the rubble of Scopas's dining hall, Simonides was calle": "During the excavation of the rubble of Scopas's dining hall"
+      }
+    },
+    "Ice": {
+      "title": "Ice",
+      "description": "Frozen water; the solid state of water",
+      "revision": 1379160755,
+      "url": "https://en.wikipedia.org/wiki/Ice",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Ice&oldid=1379160755",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Ice.jpg",
+        "width": 330,
+        "height": 220,
+        "credit": {
+          "file": "Ice_Block,_Canal_Park,_Duluth_(32752478892).jpg",
+          "artist": "Sharon Mollerus",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Ice_Block%2C_Canal_Park%2C_Duluth_(32752478892).jpg"
+        }
+      },
+      "fragments": {
+        "In the United States, the first cargo of ice was sent from New York City to Char": "In the United States, the first cargo of ice was"
+      }
+    },
+    "Frederic-Tudor": {
+      "title": "Frederic Tudor",
+      "description": "19th-century American businessman",
+      "revision": 1374840879,
+      "url": "https://en.wikipedia.org/wiki/Frederic_Tudor",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Frederic_Tudor&oldid=1374840879",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Frederic-Tudor.jpg",
+        "width": 330,
+        "height": 449,
+        "credit": {
+          "file": "Frederic_Tudor-facingright_pre1864.jpg",
+          "artist": "Unknown authorUnknown author",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:Frederic_Tudor-facingright_pre1864.jpg"
+        }
+      },
+      "fragments": {
+        "In 1833, fellow Boston-based merchant Samuel Austin proposed a partnership for s": "In 1833, fellow Boston-based merchant Samuel Austin proposed a partnership"
+      }
+    },
+    "Ice-house-building": {
+      "title": "Ice house (building)",
+      "description": "Building used for storing ice all year round, before refrigeration",
+      "revision": 1363127926,
+      "url": "https://en.wikipedia.org/wiki/Ice_house_(building)",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Ice_house_(building)&oldid=1363127926",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Ice-house-building.jpg",
+        "width": 330,
+        "height": 440,
+        "credit": {
+          "file": "Ghiacciaie_di_Boboli_01.JPG",
+          "artist": "sailko",
+          "license": "CC BY 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Ghiacciaie_di_Boboli_01.JPG"
+        }
+      },
+      "fragments": {
+        "In Texas, former ice houses are a cultural tradition. Ice merchants diversified ": "In Texas, former ice houses are a cultural tradition. Ice"
+      }
+    },
+    "7-Eleven": {
+      "title": "7-Eleven",
+      "description": "American multinational convenience store chain",
+      "revision": 1379249397,
+      "url": "https://en.wikipedia.org/wiki/7-Eleven",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=7-Eleven&oldid=1379249397",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/7-Eleven.jpg",
+        "width": 330,
+        "height": 220,
+        "credit": {
+          "file": "7-Eleven_Oita-Matsubaramachi-Store.jpg",
+          "artist": "MaedaAkihiko",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "filePage": "https://commons.wikimedia.org/wiki/File:7-Eleven_Oita-Matsubaramachi-Store.jpg"
+        }
+      },
+      "fragments": {
+        "In 1946, in an effort to continue the company's post-war recovery, the name of t": "In 1946, in an effort to continue the company's post-war"
+      }
+    },
+    "Mirror": {
+      "title": "Mirror",
+      "description": "Object that reflects an image",
+      "revision": 1379302156,
+      "url": "https://en.wikipedia.org/wiki/Mirror",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Mirror&oldid=1379302156",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Mirror.jpg",
+        "width": 300,
+        "height": 308,
+        "credit": {
+          "file": "Mirror.jpg",
+          "artist": "Cgs",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Mirror.jpg"
+        }
+      },
+      "fragments": {
+        "Tradition states that Archimedes used a large array of mirrors to burn Roman shi": "Tradition states that Archimedes used a large array of mirrors"
+      }
+    },
+    "Archimedes": {
+      "title": "Archimedes",
+      "description": "Greek mathematician and physicist (c. 287 – 212 BC)",
+      "revision": 1376063220,
+      "url": "https://en.wikipedia.org/wiki/Archimedes",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Archimedes&oldid=1376063220",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Archimedes.jpg",
+        "width": 330,
+        "height": 440,
+        "credit": {
+          "file": "Domenico-Fetti_Archimedes_1620.jpg",
+          "artist": "Domenico Fetti",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:Domenico-Fetti_Archimedes_1620.jpg"
+        }
+      },
+      "fragments": {
+        "Archimedes died during the siege of Syracuse, when he was killed by a Roman sold": "Archimedes died during the siege of Syracuse, when he was"
+      }
+    },
+    "Siege-of-Syracuse-213-212-BC": {
+      "title": "Siege of Syracuse (213–212 BC)",
+      "description": "Roman victory during the Second Punic War",
+      "revision": 1377288244,
+      "url": "https://en.wikipedia.org/wiki/Siege_of_Syracuse_(213%E2%80%93212_BC)",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Siege_of_Syracuse_(213%E2%80%93212_BC)&oldid=1377288244",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Siege-of-Syracuse-213-212-BC.jpg",
+        "width": 330,
+        "height": 221,
+        "credit": {
+          "file": "Archimedes_Directing_the_Defenses_of_Syracuse.jpg",
+          "artist": "Thomas Ralph Spence",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:Archimedes_Directing_the_Defenses_of_Syracuse.jpg"
+        }
+      },
+      "fragments": {
+        "Within the city, Archimedes devised defensive devices to counter the Roman effor": "Within the city, Archimedes devised defensive devices to counter the"
+      }
+    },
+    "Claw-of-Archimedes": {
+      "title": "Claw of Archimedes",
+      "description": "Greek anti-ship weapon used in 213–212 BC",
+      "revision": 1299107380,
+      "url": "https://en.wikipedia.org/wiki/Claw_of_Archimedes",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Claw_of_Archimedes&oldid=1299107380",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Claw-of-Archimedes.jpg",
+        "width": 330,
+        "height": 265,
+        "credit": {
+          "file": "Parigi_griffe.jpg",
+          "artist": "Giulio Parigi",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:Parigi_griffe.jpg"
+        }
+      },
+      "fragments": {
+        "The plausibility of this invention was tested in 1999 in the BBC series Secrets ": "The plausibility of this invention was tested in 1999 in"
+      }
+    },
+    "Mushroom": {
+      "title": "Mushroom",
+      "description": "Spore-bearing fruiting body of a fungus",
+      "revision": 1378988777,
+      "url": "https://en.wikipedia.org/wiki/Mushroom",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Mushroom&oldid=1378988777",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Mushroom.jpg",
+        "width": 330,
+        "height": 222,
+        "credit": {
+          "file": "Sparrige_Schüppling_(Pholiota_squarrosa).jpg",
+          "artist": "Holger Krisp",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Sparrige_Sch%C3%BCppling_(Pholiota_squarrosa).jpg"
+        }
+      },
+      "fragments": {
+        "The term \"mushroom\" and its variations may have been derived from the French wor": "The term \"mushroom\" and its variations may have been derived"
+      }
+    },
+    "Moss": {
+      "title": "Moss",
+      "description": "Division of typically non-vascular land plants",
+      "revision": 1376153997,
+      "url": "https://en.wikipedia.org/wiki/Moss",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Moss&oldid=1376153997",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Moss.jpg",
+        "width": 330,
+        "height": 248,
+        "credit": {
+          "file": "Tionesta-ac-moss2.jpg",
+          "artist": "IvoShandor",
+          "license": "CC BY 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Tionesta-ac-moss2.jpg"
+        }
+      },
+      "fragments": {
+        "Most mosses rely on the wind to disperse the spores. In the genus Sphagnum the s": "Most mosses rely on the wind to disperse the spores"
+      }
+    },
+    "Sphagnum": {
+      "title": "Sphagnum",
+      "description": "Genus of mosses, peat moss",
+      "revision": 1357278652,
+      "url": "https://en.wikipedia.org/wiki/Sphagnum",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Sphagnum&oldid=1357278652",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Sphagnum.jpg",
+        "width": 330,
+        "height": 220,
+        "credit": {
+          "file": "Sphagnum.flexuosum.jpg",
+          "artist": "James K. Lindsey",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Sphagnum.flexuosum.jpg"
+        }
+      },
+      "fragments": {
+        "Anaerobic acidic sphagnum bogs have low rates of decay, and hence preserve plant": "Anaerobic acidic sphagnum bogs have low rates of decay, and"
+      }
+    },
+    "Tollund-Man": {
+      "title": "Tollund Man",
+      "description": "Iron Age bog body from Denmark",
+      "revision": 1376169694,
+      "url": "https://en.wikipedia.org/wiki/Tollund_Man",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Tollund_Man&oldid=1376169694",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Tollund-Man.jpg",
+        "width": 330,
+        "height": 462,
+        "credit": {
+          "file": "Moorleiche_von_Tollund_Jütland_um_100_n_Chr_hingerichtet.jpg",
+          "artist": "Unknown authorUnknown author",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:Moorleiche_von_Tollund_J%C3%BCtland_um_100_n_Chr_hingerichtet.jpg"
+        }
+      },
+      "fragments": {
+        "On 8 May 1950, Tollund Man was discovered in the peat layer of the peat bog, 12 ": "On 8 May 1950, Tollund Man was discovered in the"
+      }
+    },
+    "Nutmeg": {
+      "title": "Nutmeg",
+      "description": "Spice from tree seed",
+      "revision": 1375616977,
+      "url": "https://en.wikipedia.org/wiki/Nutmeg",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Nutmeg&oldid=1375616977",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Nutmeg.jpg",
+        "width": 330,
+        "height": 220,
+        "credit": {
+          "file": "Biji_Pala_Bubuk.jpg",
+          "artist": "Herusutimbul",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Biji_Pala_Bubuk.jpg"
+        }
+      },
+      "fragments": {
+        "The earliest evidence of use of nutmeg comes in the form of 3,500-year-old potsh": "The earliest evidence of use of nutmeg comes in the"
+      }
+    },
+    "Banda-Islands": {
+      "title": "Banda Islands",
+      "description": "Volcanic islands in the Banda Sea, Maluku, Indonesia",
+      "revision": 1374268490,
+      "url": "https://en.wikipedia.org/wiki/Banda_Islands",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Banda_Islands&oldid=1374268490",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Banda-Islands.jpg",
+        "width": 330,
+        "height": 220,
+        "credit": {
+          "file": "BandaBesarIslandSeenFromFortBelgica.JPG",
+          "artist": "Photo by Mark Richards",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "filePage": "https://commons.wikimedia.org/wiki/File:BandaBesarIslandSeenFromFortBelgica.JPG"
+        }
+      },
+      "fragments": {
+        "In April 1609, Admiral Pieter Willemsz Verhoeff arrived at Banda Neira with a re": "In April 1609, Admiral Pieter Willemsz Verhoeff arrived at Banda"
+      }
+    },
+    "Jan-Pieterszoon-Coen": {
+      "title": "Jan Pieterszoon Coen",
+      "description": "Dutch colonial administrator",
+      "revision": 1364313141,
+      "url": "https://en.wikipedia.org/wiki/Jan_Pieterszoon_Coen",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Jan_Pieterszoon_Coen&oldid=1364313141",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Jan-Pieterszoon-Coen.jpg",
+        "width": 330,
+        "height": 445,
+        "credit": {
+          "file": "Jan_Pieterszoon_Coen_by_Jacob_Waben.jpg",
+          "artist": "Jacques Waben",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:Jan_Pieterszoon_Coen_by_Jacob_Waben.jpg"
+        }
+      },
+      "fragments": {
+        "He was long considered a national hero in the Netherlands. Since the 19th centur": "He was long considered a national hero in the Netherlands. Since the 19th century, his legacy has become controversial due to the violence"
+      }
+    },
+    "Dutch-conquest-of-the-Banda-Islands": {
+      "title": "Dutch conquest of the Banda Islands",
+      "description": "1609–1621 Dutch East India Company campaign",
+      "revision": 1371966664,
+      "url": "https://en.wikipedia.org/wiki/Dutch_conquest_of_the_Banda_Islands",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Dutch_conquest_of_the_Banda_Islands&oldid=1371966664",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Dutch-conquest-of-the-Banda-Islands.jpg",
+        "width": 330,
+        "height": 229,
+        "credit": {
+          "file": "Kaart_van_de_Banda-eilanden,_1599,_RP-P-OB-75.391.jpg",
+          "artist": "Rijksmuseum",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Kaart_van_de_Banda-eilanden%2C_1599%2C_RP-P-OB-75.391.jpg"
+        }
+      },
+      "fragments": {
+        "According to Coen, \"about 2,500\" inhabitants died \"of hunger and misery or by th": "According to Coen, \"about 2,500\" inhabitants died \"of hunger and"
+      }
+    },
+    "Pencil": {
+      "title": "Pencil",
+      "description": "Writing implement",
+      "revision": 1376096227,
+      "url": "https://en.wikipedia.org/wiki/Pencil",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Pencil&oldid=1376096227",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Pencil.jpg",
+        "width": 330,
+        "height": 220,
+        "credit": {
+          "file": "Pencils_hb.jpg",
+          "artist": "Original uploader was Dmgerman at en.wikipedia",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Pencils_hb.jpg"
+        }
+      },
+      "fragments": {
+        "As a technique for drawing, the closest predecessor to the pencil was silverpoin": "As a technique for drawing, the closest predecessor to the"
+      }
+    },
+    "Graphite": {
+      "title": "Graphite",
+      "description": "Crystalline form of carbon",
+      "revision": 1377432704,
+      "url": "https://en.wikipedia.org/wiki/Graphite",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Graphite&oldid=1377432704",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Graphite.jpg",
+        "width": 330,
+        "height": 423,
+        "credit": {
+          "file": "Graphite-233436.jpg",
+          "artist": "Robert M. Lavinsky",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Graphite-233436.jpg"
+        }
+      },
+      "fragments": {
+        "Sometime before 1565 (some sources say as early as 1500), an enormous deposit of": "Sometime before 1565 (some sources say as early as 1500)"
+      }
+    },
+    "Borrowdale": {
+      "title": "Borrowdale",
+      "description": "Valley and civil parish in Cumbria, England",
+      "revision": 1378832314,
+      "url": "https://en.wikipedia.org/wiki/Borrowdale",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Borrowdale&oldid=1378832314",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Borrowdale.jpg",
+        "width": 330,
+        "height": 248,
+        "credit": {
+          "file": "Borrowdale_-_Rosthwaite.jpg",
+          "artist": "Steve Mason",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Borrowdale_-_Rosthwaite.jpg"
+        }
+      },
+      "fragments": {
+        "The B5289 road runs down the full length of the valley, and at the southern end ": "The B5289 road runs down the full length of the"
+      }
+    },
+    "Seathwaite-Cumberland": {
+      "title": "Seathwaite, Cumberland",
+      "description": "Hamlet in Cumbria, England",
+      "revision": 1352563762,
+      "url": "https://en.wikipedia.org/wiki/Seathwaite%2C_Cumberland",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Seathwaite%2C_Cumberland&oldid=1352563762",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Seathwaite-Cumberland.jpg",
+        "width": 330,
+        "height": 248,
+        "credit": {
+          "file": "Seathwaite.jpg",
+          "artist": "Antiquary",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Seathwaite.jpg"
+        }
+      },
+      "fragments": {
+        "In 2008 Seathwaite was the wettest inhabited place in the United Kingdom and rec": "In 2008 Seathwaite was the wettest inhabited place in the"
+      }
+    },
+    "Piano": {
+      "title": "Piano",
+      "description": "Keyboard instrument",
+      "revision": 1378630582,
+      "url": "https://en.wikipedia.org/wiki/Piano",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Piano&oldid=1378630582",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Piano.jpg",
+        "width": 330,
+        "height": 392,
+        "credit": {
+          "file": "Steinway_Vienna_002.JPG",
+          "artist": "Gryffindor",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Steinway_Vienna_002.JPG"
+        }
+      },
+      "fragments": {
+        "The prepared piano, present in some contemporary art music from the 20th and 21s": "The prepared piano, present in some contemporary art music from"
+      }
+    },
+    "Prepared-piano": {
+      "title": "Prepared piano",
+      "description": "Musical instrument",
+      "revision": 1375257369,
+      "url": "https://en.wikipedia.org/wiki/Prepared_piano",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Prepared_piano&oldid=1375257369",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Prepared-piano.jpg",
+        "width": 330,
+        "height": 218,
+        "credit": {
+          "file": "Prepared_piano_board_Neumann.jpg",
+          "artist": "Susanna Bolle / Non-Event",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Prepared_piano_board_Neumann.jpg"
+        }
+      },
+      "fragments": {
+        "The invention of the \"prepared piano\", per se, is usually traced to John Cage. C": "The invention of the \"prepared piano\", per se, is usually"
+      }
+    },
+    "John-Cage": {
+      "title": "John Cage",
+      "description": "American avant-garde composer (1912–1992)",
+      "revision": 1379055809,
+      "url": "https://en.wikipedia.org/wiki/John_Cage",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=John_Cage&oldid=1379055809",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/John-Cage.jpg",
+        "width": 330,
+        "height": 440,
+        "credit": {
+          "file": "John_Cage_(1988).jpg",
+          "artist": "Rob Bogaerts for Anefo",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "filePage": "https://commons.wikimedia.org/wiki/File:John_Cage_(1988).jpg"
+        }
+      },
+      "fragments": {
+        "In 1952–1953, he completed another mammoth project—Williams Mix for eight magnet": "In 1952–1953, he completed another mammoth project—Williams Mix for eight"
+      }
+    },
+    "4-33": {
+      "title": "4′33″",
+      "description": "1952 modernist composition by John Cage",
+      "revision": 1375617582,
+      "url": "https://en.wikipedia.org/wiki/4%E2%80%B233%E2%80%B3",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=4%E2%80%B233%E2%80%B3&oldid=1375617582",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/4-33.webp",
+        "width": 330,
+        "height": 431,
+        "credit": {
+          "file": "4'33'_(John_Cage)_Original_Cover.webp",
+          "artist": "John Cage",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:4'33'_(John_Cage)_Original_Cover.webp"
+        }
+      },
+      "fragments": {
+        "The so-called First Tacet Edition (or Typed Tacet Edition) (1960) is a typewritt": "The so-called First Tacet Edition (or Typed Tacet Edition) (1960)"
       }
     },
     "John-Montagu-4th-Earl-of-Sandwich": {
@@ -79,6 +1394,11 @@
           "licenseUrl": null,
           "filePage": "https://commons.wikimedia.org/wiki/File:John_Montagu%2C_4th_Earl_of_Sandwich.jpg"
         }
+      },
+      "fragments": {
+        "He had remarked that coppering \"gave additional strength to the navy\" and he rep": "He had remarked that coppering \"gave additional strength to the",
+        "The sober alternative to this account is provided by Sandwich's biographer N. A.": "The sober alternative to this account is provided by Sandwich's",
+        "Lord Sandwich was a great supporter of Captain James Cook. As First Lord of the ": "Lord Sandwich was a great supporter of Captain James Cook"
       }
     },
     "Copper-sheathing": {
@@ -99,6 +1419,10 @@
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
           "filePage": "https://commons.wikimedia.org/wiki/File:Cutty_Sark_stern.jpg"
         }
+      },
+      "fragments": {
+        "It was then decided that the entire fleet should be coppered, due to the difficu": "It was then decided that the entire fleet should be",
+        "As the coppering was expensive, only the better owners tended to invest in the m": "As the coppering was expensive, only the better owners tended"
       }
     },
     "Sandwich": {
@@ -119,6 +1443,458 @@
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "filePage": "https://commons.wikimedia.org/wiki/File:Bacon%2C_lettuce%2C_tomato%2C_and_avocado.jpg"
         }
+      },
+      "fragments": {
+        "It is commonly said that Lord Sandwich, during long sessions of cribbage and oth": "It is commonly said that Lord Sandwich, during long sessions"
+      }
+    },
+    "Silk": {
+      "title": "Silk",
+      "description": "Fine, lustrous, natural fiber produced by various arthropods",
+      "revision": 1372169666,
+      "url": "https://en.wikipedia.org/wiki/Silk",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Silk&oldid=1372169666",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Silk.jpg",
+        "width": 330,
+        "height": 495,
+        "credit": {
+          "file": "Silk_raw_01a.jpg",
+          "artist": "Kuebi = Armin Kübelbeck",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Silk_raw_01a.jpg"
+        }
+      },
+      "fragments": {
+        "Silk is described in a chapter of the Fan Shengzhi shu from the Western Han empi": "Silk is described in a chapter of the Fan Shengzhi"
+      }
+    },
+    "Silk-Road": {
+      "title": "Silk Road",
+      "description": "Historical network of Eurasian trade routes",
+      "revision": 1379074984,
+      "url": "https://en.wikipedia.org/wiki/Silk_Road",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Silk_Road&oldid=1379074984",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Silk-Road.png",
+        "width": 330,
+        "height": 330,
+        "credit": {
+          "file": "Silk_road_Kazakhstan.svg",
+          "artist": "User:Kelvin Case User:Turkish Flame User:SmallJarsWithGreenLabels",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Silk_road_Kazakhstan.svg"
+        }
+      },
+      "fragments": {
+        "Byzantine Greek historian Procopius stated that two Nestorian Christian monks ev": "Byzantine Greek historian Procopius stated that two Nestorian Christian monks"
+      }
+    },
+    "Sogdia": {
+      "title": "Sogdia",
+      "description": "Ancient Iranian civilization (6th century BCE – 11th century CE)",
+      "revision": 1378304607,
+      "url": "https://en.wikipedia.org/wiki/Sogdia",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Sogdia&oldid=1378304607",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Sogdia.png",
+        "width": 330,
+        "height": 164,
+        "credit": {
+          "file": "Map_of_Sogdia.png",
+          "artist": "DEMIS Mapserver, पाटलिपुत्र",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Map_of_Sogdia.png"
+        }
+      },
+      "fragments": {
+        "The withdrawal of Chinese armies from Central Asia allowed for the rise of the S": "The withdrawal of Chinese armies from Central Asia allowed for"
+      }
+    },
+    "Sogdian-language": {
+      "title": "Sogdian language",
+      "description": "Extinct Eastern Iranian language of Central Asia",
+      "revision": 1372695432,
+      "url": "https://en.wikipedia.org/wiki/Sogdian_language",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Sogdian_language&oldid=1372695432",
+      "snapshot": true,
+      "image": null,
+      "fragments": {
+        "The economic and political importance of Sogdian guaranteed its survival in the ": "The economic and political importance of Sogdian guaranteed its survival"
+      }
+    },
+    "Snow": {
+      "title": "Snow",
+      "description": "Precipitation in the form of ice crystal flakes",
+      "revision": 1372800586,
+      "url": "https://en.wikipedia.org/wiki/Snow",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Snow&oldid=1372800586",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Snow.jpg",
+        "width": 330,
+        "height": 204,
+        "credit": {
+          "file": "CargoNet_Di_12_Euro_4000_Lønsdal_-_Bolna.jpg",
+          "artist": "Kabelleger / David Gubler (http://www.bahnbilder.ch).",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:CargoNet_Di_12_Euro_4000_L%C3%B8nsdal_-_Bolna.jpg"
+        }
+      },
+      "fragments": {
+        "Once a droplet has frozen, it grows in the supersaturated environment—one where ": "Once a droplet has frozen, it grows in the supersaturated"
+      }
+    },
+    "Snowflake": {
+      "title": "Snowflake",
+      "description": "Ice crystals that fall as snow",
+      "revision": 1372222901,
+      "url": "https://en.wikipedia.org/wiki/Snowflake",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Snowflake&oldid=1372222901",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Snowflake.jpg",
+        "width": 330,
+        "height": 264,
+        "credit": {
+          "file": "Snowflake_(lumehelves).jpg",
+          "artist": "Janek Lass",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Snowflake_(lumehelves).jpg"
+        }
+      },
+      "fragments": {
+        "Snowflakes form in a wide variety of intricate shapes, leading to the notion tha": "Snowflakes form in a wide variety of intricate shapes, leading"
+      }
+    },
+    "Wilson-Bentley": {
+      "title": "Wilson Bentley",
+      "description": "American photographer known for photographing snowflakes",
+      "revision": 1368027911,
+      "url": "https://en.wikipedia.org/wiki/Wilson_Bentley",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Wilson_Bentley&oldid=1368027911",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Wilson-Bentley.jpg",
+        "width": 300,
+        "height": 240,
+        "credit": {
+          "file": "Wilson_Alwyn_Bentley_snima_emulzi_ze_sklenene_desky.jpg",
+          "artist": "Unknown authorUnknown author",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:Wilson_Alwyn_Bentley_snima_emulzi_ze_sklenene_desky.jpg"
+        }
+      },
+      "fragments": {
+        "Wilson Alwyn Bentley (February 9, 1865 – December 23, 1931), also known as Snowf": "Wilson Alwyn Bentley (February 9, 1865 – December 23, 1931)"
+      }
+    },
+    "Photography": {
+      "title": "Photography",
+      "description": "Art and practice of creating images by recording light",
+      "revision": 1379059042,
+      "url": "https://en.wikipedia.org/wiki/Photography",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Photography&oldid=1379059042",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Photography.jpg",
+        "width": 330,
+        "height": 220,
+        "credit": {
+          "file": "Photographer_Photographing_Nevada_Mountains.jpg",
+          "artist": "Noah Wulf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Photographer_Photographing_Nevada_Mountains.jpg"
+        }
+      },
+      "fragments": {
+        "Niépce died in 1833 and Daguerre then redirected the experiments toward the ligh": "Niépce died in 1833 and Daguerre then redirected the experiments"
+      }
+    },
+    "Tennis": {
+      "title": "Tennis",
+      "description": "Racket sport",
+      "revision": 1375888835,
+      "url": "https://en.wikipedia.org/wiki/Tennis",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Tennis&oldid=1375888835",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Tennis.jpg",
+        "width": 330,
+        "height": 495,
+        "credit": {
+          "file": "2013_Australian_Open_-_Guillaume_Rufin.jpg",
+          "artist": "Brendan Dennis",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:2013_Australian_Open_-_Guillaume_Rufin.jpg"
+        }
+      },
+      "fragments": {
+        "Historians believe that the game's ancient origin lay in 12th-century northern F": "Historians believe that the game's ancient origin lay in 12th-century"
+      }
+    },
+    "Real-tennis": {
+      "title": "Real tennis",
+      "description": "Racquet sport played in a walled court",
+      "revision": 1377175488,
+      "url": "https://en.wikipedia.org/wiki/Real_tennis",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Real_tennis&oldid=1377175488",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Real-tennis.jpg",
+        "width": 330,
+        "height": 220,
+        "credit": {
+          "file": "Jesmond-Dene-tennis-court.jpg",
+          "artist": "Horacio Gomes",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Jesmond-Dene-tennis-court.jpg"
+        }
+      },
+      "fragments": {
+        "The game thrived among the 17th-century nobility in France, Spain, Italy, the Ne": "The game thrived among the 17th-century nobility in France, Spain"
+      }
+    },
+    "Tennis-Court-Oath": {
+      "title": "Tennis Court Oath",
+      "description": "Event at the start of the French Revolution",
+      "revision": 1377143981,
+      "url": "https://en.wikipedia.org/wiki/Tennis_Court_Oath",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Tennis_Court_Oath&oldid=1377143981",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Tennis-Court-Oath.jpg",
+        "width": 330,
+        "height": 216,
+        "credit": {
+          "file": "Le_Serment_du_Jeu_de_paume.jpg",
+          "artist": "Jacques-Louis David",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:Le_Serment_du_Jeu_de_paume.jpg"
+        }
+      },
+      "fragments": {
+        "Before the Revolution, French society—aside from royalty—was divided into three ": "Before the Revolution, French society—aside from royalty—was divided into three"
+      }
+    },
+    "French-Revolution": {
+      "title": "French Revolution",
+      "description": "1789–1799 sociopolitical change in France",
+      "revision": 1379258701,
+      "url": "https://en.wikipedia.org/wiki/French_Revolution",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=French_Revolution&oldid=1379258701",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/French-Revolution.jpg",
+        "width": 330,
+        "height": 260,
+        "credit": {
+          "file": "Anonymous_-_Prise_de_la_Bastille.jpg",
+          "artist": "Unidentified painter",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:Anonymous_-_Prise_de_la_Bastille.jpg"
+        }
+      },
+      "fragments": {
+        "On 20 September, the French defeated the Prussians at the Battle of Valmy, in wh": "On 20 September, the French defeated the Prussians at the"
+      }
+    },
+    "Umbrella": {
+      "title": "Umbrella",
+      "description": "Canopy designed to protect against rain or sunlight",
+      "revision": 1375562540,
+      "url": "https://en.wikipedia.org/wiki/Umbrella",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Umbrella&oldid=1375562540",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Umbrella.jpg",
+        "width": 330,
+        "height": 248,
+        "credit": {
+          "file": "M0354_000727-005_1.jpg",
+          "artist": "MONNIN Jacques",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:M0354_000727-005_1.jpg"
+        }
+      },
+      "fragments": {
+        "The use of the umbrella or parasol (though not unknown) was uncommon in England ": "The use of the umbrella or parasol (though not unknown)"
+      }
+    },
+    "Jonas-Hanway": {
+      "title": "Jonas Hanway",
+      "description": "English merchant, writer and philanthropist (1712–1786)",
+      "revision": 1372740201,
+      "url": "https://en.wikipedia.org/wiki/Jonas_Hanway",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Jonas_Hanway&oldid=1372740201",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Jonas-Hanway.jpg",
+        "width": 330,
+        "height": 405,
+        "credit": {
+          "file": "Jonas_Hanway_by_James_Northcote.jpg",
+          "artist": "James Northcote (died 1831)",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:Jonas_Hanway_by_James_Northcote.jpg"
+        }
+      },
+      "fragments": {
+        "In 1757, Samuel Johnson, a tea drinker, wrote an anonymous negative review of Ha": "In 1757, Samuel Johnson, a tea drinker, wrote an anonymous"
+      }
+    },
+    "Foundling-Hospital": {
+      "title": "Foundling Hospital",
+      "description": "Hospital, St Pancras, London",
+      "revision": 1376190261,
+      "url": "https://en.wikipedia.org/wiki/Foundling_Hospital",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Foundling_Hospital&oldid=1376190261",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Foundling-Hospital.jpg",
+        "width": 330,
+        "height": 239,
+        "credit": {
+          "file": "The_Foundling_Hospital,_Holborn,_London;_a_bird's-eye_view_o_Wellcome_V0013461.jpg",
+          "artist": "Unknown author",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:The_Foundling_Hospital%2C_Holborn%2C_London%3B_a_bird's-eye_view_o_Wellcome_V0013461.jpg"
+        }
+      },
+      "fragments": {
+        "The Foundling Hospital (formally the Hospital for the Maintenance and Education ": "The Foundling Hospital (formally the Hospital for the Maintenance and"
+      }
+    },
+    "Thomas-Coram": {
+      "title": "Thomas Coram",
+      "description": "English sea captain and philanthropist (c. 1668–1751)",
+      "revision": 1366168807,
+      "url": "https://en.wikipedia.org/wiki/Thomas_Coram",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Thomas_Coram&oldid=1366168807",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Thomas-Coram.jpg",
+        "width": 330,
+        "height": 547,
+        "credit": {
+          "file": "Hogarth_coram.jpg",
+          "artist": "William Hogarth",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:Hogarth_coram.jpg"
+        }
+      },
+      "fragments": {
+        "After the loss of his wife, he neglected his private affairs, and fell into diff": "After the loss of his wife, he neglected his private"
+      }
+    },
+    "Whale": {
+      "title": "Whale",
+      "description": "Informal group of large marine mammals",
+      "revision": 1377720929,
+      "url": "https://en.wikipedia.org/wiki/Whale",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Whale&oldid=1377720929",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Whale.jpg",
+        "width": 330,
+        "height": 495,
+        "credit": {
+          "file": "Southern_right_whale.jpg",
+          "artist": "Michaël CATANZARITI",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Southern_right_whale.jpg"
+        }
+      },
+      "fragments": {
+        "Whaling by humans has existed since the Stone Age. Ancient whalers used harpoons": "Whaling by humans has existed since the Stone Age. Ancient"
+      }
+    },
+    "Ambergris": {
+      "title": "Ambergris",
+      "description": "Substance produced in the digestive system of sperm whales",
+      "revision": 1376838872,
+      "url": "https://en.wikipedia.org/wiki/Ambergris",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Ambergris&oldid=1376838872",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Ambergris.jpg",
+        "width": 330,
+        "height": 238,
+        "credit": {
+          "file": "Ambergris,_Skagway_Museum.JPG",
+          "artist": "Wmpearl",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Ambergris%2C_Skagway_Museum.JPG"
+        }
+      },
+      "fragments": {
+        "Ambergris (/ˈæmbərɡrɪs/ or /ˈæmbərɡriːs/; Latin: ambra grisea; Old French: ambre": "Ambergris (/ˈæmbərɡrɪs/ or /ˈæmbərɡriːs/; Latin: ambra grisea; Old French: ambre"
+      }
+    },
+    "Sperm-whale": {
+      "title": "Sperm whale",
+      "description": "Largest species of toothed whale",
+      "revision": 1378129309,
+      "url": "https://en.wikipedia.org/wiki/Sperm_whale",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Sperm_whale&oldid=1378129309",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Sperm-whale.jpg",
+        "width": 330,
+        "height": 186,
+        "credit": {
+          "file": "Mother_and_baby_sperm_whale.jpg",
+          "artist": "Gabriel Barathieu",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Mother_and_baby_sperm_whale.jpg"
+        }
+      },
+      "fragments": {
+        "Herman Melville's fictional story Moby-Dick suggests that the \"case\" containing ": "Herman Melville's fictional story Moby-Dick suggests that the \"case\" containing"
+      }
+    },
+    "Moby-Dick": {
+      "title": "Moby-Dick",
+      "description": "1851 novel by Herman Melville",
+      "revision": 1376535159,
+      "url": "https://en.wikipedia.org/wiki/Moby-Dick",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Moby-Dick&oldid=1376535159",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Moby-Dick.jpg",
+        "width": 330,
+        "height": 542,
+        "credit": {
+          "file": "Moby-Dick_FE_title_page.jpg",
+          "artist": "The original uploader was Chick Bowen at English Wikipedia.",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:Moby-Dick_FE_title_page.jpg"
+        }
+      },
+      "fragments": {
+        "Because the English edition omitted the epilogue describing Ishmael's escape, Br": "Because the English edition omitted the epilogue describing Ishmael's escape"
       }
     },
     "Haitian-Revolution": {
@@ -138,26 +1914,6 @@
           "license": "Public domain",
           "licenseUrl": null,
           "filePage": "https://commons.wikimedia.org/wiki/File:Incendie_de_la_Plaine_du_Cap._Massacre_des_Blancs_par_les_esclaves_noirs_r%C3%A9volt%C3%A9s._France_militaire._Martinet_et_Masson.jpg"
-        }
-      }
-    },
-    "Lloyd-s-of-London": {
-      "title": "Lloyd's of London",
-      "description": "Insurance market in England",
-      "revision": 1371088846,
-      "url": "https://en.wikipedia.org/wiki/Lloyd's_of_London",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Lloyd's_of_London&oldid=1371088846",
-      "snapshot": false,
-      "image": {
-        "file": "snapshots/images/Lloyd-s-of-London.jpg",
-        "width": 330,
-        "height": 495,
-        "credit": {
-          "file": "Lloyd's_insurance_exterior_at_night.jpg",
-          "artist": "Lloyd's of London",
-          "license": "CC BY 2.5",
-          "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
-          "filePage": "https://commons.wikimedia.org/wiki/File:Lloyd's_insurance_exterior_at_night.jpg"
         }
       }
     },

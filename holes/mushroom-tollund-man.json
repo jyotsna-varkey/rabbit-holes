@@ -1,0 +1,62 @@
+{
+  "id": "mushroom-tollund-man",
+  "claim": "Police were once called about a body that had been dead for thousands of years.",
+  "start": {
+    "title": "Mushroom",
+    "page": "Mushroom",
+    "description": "Spore-bearing fruiting body of a fungus",
+    "image": "snapshots/images/Mushroom.jpg"
+  },
+  "end": {
+    "title": "Tollund Man",
+    "page": "Tollund Man",
+    "description": "Iron Age bog body from Denmark",
+    "image": "snapshots/images/Tollund-Man.jpg"
+  },
+  "knots": [
+    {
+      "page": "Mushroom",
+      "url": "https://en.wikipedia.org/wiki/Mushroom",
+      "revision": 1378988777,
+      "section": "Etymology",
+      "passage": "The term \"mushroom\" and its variations may have been derived from the French word mousseron in reference to moss (mousse). Delineation between edible and poisonous fungi is not clear-cut, so a \"mushroom\" may be edible, poisonous, or unpalatable. The word toadstool appeared first in 14th-century England as a reference for a \"stool\" for toads, possibly implying an inedible poisonous fungus, an association it carries in modern terminology.",
+      "hatnote": "The word \"mushroom\" may come from the French for moss.",
+      "onwardLinkText": "moss",
+      "nextPage": "Moss"
+    },
+    {
+      "page": "Moss",
+      "url": "https://en.wikipedia.org/wiki/Moss",
+      "revision": 1376153997,
+      "section": "Life cycle",
+      "passage": "Most mosses rely on the wind to disperse the spores. In the genus Sphagnum the spores are projected about 10–20 cm (4–8 in) off the ground by compressed air contained in the capsules; the spores are accelerated to about 36,000 times the earth's gravitational acceleration g.",
+      "hatnote": "Some moss fires its spores out with compressed air.",
+      "onwardLinkText": "Sphagnum",
+      "nextPage": "Sphagnum"
+    },
+    {
+      "page": "Sphagnum",
+      "url": "https://en.wikipedia.org/wiki/Sphagnum",
+      "revision": 1357278652,
+      "section": "Uses",
+      "passage": "Anaerobic acidic sphagnum bogs have low rates of decay, and hence preserve plant fragments and pollen to allow reconstruction of past environments. They even preserve human bodies for millennia; examples of these preserved specimens are Tollund Man, Haraldskær Woman, Clonycavan Man and Lindow Man. Such bogs can also preserve human hair and clothing, one of the most noteworthy examples being Egtved Girl, Denmark. Because of the acidity of peat, however, bones are dissolved rather than preserved. These bogs have also been used to preserve food. Up to 2000-year-old containers of butter or lard have been found.",
+      "hatnote": "That same moss turns bogs into preserving jars, for butter and for bodies.",
+      "onwardLinkText": "Tollund Man",
+      "nextPage": "Tollund Man"
+    },
+    {
+      "page": "Tollund Man",
+      "url": "https://en.wikipedia.org/wiki/Tollund_Man",
+      "revision": 1376169694,
+      "section": "Discovery",
+      "passage": "On 8 May 1950, Tollund Man was discovered in the peat layer of the peat bog, 12 km (7.5 mi) west of Silkeborg, Denmark, by peat cutters Viggo and Emil Hojgaard after Viggo's wife, Grethe Hojgaard, noticed his body in a peat pit. His remains were so well preserved that the family believed they had discovered the victim of a recent murder, and the police were called.",
+      "hatnote": "He looked so fresh that the family who found him thought he'd just been killed.",
+      "onwardLinkText": null,
+      "nextPage": "Tollund Man"
+    }
+  ],
+  "payoff": "Peat moss kept a man so well that the people who found him called the police.",
+  "caveats": [
+    "Knot 1: the mushroom–moss etymology is a \"may have been\"."
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "nutmeg-dutch-conquest-of-the-banda-islands",
+  "claim": "Every nutmeg in the world once came from a few tiny islands, and that made them a target.",
+  "start": {
+    "title": "Nutmeg",
+    "page": "Nutmeg",
+    "description": "Spice from tree seed",
+    "image": "snapshots/images/Nutmeg.jpg"
+  },
+  "end": {
+    "title": "Dutch conquest of the Banda Islands",
+    "page": "Dutch conquest of the Banda Islands",
+    "description": "1609–1621 Dutch East India Company campaign",
+    "image": "snapshots/images/Dutch-conquest-of-the-Banda-Islands.jpg"
+  },
+  "knots": [
+    {
+      "page": "Nutmeg",
+      "url": "https://en.wikipedia.org/wiki/Nutmeg",
+      "revision": 1375616977,
+      "section": "History",
+      "passage": "The earliest evidence of use of nutmeg comes in the form of 3,500-year-old potsherd residues from the island of Pulau Ai, one of the Banda Islands in eastern Indonesia. The Banda Islands consist of eleven small volcanic islands, and are part of the larger Maluku Islands group. These islands were the only source of nutmeg and mace production until the mid-19th century. It was one of the spices traded over the Austronesian maritime spice trade network since at least 1500 BCE.",
+      "hatnote": "For centuries, nutmeg grew in only one place.",
+      "onwardLinkText": "Banda Islands",
+      "nextPage": "Banda Islands"
+    },
+    {
+      "page": "Banda Islands",
+      "url": "https://en.wikipedia.org/wiki/Banda_Islands",
+      "revision": 1374268490,
+      "section": "Dutch control",
+      "passage": "In April 1609, Admiral Pieter Willemsz Verhoeff arrived at Banda Neira with a request by Maurice, Prince of Orange to build a fort on the island (the eventual Fort Nassau). The Bandanese were not excited about this idea. On 22 May, before building of the fort had started, the orang kaya called a meeting with the Dutch admiral, purportedly to negotiate prices. Instead, they led Verhoeff and two high-ranked men into an ambush and decapitated them and subsequently killed 46 of the Dutch visitors. Jan Pietersz Coen, who was a lower-ranked merchant on the expedition, managed to escape, but the traumatic event likely influenced his future attitude towards the Bandanese.",
+      "hatnote": "The islanders answered the first Dutch fort with an ambush.",
+      "onwardLinkText": "Jan Pietersz Coen",
+      "nextPage": "Jan Pieterszoon Coen"
+    },
+    {
+      "page": "Jan Pieterszoon Coen",
+      "url": "https://en.wikipedia.org/wiki/Jan_Pieterszoon_Coen",
+      "revision": 1364313141,
+      "section": "Legacy",
+      "passage": "He was long considered a national hero in the Netherlands. Since the 19th century, his legacy has become controversial due to the violence he employed, especially during the last stage of the Dutch conquest of the Banda Islands, which is widely considered a genocide.",
+      "hatnote": "One survivor of that ambush came back with violence the Netherlands still argues about.",
+      "onwardLinkText": "Dutch conquest of the Banda Islands",
+      "nextPage": "Dutch conquest of the Banda Islands"
+    },
+    {
+      "page": "Dutch conquest of the Banda Islands",
+      "url": "https://en.wikipedia.org/wiki/Dutch_conquest_of_the_Banda_Islands",
+      "revision": 1371966664,
+      "section": "Aftermath",
+      "passage": "According to Coen, \"about 2,500\" inhabitants died \"of hunger and misery or by the sword\", \"a good party of woman and children\" were taken, and not more than 300 escaped. Hans Straver concluded that the Lontorese population would have been around 4,500–5,000 people, 50 to 100 of whom died during the fighting, 1,700 of whom were enslaved and 2,500 of whom died due to famine and disease, while an unknown number of natives jumped to their deaths from the cliffs; several hundreds escaped to nearby islands such as the Kei Islands and eastern Seram, their regional trading partners, that welcomed the survivors.",
+      "hatnote": "Coen's own count, and a historian's, of what the conquest cost.",
+      "onwardLinkText": null,
+      "nextPage": "Dutch conquest of the Banda Islands"
+    }
+  ],
+  "payoff": "A spice monopoly was won by nearly destroying the people who grew the spice.",
+  "caveats": [
+    "A darker hole: the conquest is widely considered a genocide.",
+    "Knot 4: casualty figures differ between Coen's account and Hans Straver's estimate; both are quoted."
+  ]
+}
