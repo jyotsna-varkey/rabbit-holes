@@ -52,11 +52,11 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
   - [x] 14d. Left arrow = back on laptop (item 13).
   - [x] 14e. Laptop layout checked and fixed: margin thread follows the text column (item 14).
   - [x] 14f. Motion only for thread, focus blur, tumble and the end card's swing (item 15).
-  - [ ] 14g. Remove extras: Did you know, See also, stack buttons (item 16; recall went in step 13).
+  - [x] 14g. Remove extras: Did you know, See also, stack buttons (item 16; recall went in step 13).
   - [ ] 14h. Go deeper opens real Wikipedia at the passage (item 17).
 
 ## Current step
-14g
+14h
 
 ## Decisions
 - React + TypeScript + framer-motion, approved by the owner on 2026-10-09
@@ -127,6 +127,10 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
   owner decision (does the end card count?). Test is `todo` until then.
 - Re-fetching pinned revisions gives slightly different markup (Parsoid
   output changes, e.g. data-mw-wikitext attributes); text is identical.
+- With the stack buttons gone, nothing on home tells a first-time reader
+  to swipe (the spec has no hint). Owner to decide whether a hint is wanted.
+- On a phone the home card now stretches to fill the screen, so the thread
+  between the infoboxes hangs very long; a max card height would tighten it.
 - iOS haptics use the iOS 18 switch-control workaround; untested on a device.
 
 ## Session log

@@ -97,19 +97,6 @@ export function minutesFor(hole: Hole) {
 export const citationRange = (hole: Hole) =>
   hole.knots.length === 1 ? '[1]' : `[1–${hole.knots.length}]`;
 
-const pagesIn = (h: Hole) => new Set([h.start.page, ...h.knots.map((k) => k.page), h.end.page]);
-
-/** Pages in this hole that other holes also pass through. */
-export function connections(hole: Hole) {
-  const mine = pagesIn(hole);
-  const out: { page: string; holes: Hole[] }[] = [];
-  for (const page of mine) {
-    const others = holes.filter((h) => h.id !== hole.id && pagesIn(h).has(page));
-    if (others.length) out.push({ page, holes: others });
-  }
-  return out;
-}
-
 const htmlCache = new Map<string, Promise<string>>();
 export function loadArticle(page: string) {
   const key = keyOf(page);

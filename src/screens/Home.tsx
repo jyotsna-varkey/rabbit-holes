@@ -13,8 +13,6 @@ type Props = {
   onShelf(): void;
 };
 
-const dayIndex = () => Math.floor(Date.now() / 86_400_000);
-const asQuestion = (claim: string) => `${claim[0].toLowerCase()}${claim.slice(1).replace(/\.$/, '')}?`;
 
 export function Home({ order, setOrder, hidden, onEnter, onShelf }: Props) {
   const x = useMotionValue(0);
@@ -23,7 +21,6 @@ export function Home({ order, setOrder, hidden, onEnter, onShelf }: Props) {
   const [leaving, setLeaving] = useState(false);
   const top = useRef<HoleCardHandle>(null);
 
-  const daily = holeById(order.length ? [...order].sort()[dayIndex() % order.length] : order[0]);
   const shelfCount = getShelf().length;
 
   const goIn = async () => {
@@ -55,11 +52,6 @@ export function Home({ order, setOrder, hidden, onEnter, onShelf }: Props) {
     else animate(x, 0, { type: 'spring', stiffness: 420, damping: 28 });
   };
 
-  const bringToFront = (id: string) => {
-    if (order[0] === id) return;
-    setOrder([id, ...order.filter((o) => o !== id)]);
-  };
-
   const visible = order.slice(0, 3);
 
   return (
@@ -73,22 +65,6 @@ export function Home({ order, setOrder, hidden, onEnter, onShelf }: Props) {
           Shelf{shelfCount ? ` (${shelfCount})` : ''}
         </button>
       </header>
-
-      <aside className="dyk">
-          <h2>Did you know…</h2>
-          <p>
-            … that{' '}
-            <a
-              href={`#${daily.id}`}
-              onClick={(e) => {
-                e.preventDefault();
-                bringToFront(daily.id);
-              }}
-            >
-              {asQuestion(daily.claim)}
-            </a>
-          </p>
-        </aside>
 
       <div className="stack" role="list">
         {visible
@@ -122,15 +98,6 @@ export function Home({ order, setOrder, hidden, onEnter, onShelf }: Props) {
           ))}
       </div>
 
-      <nav className="stack-actions" aria-label="Choose">
-        <button onClick={() => notNow()} disabled={leaving}>
-          <span aria-hidden="true">←</span> Not now
-        </button>
-        <span className="swipe-hint">or swipe</span>
-        <button className="primary" onClick={goIn} disabled={leaving}>
-          Go in <span aria-hidden="true">→</span>
-        </button>
-      </nav>
     </main>
   );
 }

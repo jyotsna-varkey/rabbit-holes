@@ -85,26 +85,6 @@ button {
 .tagline { margin: 2px 0 0; font-size: 12px; color: var(--ink-2); }
 .head-link { color: var(--link); font-size: 14px; padding: 6px 0 2px 12px; }
 
-/* "Did you know…" box, Main Page style */
-.dyk {
-  flex: none;
-  border: 1px solid var(--rule-2);
-  background: var(--paper-2);
-  padding: 8px 12px 9px;
-  margin-bottom: 14px;
-  font-size: 14px;
-  line-height: 1.45;
-}
-.dyk h2 {
-  font-family: var(--serif);
-  font-size: 15px;
-  font-weight: 700;
-  margin: 0 0 3px;
-  padding-bottom: 3px;
-  border-bottom: 1px solid var(--rule-2);
-}
-.dyk p { margin: 0; }
-
 /* The stack */
 .stack {
   position: relative;
@@ -186,26 +166,6 @@ sup.cited { color: var(--visited); }
   text-align: center;
 }
 
-.stack-actions {
-  flex: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px;
-}
-.stack-actions button {
-  min-height: 44px;
-  padding: 0 14px;
-  border: 1px solid var(--rule);
-  border-radius: 2px;
-  background: var(--paper-2);
-  font-size: 15px;
-  font-weight: 600;
-  color: var(--ink);
-}
-.stack-actions button.primary { background: var(--link); border-color: var(--link); color: #fff; }
-.stack-actions button:disabled { opacity: 0.5; }
-.swipe-hint { color: var(--ink-3); font-size: 12px; }
 
 /* ——— Infobox ——— */
 
@@ -679,7 +639,6 @@ a.rh-onward mark.rh-hl { color: var(--link); }
 .refs { margin: 0; padding-left: 1.8em; font-size: 14px; line-height: 1.5; }
 .refs li { margin-bottom: 6px; }
 .ref-up { font-weight: 700; }
-.see-also { margin: 0; padding-left: 1.3em; font-size: 14px; line-height: 1.5; }
 
 .doors { display: grid; gap: 8px; margin: 22px 0 6px; }
 .door {

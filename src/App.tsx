@@ -58,7 +58,7 @@ export default function App() {
   };
 
   const openHole = (id: string) => {
-    // Jumping from one hole to another, or from the shelf: put it on top and go straight in.
+    // From the shelf: put the hole on top and go straight in.
     setOrder([id, ...order.filter((o) => o !== id)]);
     if (view.name === 'home') history.pushState({ rh: 'hole' }, '');
     setHomeHidden(true);
@@ -88,7 +88,6 @@ export default function App() {
           from={view.from}
           onClose={goHome}
           onNext={next}
-          onOpenHole={openHole}
           onSettled={() => setHomeHidden(true)}
         />
       )}

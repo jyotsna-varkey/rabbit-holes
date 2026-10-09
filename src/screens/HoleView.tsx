@@ -13,7 +13,6 @@ type Props = {
   from: DOMRect | null;
   onClose(): void;
   onNext(): void;
-  onOpenHole(id: string): void;
   onSettled(): void;
 };
 
@@ -23,7 +22,7 @@ type Phase = 'tumble' | 'reading' | 'ending';
 const KNOT_LIFT = 56;
 const lerp = (a: number, b: number, t: number) => a + (b - a) * t;
 
-export function HoleView({ hole, from, onClose, onNext, onOpenHole, onSettled }: Props) {
+export function HoleView({ hole, from, onClose, onNext, onSettled }: Props) {
   const n = hole.knots.length;
   const root = useRef<HTMLDivElement>(null);
   const [size, setSize] = useState({ w: window.innerWidth, h: window.innerHeight });
@@ -255,7 +254,6 @@ export function HoleView({ hole, from, onClose, onNext, onOpenHole, onSettled }:
               height={h}
               active={phase === 'ending'}
               onNext={onNext}
-              onOpenHole={onOpenHole}
             />
           )}
         </motion.div>

@@ -1,6 +1,6 @@
 import { forwardRef, useEffect, useImperativeHandle, useRef, useState } from 'react';
 import {
-  citationRange, connections, endpointInfo, pageOf, passageUrl, type Hole,
+  citationRange, endpointInfo, pageOf, passageUrl, type Hole,
 } from '../content';
 import { Infobox } from '../components/Infobox';
 import { Thread, type ThreadHandle } from '../components/Thread';
@@ -19,7 +19,6 @@ type Props = {
   height: number;
   active: boolean;
   onNext(): void;
-  onOpenHole(id: string): void;
 };
 
 /** Points the knots sit at, along a sagging curve from the start card to the end card. */
@@ -31,7 +30,7 @@ function knotPositions(n: number, a: Pt, b: Pt, sag: number) {
 }
 
 export const Ending = forwardRef<EndingHandle, Props>(function Ending(
-  { hole, top, height, active, onNext, onOpenHole },
+  { hole, top, height, active, onNext },
   ref,
 ) {
   const diagram = useRef<HTMLDivElement>(null);
@@ -43,7 +42,6 @@ export const Ending = forwardRef<EndingHandle, Props>(function Ending(
   const [kept, setKept] = useState(() => isKept(hole.id));
   const n = hole.knots.length;
   const end = endpointInfo(hole.end);
-  const links = connections(hole);
 
   const sockets = () => {
     const l = left.current;
@@ -151,28 +149,6 @@ export const Ending = forwardRef<EndingHandle, Props>(function Ending(
               </li>
             ))}
           </ol>
-
-          {links.length > 0 && (
-            <>
-              <h2 className="wk-h2">See also</h2>
-              <ul className="see-also">
-                {links.map((c) => (
-                  <li key={c.page}>
-                    {c.holes.length} more {c.holes.length === 1 ? 'hole passes' : 'holes pass'} through{' '}
-                    <i>{c.page}</i>:{' '}
-                    {c.holes.map((h, j) => (
-                      <span key={h.id}>
-                        {j > 0 && '; '}
-                        <a href={`#${h.id}`} onClick={(e) => { e.preventDefault(); onOpenHole(h.id); }}>
-                          {h.claim}
-                        </a>
-                      </span>
-                    ))}
-                  </li>
-                ))}
-              </ul>
-            </>
-          )}
 
           <nav className="doors" aria-label="What next">
             <a className="door" href={end.url} target="_blank" rel="noopener">
