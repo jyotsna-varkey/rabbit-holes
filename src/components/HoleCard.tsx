@@ -1,6 +1,6 @@
 import { forwardRef, useEffect, useImperativeHandle, useRef } from 'react';
 import type { MotionValue } from 'framer-motion';
-import type { Hole } from '../content';
+import { minutesFor, type Hole } from '../content';
 import { Infobox } from './Infobox';
 import { Thread, type ThreadHandle } from './Thread';
 
@@ -71,7 +71,7 @@ export const HoleCard = forwardRef<HoleCardHandle, Props>(function HoleCard({ ho
         <Infobox ref={right} endpoint={hole.end} className="end-right" />
       </div>
       <p className="card-meta">
-        {hole.knots.length} knots · about {hole.minutes} min
+        {hole.knots.length} knots · about {minutesFor(hole)} min
       </p>
     </article>
   );

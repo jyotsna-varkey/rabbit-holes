@@ -1,0 +1,54 @@
+{
+  "id": "sandwich-copper-bottomed",
+  "claim": "The man the sandwich is named after helped give us the phrase for a safe bet.",
+  "start": {
+    "title": "John Montagu, 4th Earl of Sandwich",
+    "page": "John Montagu, 4th Earl of Sandwich",
+    "description": "British statesman (1718–1792)",
+    "image": "snapshots/images/John-Montagu-4th-Earl-of-Sandwich.jpg"
+  },
+  "end": {
+    "title": "Copper-bottomed",
+    "page": "Copper sheathing",
+    "description": "Idiom for something sound and reliable",
+    "image": "snapshots/images/Copper-sheathing.jpg"
+  },
+  "knots": [
+    {
+      "page": "John Montagu, 4th Earl of Sandwich",
+      "url": "https://en.wikipedia.org/wiki/John_Montagu%2C_4th_Earl_of_Sandwich",
+      "revision": 1378201147,
+      "section": "First Lord of the Admiralty (third spell)",
+      "passage": "He had remarked that coppering \"gave additional strength to the navy\" and he reproached Lord Sandwich with having \"refused to sheath only a few ships with copper\" at his request, when he had since ordered the whole navy to be sheathed. The lack of coppering the navy was one of the key reasons leading to Britain losing the Thirteen Colonies.",
+      "hatnote": "Same Earl, different problem: worms were eating his navy.",
+      "onwardLinkText": null,
+      "nextPage": "Copper sheathing"
+    },
+    {
+      "page": "Copper sheathing",
+      "url": "https://en.wikipedia.org/wiki/Copper_sheathing",
+      "revision": 1369660444,
+      "section": "Widespread implementation",
+      "passage": "It was then decided that the entire fleet should be coppered, due to the difficulties in maintaining a mixed fleet of coppered and non-coppered ships. By 1781, 82 ships of the line had been coppered, along with fourteen 50-gun ships, 115 frigates, and 182 unrated vessels",
+      "hatnote": "The fix came all at once, and it came too late.",
+      "onwardLinkText": null,
+      "nextPage": "Copper sheathing"
+    },
+    {
+      "page": "Copper sheathing",
+      "url": "https://en.wikipedia.org/wiki/Copper_sheathing",
+      "revision": 1369660444,
+      "section": "Civilian use",
+      "passage": "As the coppering was expensive, only the better owners tended to invest in the method, and as a result the use of copper sheathing tended to indicate a well-found and maintained ship, which led to Lloyd's of London charging lower insurance premiums, as the vessels were better risks. From this stems the phrase \"copper-bottomed\" as an indication of quality.",
+      "hatnote": "Insurers noticed which ships had copper bottoms. Wikipedia still wants a source for this one.",
+      "onwardLinkText": null,
+      "nextPage": "Copper sheathing"
+    }
+  ],
+  "payoff": "“Copper-bottomed” started as an insurer's opinion of a ship's hull.",
+  "caveats": [
+    "Knot 1: the \"copper sheath\" link is outside the quoted passage.",
+    "Knot 2: the Wikipedia sentence has no closing full stop; quoted as written.",
+    "Knot 3: the Lloyd's premiums sentence carries [citation needed] on Wikipedia."
+  ]
+}

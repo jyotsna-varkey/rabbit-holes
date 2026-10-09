@@ -44,7 +44,17 @@ export type Passage = {
   onward: HTMLAnchorElement | null;
 };
 
-export function markPassage(root: HTMLElement, passage: string, onward?: string): Passage | null {
+/**
+ * Wrap `passage` in highlight marks. The onward link is the link inside the
+ * passage whose text is `onwardLinkText` (and, if given, which leads to
+ * `nextPage`); links outside the passage never count.
+ */
+export function markPassage(
+  root: HTMLElement,
+  passage: string,
+  onwardLinkText?: string | null,
+  nextPage?: string,
+): Passage | null {
   const want = normalize(passage);
   for (const block of Array.from(root.querySelectorAll<HTMLElement>(BLOCKS))) {
     const { text, chars } = indexText(block);
@@ -87,11 +97,15 @@ export function markPassage(root: HTMLElement, passage: string, onward?: string)
     if (!marks.length) return null;
 
     let link: HTMLAnchorElement | null = null;
-    if (onward) {
-      const candidates = Array.from(block.querySelectorAll<HTMLAnchorElement>('a[data-target]')).filter(
-        (a) => a.dataset.target!.toLowerCase() === onward.toLowerCase(),
-      );
-      link = candidates.find((a) => a.querySelector('mark.rh-hl') || a.closest('mark.rh-hl')) ?? candidates[0] ?? null;
+    if (onwardLinkText) {
+      const text = normalize(onwardLinkText);
+      link =
+        Array.from(block.querySelectorAll<HTMLAnchorElement>('a[data-target]')).find(
+          (a) =>
+            (a.querySelector('mark.rh-hl') || a.closest('mark.rh-hl')) &&
+            normalize(a.textContent ?? '') === text &&
+            (!nextPage || a.getAttribute('data-target')!.toLowerCase() === nextPage.toLowerCase()),
+        ) ?? null;
       link?.classList.add('rh-onward');
     }
 

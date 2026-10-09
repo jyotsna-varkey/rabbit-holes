@@ -1,0 +1,63 @@
+{
+  "id": "coffee-insurance",
+  "claim": "Coffee built the world's insurance industry.",
+  "start": {
+    "title": "Coffee",
+    "page": "Coffee",
+    "description": "Brewed beverage",
+    "image": "snapshots/images/Coffee.jpg"
+  },
+  "end": {
+    "title": "Lloyd's of London",
+    "page": "Lloyd's of London",
+    "description": "Insurance market in England",
+    "image": "snapshots/images/Lloyd-s-of-London.jpg"
+  },
+  "knots": [
+    {
+      "page": "Coffee",
+      "url": "https://en.wikipedia.org/wiki/Coffee",
+      "revision": 1371799424,
+      "section": "lead",
+      "passage": "Though coffee has become a global commodity, it has a history tied to food traditions around the Red Sea. The earliest reports of coffee drinking pertain to the plant's use among the Sufis of Yemen in southern Arabia in the middle of the 15th century.",
+      "hatnote": "It started as a monk's way to stay up for night prayers.",
+      "onwardLinkText": null,
+      "nextPage": "Coffee"
+    },
+    {
+      "page": "Coffee",
+      "url": "https://en.wikipedia.org/wiki/Coffee",
+      "revision": 1371799424,
+      "section": "Mass production",
+      "passage": "Up to the end of the 17th century, Yemen was the world's main producer for coffee, and Mocha was the world's largest shipping port for coffee.",
+      "hatnote": "The name on your café menu is a Yemeni port.",
+      "onwardLinkText": null,
+      "nextPage": "Coffeehouse"
+    },
+    {
+      "page": "Coffeehouse",
+      "url": "https://en.wikipedia.org/wiki/Coffeehouse",
+      "revision": 1377043428,
+      "section": "Ottoman Empire",
+      "passage": "Coffeehouses in Mecca became a concern of imams, who viewed them as places for political gatherings and drinking, leading to bans between 1512 and 1524. However, these bans could not be maintained, as coffee became ingrained in daily ritual and culture among Arabs and neighboring peoples.",
+      "hatnote": "Within decades, the authorities were already trying to ban it.",
+      "onwardLinkText": null,
+      "nextPage": "Coffeehouse"
+    },
+    {
+      "page": "Coffeehouse",
+      "url": "https://en.wikipedia.org/wiki/Coffeehouse",
+      "revision": 1377043428,
+      "section": "England",
+      "passage": "Coffeehouses not only boosted the popularity of print news culture, they also helped the growth of various financial markets including insurance and stocks. Lloyd's Coffee House was where underwriters of ship insurance met to do business, leading to the establishment of Lloyd's of London insurance market and other related businesses.",
+      "hatnote": "In London, the coffeehouse became the office.",
+      "onwardLinkText": "Lloyd's of London",
+      "nextPage": "Lloyd's of London"
+    }
+  ],
+  "payoff": "A drink for staying awake at prayers ended up underwriting the world's ships.",
+  "caveats": [
+    "The Kaldi goatherd story is flagged on the Coffee page as likely apocryphal; kept out of the thread.",
+    "Knot 2: the \"coffeehouse\" link is in a later paragraph (Venice, 1647), not in the Mocha passage."
+  ]
+}

@@ -104,19 +104,6 @@ button {
   border-bottom: 1px solid var(--rule-2);
 }
 .dyk p { margin: 0; }
-.dyk-hint { color: var(--ink-3); font-size: 12px; margin-top: 4px !important; }
-.recall .blank {
-  display: inline-block;
-  min-width: 6.5em;
-  border-bottom: 1.5px solid var(--ink);
-  line-height: 1.2;
-  padding: 0 2px;
-  text-align: center;
-  color: var(--visited);
-  font-weight: 600;
-}
-.recall .blank.is-revealed { border-bottom-color: var(--visited); animation: reveal 0.35s ease-out; }
-@keyframes reveal { from { opacity: 0; transform: translateY(3px); } }
 
 /* The stack */
 .stack {

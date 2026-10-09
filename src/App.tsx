@@ -28,7 +28,7 @@ export default function App() {
 
   // Warm the first page of the top hole so the tumble lands on a loaded article.
   useEffect(() => {
-    if (order[0]) loadArticle(holeById(order[0]).knots[0].article).catch(() => {});
+    if (order[0]) loadArticle(holeById(order[0]).knots[0].page).catch(() => {});
   }, [order]);
 
   // The phone's back gesture leaves a hole or the shelf.

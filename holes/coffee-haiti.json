@@ -1,0 +1,53 @@
+{
+  "id": "coffee-haiti",
+  "claim": "Your morning coffee helped spark a revolution in the Caribbean.",
+  "start": {
+    "title": "Coffee",
+    "page": "Coffee",
+    "description": "Brewed beverage",
+    "image": "snapshots/images/Coffee.jpg"
+  },
+  "end": {
+    "title": "Haitian Revolution",
+    "page": "Haitian Revolution",
+    "description": "1791–1804 slave revolt in Hispanola",
+    "image": "snapshots/images/Haitian-Revolution.jpg"
+  },
+  "knots": [
+    {
+      "page": "Coffee",
+      "url": "https://en.wikipedia.org/wiki/Coffee",
+      "revision": 1371799424,
+      "section": "As a colonial import",
+      "passage": "Frenchman Gabriel de Clieu took a coffee plant to the French territory of Martinique in the Caribbean in the 1720s, from which much of the world's cultivated arabica coffee is descended. Coffee thrived in the climate and was conveyed across the Americas.",
+      "hatnote": "One French officer and a seedling, or so the story goes.",
+      "onwardLinkText": "Gabriel de Clieu",
+      "nextPage": "Gabriel de Clieu"
+    },
+    {
+      "page": "Gabriel de Clieu",
+      "url": "https://en.wikipedia.org/wiki/Gabriel_de_Clieu",
+      "revision": 1244080582,
+      "section": "Introduction of coffee to Martinique",
+      "passage": "According to de Clieu's account, water was rationed on the voyage, and he shared his ration with the seedlings. The story is repeated in many histories of coffee. However, a recent history points out that though it may well be true that de Clieu brought a seedling to Martinique, and perhaps even that he shared his water ration with it, coffee was already growing in the Western Hemisphere: in the French colony of Saint-Domingue since 1715 and in the Dutch colony of Surinam since 1718.",
+      "hatnote": "The myth-check. A great story, but coffee had beaten him there.",
+      "onwardLinkText": null,
+      "nextPage": "Coffee"
+    },
+    {
+      "page": "Coffee",
+      "url": "https://en.wikipedia.org/wiki/Coffee",
+      "revision": 1371799424,
+      "section": "As a colonial import",
+      "passage": "Coffee was cultivated in Saint-Domingue, now Haiti, from 1734, and by 1788 it supplied half the world's coffee. The conditions that the enslaved people worked in on coffee plantations were a factor in the Haitian Revolution, and the coffee industry never fully recovered there.",
+      "hatnote": "Saint-Domingue is now Haiti, and the coffee came at a cost.",
+      "onwardLinkText": "Haitian Revolution",
+      "nextPage": "Haitian Revolution"
+    }
+  ],
+  "payoff": "By 1788, half the world's coffee came from one colony, and the people forced to grow it overthrew it.",
+  "caveats": [
+    "Knot 3 loops back to the Coffee article; swap in a Saint-Domingue passage once sourced.",
+    "The Coffee page gives 1734 for cultivation in Saint-Domingue; the de Clieu page says 1715. Hatnotes assert neither."
+  ]
+}

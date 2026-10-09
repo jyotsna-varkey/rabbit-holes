@@ -1,34 +1,35 @@
-// Pulls every article the holes touch from English Wikipedia, pinned to a
-// revision, cleans it for reading, and checks that every quoted passage and
-// onward link is really there.
+// Snapshots every Wikipedia page the holes in /holes touch, and checks that
+// every quoted passage, section and onward link is really there.
 //
-//   node scripts/fetch-content.mjs           fetch latest revisions, write content
-//   node scripts/fetch-content.mjs --pinned  re-fetch the revisions already in the manifest
+//   node scripts/fetch-content.mjs            fetch the revisions pinned in /holes
+//                                             (a knot with "revision": null gets the
+//                                             latest, written back into its hole file)
+//   node scripts/fetch-content.mjs --update   move every knot to the latest revision
 //
-// Output: public/content/articles/*.html, public/content/images/*,
-//         src/content/manifest.json
+// Knot pages are saved as cleaned HTML; every page (knots and endpoints) gets
+// its lead image and Commons credit.
+// Output: holes/snapshots/pages/*.html, holes/snapshots/images/*,
+//         holes/snapshots/manifest.json
 
-import { readFile, writeFile, mkdir } from 'node:fs/promises';
-import { existsSync } from 'node:fs';
+import { readFile, readdir, writeFile, mkdir } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { parseHTML } from 'linkedom';
-import { textOf, normalize } from './text.mjs';
+import { keyOf, knotProblems, loadDom } from './knots.mjs';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const UA = 'RabbitHolesPrototype/0.1 (educational prototype; Wikipedia reader)';
 const API = 'https://en.wikipedia.org/api/rest_v1';
-const PINNED = process.argv.includes('--pinned');
+const UPDATE = process.argv.includes('--update');
+const SNAP = `${ROOT}holes/snapshots`;
 
-const holes = JSON.parse(await readFile(`${ROOT}src/content/holes.json`, 'utf8'));
-const manifestPath = `${ROOT}src/content/manifest.json`;
-const previous = existsSync(manifestPath)
-  ? JSON.parse(await readFile(manifestPath, 'utf8'))
-  : { articles: {} };
+const holeFiles = (await readdir(`${ROOT}holes`)).filter((f) => f.endsWith('.json'));
+const holes = await Promise.all(
+  holeFiles.map(async (f) => ({ file: f, hole: JSON.parse(await readFile(`${ROOT}holes/${f}`, 'utf8')) })),
+);
 
-await mkdir(`${ROOT}public/content/articles`, { recursive: true });
-await mkdir(`${ROOT}public/content/images`, { recursive: true });
+await mkdir(`${SNAP}/pages`, { recursive: true });
+await mkdir(`${SNAP}/images`, { recursive: true });
 
-export const keyOf = (title) => title.replace(/[^A-Za-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const pathTitle = (title) => encodeURIComponent(title.replace(/ /g, '_'));
 
 async function get(url, as = 'json') {
@@ -111,22 +112,6 @@ function cleanArticle(html) {
   return body;
 }
 
-function checkKnot(body, knot) {
-  const report = { passage: false, onward: knot.onward ? false : null, links: [] };
-  const want = normalize(knot.passage);
-  for (const block of body.querySelectorAll('p, li, blockquote, dd')) {
-    const text = normalize(textOf(block));
-    if (!text.includes(want)) continue;
-    report.passage = true;
-    for (const a of block.querySelectorAll('a[data-target]')) {
-      report.links.push(`${a.textContent} → ${a.getAttribute('data-target')}`);
-      if (knot.onward && a.getAttribute('data-target').toLowerCase() === knot.onward.toLowerCase()) report.onward = true;
-    }
-    break;
-  }
-  return report;
-}
-
 async function commonsCredit(imageUrl) {
   const m = imageUrl.match(/\/commons\/(?:thumb\/)?[0-9a-f]\/[0-9a-f]{2}\/([^/]+)/) ??
             imageUrl.match(/\/en\/(?:thumb\/)?[0-9a-f]\/[0-9a-f]{2}\/([^/]+)/);
@@ -146,24 +131,35 @@ async function commonsCredit(imageUrl) {
   };
 }
 
-const titles = new Set();
-for (const hole of holes) {
-  titles.add(hole.start.article);
-  titles.add(hole.end.article);
-  for (const k of hole.knots) titles.add(k.article);
+// Which revision each knot page is pinned to; all knots on one page must agree.
+const knotPages = new Map();
+for (const { hole } of holes) {
+  for (const knot of hole.knots) {
+    const pinned = UPDATE ? null : knot.revision;
+    const seen = knotPages.get(knot.page);
+    if (seen !== undefined && seen !== null && pinned !== null && seen !== pinned) {
+      throw new Error(`${knot.page} is pinned to both ${seen} and ${pinned}; use one revision per page`);
+    }
+    knotPages.set(knot.page, seen ?? pinned);
+  }
 }
+const endpointPages = new Set(holes.flatMap(({ hole }) => [hole.start.page, hole.end.page]));
 
-const manifest = { fetched: new Date().toISOString().slice(0, 10), articles: {} };
-const bodies = {};
+const manifest = { fetched: new Date().toISOString().slice(0, 10), pages: {} };
+const revisions = new Map();
 
-for (const title of titles) {
+for (const title of new Set([...knotPages.keys(), ...endpointPages])) {
   const key = keyOf(title);
   const summary = await get(`${API}/page/summary/${pathTitle(title)}`);
-  const revision = PINNED && previous.articles[key] ? previous.articles[key].revision : summary.revision;
-  const html = await get(`${API}/page/html/${pathTitle(summary.titles.canonical)}/${revision}`, 'text');
-  const body = cleanArticle(html);
-  bodies[key] = body;
-  await writeFile(`${ROOT}public/content/articles/${key}.html`, body.innerHTML);
+  const isKnotPage = knotPages.has(title);
+  const revision = Number((isKnotPage && knotPages.get(title)) || summary.revision);
+  revisions.set(title, revision);
+
+  if (isKnotPage) {
+    const html = await get(`${API}/page/html/${pathTitle(summary.titles.canonical)}/${revision}`, 'text');
+    const body = cleanArticle(html);
+    await writeFile(`${SNAP}/pages/${key}.html`, body.innerHTML);
+  }
 
   let image = null;
   const thumb = summary.thumbnail?.source?.split('?')[0];
@@ -173,40 +169,57 @@ for (const title of titles) {
     try { bytes = await get(src, 'bytes'); } catch { bytes = await get(thumb, 'bytes'); }
     const ext = (src.match(/\.(jpe?g|png|gif|svg|webp)(\.png)?$/i)?.[2] ? 'png' : src.match(/\.(jpe?g|png|gif|webp)$/i)?.[1]) ?? 'jpg';
     const file = `${key}.${ext.toLowerCase()}`;
-    await writeFile(`${ROOT}public/content/images/${file}`, bytes);
+    await writeFile(`${SNAP}/images/${file}`, bytes);
     image = {
-      src: `/content/images/${file}`,
+      file: `snapshots/images/${file}`,
       width: summary.thumbnail.width,
       height: summary.thumbnail.height,
       credit: await commonsCredit(summary.originalimage?.source?.split('?')[0] ?? thumb),
     };
   }
 
-  manifest.articles[key] = {
+  manifest.pages[key] = {
     title: summary.titles.normalized,
     description: summary.description ?? '',
-    revision: Number(revision),
+    revision,
     url: `https://en.wikipedia.org/wiki/${pathTitle(summary.titles.canonical)}`,
     permalink: `https://en.wikipedia.org/w/index.php?title=${pathTitle(summary.titles.canonical)}&oldid=${revision}`,
+    snapshot: isKnotPage,
     image,
   };
-  console.log(`✓ ${title}  rev ${revision}  ${(body.innerHTML.length / 1024).toFixed(0)} KB${image ? '' : '  (no image)'}`);
+  console.log(`✓ ${title}  rev ${revision}${isKnotPage ? '' : '  (endpoint: image only)'}${image ? '' : '  (no image)'}`);
 }
 
-await writeFile(manifestPath, JSON.stringify(manifest, null, 2) + '\n');
+await writeFile(`${SNAP}/manifest.json`, JSON.stringify(manifest, null, 2) + '\n');
 
-console.log('\nPassage checks');
+// Write pinned revisions back into hole files that had none (or all, with --update).
+for (const { file, hole } of holes) {
+  let changed = false;
+  for (const knot of hole.knots) {
+    const rev = revisions.get(knot.page);
+    if (knot.revision !== rev) {
+      knot.revision = rev;
+      changed = true;
+    }
+  }
+  if (changed) {
+    await writeFile(`${ROOT}holes/${file}`, JSON.stringify(hole, null, 2) + '\n');
+    console.log(`  pinned revisions written to holes/${file}`);
+  }
+}
+
+console.log('\nKnot checks');
 let problems = 0;
-for (const hole of holes) {
+for (const { hole } of holes) {
   console.log(`\n${hole.id}`);
-  hole.knots.forEach((knot, i) => {
-    const r = checkKnot(bodies[keyOf(knot.article)], knot);
-    const ok = r.passage && r.onward !== false;
-    if (!ok) problems++;
-    console.log(`  ${ok ? '✓' : '✗'} knot ${i + 1} · ${knot.article} · passage ${r.passage ? 'found' : 'MISSING'}` +
-      (knot.onward ? ` · onward "${knot.onward}" ${r.onward ? 'found' : 'MISSING'}` : ''));
-    if (!ok || process.argv.includes('--links')) for (const l of r.links) console.log(`      ${l}`);
-  });
+  for (const [i, knot] of hole.knots.entries()) {
+    const body = loadDom(await readFile(`${SNAP}/pages/${keyOf(knot.page)}.html`, 'utf8'));
+    const found = knotProblems(body, knot);
+    problems += found.length;
+    console.log(`  ${found.length ? '✗' : '✓'} knot ${i + 1} · ${knot.page} · ${knot.section}` +
+      (knot.onwardLinkText ? ` · "${knot.onwardLinkText}" → ${knot.nextPage}` : ''));
+    for (const p of found) console.log(`      ${p}`);
+  }
 }
-console.log(problems ? `\n${problems} problem(s)` : '\nAll passages and onward links verified.');
+console.log(problems ? `\n${problems} problem(s)` : '\nAll passages, sections and onward links verified.');
 process.exitCode = problems ? 1 : 0;

@@ -3,7 +3,7 @@ import { flushSync } from 'react-dom';
 import { animate, motion, useMotionValue, useTransform, type PanInfo } from 'framer-motion';
 import { holeById, type Hole } from '../content';
 import { HoleCard, type HoleCardHandle } from '../components/HoleCard';
-import { getShelf, logSwipe, markRecalled, pendingRecall } from '../lib/storage';
+import { getShelf, logSwipe } from '../lib/storage';
 
 type Props = {
   order: string[];
@@ -23,8 +23,6 @@ export function Home({ order, setOrder, hidden, onEnter, onShelf }: Props) {
   const [leaving, setLeaving] = useState(false);
   const top = useRef<HoleCardHandle>(null);
 
-  const [recallId] = useState(() => pendingRecall(new URLSearchParams(location.search).has('recall')));
-  const [revealed, setRevealed] = useState(false);
   const daily = holeById(order.length ? [...order].sort()[dayIndex() % order.length] : order[0]);
   const shelfCount = getShelf().length;
 
@@ -62,7 +60,6 @@ export function Home({ order, setOrder, hidden, onEnter, onShelf }: Props) {
     setOrder([id, ...order.filter((o) => o !== id)]);
   };
 
-  const recall = recallId ? holeById(recallId).recall : null;
   const visible = order.slice(0, 3);
 
   return (
@@ -77,27 +74,7 @@ export function Home({ order, setOrder, hidden, onEnter, onShelf }: Props) {
         </button>
       </header>
 
-      {recall ? (
-        <aside className="dyk recall">
-          <h2>From your shelf</h2>
-          <p>
-            {recall.before}
-            <button
-              className={`blank ${revealed ? 'is-revealed' : ''}`}
-              onClick={() => {
-                setRevealed(true);
-                markRecalled(recallId!);
-              }}
-              aria-label={revealed ? recall.blank : 'Tap to reveal the missing word'}
-            >
-              {revealed ? recall.blank : ' '.repeat(12)}
-            </button>
-            {recall.after}
-          </p>
-          {!revealed && <p className="dyk-hint">Tap the blank to reveal</p>}
-        </aside>
-      ) : (
-        <aside className="dyk">
+      <aside className="dyk">
           <h2>Did you know…</h2>
           <p>
             … that{' '}
@@ -112,7 +89,6 @@ export function Home({ order, setOrder, hidden, onEnter, onShelf }: Props) {
             </a>
           </p>
         </aside>
-      )}
 
       <div className="stack" role="list">
         {visible

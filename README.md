@@ -14,24 +14,33 @@ npm run dev -- --host
 
 Open the "Network" URL Vite prints on your phone (same Wi-Fi) to try the gestures for real.
 
-- `?recall` on the URL forces the next-day recall box (needs one finished hole).
 - Down arrow pulls the thread on a laptop; tapping the knot or the onward link also pulls.
 
 ## Content
 
-Holes live in `src/content/holes.json` (claims, hatnotes, verbatim passages, onward links).
-Article HTML, images and credits are pulled from Wikipedia, pinned to a revision:
+Each hole is a hand-authored JSON file in `holes/` (schema in SPEC.md). Snapshots
+of the Wikipedia pages they quote ship in `holes/snapshots/` (cleaned HTML pinned
+to a revision, lead images, Commons credits in `manifest.json`).
 
 ```bash
-node scripts/fetch-content.mjs           # fetch latest revisions and verify every passage
-node scripts/fetch-content.mjs --pinned  # re-fetch the revisions already pinned in the manifest
+node scripts/fetch-content.mjs           # fetch the revisions pinned in holes/*.json, verify every knot
+node scripts/fetch-content.mjs --update  # move every knot to the latest revision, then verify
 ```
 
-The script fails if any passage or onward link isn't found word for word in its article.
-Output goes to `public/content/` and `src/content/manifest.json`.
+The script fails if any passage isn't found word for word, isn't in the stated
+section, or its onward link isn't inside the passage. `npm test` runs the same
+checks offline against the stored snapshots.
 
 Wikipedia text is CC BY-SA 4.0; every page credits and links its source revision, and
 endpoint images carry their Commons author and licence.
+
+## Tests
+
+```bash
+npm test                  # unit + data tests (Vitest)
+npm run test:e2e          # browser tests at phone and laptop sizes (Playwright)
+npm run shot -- / home    # screenshots/home-phone.png and home-laptop.png
+```
 
 ## Where things are
 

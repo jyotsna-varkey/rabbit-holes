@@ -1,27 +1,37 @@
-import holesJson from './holes.json';
-import manifestJson from './manifest.json';
+import manifestJson from '../../holes/snapshots/manifest.json';
+
+// Holes are hand-authored JSON in /holes (schema in SPEC.md). Everything the
+// app shows ships with it: page snapshots and images live in /holes/snapshots.
 
 export type Knot = {
-  article: string;
-  hatnote: string;
+  page: string;
+  url: string;
+  revision: number | null;
+  section: string;
   passage: string;
-  /** Text-fragment anchor used to open the live article at this passage. */
-  fragment: string;
-  /** Title of the article the thread leads to from this passage, if the link sits inside it. */
-  onward?: string;
+  hatnote: string;
+  /** Text of the link inside the passage that leads to nextPage, or null if the passage has none. */
+  onwardLinkText: string | null;
+  nextPage: string;
 };
 
-export type Endpoint = { article: string; label?: string; description?: string };
+export type Endpoint = {
+  title: string;
+  /** Wikipedia page the card stands for; can differ from the title ("Copper-bottomed"). */
+  page: string;
+  description: string;
+  /** Path under /holes, or "" for none. */
+  image: string;
+};
 
 export type Hole = {
   id: string;
   claim: string;
-  recall: { before: string; blank: string; after: string };
-  minutes: number;
   start: Endpoint;
   end: Endpoint;
   knots: Knot[];
   payoff: string;
+  caveats: string[];
 };
 
 export type ImageCredit = {
@@ -32,59 +42,81 @@ export type ImageCredit = {
   filePage: string;
 };
 
-export type Article = {
+export type PageInfo = {
   title: string;
   description: string;
   revision: number;
   url: string;
   permalink: string;
-  image: { src: string; width: number; height: number; credit: ImageCredit | null } | null;
+  snapshot: boolean;
+  image: { file: string; width: number; height: number; credit: ImageCredit | null } | null;
 };
 
-export const holes = holesJson as Hole[];
-export const articles = manifestJson.articles as unknown as Record<string, Article>;
+const holeFiles = import.meta.glob<Hole>('../../holes/*.json', { eager: true, import: 'default' });
+const imageUrls = import.meta.glob<string>('../../holes/snapshots/images/*', { eager: true, query: '?url', import: 'default' });
+const pageHtml = import.meta.glob<string>('../../holes/snapshots/pages/*.html', { query: '?raw', import: 'default' });
+
+// The stack starts with the hole the spec was written around; any others follow by id.
+const STACK_ORDER = ['coffee-insurance', 'sandwich-hawaii', 'sandwich-copper-bottomed', 'coffee-haiti'];
+const rank = (id: string) => (STACK_ORDER.includes(id) ? STACK_ORDER.indexOf(id) : STACK_ORDER.length);
+
+export const holes = Object.values(holeFiles).sort((a, b) => rank(a.id) - rank(b.id) || a.id.localeCompare(b.id));
+export const pages = manifestJson.pages as unknown as Record<string, PageInfo>;
 
 export const keyOf = (title: string) => title.replace(/[^A-Za-z0-9]+/g, '-').replace(/^-|-$/g, '');
-export const articleOf = (title: string) => articles[keyOf(title)];
+export const pageOf = (title: string) => pages[keyOf(title)];
 export const holeById = (id: string) => holes.find((h) => h.id === id)!;
 
+/** URL of a file under /holes, as bundled by Vite. */
+export const holesAsset = (path: string) => (path ? imageUrls[`../../holes/${path}`] ?? null : null);
+
 export function endpointInfo(e: Endpoint) {
-  const a = articleOf(e.article);
+  const page = pageOf(e.page);
+  const src = holesAsset(e.image);
   return {
-    title: e.label ?? a.title,
-    description: e.description ?? a.description,
-    image: a.image,
-    url: a.url,
+    title: e.title,
+    description: e.description,
+    image: src ? { src, credit: page?.image?.credit ?? null } : null,
+    url: page?.url ?? `https://en.wikipedia.org/wiki/${encodeURIComponent(e.page.replace(/ /g, '_'))}`,
   };
 }
 
-export const fragmentUrl = (k: Knot) => `${articleOf(k.article).url}#:~:text=${encodeURIComponent(k.fragment)}`;
+/** Live Wikipedia URL that opens the page scrolled to this knot's passage (a text fragment). */
+export function passageUrl(k: Knot) {
+  const words = k.passage.split(/\s+/).slice(0, 6).join(' ').replace(/[,.;:]+$/, '');
+  const enc = encodeURIComponent(words).replace(/-/g, '%2D');
+  return `${k.url}#:~:text=${enc}`;
+}
+
+/** "about M min": reading time for passages and hatnotes plus time to pull each knot. */
+export function minutesFor(hole: Hole) {
+  const words = hole.knots.reduce((n, k) => n + `${k.passage} ${k.hatnote}`.split(/\s+/).length, 0);
+  return Math.max(1, Math.round(words / 180 + hole.knots.length * 0.5));
+}
 
 export const citationRange = (hole: Hole) =>
   hole.knots.length === 1 ? '[1]' : `[1–${hole.knots.length}]`;
 
-const articlesIn = (h: Hole) => new Set([h.start.article, ...h.knots.map((k) => k.article), h.end.article]);
+const pagesIn = (h: Hole) => new Set([h.start.page, ...h.knots.map((k) => k.page), h.end.page]);
 
-/** Articles in this hole that other holes also pass through. */
+/** Pages in this hole that other holes also pass through. */
 export function connections(hole: Hole) {
-  const mine = articlesIn(hole);
-  const out: { article: string; holes: Hole[] }[] = [];
-  for (const article of mine) {
-    const others = holes.filter((h) => h.id !== hole.id && articlesIn(h).has(article));
-    if (others.length) out.push({ article, holes: others });
+  const mine = pagesIn(hole);
+  const out: { page: string; holes: Hole[] }[] = [];
+  for (const page of mine) {
+    const others = holes.filter((h) => h.id !== hole.id && pagesIn(h).has(page));
+    if (others.length) out.push({ page, holes: others });
   }
   return out;
 }
 
 const htmlCache = new Map<string, Promise<string>>();
-export function loadArticle(title: string) {
-  const key = keyOf(title);
+export function loadArticle(page: string) {
+  const key = keyOf(page);
   let p = htmlCache.get(key);
   if (!p) {
-    p = fetch(`${import.meta.env.BASE_URL}content/articles/${key}.html`).then((r) => {
-      if (!r.ok) throw new Error(`Could not load ${title}`);
-      return r.text();
-    });
+    const load = pageHtml[`../../holes/snapshots/pages/${key}.html`];
+    p = load ? load() : Promise.reject(new Error(`No snapshot for ${page}`));
     htmlCache.set(key, p);
     p.catch(() => htmlCache.delete(key));
   }

@@ -40,21 +40,6 @@ export function markFinished(id: string) {
   write('rh.finished', { ...getFinished(), [id]: today() });
 }
 
-/** One claim finished on an earlier day, not yet recalled today. `force` shows any finished hole. */
-export function pendingRecall(force = false): string | null {
-  const finished = Object.entries(getFinished());
-  const seen = read<string>('rh.recalled', '');
-  const t = today();
-  const candidates = finished
-    .filter(([, day]) => force || day < t)
-    .sort((a, b) => (a[1] < b[1] ? 1 : -1));
-  if (!candidates.length) return null;
-  const [id] = candidates[0];
-  if (!force && seen === `${t}:${id}`) return null;
-  return id;
-}
-export const markRecalled = (id: string) => write('rh.recalled', `${today()}:${id}`);
-
 export function logSwipe(id: string, dir: 'in' | 'not-now') {
   const log = read<{ id: string; dir: string; at: number }[]>('rh.swipes', []);
   write('rh.swipes', [...log.slice(-199), { id, dir, at: Date.now() }]);

@@ -44,6 +44,22 @@ describe('markPassage', () => {
     expect(p!.anchor).toBe(p!.onward);
   });
 
+  it('ignores a matching link that sits outside the passage', () => {
+    const root = dom(
+      '<p><a data-target="Copper sheathing">copper sheath</a> came first. The navy lost the colonies.</p>',
+    );
+    const p = markPassage(root, 'The navy lost the colonies.', 'copper sheath', 'Copper sheathing');
+    expect(p!.onward).toBeNull();
+    expect(p!.anchor.className).toBe('rh-exit');
+  });
+
+  it('only accepts an onward link that leads to the next page', () => {
+    const root = dom('<p>Cook named the <a data-target="Hawaiian Islands">Sandwich Islands</a>.</p>');
+    expect(markPassage(root, 'Cook named the Sandwich Islands.', 'Sandwich Islands', 'Hawaiian Islands')!.onward).not.toBeNull();
+    const again = dom('<p>Cook named the <a data-target="Hawaiian Islands">Sandwich Islands</a>.</p>');
+    expect(markPassage(again, 'Cook named the Sandwich Islands.', 'Sandwich Islands', 'Tahiti')!.onward).toBeNull();
+  });
+
   it('adds an exit point after the passage when there is no onward link', () => {
     const root = dom('<p>One sentence. Two sentence.</p>');
     const p = markPassage(root, 'One sentence.');

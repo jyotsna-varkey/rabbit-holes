@@ -1,0 +1,53 @@
+{
+  "id": "sandwich-hawaii",
+  "claim": "The sandwich and Hawaii were named after the same man.",
+  "start": {
+    "title": "Sandwich",
+    "page": "Sandwich",
+    "description": "Food made with bread and other ingredients",
+    "image": "snapshots/images/Sandwich.jpg"
+  },
+  "end": {
+    "title": "Hawaiian Islands",
+    "page": "Hawaiian Islands",
+    "description": "Archipelago in the Pacific Ocean",
+    "image": "snapshots/images/Hawaiian-Islands.jpg"
+  },
+  "knots": [
+    {
+      "page": "Sandwich",
+      "url": "https://en.wikipedia.org/wiki/Sandwich",
+      "revision": 1377592726,
+      "section": "Early sandwiches and sandwich-like foods",
+      "passage": "It is commonly said that Lord Sandwich, during long sessions of cribbage and other card games at public gambling houses, would order his valet to bring him roast beef between two pieces of toasted bread. He was fond of this form of food because it allowed him to continue gambling while eating, without the need for a fork, and without getting his cards greasy from eating meat with his bare hands.",
+      "hatnote": "Lunch is named after an aristocrat who didn't want to stop playing cards. Allegedly.",
+      "onwardLinkText": null,
+      "nextPage": "John Montagu, 4th Earl of Sandwich"
+    },
+    {
+      "page": "John Montagu, 4th Earl of Sandwich",
+      "url": "https://en.wikipedia.org/wiki/John_Montagu%2C_4th_Earl_of_Sandwich",
+      "revision": 1378201147,
+      "section": "The sandwich",
+      "passage": "The sober alternative to this account is provided by Sandwich's biographer N. A. M. Rodger, who suggests that Sandwich's commitments to the navy, to politics, and to the arts mean that the first sandwich was more likely to have been consumed at his work desk.",
+      "hatnote": "The myth-check. His biographer thinks he was just working late.",
+      "onwardLinkText": null,
+      "nextPage": "John Montagu, 4th Earl of Sandwich"
+    },
+    {
+      "page": "John Montagu, 4th Earl of Sandwich",
+      "url": "https://en.wikipedia.org/wiki/John_Montagu%2C_4th_Earl_of_Sandwich",
+      "revision": 1378201147,
+      "section": "Islands named after Sandwich by Capt. James Cook",
+      "passage": "Lord Sandwich was a great supporter of Captain James Cook. As First Lord of the Admiralty, Sandwich approved Admiralty funds for the purchase and fit-out of the Resolution, Adventure and Discovery for Cook's second and third expeditions of exploration in the Pacific Ocean. He also arranged an audience with the King, which was an unusual privilege for a lower ranking officer. In honour of Sandwich, Cook named the Sandwich Islands (Hawaii) after him, as well as the South Sandwich Islands in the Southern Atlantic Ocean and Montague Island in the Gulf of Alaska.",
+      "hatnote": "That work desk ran the Royal Navy, which paid for Cook's voyages.",
+      "onwardLinkText": "Sandwich Islands",
+      "nextPage": "Hawaiian Islands"
+    }
+  ],
+  "payoff": "The man on your lunch label also has his name on a Pacific archipelago, and an Antarctic one.",
+  "caveats": [
+    "Knot 1: the link to John Montagu, 4th Earl of Sandwich is outside the quoted passage.",
+    "Knot 3 is about 90 words; trim to the first two and last sentence if the card needs to be shorter."
+  ]
+}

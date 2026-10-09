@@ -1,5 +1,5 @@
 import { forwardRef, useEffect, useImperativeHandle, useLayoutEffect, useRef, useState } from 'react';
-import { articleOf, loadArticle, type Knot } from '../content';
+import { loadArticle, pageOf, type Knot } from '../content';
 import { anchorPoint, markPassage, type Passage } from '../lib/passage';
 import type { Pt } from '../lib/rope';
 
@@ -37,7 +37,7 @@ export const ArticlePage = forwardRef<ArticlePageHandle, Props>(function Article
   { knot, top, height, arriveFromTop, onFocusChange, onPull },
   ref,
 ) {
-  const article = articleOf(knot.article);
+  const article = pageOf(knot.page);
   const section = useRef<HTMLElement>(null);
   const scroller = useRef<HTMLDivElement>(null);
   const body = useRef<HTMLDivElement>(null);
@@ -62,12 +62,12 @@ export const ArticlePage = forwardRef<ArticlePageHandle, Props>(function Article
 
   useEffect(() => {
     let live = true;
-    loadArticle(knot.article).then(
+    loadArticle(knot.page).then(
       (h) => live && setHtml(h),
       () => live && setError(true),
     );
     return () => { live = false; };
-  }, [knot.article]);
+  }, [knot.page]);
 
   /** Where the hatnote should sit so hatnote + passage are centred in the band. */
   const restingOffset = () => {
@@ -130,7 +130,7 @@ export const ArticlePage = forwardRef<ArticlePageHandle, Props>(function Article
     if (html == null || !body.current) return;
     const root = body.current;
     root.innerHTML = html;
-    const passage = markPassage(root, knot.passage, knot.onward);
+    const passage = markPassage(root, knot.passage, knot.onwardLinkText, knot.nextPage);
     const st = s.current;
     st.passage = passage;
     if (!passage) return;

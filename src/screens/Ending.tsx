@@ -1,6 +1,6 @@
 import { forwardRef, useEffect, useImperativeHandle, useRef, useState } from 'react';
 import {
-  articleOf, citationRange, connections, endpointInfo, fragmentUrl, type Hole,
+  citationRange, connections, endpointInfo, pageOf, passageUrl, type Hole,
 } from '../content';
 import { Infobox } from '../components/Infobox';
 import { Thread, type ThreadHandle } from '../components/Thread';
@@ -144,8 +144,8 @@ export const Ending = forwardRef<EndingHandle, Props>(function Ending(
           <ol className="refs">
             {hole.knots.map((k, i) => (
               <li key={i}>
-                <a className="ref-up" href={fragmentUrl(k)} target="_blank" rel="noopener" aria-label={`Open ${k.article} at this passage`}>^</a>{' '}
-                <a href={fragmentUrl(k)} target="_blank" rel="noopener"><i>{articleOf(k.article).title}</i></a>
+                <a className="ref-up" href={passageUrl(k)} target="_blank" rel="noopener" aria-label={`Open ${k.page} at this passage`}>^</a>{' '}
+                <a href={passageUrl(k)} target="_blank" rel="noopener"><i>{k.page}</i></a>
                 {'. '}
                 {k.hatnote}
               </li>
@@ -157,9 +157,9 @@ export const Ending = forwardRef<EndingHandle, Props>(function Ending(
               <h2 className="wk-h2">See also</h2>
               <ul className="see-also">
                 {links.map((c) => (
-                  <li key={c.article}>
+                  <li key={c.page}>
                     {c.holes.length} more {c.holes.length === 1 ? 'hole passes' : 'holes pass'} through{' '}
-                    <i>{articleOf(c.article).title}</i>:{' '}
+                    <i>{c.page}</i>:{' '}
                     {c.holes.map((h, j) => (
                       <span key={h.id}>
                         {j > 0 && '; '}
@@ -177,7 +177,7 @@ export const Ending = forwardRef<EndingHandle, Props>(function Ending(
           <nav className="doors" aria-label="What next">
             <a className="door" href={end.url} target="_blank" rel="noopener">
               <span className="door-title">Go deeper</span>
-              <span className="door-sub">Read {articleOf(hole.end.article).title} on Wikipedia, or open any reference above</span>
+              <span className="door-sub">Read {hole.end.page} on Wikipedia, or open any reference above</span>
             </a>
             <button className="door" onClick={onNext}>
               <span className="door-title">Next hole</span>
@@ -192,15 +192,15 @@ export const Ending = forwardRef<EndingHandle, Props>(function Ending(
           <footer className="art-foot">
             Passages quoted from English Wikipedia, available under{' '}
             <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>:{' '}
-            {[...new Set(hole.knots.map((k) => k.article))].map((t, i) => (
+            {[...new Set(hole.knots.map((k) => k.page))].map((t, i) => (
               <span key={t}>
                 {i > 0 && ', '}
-                <a href={articleOf(t).permalink} target="_blank" rel="noopener">{articleOf(t).title}</a>
+                <a href={pageOf(t).permalink} target="_blank" rel="noopener">{t}</a>
               </span>
             ))}
             . Images:{' '}
             {[hole.start, hole.end].map((e, i) => {
-              const c = articleOf(e.article).image?.credit;
+              const c = pageOf(e.page).image?.credit;
               return c ? (
                 <span key={i}>
                   {i > 0 && '; '}
