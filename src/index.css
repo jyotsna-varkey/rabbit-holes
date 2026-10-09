@@ -158,7 +158,7 @@ sup.cn, sup.cited {
   white-space: nowrap;
   margin-left: 1px;
 }
-sup.cn { color: var(--link); }
+sup.cn { color: var(--ink-3); }
 sup.cn i { font-style: italic; }
 sup.cited { color: var(--visited); }
 

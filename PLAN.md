@@ -46,7 +46,7 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
 - [ ] 14. Spec fixes, one commit each, each with a Playwright or data test:
   - [x] 14a. Article images bundled in holes/snapshots/images/pages; no
              requests to Wikipedia/Wikimedia while reading (item 8).
-  - [ ] 14b. [citation needed] is grey on cards and the ending (item 11).
+  - [x] 14b. [citation needed] is grey on cards and the ending (item 11).
   - [ ] 14c. Pull only from the knot: tapping the onward link no longer pulls (item 12).
   - [ ] 14d. Left arrow = back on laptop (item 13).
   - [ ] 14e. Laptop layout checked and fixed: margin thread follows the text column (item 14).
@@ -55,7 +55,7 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
   - [ ] 14h. Go deeper opens real Wikipedia at the passage (item 17).
 
 ## Current step
-14b
+14c
 
 ## Decisions
 - React + TypeScript + framer-motion, approved by the owner on 2026-10-09
