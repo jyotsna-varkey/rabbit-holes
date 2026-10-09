@@ -25,10 +25,10 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
         the hatnote, hidden behind the passage, out of the onward link to the
         knot. Sags, goes taut while pulling, springs back.
 - [~] 6. Progress knots in the top bar: purple visited, ring current, grey ahead.
-- [~] 7. Ending: end card swings in, purple thread through numbered knots,
+- [x] 7. Ending: end card swings in, purple thread through numbered knots,
         [citation needed] → [1–N], references list, Go deeper / Next hole /
-        Keep it, shelf in localStorage (tests/e2e/ending.spec.ts). Has
-        extras to remove (step 14g).
+        Keep it, shelf in localStorage (tests/e2e/ending.spec.ts,
+        extras.spec.ts, go-deeper.spec.ts).
 - [~] 8. Home stack: three cards with two peeking, swipe right to enter,
         swipe left to send to back (also logged to localStorage).
 - [~] 9. Tumble: the start infobox grows into the first article, then the page
@@ -44,7 +44,7 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          passage matching; e2e tests for home, enter, knot pull, short drag.
 - [x] 13. Holes in /holes, one file per hole, spec schema. Data tests.
          Fetch script reads /holes. (Completes steps 1, 10 and 11.)
-- [ ] 14. Spec fixes, one commit each, each with a Playwright or data test:
+- [x] 14. Spec fixes, one commit each, each with a Playwright or data test:
   - [x] 14a. Article images bundled in holes/snapshots/images/pages; no
              requests to Wikipedia/Wikimedia while reading (item 8).
   - [x] 14b. [citation needed] is grey on cards and the ending (item 11).
@@ -53,10 +53,13 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
   - [x] 14e. Laptop layout checked and fixed: margin thread follows the text column (item 14).
   - [x] 14f. Motion only for thread, focus blur, tumble and the end card's swing (item 15).
   - [x] 14g. Remove extras: Did you know, See also, stack buttons (item 16; recall went in step 13).
-  - [ ] 14h. Go deeper opens real Wikipedia at the passage (item 17).
+  - [x] 14h. Go deeper opens real Wikipedia at the passage (item 17).
+- [ ] 15. Cover the remaining [~] steps with tests: swipe left sends the card
+         to the back (8); "Back to the thread" re-centres and blur returns (3);
+         progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
-14h
+15 (after the owner decisions under Known issues)
 
 ## Decisions
 - React + TypeScript + framer-motion, approved by the owner on 2026-10-09
@@ -100,6 +103,11 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
   progress-dot fades, back-to-thread slide, citation crossfade, ending
   zoom-out, references fade. The card following your finger and flying off
   on a swipe is the gesture itself, not added motion.
+- Go deeper opens the last knot's passage (where the thread ended) via a
+  text fragment; the references open each knot's passage. Fragments use up
+  to the first 10 words, stopping before a quote mark; the data test checks
+  each matches only its passage. Six words weren't enough for Coffee knot 2
+  ("Up to the end of the…" appears earlier). Checked live on Wikipedia.
 - The rope is string, not a rod: it resists stretching only. A two-sided
   constraint made the slack zigzag. Spans that are taut are drawn straight,
   and a span whose ends jump > 140px is reset, to stop leftover loops after a
@@ -136,6 +144,8 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
 ## Session log
 - 2026-10-08: Built the full prototype (all of the flow) in one pass, React +
   TypeScript; content pipeline verified 13 knots against live Wikipedia.
-- 2026-10-09: Read CLAUDE.md/SPEC.md/PLAN.md; recorded the prototype in this
-  plan; added test harness (12) and moved holes to /holes in the spec schema (13);
-  next: spec fixes (14).
+- 2026-10-09: Recorded the prototype in this plan; added Vitest + Playwright
+  (12); holes in /holes with the spec schema and data tests (13); spec fixes
+  14a–h (bundled images, grey [citation needed], knot-only pull, left arrow,
+  laptop layout, motion, extras removed, Go deeper). Found and fixed: image
+  files named from URL query strings. Next: owner decisions, then step 15.

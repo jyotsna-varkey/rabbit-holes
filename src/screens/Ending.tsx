@@ -1,6 +1,6 @@
 import { forwardRef, useEffect, useImperativeHandle, useRef, useState } from 'react';
 import {
-  citationRange, endpointInfo, pageOf, passageUrl, type Hole,
+  citationRange, pageOf, passageUrl, type Hole,
 } from '../content';
 import { Infobox } from '../components/Infobox';
 import { Thread, type ThreadHandle } from '../components/Thread';
@@ -41,7 +41,7 @@ export const Ending = forwardRef<EndingHandle, Props>(function Ending(
   const [stage, setStage] = useState(0); // 0 waiting · 1 swung in · 2 locked · 3 cited · 4 references
   const [kept, setKept] = useState(() => isKept(hole.id));
   const n = hole.knots.length;
-  const end = endpointInfo(hole.end);
+  const last = hole.knots[hole.knots.length - 1];
 
   const sockets = () => {
     const l = left.current;
@@ -151,9 +151,9 @@ export const Ending = forwardRef<EndingHandle, Props>(function Ending(
           </ol>
 
           <nav className="doors" aria-label="What next">
-            <a className="door" href={end.url} target="_blank" rel="noopener">
+            <a className="door" href={passageUrl(last)} target="_blank" rel="noopener">
               <span className="door-title">Go deeper</span>
-              <span className="door-sub">Read {hole.end.page} on Wikipedia, or open any reference above</span>
+              <span className="door-sub">Open {last.page} on Wikipedia at the last passage, or any reference above</span>
             </a>
             <button className="door" onClick={onNext}>
               <span className="door-title">Next hole</span>

@@ -81,9 +81,16 @@ export function endpointInfo(e: Endpoint) {
   };
 }
 
-/** Live Wikipedia URL that opens the page scrolled to this knot's passage (a text fragment). */
+/**
+ * Live Wikipedia URL that opens the page scrolled to this knot's passage (a text
+ * fragment). Uses the passage's first 10 words, stopping before any word with a
+ * quote mark (the live page may use curly ones); the data test checks each one
+ * matches only the passage on its page.
+ */
 export function passageUrl(k: Knot) {
-  const words = k.passage.split(/\s+/).slice(0, 6).join(' ').replace(/[,.;:]+$/, '');
+  const all = k.passage.split(/\s+/);
+  const quoted = all.findIndex((w) => /['"\u2018\u2019\u201C\u201D]/.test(w));
+  const words = all.slice(0, Math.min(10, quoted < 0 ? 10 : Math.max(quoted, 4))).join(' ').replace(/[,.;:]+$/, '');
   const enc = encodeURIComponent(words).replace(/-/g, '%2D');
   return `${k.url}#:~:text=${enc}`;
 }

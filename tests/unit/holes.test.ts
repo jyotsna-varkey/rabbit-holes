@@ -2,6 +2,7 @@ import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 // @ts-expect-error plain JS helper shared with the fetch script
 import { keyOf, knotProblems, snapshotBody } from '../../scripts/knots.mjs';
+import { passageUrl } from '../../src/content';
 
 const ROOT = new URL('../../', import.meta.url).pathname;
 const files = readdirSync(`${ROOT}holes`).filter((f) => f.endsWith('.json'));
@@ -64,6 +65,17 @@ describe.each(holes)('$file', ({ file, hole }) => {
     for (const [i, k] of hole.knots.entries()) {
       const body = await snapshotBody(ROOT, k.page);
       expect(knotProblems(body, k), `knot ${i + 1} (${k.page})`).toEqual([]);
+    }
+  });
+
+  it('links each passage with a text fragment that only matches the passage on its page', async () => {
+    for (const [i, k] of hole.knots.entries()) {
+      const url = passageUrl(k);
+      expect(url.startsWith(`${k.url}#:~:text=`)).toBe(true);
+      const fragment = decodeURIComponent(url.split('#:~:text=')[1]).toLowerCase();
+      const text = (await snapshotBody(ROOT, k.page)).textContent.replace(/\s+/g, ' ').toLowerCase();
+      expect(text.split(fragment).length - 1, `knot ${i + 1}: "${fragment}"`).toBe(1);
+      expect(k.passage.toLowerCase().startsWith(fragment), `knot ${i + 1}`).toBe(true);
     }
   });
 
