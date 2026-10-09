@@ -3,7 +3,7 @@ import { flushSync } from 'react-dom';
 import { animate, motion, useMotionValue, useTransform, type PanInfo } from 'framer-motion';
 import { holeById, type Hole } from '../content';
 import { HoleCard, type HoleCardHandle } from '../components/HoleCard';
-import { getShelf, logSwipe } from '../lib/storage';
+import { getShelf, hasSwiped, logSwipe } from '../lib/storage';
 
 type Props = {
   order: string[];
@@ -19,6 +19,7 @@ export function Home({ order, setOrder, hidden, onEnter, onShelf }: Props) {
   const rotate = useTransform(x, [-240, 0, 240], [-14, 0, 14]);
   const [taut, setTaut] = useState(false);
   const [leaving, setLeaving] = useState(false);
+  const [showHint, setShowHint] = useState(() => !hasSwiped());
   const top = useRef<HoleCardHandle>(null);
 
   const shelfCount = getShelf().length;
@@ -28,6 +29,7 @@ export function Home({ order, setOrder, hidden, onEnter, onShelf }: Props) {
     setLeaving(true);
     const hole = holeById(order[0]);
     logSwipe(hole.id, 'in');
+    setShowHint(false);
     setTaut(true);
     await animate(x, 0, { type: 'spring', stiffness: 500, damping: 30 });
     await new Promise((r) => setTimeout(r, 90));
@@ -40,6 +42,7 @@ export function Home({ order, setOrder, hidden, onEnter, onShelf }: Props) {
     if (leaving) return;
     setLeaving(true);
     logSwipe(order[0], 'not-now');
+    setShowHint(false);
     await animate(x, -window.innerWidth * 1.3, { type: 'tween', duration: 0.28, ease: 'easeIn', velocity });
     flushSync(() => setOrder([...order.slice(1), order[0]]));
     x.set(0);
@@ -98,6 +101,12 @@ export function Home({ order, setOrder, hidden, onEnter, onShelf }: Props) {
           ))}
       </div>
 
+      {showHint && (
+        <p className="swipe-hint">
+          <span>← not now</span>
+          <span>swipe right to go in →</span>
+        </p>
+      )}
     </main>
   );
 }

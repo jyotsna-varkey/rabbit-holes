@@ -11,8 +11,7 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
         Built with React + TypeScript + framer-motion instead of vanilla JS
         (see Decisions). Test tooling added in step 12.
 - [x] 1. Hole data: holes/coffee-insurance.json in the spec schema; data test
-        (tests/unit/holes.test.ts). Two of the plan's rules are `todo`, blocked
-        on an owner decision (Known issues).
+        (tests/unit/holes.test.ts), including the content rules (step 19).
 - [~] 2. Static page view: Wikipedia-style page with title, "From Wikipedia",
         attribution footer linking the pinned revision, hatnote, highlighted
         passage (src/components/ArticlePage.tsx, src/lib/passage.ts).
@@ -86,14 +85,18 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          Coffee → de Clieu → Saint-Domingue ×2 → Haitian Revolution.
          Three committed e2e expectations updated to the new coffee knot 2
          (hatnote, its reference link, "about 4 min") with owner approval.
-- [ ] 21. Swipe hint on home in a handwriting font (Caveat, bundled locally);
-         note the exception in SPEC.md.
+- [x] 21. Swipe hint on home in a handwriting font: "← not now · swipe right
+         to go in →" in Caveat 500 (src/assets/fonts, OFL licence alongside),
+         shown until the reader's first swipe (rh.swipes in localStorage).
+         SPEC.md notes the exception. Test: tests/e2e/swipe-hint.spec.ts
+         (font loaded from the app, no Google Fonts requests, hides after a
+         swipe and after reload).
 - [ ] 15. Cover the remaining [~] steps with tests: swipe left sends the card
          to the back (8); "Back to the thread" re-centres and blur returns (3);
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
-21
+15
 
 ## Decisions
 - React + TypeScript + framer-motion, approved by the owner on 2026-10-09
@@ -206,8 +209,6 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
 - Haitian Revolution lead image (on the home card) is a massacre engraving.
 - Re-fetching pinned revisions gives slightly different markup (Parsoid
   output changes, e.g. data-mw-wikitext attributes); text is identical.
-- With the stack buttons gone, nothing on home tells a first-time reader
-  to swipe (the spec has no hint). Owner to decide whether a hint is wanted.
 - On a phone the home card now stretches to fill the screen, so the thread
   between the infoboxes hangs very long; a max card height would tighten it.
 - Claims, hatnotes, payoffs and caveats for the 20 reading-copy holes are
@@ -224,6 +225,8 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
   the Artist metadata is messy; Sogdian language has no lead image.
 - On the ending, [1–N] can wrap onto its own line under the claim.
 - import-holes.mjs used to miss entry 100 (three-digit number); fixed.
+- Caveat's Latin file has no ← → glyphs, so the hint's arrows use the
+  system font.
 - iOS haptics use the iOS 18 switch-control workaround; untested on a device.
 
 ## Session log
@@ -240,4 +243,5 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
   MB, none removed) and step 18 (entry script 781 → 178 KB gzipped). Next:
   owner review of drafts and decisions, step 15.
 - 2026-10-09 (later): Owner decided the content rules; steps 19–20 turn them
-  into tests and fix the original four holes. Next: swipe hint (21).
+  into tests and fix the original four holes; step 21 adds the handwritten
+  swipe hint. Next: step 15, and owner review of the drafted hatnotes.

@@ -51,6 +51,9 @@ Trivia, not homework. Never self-important.
   back on release. Thread colour is link blue.
 - Motion only for the thread, the focus blur, and the tumble.
 - No stickies, badges, points, streaks, or emoji.
+- One deliberate exception (owner, 2026-10-09): a handwritten swipe hint on
+  home for first-time readers ("← not now · swipe right to go in →"), in the
+  Caveat font shipped with the app. It disappears after the first swipe.
 
 ## Platforms
 - Web app first, phone-first. Must also work on laptop:
