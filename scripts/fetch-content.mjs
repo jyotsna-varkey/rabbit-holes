@@ -22,6 +22,7 @@ import { readFile, readdir, writeFile, mkdir, rm } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { parseHTML } from 'linkedom';
 import { existsSync } from 'node:fs';
+import { compressImage, LEAD_MAX_WIDTH } from './images.mjs';
 import { fragmentFor, fragmentKey, keyOf, knotProblems, loadDom, passageSection } from './knots.mjs';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
@@ -163,7 +164,9 @@ async function bundleImages(body, key) {
       file = `${String(++n).padStart(3, '0')}-${base}`;
       // Some images (e.g. rendered maths formulas) have no extension in their URL.
       if (!/\.(jpe?g|png|gif|svg|webp)$/i.test(file)) file += `.${sniffImageType(bytes)}`;
-      await writeFile(`${dir}/${file}`, bytes);
+      const out = await compressImage(bytes, file.split('.').pop());
+      file = file.replace(/\.[^.]+$/, `.${out.ext}`);
+      await writeFile(`${dir}/${file}`, out.bytes);
       saved.set(src, file);
     }
     img.setAttribute('data-asset', `snapshots/images/pages/${key}/${file}`);
@@ -238,8 +241,9 @@ for (const title of new Set([...knotPages.keys(), ...endpointPages])) {
     let bytes;
     try { bytes = await get(src, 'bytes'); } catch { bytes = await get(thumb, 'bytes'); }
     const ext = (src.match(/\.(jpe?g|png|gif|svg|webp)(\.png)?$/i)?.[2] ? 'png' : src.match(/\.(jpe?g|png|gif|webp)$/i)?.[1]) ?? 'jpg';
-    const file = `${key}.${ext.toLowerCase()}`;
-    await writeFile(`${SNAP}/images/${file}`, bytes);
+    const out = await compressImage(bytes, ext, { maxWidth: LEAD_MAX_WIDTH });
+    const file = `${key}.${out.ext}`;
+    await writeFile(`${SNAP}/images/${file}`, out.bytes);
     image = {
       file: `snapshots/images/${file}`,
       width: summary.thumbnail.width,
@@ -278,7 +282,10 @@ for (const { file, hole } of holes) {
   for (const end of [hole.start, hole.end]) {
     const page = manifest.pages[keyOf(end.page)];
     if (!end.description && page.description) { end.description = page.description; changes.add('description'); }
-    if (!end.image && page.image) { end.image = page.image.file; changes.add('image'); }
+    // Blank, or pointing at a file that's gone (e.g. replaced by its WebP version).
+    if (page.image && (!end.image || !existsSync(`${ROOT}holes/${end.image}`))) {
+      if (end.image !== page.image.file) { end.image = page.image.file; changes.add('image'); }
+    }
   }
   if (changes.size) {
     await writeFile(`${ROOT}holes/${file}`, JSON.stringify(hole, null, 2) + '\n');

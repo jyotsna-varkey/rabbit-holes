@@ -5,13 +5,13 @@
     "title": "Aluminium",
     "page": "Aluminium",
     "description": "Chemical element with atomic number 13 (Al)",
-    "image": "snapshots/images/Aluminium.jpg"
+    "image": "snapshots/images/Aluminium.webp"
   },
   "end": {
     "title": "Charles Martin Hall",
     "page": "Charles Martin Hall",
     "description": "American inventor, businessman, and chemist (1863–1914)",
-    "image": "snapshots/images/Charles-Martin-Hall.jpg"
+    "image": "snapshots/images/Charles-Martin-Hall.webp"
   },
   "knots": [
     {

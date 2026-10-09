@@ -5,13 +5,13 @@
     "title": "Sandwich",
     "page": "Sandwich",
     "description": "Food made with bread and other ingredients",
-    "image": "snapshots/images/Sandwich.jpg"
+    "image": "snapshots/images/Sandwich.webp"
   },
   "end": {
     "title": "Hawaiian Islands",
     "page": "Hawaiian Islands",
     "description": "Archipelago in the Pacific Ocean",
-    "image": "snapshots/images/Hawaiian-Islands.jpg"
+    "image": "snapshots/images/Hawaiian-Islands.webp"
   },
   "knots": [
     {

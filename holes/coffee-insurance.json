@@ -5,13 +5,13 @@
     "title": "Coffee",
     "page": "Coffee",
     "description": "Brewed beverage",
-    "image": "snapshots/images/Coffee.jpg"
+    "image": "snapshots/images/Coffee.webp"
   },
   "end": {
     "title": "Lloyd's of London",
     "page": "Lloyd's of London",
     "description": "Insurance market in England",
-    "image": "snapshots/images/Lloyd-s-of-London.jpg"
+    "image": "snapshots/images/Lloyd-s-of-London.webp"
   },
   "knots": [
     {

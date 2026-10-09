@@ -60,12 +60,21 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          descriptions and images. Claims, hatnotes, payoffs and caveats are
          Claude's drafts, to be reviewed. tests/e2e/all-holes.spec.ts plays
          every hole end to end.
+- [x] 17. Recompress bundled images to WebP (owner: no images dropped or
+         greyed out). Shared helper used by the fetch script for new images
+         and by a one-off pass over existing ones; references in snapshots,
+         manifest and hole files updated. Data test: every bundled raster
+         image is WebP, plus a size budget. Result: 1,615 images,
+         52.8 MB → 22.0 MB, none removed.
+- [ ] 18. Slim the main JS bundle: hole passages load when a hole is opened,
+         images are served as files instead of a compiled URL map. No
+         visible change.
 - [ ] 15. Cover the remaining [~] steps with tests: swipe left sends the card
          to the back (8); "Back to the thread" re-centres and blur returns (3);
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
-15 (after the owner decisions under Known issues)
+18
 
 ## Decisions
 - React + TypeScript + framer-motion, approved by the owner on 2026-10-09
@@ -139,6 +148,16 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
   twice).
 - The fetch script skips pages already saved at the same revision
   (`--refresh` to force).
+- Long passages stay as they are (owner, 2026-10-09); revisit if beta
+  readers say they're too long.
+- Size: recompress images rather than drop or placeholder far-away ones
+  (owner: greying out images would spoil going deeper). `sharp` approved as
+  a dev dependency for this.
+- Images: WebP quality 70 (dry run: q60 22→20 MB but softer, q80 27.5 MB);
+  card images resized to 480 px wide (twice their largest on-screen size);
+  animated GIFs stay animated; SVGs untouched. scripts/images.mjs is shared
+  by the fetch script (new downloads) and scripts/compress-images.mjs
+  (existing files, safe to re-run). Checked at 3x phone resolution.
 - The rope is string, not a rod: it resists stretching only. A two-sided
   constraint made the slack zigzag. Spans that are taut are drawn straight,
   and a span whose ends jump > 140px is reset, to stop leftover loops after a
@@ -174,10 +193,12 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
   Claude's drafts; owner to review.
 - Reading-copy passages are whole paragraphs (often 150–250 words) and many
   onward links sit mid-paragraph, so the thread crosses the rest of the
-  passage on its way to the knot. Trimming passages is an owner decision.
-- Size: holes/snapshots is ~65 MB (1,647 images, 84 pages) and the main JS
-  bundle is ~390 KB gzipped (all hole JSON, the manifest and the image URL
-  map load up front). Worth lazy-loading before hosting.
+  passage on its way to the knot. Kept as-is for beta feedback (owner).
+- Size: images now 22 MB (step 17). The main JS bundle is ~390 KB gzipped
+  (all hole JSON, the manifest and the image URL map load up front): step 18.
+  The original 53 MB of images is still in git history (commit 393d6e7);
+  shrinking the repo itself would mean rewriting history (owner decision;
+  nothing has been pushed yet).
 - Some Commons credits read oddly (e.g. "Unknown authorUnknown a…") because
   the Artist metadata is messy; Sogdian language has no lead image.
 - On the ending, [1–N] can wrap onto its own line under the claim.

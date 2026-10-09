@@ -5,13 +5,13 @@
     "title": "Computer",
     "page": "Computer",
     "description": "Programmable machine that processes data",
-    "image": "snapshots/images/Computer.jpg"
+    "image": "snapshots/images/Computer.webp"
   },
   "end": {
     "title": "Jacques Cousteau",
     "page": "Jacques Cousteau",
     "description": "French oceanographer and author (1910–1997)",
-    "image": "snapshots/images/Jacques-Cousteau.jpg"
+    "image": "snapshots/images/Jacques-Cousteau.webp"
   },
   "knots": [
     {

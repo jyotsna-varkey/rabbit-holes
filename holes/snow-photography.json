@@ -5,13 +5,13 @@
     "title": "Snow",
     "page": "Snow",
     "description": "Precipitation in the form of ice crystal flakes",
-    "image": "snapshots/images/Snow.jpg"
+    "image": "snapshots/images/Snow.webp"
   },
   "end": {
     "title": "Photography",
     "page": "Photography",
     "description": "Art and practice of creating images by recording light",
-    "image": "snapshots/images/Photography.jpg"
+    "image": "snapshots/images/Photography.webp"
   },
   "knots": [
     {

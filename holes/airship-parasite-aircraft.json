@@ -5,13 +5,13 @@
     "title": "Airship",
     "page": "Airship",
     "description": "Powered lighter-than-air aircraft",
-    "image": "snapshots/images/Airship.jpg"
+    "image": "snapshots/images/Airship.webp"
   },
   "end": {
     "title": "Parasite aircraft",
     "page": "Parasite aircraft",
     "description": "Small plane aboard an airborne carrier",
-    "image": "snapshots/images/Parasite-aircraft.jpg"
+    "image": "snapshots/images/Parasite-aircraft.webp"
   },
   "knots": [
     {

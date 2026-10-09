@@ -5,13 +5,13 @@
     "title": "Whale",
     "page": "Whale",
     "description": "Informal group of large marine mammals",
-    "image": "snapshots/images/Whale.jpg"
+    "image": "snapshots/images/Whale.webp"
   },
   "end": {
     "title": "Moby-Dick",
     "page": "Moby-Dick",
     "description": "1851 novel by Herman Melville",
-    "image": "snapshots/images/Moby-Dick.jpg"
+    "image": "snapshots/images/Moby-Dick.webp"
   },
   "knots": [
     {

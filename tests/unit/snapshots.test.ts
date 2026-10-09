@@ -1,4 +1,4 @@
-import { existsSync, readdirSync, readFileSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 
 const ROOT = new URL('../../', import.meta.url).pathname;
@@ -31,5 +31,26 @@ describe.each(pages)('%s', (file) => {
       .map((m) => m[1])
       .filter((p) => !existsSync(`${ROOT}holes/${p}`));
     expect(missing).toEqual([]);
+  });
+});
+
+// Size: every bundled raster image is recompressed to WebP (PLAN step 17).
+describe('bundled images', () => {
+  const files: string[] = [];
+  const walk = (dir: string) => {
+    for (const name of readdirSync(dir, { withFileTypes: true })) {
+      if (name.isDirectory()) walk(`${dir}/${name.name}`);
+      else if (name.name !== '.DS_Store') files.push(`${dir}/${name.name}`);
+    }
+  };
+  walk(`${ROOT}holes/snapshots/images`);
+
+  it('are WebP, apart from SVG drawings', () => {
+    expect(files.filter((f) => !/\.(webp|svg)$/i.test(f)).map((f) => f.slice(ROOT.length))).toEqual([]);
+  });
+
+  it('stay within a 25 MB budget', () => {
+    const total = files.reduce((n, f) => n + statSync(f).size, 0);
+    expect(total / 1048576).toBeLessThan(25);
   });
 });

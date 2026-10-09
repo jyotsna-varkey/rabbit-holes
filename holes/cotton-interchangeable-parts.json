@@ -5,13 +5,13 @@
     "title": "Cotton",
     "page": "Cotton",
     "description": "Plant fiber from the genus Gossypium",
-    "image": "snapshots/images/Cotton.jpg"
+    "image": "snapshots/images/Cotton.webp"
   },
   "end": {
     "title": "Interchangeable parts",
     "page": "Interchangeable parts",
     "description": "Practically identical components",
-    "image": "snapshots/images/Interchangeable-parts.jpg"
+    "image": "snapshots/images/Interchangeable-parts.webp"
   },
   "knots": [
     {

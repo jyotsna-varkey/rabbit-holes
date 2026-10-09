@@ -5,13 +5,13 @@
     "title": "Umbrella",
     "page": "Umbrella",
     "description": "Canopy designed to protect against rain or sunlight",
-    "image": "snapshots/images/Umbrella.jpg"
+    "image": "snapshots/images/Umbrella.webp"
   },
   "end": {
     "title": "Thomas Coram",
     "page": "Thomas Coram",
     "description": "English sea captain and philanthropist (c. 1668–1751)",
-    "image": "snapshots/images/Thomas-Coram.jpg"
+    "image": "snapshots/images/Thomas-Coram.webp"
   },
   "knots": [
     {

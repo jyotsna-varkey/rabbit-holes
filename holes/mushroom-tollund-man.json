@@ -5,13 +5,13 @@
     "title": "Mushroom",
     "page": "Mushroom",
     "description": "Spore-bearing fruiting body of a fungus",
-    "image": "snapshots/images/Mushroom.jpg"
+    "image": "snapshots/images/Mushroom.webp"
   },
   "end": {
     "title": "Tollund Man",
     "page": "Tollund Man",
     "description": "Iron Age bog body from Denmark",
-    "image": "snapshots/images/Tollund-Man.jpg"
+    "image": "snapshots/images/Tollund-Man.webp"
   },
   "knots": [
     {

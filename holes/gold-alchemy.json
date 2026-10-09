@@ -5,13 +5,13 @@
     "title": "Gold",
     "page": "Gold",
     "description": "Chemical element with atomic number 79 (Au)",
-    "image": "snapshots/images/Gold.jpg"
+    "image": "snapshots/images/Gold.webp"
   },
   "end": {
     "title": "Alchemy",
     "page": "Alchemy",
     "description": "Branch of natural philosophy",
-    "image": "snapshots/images/Alchemy.jpg"
+    "image": "snapshots/images/Alchemy.webp"
   },
   "knots": [
     {

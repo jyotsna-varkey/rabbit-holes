@@ -5,13 +5,13 @@
     "title": "Coffee",
     "page": "Coffee",
     "description": "Brewed beverage",
-    "image": "snapshots/images/Coffee.jpg"
+    "image": "snapshots/images/Coffee.webp"
   },
   "end": {
     "title": "Haitian Revolution",
     "page": "Haitian Revolution",
     "description": "1791–1804 slave revolt in Hispanola",
-    "image": "snapshots/images/Haitian-Revolution.jpg"
+    "image": "snapshots/images/Haitian-Revolution.webp"
   },
   "knots": [
     {

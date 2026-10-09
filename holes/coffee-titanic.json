@@ -5,13 +5,13 @@
     "title": "Coffee",
     "page": "Coffee",
     "description": "Brewed beverage",
-    "image": "snapshots/images/Coffee.jpg"
+    "image": "snapshots/images/Coffee.webp"
   },
   "end": {
     "title": "Titanic",
     "page": "Titanic",
     "description": "British passenger liner that sank in 1912",
-    "image": "snapshots/images/Titanic.jpg"
+    "image": "snapshots/images/Titanic.webp"
   },
   "knots": [
     {

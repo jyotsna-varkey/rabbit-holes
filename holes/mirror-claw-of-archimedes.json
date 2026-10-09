@@ -5,13 +5,13 @@
     "title": "Mirror",
     "page": "Mirror",
     "description": "Object that reflects an image",
-    "image": "snapshots/images/Mirror.jpg"
+    "image": "snapshots/images/Mirror.webp"
   },
   "end": {
     "title": "Claw of Archimedes",
     "page": "Claw of Archimedes",
     "description": "Greek anti-ship weapon used in 213–212 BC",
-    "image": "snapshots/images/Claw-of-Archimedes.jpg"
+    "image": "snapshots/images/Claw-of-Archimedes.webp"
   },
   "knots": [
     {

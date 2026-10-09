@@ -5,13 +5,13 @@
     "title": "Ice",
     "page": "Ice",
     "description": "Frozen water; the solid state of water",
-    "image": "snapshots/images/Ice.jpg"
+    "image": "snapshots/images/Ice.webp"
   },
   "end": {
     "title": "7-Eleven",
     "page": "7-Eleven",
     "description": "American multinational convenience store chain",
-    "image": "snapshots/images/7-Eleven.jpg"
+    "image": "snapshots/images/7-Eleven.webp"
   },
   "knots": [
     {

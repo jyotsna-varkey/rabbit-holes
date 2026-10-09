@@ -5,13 +5,13 @@
     "title": "Eraser",
     "page": "Eraser",
     "description": "Stationery item used for erasing marks on paper",
-    "image": "snapshots/images/Eraser.jpg"
+    "image": "snapshots/images/Eraser.webp"
   },
   "end": {
     "title": "Johann Jacob Schweppe",
     "page": "Johann Jacob Schweppe",
     "description": "German-Swiss scientist (1740–1821)",
-    "image": "snapshots/images/Johann-Jacob-Schweppe.jpg"
+    "image": "snapshots/images/Johann-Jacob-Schweppe.webp"
   },
   "knots": [
     {

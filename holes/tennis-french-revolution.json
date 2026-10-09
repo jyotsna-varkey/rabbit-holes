@@ -5,13 +5,13 @@
     "title": "Tennis",
     "page": "Tennis",
     "description": "Racket sport",
-    "image": "snapshots/images/Tennis.jpg"
+    "image": "snapshots/images/Tennis.webp"
   },
   "end": {
     "title": "French Revolution",
     "page": "French Revolution",
     "description": "1789–1799 sociopolitical change in France",
-    "image": "snapshots/images/French-Revolution.jpg"
+    "image": "snapshots/images/French-Revolution.webp"
   },
   "knots": [
     {

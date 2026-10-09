@@ -5,13 +5,13 @@
     "title": "Clock",
     "page": "Clock",
     "description": "Instrument for measuring, keeping or indicating time",
-    "image": "snapshots/images/Clock.jpg"
+    "image": "snapshots/images/Clock.webp"
   },
   "end": {
     "title": "James Cook",
     "page": "James Cook",
     "description": "British explorer and naval officer (1728–1779)",
-    "image": "snapshots/images/James-Cook.jpg"
+    "image": "snapshots/images/James-Cook.webp"
   },
   "knots": [
     {

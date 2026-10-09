@@ -5,13 +5,13 @@
     "title": "Horse",
     "page": "Horse",
     "description": "Animal",
-    "image": "snapshots/images/Horse.jpg"
+    "image": "snapshots/images/Horse.webp"
   },
   "end": {
     "title": "Simonides of Ceos",
     "page": "Simonides of Ceos",
     "description": "Greek lyric poet (c. 556–468 BC)",
-    "image": "snapshots/images/Simonides-of-Ceos.png"
+    "image": "snapshots/images/Simonides-of-Ceos.webp"
   },
   "knots": [
     {
