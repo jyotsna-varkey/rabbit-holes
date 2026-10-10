@@ -476,6 +476,7 @@ sup.cited { color: var(--visited); }
 .veil-top { height: 0; }
 .veil-bottom { height: 100%; transform: translateY(100%); }
 .page.is-focused .veil { opacity: 1; }
+.page.is-focused.is-landing .veil { opacity: 0; }
 
 /* ——— Article, Wikipedia-style ——— */
 

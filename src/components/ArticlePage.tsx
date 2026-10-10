@@ -89,6 +89,9 @@ export const ArticlePage = forwardRef<ArticlePageHandle, Props>(function Article
     cb.current.onFocusChange(on);
   };
 
+  /** While the page travels to the passage it stays sharp; the blur comes in on landing. */
+  const landing = (on: boolean) => section.current?.classList.toggle('is-landing', on);
+
   const scrollTo = (target: number, duration: number, then?: () => void) => {
     const el = scroller.current!;
     const st = s.current;
@@ -96,6 +99,7 @@ export const ArticlePage = forwardRef<ArticlePageHandle, Props>(function Article
     const from = el.scrollTop;
     const t0 = performance.now();
     st.autoActive = true;
+    landing(true);
     const step = (now: number) => {
       const t = Math.min(1, (now - t0) / duration);
       el.scrollTop = from + (target - from) * ease(t);
@@ -103,6 +107,7 @@ export const ArticlePage = forwardRef<ArticlePageHandle, Props>(function Article
       else {
         st.autoActive = false;
         st.restTop = el.scrollTop;
+        landing(false);
         then?.();
       }
     };
@@ -189,6 +194,7 @@ export const ArticlePage = forwardRef<ArticlePageHandle, Props>(function Article
         cancelAnimationFrame(st.auto);
         st.autoActive = false;
         st.restTop = el.scrollTop;
+        section.current?.classList.remove('is-landing');
       }
     };
     const onScroll = () => {

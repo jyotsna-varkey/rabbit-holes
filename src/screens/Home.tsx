@@ -30,12 +30,16 @@ export function Home({ order, setOrder, hidden, onEnter, onShelf }: Props) {
     const hole = holeById(order[0]);
     logSwipe(hole.id, 'in');
     setShowHint(false);
+    // Carry straight on: the start card grows into the page from where the
+    // swipe left it. Springing the card back first read as a failed swipe.
     setTaut(true);
-    await animate(x, 0, { type: 'spring', stiffness: 500, damping: 30 });
-    await new Promise((r) => setTimeout(r, 90));
     onEnter(hole, top.current?.startRect() ?? null);
-    setTaut(false);
-    setLeaving(false);
+    // Reset the card once the page has covered the stack.
+    setTimeout(() => {
+      x.set(0);
+      setTaut(false);
+      setLeaving(false);
+    }, 700);
   };
 
   const notNow = async (velocity = 0) => {

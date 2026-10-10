@@ -117,9 +117,14 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          card, one row per knot (page picture, page name, section, opens
          Wikipedia at the passage), end card; the thread runs down a left
          gutter through every stop. Test: tests/e2e/journey.spec.ts.
-- [ ] 27. Smoother swipe-in: the card mustn't spring back to centre (it looks
+- [x] 27. Smoother swipe-in: the card mustn't spring back to centre (it looks
          like the swipe failed); the start card should carry straight on into
-         the Wikipedia page without the screen going blurry first.
+         the Wikipedia page without the screen going blurry first. Frames
+         showed ~0.5 s of the card sitting re-centred, then a full-screen
+         blur while scrolling. Now: the tumble starts on release from where
+         the card is (0.55 s ease-out tween, was a spring); the page scrolls
+         to the passage sharp ("is-landing") and the blur fades in on
+         arrival. Test: tests/e2e/swipe-in.spec.ts.
 - [ ] 28. Keep the shelf: saved on the device and protected from browser
          clean-up, plus optional sign-in by emailed link (Supabase) so it
          follows you across devices. Changes SPEC.md's "no backend, no
@@ -129,7 +134,7 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
-27
+28
 
 ## Decisions
 - React + TypeScript + framer-motion, approved by the owner on 2026-10-09

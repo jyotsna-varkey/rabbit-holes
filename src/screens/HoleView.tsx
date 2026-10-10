@@ -84,7 +84,7 @@ export function HoleView({ hole, from, onClose, onNext, onSettled }: Props) {
     }
     const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
     const ctl = animate(grow, 1, {
-      ...(reduced ? { duration: 0.15 } : { type: 'spring', stiffness: 120, damping: 20, restDelta: 0.001 }),
+      ...(reduced ? { duration: 0.15 } : { type: 'tween', duration: 0.55, ease: [0.22, 1, 0.36, 1] }),
       onComplete: arrive,
     });
     return () => ctl.stop();
