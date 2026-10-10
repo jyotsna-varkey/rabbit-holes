@@ -93,7 +93,7 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          swipe and after reload).
 - UI polish from the owner's first real use (2026-10-10), in the order
   they'll be done:
-- [ ] 22. "Pull the thread" label next to the knot in the handwriting font
+- [x] 22. "Pull the thread" label next to the knot in the handwriting font
          (Caveat), still in its white tab.
 - [ ] 23. Always show which Wikipedia page you're on: page name in the top
          bar, updating on every pull (forward or back).
@@ -117,7 +117,7 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
-22
+23
 
 ## Decisions
 - React + TypeScript + framer-motion, approved by the owner on 2026-10-09

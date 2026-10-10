@@ -1,6 +1,6 @@
 /* Rabbit Holes: Wikipedia's own visual vocabulary, plus one thread. */
 
-/* The one exception (SPEC.md): a handwritten swipe hint for first-time readers.
+/* The one exception (SPEC.md): handwritten hints (swipe on home, pull by the knot).
    Caveat, SIL Open Font License (assets/fonts/Caveat-OFL.txt), shipped with the app. */
 @font-face {
   font-family: 'Caveat';
@@ -334,8 +334,10 @@ sup.cited { color: var(--visited); }
   padding: 1px 8px;
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.92);
-  font-size: 12px;
-  line-height: 18px;
+  font-family: 'Caveat', cursive;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 22px;
   color: var(--ink-2);
   z-index: 6;
   pointer-events: none;

@@ -54,6 +54,7 @@ Trivia, not homework. Never self-important.
 - One deliberate exception (owner, 2026-10-09): a handwritten swipe hint on
   home for first-time readers ("← not now · swipe right to go in →"), in the
   Caveat font shipped with the app. It disappears after the first swipe.
+  The "Pull the thread ↑" label beside the knot uses the same font.
 
 ## Platforms
 - Web app first, phone-first. Must also work on laptop:

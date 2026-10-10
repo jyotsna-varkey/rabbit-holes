@@ -1,5 +1,5 @@
 import { expect, test } from '@playwright/test';
-import { swipeTopCard } from './helpers';
+import { enterTopHole, swipeTopCard } from './helpers';
 
 // Owner decision (PLAN step 21): a handwritten swipe hint on home, in Caveat,
 // shown until the reader's first swipe. The font ships with the app.
@@ -28,4 +28,13 @@ test('the hint goes away after the first swipe, and stays away', async ({ page }
   await page.reload();
   await expect(page.locator('.slot-0 .card')).toBeVisible();
   await expect(page.locator('.swipe-hint')).toHaveCount(0);
+});
+
+// PLAN step 22: the "Pull the thread" label next to the knot matches the swipe hint.
+test('the pull-the-thread label is handwritten too', async ({ page }) => {
+  await page.goto('/');
+  await enterTopHole(page);
+  const label = page.locator('.pull-hint');
+  await expect(label).toBeVisible();
+  await expect(label).toHaveCSS('font-family', /^Caveat/);
 });
