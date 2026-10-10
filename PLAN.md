@@ -91,12 +91,33 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          SPEC.md notes the exception. Test: tests/e2e/swipe-hint.spec.ts
          (font loaded from the app, no Google Fonts requests, hides after a
          swipe and after reload).
+- UI polish from the owner's first real use (2026-10-10), in the order
+  they'll be done:
+- [ ] 22. "Pull the thread" label next to the knot in the handwriting font
+         (Caveat), still in its white tab.
+- [ ] 23. Always show which Wikipedia page you're on: page name in the top
+         bar, updating on every pull (forward or back).
+- [ ] 24. Stack order shuffled on every visit, holes you haven't opened yet
+         first; the shelf keeps the ones you liked.
+- [ ] 25. Go backwards with the same knot: drag it up = next page, drag it
+         down = previous page, at every knot and from the ending (the knot
+         stays on the ending so you can pull back up).
+- [ ] 26. Ending shows the whole journey: every page you passed through on
+         the thread, named (with its picture where there is one), not just
+         numbers between the start and end cards.
+- [ ] 27. Smoother swipe-in: the card mustn't spring back to centre (it looks
+         like the swipe failed); the start card should carry straight on into
+         the Wikipedia page without the screen going blurry first.
+- [ ] 28. Keep the shelf: saved on the device and protected from browser
+         clean-up, plus optional sign-in by emailed link (Supabase) so it
+         follows you across devices. Changes SPEC.md's "no backend, no
+         accounts" rule (owner-approved).
 - [ ] 15. Cover the remaining [~] steps with tests: swipe left sends the card
          to the back (8); "Back to the thread" re-centres and blur returns (3);
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
-15
+22
 
 ## Decisions
 - React + TypeScript + framer-motion, approved by the owner on 2026-10-09
@@ -205,6 +226,12 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
   can't create projects): `npx vercel@48 deploy --prod`. .vercelignore keeps
   screenshots, tests and the reading copy out of the upload. Check a deploy
   with `BASE_URL=https://rabbit-holes-gules.vercel.app npm run test:e2e`.
+- Owner decisions 2026-10-10: shelf = device by default + optional email
+  sign-in (option C); going back = the same knot dragged down; the pull
+  label switches to Caveat.
+- The shelf already lived in the browser (localStorage), but each web
+  address has its own storage: the Wi-Fi dev link and the Vercel site keep
+  separate shelves, and private tabs / Safari's 7-day clean-up wipe it.
 - The rope is string, not a rod: it resists stretching only. A two-sided
   constraint made the slack zigzag. Spans that are taut are drawn straight,
   and a span whose ends jump > 140px is reset, to stop leftover loops after a
