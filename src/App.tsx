@@ -3,7 +3,7 @@ import { holeById, holes, loadArticle, type Hole } from './content';
 import { Home } from './screens/Home';
 import { HoleView } from './screens/HoleView';
 import { Shelf } from './screens/Shelf';
-import { openedHoles } from './lib/storage';
+import { openedHoles, SHELF_EVENT } from './lib/storage';
 import { stackOrder } from './lib/order';
 
 type View =
@@ -15,9 +15,21 @@ type View =
 const initialOrder = () =>
   stackOrder(holes.map((h) => h.id), openedHoles(), new URLSearchParams(location.search).get('hole'));
 
+/** A stored Supabase session (checked without loading Supabase). */
+function hasStoredSession() {
+  try {
+    return Object.keys(localStorage).some((k) => k.startsWith('sb-') && k.endsWith('-auth-token'));
+  } catch {
+    return false;
+  }
+}
+
 export default function App() {
   const [order, setOrderState] = useState(initialOrder);
-  const [view, setView] = useState<View>({ name: 'home' });
+  // Arriving from an emailed sign-in link (?shelf) opens the shelf.
+  const [view, setView] = useState<View>(() =>
+    new URLSearchParams(location.search).has('shelf') ? { name: 'shelf' } : { name: 'home' },
+  );
   const [homeHidden, setHomeHidden] = useState(false);
 
   const setOrder = useCallback((ids: string[]) => setOrderState(ids), []);
@@ -26,6 +38,22 @@ export default function App() {
   useEffect(() => {
     if (order[0]) loadArticle(holeById(order[0]).knots[0].page).catch(() => {});
   }, [order]);
+
+  // Signed-in readers: bring the shelf in from their account on open, and save
+  // every keep or removal back to it. Nothing loads for readers who never sign in.
+  useEffect(() => {
+    let cloud: Promise<typeof import('./lib/cloud')> | null = null;
+    const load = () => (cloud ??= import('./lib/cloud'));
+    if (/access_token=|error_description=/.test(location.hash) || hasStoredSession()) {
+      load().then((c) => c.syncOnOpen()).catch((e) => console.warn('Shelf sync failed', e));
+    }
+    const onShelf = (e: Event) => {
+      if ((e as CustomEvent).detail !== 'local' || !hasStoredSession()) return;
+      load().then((c) => c.pushShelf()).catch((err) => console.warn('Shelf sync failed', err));
+    };
+    window.addEventListener(SHELF_EVENT, onShelf);
+    return () => window.removeEventListener(SHELF_EVENT, onShelf);
+  }, []);
 
   // The phone's back gesture leaves a hole or the shelf.
   useEffect(() => {

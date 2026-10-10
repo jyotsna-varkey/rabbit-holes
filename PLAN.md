@@ -125,16 +125,31 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          the card is (0.55 s ease-out tween, was a spring); the page scrolls
          to the passage sharp ("is-landing") and the blur fades in on
          arrival. Test: tests/e2e/swipe-in.spec.ts.
-- [ ] 28. Keep the shelf: saved on the device and protected from browser
+- [x] 28. Keep the shelf: saved on the device and protected from browser
          clean-up, plus optional sign-in by emailed link (Supabase) so it
          follows you across devices. Changes SPEC.md's "no backend, no
-         accounts" rule (owner-approved).
+         accounts" rule (owner-approved). Done: keep() asks the browser to
+         persist storage; Supabase project rabbit-holes (ap-south-1, $0/mo,
+         org jyotsna-varkey) with one table, public.shelves (RLS: own row
+         only; advisors clean). src/lib/cloud.ts loads @supabase/supabase-js
+         2.117.2 on demand (own 59 KB chunk), so non-signed-in readers never
+         fetch it or contact Supabase. Sign-in form on the shelf; link returns
+         to /?shelf. Sync: first sign-in on a device merges (union, earliest
+         date); later opens take the account's shelf; keep/remove pushes.
+         Tests: tests/unit/shelf-sync.test.ts, tests/e2e/shelf-cloud.spec.ts
+         (sign-in request mocked; no real email sent in tests).
+- [ ] 29. Owner: in Supabase → Authentication → URL Configuration, set the
+         Site URL and allowed redirect URLs (see Known issues). Then a real
+         sign-in test on a phone.
+- [ ] 30. Custom email sender (e.g. Resend SMTP) so beta readers get sign-in
+         links: Supabase's built-in sender only mails members of the
+         Supabase organisation, a few per hour.
 - [ ] 15. Cover the remaining [~] steps with tests: swipe left sends the card
          to the back (8); "Back to the thread" re-centres and blur returns (3);
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
-28
+29 (owner), then 15
 
 ## Decisions
 - React + TypeScript + framer-motion, approved by the owner on 2026-10-09
@@ -287,6 +302,18 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
 - import-holes.mjs used to miss entry 100 (three-digit number); fixed.
 - On a cold deploy the first visits can be slow enough to hit the 30 s test
   timeout (4 hole tests did once; the rerun passed all 60).
+- Sign-in links need Supabase's URL settings: Site URL
+  https://rabbit-holes-gules.vercel.app; redirect URLs
+  https://rabbit-holes-gules.vercel.app/**, http://localhost:5173/**,
+  http://192.168.0.2:5173/**. Until then links point at localhost:3000.
+- Supabase's built-in email only reaches members of the owner's Supabase
+  organisation and is rate-limited (a few per hour): fine for the owner,
+  not for beta readers (step 30).
+- Free Supabase projects pause after about a week without activity; sign-in
+  and sync stop until it's resumed in the dashboard. The device shelf keeps
+  working.
+- Under heavy parallel load the journey test once hit its timeout at laptop
+  size; it passes alone and in the next full run.
 - Caveat's Latin file has no ← → glyphs, so the hint's arrows use the
   system font.
 - iOS haptics use the iOS 18 switch-control workaround; untested on a device.
@@ -310,3 +337,8 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
 - 2026-10-10: Rewrote git history to drop old raster images (.git 87 → 25 MB,
   backup bundle kept); deployed to Vercel at rabbit-holes-gules.vercel.app;
   all 60 browser tests pass against it.
+- 2026-10-10 (later): Owner's UI notes became steps 22–28, all done: pull
+  label in Caveat, page name in the top bar, shuffled stack (?hole= links),
+  knot goes both ways, journey on the ending, smooth swipe-in, shelf kept on
+  device + optional email sign-in (Supabase). Next: owner sets Supabase URLs
+  (29), redeploy, then 30 and 15.

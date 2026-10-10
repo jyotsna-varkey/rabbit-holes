@@ -94,6 +94,9 @@ Trivia, not homework. Never self-important.
 ```
 
 ## Must not (v1)
-- No backend, no accounts, no database. Static site.
+- No backend beyond one exception (owner, 2026-10-10): optional sign-in by
+  emailed link (Supabase) whose only job is keeping a reader's shelf across
+  devices. Without signing in, everything works and nothing leaves the
+  device. No other accounts, data or tracking. Otherwise a static site.
 - No live calls to Wikipedia at runtime. All content ships in /holes.
 - No LLM calls at runtime.

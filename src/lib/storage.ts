@@ -28,11 +28,26 @@ export type ShelfEntry = { id: string; kept: string };
 
 export const getShelf = () => read<ShelfEntry[]>('rh.shelf', []);
 export const isKept = (id: string) => getShelf().some((e) => e.id === id);
+
+/** Fired whenever the shelf changes; `source` says whether the reader or a sync did it. */
+export const SHELF_EVENT = 'rh:shelf';
+export function setShelf(entries: ShelfEntry[], source: 'local' | 'cloud' = 'local') {
+  write('rh.shelf', entries);
+  try {
+    window.dispatchEvent(new CustomEvent(SHELF_EVENT, { detail: source }));
+  } catch {
+    // ignore
+  }
+}
+
 export function keep(id: string) {
-  if (!isKept(id)) write('rh.shelf', [{ id, kept: today() }, ...getShelf()]);
+  if (isKept(id)) return;
+  setShelf([{ id, kept: today() }, ...getShelf()]);
+  // Ask the browser not to clear this site's storage (and the shelf with it) on its own.
+  navigator.storage?.persist?.().catch(() => {});
 }
 export function unkeep(id: string) {
-  write('rh.shelf', getShelf().filter((e) => e.id !== id));
+  setShelf(getShelf().filter((e) => e.id !== id));
 }
 
 export const getFinished = () => read<Record<string, string>>('rh.finished', {});

@@ -20,6 +20,11 @@ Link straight to one hole with `?hole=<id>`, e.g.
 https://rabbit-holes-gules.vercel.app/?hole=gold-alchemy (ids are the file
 names in `holes/`). Otherwise the stack is shuffled on every visit.
 
+The shelf lives on the reader's device. Signing in (shelf screen) with an
+emailed link keeps it across devices via Supabase project `rabbit-holes`
+(table `public.shelves`, one row per reader, row-level security). `/?shelf`
+opens the shelf.
+
 ## Content
 
 Each hole is a hand-authored JSON file in `holes/` (schema in SPEC.md). Snapshots

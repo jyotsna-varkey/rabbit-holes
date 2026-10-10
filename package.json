@@ -13,6 +13,7 @@
     "shot": "node scripts/screenshot.mjs"
   },
   "dependencies": {
+    "@supabase/supabase-js": "2.117.2",
     "framer-motion": "12.43.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
