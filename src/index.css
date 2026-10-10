@@ -381,8 +381,27 @@ sup.cited { color: var(--visited); }
 .phase-tumble .hole-bar { opacity: 0; }
 .bar-close { width: 44px; height: 44px; display: grid; place-items: center; }
 .bar-close path { stroke: var(--ink); stroke-width: 1.8; stroke-linecap: round; fill: none; }
-.progress {
+.bar-middle {
   flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+/* Which Wikipedia page you're on, as a Wikipedia title would read. */
+.bar-page {
+  margin: 0;
+  max-width: 100%;
+  font-family: var(--serif);
+  font-size: 15px;
+  line-height: 18px;
+  color: var(--ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.progress {
   list-style: none;
   margin: 0;
   padding: 0;

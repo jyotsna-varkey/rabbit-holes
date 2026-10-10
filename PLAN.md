@@ -95,7 +95,7 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
   they'll be done:
 - [x] 22. "Pull the thread" label next to the knot in the handwriting font
          (Caveat), still in its white tab.
-- [ ] 23. Always show which Wikipedia page you're on: page name in the top
+- [x] 23. Always show which Wikipedia page you're on: page name in the top
          bar, updating on every pull (forward or back).
 - [ ] 24. Stack order shuffled on every visit, holes you haven't opened yet
          first; the shelf keeps the ones you liked.
@@ -117,7 +117,7 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
-23
+24
 
 ## Decisions
 - React + TypeScript + framer-motion, approved by the owner on 2026-10-09
@@ -232,6 +232,9 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
 - The shelf already lived in the browser (localStorage), but each web
   address has its own storage: the Wi-Fi dev link and the Vercel site keep
   separate shelves, and private tabs / Safari's 7-day clean-up wipe it.
+- Current page name sits centred in the top bar above the progress knots
+  (serif, like a Wikipedia title; long names get an ellipsis); on the ending
+  it reads "The whole thread".
 - The rope is string, not a rod: it resists stretching only. A two-sided
   constraint made the slack zigzag. Spans that are taut are drawn straight,
   and a span whose ends jump > 140px is reset, to stop leftover loops after a

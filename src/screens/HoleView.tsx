@@ -283,14 +283,19 @@ export function HoleView({ hole, from, onClose, onNext, onSettled }: Props) {
         <button className="bar-close" onClick={onClose} aria-label="Back to the stack">
           <svg viewBox="0 0 20 20" width="20" height="20" aria-hidden="true"><path d="M5 5l10 10M15 5L5 15" /></svg>
         </button>
-        <ol className="progress" aria-label={`Knot ${Math.min(index + 1, n)} of ${n}`}>
-          {hole.knots.map((_, k) => (
-            <li
-              key={k}
-              className={phase === 'ending' || k < index ? 'is-visited' : k === index ? 'is-current' : ''}
-            />
-          ))}
-        </ol>
+        <div className="bar-middle">
+          <p className="bar-page" aria-live="polite">
+            {phase === 'ending' ? 'The whole thread' : hole.knots[index].page}
+          </p>
+          <ol className="progress" aria-label={`Knot ${Math.min(index + 1, n)} of ${n}`}>
+            {hole.knots.map((_, k) => (
+              <li
+                key={k}
+                className={phase === 'ending' || k < index ? 'is-visited' : k === index ? 'is-current' : ''}
+              />
+            ))}
+          </ol>
+        </div>
         <span className="bar-count">{phase === 'ending' ? 'Cited' : `${index + 1} / ${n}`}</span>
       </header>
 
