@@ -150,7 +150,32 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
-29 (owner), then 15
+29 (owner sets Supabase URLs), then 15. Open owner decisions are listed
+under "Handover" below.
+
+## Handover (for a new session)
+- Live: https://rabbit-holes-gules.vercel.app (Vercel project rabbit-holes,
+  team "Jyotsna Varkey's projects"). Republish: `npx vercel@48 deploy --prod`
+  (CLI is logged in on this Mac). Check live: `BASE_URL=… npm run test:e2e
+  -- --workers=1`.
+- Local: `npm run dev -- --host` (phone: http://192.168.0.2:5173).
+  Tests: `npm test` (497 unit/data), `npm run test:e2e` (86 browser).
+- Content: 24 holes in holes/*.json; import more from "Rabbit Holes — Reading
+  Copy.txt" with `node scripts/import-holes.mjs "<txt>" 21-40`, then
+  `node scripts/fetch-content.mjs`, then write claim/hatnotes/payoff.
+- Supabase: project rabbit-holes, id zqrfcmdhbdatrjooipif, org
+  jyotsna-varkey, table public.shelves (RLS). Publishable key is in
+  src/lib/cloud.ts (public by design).
+- Git: no remote; history was rewritten on 2026-10-10. Backup bundle
+  ../rabbit_holes-backup-2026-10-10.bundle can be deleted once happy.
+- Waiting on the owner:
+  1. Supabase → Authentication → URL Configuration (step 29; values in
+     Known issues).
+  2. Review Claude's drafted claims, hatnotes and payoffs for the 20
+     reading-copy holes and the rewritten original four.
+  3. Swipe hint: currently hides after the first swipe. Options offered:
+     always show / first few visits / return after a week away.
+  4. Whether to set up an email sender for beta readers' sign-in (step 30).
 
 ## Decisions
 - React + TypeScript + framer-motion, approved by the owner on 2026-10-09
@@ -347,3 +372,6 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
   device + optional email sign-in (Supabase). Next: owner sets Supabase URLs
   (29), redeploy, then 30 and 15. Redeployed; 85/86 live tests passed in
   parallel, and the remaining swipe-in tests pass 3/3 run one at a time.
+  Owner asked why the swipe hint was missing: it hides after the first
+  swipe by design (confirmed working on live for first-time visitors);
+  owner to choose whether to change that. Handover section added.
