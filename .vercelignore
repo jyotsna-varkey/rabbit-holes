@@ -1,0 +1,11 @@
+# Uploaded to Vercel: only what the build needs.
+node_modules
+dist
+screenshots
+test-results
+playwright-report
+tests
+.claude
+reader.html
+Rabbit Holes*.txt
+*.bundle

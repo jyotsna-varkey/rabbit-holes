@@ -191,6 +191,16 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
 - Swipe hint (owner, 2026-10-09): yes, handwritten, Caveat font, saved in the
   project (no runtime font requests); SPEC.md gets a note that it's the one
   exception to "Wikipedia's own visual vocabulary".
+- Git history rewritten (owner, 2026-10-10, before anything was pushed):
+  every image under holes/snapshots/images and public/content/images that
+  isn't WebP or SVG was removed from all commits (1,405 old JPG/PNG/GIF,
+  plus step 14a's extension-less files). All commit IDs changed; commits
+  before step 17 no longer contain their images. .git 87 MB → 25 MB.
+  Backup: ../rabbit_holes-backup-2026-10-10.bundle (delete when happy).
+- Hosting: Vercel, project rabbit-holes in "Jyotsna Varkey's projects",
+  public production link (owner, 2026-10-10). Deployed with the Vercel CLI
+  (the Vercel connection here can't create projects); .vercelignore keeps
+  screenshots, tests and the reading copy out of the upload.
 - The rope is string, not a rod: it resists stretching only. A two-sided
   constraint made the slack zigzag. Spans that are taut are drawn straight,
   and a span whose ends jump > 140px is reset, to stop leftover loops after a
@@ -218,9 +228,6 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
   passage on its way to the knot. Kept as-is for beta feedback (owner).
 - Size: images 22 MB (step 17); entry script 178 KB gzipped (step 18);
   each article loads as its own chunk when opened.
-  The original 53 MB of images is still in git history (commit 393d6e7);
-  shrinking the repo itself would mean rewriting history (owner decision;
-  nothing has been pushed yet).
 - Some Commons credits read oddly (e.g. "Unknown authorUnknown a…") because
   the Artist metadata is messy; Sogdian language has no lead image.
 - On the ending, [1–N] can wrap onto its own line under the claim.
