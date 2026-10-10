@@ -138,6 +138,7 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          date); later opens take the account's shelf; keep/remove pushes.
          Tests: tests/unit/shelf-sync.test.ts, tests/e2e/shelf-cloud.spec.ts
          (sign-in request mocked; no real email sent in tests).
+- [x] Redeployed steps 22–28 to Vercel (2026-10-10); live build matches local.
 - [ ] 29. Owner: in Supabase → Authentication → URL Configuration, set the
          Site URL and allowed redirect URLs (see Known issues). Then a real
          sign-in test on a phone.
@@ -314,6 +315,9 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
   working.
 - Under heavy parallel load the journey test once hit its timeout at laptop
   size; it passes alone and in the next full run.
+- Against the live site, the swipe-in timing tests fail when many tests load
+  the site in parallel (network, not the app): 4/4 pass three runs in a row
+  with --workers=1, which the README now uses for live checks.
 - Caveat's Latin file has no ← → glyphs, so the hint's arrows use the
   system font.
 - iOS haptics use the iOS 18 switch-control workaround; untested on a device.
@@ -341,4 +345,5 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
   label in Caveat, page name in the top bar, shuffled stack (?hole= links),
   knot goes both ways, journey on the ending, smooth swipe-in, shelf kept on
   device + optional email sign-in (Supabase). Next: owner sets Supabase URLs
-  (29), redeploy, then 30 and 15.
+  (29), redeploy, then 30 and 15. Redeployed; 85/86 live tests passed in
+  parallel, and the remaining swipe-in tests pass 3/3 run one at a time.

@@ -68,7 +68,7 @@ npx vercel@48 deploy --prod
 To run the browser tests against the live site:
 
 ```bash
-BASE_URL=https://rabbit-holes-gules.vercel.app npm run test:e2e
+BASE_URL=https://rabbit-holes-gules.vercel.app npm run test:e2e -- --workers=1
 ```
 
 ## Tests
