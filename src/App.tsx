@@ -3,7 +3,7 @@ import { holeById, holes, loadArticle, type Hole } from './content';
 import { Home } from './screens/Home';
 import { HoleView } from './screens/HoleView';
 import { Shelf } from './screens/Shelf';
-import { openedHoles, SHELF_EVENT } from './lib/storage';
+import { getSessionOrder, openedHoles, setSessionOrder, SHELF_EVENT } from './lib/storage';
 import { stackOrder } from './lib/order';
 
 type View =
@@ -11,9 +11,19 @@ type View =
   | { name: 'hole'; id: string; from: DOMRect | null; run: number }
   | { name: 'shelf' };
 
-// A fresh shuffle on every visit, unopened holes first; ?hole=<id> links one to the top.
-const initialOrder = () =>
-  stackOrder(holes.map((h) => h.id), openedHoles(), new URLSearchParams(location.search).get('hole'));
+// A fresh shuffle on every visit, unopened holes first, kept through refreshes;
+// ?hole=<id> links one to the top.
+const initialOrder = () => {
+  const order = stackOrder(
+    holes.map((h) => h.id),
+    openedHoles(),
+    new URLSearchParams(location.search).get('hole'),
+    Math.random,
+    getSessionOrder(),
+  );
+  setSessionOrder(order);
+  return order;
+};
 
 /** A stored Supabase session (checked without loading Supabase). */
 function hasStoredSession() {
@@ -32,7 +42,10 @@ export default function App() {
   );
   const [homeHidden, setHomeHidden] = useState(false);
 
-  const setOrder = useCallback((ids: string[]) => setOrderState(ids), []);
+  const setOrder = useCallback((ids: string[]) => {
+    setSessionOrder(ids);
+    setOrderState(ids);
+  }, []);
 
   // Warm the first page of the top hole so the tumble lands on a loaded article.
   useEffect(() => {

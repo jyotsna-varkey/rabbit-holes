@@ -68,3 +68,22 @@ export function openedHoles() {
     ...Object.keys(getFinished()),
   ]);
 }
+
+// The stack order for this visit. Session storage lasts through refreshes but
+// not a new tab or a reopened browser, which get a fresh shuffle.
+const ORDER_KEY = 'rh.session-order';
+export function getSessionOrder(): string[] | null {
+  try {
+    const raw = sessionStorage.getItem(ORDER_KEY);
+    return raw ? (JSON.parse(raw) as string[]) : null;
+  } catch {
+    return null;
+  }
+}
+export function setSessionOrder(ids: string[]) {
+  try {
+    sessionStorage.setItem(ORDER_KEY, JSON.stringify(ids));
+  } catch {
+    // ignore
+  }
+}

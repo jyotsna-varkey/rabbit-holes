@@ -155,15 +155,21 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          gone (the swipe log itself stays, it feeds stack order). Test:
          swipe-hint.spec.ts "still there after a swipe and after a reload"
          (replaces "goes away after the first swipe", owner-approved).
-- [ ] 32. Stack order kept for the session: shuffled once per visit, then
-         the same order on refresh (including cards sent to the back).
-         A new tab / reopened browser gets a fresh shuffle.
+- [x] 32. Stack order kept for the session: shuffled once per visit, then
+         the same order on refresh (including cards sent to the back and
+         "Next hole"). A new tab / reopened browser gets a fresh shuffle.
+         Saved in sessionStorage (rh.session-order); stackOrder() keeps a
+         saved order, drops unknown ids, appends new holes; ?hole= still goes
+         on top. Tests: order.test.ts (3 new), stack-order.spec.ts "refresh
+         keeps the same order"; the "opened hole goes behind" test now uses
+         fresh tabs instead of reloads (owner-approved).
 - [ ] 15. Cover the remaining [~] steps with tests: swipe left sends the card
          to the back (8); "Back to the thread" re-centres and blur returns (3);
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
-31 and 32 (UI sprint), then 29 (owner sets Supabase URLs), then 15. Open owner decisions are listed
+UI sprint list is done (31, 32; the rest were 23–27). Redeploy when the
+owner says so. Then 29 (owner sets Supabase URLs), then 15. Open owner decisions are listed
 under "Handover" below.
 
 ## Handover (for a new session)
@@ -172,7 +178,7 @@ under "Handover" below.
   (CLI is logged in on this Mac). Check live: `BASE_URL=… npm run test:e2e
   -- --workers=1`.
 - Local: `npm run dev -- --host` (phone: http://192.168.0.2:5173).
-  Tests: `npm test` (497 unit/data), `npm run test:e2e` (86 browser).
+  Tests: `npm test` (500 unit/data), `npm run test:e2e` (88 browser).
 - Content: 24 holes in holes/*.json; import more from "Rabbit Holes — Reading
   Copy.txt" with `node scripts/import-holes.mjs "<txt>" 21-40`, then
   `node scripts/fetch-content.mjs`, then write claim/hatnotes/payoff.
@@ -301,6 +307,8 @@ under "Handover" below.
 - The shelf already lived in the browser (localStorage), but each web
   address has its own storage: the Wi-Fi dev link and the Vercel site keep
   separate shelves, and private tabs / Safari's 7-day clean-up wipe it.
+- Stack order "per visit" = per browser tab session (sessionStorage), so a
+  refresh keeps it and a new tab reshuffles (owner, 2026-10-10).
 - Current page name sits centred in the top bar above the progress knots
   (serif, like a Wikipedia title; long names get an ellipsis); on the ending
   it reads "The whole thread".
@@ -386,3 +394,7 @@ under "Handover" below.
   Owner asked why the swipe hint was missing: it hides after the first
   swipe by design (confirmed working on live for first-time visitors);
   owner to choose whether to change that. Handover section added.
+- 2026-10-10 (later): Owner's second UI list: items 1, 3, 4, 5 were already
+  steps 23, 25, 27, 26 (their 14 browser tests re-run, all pass). New:
+  step 31 (swipe hint always shown) and 32 (stack order kept through
+  refresh). 500 unit + 88 browser tests pass. Not yet redeployed.

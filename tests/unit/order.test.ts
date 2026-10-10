@@ -34,3 +34,20 @@ describe('stackOrder (PLAN step 24)', () => {
     expect(stackOrder(IDS, new Set(), 'nope', seeded(3))).toHaveLength(IDS.length);
   });
 });
+
+describe('stackOrder with a saved session order (PLAN step 32)', () => {
+  const saved = [...IDS].reverse();
+  it('keeps the order saved for this session, so a refresh does not reshuffle', () => {
+    expect(stackOrder(IDS, new Set(['hole-23']), null, seeded(5), saved)).toEqual(saved);
+  });
+  it('still puts a linked hole (?hole=) first', () => {
+    const order = stackOrder(IDS, new Set(), 'hole-9', seeded(5), saved);
+    expect(order[0]).toBe('hole-9');
+    expect(order.slice(1)).toEqual(saved.filter((id) => id !== 'hole-9'));
+  });
+  it('drops holes that no longer exist and adds new ones at the end', () => {
+    const order = stackOrder(IDS, new Set(), null, seeded(5), ['gone', ...saved.slice(0, 20)]);
+    expect(order.slice(0, 20)).toEqual(saved.slice(0, 20));
+    expect([...order].sort()).toEqual([...IDS].sort());
+  });
+});
