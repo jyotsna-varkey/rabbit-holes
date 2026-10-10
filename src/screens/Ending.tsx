@@ -1,6 +1,6 @@
 import { forwardRef, useEffect, useImperativeHandle, useRef, useState } from 'react';
 import {
-  citationRange, pageOf, passageUrl, type Hole,
+  citationRange, holesAsset, pageOf, passageUrl, type Hole,
 } from '../content';
 import { Infobox } from '../components/Infobox';
 import { Thread, type ThreadHandle } from '../components/Thread';
@@ -21,44 +21,37 @@ type Props = {
   onNext(): void;
 };
 
-/** Points the knots sit at, along a sagging curve from the start card to the end card. */
-function knotPositions(n: number, a: Pt, b: Pt, sag: number) {
-  return Array.from({ length: n }, (_, i) => {
-    const t = (i + 1) / (n + 1);
-    return { x: a.x + (b.x - a.x) * t, y: a.y + (b.y - a.y) * t + 4 * sag * t * (1 - t) };
-  });
+/** Centre of a dot inside the journey list, in the list's own coordinates. */
+function dotCentre(dot: HTMLElement | null, list: HTMLElement | null): Pt | null {
+  if (!dot || !list) return null;
+  const d = dot.getBoundingClientRect();
+  const l = list.getBoundingClientRect();
+  return { x: d.left - l.left + d.width / 2, y: d.top - l.top + d.height / 2 };
 }
+
+/** Section names as a reader would say them. */
+const sectionLabel = (section: string) => (section === 'lead' ? 'Introduction' : section);
 
 export const Ending = forwardRef<EndingHandle, Props>(function Ending(
   { hole, top, height, active, onNext },
   ref,
 ) {
-  const diagram = useRef<HTMLDivElement>(null);
-  const left = useRef<HTMLElement>(null);
+  const journey = useRef<HTMLOListElement>(null);
   const right = useRef<HTMLElement>(null);
   const thread = useRef<ThreadHandle>(null);
-  const knotEls = useRef<(HTMLSpanElement | null)[]>([]);
+  // Dots the thread runs through: start card, each knot, end card.
+  const dots = useRef<(HTMLSpanElement | null)[]>([]);
   const [stage, setStage] = useState(0); // 0 waiting · 1 swung in · 2 locked · 3 cited · 4 references
   const [kept, setKept] = useState(() => isKept(hole.id));
   const n = hole.knots.length;
   const last = hole.knots[hole.knots.length - 1];
 
-  const sockets = () => {
-    const l = left.current;
-    const r = right.current;
-    if (!l || !r) return null;
-    return {
-      a: { x: l.offsetLeft + l.offsetWidth / 2, y: l.offsetTop + l.offsetHeight },
-      b: { x: r.offsetLeft, y: r.offsetTop + 26 },
-    };
-  };
-
   useImperativeHandle(ref, () => ({
     socket() {
-      const r = right.current;
-      if (!r) return null;
-      const box = r.getBoundingClientRect();
-      return { x: box.left, y: box.top + 26 };
+      const dot = dots.current[n + 1];
+      if (!dot) return null;
+      const box = dot.getBoundingClientRect();
+      return { x: box.left + box.width / 2, y: box.top + box.height / 2 };
     },
   }));
 
@@ -74,22 +67,15 @@ export const Ending = forwardRef<EndingHandle, Props>(function Ending(
     return () => timers.forEach(clearTimeout);
   }, [active, hole.id, n]);
 
-  // The full thread, start card to end card, through every knot.
+  // The full thread, start card to end card, through every page on the way.
   useEffect(() => {
     let raf = 0;
     let last = performance.now();
     const frame = (now: number) => {
       const dt = Math.min(0.05, (now - last) / 1000);
       last = now;
-      const s = sockets();
-      if (s) {
-        const knots = knotPositions(n, s.a, s.b, 46);
-        knots.forEach((k, i) => {
-          const el = knotEls.current[i];
-          if (el) el.style.transform = `translate(${k.x}px, ${k.y}px)`;
-        });
-        thread.current?.update([s.a, ...knots, s.b], 1.04, dt);
-      }
+      const pins = dots.current.map((d) => dotCentre(d, journey.current));
+      if (pins.length === n + 2 && pins.every(Boolean)) thread.current?.update(pins as Pt[], 1.0, dt);
       raf = requestAnimationFrame(frame);
     };
     raf = requestAnimationFrame(frame);
@@ -115,7 +101,8 @@ export const Ending = forwardRef<EndingHandle, Props>(function Ending(
         </h1>
         <p className="end-payoff">{hole.payoff}</p>
 
-        <div ref={diagram} className="end-diagram">
+        {/* The whole journey: start card, every page the thread passed through, end card. */}
+        <ol ref={journey} className="journey end-diagram" aria-label="The pages this hole passed through">
           <Thread
             ref={thread}
             spans={n + 1}
@@ -123,19 +110,34 @@ export const Ending = forwardRef<EndingHandle, Props>(function Ending(
             className="end-thread"
             points={12}
           />
-          <Infobox ref={left} endpoint={hole.start} className="end-left" credit={false} />
-          {hole.knots.map((_, i) => (
-            <span
-              key={i}
-              ref={(el) => { knotEls.current[i] = el; }}
-              className="end-knot"
-              style={{ transitionDelay: `${260 * i}ms` }}
-            >
-              <sup>[{i + 1}]</sup>
-            </span>
-          ))}
-          <Infobox ref={right} endpoint={hole.end} className="end-right" credit={false} />
-        </div>
+          <li className="j-card j-start">
+            <span ref={(el) => { dots.current[0] = el; }} className="j-cap" />
+            <Infobox endpoint={hole.start} className="end-left" credit={false} />
+          </li>
+          {hole.knots.map((k, i) => {
+            const img = pageOf(k.page)?.image;
+            return (
+              <li key={i} className="j-knot">
+                <span
+                  ref={(el) => { dots.current[i + 1] = el; }}
+                  className="end-knot"
+                  style={{ transitionDelay: `${260 * i}ms` }}
+                />
+                <a href={passageUrl(k)} target="_blank" rel="noopener">
+                  {img ? <img src={holesAsset(img.file) ?? ''} alt="" loading="lazy" /> : <span className="j-noimg" />}
+                  <span className="j-text">
+                    <span className="j-title">{k.page}<sup>[{i + 1}]</sup></span>
+                    <span className="j-section">{sectionLabel(k.section)}</span>
+                  </span>
+                </a>
+              </li>
+            );
+          })}
+          <li className="j-card j-end">
+            <span ref={(el) => { dots.current[n + 1] = el; }} className="j-cap" />
+            <Infobox ref={right} endpoint={hole.end} className="end-right" credit={false} />
+          </li>
+        </ol>
 
         <div className="end-after">
           <h2 className="wk-h2">References</h2>

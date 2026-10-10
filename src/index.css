@@ -638,29 +638,78 @@ a.rh-onward mark.rh-hl { color: var(--link); }
 .stage-3 .cite-swap .cited, .stage-4 .cite-swap .cited { visibility: visible; }
 .end-payoff { margin: 0 0 18px; font-size: 15px; color: var(--ink-2); line-height: 1.5; }
 
-.end-diagram {
+.journey {
   position: relative;
-  height: 440px;
+  list-style: none;
   margin: 0 0 8px;
+  padding: 0 0 0 30px; /* gutter for the thread and its knots */
 }
-.end-diagram .infobox { position: absolute; width: 40%; max-width: 240px; z-index: 1; }
-.end-diagram .ib-img { aspect-ratio: 16 / 10; }
-.end-diagram .ib-desc { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-.end-diagram .end-left { left: 0; top: 0; }
-.end-diagram .end-right {
-  right: 0;
-  bottom: 0;
-  transform-origin: 100% 0;
-  transform: rotate(14deg) translate(18px, -6px);
+.journey > li { position: relative; margin: 0; }
+.journey .end-thread { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; z-index: 2; }
+.journey .infobox { width: 46%; max-width: 220px; position: relative; z-index: 1; }
+.journey .ib-img { aspect-ratio: 16 / 10; }
+.journey .ib-desc { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.j-card { padding: 4px 0; }
+.j-end { padding-top: 8px; }
+.journey .end-right {
+  transform-origin: 0 0;
+  transform: rotate(-10deg) translate(24px, -8px);
   transition: transform 0.55s cubic-bezier(0.3, 1.5, 0.5, 1);
 }
-.ending:not(.stage-0) .end-diagram .end-right { transform: none; }
+.ending:not(.stage-0) .journey .end-right { transform: none; }
 .end-thread { opacity: 0; transition: opacity 0.4s; }
 .ending:not(.stage-0):not(.stage-1) .end-thread { opacity: 1; }
+
+/* Where the thread meets the start and end cards. */
+.j-cap {
+  position: absolute;
+  left: -24px;
+  top: 22px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--visited);
+  z-index: 3;
+}
+
+/* One row per page the thread passed through. */
+.j-knot a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 0;
+  color: var(--ink) !important;
+  text-decoration: none !important;
+}
+.j-knot img, .j-noimg {
+  flex: none;
+  width: 56px;
+  height: 42px;
+  object-fit: cover;
+  border: 1px solid var(--rule-2);
+  background: var(--paper-2);
+}
+.j-text { display: flex; flex-direction: column; min-width: 0; }
+.j-title {
+  font-family: var(--serif);
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--link);
+}
+.j-title sup { font-family: var(--sans); font-size: 11px; color: var(--visited); margin-left: 2px; }
+.j-section {
+  font-size: 12.5px;
+  line-height: 1.3;
+  color: var(--ink-3);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .end-knot {
   position: absolute;
-  left: 0;
-  top: 0;
+  left: -20px; /* centre of the gutter */
+  top: 50%;
   z-index: 3;
   width: 0;
   height: 0;
@@ -679,17 +728,6 @@ a.rh-onward mark.rh-hl { color: var(--link); }
   transition-delay: inherit;
 }
 .ending:not(.stage-0):not(.stage-1) .end-knot::before { background: var(--visited); box-shadow: inset 0 0 0 2px var(--visited); }
-.end-knot sup {
-  position: absolute;
-  left: -8px;
-  top: 10px;
-  width: 16px;
-  text-align: center;
-  font-size: 11px;
-  color: var(--visited);
-  line-height: 1;
-}
-
 
 .end-after { visibility: hidden; }
 .stage-4 .end-after { visibility: visible; }
@@ -734,5 +772,5 @@ a.rh-onward mark.rh-hl { color: var(--link); }
 .shelf-date { font-family: var(--sans); font-size: 12px; color: var(--ink-3); }
 
 @media (prefers-reduced-motion: reduce) {
-  .end-diagram .end-right { transition-duration: 0.01s !important; }
+  .journey .end-right { transition-duration: 0.01s !important; }
 }

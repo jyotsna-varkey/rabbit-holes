@@ -111,9 +111,12 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          (like ←). On the ending the knot keeps a short thread tail, a white
          strip, and "Pull down to go back ↓"; tapping it there also goes
          back. Tests: tests/e2e/pull-back.spec.ts.
-- [ ] 26. Ending shows the whole journey: every page you passed through on
+- [x] 26. Ending shows the whole journey: every page you passed through on
          the thread, named (with its picture where there is one), not just
-         numbers between the start and end cards.
+         numbers between the start and end cards. Vertical journey: start
+         card, one row per knot (page picture, page name, section, opens
+         Wikipedia at the passage), end card; the thread runs down a left
+         gutter through every stop. Test: tests/e2e/journey.spec.ts.
 - [ ] 27. Smoother swipe-in: the card mustn't spring back to centre (it looks
          like the swipe failed); the start card should carry straight on into
          the Wikipedia page without the screen going blurry first.
@@ -126,7 +129,7 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
-26
+27
 
 ## Decisions
 - React + TypeScript + framer-motion, approved by the owner on 2026-10-09
@@ -274,6 +277,8 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
 - Some Commons credits read oddly (e.g. "Unknown authorUnknown a…") because
   the Artist metadata is messy; Sogdian language has no lead image.
 - On the ending, [1–N] can wrap onto its own line under the claim.
+- On the journey the ending's thread is drawn straight (a vertical rope with
+  slack bunches up), so it no longer sags like the clothesline did.
 - import-holes.mjs used to miss entry 100 (three-digit number); fixed.
 - On a cold deploy the first visits can be slow enough to hit the 30 s test
   timeout (4 hole tests did once; the rerun passed all 60).
