@@ -3,7 +3,7 @@ import { enterTopHole } from './helpers';
 
 // SPEC: Go deeper opens real Wikipedia at that passage.
 test('Go deeper and every reference open Wikipedia at the passage', async ({ page }) => {
-  await page.goto('/');
+  await page.goto('/?hole=coffee-insurance');
   await enterTopHole(page);
   for (const label of ['2 / 4', '3 / 4', '4 / 4', 'Cited']) {
     await page.keyboard.press('ArrowDown');

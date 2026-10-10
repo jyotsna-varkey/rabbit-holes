@@ -2,7 +2,7 @@ import { expect, test } from '@playwright/test';
 import { enterTopHole } from './helpers';
 
 async function finishCoffeeHole(page: import('@playwright/test').Page) {
-  await page.goto('/');
+  await page.goto('/?hole=coffee-insurance');
   await enterTopHole(page);
   for (const n of [2, 3, 4]) {
     await page.keyboard.press('ArrowDown');

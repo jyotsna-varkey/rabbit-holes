@@ -5,7 +5,7 @@ import { enterTopHole } from './helpers';
 test('tapping the onward link in a passage does not pull the thread', async ({ page, context }) => {
   // The link may open Wikipedia in a new tab; keep that off the network.
   await context.route((url) => url.hostname.endsWith('wikipedia.org'), (r) => r.abort());
-  await page.goto('/');
+  await page.goto('/?hole=coffee-insurance');
   await enterTopHole(page);
   for (let i = 0; i < 3; i++) {
     await page.keyboard.press('ArrowDown');

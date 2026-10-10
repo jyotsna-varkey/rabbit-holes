@@ -21,14 +21,7 @@ test.describe('every hole, end to end', () => {
       const errors: string[] = [];
       page.on('pageerror', (e) => errors.push(e.message));
       // Put this hole on top of the stack.
-      await page.addInitScript((id) => {
-        try {
-          localStorage.setItem('rh.order', JSON.stringify([id]));
-        } catch {
-          // ignore
-        }
-      }, hole.id);
-      await page.goto('/');
+      await page.goto(`/?hole=${hole.id}`);
       await expect(page.locator('.slot-0 .card-claim')).toContainText(hole.claim);
       await page.screenshot({ path: `screenshots/holes/${hole.id}-1-card.png` });
 

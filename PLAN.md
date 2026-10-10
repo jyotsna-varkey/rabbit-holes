@@ -97,8 +97,12 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          (Caveat), still in its white tab.
 - [x] 23. Always show which Wikipedia page you're on: page name in the top
          bar, updating on every pull (forward or back).
-- [ ] 24. Stack order shuffled on every visit, holes you haven't opened yet
-         first; the shelf keeps the ones you liked.
+- [x] 24. Stack order shuffled on every visit, holes you haven't opened yet
+         first; the shelf keeps the ones you liked. src/lib/order.ts
+         (unit-tested); "opened" = swiped in or finished. ?hole=<id> puts a
+         hole on top (for sharing one, and for tests). The old saved order
+         (rh.order) is no longer read. 17 browser tests now open
+         /?hole=coffee-insurance instead of / (owner approved each file).
 - [ ] 25. Go backwards with the same knot: drag it up = next page, drag it
          down = previous page, at every knot and from the ending (the knot
          stays on the ending so you can pull back up).
@@ -117,7 +121,7 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
-24
+25
 
 ## Decisions
 - React + TypeScript + framer-motion, approved by the owner on 2026-10-09

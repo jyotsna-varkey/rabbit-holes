@@ -48,5 +48,11 @@ export function logSwipe(id: string, dir: 'in' | 'not-now') {
   write('rh.swipes', [...log.slice(-199), { id, dir, at: Date.now() }]);
 }
 
-export const getOrder = () => read<string[] | null>('rh.order', null);
-export const saveOrder = (ids: string[]) => write('rh.order', ids);
+/** Holes this reader has opened or finished, so the stack can show new ones first. */
+export function openedHoles() {
+  const swipes = read<{ id: string; dir: string }[]>('rh.swipes', []);
+  return new Set([
+    ...swipes.filter((s) => s.dir === 'in').map((s) => s.id),
+    ...Object.keys(getFinished()),
+  ]);
+}

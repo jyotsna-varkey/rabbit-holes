@@ -3,7 +3,7 @@ import { enterTopHole } from './helpers';
 
 // SPEC (laptop): down arrow / click knot = pull, left arrow = back.
 test('left arrow goes back a knot, and from the first knot back to the stack', async ({ page }, info) => {
-  await page.goto('/');
+  await page.goto('/?hole=coffee-insurance');
   await enterTopHole(page);
   await page.keyboard.press('ArrowDown');
   await expect(page.locator('.bar-count')).toHaveText('2 / 4');
@@ -18,7 +18,7 @@ test('left arrow goes back a knot, and from the first knot back to the stack', a
 });
 
 test('left arrow on the ending goes back to the last knot', async ({ page }) => {
-  await page.goto('/');
+  await page.goto('/?hole=coffee-insurance');
   await enterTopHole(page);
   for (const n of [2, 3, 4]) {
     await page.keyboard.press('ArrowDown');
@@ -32,7 +32,7 @@ test('left arrow on the ending goes back to the last knot', async ({ page }) => 
 });
 
 test('clicking the knot pulls, like the down arrow', async ({ page }) => {
-  await page.goto('/');
+  await page.goto('/?hole=coffee-insurance');
   await enterTopHole(page);
   await page.locator('.knot').click();
   await expect(page.locator('.bar-count')).toHaveText('2 / 4');

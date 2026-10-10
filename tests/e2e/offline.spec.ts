@@ -8,7 +8,7 @@ test('reading a hole makes no requests to Wikipedia or Wikimedia', async ({ page
     const host = new URL(r.url()).hostname;
     if (/(^|\.)(wikipedia|wikimedia)\.org$/.test(host)) remote.push(r.url());
   });
-  await page.goto('/');
+  await page.goto('/?hole=coffee-insurance');
   await enterTopHole(page);
   // Scroll the whole first article so lazy images would load.
   await page.locator('.page-scroll').first().evaluate((el) => el.scrollTo(0, el.scrollHeight));

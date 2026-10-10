@@ -57,19 +57,8 @@ export type PageInfo = {
 const holeFiles = import.meta.glob<Hole>('../../holes/*.json', { eager: true, import: 'default' });
 const pageHtml = import.meta.glob<string>('../../holes/snapshots/pages/*.html', { query: '?raw', import: 'default' });
 
-// The stack starts with the hole the spec was written around and the first library,
-// then the reading copy's top 20 in its ranked order; any others follow by id.
-const STACK_ORDER = [
-  'coffee-insurance', 'sandwich-hawaii', 'sandwich-copper-bottomed', 'coffee-haiti',
-  'aluminium-charles-martin-hall', 'piano-4-33', 'coffee-titanic', 'whale-moby-dick', 'ice-7-eleven',
-  'nutmeg-dutch-conquest-of-the-banda-islands', 'airship-parasite-aircraft', 'computer-jacques-cousteau',
-  'mirror-claw-of-archimedes', 'mushroom-tollund-man', 'silk-sogdian-language', 'eraser-johann-jacob-schweppe',
-  'clock-james-cook', 'cotton-interchangeable-parts', 'tennis-french-revolution', 'gold-alchemy',
-  'snow-photography', 'umbrella-thomas-coram', 'pencil-seathwaite-cumberland', 'horse-simonides-of-ceos',
-];
-const rank = (id: string) => (STACK_ORDER.includes(id) ? STACK_ORDER.indexOf(id) : STACK_ORDER.length);
-
-export const holes = Object.values(holeFiles).sort((a, b) => rank(a.id) - rank(b.id) || a.id.localeCompare(b.id));
+// Sorted by id for a stable list; the stack shuffles its own order (src/lib/order.ts).
+export const holes = Object.values(holeFiles).sort((a, b) => a.id.localeCompare(b.id));
 export const pages = manifestJson.pages as unknown as Record<string, PageInfo>;
 
 export const keyOf = (title: string) => title.replace(/[^A-Za-z0-9]+/g, '-').replace(/^-|-$/g, '');

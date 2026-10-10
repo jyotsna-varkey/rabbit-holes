@@ -16,6 +16,10 @@ Open the "Network" URL Vite prints on your phone (same Wi-Fi) to try the gesture
 
 - Down arrow pulls the thread on a laptop; tapping the knot or the onward link also pulls.
 
+Link straight to one hole with `?hole=<id>`, e.g.
+https://rabbit-holes-gules.vercel.app/?hole=gold-alchemy (ids are the file
+names in `holes/`). Otherwise the stack is shuffled on every visit.
+
 ## Content
 
 Each hole is a hand-authored JSON file in `holes/` (schema in SPEC.md). Snapshots

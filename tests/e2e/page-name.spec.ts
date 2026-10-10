@@ -3,7 +3,7 @@ import { enterTopHole } from './helpers';
 
 // PLAN step 23: the top bar always names the Wikipedia page you're on.
 test('the top bar names the current Wikipedia page and follows every pull', async ({ page }) => {
-  await page.goto('/');
+  await page.goto('/?hole=coffee-insurance');
   await enterTopHole(page);
   const name = page.locator('.hole-bar .bar-page');
   await expect(name).toHaveText('Coffee');
