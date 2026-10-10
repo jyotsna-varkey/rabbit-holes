@@ -55,9 +55,6 @@ export function markFinished(id: string) {
   write('rh.finished', { ...getFinished(), [id]: today() });
 }
 
-/** Whether this reader has swiped a card yet (the home hint is for first-timers). */
-export const hasSwiped = () => read<unknown[]>('rh.swipes', []).length > 0;
-
 export function logSwipe(id: string, dir: 'in' | 'not-now') {
   const log = read<{ id: string; dir: string; at: number }[]>('rh.swipes', []);
   write('rh.swipes', [...log.slice(-199), { id, dir, at: Date.now() }]);

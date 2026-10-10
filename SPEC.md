@@ -52,8 +52,8 @@ Trivia, not homework. Never self-important.
 - Motion only for the thread, the focus blur, and the tumble.
 - No stickies, badges, points, streaks, or emoji.
 - One deliberate exception (owner, 2026-10-09): a handwritten swipe hint on
-  home for first-time readers ("← not now · swipe right to go in →"), in the
-  Caveat font shipped with the app. It disappears after the first swipe.
+  home ("← not now · swipe right to go in →"), in the Caveat font shipped
+  with the app. It is always shown on the stack (owner, 2026-10-10).
   The "Pull the thread ↑" label beside the knot uses the same font.
 
 ## Platforms

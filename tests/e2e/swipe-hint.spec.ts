@@ -1,8 +1,8 @@
 import { expect, test } from '@playwright/test';
 import { enterTopHole, swipeTopCard } from './helpers';
 
-// Owner decision (PLAN step 21): a handwritten swipe hint on home, in Caveat,
-// shown until the reader's first swipe. The font ships with the app.
+// Owner decision (PLAN step 21): a handwritten swipe hint on home, in Caveat.
+// The font ships with the app.
 test('first-time readers see a handwritten swipe hint, from a bundled font', async ({ page }) => {
   const fontHosts: string[] = [];
   page.on('request', (r) => {
@@ -20,14 +20,16 @@ test('first-time readers see a handwritten swipe hint, from a bundled font', asy
   expect(fontHosts).toEqual([]);
 });
 
-test('the hint goes away after the first swipe, and stays away', async ({ page }) => {
+// PLAN step 31 (owner, 2026-10-10): the hint is always on the stack, not just
+// for first-timers. Replaces "the hint goes away after the first swipe".
+test('the hint is still there after a swipe and after a reload', async ({ page }) => {
   await page.goto('/');
   await expect(page.locator('.swipe-hint')).toBeVisible();
   await swipeTopCard(page, 'left');
-  await expect(page.locator('.swipe-hint')).toHaveCount(0);
+  await expect(page.locator('.swipe-hint')).toBeVisible();
   await page.reload();
   await expect(page.locator('.slot-0 .card')).toBeVisible();
-  await expect(page.locator('.swipe-hint')).toHaveCount(0);
+  await expect(page.locator('.swipe-hint')).toBeVisible();
 });
 
 // PLAN step 22: the "Pull the thread" label next to the knot matches the swipe hint.

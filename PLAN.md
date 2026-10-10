@@ -145,12 +145,25 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
 - [ ] 30. Custom email sender (e.g. Resend SMTP) so beta readers get sign-in
          links: Supabase's built-in sender only mails members of the
          Supabase organisation, a few per hour.
+- UI sprint (owner's second list, 2026-10-10). Design must feel smooth
+  and seamless. Already done last session: page name always shown (step
+  23), go backwards with the knot at every point incl. the ending (25),
+  smooth swipe-in (27), whole journey with names and pictures on the
+  ending (26). New:
+- [x] 31. Swipe hint always visible on the stack (owner answered the open
+         decision: "always show"). SPEC.md updated; the rh.swipes check is
+         gone (the swipe log itself stays, it feeds stack order). Test:
+         swipe-hint.spec.ts "still there after a swipe and after a reload"
+         (replaces "goes away after the first swipe", owner-approved).
+- [ ] 32. Stack order kept for the session: shuffled once per visit, then
+         the same order on refresh (including cards sent to the back).
+         A new tab / reopened browser gets a fresh shuffle.
 - [ ] 15. Cover the remaining [~] steps with tests: swipe left sends the card
          to the back (8); "Back to the thread" re-centres and blur returns (3);
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
-29 (owner sets Supabase URLs), then 15. Open owner decisions are listed
+31 and 32 (UI sprint), then 29 (owner sets Supabase URLs), then 15. Open owner decisions are listed
 under "Handover" below.
 
 ## Handover (for a new session)
@@ -173,9 +186,7 @@ under "Handover" below.
      Known issues).
   2. Review Claude's drafted claims, hatnotes and payoffs for the 20
      reading-copy holes and the rewritten original four.
-  3. Swipe hint: currently hides after the first swipe. Options offered:
-     always show / first few visits / return after a week away.
-  4. Whether to set up an email sender for beta readers' sign-in (step 30).
+  3. Whether to set up an email sender for beta readers' sign-in (step 30).
 
 ## Decisions
 - React + TypeScript + framer-motion, approved by the owner on 2026-10-09
