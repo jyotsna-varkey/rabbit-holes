@@ -47,6 +47,21 @@ checks offline against the stored snapshots.
 Wikipedia text is CC BY-SA 4.0; every page credits and links its source revision, and
 endpoint images carry their Commons author and licence.
 
+## Hosting
+
+Live at https://rabbit-holes-gules.vercel.app (Vercel project `rabbit-holes`).
+To publish the current version:
+
+```bash
+npx vercel@48 deploy --prod
+```
+
+To run the browser tests against the live site:
+
+```bash
+BASE_URL=https://rabbit-holes-gules.vercel.app npm run test:e2e
+```
+
 ## Tests
 
 ```bash

@@ -198,9 +198,13 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
   before step 17 no longer contain their images. .git 87 MB → 25 MB.
   Backup: ../rabbit_holes-backup-2026-10-10.bundle (delete when happy).
 - Hosting: Vercel, project rabbit-holes in "Jyotsna Varkey's projects",
-  public production link (owner, 2026-10-10). Deployed with the Vercel CLI
-  (the Vercel connection here can't create projects); .vercelignore keeps
-  screenshots, tests and the reading copy out of the upload.
+  public production link https://rabbit-holes-gules.vercel.app (owner,
+  2026-10-10). rabbit-holes.vercel.app was already taken by someone else's
+  site. The team alias and per-deployment URLs need a Vercel login (default
+  protection). Deployed with the Vercel CLI (the Vercel connection here
+  can't create projects): `npx vercel@48 deploy --prod`. .vercelignore keeps
+  screenshots, tests and the reading copy out of the upload. Check a deploy
+  with `BASE_URL=https://rabbit-holes-gules.vercel.app npm run test:e2e`.
 - The rope is string, not a rod: it resists stretching only. A two-sided
   constraint made the slack zigzag. Spans that are taut are drawn straight,
   and a span whose ends jump > 140px is reset, to stop leftover loops after a
@@ -232,6 +236,8 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
   the Artist metadata is messy; Sogdian language has no lead image.
 - On the ending, [1–N] can wrap onto its own line under the claim.
 - import-holes.mjs used to miss entry 100 (three-digit number); fixed.
+- On a cold deploy the first visits can be slow enough to hit the 30 s test
+  timeout (4 hole tests did once; the rerun passed all 60).
 - Caveat's Latin file has no ← → glyphs, so the hint's arrows use the
   system font.
 - iOS haptics use the iOS 18 switch-control workaround; untested on a device.
@@ -252,3 +258,6 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
 - 2026-10-09 (later): Owner decided the content rules; steps 19–20 turn them
   into tests and fix the original four holes; step 21 adds the handwritten
   swipe hint. Next: step 15, and owner review of the drafted hatnotes.
+- 2026-10-10: Rewrote git history to drop old raster images (.git 87 → 25 MB,
+  backup bundle kept); deployed to Vercel at rabbit-holes-gules.vercel.app;
+  all 60 browser tests pass against it.
