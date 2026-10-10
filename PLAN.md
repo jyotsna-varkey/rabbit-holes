@@ -103,9 +103,14 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          hole on top (for sharing one, and for tests). The old saved order
          (rh.order) is no longer read. 17 browser tests now open
          /?hole=coffee-insurance instead of / (owner approved each file).
-- [ ] 25. Go backwards with the same knot: drag it up = next page, drag it
+- [x] 25. Go backwards with the same knot: drag it up = next page, drag it
          down = previous page, at every knot and from the ending (the knot
-         stays on the ending so you can pull back up).
+         stays on the ending so you can pull back up). Drag down 24 px (or a
+         downward flick) goes back; the pages follow the finger at 4x because
+         the knot sits at the bottom edge. On knot 1 it returns to the stack
+         (like ←). On the ending the knot keeps a short thread tail, a white
+         strip, and "Pull down to go back ↓"; tapping it there also goes
+         back. Tests: tests/e2e/pull-back.spec.ts.
 - [ ] 26. Ending shows the whole journey: every page you passed through on
          the thread, named (with its picture where there is one), not just
          numbers between the start and end cards.
@@ -121,7 +126,7 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
-25
+26
 
 ## Decisions
 - React + TypeScript + framer-motion, approved by the owner on 2026-10-09
