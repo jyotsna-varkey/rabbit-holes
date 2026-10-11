@@ -14,6 +14,8 @@ export type ArticlePageHandle = {
   arrive(): void;
   /** "Back to the thread". */
   recenter(): void;
+  /** Scroll the article by dy pixels, as the reader (a wheel over the knot). */
+  scrollBy(dy: number): void;
 };
 
 type Props = {
@@ -256,6 +258,12 @@ export const ArticlePage = forwardRef<ArticlePageHandle, Props>(function Article
     },
     recenter() {
       goToPassage(true);
+    },
+    scrollBy(dy) {
+      const el = scroller.current;
+      if (!el) return;
+      el.dispatchEvent(new Event('wheel'));
+      el.scrollTop += dy;
     },
   }), [height]);
 

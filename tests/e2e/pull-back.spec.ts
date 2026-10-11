@@ -28,10 +28,13 @@ test('from the ending, the knot is still there and pulls back to the last page',
   await expect(page.getByText('In London, the coffeehouse became the office.').first()).toBeInViewport();
 });
 
-test('dragging the knot down on the first page goes back to the stack', async ({ page }) => {
+// PLAN step 33 (owner-approved): replaces "…goes back to the stack". There's
+// no page before the first one, so the knot just gives a little and settles.
+test('dragging the knot down on the first page just bounces', async ({ page }) => {
   await page.goto('/?hole=coffee-insurance');
   await enterTopHole(page);
-  await pullKnot(page, -40);
-  await expect(page.locator('.hole')).toHaveCount(0);
-  await expect(page.locator('.slot-0 .card')).toBeVisible();
+  await pullKnot(page, -120);
+  await page.waitForTimeout(500);
+  await expect(page.locator('.hole')).toHaveCount(1);
+  await expect(page.locator('.bar-count')).toHaveText('1 / 4');
 });

@@ -92,98 +92,135 @@ export function HoleView({ hole, from, onClose, onNext, onSettled }: Props) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // Pulling the thread.
-  const commit = useCallback(async (velocity = 0) => {
+  // Moving between pages. The page name, knots and thread switch the moment a
+  // move starts; the pages then slide in a short ease-out. A new tug during a
+  // move simply retargets it, so quick tugs in a row each go one page.
+  const moves = useRef(0);
+  const slide = useCallback((to: number, velocity = 0) => {
     const L = live.current;
-    if (L.busy || L.phase !== 'reading') return;
+    const run = ++moves.current;
     L.busy = true;
+    const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    animate(offset, to * L.size.h, {
+      type: 'tween',
+      duration: reduced ? 0.12 : 0.32,
+      ease: [0.22, 1, 0.36, 1],
+      velocity,
+    }).then(() => {
+      if (moves.current === run) live.current.busy = false;
+    });
+  }, [offset]);
+
+  const cancel = useCallback(() => {
+    const L = live.current;
+    animate(offset, (L.phase === 'ending' ? n : L.index) * L.size.h, { type: 'spring', stiffness: 520, damping: 34 });
+  }, [n, offset]);
+
+  const commit = useCallback((velocity = 0) => {
+    const L = live.current;
+    if (L.phase !== 'reading') return;
     setPulled(true);
-    const i = L.index;
-    await animate(offset, (i + 1) * L.size.h, { type: 'spring', stiffness: 210, damping: 30, velocity, restDelta: 0.5 });
     tick();
+    const i = L.index;
     if (i + 1 < n) {
       thread.current?.shift(3);
-      live.current.index = i + 1;
+      L.index = i + 1;
       setIndex(i + 1);
       setFocused(true);
     } else {
+      L.phase = 'ending';
       setPhase('ending');
     }
-    L.busy = false;
-  }, [n, offset]);
+    slide(i + 1, velocity);
+  }, [n, slide]);
 
-  // Back: the previous knot, the last knot from the ending, or the stack from the first knot.
-  const back = useCallback(async (velocity = 0) => {
+  // Back: the previous knot, or the last knot from the ending. The first page
+  // has nothing before it (← and Esc still leave the hole).
+  const back = useCallback((velocity = 0) => {
     const L = live.current;
-    if (L.busy) return;
-    if (L.phase === 'reading' && L.index === 0) {
-      onClose();
-      return;
-    }
+    if (L.phase === 'reading' && L.index === 0) return cancel();
     if (L.phase !== 'reading' && L.phase !== 'ending') return;
-    L.busy = true;
+    tick();
     const to = L.phase === 'ending' ? n - 1 : L.index - 1;
-    await animate(offset, to * L.size.h, { type: 'spring', stiffness: 210, damping: 30, velocity, restDelta: 0.5 });
     thread.current?.reset();
-    live.current.index = to;
+    L.index = to;
+    L.phase = 'reading';
     setIndex(to);
     setPhase('reading');
     setFocused(true);
-    L.busy = false;
-  }, [n, offset, onClose]);
+    slide(to, velocity);
+  }, [n, slide, cancel]);
 
   /** Where the track rests: the current page, or the ending after the last knot. */
   const restingAt = () => (live.current.phase === 'ending' ? n : live.current.index);
 
-  const cancel = useCallback((velocity = 0) => {
-    const L = live.current;
-    animate(offset, (L.phase === 'ending' ? n : L.index) * L.size.h, { type: 'spring', stiffness: 380, damping: 32, velocity });
-  }, [n, offset]);
 
-  // The same knot goes both ways: drag up for the next page, down for the previous.
-  // The knot sits at the bottom edge, so a downward drag has little room: the pages
-  // follow it at BACK_GAIN times the finger, and a short tug is enough.
-  const BACK_GAIN = 4;
-  const BACK_TUG = 24;
-  const drag = useRef<{ y0: number; lastY: number; lastT: number; v: number; moved: boolean } | null>(null);
-  const travel = (raw: number) => {
-    const { h } = live.current.size;
-    const canForward = live.current.phase === 'reading';
-    return raw > 0 ? (canForward ? Math.min(raw, h) : 0) : Math.max(raw * BACK_GAIN, -h);
+  // The same knot goes both ways: tug up for the next page, down for the
+  // previous. A small tug is enough and it goes as soon as it's made, without
+  // waiting for the finger to lift. Until then the pages give a little.
+  const TUG = 14;
+  const GIVE = 0.5;
+  const drag = useRef<{ y0: number; done: boolean } | null>(null);
+  const giveRef = useRef(0);
+  const setGive = (g: number) => { giveRef.current = g; };
+  const canGo = (dir: 1 | -1) => {
+    const L = live.current;
+    return dir > 0 ? L.phase === 'reading' : L.phase === 'ending' || (L.phase === 'reading' && L.index > 0);
+  };
+  const setDragGive = (raw: number) => {
+    // Toward a page that exists: follow at half speed. Toward nothing: a stiff, short give.
+    const g = canGo(raw > 0 ? 1 : -1) ? raw * GIVE : Math.sign(raw) * Math.min(18, Math.abs(raw) * 0.15);
+    setGive(g);
+    if (!live.current.busy) offset.set(restingAt() * live.current.size.h + g);
+  };
+  const endDrag = () => {
+    drag.current = null;
+    live.current.pulling = false;
+    setGive(0);
   };
   const onKnotDown = (e: React.PointerEvent) => {
     const L = live.current;
-    if (L.busy || (L.phase !== 'reading' && L.phase !== 'ending')) return;
+    if (L.phase !== 'reading' && L.phase !== 'ending') return;
     e.currentTarget.setPointerCapture(e.pointerId);
-    drag.current = { y0: e.clientY, lastY: e.clientY, lastT: performance.now(), v: 0, moved: false };
+    drag.current = { y0: e.clientY, done: false };
     L.pulling = true;
   };
-  const onKnotMove = (e: React.PointerEvent) => {
+  const onKnotMove = (e: React.PointerEvent): void => {
     const d = drag.current;
-    if (!d) return;
+    if (!d || d.done) return;
+    // A mouse that is no longer pressed (its release was lost) isn't pulling.
+    if (e.pointerType === 'mouse' && !(e.buttons & 1)) return onKnotUp(e);
     const raw = d.y0 - e.clientY; // upward positive
-    if (Math.abs(raw) > 6) d.moved = true;
-    const now = performance.now();
-    d.v = (d.lastY - e.clientY) / Math.max(1, now - d.lastT); // px/ms, upward positive
-    d.lastY = e.clientY;
-    d.lastT = now;
-    offset.set(restingAt() * live.current.size.h + travel(raw));
+    if (Math.abs(raw) >= TUG && canGo(raw > 0 ? 1 : -1)) {
+      d.done = true;
+      setGive(0);
+      if (raw > 0) commit();
+      else back();
+      return;
+    }
+    setDragGive(raw);
   };
   const onKnotUp = (e: React.PointerEvent) => {
     const d = drag.current;
     if (!d) return;
-    drag.current = null;
-    const L = live.current;
-    L.pulling = false;
-    const raw = d.y0 - e.clientY;
-    const v = d.v * 1000;
-    if (!d.moved) {
-      if (L.phase === 'reading') commit();
+    const tapped = !d.done && Math.abs(d.y0 - e.clientY) < 6 && e.type === 'pointerup';
+    endDrag();
+    if (d.done) return;
+    if (tapped) {
+      if (live.current.phase === 'reading') commit();
       else back();
-    } else if (L.phase === 'reading' && (raw > L.size.h * 0.26 || d.v > 0.55)) commit(v);
-    else if (raw < -BACK_TUG || d.v < -0.55) back(v * BACK_GAIN);
-    else cancel(-v);
+    } else if (!live.current.busy) cancel();
   };
+  // A trackpad or mouse wheel over the knot scrolls the page under it.
+  useEffect(() => {
+    const el = knot.current!;
+    const onWheel = (e: WheelEvent) => {
+      e.preventDefault();
+      pages.current.get(live.current.index)?.scrollBy(e.deltaY * (e.deltaMode === 1 ? 32 : 1));
+    };
+    el.addEventListener('wheel', onWheel, { passive: false });
+    return () => el.removeEventListener('wheel', onWheel);
+  }, []);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -194,7 +231,9 @@ export function HoleView({ hole, from, onClose, onNext, onSettled }: Props) {
       }
       if (e.key === 'ArrowLeft') {
         e.preventDefault();
-        back();
+        // On the first page ← leaves the hole; the knot only bounces there.
+        if (live.current.phase === 'reading' && live.current.index === 0) onClose();
+        else back();
       }
     };
     window.addEventListener('keydown', onKey);
@@ -215,7 +254,7 @@ export function HoleView({ hole, from, onClose, onNext, onSettled }: Props) {
       const i = L.index;
       for (const k of [i - 1, i, i + 1]) pages.current.get(k)?.tick();
 
-      const pulledBy = offset.get() - (L.phase === 'ending' ? n : i) * h;
+      const pulledBy = giveRef.current;
       const rootBox = root.current!.getBoundingClientRect();
       const local = (p: Pt | null | undefined) => (p ? { x: p.x - rootBox.left, y: p.y - rootBox.top } : null);
       const kx = w / 2;

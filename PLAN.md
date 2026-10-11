@@ -141,6 +141,32 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
 - [x] Redeployed steps 22–28 to Vercel (2026-10-10); live build matches local.
 - [x] Redeployed steps 31–32 to Vercel (2026-10-11); the 28 sprint
        browser tests pass against the live site.
+- [x] 33. The thread, done properly (owner, 2026-10-11: "the main issue
+         right now"), on phone and laptop. Found by reproducing at laptop
+         size: (a) a back tug on page 1 slid the page 4x the finger into
+         nothing → blank white screen with a purple line; (b) a slow pull
+         had to travel ~26% of the screen (~180 px) or it sprang back; (c)
+         the move was a 0.7 s spring and the page name / knots only updated
+         after it; (d) trackpad scroll over the knot did nothing; (e) a long
+         diagonal thread across the text mid-move. Owner decisions: up =
+         next, down = back (unchanged); back tug on page 1 = small bounce,
+         nothing else (X / Esc / ← still leave); any ~15 px tug or a tap
+         moves on at once, no need to let go. Approved test changes:
+         hole.spec "a short drag springs back" → "a short tug goes to the
+         next page"; pull-back.spec "down on the first page goes back to
+         the stack" → "…just bounces".
+         Done: a 14 px tug (or a tap) moves at once, before you let go;
+         name, knots and thread switch at the start; pages slide in 0.32 s
+         ease-out (was a ~0.7 s spring) and land by ~0.15 s visually; a tug
+         mid-move retargets, so quick tugs each go one page; until 14 px the
+         pages give at half speed, toward nothing only a stiff 18 px; the
+         knot stays at the bottom edge instead of riding the pages (that
+         caused the long diagonal); a mouse moving without a pressed button
+         never pulls; wheel/trackpad over the knot scrolls the page.
+         Tests: tests/e2e/thread-tug.spec.ts (5 × phone/laptop), plus the
+         two replaced tests. Touch checked with real touch events in iPhone
+         emulation: each tug one page within 80 ms; finger scroll on the
+         text scrolls, never pulls.
 - [ ] 29. Owner: in Supabase → Authentication → URL Configuration, set the
          Site URL and allowed redirect URLs (see Known issues). Then a real
          sign-in test on a phone.
@@ -170,7 +196,7 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
-UI sprint list is done and live (31, 32; the rest were 23–27). Then 29 (owner sets Supabase URLs), then 15. Open owner decisions are listed
+33 done locally; redeploy when the owner says so. Then 29 (owner sets Supabase URLs), then 15. Open owner decisions are listed
 under "Handover" below.
 
 ## Handover (for a new session)
@@ -179,7 +205,7 @@ under "Handover" below.
   (CLI is logged in on this Mac). Check live: `BASE_URL=… npm run test:e2e
   -- --workers=1`.
 - Local: `npm run dev -- --host` (phone: http://192.168.0.2:5173).
-  Tests: `npm test` (500 unit/data), `npm run test:e2e` (88 browser).
+  Tests: `npm test` (500 unit/data), `npm run test:e2e` (98 browser).
 - Content: 24 holes in holes/*.json; import more from "Rabbit Holes — Reading
   Copy.txt" with `node scripts/import-holes.mjs "<txt>" 21-40`, then
   `node scripts/fetch-content.mjs`, then write claim/hatnotes/payoff.
@@ -310,6 +336,11 @@ under "Handover" below.
   separate shelves, and private tabs / Safari's 7-day clean-up wipe it.
 - Stack order "per visit" = per browser tab session (sessionStorage), so a
   refresh keeps it and a new tab reshuffles (owner, 2026-10-10).
+- The thread (owner, 2026-10-11): up = next, down = back; a small tug
+  goes at once; on page 1 a back tug only bounces (← / Esc still leave).
+  Tried before: pages following the finger (4x when going back) with a
+  26%-of-screen threshold; it read as lag, springs back, and slid page 1
+  into a blank screen.
 - Current page name sits centred in the top bar above the progress knots
   (serif, like a Wikipedia title; long names get an ellipsis); on the ending
   it reads "The whole thread".
@@ -365,6 +396,9 @@ under "Handover" below.
   with --workers=1, which the README now uses for live checks.
 - Caveat's Latin file has no ← → glyphs, so the hint's arrows use the
   system font.
+- Mid-move the rope can show a small hook by the onward link for a frame
+  or two (rope settling). Thread moves not yet tried on a real iPhone /
+  Safari; checked in Chrome with emulated touch.
 - iOS haptics use the iOS 18 switch-control workaround; untested on a device.
 
 ## Session log
@@ -400,3 +434,8 @@ under "Handover" below.
   step 31 (swipe hint always shown) and 32 (stack order kept through
   refresh). 500 unit + 88 browser tests pass. Redeployed 2026-10-11;
   28 sprint tests pass live.
+- 2026-10-11: Owner: the thread is the main issue (blank screen, doesn't
+  go all the way, lag, laptop glitches). Reproduced each, step 33 rebuilt
+  the tug: small tug moves at once, quick slide, no blank screen, wheel
+  over the knot scrolls. 500 unit + 98 browser tests pass. Not yet
+  redeployed.

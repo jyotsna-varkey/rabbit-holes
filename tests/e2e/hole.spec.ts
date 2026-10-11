@@ -31,10 +31,11 @@ test('dragging the knot up pulls the next page in', async ({ page }, info) => {
   await page.screenshot({ path: `screenshots/e2e-pull-${info.project.name}.png` });
 });
 
-test('a short drag springs back without advancing', async ({ page }) => {
+// PLAN step 33 (owner-approved): replaces "a short drag springs back without
+// advancing". A small tug is all it takes.
+test('a short tug goes to the next page', async ({ page }) => {
   await page.goto('/?hole=coffee-insurance');
   await enterTopHole(page);
-  await pullKnot(page, 60);
-  await page.waitForTimeout(800);
-  await expect(page.locator('.bar-count')).toHaveText('1 / 4');
+  await pullKnot(page, 20);
+  await expect(page.locator('.bar-count')).toHaveText('2 / 4');
 });
