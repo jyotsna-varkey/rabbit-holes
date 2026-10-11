@@ -139,6 +139,8 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          Tests: tests/unit/shelf-sync.test.ts, tests/e2e/shelf-cloud.spec.ts
          (sign-in request mocked; no real email sent in tests).
 - [x] Redeployed steps 22–28 to Vercel (2026-10-10); live build matches local.
+- [x] Redeployed steps 31–32 to Vercel (2026-10-11); the 28 sprint
+       browser tests pass against the live site.
 - [ ] 29. Owner: in Supabase → Authentication → URL Configuration, set the
          Site URL and allowed redirect URLs (see Known issues). Then a real
          sign-in test on a phone.
@@ -168,8 +170,7 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
-UI sprint list is done (31, 32; the rest were 23–27). Redeploy when the
-owner says so. Then 29 (owner sets Supabase URLs), then 15. Open owner decisions are listed
+UI sprint list is done and live (31, 32; the rest were 23–27). Then 29 (owner sets Supabase URLs), then 15. Open owner decisions are listed
 under "Handover" below.
 
 ## Handover (for a new session)
@@ -397,4 +398,5 @@ under "Handover" below.
 - 2026-10-10 (later): Owner's second UI list: items 1, 3, 4, 5 were already
   steps 23, 25, 27, 26 (their 14 browser tests re-run, all pass). New:
   step 31 (swipe hint always shown) and 32 (stack order kept through
-  refresh). 500 unit + 88 browser tests pass. Not yet redeployed.
+  refresh). 500 unit + 88 browser tests pass. Redeployed 2026-10-11;
+  28 sprint tests pass live.
