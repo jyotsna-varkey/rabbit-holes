@@ -196,7 +196,7 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
-33 done locally; redeploy when the owner says so. Then 29 (owner sets Supabase URLs), then 15. Open owner decisions are listed
+33 done and live. Owner to try the thread on a real phone and laptop. Then 29 (owner sets Supabase URLs), then 15. Open owner decisions are listed
 under "Handover" below.
 
 ## Handover (for a new session)
@@ -437,5 +437,5 @@ under "Handover" below.
 - 2026-10-11: Owner: the thread is the main issue (blank screen, doesn't
   go all the way, lag, laptop glitches). Reproduced each, step 33 rebuilt
   the tug: small tug moves at once, quick slide, no blank screen, wheel
-  over the knot scrolls. 500 unit + 98 browser tests pass. Not yet
-  redeployed.
+  over the knot scrolls. 500 unit + 98 browser tests pass. Redeployed;
+  44 thread/stack tests pass against the live site.
