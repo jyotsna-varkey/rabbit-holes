@@ -167,6 +167,15 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          two replaced tests. Touch checked with real touch events in iPhone
          emulation: each tug one page within 80 ms; finger scroll on the
          text scrolls, never pulls.
+- [x] 34. Thread always taut while reading (owner, 2026-10-11: prefers the
+         taut look; some spans looked slack / stretched). Every span of the
+         reading thread is now a straight line (slack 1.0; was 1.035 at rest,
+         sagging up to ~55 px). SPEC.md notes it. The home card's thread
+         still hangs between the two infoboxes. Test: tests/e2e/taut.spec.ts.
+- [ ] 35. Ending journey on a diagonal again: start card top-left down to
+         the end card bottom-right, the middle pages stepping along the
+         diagonal between them (owner liked the old clothesline placement;
+         keep every page named with its picture).
 - [ ] 29. Owner: in Supabase → Authentication → URL Configuration, set the
          Site URL and allowed redirect URLs (see Known issues). Then a real
          sign-in test on a phone.
@@ -196,7 +205,7 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
-33 done and live. Owner to try the thread on a real phone and laptop. Then 29 (owner sets Supabase URLs), then 15. Open owner decisions are listed
+34, 35. Then 29 (owner sets Supabase URLs), then 15. Open owner decisions are listed
 under "Handover" below.
 
 ## Handover (for a new session)

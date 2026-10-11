@@ -244,7 +244,6 @@ export function HoleView({ hole, from, onClose, onNext, onSettled }: Props) {
   useEffect(() => {
     let raf = 0;
     let last = performance.now();
-    let slack = 1.035;
     const clampPt = (p: Pt, h: number): Pt => ({ x: p.x, y: Math.max(-260, Math.min(h + 260, p.y)) });
     const frame = (now: number) => {
       const dt = Math.min(0.05, (now - last) / 1000);
@@ -272,9 +271,8 @@ export function HoleView({ hole, from, onClose, onNext, onSettled }: Props) {
         { x: gx, y: -40 }, clampPt(curIn, h), clampPt(curOut, h), knotPt,
         clampPt(nextIn, h), clampPt(nextOut, h), { x: kx, y: h + 320 },
       ];
-      const want = L.pulling || L.busy ? 1.0 : 1.035;
-      slack += (want - slack) * Math.min(1, dt * (want < slack ? 24 : 5));
-      thread.current?.update(pins, [1.0, 1.0, slack, slack, 1.0, 1.02], dt);
+      // Always taut (owner, 2026-10-11): every span is a straight line.
+      thread.current?.update(pins, 1.0, dt);
       if (knot.current) knot.current.style.transform = `translate(${knotPt.x}px, ${knotPt.y}px)`;
       raf = requestAnimationFrame(frame);
     };

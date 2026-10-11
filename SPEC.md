@@ -48,7 +48,8 @@ Trivia, not homework. Never self-important.
   - Footnote superscripts [1–N] → proven claim
   - References list → recap and shelf
 - The thread is the only thing with physics: sags, tightens on pull, springs
-  back on release. Thread colour is link blue.
+  back on release. While reading a hole it is always taut, straight lines
+  (owner, 2026-10-11). Thread colour is link blue.
 - Motion only for the thread, the focus blur, and the tumble.
 - No stickies, badges, points, streaks, or emoji.
 - One deliberate exception (owner, 2026-10-09): a handwritten swipe hint on
