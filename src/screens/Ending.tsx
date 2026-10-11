@@ -67,6 +67,25 @@ export const Ending = forwardRef<EndingHandle, Props>(function Ending(
     return () => timers.forEach(clearTimeout);
   }, [active, hole.id, n]);
 
+  // The pages sit on one straight diagonal, from the start card (top left) to
+  // the end card (bottom right): each row's picture goes where the line is at
+  // that height. Names sit on the side away from the line.
+  const rows = useRef<(HTMLLIElement | null)[]>([]);
+  const placeOnDiagonal = () => {
+    const list = journey.current;
+    const s = dotCentre(dots.current[0], list);
+    const e = dotCentre(dots.current[n + 1], list);
+    if (!list || !s || !e || e.y <= s.y) return;
+    for (const li of rows.current) {
+      if (!li) continue;
+      const t = (li.offsetTop + li.offsetHeight / 2 - s.y) / (e.y - s.y);
+      const x = `${Math.round(s.x + t * (e.x - s.x))}px`;
+      const side = s.x + t * (e.x - s.x) <= list.clientWidth / 2 ? 'right' : 'left';
+      if (li.style.getPropertyValue('--x') !== x) li.style.setProperty('--x', x);
+      if (li.dataset.side !== side) li.dataset.side = side;
+    }
+  };
+
   // The full thread, start card to end card, through every page on the way.
   useEffect(() => {
     let raf = 0;
@@ -74,12 +93,14 @@ export const Ending = forwardRef<EndingHandle, Props>(function Ending(
     const frame = (now: number) => {
       const dt = Math.min(0.05, (now - last) / 1000);
       last = now;
+      placeOnDiagonal();
       const pins = dots.current.map((d) => dotCentre(d, journey.current));
       if (pins.length === n + 2 && pins.every(Boolean)) thread.current?.update(pins as Pt[], 1.0, dt);
       raf = requestAnimationFrame(frame);
     };
     raf = requestAnimationFrame(frame);
     return () => cancelAnimationFrame(raf);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [n]);
 
   const toggleKeep = () => {
@@ -117,14 +138,16 @@ export const Ending = forwardRef<EndingHandle, Props>(function Ending(
           {hole.knots.map((k, i) => {
             const img = pageOf(k.page)?.image;
             return (
-              <li key={i} className="j-knot">
-                <span
-                  ref={(el) => { dots.current[i + 1] = el; }}
-                  className="end-knot"
-                  style={{ transitionDelay: `${260 * i}ms` }}
-                />
+              <li key={i} ref={(el) => { rows.current[i] = el; }} className="j-knot" data-side="right">
                 <a href={passageUrl(k)} target="_blank" rel="noopener">
-                  {img ? <img src={holesAsset(img.file) ?? ''} alt="" loading="lazy" /> : <span className="j-noimg" />}
+                  {/* The page's picture is the knot: the thread runs through it. */}
+                  <span
+                    ref={(el) => { dots.current[i + 1] = el; }}
+                    className="end-knot"
+                    style={{ transitionDelay: `${260 * i}ms` }}
+                  >
+                    {img ? <img src={holesAsset(img.file) ?? ''} alt="" loading="lazy" /> : <span className="j-noimg" />}
+                  </span>
                   <span className="j-text">
                     <span className="j-title">{k.page}<sup>[{i + 1}]</sup></span>
                     <span className="j-section">{sectionLabel(k.section)}</span>

@@ -172,10 +172,17 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          reading thread is now a straight line (slack 1.0; was 1.035 at rest,
          sagging up to ~55 px). SPEC.md notes it. The home card's thread
          still hangs between the two infoboxes. Test: tests/e2e/taut.spec.ts.
-- [ ] 35. Ending journey on a diagonal again: start card top-left down to
+- [x] 35. Ending journey on a diagonal again: start card top-left down to
          the end card bottom-right, the middle pages stepping along the
          diagonal between them (owner liked the old clothesline placement;
-         keep every page named with its picture).
+         keep every page named with its picture). Done: one straight, taut
+         thread from the start card's bottom middle to the end card's top
+         middle; each page's picture is a round bead on it (the knot; its
+         ring turns purple in turn), placed by Ending.tsx where the line is
+         at that row's height; names sit beside the bead on the side away
+         from the line (right in the top half, left in the bottom half), so
+         the thread never crosses text. Taller rows on laptop keep the line
+         steep enough. Test: journey.spec "one straight diagonal".
 - [ ] 29. Owner: in Supabase → Authentication → URL Configuration, set the
          Site URL and allowed redirect URLs (see Known issues). Then a real
          sign-in test on a phone.
@@ -205,7 +212,7 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
-34, 35. Then 29 (owner sets Supabase URLs), then 15. Open owner decisions are listed
+34, 35 done locally; redeploy when the owner says so. Then 29 (owner sets Supabase URLs), then 15. Open owner decisions are listed
 under "Handover" below.
 
 ## Handover (for a new session)
@@ -214,7 +221,7 @@ under "Handover" below.
   (CLI is logged in on this Mac). Check live: `BASE_URL=… npm run test:e2e
   -- --workers=1`.
 - Local: `npm run dev -- --host` (phone: http://192.168.0.2:5173).
-  Tests: `npm test` (500 unit/data), `npm run test:e2e` (98 browser).
+  Tests: `npm test` (500 unit/data), `npm run test:e2e` (102 browser).
 - Content: 24 holes in holes/*.json; import more from "Rabbit Holes — Reading
   Copy.txt" with `node scripts/import-holes.mjs "<txt>" 21-40`, then
   `node scripts/fetch-content.mjs`, then write claim/hatnotes/payoff.
@@ -383,8 +390,6 @@ under "Handover" below.
 - Some Commons credits read oddly (e.g. "Unknown authorUnknown a…") because
   the Artist metadata is messy; Sogdian language has no lead image.
 - On the ending, [1–N] can wrap onto its own line under the claim.
-- On the journey the ending's thread is drawn straight (a vertical rope with
-  slack bunches up), so it no longer sags like the clothesline did.
 - import-holes.mjs used to miss entry 100 (three-digit number); fixed.
 - On a cold deploy the first visits can be slow enough to hit the 30 s test
   timeout (4 hole tests did once; the rerun passed all 60).
@@ -448,3 +453,7 @@ under "Handover" below.
   the tug: small tug moves at once, quick slide, no blank screen, wheel
   over the knot scrolls. 500 unit + 98 browser tests pass. Redeployed;
   44 thread/stack tests pass against the live site.
+- 2026-10-11 (later): Owner happy with the thread. Step 34: reading thread
+  always taut. Step 35: the ending's journey back on the diagonal (start
+  top left → end bottom right), pages as picture beads on one straight
+  thread. 500 unit + 102 browser tests pass. Not yet redeployed.

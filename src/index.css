@@ -643,52 +643,58 @@ a.rh-onward mark.rh-hl { color: var(--link); }
   position: relative;
   list-style: none;
   margin: 0 0 8px;
-  padding: 0 0 0 30px; /* gutter for the thread and its knots */
+  padding: 0;
 }
 .journey > li { position: relative; margin: 0; }
-.journey .end-thread { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; z-index: 2; }
+/* The thread runs behind the cards and the pictures, which it threads through. */
+.journey .end-thread { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; z-index: 0; }
 .journey .infobox { width: 46%; max-width: 220px; position: relative; z-index: 1; }
 .journey .ib-img { aspect-ratio: 16 / 10; }
 .journey .ib-desc { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .j-card { padding: 4px 0; }
 .j-end { padding-top: 8px; }
+/* Start card top left, end card bottom right: the old clothesline diagonal. */
+.j-end .infobox { margin-left: auto; }
 .journey .end-right {
-  transform-origin: 0 0;
-  transform: rotate(-10deg) translate(24px, -8px);
+  transform-origin: 100% 0;
+  transform: rotate(10deg) translate(18px, -6px);
   transition: transform 0.55s cubic-bezier(0.3, 1.5, 0.5, 1);
 }
 .ending:not(.stage-0) .journey .end-right { transform: none; }
 .end-thread { opacity: 0; transition: opacity 0.4s; }
 .ending:not(.stage-0):not(.stage-1) .end-thread { opacity: 1; }
 
-/* Where the thread meets the start and end cards. */
+/* Where the thread leaves the start card (bottom middle) and meets the end card (top middle). */
 .j-cap {
   position: absolute;
-  left: -24px;
-  top: 22px;
   width: 8px;
   height: 8px;
   border-radius: 50%;
   background: var(--visited);
   z-index: 3;
 }
+.j-start .j-cap { left: calc(min(46%, 220px) / 2 - 4px); bottom: 0; }
+.j-end .j-cap { left: calc(100% - min(46%, 220px) / 2 - 4px); top: 4px; }
 
-/* One row per page the thread passed through. */
+/* One row per page the thread passed through: its picture sits on the diagonal
+   at --x (set by Ending.tsx), its name beside it on the side away from the line. */
 .j-knot a {
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 7px 0;
+  padding: 10px 0;
   color: var(--ink) !important;
   text-decoration: none !important;
 }
-.j-knot img, .j-noimg {
-  flex: none;
-  width: 56px;
-  height: 42px;
-  object-fit: cover;
-  border: 1px solid var(--rule-2);
-  background: var(--paper-2);
+.j-knot[data-side='right'] a { padding-left: calc(var(--x, 50%) - 22px); }
+.j-knot[data-side='left'] a {
+  flex-direction: row-reverse;
+  text-align: right;
+  padding-right: calc(100% - var(--x, 50%) - 22px);
+}
+.j-knot[data-side='left'] .j-text { align-items: flex-end; }
+@media (min-width: 700px) {
+  .j-knot a { padding: 18px 0; }
 }
 .j-text { display: flex; flex-direction: column; min-width: 0; }
 .j-title {
@@ -705,30 +711,24 @@ a.rh-onward mark.rh-hl { color: var(--link); }
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  max-width: 100%;
 }
 
+/* The knot: the page's picture as a round bead on the thread. */
 .end-knot {
-  position: absolute;
-  left: -20px; /* centre of the gutter */
-  top: 50%;
+  position: relative;
   z-index: 3;
-  width: 0;
-  height: 0;
-}
-.end-knot::before {
-  content: '';
-  position: absolute;
-  left: -6px;
-  top: -6px;
-  width: 12px;
-  height: 12px;
+  flex: none;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
-  background: var(--paper);
-  box-shadow: inset 0 0 0 2px var(--rule-2);
-  transition: background 0.35s, box-shadow 0.35s;
-  transition-delay: inherit;
+  overflow: hidden;
+  background: var(--paper-2);
+  box-shadow: 0 0 0 2px var(--rule-2);
+  transition: box-shadow 0.35s;
 }
-.ending:not(.stage-0):not(.stage-1) .end-knot::before { background: var(--visited); box-shadow: inset 0 0 0 2px var(--visited); }
+.end-knot img, .end-knot .j-noimg { display: block; width: 100%; height: 100%; object-fit: cover; }
+.ending:not(.stage-0):not(.stage-1) .end-knot { box-shadow: 0 0 0 2.5px var(--visited); }
 
 .end-after { visibility: hidden; }
 .stage-4 .end-after { visibility: visible; }
