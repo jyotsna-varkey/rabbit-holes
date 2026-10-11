@@ -212,7 +212,7 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
-34, 35 done locally; redeploy when the owner says so. Then 29 (owner sets Supabase URLs), then 15. Open owner decisions are listed
+34, 35 done and live. Owner to decide: home card thread taut too? Then 29 (owner sets Supabase URLs), then 15. Open owner decisions are listed
 under "Handover" below.
 
 ## Handover (for a new session)
@@ -456,4 +456,5 @@ under "Handover" below.
 - 2026-10-11 (later): Owner happy with the thread. Step 34: reading thread
   always taut. Step 35: the ending's journey back on the diagonal (start
   top left → end bottom right), pages as picture beads on one straight
-  thread. 500 unit + 102 browser tests pass. Not yet redeployed.
+  thread. 500 unit + 102 browser tests pass. Redeployed; 20 live checks
+  pass (2 laptop-only skipped at phone size).
