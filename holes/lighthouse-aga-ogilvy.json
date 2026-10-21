@@ -1,0 +1,90 @@
+{
+  "id": "lighthouse-aga-ogilvy",
+  "claim": "How a lighthouse inventor's blindness helped launch the 'Father of Advertising'.",
+  "start": {
+    "title": "Lighthouse",
+    "page": "Lighthouse",
+    "description": "Structure designed to emit light to aid navigation",
+    "image": "snapshots/images/Lighthouse.webp"
+  },
+  "end": {
+    "title": "David Ogilvy",
+    "page": "David Ogilvy (businessman)",
+    "description": "British advertising executive (1911–1999)",
+    "image": "snapshots/images/David-Ogilvy-businessman.webp"
+  },
+  "knots": [
+    {
+      "page": "Lighthouse",
+      "url": "https://en.wikipedia.org/wiki/Lighthouse",
+      "revision": 1380376593,
+      "section": "Lighting improvements",
+      "passage": "The use of gas as illuminant became widely available with the invention of the Dalén light by Swedish engineer Gustaf Dalén. He used Agamassan (Aga), a substrate, to absorb the gas, allowing the gas to be stored, and hence used, safely. Dalén also invented the 'sun valve', which automatically regulated the light and turned it off during the daytime.",
+      "hatnote": "A century ago, lighthouses learned to switch themselves off at dawn.",
+      "onwardLinkText": "Gustaf Dalén",
+      "nextPage": "Gustaf Dalén"
+    },
+    {
+      "page": "Gustaf Dalén",
+      "url": "https://en.wikipedia.org/wiki/Gustaf_Dal%C3%A9n",
+      "revision": 1366307378,
+      "section": "The accident in 1912",
+      "passage": "Early in 1912, Dalén was blinded in an acetylene explosion during a test of maximum pressure for the accumulators. Later the same year he was awarded the Nobel Prize in Physics for his work on lighthouse technology. Too ill to attend the presentation, Dalén had his brother, ophthalmologist Professor Albin Dalén of the Caroline Institute, stand in his place.",
+      "hatnote": "The gas that made it work was also dangerous.",
+      "onwardLinkText": null,
+      "nextPage": "Gustaf Dalén"
+    },
+    {
+      "page": "Gustaf Dalén",
+      "url": "https://en.wikipedia.org/wiki/Gustaf_Dal%C3%A9n",
+      "revision": 1366307378,
+      "section": "AGA cooker",
+      "passage": "In 1922, Dalén patented his invention of the AGA cooker. Most of the testing for the cooker was made in his private kitchen in his Villa Ekbacken that was built when AGA moved to Lidingö in 1912. His family helped him with the development work, checking temperatures, airflow etc., as the development work proceeded.",
+      "hatnote": "Blind and stuck at home, he turned to an unexpected problem.",
+      "onwardLinkText": "AGA cooker",
+      "nextPage": "AGA cooker"
+    },
+    {
+      "page": "AGA cooker",
+      "url": "https://en.wikipedia.org/wiki/AGA_cooker",
+      "revision": 1380447281,
+      "section": "History",
+      "passage": "Forced to stay at home, Dalén discovered that his wife was exhausted by cooking. Although blind, he set out to develop a new stove that was capable of a range of culinary techniques and easy to use.",
+      "hatnote": "Why would a lighthouse engineer build a stove?",
+      "onwardLinkText": null,
+      "nextPage": "AGA cooker"
+    },
+    {
+      "page": "AGA cooker",
+      "url": "https://en.wikipedia.org/wiki/AGA_cooker",
+      "revision": 1380447281,
+      "section": "History",
+      "passage": "David Ogilvy was initially hired as an Aga range cooker salesperson, before writing the 1935 sales manual for the product.",
+      "hatnote": "The stove reached Britain, where it needed salesmen.",
+      "onwardLinkText": "David Ogilvy",
+      "nextPage": "David Ogilvy (businessman)"
+    },
+    {
+      "page": "David Ogilvy (businessman)",
+      "url": "https://en.wikipedia.org/wiki/David_Ogilvy_(businessman)",
+      "revision": 1361247491,
+      "section": "Early life (1911–1938)",
+      "passage": "In 1931, he became a kitchen hand at the Hotel Majestic in Paris. After a year, he returned to Scotland and started selling AGA cooking stoves, door-to-door. His success at this marked him out to his employer, who asked him to write an instruction manual, The Theory and Practice of Selling the AGA Cooker, for the other salesmen. Thirty years later, Fortune magazine editors called it the finest sales instruction manual ever written.",
+      "hatnote": "One door-to-door salesman stood out.",
+      "onwardLinkText": null,
+      "nextPage": "David Ogilvy (businessman)"
+    },
+    {
+      "page": "David Ogilvy (businessman)",
+      "url": "https://en.wikipedia.org/wiki/David_Ogilvy_(businessman)",
+      "revision": 1361247491,
+      "section": "lead",
+      "passage": "Trained at the Gallup research organisation, he created highly successful advertising campaigns for brands such as Rolls-Royce, Dove soap, and Hathaway shirts, which he attributed to meticulous research into consumer habits. His advertising career has led him to be known as the \"Father of Advertising.\"",
+      "hatnote": "The stove salesman went on to sell far bigger brands.",
+      "onwardLinkText": null,
+      "nextPage": "David Ogilvy (businessman)"
+    }
+  ],
+  "payoff": "A lighthouse explosion blinded Dalén, his stove for his tired wife needed selling, and its star salesman became the 'Father of Advertising'.",
+  "caveats": []
+}

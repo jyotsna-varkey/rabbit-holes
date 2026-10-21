@@ -3,7 +3,7 @@ import { enterTopHole } from './helpers';
 
 // PLAN step 26: the ending shows every page the thread passed through.
 test('the ending shows the whole journey, every page named, with pictures', async ({ page }, info) => {
-  await page.goto('/?hole=coffee-insurance');
+  await page.goto('/?hole=tutankhamun-noblecourt-amada-rails');
   await enterTopHole(page);
   for (const label of ['2 / 4', '3 / 4', '4 / 4', 'Cited']) {
     await page.keyboard.press('ArrowDown');
@@ -13,9 +13,9 @@ test('the ending shows the whole journey, every page named, with pictures', asyn
   await expect(ending).toHaveClass(/stage-4/, { timeout: 8000 });
   const stops = ending.locator('.journey .j-knot');
   await expect(stops).toHaveCount(4);
-  await expect(stops.locator('.j-title')).toHaveText([/^Coffee/, /^Coffee/, /^Coffeehouse/, /^Coffeehouse/]);
+  await expect(stops.locator('.j-title')).toHaveText([/^Tutankhamun/, /^Christiane Desroches Noblecourt/, /^Christiane Desroches Noblecourt/, /^Temple of Amada/]);
   // Two stops on the same page are told apart by their section.
-  await expect(stops.nth(0).locator('.j-section')).not.toHaveText(await stops.nth(1).locator('.j-section').innerText());
+  await expect(stops.nth(1).locator('.j-section')).not.toHaveText(await stops.nth(2).locator('.j-section').innerText());
   // Each stop has its page's picture, loaded, and opens Wikipedia at that passage.
   for (let i = 0; i < 4; i++) {
     const img = stops.nth(i).locator('img');
@@ -30,7 +30,7 @@ test('the ending shows the whole journey, every page named, with pictures', asyn
 // PLAN step 35 (owner, 2026-10-11): the journey runs on one diagonal, start card
 // top left to end card bottom right, every page's picture on the line.
 test('the journey is one straight diagonal, top left to bottom right', async ({ page }) => {
-  await page.goto('/?hole=coffee-insurance');
+  await page.goto('/?hole=tutankhamun-noblecourt-amada-rails');
   await enterTopHole(page);
   for (const label of ['2 / 4', '3 / 4', '4 / 4', 'Cited']) {
     await page.keyboard.press('ArrowDown');

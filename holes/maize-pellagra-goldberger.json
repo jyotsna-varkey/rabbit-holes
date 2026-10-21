@@ -1,0 +1,72 @@
+{
+  "id": "maize-pellagra-goldberger",
+  "claim": "To prove pellagra wasn't a germ, a doctor injected himself with patients' blood.",
+  "start": {
+    "title": "Maize",
+    "page": "Maize",
+    "description": "Species of grass cultivated as a food crop",
+    "image": "snapshots/images/Maize.webp"
+  },
+  "end": {
+    "title": "Joseph Goldberger",
+    "page": "Joseph Goldberger",
+    "description": "American epidemiologist",
+    "image": "snapshots/images/Joseph-Goldberger.webp"
+  },
+  "knots": [
+    {
+      "page": "Maize",
+      "url": "https://en.wikipedia.org/wiki/Maize",
+      "revision": 1377441710,
+      "section": "Columbian exchange",
+      "passage": "When maize was introduced into Western farming systems, it was welcomed for its productivity. However, a widespread problem of malnutrition soon arose wherever it had become a staple food. Indigenous Americans had learned to soak maize in alkali-water – made with ashes and lime – since at least 1200–1500 BC, creating the process of nixtamalization. They did this to liberate the corn hulls, but coincidentally it also liberated the B-vitamin niacin, the lack of which caused pellagra.",
+      "hatnote": "Maize travelled the world, but an Indigenous kitchen trick stayed behind.",
+      "onwardLinkText": "pellagra",
+      "nextPage": "Pellagra"
+    },
+    {
+      "page": "Pellagra",
+      "url": "https://en.wikipedia.org/wiki/Pellagra",
+      "revision": 1379385165,
+      "section": "History",
+      "passage": "Between 1906 and 1940 more than 3 million Americans were affected by pellagra with more than 100,000 deaths, yet the epidemic resolved itself right after dietary niacin fortification. Pellagra deaths in South Carolina numbered 1,306 during the first 10 months of 1915; 100,000 Southerners were affected in 1916. At this time, the scientific community held that pellagra was probably caused by a germ or some unknown toxin in corn.",
+      "hatnote": "In the American South, the result was an epidemic.",
+      "onwardLinkText": null,
+      "nextPage": "Pellagra"
+    },
+    {
+      "page": "Pellagra",
+      "url": "https://en.wikipedia.org/wiki/Pellagra",
+      "revision": 1379385165,
+      "section": "History",
+      "passage": "In 1915, Dr. Joseph Goldberger, assigned to study pellagra by the surgeon general of the United States, showed it was linked to diet by observing the outbreaks of pellagra in orphanages and mental hospitals. Goldberger noted that children between the ages of 6 and 12 (but not older or younger children at the orphanages) and patients at the mental hospitals (but not doctors or nurses) were the ones who seemed most susceptible to pellagra.",
+      "hatnote": "One investigator noticed who wasn't getting sick.",
+      "onwardLinkText": "Dr. Joseph Goldberger",
+      "nextPage": "Joseph Goldberger"
+    },
+    {
+      "page": "Joseph Goldberger",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Goldberger",
+      "revision": 1377705224,
+      "section": "Pellagra studies",
+      "passage": "Goldberger experimented on 11 healthy volunteers from the Rankin State Prison Farm for this 9-month study. The subjects were put on a strict and heavily monitored corn-based diet lacking meat, milk, and vegetables. Goldberger observed that the subjects became weaker and weaker as the days went on. After six months, five of the eleven patients contracted pellagra and the rest had symptoms corresponding to pellagra.",
+      "hatnote": "To prove it, he set out to make healthy prisoners ill.",
+      "onwardLinkText": null,
+      "nextPage": "Joseph Goldberger"
+    },
+    {
+      "page": "Joseph Goldberger",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Goldberger",
+      "revision": 1377705224,
+      "section": "Pellagra studies",
+      "passage": "Despite his careful experiments, Goldberger's discovery proved socially and politically unacceptable, and he made little progress in gaining support for the treatment of pellagra. Besides the popularity of the germ theory, opposition also came from Southern leaders who resented a Northerner claiming that the pellagra outbreak was a product of the region's widespread poverty. Consequently, Goldberger became extremely frustrated. He conducted one final experiment, referred to as \"filth parties\", to silence the critics. In 1916, he injected 16 volunteers—including himself, his wife, and his assistant—with pellagric blood over 7 trials. Afterwards they experienced diarrhea and nausea but did not contract the disease.",
+      "hatnote": "It worked. Critics still insisted on a germ, so he went further.",
+      "onwardLinkText": null,
+      "nextPage": "Joseph Goldberger"
+    }
+  ],
+  "payoff": "Goldberger was right: the killer was a corn-heavy diet short of niacin, a problem Indigenous cooks had solved with lime thousands of years before.",
+  "caveats": [
+    "Goldberger never identified the missing nutrient; niacin was pinned down in 1937."
+  ]
+}

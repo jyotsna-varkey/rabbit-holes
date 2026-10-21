@@ -5,7 +5,7 @@ test.describe('laptop layout', () => {
   test.skip(({ viewport }) => (viewport?.width ?? 0) < 1000, 'laptop only');
 
   test('the margin thread runs just left of the text column', async ({ page }) => {
-    await page.goto('/?hole=coffee-insurance');
+    await page.goto('/?hole=tutankhamun-noblecourt-amada-rails');
     await enterTopHole(page);
     await page.waitForTimeout(600);
     const column = (await page.locator('.page .art-body').first().boundingBox())!;
@@ -17,7 +17,7 @@ test.describe('laptop layout', () => {
   });
 
   test('the ending sits in one centred column', async ({ page }) => {
-    await page.goto('/?hole=coffee-insurance');
+    await page.goto('/?hole=tutankhamun-noblecourt-amada-rails');
     await enterTopHole(page);
     for (const label of ['2 / 4', '3 / 4', '4 / 4', 'Cited']) {
       await page.keyboard.press('ArrowDown');

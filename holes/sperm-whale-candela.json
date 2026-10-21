@@ -1,0 +1,72 @@
+{
+  "id": "sperm-whale-candela",
+  "claim": "The official unit of brightness still carries the ghost of a whale.",
+  "start": {
+    "title": "Sperm whale",
+    "page": "Sperm whale",
+    "description": "Largest species of toothed whale",
+    "image": "snapshots/images/Sperm-whale.webp"
+  },
+  "end": {
+    "title": "Candela",
+    "page": "Candela",
+    "description": "SI unit of luminous intensity",
+    "image": "snapshots/images/Candela.webp"
+  },
+  "knots": [
+    {
+      "page": "Sperm whale",
+      "url": "https://en.wikipedia.org/wiki/Sperm_whale",
+      "revision": 1378129309,
+      "section": "Etymology",
+      "passage": "The name \"sperm whale\" is a clipping of \"spermaceti whale\". Spermaceti, originally mistakenly identified as the whales' semen, is the semi-liquid, waxy substance found within the whale's head.",
+      "hatnote": "The sperm whale is named after a mistake about what's in its head.",
+      "onwardLinkText": "Spermaceti",
+      "nextPage": "Spermaceti"
+    },
+    {
+      "page": "Spermaceti",
+      "url": "https://en.wikipedia.org/wiki/Spermaceti",
+      "revision": 1346142710,
+      "section": "lead",
+      "passage": "Cetaceous lamp oil was a commodity that created many maritime fortunes. Candlepower, a photometric unit defined in the United Kingdom Act of Parliament Metropolitan Gas Act 1860 and adopted at the International Electrotechnical Conference of 1883, was based on the light produced by a single, pure spermaceti candle.",
+      "hatnote": "That wax burned so cleanly it became a yardstick for light itself.",
+      "onwardLinkText": "Candlepower",
+      "nextPage": "Candlepower"
+    },
+    {
+      "page": "Candlepower",
+      "url": "https://en.wikipedia.org/wiki/Candlepower",
+      "revision": 1359378675,
+      "section": "lead",
+      "passage": "Candlepower (abbreviated as cp or CP) is the unit of luminous intensity in the United States customary systems of measurement. It is currently defined as being equal to 0.981 candela.",
+      "hatnote": "Today the whale candle is tied to a scientific unit.",
+      "onwardLinkText": "candela",
+      "nextPage": "Candela"
+    },
+    {
+      "page": "Candela",
+      "url": "https://en.wikipedia.org/wiki/Candela",
+      "revision": 1377246614,
+      "section": "History",
+      "passage": "In 1937, the Commission Internationale de l'Éclairage (International Commission on Illumination) and the CIPM proposed a \"new candle\" based on this concept, with value chosen to make it similar to the earlier unit candlepower.",
+      "hatnote": "Scientists swapped the candle for glowing molten platinum, but kept its size.",
+      "onwardLinkText": null,
+      "nextPage": "Candela"
+    },
+    {
+      "page": "Candela",
+      "url": "https://en.wikipedia.org/wiki/Candela",
+      "revision": 1377246614,
+      "section": "History",
+      "passage": "The arbitrary (1/683) term was chosen so that the new definition would precisely match the old definition. Although the candela is now defined in terms of the second (an SI base unit) and the watt (a derived SI unit), the candela remains a base unit of the SI system, by definition.",
+      "hatnote": "Today's definition swaps platinum for a formula with an odd factor: 1/683.",
+      "onwardLinkText": null,
+      "nextPage": "Candela"
+    }
+  ],
+  "payoff": "The odd 1/683 in a base unit of physics exists to keep step with a candle made from a sperm whale's head.",
+  "caveats": [
+    "The chain is by successive matching: 1/683 matches the platinum standard, which was chosen to be similar to candlepower (0.981 cd today)."
+  ]
+}

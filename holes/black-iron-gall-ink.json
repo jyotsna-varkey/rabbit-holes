@@ -1,0 +1,80 @@
+{
+  "id": "black-iron-gall-ink",
+  "claim": "The ink on a British birth certificate descends from a wasp's nursery.",
+  "start": {
+    "title": "Black",
+    "page": "Black",
+    "description": "Darkest color",
+    "image": "snapshots/images/Black.webp"
+  },
+  "end": {
+    "title": "Iron gall ink",
+    "page": "Iron gall ink",
+    "description": "Ink made from iron salts and tannic acids from vegetable sources",
+    "image": "snapshots/images/Iron-gall-ink.webp"
+  },
+  "knots": [
+    {
+      "page": "Black",
+      "url": "https://en.wikipedia.org/wiki/Black",
+      "revision": 1378212262,
+      "section": "Dyes",
+      "passage": "A much richer and deeper black dye was eventually found made from the oak apple or \"gall-nut\". The gall-nut is a small round tumor which grows on oak and other varieties of trees. They range in size from 2–5 cm, and are caused by chemicals injected by the larva of certain kinds of gall wasp in the family Cynipidae.",
+      "hatnote": "Medieval dyers struggled to make a truly deep black.",
+      "onwardLinkText": "oak apple",
+      "nextPage": "Oak apple"
+    },
+    {
+      "page": "Oak apple",
+      "url": "https://en.wikipedia.org/wiki/Oak_apple",
+      "revision": 1332333648,
+      "section": "Formation",
+      "passage": "The adult female wasp lays single eggs in developing leaf buds. The wasp larvae feed on the gall tissue resulting from their secretions, which modify the oak bud into the gall, a structure that protects the developing larvae until they undergo metamorphosis into adults.",
+      "hatnote": "The 'apple' is really a home built for a baby wasp.",
+      "onwardLinkText": null,
+      "nextPage": "Oak apple"
+    },
+    {
+      "page": "Oak apple",
+      "url": "https://en.wikipedia.org/wiki/Oak_apple",
+      "revision": 1332333648,
+      "section": "Iron gall ink",
+      "passage": "Gall nuts are a source of tannin in the production of iron gall ink. Tannins belong to a group of molecules known as polyphenols and can be taken from different parts of plants such as leaves, pods, fruits, and gall nuts.",
+      "hatnote": "Those same wasp galls were wanted for something besides cloth.",
+      "onwardLinkText": "iron gall ink",
+      "nextPage": "Iron gall ink"
+    },
+    {
+      "page": "Iron gall ink",
+      "url": "https://en.wikipedia.org/wiki/Iron_gall_ink",
+      "revision": 1361914091,
+      "section": "History",
+      "passage": "Many drawings by Leonardo da Vinci were made with iron gall ink. Laws were enacted in Great Britain and France specifying the content of iron gall ink for all royal and legal records to ensure permanence.",
+      "hatnote": "For centuries, it was the ink of record.",
+      "onwardLinkText": null,
+      "nextPage": "Iron gall ink"
+    },
+    {
+      "page": "Iron gall ink",
+      "url": "https://en.wikipedia.org/wiki/Iron_gall_ink",
+      "revision": 1361914091,
+      "section": "Chemistry",
+      "passage": "While a very effective ink, the formula was less than ideal. Iron gall ink is acidic. Depending on the writing surface being used, iron gall ink can have unsightly \"ghost writing\" on the obverse face of the writing surface (most commonly parchment or paper). Ultimately it may eat holes through the surface it was on. This is accelerated by high temperature and humidity.",
+      "hatnote": "Its permanence came with a nasty side effect.",
+      "onwardLinkText": null,
+      "nextPage": "Iron gall ink"
+    },
+    {
+      "page": "Iron gall ink",
+      "url": "https://en.wikipedia.org/wiki/Iron_gall_ink",
+      "revision": 1361914091,
+      "section": "Fountain pens",
+      "passage": "Though not in mainstream 21st-century use like dye-based fountain pen inks, modern iron gall inks are still used in fountain pens where permanence is required. In the United Kingdom the use of special blue-black archival quality Registrars' Ink containing ferro-gallic compounds is required in register offices for official documents such as birth certificates, marriage certificates, death certificates and on clergy rolls and ships' logbooks.",
+      "hatnote": "Yet in some places nothing else will do.",
+      "onwardLinkText": null,
+      "nextPage": "Iron gall ink"
+    }
+  ],
+  "payoff": "A wasp larva's oak-bud nursery gave dyers a richer black, inked Leonardo's drawings, and its chemistry still fills Britain's register-office ink.",
+  "caveats": []
+}

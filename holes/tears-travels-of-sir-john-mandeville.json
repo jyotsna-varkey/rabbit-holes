@@ -1,0 +1,82 @@
+{
+  "id": "tears-travels-of-sir-john-mandeville",
+  "claim": "Medieval books swore crocodiles wept over their victims. In 2006, someone checked.",
+  "start": {
+    "title": "Tears",
+    "page": "Tears",
+    "description": "Clear liquid secreted from glands in eyes of mammals",
+    "image": "snapshots/images/Tears.webp"
+  },
+  "end": {
+    "title": "The Travels of Sir John Mandeville",
+    "page": "The Travels of Sir John Mandeville",
+    "description": "14th-century travel memoir",
+    "image": "snapshots/images/The-Travels-of-Sir-John-Mandeville.webp"
+  },
+  "knots": [
+    {
+      "page": "Tears",
+      "url": "https://en.wikipedia.org/wiki/Tears",
+      "revision": 1358028471,
+      "section": "Human culture",
+      "passage": "An insincere display of grief or dishonest remorse is sometimes called crocodile tears in reference to an Ancient Greek anecdote that crocodiles would pretend to weep while luring or devouring their prey.",
+      "hatnote": "We still accuse fake mourners of crying like a reptile.",
+      "onwardLinkText": "crocodile tears",
+      "nextPage": "Crocodile tears"
+    },
+    {
+      "page": "Crocodile tears",
+      "url": "https://en.wikipedia.org/wiki/Crocodile_tears",
+      "revision": 1374209247,
+      "section": "History and usage",
+      "passage": "The expression comes from an ancient anecdote that crocodiles weep for the victims they are eating. A collection of proverbs attributed to Plutarch suggests that the phrase \"crocodile tears\" was well known in antiquity: comparing the crocodile's behaviour to people who desire or cause the death of someone, but then publicly lament for them.",
+      "hatnote": "The idea goes back to antiquity.",
+      "onwardLinkText": null,
+      "nextPage": "Crocodile tears"
+    },
+    {
+      "page": "Crocodile tears",
+      "url": "https://en.wikipedia.org/wiki/Crocodile_tears",
+      "revision": 1374209247,
+      "section": "Actual crocodile behaviour",
+      "passage": "In 2006, neurologist Malcolm Shaner, assisted by Kent Vliet, a researcher at the University of Florida, decided to test the story that crocodiles, or their close relatives alligators and caimans, were likely to \"weep\" while feeding. Studying animals in Florida's St. Augustine Alligator Farm Zoological Park, Vliet recorded seven caimans feeding. He chose to use caimans rather than crocodiles because at the sanctuary they could be observed feeding on dry land. Five of the seven animals were seen \"weeping\", leading to the conclusion that the story describes a real phenomenon.",
+      "hatnote": "Then a neurologist decided to actually watch reptiles eat.",
+      "onwardLinkText": null,
+      "nextPage": "Crocodile tears"
+    },
+    {
+      "page": "Crocodile tears",
+      "url": "https://en.wikipedia.org/wiki/Crocodile_tears",
+      "revision": 1374209247,
+      "section": "History and usage",
+      "passage": "These serpents slay men, and they eat them weeping; and when they eat they move the over jaw, and not the nether jaw, and they have no tongue.",
+      "hatnote": "So the tale had something to it. A medieval book described 'cockodrills', long serpents.",
+      "onwardLinkText": null,
+      "nextPage": "Crocodile tears"
+    },
+    {
+      "page": "Crocodile tears",
+      "url": "https://en.wikipedia.org/wiki/Crocodile_tears",
+      "revision": 1374209247,
+      "section": "History and usage",
+      "passage": "This tale was first spread widely in English in the stories of the travels of Sir John Mandeville in the 14th century.",
+      "hatnote": "That book put the weeping crocodile into English.",
+      "onwardLinkText": "Sir John Mandeville",
+      "nextPage": "The Travels of Sir John Mandeville"
+    },
+    {
+      "page": "The Travels of Sir John Mandeville",
+      "url": "https://en.wikipedia.org/wiki/The_Travels_of_Sir_John_Mandeville",
+      "revision": 1376639559,
+      "section": "Authorship",
+      "passage": "In the preface, the compiler calls himself a knight, and states that he was born and bred in England, in the town of St Albans. Although the book is real, it is widely believed that \"Sir John Mandeville\" himself was not. Common theories point to a Frenchman by the name of Jehan à la Barbe.",
+      "hatnote": "But its eyewitness narrator has a problem of his own.",
+      "onwardLinkText": null,
+      "nextPage": "The Travels of Sir John Mandeville"
+    }
+  ],
+  "payoff": "The weeping crocodile turned out to be real; the knight who swore he'd seen it almost certainly wasn't.",
+  "caveats": [
+    "The 2006 study used caimans, close relatives of crocodiles, not true crocodiles."
+  ]
+}

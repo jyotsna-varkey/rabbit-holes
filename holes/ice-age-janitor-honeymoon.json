@@ -1,0 +1,70 @@
+{
+  "id": "ice-age-janitor-honeymoon",
+  "claim": "Ice ages were cracked by a janitor and a newlywed prisoner of war.",
+  "start": {
+    "title": "Ice age",
+    "page": "Ice age",
+    "description": "Period of long-term reduction in temperature of Earth's surface and atmosphere",
+    "image": "snapshots/images/Ice-age.webp"
+  },
+  "end": {
+    "title": "Milutin Milanković",
+    "page": "Milutin Milanković",
+    "description": "Serbian scientist and professor (1879–1958)",
+    "image": "snapshots/images/Milutin-Milankovi.webp"
+  },
+  "knots": [
+    {
+      "page": "Ice age",
+      "url": "https://en.wikipedia.org/wiki/Ice_age",
+      "revision": 1379522088,
+      "section": "History of research",
+      "passage": "In order to persuade the skeptics, Agassiz embarked on geological fieldwork. He published his book Study on Glaciers (\"Études sur les glaciers\") in 1840. It took several decades before the ice age theory was fully accepted by scientists. This happened on an international scale in the second half of the 1870s, following the work of James Croll, including the publication of Climate and Time, in Their Geological Relations in 1875, which provided a credible explanation for the causes of ice ages.",
+      "hatnote": "Even once geologists saw the ice had been there, nobody could say why.",
+      "onwardLinkText": "James Croll",
+      "nextPage": "James Croll"
+    },
+    {
+      "page": "James Croll",
+      "url": "https://en.wikipedia.org/wiki/James_Croll",
+      "revision": 1361648389,
+      "section": "Life",
+      "passage": "In the 1850s he managed a temperance hotel in Blairgowrie, and was then an insurance agent in Glasgow, Edinburgh and Leicester. In 1859, he became a janitor at the museum of the Andersonian University in Glasgow. He was able to use the university library to get access to books, and taught himself physics and astronomy to develop his ideas.",
+      "hatnote": "The man with the answer was not a professor.",
+      "onwardLinkText": null,
+      "nextPage": "James Croll"
+    },
+    {
+      "page": "James Croll",
+      "url": "https://en.wikipedia.org/wiki/James_Croll",
+      "revision": 1361648389,
+      "section": "Theory of ice ages",
+      "passage": "Croll's work was widely discussed, but by the end of the 19th century, his theory was generally discredited. However, the basic idea of orbitally-forced insolation variations influencing terrestrial temperatures – now known generally as Milankovitch cycles – was further developed by Milutin Milankovitch and eventually, in modified form, triumphed in 1976. A number of scholars have argued that Croll's contribution was sufficiently fundamental as to describe the orbital cycles as Croll-Milankovitch Cycles.",
+      "hatnote": "His idea was right in spirit, but it fell out of favour.",
+      "onwardLinkText": "Milutin Milankovitch",
+      "nextPage": "Milutin Milanković"
+    },
+    {
+      "page": "Milutin Milanković",
+      "url": "https://en.wikipedia.org/wiki/Milutin_Milankovi%C4%87",
+      "revision": 1380979512,
+      "section": "Planet's insolation",
+      "passage": "They decided to go on their honeymoon to Switzerland, but before that they stopped in Milankovitch's native village of Dalj in Austria-Hungary, where they heard that Franz Ferdinand had been assassinated in Sarajevo which was the cause of the July crisis. Meanwhile, the Austro-Hungarian Empire began massing troops in the Balkans near the border with the Kingdom of Serbia in preparation for an invasion. Milankovitch was soon arrested by the Austro-Hungarian authorities because he was a reserve officer in the Royal Serbian Army and at first he spent six weeks under house arrest, but was eventually imprisoned and later sent to a prisoner-of-war camp (K. u. K. Interienirungslager) in Nezsider, Hungary (today Neusiedl am See, Austria).",
+      "hatnote": "In June 1914 Milanković married an opera singer; then history interrupted.",
+      "onwardLinkText": null,
+      "nextPage": "Milutin Milanković"
+    },
+    {
+      "page": "Milutin Milanković",
+      "url": "https://en.wikipedia.org/wiki/Milutin_Milankovi%C4%87",
+      "revision": 1380979512,
+      "section": "Planet's insolation",
+      "passage": "Immediately after arriving in Budapest, Milanković met the Director of the Library of the Hungarian Academy of Science, Kálmán Szily who, as a mathematician, eagerly accepted Milanković and enabled him to work undisturbed in the Academy's library and the Central Meteorological Institute. Milanković spent four years in Budapest, almost the entire war.",
+      "hatnote": "Released into enforced exile, he got something better than freedom.",
+      "onwardLinkText": null,
+      "nextPage": "Milutin Milanković"
+    }
+  ],
+  "payoff": "The orbital idea behind the ice ages came from a self-taught janitor, and was carried forward by a prisoner of war in a library.",
+  "caveats": []
+}

@@ -1,0 +1,72 @@
+{
+  "id": "coca-cola-melvin-belli-zodiac",
+  "claim": "A waitress's exploding Coke bottle and the Zodiac Killer share a lawyer.",
+  "start": {
+    "title": "Coca-Cola",
+    "page": "Coca-Cola",
+    "description": "Cola soft drink",
+    "image": "snapshots/images/Coca-Cola.webp"
+  },
+  "end": {
+    "title": "Melvin Belli",
+    "page": "Melvin Belli",
+    "description": "American lawyer (1907–1996)",
+    "image": "snapshots/images/Melvin-Belli.webp"
+  },
+  "knots": [
+    {
+      "page": "Coca-Cola",
+      "url": "https://en.wikipedia.org/wiki/Coca-Cola",
+      "revision": 1378906796,
+      "section": "Contour bottle design",
+      "passage": "In 1944, Associate Justice Roger J. Traynor of the Supreme Court of California took advantage of a case involving a waitress injured by an exploding Coca-Cola bottle to articulate the doctrine of strict liability for defective products. Traynor's concurring opinion in Escola v. Coca-Cola Bottling Co. is widely recognized as a landmark case in US law today.",
+      "hatnote": "Hidden in the history of the Coke bottle is a court case.",
+      "onwardLinkText": "Escola v. Coca-Cola Bottling Co.",
+      "nextPage": "Escola v. Coca-Cola Bottling Co."
+    },
+    {
+      "page": "Escola v. Coca-Cola Bottling Co.",
+      "url": "https://en.wikipedia.org/wiki/Escola_v._Coca-Cola_Bottling_Co.",
+      "revision": 1337949890,
+      "section": "Background",
+      "passage": "After she recovered, she had permanent tenderness and pain at the scar site which left her partially incapacitated in her occupation as a waitress. She filed a workers' compensation claim with the Industrial Accident Commission but was granted only $42.60 in compensation, which did not cover her medical expenses or lost wages. That was when she decided to file a lawsuit and sued the company who had supplied the bottles, the Coca-Cola Bottling Company of Fresno.",
+      "hatnote": "The bottle burst in a waffle shop in Merced, California, in 1941.",
+      "onwardLinkText": null,
+      "nextPage": "Escola v. Coca-Cola Bottling Co."
+    },
+    {
+      "page": "Escola v. Coca-Cola Bottling Co.",
+      "url": "https://en.wikipedia.org/wiki/Escola_v._Coca-Cola_Bottling_Co.",
+      "revision": 1337949890,
+      "section": "Background",
+      "passage": "Escola was represented at trial by legendary litigator Melvin Belli, then in the early stage of his career. He later acknowledged in his own autobiography that he did not then fully comprehend that her case would become a far-reaching landmark case. The jury returned a verdict for the plaintiff, following the doctrine of res ipsa loquitur. According to the 2003 book, the jury awarded monetary damages of $2,900 to Escola.",
+      "hatnote": "Her young lawyer had no idea what he had started.",
+      "onwardLinkText": "Melvin Belli",
+      "nextPage": "Melvin Belli"
+    },
+    {
+      "page": "Melvin Belli",
+      "url": "https://en.wikipedia.org/wiki/Melvin_Belli",
+      "revision": 1375334594,
+      "section": "Career",
+      "passage": "After winning a court case, Belli would raise a Jolly Roger flag over his office building in the Barbary Coast district of San Francisco (which Belli claimed had been a Gold Rush-era brothel) and fire a cannon, mounted on his office roof, to announce the victory and the impending party. This former law office was at the Belli Building in the Jackson Square neighborhood of San Francisco.",
+      "hatnote": "He became the 'King of Torts', and he was never quiet about it.",
+      "onwardLinkText": null,
+      "nextPage": "Melvin Belli"
+    },
+    {
+      "page": "Melvin Belli",
+      "url": "https://en.wikipedia.org/wiki/Melvin_Belli",
+      "revision": 1375334594,
+      "section": "Career",
+      "passage": "In 1969 a man called San Francisco police, identifying himself as the serial killer known only as The Zodiac, and agreed to call talk show host Jim Dunbar on Dunbar's morning television talk show A.M. San Francisco if either Belli or attorney F. Lee Bailey were present on air. The police contacted Belli and Dunbar to arrange this in the hopes of capturing the individual. As promised, the suspect called, spoke a few words, and then hung up, repeating this activity 54 times over the next two hours. Belli received a letter from the Zodiac that same year.",
+      "hatnote": "So famous that a serial killer asked for him by name.",
+      "onwardLinkText": null,
+      "nextPage": "Melvin Belli"
+    }
+  ],
+  "payoff": "Belli won the exploding-bottle case that became a product-liability landmark, then grew so famous the Zodiac demanded him on live TV.",
+  "caveats": [
+    "Coca-Cola and Escola pages credit the strict-liability idea to Justice Traynor's concurrence; Belli's page credits Belli's arguments. Both played a part."
+  ]
+}

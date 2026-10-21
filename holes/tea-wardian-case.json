@@ -1,0 +1,72 @@
+{
+  "id": "tea-wardian-case",
+  "claim": "How did a little glass box help change where the world grew its tea?",
+  "start": {
+    "title": "Tea",
+    "page": "Tea",
+    "description": "Brewed beverage made from tea leaves",
+    "image": "snapshots/images/Tea.webp"
+  },
+  "end": {
+    "title": "Wardian case",
+    "page": "Wardian case",
+    "description": "Early type of terrarium, a sealed protective container for plants",
+    "image": "snapshots/images/Wardian-case.webp"
+  },
+  "knots": [
+    {
+      "page": "Tea",
+      "url": "https://en.wikipedia.org/wiki/Tea",
+      "revision": 1374563032,
+      "section": "Worldwide spread",
+      "passage": "Chinese small-leaf-type tea was introduced into India in 1836 by the British in an attempt to break the Chinese monopoly on tea. In 1841, Archibald Campbell brought seeds of Chinese tea from the Kumaun region and experimented with planting tea in Darjeeling. The Alubari tea garden was opened in 1856, and Darjeeling tea began to be produced. In 1848, Robert Fortune was sent by the East India Company on a mission to China to bring the tea plant back to Great Britain. He began his journey in high secrecy as his mission occurred in the lull between the First Opium War and the Second Opium War. The Chinese tea plants he brought back were introduced to the Himalayas, though most did not survive. The British had discovered that a different variety of tea was endemic to Assam and the northeast region of India, which was then hybridized with Chinese small-leaf-type tea. Using Chinese planting and cultivation techniques, the British colonial government established a tea industry by offering land in Assam to any European who agreed to cultivate it for export. Tea was originally consumed only by Anglo-Indians; however, it became widely consumed in India in the 1950s because of a successful advertising campaign by the India Tea Board. The British introduced tea industry to Sri Lanka (then Ceylon) in 1867.",
+      "hatnote": "Britain wanted to grow its own tea, outside China.",
+      "onwardLinkText": "Robert Fortune",
+      "nextPage": "Robert Fortune"
+    },
+    {
+      "page": "Robert Fortune",
+      "url": "https://en.wikipedia.org/wiki/Robert_Fortune",
+      "revision": 1355397833,
+      "section": "Life",
+      "passage": "Similar to other European travellers of the period, such as Walter Medhurst, Fortune disguised himself as a Chinese merchant during several, but not all, of his journeys beyond the newly established treaty port areas. Not only was Fortune's purchase of tea plants reportedly forbidden by the Chinese government of the time, but his travels were also beyond the allowable day's journey from the European treaty ports. Fortune travelled to some areas of China that had seldom been visited by Europeans, including remote areas of Fujian, Guangdong, and Jiangsu provinces.",
+      "hatnote": "Who transported tea plants, and how successful was the mission?",
+      "onwardLinkText": null,
+      "nextPage": "Robert Fortune"
+    },
+    {
+      "page": "Robert Fortune",
+      "url": "https://en.wikipedia.org/wiki/Robert_Fortune",
+      "revision": 1355397833,
+      "section": "Life",
+      "passage": "Fortune employed many means to obtain plants and seedlings from local tea growers, although this was some 150 years before international biodiversity laws recognised state ownership of such natural resources. He is also known for his use of Nathaniel Bagshaw Ward's portable Wardian cases to sustain the plants. It is also widely reported that he took skilled workers on contract to India who would facilitate the production of tea in the plantations of the East India Company. With the exception of a few plants that survived in established Indian gardens, most of the Chinese tea plants Fortune introduced in the northwestern provinces of India perished. The other reason for the failure in India was that the British preference and fashion was for a strong dark tea brew, which was best made from the local Assam subspecies (Camellia sinensis var. assamica) and not the selection that Fortune had made in China. The technology and knowledge that was brought over from China was, however, instrumental in the later flourishing of the Indian tea industry in Assam and Sri Lanka.",
+      "hatnote": "He smuggled the plants in glass boxes.",
+      "onwardLinkText": "Wardian cases",
+      "nextPage": "Wardian case"
+    },
+    {
+      "page": "Wardian case",
+      "url": "https://en.wikipedia.org/wiki/Wardian_case",
+      "revision": 1330735605,
+      "section": "History and development",
+      "passage": "Ward also kept cocoons of moths and the like in sealed glass bottles, and in one, he found that a fern spore and a species of grass had germinated and were growing in a bit of soil. Interested but not yet seeing the opportunities, he left the seal intact for about four years, noting that the grass actually bloomed once. After that time however, the seal had become rusted, and the plants soon died from the bad air. Understanding the possibilities, he had a carpenter build him a closely fitted glazed wooden case and found that ferns grown in it thrived.",
+      "hatnote": "How did the glass container that made such journeys possible originate?",
+      "onwardLinkText": null,
+      "nextPage": "Wardian case"
+    },
+    {
+      "page": "Wardian case",
+      "url": "https://en.wikipedia.org/wiki/Wardian_case",
+      "revision": 1330735605,
+      "section": "History and development",
+      "passage": "The first test of the glazed cases was made in July 1833, when Ward shipped two specially constructed glazed cases filled with British ferns and grasses all the way to Sydney, Australia, a voyage of several months that found the protected plants still in good condition upon arrival. Other plants made a return trip: a number of Australian native species that had never survived the transportation previously. The plants arrived in good shape after a stormy voyage around Cape Horn.",
+      "hatnote": "Then Ward tested it on the longest trip he could find.",
+      "onwardLinkText": null,
+      "nextPage": "Wardian case"
+    }
+  ],
+  "payoff": "A forgotten moth cocoon in a sealed bottle gave Britain the glass case that carried China's tea plants to India.",
+  "caveats": [
+    "From Rabbit Hole Studio (GPT), rh-021, rank 61; hook is GPT's, hatnotes/payoff drafted by Claude."
+  ]
+}

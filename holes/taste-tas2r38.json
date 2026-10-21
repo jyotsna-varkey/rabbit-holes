@@ -1,0 +1,60 @@
+{
+  "id": "taste-tas2r38",
+  "claim": "A chemist's spilled powder tasted bitter to his colleague and of nothing to him.",
+  "start": {
+    "title": "Taste",
+    "page": "Taste",
+    "description": "Sense of chemicals on the tongue",
+    "image": "snapshots/images/Taste.webp"
+  },
+  "end": {
+    "title": "TAS2R38",
+    "page": "TAS2R38",
+    "description": "Protein-coding gene in the species Homo sapiens",
+    "image": "snapshots/images/TAS2R38.webp"
+  },
+  "knots": [
+    {
+      "page": "Taste",
+      "url": "https://en.wikipedia.org/wiki/Taste",
+      "revision": 1378298117,
+      "section": "Bitterness",
+      "passage": "Researchers use two synthetic substances, phenylthiocarbamide (PTC) and 6-n-propylthiouracil (PROP) to study the genetics of bitter perception. These two substances taste bitter to some people, but are virtually tasteless to others.",
+      "hatnote": "Some bitter chemicals don't taste bitter to everyone.",
+      "onwardLinkText": "phenylthiocarbamide",
+      "nextPage": "Phenylthiocarbamide"
+    },
+    {
+      "page": "Phenylthiocarbamide",
+      "url": "https://en.wikipedia.org/wiki/Phenylthiocarbamide",
+      "revision": 1260654215,
+      "section": "History",
+      "passage": "The tested genetic taste phenomenon of PTC was discovered in 1931 when DuPont chemist Arthur Fox accidentally released a cloud of fine crystalline PTC. A nearby colleague complained about the bitter taste, while Fox, who was closer and should have received a strong dose, tasted nothing. Fox then continued to test the taste buds of assorted family and friends, setting the groundwork for future genetic studies. The genetic penetrance was so strong that it was used in paternity tests before the advent of DNA matching.",
+      "hatnote": "The discovery was a lab accident.",
+      "onwardLinkText": null,
+      "nextPage": "Phenylthiocarbamide"
+    },
+    {
+      "page": "Phenylthiocarbamide",
+      "url": "https://en.wikipedia.org/wiki/Phenylthiocarbamide",
+      "revision": 1260654215,
+      "section": "Genetics",
+      "passage": "Chimpanzees and orangutans also vary in their ability to taste PTC, with the proportions of tasters and non-tasters similar to that in humans. The ability to taste PTC is an ancestral trait of hominids that has been independently lost in humans and chimpanzees, through distinct mutations at TAS2R38.",
+      "hatnote": "Humans are not the only ones split into tasters and non-tasters.",
+      "onwardLinkText": "TAS2R38",
+      "nextPage": "TAS2R38"
+    },
+    {
+      "page": "TAS2R38",
+      "url": "https://en.wikipedia.org/wiki/TAS2R38",
+      "revision": 1377900976,
+      "section": "Drug consumption",
+      "passage": "PTC sensitivity and TAS2R38 genotype have been researched in relation to smoking behavior. It was suggested in a research that non-tasters may be likely to smoke cigarettes more, compared to PTC tasters, that is due to the fact that tobacco smoke contains chemical substances that activate TAS2R38.",
+      "hatnote": "The same gene may even nudge who reaches for a cigarette.",
+      "onwardLinkText": null,
+      "nextPage": "TAS2R38"
+    }
+  ],
+  "payoff": "One accidental puff of powder revealed a gene that splits people, and chimps, into tasters and non-tasters, and may even sway smoking.",
+  "caveats": []
+}

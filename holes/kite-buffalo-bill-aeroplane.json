@@ -1,0 +1,82 @@
+{
+  "id": "kite-buffalo-bill-aeroplane",
+  "claim": "Britain's first powered flight was made by Buffalo Bill's fake son.",
+  "start": {
+    "title": "Kite",
+    "page": "Kite",
+    "description": "Tethered aircraft",
+    "image": "snapshots/images/Kite.webp"
+  },
+  "end": {
+    "title": "British Army Aeroplane No 1",
+    "page": "British Army Aeroplane No 1",
+    "description": "1907 biplane, made first powered and sustained flight in the UK",
+    "image": "snapshots/images/British-Army-Aeroplane-No-1.webp"
+  },
+  "knots": [
+    {
+      "page": "Kite",
+      "url": "https://en.wikipedia.org/wiki/Kite",
+      "revision": 1363081193,
+      "section": "Military applications",
+      "passage": "In the modern era the British Army used kites to haul human lookouts into the air for observation purposes, using the kites developed by Samuel Franklin Cody.",
+      "hatnote": "Kites once went to war, carrying soldiers into the sky.",
+      "onwardLinkText": "Samuel Franklin Cody",
+      "nextPage": "Samuel Franklin Cody"
+    },
+    {
+      "page": "Samuel Franklin Cody",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Franklin_Cody",
+      "revision": 1373113626,
+      "section": "Showman",
+      "passage": "Cody arrived in Europe in 1890, claiming to be the son of the well-known William \"Buffalo Bill\" Cody, though in fact the two were unrelated. Cody, together with his wife, toured England with a shooting act.",
+      "hatnote": "The kite-maker had arrived in Britain as a showman, with a borrowed legend.",
+      "onwardLinkText": null,
+      "nextPage": "Samuel Franklin Cody"
+    },
+    {
+      "page": "Samuel Franklin Cody",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Franklin_Cody",
+      "revision": 1373113626,
+      "section": "Kites",
+      "passage": "In December 1901, he offered his design to the War Office as an observation \"War Kite\" for use in the Second Boer War, and made several demonstration flights of up to 2,000 ft (610 m) in various places around London. A large exhibition of the Cody kites took place at Alexandra Palace in 1903. Later, he succeeded in crossing the English Channel in a Berthon boat towed by one of his kites.",
+      "hatnote": "Then the showman pitched his kites to the War Office.",
+      "onwardLinkText": null,
+      "nextPage": "Samuel Franklin Cody"
+    },
+    {
+      "page": "Samuel Franklin Cody",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Franklin_Cody",
+      "revision": 1373113626,
+      "section": "Aeroplanes",
+      "passage": "Later in 1907 the Army decided to back the development of his powered aeroplane, the British Army Aeroplane No 1.",
+      "hatnote": "Then the Army backed the showman's biggest project yet.",
+      "onwardLinkText": "British Army Aeroplane No 1",
+      "nextPage": "British Army Aeroplane No 1"
+    },
+    {
+      "page": "British Army Aeroplane No 1",
+      "url": "https://en.wikipedia.org/wiki/British_Army_Aeroplane_No_1",
+      "revision": 1356438643,
+      "section": "First flight and Army career",
+      "passage": "In this form, with a Union Jack flying from the strut between the upper and lower tail booms, the aircraft was presented to the press at Farnborough on 13 October. After further ground trials Cody finally judged conditions suitable for a flight trial on 16 October, and made the first recognised powered and sustained flight in the United Kingdom, which covered only 1,390 ft (424 m).",
+      "hatnote": "Rebuilt and ready, the aircraft was unveiled at Farnborough in October 1908.",
+      "onwardLinkText": null,
+      "nextPage": "British Army Aeroplane No 1"
+    },
+    {
+      "page": "British Army Aeroplane No 1",
+      "url": "https://en.wikipedia.org/wiki/British_Army_Aeroplane_No_1",
+      "revision": 1356438643,
+      "section": "Subsequent use",
+      "passage": "He also flew the aircraft at the Doncaster Flight Meeting in October 1909. Although he did not win any of the prizes on offer, Cody made use of his appearance to publicly take British citizenship on 28 October, and promptly entered his name for the Daily Mail prize for the first British aircraft to make a circular flight of over a mile.",
+      "hatnote": "One more piece of showmanship remained.",
+      "onwardLinkText": null,
+      "nextPage": "British Army Aeroplane No 1"
+    }
+  ],
+  "payoff": "The sharpshooting showman who posed as Buffalo Bill's son made Britain's first powered flight under a Union Jack, then became British.",
+  "caveats": [
+    "Cody's early life is partly known only from his own stories, as his article notes."
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "skyscraper-fustat-shawar",
+  "claim": "A medieval city of 14-storey towers burned for 54 days. On purpose.",
+  "start": {
+    "title": "Skyscraper",
+    "page": "Skyscraper",
+    "description": "Tall habitable building",
+    "image": ""
+  },
+  "end": {
+    "title": "Shawar",
+    "page": "Shawar",
+    "description": "Egyptian de facto ruler of Fatimid Egypt",
+    "image": "snapshots/images/Shawar.webp"
+  },
+  "knots": [
+    {
+      "page": "Skyscraper",
+      "url": "https://en.wikipedia.org/wiki/Skyscraper",
+      "revision": 1379820423,
+      "section": "Precursors",
+      "passage": "The medieval Egyptian city of Fustat housed many high-rise residential buildings, which Al-Muqaddasi in the 10th century described as resembling minarets. Nasir Khusraw in the early 11th century described some of them rising up to 14 stories, with roof gardens on the top floor complete with ox-drawn water wheels for irrigating them.",
+      "hatnote": "Skyscrapers weren't invented in Chicago.",
+      "onwardLinkText": "Fustat",
+      "nextPage": "Fustat"
+    },
+    {
+      "page": "Fustat",
+      "url": "https://en.wikipedia.org/wiki/Fustat",
+      "revision": 1377779140,
+      "section": "Early history",
+      "passage": "From 975 to 1075, Fustat was a major production centre for Islamic art and ceramics, and one of the wealthiest cities in the world. One report stated that it paid taxes that were equivalent to US$150,000 per day, to the administration of Caliph al-Mu'izz. Modern archaeological digs have turned up trade artefacts from as far away as Spain, China, and Vietnam.",
+      "hatnote": "Fustat was rich as well as tall.",
+      "onwardLinkText": null,
+      "nextPage": "Fustat"
+    },
+    {
+      "page": "Fustat",
+      "url": "https://en.wikipedia.org/wiki/Fustat",
+      "revision": 1377779140,
+      "section": "Destruction and decline",
+      "passage": "In the mid-12th century, the caliph of Egypt was the teenager Athid, but his position was primarily ceremonial. The true power in Egypt was that of the vizier, Shawar. He had been involved in extensive political intrigue for years, working to repel the advances of both the Christian Crusaders, and the forces of the Nur al-Din from Syria. Shawar managed this by constantly shifting alliances between the two, playing them against each other, and in effect keeping them in a stalemate where neither army could successfully attack Egypt without being blocked by the other.",
+      "hatnote": "Wealth made it a prize, and two armies wanted it.",
+      "onwardLinkText": "Shawar",
+      "nextPage": "Shawar"
+    },
+    {
+      "page": "Shawar",
+      "url": "https://en.wikipedia.org/wiki/Shawar",
+      "revision": 1379796726,
+      "section": "Biography",
+      "passage": "Shawar sent 20,000 naphtha pots and 10,000 lighting bombs [mish'al] and distributed them throughout the city. Flames and smoke engulfed the city and rose to the sky in a terrifying scene. The blaze raged for 54 days....",
+      "hatnote": "In 1168, with Crusaders approaching, Shawar had Fustat evacuated, then did the unthinkable.",
+      "onwardLinkText": null,
+      "nextPage": "Shawar"
+    },
+    {
+      "page": "Shawar",
+      "url": "https://en.wikipedia.org/wiki/Shawar",
+      "revision": 1379796726,
+      "section": "Biography",
+      "passage": "But Shirkuh forced Amalric to withdraw, and then conquered Egypt with his own forces. In January 1169, Cairo fell, and Shirkuh had Shawar executed. Shirkuh was named the new vizier, but his reign lasted only two months. Already an obese man, he died of \"indigestion\", and was succeeded in the viziership by his nephew, Saladin.",
+      "hatnote": "The scorched-earth gamble did not save its maker.",
+      "onwardLinkText": null,
+      "nextPage": "Shawar"
+    }
+  ],
+  "payoff": "Shawar torched his own high-rise capital to keep it from the Crusaders, was executed weeks later, and the vizier's job passed to Saladin.",
+  "caveats": [
+    "The burning account is a quotation from the historian al-Maqrizi, writing some 250 years later."
+  ]
+}

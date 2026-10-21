@@ -1,5 +1,5 @@
 import { useEffect, useState, type FormEvent } from 'react';
-import { citationRange, holeById, holes } from '../content';
+import { cardById, cards, citationRange } from '../content';
 import { getShelf, SHELF_EVENT } from '../lib/storage';
 
 type Props = { onBack(): void; onOpenHole(id: string): void };
@@ -15,7 +15,7 @@ function useShelf() {
     window.addEventListener(SHELF_EVENT, update);
     return () => window.removeEventListener(SHELF_EVENT, update);
   }, []);
-  return shelf.filter((e) => holes.some((h) => h.id === e.id));
+  return shelf.filter((e) => cards.some((h) => h.id === e.id));
 }
 
 /** Optional email sign-in so the shelf follows the reader to other devices. */
@@ -103,13 +103,13 @@ export function Shelf({ onBack, onOpenHole }: Props) {
       ) : (
         <ol className="refs shelf-list">
           {shelf.map((e) => {
-            const h = holeById(e.id);
+            const h = cardById(e.id);
             return (
               <li key={e.id}>
                 <a href={`#${h.id}`} onClick={(ev) => { ev.preventDefault(); onOpenHole(h.id); }}>
                   {h.claim}
                 </a>
-                <sup className="cited">{citationRange(h)}</sup>
+                <sup className="cited">{citationRange(h.knots)}</sup>
                 <span className="shelf-date"> Kept {formatDay(e.kept)}.</span>
               </li>
             );

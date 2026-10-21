@@ -1,0 +1,82 @@
+{
+  "id": "barbie-ruth-handler-betty-ford",
+  "claim": "Barbie's creator ended up making breasts for a First Lady.",
+  "start": {
+    "title": "Barbie",
+    "page": "Barbie",
+    "description": "Fashion doll franchise",
+    "image": "snapshots/images/Barbie.webp"
+  },
+  "end": {
+    "title": "Betty Ford",
+    "page": "Betty Ford",
+    "description": "First Lady of the United States from 1974 to 1977",
+    "image": "snapshots/images/Betty-Ford.webp"
+  },
+  "knots": [
+    {
+      "page": "Barbie",
+      "url": "https://en.wikipedia.org/wiki/Barbie",
+      "revision": 1380084654,
+      "section": "Launch",
+      "passage": "Analysts expected the doll to perform poorly due to her adult appearance and widespread assumptions about consumer preferences at the time. Ruth Handler believed it was important for Barbie to have an adult appearance, but early market research showed that some parents were unhappy about the doll's chest, which had distinct breasts.",
+      "hatnote": "In 1959, Barbie's figure was a gamble.",
+      "onwardLinkText": null,
+      "nextPage": "Barbie"
+    },
+    {
+      "page": "Barbie",
+      "url": "https://en.wikipedia.org/wiki/Barbie",
+      "revision": 1380084654,
+      "section": "Development",
+      "passage": "Ruth Handler, co-founder of toy company Mattel with her husband Elliot, watched her daughter Barbara play with paper dolls and noticed that she often enjoyed giving them adult roles. At the time, most children's toy dolls were representations of infants. Realizing that there could be a gap in the market, Handler suggested the idea of an adult-bodied doll to Elliot, who was unenthusiastic about the idea, as were Mattel's directors.",
+      "hatnote": "Handler insisted, because of what she'd seen her daughter do.",
+      "onwardLinkText": "Ruth Handler",
+      "nextPage": "Ruth Handler"
+    },
+    {
+      "page": "Ruth Handler",
+      "url": "https://en.wikipedia.org/wiki/Ruth_Handler",
+      "revision": 1379604511,
+      "section": "Later years",
+      "passage": "Handler was diagnosed with breast cancer in 1970. She had a modified radical mastectomy, which was often done at the time to combat the disease. She spent less time at Mattel to focus on improving her health. Her loss of self-esteem affected her leadership and she lost control of her business. In a 1980 interview, she said: \"When I conceived Barbie, I believed it was important to a little girl’s self-esteem to play with a doll that [had] breasts. Now I find it even more important to return that self-esteem to women who have lost theirs.”",
+      "hatnote": "Eleven years after Barbie, Handler's own body changed.",
+      "onwardLinkText": null,
+      "nextPage": "Ruth Handler"
+    },
+    {
+      "page": "Ruth Handler",
+      "url": "https://en.wikipedia.org/wiki/Ruth_Handler",
+      "revision": 1379604511,
+      "section": "Later years",
+      "passage": "Due to difficulties in finding a good breast prosthesis, Handler decided to make her own. With the help of new business partner Peyton Massey and under her new company, Ruthton Corp., she manufactured a more realistic version of a woman's breast called Nearly Me, aiming to boost women's confidence regardless of their health. The invention became quite popular; first lady Betty Ford was fitted for one after a mastectomy.",
+      "hatnote": "So the doll-maker went back to manufacturing.",
+      "onwardLinkText": "Betty Ford",
+      "nextPage": "Betty Ford"
+    },
+    {
+      "page": "Betty Ford",
+      "url": "https://en.wikipedia.org/wiki/Betty_Ford",
+      "revision": 1380882616,
+      "section": "Health and breast cancer awareness",
+      "passage": "Ford decided to be open about her illness because \"There had been so much cover-up during Watergate that we wanted to be sure there would be no cover-up in the Ford administration.\" She was the first American First Lady to permit for the public release of reports on her own medical condition since Florence Harding in 1922. Her openness about her cancer and treatment raised the visibility of a disease that Americans had previously been reluctant to talk about.",
+      "hatnote": "Her most famous customer did something unheard of.",
+      "onwardLinkText": null,
+      "nextPage": "Betty Ford"
+    },
+    {
+      "page": "Betty Ford",
+      "url": "https://en.wikipedia.org/wiki/Betty_Ford",
+      "revision": 1380882616,
+      "section": "Health and breast cancer awareness",
+      "passage": "The spike in women self-examining after Ford went public with the diagnosis led to an increase in reported cases of breast cancer, a phenomenon known as the \"Betty Ford blip\".",
+      "hatnote": "Her candour showed up in the statistics.",
+      "onwardLinkText": null,
+      "nextPage": "Betty Ford"
+    }
+  ],
+  "payoff": "Ruth Handler insisted Barbie have breasts, lost her own to cancer, then made prostheses; one went to the First Lady whose candour made women check.",
+  "caveats": [
+    "The Barbie knots are shown slightly out of time order: the paper-doll origin came before the 1959 launch doubts."
+  ]
+}

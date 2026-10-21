@@ -1,6 +1,6 @@
 import { forwardRef, useEffect, useImperativeHandle, useRef } from 'react';
 import type { MotionValue } from 'framer-motion';
-import { minutesFor, type Hole } from '../content';
+import { minutesFor, type Card } from '../content';
 import { Infobox } from './Infobox';
 import { Thread, type ThreadHandle } from './Thread';
 
@@ -10,7 +10,7 @@ export type HoleCardHandle = {
 };
 
 type Props = {
-  hole: Hole;
+  hole: Card;
   /** Card tilt in degrees; the thread swings with it. */
   rotate?: MotionValue<number>;
   taut?: boolean;
@@ -71,7 +71,7 @@ export const HoleCard = forwardRef<HoleCardHandle, Props>(function HoleCard({ ho
         <Infobox ref={right} endpoint={hole.end} className="end-right" />
       </div>
       <p className="card-meta">
-        {hole.knots.length} knots · about {minutesFor(hole)} min
+        {hole.knots} knots · about {minutesFor(hole)} min
       </p>
     </article>
   );

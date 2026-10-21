@@ -1,0 +1,70 @@
+{
+  "id": "elephant-billiard-taiwan",
+  "claim": "How a game of pool stripped the forests of Taiwan.",
+  "start": {
+    "title": "Elephant",
+    "page": "Elephant",
+    "description": "Largest living land animal",
+    "image": "snapshots/images/Elephant.webp"
+  },
+  "end": {
+    "title": "Billiard ball",
+    "page": "Billiard ball",
+    "description": "Ball used in cue sports",
+    "image": "snapshots/images/Billiard-ball.webp"
+  },
+  "knots": [
+    {
+      "page": "Elephant",
+      "url": "https://en.wikipedia.org/wiki/Elephant",
+      "revision": 1378665714,
+      "section": "Tusks",
+      "passage": "The tusks of an elephant are modified second incisors in the upper jaw. They replace deciduous milk teeth at 6–12 months of age and keep growing at about 17 cm (7 in) a year. As the tusk develops, it is topped with smooth, cone-shaped enamel that eventually wanes. The dentine is known as ivory and has a cross-section of intersecting lines, known as \"engine turning\", which create diamond-shaped patterns.",
+      "hatnote": "An elephant's tusks are teeth that never stop growing.",
+      "onwardLinkText": "ivory",
+      "nextPage": "Ivory"
+    },
+    {
+      "page": "Ivory",
+      "url": "https://en.wikipedia.org/wiki/Ivory",
+      "revision": 1380064993,
+      "section": "Consumption before plastics",
+      "passage": "Before plastics were introduced, ivory had many ornamental and practical uses, mainly because of the white color it presents when processed. It was formerly used to make cutlery handles, billiard balls, piano keys, Scottish bagpipes, buttons and a wide range of ornamental items.",
+      "hatnote": "That tooth material once did the jobs plastic does now.",
+      "onwardLinkText": "billiard balls",
+      "nextPage": "Billiard ball"
+    },
+    {
+      "page": "Billiard ball",
+      "url": "https://en.wikipedia.org/wiki/Billiard_ball",
+      "revision": 1375598391,
+      "section": "History",
+      "passage": "By the mid-19th century, elephants were being slaughtered for their ivory at an alarming rate, just to keep up with the demand for high-end billiard balls – no more than eight balls could be made from a single elephant's tusks. The billiard industry realized that the supply of elephants (their primary source of ivory) was endangered, as well as dangerous to obtain (the latter an issue of notable public concern at the turn of the 19th century).",
+      "hatnote": "One elephant, at most eight balls. The maths didn't work.",
+      "onwardLinkText": null,
+      "nextPage": "Billiard ball"
+    },
+    {
+      "page": "Billiard ball",
+      "url": "https://en.wikipedia.org/wiki/Billiard_ball",
+      "revision": 1375598391,
+      "section": "History",
+      "passage": "Although not the first artificial substance to be used for the balls (e.g. Sorel cement, invented in 1867, was marketed as an artificial ivory), John Wesley Hyatt patented an \"ivory imitation\" composite made of nitrocellulose, camphor, and ground cattle bone on May 4, 1869 (US patent 89582, the first US billiard ball patent).",
+      "hatnote": "Industry needed a substitute, and an inventor patented one.",
+      "onwardLinkText": null,
+      "nextPage": "Billiard ball"
+    },
+    {
+      "page": "Billiard ball",
+      "url": "https://en.wikipedia.org/wiki/Billiard_ball",
+      "revision": 1375598391,
+      "section": "History",
+      "passage": "However, Hyatt's composite had problems. One of the most relevant is cellulose nitrate flammability, not because of making the billiard balls explode, as is often claimed, but because of the dangers of handling it in its pure form during manufacturing. Another problem was related to camphor mass exploitation, leading to the devastation of Taiwan's forests and displacement of indigenous communities.",
+      "hatnote": "Saving elephants came at a cost somewhere else.",
+      "onwardLinkText": null,
+      "nextPage": "Billiard ball"
+    }
+  ],
+  "payoff": "To spare elephants' teeth, billiards turned to camphor plastic, and the bill landed on Taiwan's camphor forests and the people who lived in them.",
+  "caveats": []
+}

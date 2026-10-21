@@ -1,0 +1,70 @@
+{
+  "id": "penny-copper-bottomed",
+  "claim": "Why is a safe bet 'copper-bottomed'? Ask a Welsh penny.",
+  "start": {
+    "title": "Penny",
+    "page": "Penny",
+    "description": "Unit of currency in various countries",
+    "image": "snapshots/images/Penny.webp"
+  },
+  "end": {
+    "title": "Copper sheathing",
+    "page": "Copper sheathing",
+    "description": "Ship hull covering",
+    "image": "snapshots/images/Copper-sheathing.webp"
+  },
+  "knots": [
+    {
+      "page": "Penny",
+      "url": "https://en.wikipedia.org/wiki/Penny",
+      "revision": 1377522814,
+      "section": "United Kingdom",
+      "passage": "Throughout the 18th century, the British government did not mint pennies for general circulation and the bullion value of the existing silver pennies caused them to be withdrawn from circulation. Merchants and mining companies, such as Anglesey's Parys Mining Co., began to issue their own copper tokens to fill the need for small change.",
+      "hatnote": "For most of the 1700s, Britain had a strange problem: almost no pennies.",
+      "onwardLinkText": "Parys Mining Co.",
+      "nextPage": "Parys Mountain"
+    },
+    {
+      "page": "Parys Mountain",
+      "url": "https://en.wikipedia.org/wiki/Parys_Mountain",
+      "revision": 1373488366,
+      "section": "History",
+      "passage": "In response to a national shortage of small currency, the Parys Mine Company produced its own coinage between 1787 and 1793. The Parys Penny, also known as the Anglesey Penny, was used by the mine to pay workers, and also by the populace at large. It is thought that around ten million pennies and half pennies were minted.",
+      "hatnote": "One Welsh hill had copper to spare, so it made its own money.",
+      "onwardLinkText": null,
+      "nextPage": "Parys Mountain"
+    },
+    {
+      "page": "Parys Mountain",
+      "url": "https://en.wikipedia.org/wiki/Parys_Mountain",
+      "revision": 1373488366,
+      "section": "History",
+      "passage": "The copper from the mine was used to sheath the British Admiralty's wooden ships of war, to prevent the growth of seaweed and barnacles and to protect the wood from attack by shipworms. This increased the speed and manoeuvrability of the vessels, and enabled them to remain at sea for longer as there was less need to return to port for maintenance (see Copper sheathing for further details).",
+      "hatnote": "Pennies were a sideline. The mine's real customer was the navy.",
+      "onwardLinkText": "Copper sheathing",
+      "nextPage": "Copper sheathing"
+    },
+    {
+      "page": "Copper sheathing",
+      "url": "https://en.wikipedia.org/wiki/Copper_sheathing",
+      "revision": 1369660444,
+      "section": "Widespread implementation",
+      "passage": "Each ship on average required 15 tonnes of copper applied on average as 300 plates. All the copper was supplied by British mines (the only country in the world at that time that could do so), the largest mine being Parys Mountain in Anglesey, north Wales. The Parys mine had recently begun large-scale production and had glutted the British market with cheap copper; however, the 14 tons of metal required to copper a 74-gun third-rate ship of the line still cost £1,500, compared to £262 for wood.",
+      "hatnote": "Coppering a whole navy took mountains of metal, much of it Welsh.",
+      "onwardLinkText": null,
+      "nextPage": "Copper sheathing"
+    },
+    {
+      "page": "Copper sheathing",
+      "url": "https://en.wikipedia.org/wiki/Copper_sheathing",
+      "revision": 1369660444,
+      "section": "Civilian use",
+      "passage": "Merchant ship owners were attracted by the savings made possible by copper sheathing, despite the initial outlay. As the coppering was expensive, only the better owners tended to invest in the method, and as a result the use of copper sheathing tended to indicate a well-found and maintained ship, which led to Lloyd's of London charging lower insurance premiums, as the vessels were better risks. From this stems the phrase \"copper-bottomed\" as an indication of quality.",
+      "hatnote": "Soon merchants wanted copper bottoms too, and so did their insurers.",
+      "onwardLinkText": null,
+      "nextPage": "Copper sheathing"
+    }
+  ],
+  "payoff": "The hill that minted its own pennies sheathed the Royal Navy, and a coppered hull became so trustworthy that 'copper-bottomed' now means safe.",
+  "caveats": []
+}

@@ -1,0 +1,82 @@
+{
+  "id": "cactus-moth-memorial-hall",
+  "claim": "Australia's war on a cactus ended with a hall named after a moth.",
+  "start": {
+    "title": "Cactus",
+    "page": "Cactus",
+    "description": "Family of mostly succulent plants, adapted to dry environments",
+    "image": "snapshots/images/Cactus.webp"
+  },
+  "end": {
+    "title": "Cactoblastis Memorial Hall",
+    "page": "Cactoblastis Memorial Hall",
+    "description": "Historic site in Queensland, Australia",
+    "image": "snapshots/images/Cactoblastis-Memorial-Hall.webp"
+  },
+  "knots": [
+    {
+      "page": "Cactus",
+      "url": "https://en.wikipedia.org/wiki/Cactus",
+      "revision": 1379378775,
+      "section": "Naturalized species",
+      "passage": "In Australia, species of Opuntia, particularly Opuntia stricta, were introduced in the 19th century for use as natural agricultural fences and in an attempt to establish a cochineal industry. They rapidly became a major weed problem, but are now controlled by biological agents, particularly the moth Cactoblastis cactorum.",
+      "hatnote": "Australia imported cacti for a red dye. It got something else.",
+      "onwardLinkText": "Cactoblastis cactorum",
+      "nextPage": "Cactoblastis cactorum"
+    },
+    {
+      "page": "Cactoblastis cactorum",
+      "url": "https://en.wikipedia.org/wiki/Cactoblastis_cactorum",
+      "revision": 1364343602,
+      "section": "lead",
+      "passage": "In some locations, it has spread uncontrollably and was consequently classified an invasive species. However, in other places such as Australia, it has gained favor for its role in the biological control of cacti from the genus Opuntia, such as prickly pear.",
+      "hatnote": "A pest in some countries, a hero in one.",
+      "onwardLinkText": "prickly pear",
+      "nextPage": "Prickly pears in Australia"
+    },
+    {
+      "page": "Prickly pears in Australia",
+      "url": "https://en.wikipedia.org/wiki/Prickly_pears_in_Australia",
+      "revision": 1313070552,
+      "section": "lead",
+      "passage": "A monument to Cactoblastis cactorum was erected in Dalby, Queensland, commemorating the eradication of the prickly pear in the region. The Cactoblastis Memorial Hall in Boonarga, Queensland, also commemorates the eradication.",
+      "hatnote": "Australians did not just thank the moth. They built it things.",
+      "onwardLinkText": "Cactoblastis Memorial Hall",
+      "nextPage": "Cactoblastis Memorial Hall"
+    },
+    {
+      "page": "Cactoblastis Memorial Hall",
+      "url": "https://en.wikipedia.org/wiki/Cactoblastis_Memorial_Hall",
+      "revision": 1364806115,
+      "section": "History",
+      "passage": "Prickly pear was declared a noxious weed in Queensland in 1893. By 1900 approximately 10,000,000 acres (4,000,000 ha) were affected by prickly pear; an area which had extended to an estimated 58,000,000 acres (23,000,000 ha) by 1920. About half of this area was so densely covered by prickly pear that the land was useless for production. The costs of mechanical and chemical methods of eradication exceeded the value of the land and therefore did not prove economically viable for controlling the spread of prickly pear.",
+      "hatnote": "To understand the gratitude, consider the scale of the problem.",
+      "onwardLinkText": null,
+      "nextPage": "Cactoblastis Memorial Hall"
+    },
+    {
+      "page": "Cactoblastis Memorial Hall",
+      "url": "https://en.wikipedia.org/wiki/Cactoblastis_Memorial_Hall",
+      "revision": 1364806115,
+      "section": "History",
+      "passage": "In 1925, 3000 cactoblastis eggs were imported from South America. These eggs were divided between the Sherwood laboratory, and the Chinchilla Field Station which had been established in 1923 as one of four Queensland field stations responsible for rearing and distributing insect supplies. The first prickly pear plant was destroyed by the cactoblastis moth at Chinchilla in September 1926. The last extensive area of prickly pear in Queensland was destroyed in 1933, and the Chinchilla Field Station was closed at the end of 1936.",
+      "hatnote": "Then came the caterpillars.",
+      "onwardLinkText": null,
+      "nextPage": "Cactoblastis Memorial Hall"
+    },
+    {
+      "page": "Cactoblastis Memorial Hall",
+      "url": "https://en.wikipedia.org/wiki/Cactoblastis_Memorial_Hall",
+      "revision": 1364806115,
+      "section": "History",
+      "passage": "Proposals to erect a hall at Boonarga were first discussed in July 1934, at which time a public meeting was held and a Hall Committee appointed. Land for the proposed hall was donated by Mrs Fahey, a resident of Boonarga. In October 1934 the Committee decided to name the hall the Boonarga Cactoblastis Memorial Hall in honour of the cactoblastis moth.",
+      "hatnote": "So the town did the natural thing.",
+      "onwardLinkText": null,
+      "nextPage": "Cactoblastis Memorial Hall"
+    }
+  ],
+  "payoff": "Prickly pear smothered millions of acres; 3,000 moth eggs cleared it within a decade, and a Queensland town named its hall in thanks.",
+  "caveats": [
+    "The moth is now itself an invasive threat to native cacti in the Americas."
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "price-tag-kreutzer-sonata",
+  "claim": "Why the inventor of the price tag banned Tolstoy from the US mail.",
+  "start": {
+    "title": "Price tag",
+    "page": "Price tag",
+    "description": "Label declaring the price of an item for sale",
+    "image": "snapshots/images/Price-tag.webp"
+  },
+  "end": {
+    "title": "The Kreutzer Sonata",
+    "page": "The Kreutzer Sonata",
+    "description": "1889 novella by Leo Tolstoy",
+    "image": "snapshots/images/The-Kreutzer-Sonata.webp"
+  },
+  "knots": [
+    {
+      "page": "Price tag",
+      "url": "https://en.wikipedia.org/wiki/Price_tag",
+      "revision": 1289251829,
+      "section": "History",
+      "passage": "Before the late 19th century, in most cases, retail goods did not have a fixed price, and each customer would be expected to haggle with the store clerk. The Quakers, who found it immoral for different customers to pay different prices (now known as price discrimination) were an exception.",
+      "hatnote": "A fixed price on every item once seemed a radical idea.",
+      "onwardLinkText": null,
+      "nextPage": "Price tag"
+    },
+    {
+      "page": "Price tag",
+      "url": "https://en.wikipedia.org/wiki/Price_tag",
+      "revision": 1289251829,
+      "section": "History",
+      "passage": "The Pennsylvania Quakers\" \"honest price\" was institutionalized in 1874 by John Wanamaker, when he opened his eponymous department store in Philadelphia. A renowned innovator of the highest integrity, Wanamaker was the first retailer to offer money-back guarantees. He also invented the price tag: \"A devout Christian, he believed that if everyone was equal before God, then everyone should be equal before price.\"",
+      "hatnote": "One Philadelphia shopkeeper turned the idea into a little paper label.",
+      "onwardLinkText": "John Wanamaker",
+      "nextPage": "John Wanamaker"
+    },
+    {
+      "page": "John Wanamaker",
+      "url": "https://en.wikipedia.org/wiki/John_Wanamaker",
+      "revision": 1370246705,
+      "section": "Postmaster General",
+      "passage": "In 1889, Wanamaker began the First Penny Savings Bank in order to encourage thrift. The same year, he was appointed United States Postmaster General by President Benjamin Harrison; he was accused by the newspapers of the day of buying the post.",
+      "hatnote": "The honest shopkeeper went into politics, and took charge of America's post.",
+      "onwardLinkText": null,
+      "nextPage": "John Wanamaker"
+    },
+    {
+      "page": "John Wanamaker",
+      "url": "https://en.wikipedia.org/wiki/John_Wanamaker",
+      "revision": 1370246705,
+      "section": "Postmaster General",
+      "passage": "When his department store ordered advance copies of the newly translated novel The Kreutzer Sonata by Leo Tolstoy, the deadline was missed, and only the regular discount was offered by the publisher. He retaliated by banning the book from the US Mail on grounds of obscenity.",
+      "hatnote": "Then his store asked a publisher for a deal.",
+      "onwardLinkText": "The Kreutzer Sonata",
+      "nextPage": "The Kreutzer Sonata"
+    },
+    {
+      "page": "The Kreutzer Sonata",
+      "url": "https://en.wikipedia.org/wiki/The_Kreutzer_Sonata",
+      "revision": 1362137724,
+      "section": "Censorship",
+      "passage": "In 1890, the United States Post Office Department prohibited the mailing of newspapers containing serialized installments of The Kreutzer Sonata. This was confirmed by the U.S. Attorney General in the same year. Some American publishing houses published excerpts from the story as a separate pamphlet to advertise the story and distributed them through street vendors in New York for a nominal price. Carts even appeared in the city, on which it was written in large letters: “Forbidden by the Russian government and the Postmaster General of the United States is Tolstoy’s best work, The Kreutzer Sonata.” The ban on its sale was struck down in New York and Pennsylvania courts in 1890.",
+      "hatnote": "How did banning a novel work out for him?",
+      "onwardLinkText": null,
+      "nextPage": "The Kreutzer Sonata"
+    }
+  ],
+  "payoff": "The champion of one honest price for all banned a novel over a missed discount, and New York's street vendors turned his ban into advertising.",
+  "caveats": [
+    "The discount motive comes from the Wanamaker page; the Kreutzer Sonata page records the ban but not the reason."
+  ]
+}

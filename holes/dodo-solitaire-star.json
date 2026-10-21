@@ -1,0 +1,80 @@
+{
+  "id": "dodo-solitaire-star",
+  "claim": "In 2024 a star was named after a bird unseen since the 1760s.",
+  "start": {
+    "title": "Dodo",
+    "page": "Dodo",
+    "description": "Extinct species of bird",
+    "image": "snapshots/images/Dodo.webp"
+  },
+  "end": {
+    "title": "Turdus Solitarius",
+    "page": "Turdus Solitarius",
+    "description": "Former constellation",
+    "image": "snapshots/images/Turdus-Solitarius.webp"
+  },
+  "knots": [
+    {
+      "page": "Dodo",
+      "url": "https://en.wikipedia.org/wiki/Dodo",
+      "revision": 1375347989,
+      "section": "lead",
+      "passage": "The dodo (Raphus cucullatus) is an extinct flightless bird that was endemic to Mauritius, an island east of Madagascar in the Indian Ocean. The dodo's closest relative was the also-extinct and flightless Rodrigues solitaire.",
+      "hatnote": "The dodo had a cousin on a smaller island next door.",
+      "onwardLinkText": "Rodrigues solitaire",
+      "nextPage": "Rodrigues solitaire"
+    },
+    {
+      "page": "Rodrigues solitaire",
+      "url": "https://en.wikipedia.org/wiki/Rodrigues_solitaire",
+      "revision": 1369388467,
+      "section": "Territoriality",
+      "passage": "Observations of the Rodrigues solitaire in life indicate that they were highly territorial. They presumably settled disputes by striking each other with their wings; to aid this purpose, they used the knobs on their wrists. Fractures in their wing bones also indicate that they were used in combat.",
+      "hatnote": "Unlike the placid dodo, the solitaire was a fighter.",
+      "onwardLinkText": null,
+      "nextPage": "Rodrigues solitaire"
+    },
+    {
+      "page": "Rodrigues solitaire",
+      "url": "https://en.wikipedia.org/wiki/Rodrigues_solitaire",
+      "revision": 1369388467,
+      "section": "Extinction",
+      "passage": "The Rodrigues solitaire probably became extinct sometime between the 1730s and 1760s; the exact date is unknown. Its disappearance coincided with the tortoise trade between 1730 and 1750; traders burnt off vegetation, hunted solitaires and imported cats and pigs that preyed on eggs and chicks. In 1755, the French engineer Joseph-François Charpentier de Cossigny attempted to obtain a live specimen, as he had been assured the Rodrigues solitaire still survived in remote areas of the island. Though trying for 18 months, and offering large rewards, none could be found.",
+      "hatnote": "Then it vanished, and nobody noticed exactly when.",
+      "onwardLinkText": null,
+      "nextPage": "Rodrigues solitaire"
+    },
+    {
+      "page": "Rodrigues solitaire",
+      "url": "https://en.wikipedia.org/wiki/Rodrigues_solitaire",
+      "revision": 1369388467,
+      "section": "Extinction",
+      "passage": "The French astronomer Alexandre Guy Pingré did not encounter any solitaires when he visited Rodrigues to observe the 1761 transit of Venus, although he had been assured they survived. His friend, the French astronomer Pierre Charles Le Monnier named the constellation Turdus Solitarius after the bird to commemorate the journey. Although the Rodrigues solitaire is the only extinct bird to have a former constellation named for it, celestial mapmakers did not know what it looked like and star maps depicted other birds.",
+      "hatnote": "One of the last people to look for it was an astronomer.",
+      "onwardLinkText": "Turdus Solitarius",
+      "nextPage": "Turdus Solitarius"
+    },
+    {
+      "page": "Turdus Solitarius",
+      "url": "https://en.wikipedia.org/wiki/Turdus_Solitarius",
+      "revision": 1328172701,
+      "section": "lead",
+      "passage": "It was replaced by another constellation, Noctua (the Owl), in A Celestial Atlas (1822) by the British amateur astronomer Alexander Jamieson, but neither was adopted by the International Astronomical Union among its 88 recognized constellations.",
+      "hatnote": "The bird's constellation didn't last either.",
+      "onwardLinkText": null,
+      "nextPage": "Turdus Solitarius"
+    },
+    {
+      "page": "Turdus Solitarius",
+      "url": "https://en.wikipedia.org/wiki/Turdus_Solitarius",
+      "revision": 1328172701,
+      "section": "lead",
+      "passage": "The IAU Working Group on Star Names approved the name Solitaire for the star E Hydrae in 2024, after the obsolete constellation.",
+      "hatnote": "But the sky hadn't quite forgotten.",
+      "onwardLinkText": null,
+      "nextPage": "Turdus Solitarius"
+    }
+  ],
+  "payoff": "An astronomer chasing Venus missed the last solitaires, so the bird went into the sky instead, and in 2024 a real star took its name.",
+  "caveats": []
+}

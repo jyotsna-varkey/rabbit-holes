@@ -10,7 +10,7 @@ test('home shows the stack and nothing extra', async ({ page }) => {
 });
 
 test('the ending offers exactly three options and no other ways out', async ({ page }) => {
-  await page.goto('/?hole=coffee-insurance');
+  await page.goto('/?hole=tutankhamun-noblecourt-amada-rails');
   await enterTopHole(page);
   for (const label of ['2 / 4', '3 / 4', '4 / 4', 'Cited']) {
     await page.keyboard.press('ArrowDown');

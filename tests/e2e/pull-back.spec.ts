@@ -3,17 +3,17 @@ import { enterTopHole, pullKnot } from './helpers';
 
 // PLAN step 25: the same knot goes both ways. Drag up = next page, drag down = previous.
 test('dragging the knot down goes back a page', async ({ page }) => {
-  await page.goto('/?hole=coffee-insurance');
+  await page.goto('/?hole=tutankhamun-noblecourt-amada-rails');
   await enterTopHole(page);
   await pullKnot(page);
   await expect(page.locator('.bar-count')).toHaveText('2 / 4');
   await pullKnot(page, -40);
   await expect(page.locator('.bar-count')).toHaveText('1 / 4');
-  await expect(page.getByText("It started as a monk's way to stay up for night prayers.").first()).toBeInViewport();
+  await expect(page.getByText("Tutankhamun's treasures first toured thanks to the end of a war.").first()).toBeInViewport();
 });
 
 test('from the ending, the knot is still there and pulls back to the last page', async ({ page }, info) => {
-  await page.goto('/?hole=coffee-insurance');
+  await page.goto('/?hole=tutankhamun-noblecourt-amada-rails');
   await enterTopHole(page);
   for (const label of ['2 / 4', '3 / 4', '4 / 4', 'Cited']) {
     await page.keyboard.press('ArrowDown');
@@ -25,13 +25,13 @@ test('from the ending, the knot is still there and pulls back to the last page',
   await page.screenshot({ path: `screenshots/e2e-ending-knot-${info.project.name}.png` });
   await pullKnot(page, -40);
   await expect(page.locator('.bar-count')).toHaveText('4 / 4');
-  await expect(page.getByText('In London, the coffeehouse became the office.').first()).toBeInViewport();
+  await expect(page.getByText('The plan: put the whole painted temple on rails and push it uphill.').first()).toBeInViewport();
 });
 
 // PLAN step 33 (owner-approved): replaces "…goes back to the stack". There's
 // no page before the first one, so the knot just gives a little and settles.
 test('dragging the knot down on the first page just bounces', async ({ page }) => {
-  await page.goto('/?hole=coffee-insurance');
+  await page.goto('/?hole=tutankhamun-noblecourt-amada-rails');
   await enterTopHole(page);
   await pullKnot(page, -120);
   await page.waitForTimeout(500);

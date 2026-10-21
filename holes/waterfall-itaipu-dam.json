@@ -1,0 +1,82 @@
+{
+  "id": "waterfall-itaipu-dam",
+  "claim": "In 1982, one of Earth's mightiest waterfalls vanished in just fourteen days.",
+  "start": {
+    "title": "Waterfall",
+    "page": "Waterfall",
+    "description": "Point in a river or brook where water flows over a vertical drop",
+    "image": "snapshots/images/Waterfall.webp"
+  },
+  "end": {
+    "title": "Itaipu Dam",
+    "page": "Itaipu Dam",
+    "description": "Dam along the Brazil–Paraguay border",
+    "image": "snapshots/images/Itaipu-Dam.webp"
+  },
+  "knots": [
+    {
+      "page": "Waterfall",
+      "url": "https://en.wikipedia.org/wiki/Waterfall",
+      "revision": 1380098311,
+      "section": "Development and tourism",
+      "passage": "Human development has also threatened many waterfalls. For instance, the Guaíra Falls, once one of the most powerful waterfalls in the world, were submerged in 1982 by a human-made dam, as were the Ripon Falls in 1952.",
+      "hatnote": "Waterfalls seem permanent. Some are not.",
+      "onwardLinkText": "Guaíra Falls",
+      "nextPage": "Guaíra Falls"
+    },
+    {
+      "page": "Guaíra Falls",
+      "url": "https://en.wikipedia.org/wiki/Gua%C3%ADra_Falls",
+      "revision": 1380176242,
+      "section": "lead",
+      "passage": "The falls were located at a point where the Paraná River was forced through a narrow gorge. At the head of the falls, the river narrowed sharply from a width of about 380 m (1,250 ft) to 60 m (200 ft). The total height of the falls was approximately 114 m (375 ft), while the largest individual cataract was 40 m (130 ft) high. The roar of the plunging water could be heard from 30 km (20 mi) away.",
+      "hatnote": "This was no ordinary waterfall.",
+      "onwardLinkText": null,
+      "nextPage": "Guaíra Falls"
+    },
+    {
+      "page": "Guaíra Falls",
+      "url": "https://en.wikipedia.org/wiki/Gua%C3%ADra_Falls",
+      "revision": 1380176242,
+      "section": "Submergence",
+      "passage": "As construction of the Itaipu Dam progressed, thousands of visitors flocked to the area to see the falls before they disappeared forever. Disaster struck on January 17, 1982, when a suspended footbridge affording access to a particularly spectacular view of the falls collapsed, killing dozens of tourists.",
+      "hatnote": "When people learned it would disappear, they came to say goodbye.",
+      "onwardLinkText": null,
+      "nextPage": "Guaíra Falls"
+    },
+    {
+      "page": "Guaíra Falls",
+      "url": "https://en.wikipedia.org/wiki/Gua%C3%ADra_Falls",
+      "revision": 1380176242,
+      "section": "Submergence",
+      "passage": "Earlier, as the waters began to rise, a demonstration took place, as hundreds of people gathered to participate in a quarup, an indigenous ritual of remembrance for the dead, in memory of the falls. The inundation took only 14 days, occurring during the rainy season when the level of the Paraná River was high. On October 27, 1982, the falls had vanished as the reservoir was fully formed and with only part of the rock face visible during years of drought.",
+      "hatnote": "Others came to mourn it like a person.",
+      "onwardLinkText": null,
+      "nextPage": "Guaíra Falls"
+    },
+    {
+      "page": "Guaíra Falls",
+      "url": "https://en.wikipedia.org/wiki/Gua%C3%ADra_Falls",
+      "revision": 1380176242,
+      "section": "Submergence",
+      "passage": "A tourist attraction and a favorite of locals, the falls were completely submerged under the artificial lake created by the Itaipu Dam upon its completion in 1982.",
+      "hatnote": "What swallowed it was the lake behind a single new dam.",
+      "onwardLinkText": "Itaipu Dam",
+      "nextPage": "Itaipu Dam"
+    },
+    {
+      "page": "Itaipu Dam",
+      "url": "https://en.wikipedia.org/wiki/Itaipu_Dam",
+      "revision": 1379972505,
+      "section": "Ecological legacy",
+      "passage": "The Guaíra Falls was an effective barrier that separated freshwater species in the upper Paraná basin (with its many endemics) from species found below it, and the two are recognized as different ecoregions. After the falls disappeared, many species formerly restricted to one of these areas have been able to invade the other, causing problems typically associated with introduced species. For example, more than 30 fish species that formerly were restricted to the region below the falls have been able to invade the region above.",
+      "hatnote": "The falls had been holding back more than water.",
+      "onwardLinkText": null,
+      "nextPage": "Itaipu Dam"
+    }
+  ],
+  "payoff": "Drowning the falls didn't just end a view: it pulled down a wall that had kept two worlds of fish apart.",
+  "caveats": [
+    "The Itaipu page gives 80 deaths in the bridge collapse; the Guaíra page says 'dozens'."
+  ]
+}

@@ -1,5 +1,3 @@
-import manifestJson from '../../holes/snapshots/manifest.json';
-
 // Holes are hand-authored JSON in /holes (schema in SPEC.md). Everything the
 // app shows ships with it: page snapshots and images live in /holes/snapshots.
 
@@ -54,16 +52,62 @@ export type PageInfo = {
   image: { file: string; width: number; height: number; credit: ImageCredit | null } | null;
 };
 
-const holeFiles = import.meta.glob<Hole>('../../holes/*.json', { eager: true, import: 'default' });
+/** What the home stack and the shelf need, without the passages (built by vite.config.ts). */
+export type Card = {
+  id: string;
+  claim: string;
+  start: Endpoint;
+  end: Endpoint;
+  /** Number of knots. */
+  knots: number;
+  /** Words in the passages and hatnotes, for the reading time. */
+  words: number;
+  /** Page of the first knot, warmed before the reader swipes in. */
+  firstPage: string;
+};
+
+const cardFiles = import.meta.glob<Card>('../../holes/*.json', { eager: true, query: '?card', import: 'default' });
+const holeFiles = import.meta.glob<Hole>('../../holes/*.json', { import: 'default' });
 const pageHtml = import.meta.glob<string>('../../holes/snapshots/pages/*.html', { query: '?raw', import: 'default' });
 
 // Sorted by id for a stable list; the stack shuffles its own order (src/lib/order.ts).
-export const holes = Object.values(holeFiles).sort((a, b) => a.id.localeCompare(b.id));
-export const pages = manifestJson.pages as unknown as Record<string, PageInfo>;
+export const cards = Object.values(cardFiles).sort((a, b) => a.id.localeCompare(b.id));
+
+// The page manifest in two parts: what the home cards need (each page's URL and
+// lead image with its credit) loads up front; the rest (descriptions, revisions,
+// passage anchors) loads with the first hole that's opened.
+type Manifest = { pages: Record<string, PageInfo> };
+const cardManifest = Object.values(
+  import.meta.glob<Manifest>('../../holes/snapshots/manifest.json', { eager: true, query: '?card', import: 'default' }),
+)[0];
+let fullPages: Record<string, PageInfo> | null = null;
+let pagesLoading: Promise<void> | null = null;
+const loadPages = () =>
+  (pagesLoading ??= import('../../holes/snapshots/manifest.json').then((m) => {
+    fullPages = (m.default as unknown as Manifest).pages;
+  }));
 
 export const keyOf = (title: string) => title.replace(/[^A-Za-z0-9]+/g, '-').replace(/^-|-$/g, '');
-export const pageOf = (title: string) => pages[keyOf(title)];
-export const holeById = (id: string) => holes.find((h) => h.id === id)!;
+// Inside a hole the full manifest has always loaded (loadHole waits for it); on the
+// home cards only url and image are read.
+export const pageOf = (title: string) => (fullPages ?? cardManifest.pages)[keyOf(title)];
+export const cardById = (id: string) => cards.find((h) => h.id === id)!;
+
+// A hole's passages load the first time it's needed (and are kept).
+const holeCache = new Map<string, Promise<Hole>>();
+const loadedHoles = new Map<string, Hole>();
+export function loadHole(id: string) {
+  let p = holeCache.get(id);
+  if (!p) {
+    const load = holeFiles[`../../holes/${id}.json`];
+    p = load ? Promise.all([load(), loadPages()]).then(([h]) => h) : Promise.reject(new Error(`No hole ${id}`));
+    holeCache.set(id, p);
+    p.then((h) => loadedHoles.set(id, h), () => holeCache.delete(id));
+  }
+  return p;
+}
+/** The hole, if it has already loaded. */
+export const loadedHole = (id: string) => loadedHoles.get(id);
 
 /**
  * URL of an image under /holes ("snapshots/images/…"). holes/snapshots/images is
@@ -101,13 +145,12 @@ export function passageUrl(k: Knot) {
 }
 
 /** "about M min": reading time for passages and hatnotes plus time to pull each knot. */
-export function minutesFor(hole: Hole) {
-  const words = hole.knots.reduce((n, k) => n + `${k.passage} ${k.hatnote}`.split(/\s+/).length, 0);
-  return Math.max(1, Math.round(words / 180 + hole.knots.length * 0.5));
+export function minutesFor(card: Card) {
+  return Math.max(1, Math.round(card.words / 180 + card.knots * 0.5));
 }
 
-export const citationRange = (hole: Hole) =>
-  hole.knots.length === 1 ? '[1]' : `[1–${hole.knots.length}]`;
+/** "[1–N]" for a hole with N knots. */
+export const citationRange = (knots: number) => (knots === 1 ? '[1]' : `[1–${knots}]`);
 
 const htmlCache = new Map<string, Promise<string>>();
 export function loadArticle(page: string) {

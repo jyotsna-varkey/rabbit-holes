@@ -1,0 +1,82 @@
+{
+  "id": "dam-bazacle-shares",
+  "claim": "Shareholders in a medieval French weir were paid in flour until 1840.",
+  "start": {
+    "title": "Dam",
+    "page": "Dam",
+    "description": "Barrier that stops or slows the flow of water",
+    "image": "snapshots/images/Dam.webp"
+  },
+  "end": {
+    "title": "Bazacle Milling Company",
+    "page": "Bazacle Milling Company",
+    "description": "Watermill system in Toulouse, France",
+    "image": "snapshots/images/Bazacle-Milling-Company.webp"
+  },
+  "knots": [
+    {
+      "page": "Dam",
+      "url": "https://en.wikipedia.org/wiki/Dam",
+      "revision": 1380501957,
+      "section": "Post-classical Asia and Middle Ages",
+      "passage": "In Europe, dams were used to power water wheels for milling and mining. An early example was Bazacle weir built around 1170 CE in France.",
+      "hatnote": "Medieval dams were mostly about one thing: power for mills.",
+      "onwardLinkText": "Bazacle weir",
+      "nextPage": "Bazacle"
+    },
+    {
+      "page": "Bazacle",
+      "url": "https://en.wikipedia.org/wiki/Bazacle",
+      "revision": 1366169466,
+      "section": "lead",
+      "passage": "In 1190, with the permission of comte Raymond V of Toulouse, a sort of dam, the chaussée, and adjacent mills were built. These mills were cited by Rabelais in the sixteenth century as being the most powerful in the world.",
+      "hatnote": "Toulouse's weir drove some famous mills.",
+      "onwardLinkText": null,
+      "nextPage": "Bazacle"
+    },
+    {
+      "page": "Bazacle",
+      "url": "https://en.wikipedia.org/wiki/Bazacle",
+      "revision": 1366169466,
+      "section": "lead",
+      "passage": "In about 1250, the original undertaking was underwritten by a group of local seigneurs, who shared the profits according to the number of shares they possessed. The shares of this society (the Société des Moulins du Bazacle, or Bazacle Milling Company) came to be traded on the open market in Toulouse and their value fluctuated according to the profitability of the mills. The company survived until 1946 when it was nationalized and is sometimes claimed as the earliest example of a Joint-stock company.",
+      "hatnote": "Keeping a dam standing was expensive, so the owners pooled money.",
+      "onwardLinkText": "Bazacle Milling Company",
+      "nextPage": "Bazacle Milling Company"
+    },
+    {
+      "page": "Bazacle Milling Company",
+      "url": "https://en.wikipedia.org/wiki/Bazacle_Milling_Company",
+      "revision": 1369812893,
+      "section": "Operation",
+      "passage": "In order to raise the capital needed for the construction of these dams, the millers formed a company to which they entrusted their savings, in return for which they received notarized papers attesting to their investments. These notarial papers were called uchaux. They were anonymous, as are the stocks of current limited companies, so they could pass from hand to hand quickly, and ownership of three companies operating the dams was eventually transferred from the millers to the Toulouse bourgeoisie, who were eager for good investments.",
+      "hatnote": "Their share certificates worked surprisingly like modern stock.",
+      "onwardLinkText": null,
+      "nextPage": "Bazacle Milling Company"
+    },
+    {
+      "page": "Bazacle Milling Company",
+      "url": "https://en.wikipedia.org/wiki/Bazacle_Milling_Company",
+      "revision": 1369812893,
+      "section": "Operation",
+      "passage": "The dividend, paid in kind, was equivalent to 120,000 pounds of flour per year in 1771. It was not paid in cash until 1840, with the appearance of the Société Anonyme du Moulin du Bazacle.",
+      "hatnote": "But the payouts were very medieval.",
+      "onwardLinkText": null,
+      "nextPage": "Bazacle Milling Company"
+    },
+    {
+      "page": "Bazacle Milling Company",
+      "url": "https://en.wikipedia.org/wiki/Bazacle_Milling_Company",
+      "revision": 1369812893,
+      "section": "Modern history",
+      "passage": "In 1886, it converted into of one of the first hydroelectric plants in France and took the name of the Toulouse Electricity Company.",
+      "hatnote": "And the company outlived the mills themselves.",
+      "onwardLinkText": null,
+      "nextPage": "Bazacle Milling Company"
+    }
+  ],
+  "payoff": "Shares in a 12th-century Toulouse weir traded for some 700 years, paid out in flour, and the company ended up making electricity.",
+  "caveats": [
+    "The 'first joint-stock company' title is described as a claim ('sometimes claimed'); dates for the founding vary (c. 1190 dam, c. 1250 shares)."
+  ]
+}

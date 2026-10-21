@@ -1,0 +1,72 @@
+{
+  "id": "lock-portsmouth-block-mills",
+  "claim": "An 'unpickable' lock was so precise it helped start mass production.",
+  "start": {
+    "title": "Lock and key",
+    "page": "Lock and key",
+    "description": "Mechanical or electronic fastening device",
+    "image": "snapshots/images/Lock-and-key.webp"
+  },
+  "end": {
+    "title": "Portsmouth Block Mills",
+    "page": "Portsmouth Block Mills",
+    "description": "Building in Portsmouth, Hampshire, England",
+    "image": "snapshots/images/Portsmouth-Block-Mills.webp"
+  },
+  "knots": [
+    {
+      "page": "Lock and key",
+      "url": "https://en.wikipedia.org/wiki/Lock_and_key",
+      "revision": 1371096227,
+      "section": "Modern locks",
+      "passage": "The designs of Barron and Chubb were based on the use of movable levers, but Joseph Bramah, a prolific inventor, developed an alternative method in 1784. His lock used a cylindrical key with precise notches along the surface; these moved the metal slides that impeded the turning of the bolt into an exact alignment, allowing the lock to open. The lock was at the limits of the precision manufacturing capabilities of the time and was said by its inventor to be unpickable.",
+      "hatnote": "In 1784 a London cabinet-maker built a lock nobody could pick.",
+      "onwardLinkText": "Joseph Bramah",
+      "nextPage": "Joseph Bramah"
+    },
+    {
+      "page": "Joseph Bramah",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Bramah",
+      "revision": 1372029674,
+      "section": "Machine tools",
+      "passage": "Partly due to the precision requirements of his locks, Bramah spent much time developing machine tools to assist manufacturing processes. He relied heavily on the expertise of Henry Maudslay whom he employed in his workshop from the age of 18. Between them they created a number of innovative machines that made the production of Bramah's locks more efficient, and were applicable to other fields of manufacture.",
+      "hatnote": "Too precise to make by hand, so someone had to build machines.",
+      "onwardLinkText": "Henry Maudslay",
+      "nextPage": "Henry Maudslay"
+    },
+    {
+      "page": "Henry Maudslay",
+      "url": "https://en.wikipedia.org/wiki/Henry_Maudslay",
+      "revision": 1341785022,
+      "section": "Screw cutting lathe",
+      "passage": "Maudslay developed the first industrially practical screw-cutting lathe in 1800, allowing standardisation of screw thread sizes for the first time. This allowed the concept of interchangeable parts (an idea that was already taking hold) to be practically applied to nuts and bolts.",
+      "hatnote": "The lock-maker's teenage assistant went on to standardise the screw.",
+      "onwardLinkText": null,
+      "nextPage": "Henry Maudslay"
+    },
+    {
+      "page": "Henry Maudslay",
+      "url": "https://en.wikipedia.org/wiki/Henry_Maudslay",
+      "revision": 1341785022,
+      "section": "Block making machines",
+      "passage": "Following earlier work by Samuel Bentham, his first major commission was to build a series of 42 woodworking machines to produce wooden rigging blocks (each ship required thousands) for the Navy under Sir Marc Isambard Brunel. The machines were installed in the purpose-built Portsmouth Block Mills, which still survive, including some of the original machinery. The machines were capable of making 130,000 ships' blocks a year, needing only ten unskilled men to operate them compared with the 110 skilled workers needed before their installation.",
+      "hatnote": "Then the Royal Navy came calling, with a war on.",
+      "onwardLinkText": "Portsmouth Block Mills",
+      "nextPage": "Portsmouth Block Mills"
+    },
+    {
+      "page": "Portsmouth Block Mills",
+      "url": "https://en.wikipedia.org/wiki/Portsmouth_Block_Mills",
+      "revision": 1377557319,
+      "section": "lead",
+      "passage": "The Portsmouth Block Mills form part of the Portsmouth Dockyard at Portsmouth, Hampshire, England, and were built during the Napoleonic Wars to supply the British Royal Navy with pulley blocks. They started the age of mass-production using all-metal machine tools (designed chiefly by Marc Isambard Brunel), and are regarded as one of the seminal buildings of the British Industrial Revolution.",
+      "hatnote": "Those mills, history now says, began something much bigger.",
+      "onwardLinkText": null,
+      "nextPage": "Portsmouth Block Mills"
+    }
+  ],
+  "payoff": "A lock too precise to make by hand pushed its maker into machine tools, and his young mechanic's machines helped start mass production.",
+  "caveats": [
+    "The Henry Maudslay page says the challenge lock resisted picking for 47 years; the Bramah lock page says over 67 years. Neither figure is used in the passages."
+  ]
+}

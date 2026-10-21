@@ -1,0 +1,53 @@
+{
+  "id": "nutmeg-treaty-of-breda",
+  "claim": "Was New York really traded for a nutmeg island?",
+  "start": {
+    "title": "Nutmeg",
+    "page": "Nutmeg",
+    "description": "Spice from tree seed",
+    "image": "snapshots/images/Nutmeg.webp"
+  },
+  "end": {
+    "title": "Treaty of Breda (1667)",
+    "page": "Treaty of Breda (1667)",
+    "description": "Peace ending the Second Anglo-Dutch War",
+    "image": "snapshots/images/Treaty-of-Breda-1667.webp"
+  },
+  "knots": [
+    {
+      "page": "Nutmeg",
+      "url": "https://en.wikipedia.org/wiki/Nutmeg",
+      "revision": 1375616977,
+      "section": "Colonial era",
+      "passage": "In order to obtain a monopoly on the production and trade of nutmeg, the Dutch East India Company (VOC) waged a bloody battle with the Bandanese in 1621. Historian Willard Hanna estimated that before this struggle the islands were populated by approximately 15,000 people, and only 1,000 were left (the Bandanese were killed, starved while fleeing, exiled, or sold as slaves). The Company constructed a comprehensive nutmeg plantation system on the islands during the 17th century. In later negotiations during the Treaty of Breda, the British ceded control of Run Island to the Dutch, in exchange for control of the island of New Amsterdam (modern day Manhattan). To quote the author of Nathaniels Nutmeg, \"Yet the stand he [Nathaniel Courthope] made on Run, was to reshape history on the other side of the world, and although his death robbed England of her nutmeg, it gave her the biggest of apples\".",
+      "hatnote": "The Dutch fought a brutal war over a spice.",
+      "onwardLinkText": "Run",
+      "nextPage": "Run (island)"
+    },
+    {
+      "page": "Run (island)",
+      "url": "https://en.wikipedia.org/wiki/Run_(island)",
+      "revision": 1364196348,
+      "section": "History",
+      "passage": "After the Second Anglo-Dutch War (1665–1667), England and the United Provinces of the Netherlands agreed in the Treaty of Breda to the status quo: the English kept the island of Manhattan, which the Duke of York (the future James II, brother of Charles II), had occupied in 1664, renaming the city on that island from New Amsterdam to New York. In return, Run was formally abandoned to the Dutch. In describing these events, Giles Milton is quoted in his novel Nathaniel's Nutmeg, in reference to Captain Nathaniel Courthope: \"Yet the stand that he made on Run was to reshape history on the other side of the world, and although his death robbed England of her nutmeg, it gave her the biggest of apples\".",
+      "hatnote": "How did the small island enter the colonial negotiations?",
+      "onwardLinkText": "Treaty of Breda",
+      "nextPage": "Treaty of Breda (1667)"
+    },
+    {
+      "page": "Treaty of Breda (1667)",
+      "url": "https://en.wikipedia.org/wiki/Treaty_of_Breda_(1667)",
+      "revision": 1367904118,
+      "section": "Terms",
+      "passage": "Article 1 of the treaty stipulated a limited military alliance, obliging fleets or single ships sailing on the same course to defend each other against a third party. Article 3 established the principle of uti possidetis, or \"what you have, you hold\", with an effective date of 20 May. The Dutch kept Surinam, now part of modern Suriname, Fort Cormantin and Run while the English kept New Netherland, which was subsequently divided into the colonies of New York, New Jersey, Pennsylvania, Massachusetts, Connecticut and Delaware.",
+      "hatnote": "Does the treaty support the neat one-island-for-one-city version?",
+      "onwardLinkText": null,
+      "nextPage": "Treaty of Breda (1667)"
+    }
+  ],
+  "payoff": "England gave up a nutmeg island and kept Manhattan, though the treaty simply let each side keep what it held.",
+  "caveats": [
+    "From Rabbit Hole Studio (GPT), rh-035, rank 89; hook is GPT's, hatnotes/payoff drafted by Claude.",
+    "Overlaps nutmeg-dutch-conquest-of-the-banda-islands (Nutmeg, the Banda conquest)."
+  ]
+}

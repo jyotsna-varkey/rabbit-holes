@@ -1,0 +1,82 @@
+{
+  "id": "volcano-false-dmitry",
+  "claim": "A volcano in Peru may have helped put an impostor on Russia's throne.",
+  "start": {
+    "title": "Volcano",
+    "page": "Volcano",
+    "description": "Rupture in a planet's crust where material escapes",
+    "image": "snapshots/images/Volcano.webp"
+  },
+  "end": {
+    "title": "False Dmitry I",
+    "page": "False Dmitry I",
+    "description": "Tsar of Russia from 1605 to 1606",
+    "image": "snapshots/images/False-Dmitry-I.webp"
+  },
+  "knots": [
+    {
+      "page": "Volcano",
+      "url": "https://en.wikipedia.org/wiki/Volcano",
+      "revision": 1380352685,
+      "section": "Hazards",
+      "passage": "Volcanic gases can reach the stratosphere, where they form sulfuric acid aerosols that can reflect solar radiation and lower surface temperatures significantly. Sulfur dioxide from the eruption of Huaynaputina may have caused the Russian famine of 1601–1603.",
+      "hatnote": "Big eruptions don't just bury towns. They can chill the planet.",
+      "onwardLinkText": "Russian famine of 1601–1603",
+      "nextPage": "Russian famine of 1601–1603"
+    },
+    {
+      "page": "Russian famine of 1601–1603",
+      "url": "https://en.wikipedia.org/wiki/Russian_famine_of_1601%E2%80%931603",
+      "revision": 1379091940,
+      "section": "lead",
+      "passage": "The Russian famine of 1601–1603, Russia's worst famine in terms of proportional effect on the population, killed perhaps two million people: about 30% of the Russian people. The famine compounded the Time of Troubles (1598–1613), when the Tsardom of Russia was unsettled politically and was later invaded (1605–1618) by the Polish–Lithuanian Commonwealth. The many deaths contributed to social disruption. The famine resulted from a volcanic winter, a series of worldwide record cold winters and crop disruption, which geologists in 2008 linked to the 1600 volcanic eruption of Huaynaputina in Peru.",
+      "hatnote": "Half a world away from Peru, Russia froze and starved.",
+      "onwardLinkText": "Time of Troubles",
+      "nextPage": "Time of Troubles"
+    },
+    {
+      "page": "Time of Troubles",
+      "url": "https://en.wikipedia.org/wiki/Time_of_Troubles",
+      "revision": 1377769151,
+      "section": "Background",
+      "passage": "Famine enveloped the country in 1602, followed by disease, claiming a third to two thirds of the population. Hunger riots, and the Khlopko rebellion of September 1603 also caused social instability. It was this famine and its consequences which served to hugely damage the image of Tsar Boris, which was worsened by the fact that the \"many people came to view the famine as a clear sign of God's anger with the Russian people and their ruler.\"",
+      "hatnote": "People didn't blame the weather. They blamed the tsar.",
+      "onwardLinkText": null,
+      "nextPage": "Time of Troubles"
+    },
+    {
+      "page": "Time of Troubles",
+      "url": "https://en.wikipedia.org/wiki/Time_of_Troubles",
+      "revision": 1377769151,
+      "section": "False Dmitry I",
+      "passage": "Conspiracies were rampant after Feodor's death. Rumors circulated that his younger brother, Dmitry, was still alive and in hiding (despite official accounts that he had been stabbed to death at an early age, by accident or by Godunov's order). Russia's political instability was exploited by several usurpers, known as False Dmitrys, who claimed to be the tsarevich (and heir to the tsardom). False Dmitry I appeared in the Polish–Lithuanian Commonwealth in 1603, claiming to be the heir to the Russian throne.",
+      "hatnote": "Tsar Feodor I had died heirless, and a shaken country craved a miracle.",
+      "onwardLinkText": "False Dmitry I",
+      "nextPage": "False Dmitry I"
+    },
+    {
+      "page": "False Dmitry I",
+      "url": "https://en.wikipedia.org/wiki/False_Dmitry_I",
+      "revision": 1376008793,
+      "section": "lead",
+      "passage": "Dmitry ascended to the throne after the deposition of Tsar Feodor II and ruled for 11 months before he was assassinated in the 1606 Moscow Uprising [ru] and replaced with Vasili Shuisky. Dmitry was a pretender who impersonated Dmitry of Uglich, a son of Ivan the Terrible, and his reign formed part of the Time of Troubles.",
+      "hatnote": "Incredibly, the impostor won.",
+      "onwardLinkText": null,
+      "nextPage": "False Dmitry I"
+    },
+    {
+      "page": "False Dmitry I",
+      "url": "https://en.wikipedia.org/wiki/False_Dmitry_I",
+      "revision": 1376008793,
+      "section": "Death",
+      "passage": "On the morning of 17 May 1606, ten days after Dmitry's marriage to Marina, huge numbers of boyars and commoners stormed the Kremlin. Dmitry tried to flee by jumping out a window, but fractured his leg in the fall. He fled to a bathhouse and tried to disappear within. But he was recognized and dragged out by the boyars, who killed him lest he successfully appeal to the crowd. His body was hacked to pieces, burned, and then the ashes fired from a cannon towards Poland.",
+      "hatnote": "It ended about as badly as a reign can.",
+      "onwardLinkText": null,
+      "nextPage": "False Dmitry I"
+    }
+  ],
+  "payoff": "If the link holds: Andean sulfur, a famine read as God's verdict on the tsar, and a fake prince riding the chaos to the Kremlin.",
+  "caveats": [
+    "The link between Huaynaputina and the famine is a 2008 hypothesis; the Volcano page says the eruption 'may have caused' it."
+  ]
+}

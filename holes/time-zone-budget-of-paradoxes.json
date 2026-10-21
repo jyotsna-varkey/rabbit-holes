@@ -1,0 +1,70 @@
+{
+  "id": "time-zone-budget-of-paradoxes",
+  "claim": "The first plan for world time zones was filed in a catalogue of cranks.",
+  "start": {
+    "title": "Time zone",
+    "page": "Time zone",
+    "description": "Area that observes a uniform standard time",
+    "image": "snapshots/images/Time-zone.webp"
+  },
+  "end": {
+    "title": "Augustus De Morgan",
+    "page": "Augustus De Morgan",
+    "description": "British mathematician and logician (1806–1871)",
+    "image": "snapshots/images/Augustus-De-Morgan.webp"
+  },
+  "knots": [
+    {
+      "page": "Time zone",
+      "url": "https://en.wikipedia.org/wiki/Time_zone",
+      "revision": 1380240509,
+      "section": "Worldwide time zones",
+      "passage": "Italian mathematician Quirico Filopanti introduced the idea of a worldwide system of time zones in his book Miranda!, published in 1858. He proposed 24 hourly time zones, which he called \"longitudinal days\", the first centred on the meridian of Rome. He also proposed a universal time to be used in astronomy and telegraphy. However, his book attracted no attention until long after his death.",
+      "hatnote": "Before Greenwich ruled the clocks, someone else drew the zones.",
+      "onwardLinkText": "Quirico Filopanti",
+      "nextPage": "Quirico Filopanti"
+    },
+    {
+      "page": "Quirico Filopanti",
+      "url": "https://en.wikipedia.org/wiki/Quirico_Filopanti",
+      "revision": 1371985903,
+      "section": "Biography",
+      "passage": "He participated in the political affairs of Italian unification, and during 1849 participated in the establishment of the Roman Republic. He was appointed secretary of the Assemblea Costituente (constituent assembly) and was the author of the Decreto Fondamentale (\"Fundamental Decree\"), which on 9 February 1849 declared the temporal government of the Pope forfeited and proclaimed the Republic.",
+      "hatnote": "Its author was a revolutionary who declared the Pope's government forfeit.",
+      "onwardLinkText": null,
+      "nextPage": "Quirico Filopanti"
+    },
+    {
+      "page": "Quirico Filopanti",
+      "url": "https://en.wikipedia.org/wiki/Quirico_Filopanti",
+      "revision": 1371985903,
+      "section": "Filopanti as paradoxer",
+      "passage": "Filopanti authored several books with peculiar titles, such as Cesar at the Rubicon (1847), On the Uses of Canvas in Hydraulics (1866), God Exists (1881), God is a Liberal (1880), Synopsis of the Geouranian Theory, or On Some Singular Relations Between the Earth and the Sky (1862). His book Miranda. A Book Divided Into Three Parts, Entitled Souls, Numbers, Stars, on the Neo-Christian Religion, London, 1858, was listed by Augustus De Morgan in his A Budget of Paradoxes.",
+      "hatnote": "So why did nobody notice his time zones?",
+      "onwardLinkText": "Augustus De Morgan",
+      "nextPage": "Augustus De Morgan"
+    },
+    {
+      "page": "Augustus De Morgan",
+      "url": "https://en.wikipedia.org/wiki/Augustus_De_Morgan",
+      "revision": 1377005691,
+      "section": "A Budget of Paradoxes",
+      "passage": "Published posthumously in 1872, A Budget of Paradoxes is a compilation of De Morgan's column of the same name for the Athenæum, consisting mostly book reviews and focusing on so-called paradoxers, also referred to as pseudomaths (a De Morgan neologism) and pseudoscientists.",
+      "hatnote": "De Morgan's 'Budget' was a famous collection of a very particular kind.",
+      "onwardLinkText": null,
+      "nextPage": "Augustus De Morgan"
+    },
+    {
+      "page": "Augustus De Morgan",
+      "url": "https://en.wikipedia.org/wiki/Augustus_De_Morgan",
+      "revision": 1377005691,
+      "section": "A Budget of Paradoxes",
+      "passage": "Among the many pseudoscientific ideas De Morgan discredits are Alfred Wilks Drayson's expanding Earth theory and Samuel Rowbotham's Zetetic Astronomy, or the flat Earth theory.",
+      "hatnote": "Filopanti's book kept famous company there.",
+      "onwardLinkText": null,
+      "nextPage": "Augustus De Morgan"
+    }
+  ],
+  "payoff": "The world's time zones were first sketched inside a book on souls and a new religion, then shelved next to the flat-Earthers.",
+  "caveats": []
+}

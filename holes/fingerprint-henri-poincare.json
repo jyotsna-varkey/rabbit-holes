@@ -1,0 +1,70 @@
+{
+  "id": "fingerprint-henri-poincare",
+  "claim": "The man who first caught a killer by fingerprint also helped jail Dreyfus.",
+  "start": {
+    "title": "Fingerprint",
+    "page": "Fingerprint",
+    "description": "Biometric identifier",
+    "image": "snapshots/images/Fingerprint.webp"
+  },
+  "end": {
+    "title": "Henri Poincaré",
+    "page": "Henri Poincaré",
+    "description": "French mathematician, physicist and engineer (1854–1912)",
+    "image": "snapshots/images/Henri-Poincar.webp"
+  },
+  "knots": [
+    {
+      "page": "Fingerprint",
+      "url": "https://en.wikipedia.org/wiki/Fingerprint",
+      "revision": 1368560109,
+      "section": "20th century",
+      "passage": "The Scheffer case of 1902 is the first case of the identification, arrest, and conviction of a murderer based upon fingerprint evidence. Alphonse Bertillon identified the thief and murderer Scheffer, who had previously been arrested and his fingerprints filed some months before, from the fingerprints found on a fractured glass showcase, after a theft in a dentist's apartment where the dentist's employee was found dead. It was able to be proved in court that the fingerprints had been made after the showcase was broken.",
+      "hatnote": "Paris, 1902: a dead servant, a broken glass case, and a set of prints.",
+      "onwardLinkText": "Alphonse Bertillon",
+      "nextPage": "Alphonse Bertillon"
+    },
+    {
+      "page": "Alphonse Bertillon",
+      "url": "https://en.wikipedia.org/wiki/Alphonse_Bertillon",
+      "revision": 1378282145,
+      "section": "Bertillon and the Dreyfus affair",
+      "passage": "Alphonse Bertillon was a witness for the prosecution in the Dreyfus affair in 1894 and again in 1899. He testified as a handwriting expert and claimed that Alfred Dreyfus had written the incriminating document (known as the \"bordereau\"). However, he was not a handwriting expert, and his convoluted and flawed evidence was a significant contributing factor to one of the most infamous miscarriages of justice — the condemnation of the innocent Dreyfus to life imprisonment on Devil's Island.",
+      "hatnote": "But eight years earlier, the same detective had stepped into a very different case.",
+      "onwardLinkText": null,
+      "nextPage": "Alphonse Bertillon"
+    },
+    {
+      "page": "Alphonse Bertillon",
+      "url": "https://en.wikipedia.org/wiki/Alphonse_Bertillon",
+      "revision": 1378282145,
+      "section": "Bertillon and the Dreyfus affair",
+      "passage": "Using a complex system of measurements, he attempted to prove that Dreyfus had disguised his handwriting by imitating his own handwriting as if someone else was doing so, so that if anyone thought the bordereau was in Dreyfus's hand, he would be able to say that someone else had forged his writing. Both courts martial evidently accepted this, and Dreyfus was convicted. The verdict of the second court martial caused a huge scandal, and it was eventually overturned.",
+      "hatnote": "His 'proof' was as strange as it sounds.",
+      "onwardLinkText": null,
+      "nextPage": "Alphonse Bertillon"
+    },
+    {
+      "page": "Alphonse Bertillon",
+      "url": "https://en.wikipedia.org/wiki/Alphonse_Bertillon",
+      "revision": 1378282145,
+      "section": "Bertillon and the Dreyfus affair",
+      "passage": "Bertillon claimed that his graphological system was based on mathematical probability calculus. A later analysis undertaken in 1904 by three renowned mathematicians, Henri Poincaré, Jean Gaston Darboux, and Paul Émile Appell, concluded that Bertillon's system was devoid of any scientific value and that he had failed both to apply the method and to present his data properly. With this key evidence against Dreyfus debunked, he was finally acquitted in 1906.",
+      "hatnote": "It took France's greatest mathematicians to take it apart.",
+      "onwardLinkText": "Henri Poincaré",
+      "nextPage": "Henri Poincaré"
+    },
+    {
+      "page": "Henri Poincaré",
+      "url": "https://en.wikipedia.org/wiki/Henri_Poincar%C3%A9",
+      "revision": 1379312708,
+      "section": "Career",
+      "passage": "Beginning in 1881 and for the rest of his career, he taught at the University of Paris (the Sorbonne). He was initially appointed as the maître de conférences d'analyse (associate professor of analysis). Eventually, he held the chairs of Physical and Experimental Mechanics, Mathematical Physics and Theory of Probability, and Celestial Mechanics and Astronomy.",
+      "hatnote": "Bertillon had dressed his case in probability. Look at what Poincaré taught.",
+      "onwardLinkText": null,
+      "nextPage": "Henri Poincaré"
+    }
+  ],
+  "payoff": "Bertillon gave forensics its first fingerprint conviction and helped condemn Dreyfus with fake probability, debunked by a professor of probability.",
+  "caveats": []
+}

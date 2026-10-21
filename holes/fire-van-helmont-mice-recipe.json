@@ -1,0 +1,70 @@
+{
+  "id": "fire-van-helmont-mice-recipe",
+  "claim": "The scientist who gave us the word 'gas' also wrote a recipe for mice.",
+  "start": {
+    "title": "Fire",
+    "page": "Fire",
+    "description": "Rapid and hot oxidation of a material",
+    "image": "snapshots/images/Fire.webp"
+  },
+  "end": {
+    "title": "Spontaneous generation",
+    "page": "Spontaneous generation",
+    "description": "Theory of life arising from non-living matter",
+    "image": "snapshots/images/Spontaneous-generation.webp"
+  },
+  "knots": [
+    {
+      "page": "Fire",
+      "url": "https://en.wikipedia.org/wiki/Fire",
+      "revision": 1375042500,
+      "section": "Later human control",
+      "passage": "During the 17th century, a study of combustion was made by Jan Baptist van Helmont who discovered that burning charcoal released a gas sylvestris, or wild spirit. This was subsequently incorporated into Phlogiston theory by Johann Joachim Becher in 1667 and more formally by Georg Ernst Stahl in 1697; a concept that would strongly influence alchemical thinking for nearly two centuries.",
+      "hatnote": "Explaining fire took chemists centuries of wrong turns.",
+      "onwardLinkText": "Jan Baptist van Helmont",
+      "nextPage": "Jan Baptist van Helmont"
+    },
+    {
+      "page": "Jan Baptist van Helmont",
+      "url": "https://en.wikipedia.org/wiki/Jan_Baptist_van_Helmont",
+      "revision": 1376368236,
+      "section": "Gases",
+      "passage": "Van Helmont is regarded as the founder of pneumatic chemistry, as he was the first to understand that there are gases distinct in kind from atmospheric air and furthermore invented the word \"gas\". He derived the word gas from the Greek word chaos (χᾰ́ος).",
+      "hatnote": "Van Helmont gave science a word you use every day.",
+      "onwardLinkText": null,
+      "nextPage": "Jan Baptist van Helmont"
+    },
+    {
+      "page": "Jan Baptist van Helmont",
+      "url": "https://en.wikipedia.org/wiki/Jan_Baptist_van_Helmont",
+      "revision": 1376368236,
+      "section": "Willow tree experiment",
+      "passage": "Helmont grew a willow tree and measured the amount of soil, the weight of the tree and the water he added. After five years the plant had gained about 164 lbs (74 kg). Since the amount of soil was nearly the same as it had been when he started his experiment (it lost only 57 grams), he deduced that the tree's weight gain had come entirely from water.",
+      "hatnote": "He was also a patient, careful experimenter.",
+      "onwardLinkText": null,
+      "nextPage": "Jan Baptist van Helmont"
+    },
+    {
+      "page": "Jan Baptist van Helmont",
+      "url": "https://en.wikipedia.org/wiki/Jan_Baptist_van_Helmont",
+      "revision": 1376368236,
+      "section": "Spontaneous generation",
+      "passage": "Van Helmont described a recipe for the spontaneous generation of mice (a piece of dirty cloth plus wheat for 21 days) and scorpions (basil, placed between two bricks and left in sunlight). His notes suggest he may have attempted to do these things.",
+      "hatnote": "Yet the same man wrote down something much stranger.",
+      "onwardLinkText": "spontaneous generation",
+      "nextPage": "Spontaneous generation"
+    },
+    {
+      "page": "Spontaneous generation",
+      "url": "https://en.wikipedia.org/wiki/Spontaneous_generation",
+      "revision": 1378985738,
+      "section": "Early tests",
+      "passage": "The ancient beliefs were subjected to testing. In 1668, the Italian physician and parasitologist Francesco Redi challenged the idea that maggots arose spontaneously from rotting meat. In the first major experiment to challenge spontaneous generation, he placed meat in a variety of sealed, open, and partially covered containers. Realizing that the sealed containers were deprived of air, he used \"fine Naples veil\", and observed no worms on the meat, but they appeared on the cloth.",
+      "hatnote": "Within a generation, someone tested such ideas properly.",
+      "onwardLinkText": null,
+      "nextPage": "Spontaneous generation"
+    }
+  ],
+  "payoff": "The father of 'gas' measured a willow for five years, yet believed dirty cloth and wheat could breed mice; Redi's veiled meat began the fightback.",
+  "caveats": []
+}

@@ -117,7 +117,7 @@ export const Ending = forwardRef<EndingHandle, Props>(function Ending(
           {hole.claim}
           <span className="cite-swap">
             <sup className="cn">[<i>citation needed</i>]</sup>
-            <sup className="cited">{citationRange(hole)}</sup>
+            <sup className="cited">{citationRange(hole.knots.length)}</sup>
           </span>
         </h1>
         <p className="end-payoff">{hole.payoff}</p>

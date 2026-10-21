@@ -2,7 +2,7 @@ import { expect, test } from '@playwright/test';
 
 // PLAN step 27: swiping right carries straight on into the page.
 test('the card does not spring back: the page starts growing right after release', async ({ page }) => {
-  await page.goto('/?hole=coffee-insurance');
+  await page.goto('/?hole=tutankhamun-noblecourt-amada-rails');
   const card = page.locator('.slot-0 .stack-drag');
   const box = (await card.boundingBox())!;
   const y = box.y + box.height * 0.3;
@@ -19,7 +19,7 @@ test('the card does not spring back: the page starts growing right after release
 });
 
 test('the page stays sharp while it scrolls to the passage; the blur comes after', async ({ page }) => {
-  await page.goto('/?hole=coffee-insurance');
+  await page.goto('/?hole=tutankhamun-noblecourt-amada-rails');
   const box = (await page.locator('.slot-0 .card').boundingBox())!;
   await page.mouse.move(box.x + box.width / 2, box.y + 100);
   await page.mouse.down();

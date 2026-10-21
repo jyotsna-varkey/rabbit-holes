@@ -1,0 +1,80 @@
+{
+  "id": "iceberg-denman-glacier",
+  "claim": "Antarctica has an island that keeps vanishing, and explorers keep renaming it.",
+  "start": {
+    "title": "Iceberg",
+    "page": "Iceberg",
+    "description": "Large formation of floating ice",
+    "image": "snapshots/images/Iceberg.webp"
+  },
+  "end": {
+    "title": "Denman Glacier",
+    "page": "Denman Glacier",
+    "description": "Glacier in Queen Mary Land, Antarctica",
+    "image": "snapshots/images/Denman-Glacier.webp"
+  },
+  "knots": [
+    {
+      "page": "Iceberg",
+      "url": "https://en.wikipedia.org/wiki/Iceberg",
+      "revision": 1380730262,
+      "section": "Shape",
+      "passage": "This type of iceberg, also known as an ice island, can be quite large, as in the case of Pobeda Ice Island. Antarctic icebergs formed by breaking off from an ice shelf, such as the Ross Ice Shelf or Filchner–Ronne Ice Shelf, are typically tabular. The largest icebergs in the world are formed this way.",
+      "hatnote": "Flat-topped 'tabular' icebergs can grow big enough to pass for islands.",
+      "onwardLinkText": "Pobeda Ice Island",
+      "nextPage": "Pobeda Ice Island"
+    },
+    {
+      "page": "Pobeda Ice Island",
+      "url": "https://en.wikipedia.org/wiki/Pobeda_Ice_Island",
+      "revision": 1375780244,
+      "section": "History",
+      "passage": "At this position, an ice island was first sighted by the United States Exploring Expedition, led by Charles Wilkes, in February 1840. It prevented his westward passage around the Antarctic coast, and he named it Termination Land. Douglas Mawson later renamed the island Termination Ice Tongue when he encountered it on the 1911–1913 Australasian Antarctic Expedition. No island was noted however at that location, when he returned during his 1929–1931 BANZARE expedition.",
+      "hatnote": "Off East Antarctica, one keeps turning up at the same spot.",
+      "onwardLinkText": null,
+      "nextPage": "Pobeda Ice Island"
+    },
+    {
+      "page": "Pobeda Ice Island",
+      "url": "https://en.wikipedia.org/wiki/Pobeda_Ice_Island",
+      "revision": 1375780244,
+      "section": "History",
+      "passage": "A Soviet expedition came across the island in 1960 and renamed it again, this time as Pobeda Ice Island, named for Soviet victory over the Axis powers in the Great Patriotic War. They even established a temporary research station on the island, which existed between 9 May and 12 August 1960, alongside a few other stations named Mir on Drygalski Island and Druzhba on Zavadovsky Cupola, West Ice Shelf.",
+      "hatnote": "Then the Soviets found it again, gave it a third name, and moved in.",
+      "onwardLinkText": null,
+      "nextPage": "Pobeda Ice Island"
+    },
+    {
+      "page": "Pobeda Ice Island",
+      "url": "https://en.wikipedia.org/wiki/Pobeda_Ice_Island",
+      "revision": 1375780244,
+      "section": "History",
+      "passage": "Pobeda disappeared sometime in the 1970s, to be replaced by a new berg that calved in 1985. This too disappeared in 2003–2004. And, as of 2021, there was no ice island at this location.",
+      "hatnote": "And then, once more, it was gone.",
+      "onwardLinkText": null,
+      "nextPage": "Pobeda Ice Island"
+    },
+    {
+      "page": "Pobeda Ice Island",
+      "url": "https://en.wikipedia.org/wiki/Pobeda_Ice_Island",
+      "revision": 1375780244,
+      "section": "Periodic formation",
+      "passage": "It is created by the calving of an enormous block of ice from Denman Glacier, located in the eastern part of Shackleton Ice Shelf. The resulting tabular iceberg drifts northwest until it runs aground upon a shoal north of the ice shelf. The iceberg remains locked there in this position for a decade or more, until it has remodeled enough to free itself from the shoal. It then drifts into the open ocean, where it breaks into fragments. These iceberg fragments eventually melt as they drift into warmer waters. The floating tongue of the Denman Glacier, fed by ice from the interior of Antarctica, advances until a new large berg is calved about every 40 to 50 years.",
+      "hatnote": "The answer is a glacier that delivers islands on a schedule.",
+      "onwardLinkText": "Denman Glacier",
+      "nextPage": "Denman Glacier"
+    },
+    {
+      "page": "Denman Glacier",
+      "url": "https://en.wikipedia.org/wiki/Denman_Glacier",
+      "revision": 1375739970,
+      "section": "lead",
+      "passage": "The canyon under Denman Glacier has been found by the BedMachine Antarctica project (under the leadership of the University of California, Irvine) to be the deepest natural location on land (or at least not under liquid water) worldwide, with the bedrock being 3,500 m (11,500 ft) below sea level.",
+      "hatnote": "And the glacier itself is sitting on a record.",
+      "onwardLinkText": null,
+      "nextPage": "Denman Glacier"
+    }
+  ],
+  "payoff": "The vanishing island is a stranded iceberg, delivered every 40 to 50 years by a glacier sitting on the deepest point on land.",
+  "caveats": []
+}

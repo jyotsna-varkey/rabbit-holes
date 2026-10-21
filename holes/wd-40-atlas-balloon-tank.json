@@ -1,0 +1,70 @@
+{
+  "id": "wd-40-atlas-balloon-tank",
+  "claim": "WD-40 was invented to protect a rocket whose tanks were inspired by party balloons.",
+  "start": {
+    "title": "WD-40",
+    "page": "WD-40",
+    "description": "Lubricating oil and water displacement spray",
+    "image": "snapshots/images/WD-40.webp"
+  },
+  "end": {
+    "title": "Balloon tank",
+    "page": "Balloon tank",
+    "description": "Lightweight tank that needs to be pressurized to keep its shape",
+    "image": "snapshots/images/Balloon-tank.webp"
+  },
+  "knots": [
+    {
+      "page": "WD-40",
+      "url": "https://en.wikipedia.org/wiki/WD-40",
+      "revision": 1380955114,
+      "section": "History",
+      "passage": "\"WD-40\" is abbreviated from the term \"Water Displacement, 40th formula\"; the product was the result of the fortieth attempt at developing its formulation. The spray, composed of various hydrocarbons, was originally designed to be used by Convair to protect the outer skin of the Atlas missile from rust and corrosion. This outer skin also functioned as the outer wall of the missile's delicate balloon tanks.",
+      "hatnote": "The can in your garage started life at a missile factory.",
+      "onwardLinkText": "Atlas missile",
+      "nextPage": "SM-65 Atlas"
+    },
+    {
+      "page": "SM-65 Atlas",
+      "url": "https://en.wikipedia.org/wiki/SM-65_Atlas",
+      "revision": 1376713852,
+      "section": "Missile details",
+      "passage": "The lack of internal structure contributed to dozens of failed launches during its development. After watching Atlas Serial 7D explode shortly after its nighttime launch, Mercury astronaut Gus Grissom remarked \"Are we really going to get on top of one of those things?\" The numerous failures led to Atlas being dubbed an \"Inter County Ballistic Missile\" by missile technicians, but by 1965 most of the problems had been worked out and it became a more reliable launch vehicle.",
+      "hatnote": "The Atlas had almost no internal structure, and early launches showed it.",
+      "onwardLinkText": null,
+      "nextPage": "SM-65 Atlas"
+    },
+    {
+      "page": "SM-65 Atlas",
+      "url": "https://en.wikipedia.org/wiki/SM-65_Atlas",
+      "revision": 1376713852,
+      "section": "Pressure stabilized tanks",
+      "passage": "Atlas was unusual in its use of balloon tanks for the propellants, made of very thin stainless steel with minimal or no rigid support structures, as already pioneered by the Soviet R-5 first launched in 1953. Pressure in the tanks provides the structural rigidity required for flight. An Atlas rocket would collapse under its own weight if not kept pressurized, and had to have 5 psi (34 kPa) nitrogen in the tank even when not fueled.",
+      "hatnote": "Why no internal structure? Because the skin was the structure.",
+      "onwardLinkText": "balloon tanks",
+      "nextPage": "Balloon tank"
+    },
+    {
+      "page": "Balloon tank",
+      "url": "https://en.wikipedia.org/wiki/Balloon_tank",
+      "revision": 1349532639,
+      "section": "Design",
+      "passage": "Balloon tanks get their name from the cylindrical party balloons that inspired Karel Bossart, who designed both the Atlas and Centaur rockets for the U.S. Air Force and NASA. Constructed of very thin 301 extra-full-hard stainless steel 0.014–0.037 inch (0.3556–0.9398 mm) thick, prior to integration into the Atlas or Centaur rocket body the tanks are inflated with nitrogen to give them their shape and strength. As such, balloon tanks must always remain pressurized, as any appreciable drop in pressurization will result in failure.",
+      "hatnote": "The idea came from a children's party.",
+      "onwardLinkText": null,
+      "nextPage": "Balloon tank"
+    },
+    {
+      "page": "Balloon tank",
+      "url": "https://en.wikipedia.org/wiki/Balloon_tank",
+      "revision": 1349532639,
+      "section": "History",
+      "passage": "In May 1963 at Vandenberg Air Force Base an Atlas–Agena vehicle under static testing suffered a pressurization failure, leading to the total collapse of the vehicle that was scheduled to carry a KH-7 spy satellite. The Agena upper stage was repaired and used for later flight.",
+      "hatnote": "And like a balloon, it could simply go flat.",
+      "onwardLinkText": null,
+      "nextPage": "Balloon tank"
+    }
+  ],
+  "payoff": "WD-40 kept rust off a missile built like a party balloon: very thin steel that collapsed if it lost pressure.",
+  "caveats": []
+}

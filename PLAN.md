@@ -207,12 +207,30 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          on top. Tests: order.test.ts (3 new), stack-order.spec.ts "refresh
          keeps the same order"; the "opened hole goes behind" test now uses
          fresh tabs instead of reloads (owner-approved).
+- [x] 36. New content (owner, 2026-10-21): 132 holes. Deleted the original
+         four (coffee-insurance, sandwich-hawaii, coffee-haiti,
+         sandwich-copper-bottomed); kept the 20 reading-copy holes; added the
+         100 from the Claude library (~/Documents/rabbit_hole_library, ranked by
+         four judges) and the 12 GPT studio holes whose pages are joined by
+         real links (the other 88 aren't: owner chose to leave them out). All
+         snapshotted and verified by fetch-content.mjs. Hole text now loads on
+         demand: the stack gets each hole's card (claim, ends, knot and word
+         counts) from a Vite transform (holes/<id>.json?card) and a slim
+         manifest (manifest.json?card: credits + non-default URLs); a hole's
+         passages and the full manifest load when it opens, warmed for the top
+         card. Entry script back under the 250 KB test. Image budget test
+         raised 25 → 90 MB (owner-approved, until the weed-out). Browser tests
+         that used coffee-insurance now use tutankhamun-noblecourt-amada-rails
+         (owner-approved; same checks, new content). Review sheet for the
+         owner: HOLES_REVIEW.md, holes-review.csv.
 - [ ] 15. Cover the remaining [~] steps with tests: swipe left sends the card
          to the back (8); "Back to the thread" re-centres and blur returns (3);
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
-34, 35 done and live. Owner to decide: home card thread taut too? Then 29 (owner sets Supabase URLs), then 15. Open owner decisions are listed
+36 done (not deployed). Owner reviews the 132 holes in holes-review.csv
+(keep / edit / cut); then trim, tighten the image budget, redeploy. Still
+open: 29 (owner sets Supabase URLs), then 15. Open owner decisions are listed
 under "Handover" below.
 
 ## Handover (for a new session)
@@ -222,7 +240,7 @@ under "Handover" below.
   -- --workers=1`.
 - Local: `npm run dev -- --host` (phone: http://192.168.0.2:5173).
   Tests: `npm test` (500 unit/data), `npm run test:e2e` (102 browser).
-- Content: 24 holes in holes/*.json; import more from "Rabbit Holes — Reading
+- Content: 132 holes in holes/*.json (step 36); review sheet HOLES_REVIEW.md; import more from "Rabbit Holes — Reading
   Copy.txt" with `node scripts/import-holes.mjs "<txt>" 21-40`, then
   `node scripts/fetch-content.mjs`, then write claim/hatnotes/payoff.
 - Supabase: project rabbit-holes, id zqrfcmdhbdatrjooipif, org
@@ -365,7 +383,30 @@ under "Handover" below.
   and a span whose ends jump > 140px is reset, to stop leftover loops after a
   pull.
 
+- Content swap (owner, 2026-10-21): GPT studio holes are imported only when
+  every page jump is a real link inside the passage (12 of 100). Their hooks
+  are GPT's (questions, not claims); hatnotes/payoffs drafted by Claude.
+  Three needed a trailing paragraph dropped (the app's onward link must be in
+  the last passage on a page) and one 270-word Bic Cristal "paragraph" was
+  really three, now two single-paragraph knots.
+- Passages must match the page as the app reads it: superscripts dropped
+  ("km2" → "km"), interlanguage markers kept (" [ja]", " [ru]"), maths kept
+  as its text. The passage string is only for matching, counts and links; the
+  reader sees the snapshot.
+- Hole text loads on demand (step 36) rather than raising the 250 KB entry
+  budget (owner's choice). The card transform lives in vite.config.ts and
+  needs no Node types (it works on the file text Vite passes in).
+
 ## Known issues
+- GPT studio hooks are questions, so "[citation needed]" after them reads
+  oddly; Ballpoint pen and Bic Cristal cards show the same photo.
+- Overlapping trails (flagged in the review sheet): red-cactoblastis-cactorum
+  vs cactus-moth-memorial-hall; umbrella-chimney-sweepers-act vs
+  umbrella-chimney-sweep (and umbrella-thomas-coram); nutmeg-treaty-of-breda
+  vs nutmeg-dutch-conquest-of-the-banda-islands.
+- tea-wardian-case (667 words) and umbrella-chimney-sweepers-act (518) are
+  long: GPT used whole paragraphs.
+- Images 82 MB in the repo (budget 90 MB until the weed-out).
 - Copper sheathing "By 1781" sentence has no full stop on Wikipedia; the
   passage matches that exactly.
 - coffee-haiti no longer includes the Coffee page's sentence that
@@ -415,6 +456,7 @@ under "Handover" below.
   Safari; checked in Chrome with emulated touch.
 - iOS haptics use the iOS 18 switch-control workaround; untested on a device.
 
+
 ## Session log
 - 2026-10-08: Built the full prototype (all of the flow) in one pass, React +
   TypeScript; content pipeline verified 13 knots against live Wikipedia.
@@ -458,3 +500,7 @@ under "Handover" below.
   top left → end bottom right), pages as picture beads on one straight
   thread. 500 unit + 102 browser tests pass. Redeployed; 20 live checks
   pass (2 laptop-only skipped at phone size).
+- 2026-10-21: Step 36: 132 holes (100 Claude library + 12 linked GPT + 20 old;
+  original four deleted), hole text loads on demand, review sheet written.
+  2504 unit + 210 browser tests pass (all 132 holes played end to end).
+  Not deployed. Next: owner's keep/edit/cut pass.

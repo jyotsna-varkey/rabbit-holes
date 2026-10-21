@@ -1,0 +1,80 @@
+{
+  "id": "red-nika-riots",
+  "claim": "Chariot-racing fans in team colours once burned down the Hagia Sophia.",
+  "start": {
+    "title": "Red",
+    "page": "Red",
+    "description": "Primary color",
+    "image": "snapshots/images/Red.webp"
+  },
+  "end": {
+    "title": "Nika riots",
+    "page": "Nika riots",
+    "description": "532 Byzantine revolt against Justinian I",
+    "image": "snapshots/images/Nika-riots.webp"
+  },
+  "knots": [
+    {
+      "page": "Red",
+      "url": "https://en.wikipedia.org/wiki/Red",
+      "revision": 1373395219,
+      "section": "In sports",
+      "passage": "The first known team sport to feature red uniforms was chariot racing during the late Roman Empire. The earliest races were between two chariots, one driver wearing red, the other white. Later, the number of teams was increased to four, including drivers in light green and sky blue. Twenty-five races were run in a day, with a total of one hundred chariots participating.",
+      "hatnote": "Long before football shirts, there were racing colours.",
+      "onwardLinkText": "chariot racing",
+      "nextPage": "Chariot racing"
+    },
+    {
+      "page": "Chariot racing",
+      "url": "https://en.wikipedia.org/wiki/Chariot_racing",
+      "revision": 1379144986,
+      "section": "Factions",
+      "passage": "Tertullian claims that there were originally just two factions, White and Red, sacred to winter and summer respectively. By his time, there were four factions; the Reds were dedicated to Mars, the Whites to the Zephyrus, the Greens to Mother Earth or spring, and the Blues to the sky and sea or autumn.",
+      "hatnote": "The colours meant far more than team kits.",
+      "onwardLinkText": null,
+      "nextPage": "Chariot racing"
+    },
+    {
+      "page": "Chariot racing",
+      "url": "https://en.wikipedia.org/wiki/Chariot_racing",
+      "revision": 1379144986,
+      "section": "lead",
+      "passage": "In the Eastern Roman (Byzantine) Empire, the traditional Roman chariot-racing factions continued to play a prominent role in mass entertainment, religion and politics for several centuries. Supporters of the Blue teams vied with supporters of the Greens for control of foreign, domestic and religious policies, and imperial subsidies for themselves. Their displays of civil discontent and disobedience culminated in an indiscriminate slaughter of Byzantine citizenry by the military in the Nika riots.",
+      "hatnote": "In Constantinople, fandom became politics.",
+      "onwardLinkText": "Nika riots",
+      "nextPage": "Nika riots"
+    },
+    {
+      "page": "Nika riots",
+      "url": "https://en.wikipedia.org/wiki/Nika_riots",
+      "revision": 1372483923,
+      "section": "Background",
+      "passage": "The murderers were to be executed, and most of them were. However, on January 10, 532, two of them, a Blue and a Green, survived execution, as the scaffolding and wood broke on them. Hearing this, monks from the monastery of St. Conon took the two partisans across to the church of St. Laurence, where they were put under surveillance by the prefect's troops.",
+      "hatnote": "In 531 some Blue and Green fans were condemned for murder after a race riot.",
+      "onwardLinkText": null,
+      "nextPage": "Nika riots"
+    },
+    {
+      "page": "Nika riots",
+      "url": "https://en.wikipedia.org/wiki/Nika_riots",
+      "revision": 1372483923,
+      "section": "Riots",
+      "passage": "From the start, the crowd hurled insults at Justinian. By the end of the day, at race 22, the partisan chants had changed from \"Blue\" or \"Green\" to a unified Nίκα (\"Nika\", meaning \"Win!\", \"Victory!\" or \"Conquer!\"), and the crowds broke out and began to assault the palace. The riot lasted for a week. Fires started during the tumult destroyed much of the city, including the city's foremost church, the Hagia Sophia (which Justinian would later rebuild).",
+      "hatnote": "13 January 532, the Hippodrome: fans turned on Emperor Justinian, then did something unthinkable.",
+      "onwardLinkText": null,
+      "nextPage": "Nika riots"
+    },
+    {
+      "page": "Nika riots",
+      "url": "https://en.wikipedia.org/wiki/Nika_riots",
+      "revision": 1372483923,
+      "section": "Aftermath",
+      "passage": "According to the account of Procopius, around 30,000 people were killed, although many likely died as result of trampling in the chaos of the riot rather than at the hands of the soldiers.",
+      "hatnote": "The emperor survived. Many of the fans did not.",
+      "onwardLinkText": null,
+      "nextPage": "Nika riots"
+    }
+  ],
+  "payoff": "Blue and Green racing fans united under one chant; their riot burned the Hagia Sophia and left some 30,000 dead.",
+  "caveats": []
+}

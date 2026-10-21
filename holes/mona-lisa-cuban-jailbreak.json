@@ -1,0 +1,72 @@
+{
+  "id": "mona-lisa-cuban-jailbreak",
+  "claim": "The tale of six fake Mona Lisas came from a reporter who sawed through prison bars.",
+  "start": {
+    "title": "Mona Lisa",
+    "page": "Mona Lisa",
+    "description": "Painting by Leonardo da Vinci",
+    "image": "snapshots/images/Mona-Lisa.webp"
+  },
+  "end": {
+    "title": "Evangelina Cosio y Cisneros",
+    "page": "Evangelina Cosio y Cisneros",
+    "description": "Cuban rebel (1877–1970)",
+    "image": "snapshots/images/Evangelina-Cosio-y-Cisneros.webp"
+  },
+  "knots": [
+    {
+      "page": "Mona Lisa",
+      "url": "https://en.wikipedia.org/wiki/Mona_Lisa",
+      "revision": 1380368008,
+      "section": "1911 theft",
+      "passage": "A year after the theft, Saturday Evening Post journalist Karl Decker wrote that he met an alleged accomplice named Eduardo de Valfierno, who claimed to have masterminded the theft. Forger Yves Chaudron was to have created six copies of the painting to sell in the US while concealing the location of the original. Decker published this account of the theft in 1932.",
+      "hatnote": "Years after the 1911 theft, a magazine offered a far juicier version.",
+      "onwardLinkText": "Karl Decker",
+      "nextPage": "Karl Decker (journalist)"
+    },
+    {
+      "page": "Karl Decker (journalist)",
+      "url": "https://en.wikipedia.org/wiki/Karl_Decker_(journalist)",
+      "revision": 1372517630,
+      "section": "lead",
+      "passage": "Karl Decker, pen name Charles Duval, (died 1941, age 73) was a journalist in the United States who worked for William Randolph Hearst's New York Journal. He covered events leading up to the Spanish American War and helped Evangelina Cosio y Cisneros escape from a Spanish prison.",
+      "hatnote": "The man behind the scoop had a colourful past of his own.",
+      "onwardLinkText": "Evangelina Cosio y Cisneros",
+      "nextPage": "Evangelina Cosio y Cisneros"
+    },
+    {
+      "page": "Evangelina Cosio y Cisneros",
+      "url": "https://en.wikipedia.org/wiki/Evangelina_Cosio_y_Cisneros",
+      "revision": 1378695197,
+      "section": "Escape",
+      "passage": "Cosio suggested drugging her jail-mates so they would sleep through the night and breaking out one of the bars to make her escape. Decker had a room rented in the building next door and at night had a ladder stretched from the roof of that building to the roof of the jail. He and his associates, over two nights, climbed over to the roof of the jail and sawed through one of the bars, which created a large enough opening for the slight prisoner to squeeze through and escape.",
+      "hatnote": "Hearst sent Decker to Havana to get a young rebel out of jail.",
+      "onwardLinkText": null,
+      "nextPage": "Evangelina Cosio y Cisneros"
+    },
+    {
+      "page": "Evangelina Cosio y Cisneros",
+      "url": "https://en.wikipedia.org/wiki/Evangelina_Cosio_y_Cisneros",
+      "revision": 1378695197,
+      "section": "Escape",
+      "passage": "The young woman was taken to the home of one of the conspirators, Carlos Carbonell, an American educated, Cuban banker. After three days of hiding from the police-conducted searches, Cosio, dressed as a man, with her abundant hair stuffed under a large hat, and carrying an unlit cigar, walked through Havana to the dock, boarded a New York bound ship using false identification papers, and escaped to the United States.",
+      "hatnote": "Then she had to get out of Cuba.",
+      "onwardLinkText": null,
+      "nextPage": "Evangelina Cosio y Cisneros"
+    },
+    {
+      "page": "Evangelina Cosio y Cisneros",
+      "url": "https://en.wikipedia.org/wiki/Evangelina_Cosio_y_Cisneros",
+      "revision": 1378695197,
+      "section": "Response in America",
+      "passage": "Cosio’s story faded with the rush of events, in particular the sinking of the American warship U.S.S. Maine and American’s declaration of war on Spain, which ultimately resulted in Cuba’s independence. However, commentators have said that the publicity around Cosio’s story, and similar newspaper agitation, probably helped to prepare the American public for the war when it did come, making it what has been called one of the most popular wars the United States ever fought.",
+      "hatnote": "The stunt sold papers, and perhaps something bigger.",
+      "onwardLinkText": null,
+      "nextPage": "Evangelina Cosio y Cisneros"
+    }
+  ],
+  "payoff": "The man behind the dubious 'six fake Mona Lisas' tale had once pulled off a real jailbreak, one that probably helped ready America for war.",
+  "caveats": [
+    "Wikipedia's Eduardo de Valfierno article says Decker's story is the only source for Valfierno and Chaudron and casts serious doubt on it."
+  ]
+}

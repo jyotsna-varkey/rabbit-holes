@@ -14,7 +14,7 @@ const pageTop = (page: Page, n: number) =>
   page.locator('.page').filter({ has: page.locator('.art-head') }).nth(n).evaluate((el) => el.getBoundingClientRect().top);
 
 test('a tug moves on before you let go, and lands quickly', async ({ page }) => {
-  await page.goto('/?hole=coffee-insurance');
+  await page.goto('/?hole=tutankhamun-noblecourt-amada-rails');
   await enterTopHole(page);
   const { x, y } = await knotCentre(page);
   await page.mouse.move(x, y);
@@ -32,7 +32,7 @@ test('a tug moves on before you let go, and lands quickly', async ({ page }) => 
 });
 
 test('quick tugs in a row each move one page', async ({ page }) => {
-  await page.goto('/?hole=coffee-insurance');
+  await page.goto('/?hole=tutankhamun-noblecourt-amada-rails');
   await enterTopHole(page);
   for (const want of ['2 / 4', '3 / 4', '4 / 4']) {
     const { x, y } = await knotCentre(page);
@@ -46,7 +46,7 @@ test('quick tugs in a row each move one page', async ({ page }) => {
 });
 
 test('a back tug on the first page never shows a blank screen', async ({ page }) => {
-  await page.goto('/?hole=coffee-insurance');
+  await page.goto('/?hole=tutankhamun-noblecourt-amada-rails');
   await enterTopHole(page);
   const { x, y } = await knotCentre(page);
   await page.mouse.move(x, y);
@@ -61,7 +61,7 @@ test('a back tug on the first page never shows a blank screen', async ({ page })
 });
 
 test('scrolling with a trackpad or wheel over the knot scrolls the page', async ({ page }) => {
-  await page.goto('/?hole=coffee-insurance');
+  await page.goto('/?hole=tutankhamun-noblecourt-amada-rails');
   await enterTopHole(page);
   const scroller = page.locator('.page-scroll').first();
   const before = await scroller.evaluate((el) => el.scrollTop);
@@ -73,7 +73,7 @@ test('scrolling with a trackpad or wheel over the knot scrolls the page', async 
 });
 
 test('moving the mouse over the knot without pressing does nothing', async ({ page }) => {
-  await page.goto('/?hole=coffee-insurance');
+  await page.goto('/?hole=tutankhamun-noblecourt-amada-rails');
   await enterTopHole(page);
   const { x, y } = await knotCentre(page);
   await page.mouse.move(x, y);

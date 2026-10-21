@@ -1,0 +1,60 @@
+{
+  "id": "perfume-musk-tnt-dye",
+  "claim": "The 'clean laundry' smell was found by a chemist chasing a better explosive.",
+  "start": {
+    "title": "Perfume",
+    "page": "Perfume",
+    "description": "Mixture of fragrant substance",
+    "image": ""
+  },
+  "end": {
+    "title": "TNT",
+    "page": "TNT",
+    "description": "Impact-resistant high explosive",
+    "image": "snapshots/images/TNT.webp"
+  },
+  "knots": [
+    {
+      "page": "Perfume",
+      "url": "https://en.wikipedia.org/wiki/Perfume",
+      "revision": 1380993699,
+      "section": "Synthetic sources",
+      "passage": "One of the most commonly used classes of synthetic aromatics by far are the musks. These materials are found in all forms of commercial perfumes as a neutral background to the middle notes. These musks are often added in large quantities to laundry detergents in order to give washed clothes a lasting \"clean\" scent.",
+      "hatnote": "Behind almost every perfume, and every load of washing, sits one ingredient.",
+      "onwardLinkText": "musks",
+      "nextPage": "Synthetic musk"
+    },
+    {
+      "page": "Synthetic musk",
+      "url": "https://en.wikipedia.org/wiki/Synthetic_musk",
+      "revision": 1378641614,
+      "section": "Nitro musks",
+      "passage": "An artificial musk was obtained by Albert Baur in 1888 by condensing toluene with isobutyl bromide in the presence of aluminium chloride, and nitrating the product. It was discovered accidentally as a result of Baur's attempts at producing a more effective form of trinitrotoluene (TNT). It appears that the odour depends upon the symmetry of the three nitro groups.",
+      "hatnote": "One artificial musk turned up by accident, in an explosives experiment.",
+      "onwardLinkText": "trinitrotoluene",
+      "nextPage": "TNT"
+    },
+    {
+      "page": "TNT",
+      "url": "https://en.wikipedia.org/wiki/TNT",
+      "revision": 1380938527,
+      "section": "History",
+      "passage": "TNT was first synthesized in 1863 by German chemist Julius Wilbrand and was originally used as a yellow dye. Its potential as an explosive was not recognized for three decades, mainly because it was so much less sensitive than other explosives known at the time. Its explosive properties were discovered in 1891 by another German chemist, Carl Häussermann.",
+      "hatnote": "And TNT itself was never meant to explode.",
+      "onwardLinkText": null,
+      "nextPage": "TNT"
+    },
+    {
+      "page": "TNT",
+      "url": "https://en.wikipedia.org/wiki/TNT",
+      "revision": 1380938527,
+      "section": "Safety and toxicity",
+      "passage": "TNT is poisonous, and skin contact can cause skin irritation, causing the skin to turn a bright yellow-orange color. During the First World War, female munition workers who handled the chemical found that their skin turned bright yellow, which resulted in their acquiring the nickname \"canary girls\" or simply \"canaries\".",
+      "hatnote": "Once a dye, always a dye.",
+      "onwardLinkText": null,
+      "nextPage": "TNT"
+    }
+  ],
+  "payoff": "A dye became an explosive, the explosive gave us perfume's musk, and in the factories the old dye still turned workers yellow.",
+  "caveats": []
+}

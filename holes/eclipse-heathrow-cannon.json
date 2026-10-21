@@ -1,0 +1,90 @@
+{
+  "id": "eclipse-heathrow-cannon",
+  "claim": "An old cannon at Heathrow Airport traces back to timing Jupiter's moons.",
+  "start": {
+    "title": "Eclipse",
+    "page": "Eclipse",
+    "description": "Astronomical event where one body is hidden by another",
+    "image": "snapshots/images/Eclipse.webp"
+  },
+  "end": {
+    "title": "Anglo-French Survey (1784–1790)",
+    "page": "Anglo-French Survey (1784–1790)",
+    "description": "Survey of the distance between Greenwich and Paris",
+    "image": ""
+  },
+  "knots": [
+    {
+      "page": "Eclipse",
+      "url": "https://en.wikipedia.org/wiki/Eclipse",
+      "revision": 1372548629,
+      "section": "Gas giants",
+      "passage": "The timing of the Jovian satellite eclipses was also used to calculate an observer's longitude upon the Earth. By knowing the expected time when an eclipse would be observed at a standard longitude (such as Greenwich), the time difference could be computed by accurately observing the local time of the eclipse. The time difference gives the longitude of the observer because every hour of difference corresponded to 15° around the Earth's equator. This technique was used, for example, by Giovanni D. Cassini in 1679 to re-map France.",
+      "hatnote": "Eclipses of Jupiter's moons were once a clock in the sky.",
+      "onwardLinkText": "Giovanni D. Cassini",
+      "nextPage": "Giovanni Domenico Cassini"
+    },
+    {
+      "page": "Giovanni Domenico Cassini",
+      "url": "https://en.wikipedia.org/wiki/Giovanni_Domenico_Cassini",
+      "revision": 1377089018,
+      "section": "Moving to France",
+      "passage": "During this time, Cassini's method of determining longitude was used to measure the size of France accurately for the first time. The country turned out to be considerably smaller than expected, and the king quipped that Cassini had taken more of his kingdom from him than he had won in all his wars.",
+      "hatnote": "Measuring France properly brought bad news for its king.",
+      "onwardLinkText": null,
+      "nextPage": "Giovanni Domenico Cassini"
+    },
+    {
+      "page": "Giovanni Domenico Cassini",
+      "url": "https://en.wikipedia.org/wiki/Giovanni_Domenico_Cassini",
+      "revision": 1377089018,
+      "section": "Engineering",
+      "passage": "In the 1670s, Cassini began work on a project to create a topographic map of France, using Gemma Frisius's technique of triangulation. The project was continued by his son Jacques Cassini and eventually finished by his grandson César-François Cassini de Thury and published as the Carte de Cassini in 1789 or 1793. It was the first topographic map of an entire country.",
+      "hatnote": "Mapping France became a family business across three generations.",
+      "onwardLinkText": "César-François Cassini de Thury",
+      "nextPage": "César-François Cassini de Thury"
+    },
+    {
+      "page": "César-François Cassini de Thury",
+      "url": "https://en.wikipedia.org/wiki/C%C3%A9sar-Fran%C3%A7ois_Cassini_de_Thury",
+      "revision": 1371983006,
+      "section": "Biography",
+      "passage": "The post of director of the Paris Observatory was created for his benefit in 1771 when the establishment ceased to be a dependency of the French Academy of Sciences. A letter and proposal sent by Cassini de Thury to the Royal Society in London instigated the Anglo-French Survey (1784–1790), which measured the precise distance and direction between the Paris Observatory and the Royal Observatory, Greenwich, by way of a trigonometric survey.",
+      "hatnote": "The grandson ran the Paris Observatory, and questioned Greenwich.",
+      "onwardLinkText": "Anglo-French Survey (1784–1790)",
+      "nextPage": "Anglo-French Survey (1784–1790)"
+    },
+    {
+      "page": "Anglo-French Survey (1784–1790)",
+      "url": "https://en.wikipedia.org/wiki/Anglo-French_Survey_(1784%E2%80%931790)",
+      "revision": 1356048843,
+      "section": "Cassini's memoir",
+      "passage": "This criticism was roundly rejected by the English Astronomer Royal Nevil Maskelyne, who was convinced of the accuracy of the Greenwich measurements but, at the same time, he realised that Cassini's memoir provided a means of promoting government funding for a survey which would be valuable in its own right.",
+      "hatnote": "Cassini doubted Greenwich's measurements. London bristled, but spotted an opportunity.",
+      "onwardLinkText": null,
+      "nextPage": "Anglo-French Survey (1784–1790)"
+    },
+    {
+      "page": "Anglo-French Survey (1784–1790)",
+      "url": "https://en.wikipedia.org/wiki/Anglo-French_Survey_(1784%E2%80%931790)",
+      "revision": 1356048843,
+      "section": "lead",
+      "passage": "The survey is very significant as the first precise survey within Britain, and the forerunner of the work of the Ordnance Survey which was founded in 1791, one year after Roy's death.",
+      "hatnote": "The resulting survey had consequences far beyond settling an argument.",
+      "onwardLinkText": null,
+      "nextPage": "Anglo-French Survey (1784–1790)"
+    },
+    {
+      "page": "Anglo-French Survey (1784–1790)",
+      "url": "https://en.wikipedia.org/wiki/Anglo-French_Survey_(1784%E2%80%931790)",
+      "revision": 1356048843,
+      "section": "The Hounslow Heath base, 1784",
+      "passage": "After the resurvey in 1791 (OS1791-1794) the pipes were replaced by cannons which are still in place although it is certain that the cannons have been disturbed and slightly moved over the intervening years. The modern locations of the southeast end points is in Roy Grove, Hampton. The northwest end at Heathrow Airport is situated on the northern perimeter road.",
+      "hatnote": "Its baseline ends, first marked by wooden pipes, got a military upgrade.",
+      "onwardLinkText": null,
+      "nextPage": "Anglo-French Survey (1784–1790)"
+    }
+  ],
+  "payoff": "A French astronomer's doubts about Greenwich sparked the survey that foreshadowed the Ordnance Survey; its baseline cannon still sits at Heathrow.",
+  "caveats": []
+}

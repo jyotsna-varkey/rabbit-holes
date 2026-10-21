@@ -1,0 +1,80 @@
+{
+  "id": "emperor-penguin-negative-information",
+  "claim": "Three men nearly froze to death for penguin eggs nobody wanted.",
+  "start": {
+    "title": "Emperor penguin",
+    "page": "Emperor penguin",
+    "description": "Large flightless seabird endemic to Antarctica",
+    "image": "snapshots/images/Emperor-penguin.webp"
+  },
+  "end": {
+    "title": "The Worst Journey in the World",
+    "page": "The Worst Journey in the World",
+    "description": "Memoir by Apsley Cherry-Garrard",
+    "image": "snapshots/images/The-Worst-Journey-in-the-World.webp"
+  },
+  "knots": [
+    {
+      "page": "Emperor penguin",
+      "url": "https://en.wikipedia.org/wiki/Emperor_penguin",
+      "revision": 1377089235,
+      "section": "Cultural references",
+      "passage": "The species' unique life cycle in such a harsh environment has been described in print and visual media. Apsley Cherry-Garrard, the Antarctic explorer, wrote in 1922: \"Take it all in all, I do not believe anybody on Earth has a worse time than an emperor penguin\".",
+      "hatnote": "One explorer felt for emperor penguins. He'd seen their winter up close.",
+      "onwardLinkText": "Apsley Cherry-Garrard",
+      "nextPage": "Apsley Cherry-Garrard"
+    },
+    {
+      "page": "Apsley Cherry-Garrard",
+      "url": "https://en.wikipedia.org/wiki/Apsley_Cherry-Garrard",
+      "revision": 1372617715,
+      "section": "Winter journey",
+      "passage": "With Wilson and Henry Robertson Bowers, Cherry-Garrard made a trip to Cape Crozier on Ross Island in July 1911 during the austral winter in order to secure an unhatched emperor penguin egg to hopefully help scientists prove the evolutionary link between all birds and their reptile predecessors by analysis of the embryo.",
+      "hatnote": "He went there in the dark Antarctic winter, for science.",
+      "onwardLinkText": null,
+      "nextPage": "Apsley Cherry-Garrard"
+    },
+    {
+      "page": "Apsley Cherry-Garrard",
+      "url": "https://en.wikipedia.org/wiki/Apsley_Cherry-Garrard",
+      "revision": 1372617715,
+      "section": "Winter journey",
+      "passage": "Frozen and exhausted, they reached their destination in 19 days and built an improvised rock wall igloo with canvas roof on the slopes of Mount Terror just a few miles from the penguin colony at Cape Crozier. They managed to collect three penguin eggs intact before a force eleven blizzard struck on 22 July, ripping their tent away and carrying it off in the wind.",
+      "hatnote": "They got their eggs. Then the weather got them.",
+      "onwardLinkText": null,
+      "nextPage": "Apsley Cherry-Garrard"
+    },
+    {
+      "page": "Apsley Cherry-Garrard",
+      "url": "https://en.wikipedia.org/wiki/Apsley_Cherry-Garrard",
+      "revision": 1372617715,
+      "section": "Later life",
+      "passage": "He required repeated dental treatment because of the damage done to his teeth by the extreme cold. He many times revisited the question of what possible alternative choices and actions might have saved the South Pole team — most notably in his 1922 memoir The Worst Journey in the World.",
+      "hatnote": "The cold shattered his teeth, and the expedition's later losses haunted him.",
+      "onwardLinkText": "The Worst Journey in the World",
+      "nextPage": "The Worst Journey in the World"
+    },
+    {
+      "page": "The Worst Journey in the World",
+      "url": "https://en.wikipedia.org/wiki/The_Worst_Journey_in_the_World",
+      "revision": 1379573364,
+      "section": "Epilogue",
+      "passage": "At the time the Terra Nova expedition sailed, many biologists believed in recapitulation theory. They believed that examining the embryos of key species, such as the Emperor penguin, would show how the species – and, by extension, how the family of birds as a whole – had evolved.",
+      "hatnote": "So what did the precious eggs prove?",
+      "onwardLinkText": null,
+      "nextPage": "The Worst Journey in the World"
+    },
+    {
+      "page": "The Worst Journey in the World",
+      "url": "https://en.wikipedia.org/wiki/The_Worst_Journey_in_the_World",
+      "revision": 1379573364,
+      "section": "Epilogue",
+      "passage": "As the survivors of the Terra Nova returned to England several years later, recapitulation theory had begun to be discredited. Cherry-Garrard turned over the egg specimens to embryologists at London's Natural History Museum, who were largely uninterested in the donation. Cherry-Garrard describes how he was told that the retrieved eggs had not added much to their knowledge of penguin embryology, nor to scientific knowledge as a whole. Elspeth Huxley concludes that the eggs generated \"negative information\".",
+      "hatnote": "By the time they got home, the science had moved on.",
+      "onwardLinkText": null,
+      "nextPage": "The Worst Journey in the World"
+    }
+  ],
+  "payoff": "Three men nearly died in the polar night for embryos meant to prove a theory that was already dying.",
+  "caveats": []
+}

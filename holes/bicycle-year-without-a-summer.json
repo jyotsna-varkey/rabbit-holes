@@ -1,0 +1,63 @@
+{
+  "id": "bicycle-year-without-a-summer",
+  "claim": "How could a volcano help make a bicycle seem like a good idea?",
+  "start": {
+    "title": "Bicycle",
+    "page": "Bicycle",
+    "description": "Pedal-driven two-wheel vehicle",
+    "image": "snapshots/images/Bicycle.webp"
+  },
+  "end": {
+    "title": "Year Without a Summer",
+    "page": "Year Without a Summer",
+    "description": "1816 volcanic winter climate event",
+    "image": "snapshots/images/Year-Without-a-Summer.webp"
+  },
+  "knots": [
+    {
+      "page": "Bicycle",
+      "url": "https://en.wikipedia.org/wiki/Bicycle",
+      "revision": 1375091239,
+      "section": "History",
+      "passage": "The \"dandy horse\", also called Draisienne or Laufmaschine (\"running machine\"), was the first human means of transport to use only two wheels in tandem and was invented by the German Baron Karl von Drais. It is regarded as the first bicycle and von Drais is seen as the \"father of the bicycle\", but it did not have pedals. Von Drais introduced it to the public in Mannheim in 1817 and in Paris in 1818. The rider sat astride a wooden frame supported by two in-line wheels and pushed the vehicle along with their feet while steering the front wheel.",
+      "hatnote": "The first bicycle had no pedals at all.",
+      "onwardLinkText": "dandy horse",
+      "nextPage": "Dandy horse"
+    },
+    {
+      "page": "Dandy horse",
+      "url": "https://en.wikipedia.org/wiki/Dandy_horse",
+      "revision": 1373747402,
+      "section": "History",
+      "passage": "Drais was inspired, at least in part, by the need to develop a form of transit that did not rely on the horse. After the 1815 eruption of Mount Tambora and the Year Without a Summer (1816), which followed close on the devastation of the Napoleonic Wars, widespread crop failures and food shortages resulted in the deaths of tens of thousands of horses, which either starved to death or were killed to provide meat and hides. \"In wartime,\" he wrote, \"when horses and their fodder often become scarce, a small fleet of such wagons at each corps could be important, especially for dispatches over short distances and for carrying the wounded.”",
+      "hatnote": "What made a substitute for horses unusually attractive?",
+      "onwardLinkText": "Year Without a Summer",
+      "nextPage": "Year Without a Summer"
+    },
+    {
+      "page": "Year Without a Summer",
+      "url": "https://en.wikipedia.org/wiki/Year_Without_a_Summer",
+      "revision": 1375210666,
+      "section": "lead",
+      "passage": "The year 1816 is known as the Year Without a Summer because of severe climate abnormalities that caused average global temperatures to decrease by 0.4–0.7 °C (0.7–1 °F). Summer temperatures in Europe that year were the coldest of any on record between 1766 and 2000, resulting in crop failures and major food shortages across the Northern Hemisphere.",
+      "hatnote": "What had happened to the climate and the food supply?",
+      "onwardLinkText": null,
+      "nextPage": "Year Without a Summer"
+    },
+    {
+      "page": "Year Without a Summer",
+      "url": "https://en.wikipedia.org/wiki/Year_Without_a_Summer",
+      "revision": 1375210666,
+      "section": "lead",
+      "passage": "Evidence suggests that the anomaly was predominantly a volcanic winter event caused by the massive eruption of Mount Tambora in the Dutch East Indies (modern-day Indonesia) in April 1815. This eruption was the largest in at least 1,300 years (after the hypothesized eruption causing the volcanic winter of 536); its effect on the climate may have been exacerbated by the 1814 eruption of Mayon in the Philippines. The volcanic ash and gases released into the atmosphere blocked sunlight, leading to global cooling.",
+      "hatnote": "The cold summer had a cause half a world away.",
+      "onwardLinkText": null,
+      "nextPage": "Year Without a Summer"
+    }
+  ],
+  "payoff": "A volcano in Indonesia starved Europe's horses, and a German baron built a machine you push with your feet.",
+  "caveats": [
+    "From Rabbit Hole Studio (GPT), rh-089, rank 38; hook is GPT's, hatnotes/payoff drafted by Claude.",
+    "The Dandy horse page says Drais was inspired 'at least in part' by the horse shortage."
+  ]
+}

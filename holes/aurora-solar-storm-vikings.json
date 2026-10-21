@@ -1,0 +1,60 @@
+{
+  "id": "aurora-solar-storm-vikings",
+  "claim": "A solar storm around 993 pinned down exactly when Vikings were in America.",
+  "start": {
+    "title": "Aurora",
+    "page": "Aurora",
+    "description": "Atmospheric effect caused by the solar wind",
+    "image": "snapshots/images/Aurora.webp"
+  },
+  "end": {
+    "title": "993–994 carbon-14 spike",
+    "page": "993–994 carbon-14 spike",
+    "description": "Solar storm",
+    "image": "snapshots/images/993-994-carbon-14-spike.webp"
+  },
+  "knots": [
+    {
+      "page": "Aurora",
+      "url": "https://en.wikipedia.org/wiki/Aurora",
+      "revision": 1378911486,
+      "section": "Characterisation",
+      "passage": "On rare occasions, the aurora borealis can be seen as far south as the Mediterranean, East Asia, and the southern states of the US, while the aurora australis can be seen as far north as New Caledonia, South Africa, the Pilbara region in Western Australia, and Uruguay. During the Carrington Event, the greatest geomagnetic storm ever observed, auroras were seen even in the tropics.",
+      "hatnote": "Northern lights belong near the poles, unless the Sun throws a tantrum.",
+      "onwardLinkText": "Carrington Event",
+      "nextPage": "Carrington Event"
+    },
+    {
+      "page": "Carrington Event",
+      "url": "https://en.wikipedia.org/wiki/Carrington_Event",
+      "revision": 1373617252,
+      "section": "Similar events",
+      "passage": "Other research has looked for signatures of large solar flares and CMEs in carbon-14 in tree rings and beryllium-10 (among other isotopes) in ice cores. The signature of a large solar storm has been found for the years 774–775 and 993–994. Carbon-14 levels stored in 775 suggest an event about 20 times the normal variation of the Sun's activity, and 10 or more times the size of the Carrington Event.",
+      "hatnote": "Yet trees and ice remember storms far bigger than Carrington.",
+      "onwardLinkText": "993–994",
+      "nextPage": "993–994 carbon-14 spike"
+    },
+    {
+      "page": "993–994 carbon-14 spike",
+      "url": "https://en.wikipedia.org/wiki/993%E2%80%93994_carbon-14_spike",
+      "revision": 1369610017,
+      "section": "Historical observations",
+      "passage": "In the Korean Peninsula, between December 992 and January 993, a text describes \"heaven's gate\" opening one night. In the Duchy of Saxony in late 992, several aurora observations were made. One set of observations, recorded October 21, 992, note that the sky reddened three times. Another set of observations, made December 26, 992, mention a light as bright as the sun shining for an hour, then reddening the sky, before vanishing completely. In the Ulster region of present-day Northern Ireland on December 26, 992, texts describe the sky as \"blood-red\" and having a \"fiery hue\".",
+      "hatnote": "Around 992, people across the world saw the sky turn red.",
+      "onwardLinkText": null,
+      "nextPage": "993–994 carbon-14 spike"
+    },
+    {
+      "page": "993–994 carbon-14 spike",
+      "url": "https://en.wikipedia.org/wiki/993%E2%80%93994_carbon-14_spike",
+      "revision": 1369610017,
+      "section": "lead",
+      "passage": "In 2021, a scientific paper used the 993–994 carbon-14 spike as a benchmark in dendrochronology (tree-ring studies) to precisely determine that Vikings were present in L'Anse aux Meadows in Newfoundland exactly 1,000 years prior, in 1021.",
+      "hatnote": "That storm left a timestamp in every tree alive at the time.",
+      "onwardLinkText": null,
+      "nextPage": "993–994 carbon-14 spike"
+    }
+  ],
+  "payoff": "A solar outburst stamped a marker into tree rings worldwide; Viking timber in Newfoundland carried it, dating their stay to 1021.",
+  "caveats": []
+}

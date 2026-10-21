@@ -1,0 +1,80 @@
+{
+  "id": "sneeze-john-huddleston",
+  "claim": "On his deathbed, Charles II met the priest who once hid him from soldiers.",
+  "start": {
+    "title": "Sneeze",
+    "page": "Sneeze",
+    "description": "Semi-autonomous, convulsive expulsion of air from the lungs through the nose and mouth",
+    "image": "snapshots/images/Sneeze.webp"
+  },
+  "end": {
+    "title": "John Huddleston",
+    "page": "John Huddleston",
+    "description": "English Catholic priest (1608–1698)",
+    "image": "snapshots/images/John-Huddleston.webp"
+  },
+  "knots": [
+    {
+      "page": "Sneeze",
+      "url": "https://en.wikipedia.org/wiki/Sneeze",
+      "revision": 1374049729,
+      "section": "Culture",
+      "passage": "Sir Raymond Henry Payne Crawfurd, for instance, the registrar of the Royal College of Physicians, in his 1909 book, \"The Last Days of Charles II\", states that, when the controversial monarch was on his deathbed, his medical attendants administered a concoction of cowslips and extract of ammonia to promote sneezing. However, it is not known if this promotion of sneezing was done to hasten his death (as coup de grâce) or as an ultimate attempt at treatment.",
+      "hatnote": "A sneeze was once thought powerful enough to kill, or to cure.",
+      "onwardLinkText": "Charles II",
+      "nextPage": "Charles II of England"
+    },
+    {
+      "page": "Charles II of England",
+      "url": "https://en.wikipedia.org/wiki/Charles_II_of_England",
+      "revision": 1379227502,
+      "section": "Death",
+      "passage": "In the days between his collapse and his death, Charles endured a variety of torturous treatments, including bloodletting, purging and cupping, in the hope of effecting a recovery, which may have exacerbated his uraemia through dehydration, rather than helping to alleviate it.",
+      "hatnote": "In 1685 the king collapsed, and his doctors went to work.",
+      "onwardLinkText": null,
+      "nextPage": "Charles II of England"
+    },
+    {
+      "page": "Charles II of England",
+      "url": "https://en.wikipedia.org/wiki/Charles_II_of_England",
+      "revision": 1379227502,
+      "section": "Death",
+      "passage": "On the last evening of his life he was received into the Catholic Church, in the presence of Father John Huddleston, though the extent to which he was fully conscious or committed, and with whom the idea originated, is unclear.",
+      "hatnote": "On his last night, a familiar face was brought to the bedside.",
+      "onwardLinkText": "John Huddleston",
+      "nextPage": "John Huddleston"
+    },
+    {
+      "page": "John Huddleston",
+      "url": "https://en.wikipedia.org/wiki/John_Huddleston",
+      "revision": 1359600694,
+      "section": "Chaplain to Thomas Whitgrave",
+      "passage": "After the defeat at the Battle of Worcester on 3 September 1651, Charles II, made King of Scotland following his father's execution, was conducted by Colonel Gifford to White Ladies Priory on Gifford's Boscobel estate. At White Ladies, the young King was sheltered by the five Penderell brothers who lived there. John Penderell happened to meet Father Huddleston, who suggested that the young King should go to Moseley Old Hall on the night of 7 September. Huddleston cleaned and bandaged the King's sore feet.",
+      "hatnote": "Thirty-four years earlier, the same priest had met a young king on the run.",
+      "onwardLinkText": null,
+      "nextPage": "John Huddleston"
+    },
+    {
+      "page": "John Huddleston",
+      "url": "https://en.wikipedia.org/wiki/John_Huddleston",
+      "revision": 1359600694,
+      "section": "Chaplain to Thomas Whitgrave",
+      "passage": "On 9 September, Parliamentary troops questioned Whitgrave, while the King and Huddleston were hiding in the priest-hole. The troops were persuaded that Whitgrave had not fought at Worcester (though he had fought and been captured at the Battle of Naseby in 1645). The troops left without searching the house.",
+      "hatnote": "Then the soldiers came knocking.",
+      "onwardLinkText": null,
+      "nextPage": "John Huddleston"
+    },
+    {
+      "page": "John Huddleston",
+      "url": "https://en.wikipedia.org/wiki/John_Huddleston",
+      "revision": 1359600694,
+      "section": "Benedictines of the Spanish Congregation",
+      "passage": "When Charles II lay dying on the evening of 5 February 1685, his brother and heir the Duke of York brought Huddleston to his bedside, saying, \"Sire, this good man once saved your life. He now comes to save your soul.\" Charles declared that he wished to die in the faith and communion of the Catholic Church. Huddleston then heard the King's confession, reconciled him to the Church and absolved him, afterwards administering Extreme Unction and the Viaticum.",
+      "hatnote": "His brother James knew exactly who he was bringing.",
+      "onwardLinkText": null,
+      "nextPage": "John Huddleston"
+    }
+  ],
+  "payoff": "The priest who hid a fugitive king in a priest-hole was summoned 34 years later to receive him into the Church as he died.",
+  "caveats": []
+}

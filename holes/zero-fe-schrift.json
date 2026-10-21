@@ -1,0 +1,82 @@
+{
+  "id": "zero-fe-schrift",
+  "claim": "Why does the zero on German number plates have a little nick in it?",
+  "start": {
+    "title": "0",
+    "page": "0",
+    "description": "Whole number",
+    "image": ""
+  },
+  "end": {
+    "title": "Karlgeorg Hoefer",
+    "page": "Karlgeorg Hoefer",
+    "description": "German calligrapher and typographer",
+    "image": ""
+  },
+  "knots": [
+    {
+      "page": "0",
+      "url": "https://en.wikipedia.org/wiki/0",
+      "revision": 1380088650,
+      "section": "Symbols and representations",
+      "passage": "Some fonts designed for use with computers made the \"0\" character more squared at the edges, like a rectangle, and the \"O\" character more rounded. A further distinction is made in falsification-hindering typeface as used on German car number plates by slitting open the digit 0 on the upper right side. In some systems either the letter O or the numeral 0, or both, are excluded from use, to avoid confusion.",
+      "hatnote": "Telling 0 from O is an old problem. Germany's plates do it oddly.",
+      "onwardLinkText": "falsification-hindering typeface",
+      "nextPage": "FE-Schrift"
+    },
+    {
+      "page": "FE-Schrift",
+      "url": "https://en.wikipedia.org/wiki/FE-Schrift",
+      "revision": 1357716247,
+      "section": "Development",
+      "passage": "The motivation for the creation of the typeface arose in the late 1970s in the light of terrorism by the Red Army Faction when it was discovered that with the then-standard font for vehicle registration plates—the DIN 1451 font—it was particularly easy to modify letters by applying a small amount of black paint or tape. For example, it was easy to change a \"P\" to an \"R\" or \"B\", a \"3\" to an \"8\", or an \"L\" or \"F\" to an \"E\".",
+      "hatnote": "The enemy was a terrorist with a roll of black tape.",
+      "onwardLinkText": null,
+      "nextPage": "FE-Schrift"
+    },
+    {
+      "page": "FE-Schrift",
+      "url": "https://en.wikipedia.org/wiki/FE-Schrift",
+      "revision": 1357716247,
+      "section": "Development",
+      "passage": "The RAF terrorism however allowed to fund a project over a couple of years — running from the functional scope document being created in 1977 to the final decision of 1982 not to introduce the design on license plates. It ended up in the drawer.",
+      "hatnote": "Years of work later, the new font was shelved.",
+      "onwardLinkText": null,
+      "nextPage": "FE-Schrift"
+    },
+    {
+      "page": "FE-Schrift",
+      "url": "https://en.wikipedia.org/wiki/FE-Schrift",
+      "revision": 1357716247,
+      "section": "Adoption process",
+      "passage": "With the fall of the Iron Curtain there was again a spike in the theft rate of license plates, including cars being stolen and moved to Eastern Europe. Again there was a motivation to prevent that with new regulations on license plates. In the new process the officials found the FE-Schrift which was fully developed and a perfect match for the automatic number-plate recognition technology that had developed to a usable state at the time.",
+      "hatnote": "Then the Berlin Wall fell, and someone opened the drawer.",
+      "onwardLinkText": null,
+      "nextPage": "FE-Schrift"
+    },
+    {
+      "page": "FE-Schrift",
+      "url": "https://en.wikipedia.org/wiki/FE-Schrift",
+      "revision": 1357716247,
+      "section": "Development",
+      "passage": "The original design for the FE-Schrift typeface was created by Karlgeorg Hoefer who was working for the Bundesanstalt für Straßenwesen (Federal Highway Institute of Germany) at the time. The typeface was slightly modified according to the results of tests that lasted from 1978 to 1980 at the University of Giessen (Department of Physiology and Cybernetic Psychology). For example, the initial slashed zero ( ∅ {\\displaystyle \\emptyset } ) could be mistaken for an 8, so Hoefer replaced it by a design with a reduced white slash in the upper right corner.",
+      "hatnote": "And the nick in the zero? A fix for a fix.",
+      "onwardLinkText": "Karlgeorg Hoefer",
+      "nextPage": "Karlgeorg Hoefer"
+    },
+    {
+      "page": "Karlgeorg Hoefer",
+      "url": "https://en.wikipedia.org/wiki/Karlgeorg_Hoefer",
+      "revision": 1339710666,
+      "section": "lead",
+      "passage": "Today, his most commonly seen font is the FE-Schrift, the standard font for German number plates.",
+      "hatnote": "Hoefer designed many typefaces; this is the one Germans see daily.",
+      "onwardLinkText": null,
+      "nextPage": "Karlgeorg Hoefer"
+    }
+  ],
+  "payoff": "A font begun against terrorists and shelved in a drawer reached every German plate because the Iron Curtain fell.",
+  "caveats": [
+    "The '()' in the FE-Schrift passage is where Wikipedia shows an inline image of a slashed zero."
+  ]
+}

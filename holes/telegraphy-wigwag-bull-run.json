@@ -1,0 +1,70 @@
+{
+  "id": "telegraphy-wigwag-bull-run",
+  "claim": "A doctor's sign language for the deaf first spoke in battle for the Confederacy.",
+  "start": {
+    "title": "Telegraphy",
+    "page": "Telegraphy",
+    "description": "Long distance transmission of text",
+    "image": "snapshots/images/Telegraphy.webp"
+  },
+  "end": {
+    "title": "Edward Porter Alexander",
+    "page": "Edward Porter Alexander",
+    "description": "Confederate Army general",
+    "image": "snapshots/images/Edward-Porter-Alexander.webp"
+  },
+  "knots": [
+    {
+      "page": "Telegraphy",
+      "url": "https://en.wikipedia.org/wiki/Telegraphy",
+      "revision": 1371244752,
+      "section": "Wigwag",
+      "passage": "Wigwag is a form of flag signalling using a single flag. Unlike most forms of flag signalling, which are used over relatively short distances, wigwag is designed to maximise the distance covered—up to 32 km (20 mi) in some cases. Wigwag achieved this by using a large flag—a single flag can be held with both hands unlike flag semaphore which has a flag in each hand—and using motions rather than positions as its symbols since motions are more easily seen. It was invented by US Army surgeon Albert J. Myer in the 1850s who later became the first head of the Signal Corps.",
+      "hatnote": "Before radio, armies talked with flags, and one flag could reach 20 miles.",
+      "onwardLinkText": "Albert J. Myer",
+      "nextPage": "Albert J. Myer"
+    },
+    {
+      "page": "Albert J. Myer",
+      "url": "https://en.wikipedia.org/wiki/Albert_J._Myer",
+      "revision": 1379822524,
+      "section": "Early life",
+      "passage": "He received his M.D. degree from Buffalo Medical College in 1851, while working part-time for the New York State Telegraph Company. His doctoral thesis, A New Sign Language for Deaf Mutes, showed concepts that he later used for his invention of aerial telegraphy.",
+      "hatnote": "The idea came from an unexpected place.",
+      "onwardLinkText": null,
+      "nextPage": "Albert J. Myer"
+    },
+    {
+      "page": "Albert J. Myer",
+      "url": "https://en.wikipedia.org/wiki/Albert_J._Myer",
+      "revision": 1379822524,
+      "section": "Early life",
+      "passage": "In 1858, the Army expressed interest in Myer's invention and appointed a board to examine \"the principles and plans of the signaling, mode of use in the field, and course to be pursued in introducing to the army.\" Myer appeared before the board, chaired by Lt. Col. Robert E. Lee, in 1859, and convinced them to authorize field testing of his invention.",
+      "hatnote": "The US Army took it seriously, and note who chaired the board.",
+      "onwardLinkText": null,
+      "nextPage": "Albert J. Myer"
+    },
+    {
+      "page": "Albert J. Myer",
+      "url": "https://en.wikipedia.org/wiki/Albert_J._Myer",
+      "revision": 1379822524,
+      "section": "Signal Corps and the Civil War",
+      "passage": "Ironically, the first use in combat of Myer's signaling system was by Confederate Captain Edward Porter Alexander at the First Battle of Bull Run. Alexander had been a subordinate of Myer's and assisted in the New York field trials.",
+      "hatnote": "Then the Civil War split the Army, and the flags.",
+      "onwardLinkText": "Edward Porter Alexander",
+      "nextPage": "Edward Porter Alexander"
+    },
+    {
+      "page": "Edward Porter Alexander",
+      "url": "https://en.wikipedia.org/wiki/Edward_Porter_Alexander",
+      "revision": 1379812460,
+      "section": "Beginning of war",
+      "passage": "At the First Battle of Bull Run, Alexander made history by being the first to use signal flags to transmit a message during combat over a long distance. Stationed atop \"Signal Hill\" in Manassas, Alexander saw Union troop movements and signaled to the brigade under Col. Nathan \"Shanks\" Evans, \"Look out for your left, your position is turned\". Upon receiving a similar message, Beauregard and Gen. Joseph E. Johnston sent timely reinforcements that turned the tide of battle in the Confederates' favor.",
+      "hatnote": "What did the first battlefield flag message say?",
+      "onwardLinkText": null,
+      "nextPage": "Edward Porter Alexander"
+    }
+  ],
+  "payoff": "A sign language for deaf patients became the Union's signal system, and its own trainee used it to help beat the Union at Bull Run.",
+  "caveats": []
+}

@@ -1,0 +1,80 @@
+{
+  "id": "coca-cola-geffen-kitniyot-coffee",
+  "claim": "A rabbi read Coca-Cola's secret formula and found beef in it.",
+  "start": {
+    "title": "Coca-Cola",
+    "page": "Coca-Cola",
+    "description": "Cola soft drink",
+    "image": "snapshots/images/Coca-Cola.webp"
+  },
+  "end": {
+    "title": "Kitniyot",
+    "page": "Kitniyot",
+    "description": "Category of food that some Ashkenazi Jews do not eat on Passover",
+    "image": "snapshots/images/Kitniyot.webp"
+  },
+  "knots": [
+    {
+      "page": "Coca-Cola",
+      "url": "https://en.wikipedia.org/wiki/Coca-Cola",
+      "revision": 1378906796,
+      "section": "20th century",
+      "passage": "In 1935, it was certified kosher by Atlanta rabbi Tobias Geffen. With the help of Harold Hirsch, Geffen was the first person outside the company to see the top-secret ingredients list after Coke faced scrutiny from the American Jewish population regarding the drink's kosher status.",
+      "hatnote": "Coke's famous secret recipe was once shown to an outsider.",
+      "onwardLinkText": "Tobias Geffen",
+      "nextPage": "Tobias Geffen"
+    },
+    {
+      "page": "Tobias Geffen",
+      "url": "https://en.wikipedia.org/wiki/Tobias_Geffen",
+      "revision": 1379329299,
+      "section": "Kosher certification of Coca-Cola",
+      "passage": "Geffen discovered that one ingredient was glycerin produced from tallow from non-kosher beef. He convinced the company to substitute a vegetable-based glycerin.",
+      "hatnote": "The rabbi found a surprise in the list.",
+      "onwardLinkText": null,
+      "nextPage": "Tobias Geffen"
+    },
+    {
+      "page": "Tobias Geffen",
+      "url": "https://en.wikipedia.org/wiki/Tobias_Geffen",
+      "revision": 1379329299,
+      "section": "Kosher certification of Coca-Cola",
+      "passage": "A similar problem presented itself concerning the use of Coca-Cola during Passover, when Jews are not permitted to consume products derived from grains. One of the sweeteners used in Coca-Cola included traces of alcohol produced from grain, rendering the drink impermissible during Passover. The company's chemists found that a sweetener made from cane sugar and beet sugar could be used without changing the beverage's flavor.",
+      "hatnote": "Passover raised a second, subtler problem.",
+      "onwardLinkText": null,
+      "nextPage": "Tobias Geffen"
+    },
+    {
+      "page": "Tobias Geffen",
+      "url": "https://en.wikipedia.org/wiki/Tobias_Geffen",
+      "revision": 1379329299,
+      "section": "Kosher certification of Coca-Cola",
+      "passage": "Since he lived in Atlanta near The Coca-Cola Company's headquarters, Geffen received many inquiries from rabbis across the United States inquiring whether Coca-Cola was kosher and whether it was kosher for Passover. He asked the company for a list of the beverage's ingredients. Geffen was provided with the Coca-Cola formula, a closely guarded trade secret, on the condition that he not disclose the formula.",
+      "hatnote": "He got the answers by promising to keep the secret.",
+      "onwardLinkText": "kosher for Passover",
+      "nextPage": "Chametz"
+    },
+    {
+      "page": "Chametz",
+      "url": "https://en.wikipedia.org/wiki/Chametz",
+      "revision": 1375553093,
+      "section": "Kitniyot",
+      "passage": "Among Ashkenazi Jews, the custom during Passover is to refrain not only from products of the five grains but also kitniyot (lit. small things), which refers to other grains or legumes. Traditions of what is considered kitniyot vary from community to community but generally include rice, corn, lentils, and beans. Many include peanuts as well.",
+      "hatnote": "Passover rules reach well beyond bread.",
+      "onwardLinkText": "kitniyot",
+      "nextPage": "Kitniyot"
+    },
+    {
+      "page": "Kitniyot",
+      "url": "https://en.wikipedia.org/wiki/Kitniyot",
+      "revision": 1374552543,
+      "section": "Definition",
+      "passage": "In the 1930s, Maxwell House coffee hired the Joseph Jacobs advertising firm to market to a Jewish demographic. The agency hired a rabbi to research coffee, resulting in a determination that the coffee bean is more like a berry than a bean, thus making it kosher for Passover.",
+      "hatnote": "Coke changed its recipe for Passover. A coffee brand found an easier route.",
+      "onwardLinkText": null,
+      "nextPage": "Kitniyot"
+    }
+  ],
+  "payoff": "Passover rules forced Coke to change its recipe; Maxwell House got around them by having a rabbi declare coffee a berry.",
+  "caveats": []
+}

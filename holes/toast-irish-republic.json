@@ -1,0 +1,62 @@
+{
+  "id": "toast-irish-republic",
+  "claim": "A refused dinner toast may have pushed Ireland into becoming a republic.",
+  "start": {
+    "title": "Toast (honor)",
+    "page": "Toast (honor)",
+    "description": "Ritual honorific expression of drink",
+    "image": "snapshots/images/Toast-honor.webp"
+  },
+  "end": {
+    "title": "John A. Costello",
+    "page": "John A. Costello",
+    "description": "Taoiseach (1948–1951, 1954–1957)",
+    "image": "snapshots/images/John-A-Costello.webp"
+  },
+  "knots": [
+    {
+      "page": "Toast (honor)",
+      "url": "https://en.wikipedia.org/wiki/Toast_(honor)",
+      "revision": 1380045472,
+      "section": "Toasts worldwide",
+      "passage": "In various cultures worldwide, toasting is common; to refrain from so doing may be a breach of etiquette. The general theme of a toast is \"good luck\" or \"good health\". At formal meals in certain countries of the Commonwealth of Nations, the first toast to be proposed is traditionally the Loyal Toast (\"The King\"). This may be adapted in other countries to give a loyal toast to the appropriate head of state.",
+      "hatnote": "Raising a glass is a small ritual with strict rules about who comes first.",
+      "onwardLinkText": "Loyal Toast",
+      "nextPage": "Loyal toast"
+    },
+    {
+      "page": "Loyal toast",
+      "url": "https://en.wikipedia.org/wiki/Loyal_toast",
+      "revision": 1364649349,
+      "section": "In dispute",
+      "passage": "The loyal toast was the catalyst for international friction in 1948, when the Taoiseach (prime minister) of Ireland, then John A. Costello, made an official visit to Canada. There, at a formal function, Governor General of Canada The Viscount Alexander of Tunis steadfastly refused the directions of Irish officials to toast the President of Ireland, Seán T. O'Kelly, instead of the King of Ireland, George VI; at the time, the King fulfilled the external affairs role that normally belongs to heads of state, while the President of Ireland fulfilled an internal constitutional role.",
+      "hatnote": "In 1948, a toast that was refused caused a diplomatic row.",
+      "onwardLinkText": "John A. Costello",
+      "nextPage": "John A. Costello"
+    },
+    {
+      "page": "John A. Costello",
+      "url": "https://en.wikipedia.org/wiki/John_A._Costello",
+      "revision": 1364976882,
+      "section": "Declaration of the republic",
+      "passage": "In September 1948, Costello was on an official visit to Canada when a reporter asked him about the possibility of Ireland leaving the British Commonwealth. Costello, for the first time, declared publicly that the Irish government was indeed going to repeal the External Relations Act and declare Ireland a republic. It has been suggested that this was a reaction to offence caused by the Governor General of Canada at the time, the Earl Alexander of Tunis, who was of Northern Irish descent and who allegedly arranged to have placed symbols of Northern Ireland—notably a replica of the famous Roaring Meg cannon used in the Siege of Derry—in front of Costello at an official dinner.",
+      "hatnote": "The Irish prime minister answered the slight with a bombshell.",
+      "onwardLinkText": null,
+      "nextPage": "John A. Costello"
+    },
+    {
+      "page": "John A. Costello",
+      "url": "https://en.wikipedia.org/wiki/John_A._Costello",
+      "revision": 1364976882,
+      "section": "Declaration of the republic",
+      "passage": "Ireland left the Commonwealth on 18 April 1949, when the Republic of Ireland Act 1948 came into force. Frederick Henry Boland, Secretary of the Department of External Affairs, said caustically that the affair demonstrated that \"the Taoiseach has as much notion of diplomacy as I have of astrology.\"",
+      "hatnote": "Not everyone admired the timing.",
+      "onwardLinkText": null,
+      "nextPage": "John A. Costello"
+    }
+  ],
+  "payoff": "A snub over a toast, an irked Taoiseach, and within months Ireland was a republic, whether the slight caused it or merely timed it.",
+  "caveats": [
+    "Costello later said in his memoirs that the governor general had been perfectly civil and the decision to repeal the External Relations Act had already been made; the Costello article presents the dinner slight as a suggestion."
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "bamboo-mautam-mizo-uprising",
+  "claim": "A bamboo that flowers once in decades ended with India bombing its own city.",
+  "start": {
+    "title": "Bamboo",
+    "page": "Bamboo",
+    "description": "Subfamily of plants in the grass family",
+    "image": "snapshots/images/Bamboo.webp"
+  },
+  "end": {
+    "title": "Mizo National Front uprising",
+    "page": "Mizo National Front uprising",
+    "description": "1966 uprising in Mizoram, India",
+    "image": "snapshots/images/Mizo-National-Front-uprising.webp"
+  },
+  "knots": [
+    {
+      "page": "Bamboo",
+      "url": "https://en.wikipedia.org/wiki/Bamboo",
+      "revision": 1378036197,
+      "section": "China",
+      "passage": "The rarity of its blossoming has led to the flowers' being regarded as a sign of impending famine. This may be due to rats feeding upon the profusion of flowers, then multiplying and destroying a large part of the local food supply. The most recent flowering began in May 2006 (see Mautam). Various bamboo species bloom in this manner about every 28–60 years.",
+      "hatnote": "In Asia, a flowering bamboo is not a welcome sight.",
+      "onwardLinkText": "Mautam",
+      "nextPage": "Mautam"
+    },
+    {
+      "page": "Mautam",
+      "url": "https://en.wikipedia.org/wiki/Mautam",
+      "revision": 1371531836,
+      "section": "lead",
+      "passage": "During mautam, Melocanna baccifera, a species of bamboo, flowers at one time across a wide area. This event is followed invariably by a plague of black rats in what is called a rat flood. The bamboo flowering brings a temporary windfall of seeds, and rats multiply, exhaust the bamboo seeds, leave the forests, forage on stored grain, and cause devastating famine.",
+      "hatnote": "In northeast India, one species blooms all at once, and the rats come.",
+      "onwardLinkText": null,
+      "nextPage": "Mautam"
+    },
+    {
+      "page": "Mautam",
+      "url": "https://en.wikipedia.org/wiki/Mautam",
+      "revision": 1371531836,
+      "section": "1959 mautam famine",
+      "passage": "The famine began in December 1958 and hit the people east of the Turini River. In 1959, since the Assam Government failed to recognise the famine officially, aid was withheld. The rat population surged, devouring crops and destroying rice storage units.",
+      "hatnote": "In 1959 the rats arrived, and the government looked away.",
+      "onwardLinkText": null,
+      "nextPage": "Mautam"
+    },
+    {
+      "page": "Mautam",
+      "url": "https://en.wikipedia.org/wiki/Mautam",
+      "revision": 1371531836,
+      "section": "1959 mautam famine",
+      "passage": "During the mautam period of 1958 and 1959, the Mizo National Famine Front (MNFF) was set up to provide relief to the far-flung areas. This body later became the Mizo National Front (MNF), which staged a major uprising in 1966. Under its leader Laldenga (who later became the chief minister of Mizoram), MNF fought a bitter separatist struggle for 20 years against the Indian Army until an accord that guaranteed Mizoram's autonomy as a separate state was signed in 1986.",
+      "hatnote": "The famine relief volunteers did not stay volunteers for long.",
+      "onwardLinkText": "major uprising in 1966",
+      "nextPage": "Mizo National Front uprising"
+    },
+    {
+      "page": "Mizo National Front uprising",
+      "url": "https://en.wikipedia.org/wiki/Mizo_National_Front_uprising",
+      "revision": 1376880529,
+      "section": "lead",
+      "passage": "In the initial response of the government operations to suppress the rebellion in 1966, the Indian Air Force carried out airstrikes in Aizawl; this remains the only instance of the Indian Government carrying out a prolonged airstrike on its own people, in its own civilian territory. Counter-insurgency operations continued over the next two decades, although the intensity of the rebellion diminished over time progressively. In 1986, the government and the MNF signed the Mizoram Peace Accord, thereby ending the rebellion.",
+      "hatnote": "The government's answer to the uprising was without precedent.",
+      "onwardLinkText": null,
+      "nextPage": "Mizo National Front uprising"
+    }
+  ],
+  "payoff": "Bamboo seeds fed the rats, the rats ate the rice, and a famine-relief group became a rebel army India bombed from the air.",
+  "caveats": []
+}

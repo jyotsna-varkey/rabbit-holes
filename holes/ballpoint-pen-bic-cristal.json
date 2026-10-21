@@ -1,0 +1,63 @@
+{
+  "id": "ballpoint-pen-bic-cristal",
+  "claim": "Why does a ballpoint pen need a hole in its cap—and another in its barrel?",
+  "start": {
+    "title": "Ballpoint pen",
+    "page": "Ballpoint pen",
+    "description": "Device dispensing ink over a metal ball at its point",
+    "image": "snapshots/images/Ballpoint-pen.webp"
+  },
+  "end": {
+    "title": "Bic Cristal",
+    "page": "Bic Cristal",
+    "description": "Disposable ballpoint pen",
+    "image": "snapshots/images/Bic-Cristal.webp"
+  },
+  "knots": [
+    {
+      "page": "Ballpoint pen",
+      "url": "https://en.wikipedia.org/wiki/Ballpoint_pen",
+      "revision": 1378459733,
+      "section": "Origins",
+      "passage": "László Bíró, a Hungarian newspaper editor (later a naturalized Argentine) frustrated by the amount of time that he wasted filling up fountain pens and cleaning up smudged pages, noticed that inks used in newspaper printing dried quickly, leaving the paper dry and smudge-free. He decided to create a pen using the same type of ink. Bíró enlisted the help of his brother György, a dentist with useful knowledge of chemistry, to develop viscous ink formulae for new ballpoint designs.",
+      "hatnote": "A newspaper editor was tired of smudges.",
+      "onwardLinkText": "László Bíró",
+      "nextPage": "László Bíró"
+    },
+    {
+      "page": "László Bíró",
+      "url": "https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_B%C3%ADr%C3%B3",
+      "revision": 1363796003,
+      "section": "Invention of the ballpoint pen",
+      "passage": "In 1945, Marcel Bich bought the patent for the pen from Bíró. The resulting designs, including the Bic Cristal, became the main products of his company Société Bic S.A., which has since sold more than 100 billion ballpoint pens worldwide. In November of that same year, promoter Milton Reynolds introduced a gravity-fed pen to the US market, to try to get around Biro's patent, which was based on capillary action, where fresh ink is drawn out of the reservoir of the pen as ink is deposited on the paper. Because the Reynolds workaround depended on a gravity feed, it did not infringe, but required thinner ink and a larger barrel.",
+      "hatnote": "How did the invention become a mass-market pen?",
+      "onwardLinkText": "Bic Cristal",
+      "nextPage": "Bic Cristal"
+    },
+    {
+      "page": "Bic Cristal",
+      "url": "https://en.wikipedia.org/wiki/Bic_Cristal",
+      "revision": 1366904547,
+      "section": "Design",
+      "passage": "A tiny hole in the barrel's body maintains the same air pressure inside and outside the pen.",
+      "hatnote": "The world's best-selling pen has a hole you've never noticed.",
+      "onwardLinkText": null,
+      "nextPage": "Bic Cristal"
+    },
+    {
+      "page": "Bic Cristal",
+      "url": "https://en.wikipedia.org/wiki/Bic_Cristal",
+      "revision": 1366904547,
+      "section": "Design",
+      "passage": "Since 1991 the pen's streamlined polypropylene cap has a small hole added, to reduce the risk of suffocation if the cap is inhaled. Polypropylene is used instead of polystyrene because it absorbs impact better, reducing the chance of the pen cracking or splitting if it is dropped onto the cap.",
+      "hatnote": "And the hole in the cap is there for a darker reason.",
+      "onwardLinkText": null,
+      "nextPage": "Bic Cristal"
+    }
+  ],
+  "payoff": "Bíró's smudge-free pen became the Bic Cristal, whose two holes balance the air pressure and let you breathe if you swallow the cap.",
+  "caveats": [
+    "From Rabbit Hole Studio (GPT), rh-085, rank 79; hook is GPT's, hatnotes/payoff drafted by Claude.",
+    "GPT's second Ballpoint pen paragraph was dropped (the onward link sits in the first); its 270-word Bic Cristal passage was three paragraphs, now cut to two single-paragraph knots."
+  ]
+}

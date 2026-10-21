@@ -1,0 +1,92 @@
+{
+  "id": "auction-thorsson",
+  "claim": "Sweden's finance minister in 1918 had once been sold at auction.",
+  "start": {
+    "title": "Auction",
+    "page": "Auction",
+    "description": "Process of offering goods or services up for bids",
+    "image": ""
+  },
+  "end": {
+    "title": "Fredrik Vilhelm Thorsson",
+    "page": "Fredrik Vilhelm Thorsson",
+    "description": "Swedish politician (1865–1925)",
+    "image": "snapshots/images/Fredrik-Vilhelm-Thorsson.webp"
+  },
+  "knots": [
+    {
+      "page": "Auction",
+      "url": "https://en.wikipedia.org/wiki/Auction",
+      "revision": 1380017480,
+      "section": "Human commodity auctions",
+      "passage": "Auctions have been used in slave markets throughout history until modern times in the post-Gaddafi era Libya. The word for slave auction in the Atlantic slave trade was scramble. A child auction is a Swedish and Finnish historical practice of selling children into slavery-like conditions by authorities using a descending English auction.",
+      "hatnote": "Auctions have a dark history, and not only in faraway places.",
+      "onwardLinkText": "child auction",
+      "nextPage": "Child auction"
+    },
+    {
+      "page": "Child auction",
+      "url": "https://en.wikipedia.org/wiki/Child_auction",
+      "revision": 1360647060,
+      "section": "lead",
+      "passage": "The children were handed over to the person asking least money from the authorities to provide for the child. The compensation was determined in descending English auctions, where the children were present. The lowest bidder became the child's foster parent and was compensated with an annual amount equal to the bid. The foster parents provided the child with housing, upbringing and education, but the children were often used for child labour.",
+      "hatnote": "Orphans went not to the highest bidder, but to the cheapest.",
+      "onwardLinkText": null,
+      "nextPage": "Child auction"
+    },
+    {
+      "page": "Child auction",
+      "url": "https://en.wikipedia.org/wiki/Child_auction",
+      "revision": 1360647060,
+      "section": "lead",
+      "passage": "Child auctions were prohibited in Sweden in 1918 and in Finland in 1923. However, auctions were still organized in Finland until the late 1930s. The last known child auction was held in 1935.",
+      "hatnote": "This was not the Middle Ages.",
+      "onwardLinkText": null,
+      "nextPage": "Child auction"
+    },
+    {
+      "page": "Child auction",
+      "url": "https://en.wikipedia.org/wiki/Child_auction",
+      "revision": 1360647060,
+      "section": "lead",
+      "passage": "Among the notable people who were sold in child auctions are the Swedish politician Fredrik Vilhelm Thorsson, who later became the Minister for Finance of Sweden, Swedish school founder Hanna Lindmark, Finnish politicians Eino Kujanpää, Jukka Lankila and Vasili Suosaari, and Finnish author Joel Lehtonen.",
+      "hatnote": "Some of the auctioned children went far.",
+      "onwardLinkText": "Fredrik Vilhelm Thorsson",
+      "nextPage": "Fredrik Vilhelm Thorsson"
+    },
+    {
+      "page": "Fredrik Vilhelm Thorsson",
+      "url": "https://en.wikipedia.org/wiki/Fredrik_Vilhelm_Thorsson",
+      "revision": 1349574065,
+      "section": "Biography",
+      "passage": "Fredrik Vilhelm Thorsson came from humble working conditions. He was the son of shoemaker Nils Thorsson Viktor and Amalia Charlotta Pihlström. At the age of nine, he became an orphan, and was looked after by the parish officers and sold at child auction, where they offered children at sale.",
+      "hatnote": "One went all the way to the top.",
+      "onwardLinkText": null,
+      "nextPage": "Fredrik Vilhelm Thorsson"
+    },
+    {
+      "page": "Fredrik Vilhelm Thorsson",
+      "url": "https://en.wikipedia.org/wiki/Fredrik_Vilhelm_Thorsson",
+      "revision": 1349574065,
+      "section": "Political career",
+      "passage": "In 1914 he became a member of the governing board of the Swedish National Bank and re-elected in 1917. In 1918, he became Minister for Finance in Nils Edén's cabinet, a coalition between Liberals and Social Democrats, when Hjalmar Branting had resigned as Minister for Finance.",
+      "hatnote": "Decades later, the auctioned orphan was in charge of Sweden's money.",
+      "onwardLinkText": null,
+      "nextPage": "Fredrik Vilhelm Thorsson"
+    },
+    {
+      "page": "Fredrik Vilhelm Thorsson",
+      "url": "https://en.wikipedia.org/wiki/Fredrik_Vilhelm_Thorsson",
+      "revision": 1349574065,
+      "section": "Legacy",
+      "passage": "Fredrik Ström wrote an account of Thorsson in the small volume Skomakaren, som blev kungens skattmästare, which was printed the year after Ström's death.",
+      "hatnote": "A later book about him bore a fitting title: The Shoemaker Who Became the King's Treasurer.",
+      "onwardLinkText": null,
+      "nextPage": "Fredrik Vilhelm Thorsson"
+    }
+  ],
+  "payoff": "An orphan auctioned to the lowest bidder became Sweden's finance minister in 1918, the very year Sweden banned child auctions.",
+  "caveats": [
+    "The pages do not say Thorsson had any part in the 1918 ban; the timing is a coincidence as far as they show."
+  ]
+}

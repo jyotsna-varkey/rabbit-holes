@@ -1,0 +1,82 @@
+{
+  "id": "q-newroz",
+  "claim": "In 2006, a Turkish mayor was sentenced to jail over a single letter.",
+  "start": {
+    "title": "Q",
+    "page": "Q",
+    "description": "Seventeenth letter of the Latin alphabet",
+    "image": "snapshots/images/Q.webp"
+  },
+  "end": {
+    "title": "Newroz as celebrated by Kurds",
+    "page": "Newroz as celebrated by Kurds",
+    "description": "Kurdish new year holiday",
+    "image": "snapshots/images/Newroz-as-celebrated-by-Kurds.webp"
+  },
+  "knots": [
+    {
+      "page": "Q",
+      "url": "https://en.wikipedia.org/wiki/Q",
+      "revision": 1380097652,
+      "section": "History",
+      "passage": "In Turkey between 1928 and 2013 the use of the letter Q, alongside X and W, was banned from official government documents, such as street signs and brochures as well as public places. The letter forms part of the Kurdish alphabet but is not present in Turkish.",
+      "hatnote": "Q, along with W and X, was once kept off Turkey's streets.",
+      "onwardLinkText": "banned",
+      "nextPage": "Prohibition of letters Q, W and X in Turkey"
+    },
+    {
+      "page": "Prohibition of letters Q, W and X in Turkey",
+      "url": "https://en.wikipedia.org/wiki/Prohibition_of_letters_Q%2C_W_and_X_in_Turkey",
+      "revision": 1375742716,
+      "section": "lead",
+      "passage": "Because these three letters were excluded from the official Turkish alphabet, their use in official documents, personal names, and public communications was restricted for decades. While the policy was presented as a linguistic standardization measure, it became closely associated with the suppression of Kurdish linguistic and cultural expression because the Kurdish Latin alphabet uses all three letters extensively.",
+      "hatnote": "A spelling rule became a way to silence a language.",
+      "onwardLinkText": null,
+      "nextPage": "Prohibition of letters Q, W and X in Turkey"
+    },
+    {
+      "page": "Prohibition of letters Q, W and X in Turkey",
+      "url": "https://en.wikipedia.org/wiki/Prohibition_of_letters_Q%2C_W_and_X_in_Turkey",
+      "revision": 1375742716,
+      "section": "Controversy and human rights violations",
+      "passage": "There has been many cases of prosecution of people, especially Kurdish people, who violated this prohibition that was known as the alphabet law. Some of these case became controversial especially after 2000s when Turkey intended to join the European Union. In 2006 a Kurdish mayor named Osman Baydemir who spelled the word Newroz with W was sentenced to jail, however the charges were dropped following the public pressure.",
+      "hatnote": "The offending W was in the name of a festival.",
+      "onwardLinkText": "Newroz",
+      "nextPage": "Newroz as celebrated by Kurds"
+    },
+    {
+      "page": "Newroz as celebrated by Kurds",
+      "url": "https://en.wikipedia.org/wiki/Newroz_as_celebrated_by_Kurds",
+      "revision": 1376381068,
+      "section": "Mythology",
+      "passage": "Zahak, who is named Zuhak by the Kurds, was an evil Assyrian king who conquered Iran and had serpents growing from his shoulders. Zahak's rule lasted for one thousand years; his evil reign caused spring to no longer come to Kurdistan. During this time, two young men were sacrificed daily and their brains were offered to Zahak's serpents in order to alleviate his pain.",
+      "hatnote": "Newroz celebrates spring, and the defeat of a monstrous king.",
+      "onwardLinkText": null,
+      "nextPage": "Newroz as celebrated by Kurds"
+    },
+    {
+      "page": "Newroz as celebrated by Kurds",
+      "url": "https://en.wikipedia.org/wiki/Newroz_as_celebrated_by_Kurds",
+      "revision": 1376381068,
+      "section": "Mythology",
+      "passage": "The revolt was led by Kaveh (also known as Kawa) (in the Ossetian language, Kurdalægon), a blacksmith who had lost six sons to Zahak. The young men who had been saved from the fate of being sacrificed (who according to the legend were ancestors of the Kurds) were trained by Kaveh into an army that marched to Zahak's castle where Kaveh killed the king with a hammer. Kaveh is said to have then set fire to the hillsides to celebrate the victory and summon his supporters; spring returned to Kurdistan the next day.",
+      "hatnote": "Then came a revolt, and spring came back.",
+      "onwardLinkText": null,
+      "nextPage": "Newroz as celebrated by Kurds"
+    },
+    {
+      "page": "Newroz as celebrated by Kurds",
+      "url": "https://en.wikipedia.org/wiki/Newroz_as_celebrated_by_Kurds",
+      "revision": 1376381068,
+      "section": "Mythology",
+      "passage": "In the 1930s, the Kurdish poet Taufik Abdullah, wanting to instill a new Kurdish cultural revival, used a previously known, modified version of the story of Kawa. He connected the myths where people felt oppressed with Newroz, thus reviving a dying holiday and making it a symbol of the Kurdish national struggle.",
+      "hatnote": "Which is exactly why the word was never just a word.",
+      "onwardLinkText": null,
+      "nextPage": "Newroz as celebrated by Kurds"
+    }
+  ],
+  "payoff": "The banned W spelled a festival about overthrowing a tyrant: a myth revived in the 1930s precisely as a symbol of Kurdish resistance.",
+  "caveats": [
+    "The Kaveh and Zahak story is legend, retold in the Shahnameh and elsewhere."
+  ]
+}

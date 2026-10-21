@@ -1,0 +1,82 @@
+{
+  "id": "sunglasses-crookes-katie-king",
+  "claim": "The man behind UV-blocking sunglasses couldn't see through a fake ghost.",
+  "start": {
+    "title": "Sunglasses",
+    "page": "Sunglasses",
+    "description": "Eyewear for protecting against bright light",
+    "image": "snapshots/images/Sunglasses.webp"
+  },
+  "end": {
+    "title": "Florence Cook (medium)",
+    "page": "Florence Cook (medium)",
+    "description": "British medium (ca. 1856–1904)",
+    "image": "snapshots/images/Florence-Cook-medium.webp"
+  },
+  "knots": [
+    {
+      "page": "Sunglasses",
+      "url": "https://en.wikipedia.org/wiki/Sunglasses",
+      "revision": 1373245767,
+      "section": "Modern developments",
+      "passage": "In 1913, Crookes lenses were introduced, made from glass containing cerium, which completely blocked ultraviolet light. In the early 1920s, the use of sunglasses started to become more widespread, especially among movie stars.",
+      "hatnote": "Before sunglasses were cool, they were lab equipment.",
+      "onwardLinkText": "Crookes lenses",
+      "nextPage": "William Crookes"
+    },
+    {
+      "page": "William Crookes",
+      "url": "https://en.wikipedia.org/wiki/William_Crookes",
+      "revision": 1380613073,
+      "section": "Later years",
+      "passage": "In 1913, Crookes created an ultraviolet blocking lens made from glass containing cerium, but only lightly tinted. These inventions were the by-product of Crookes's research to find a lens glass formulation that would protect glass workers from cataracts. Crookes tested more than 300 formulations, each numbered and labelled.",
+      "hatnote": "Crookes wasn't chasing fashion. He was trying to save glassworkers' eyes.",
+      "onwardLinkText": null,
+      "nextPage": "William Crookes"
+    },
+    {
+      "page": "William Crookes",
+      "url": "https://en.wikipedia.org/wiki/William_Crookes",
+      "revision": 1380613073,
+      "section": "Spiritualism",
+      "passage": "The anthropologist Edward Clodd noted that Crookes had poor eyesight, which may have explained his belief in spiritualist phenomena and quoted William Ramsay as saying that Crookes is \"so shortsighted that, despite his unquestioned honesty, he cannot be trusted in what he tells you he has seen.\" Biographer William Hodson Brock wrote that Crookes was \"evidently short-sighted, but did not wear spectacles until the 1890s. Until then he may have used a monocle or pocket magnifying glass when necessary. What limitations this imposed upon his psychic investigations we can only imagine.\"",
+      "hatnote": "His own eyes were another matter. So were his 'psychic investigations'.",
+      "onwardLinkText": null,
+      "nextPage": "William Crookes"
+    },
+    {
+      "page": "William Crookes",
+      "url": "https://en.wikipedia.org/wiki/William_Crookes",
+      "revision": 1380613073,
+      "section": "Spiritualism",
+      "passage": "Between 1871 and 1874, Crookes studied the mediums Kate Fox, Florence Cook, and Daniel Dunglas Home. After his investigation, he believed that the mediums could produce genuine paranormal phenomena and communicate with spirits. Psychologists Leonard Zusne and Warren H. Jones have described Crookes as gullible as he endorsed fraudulent mediums as genuine.",
+      "hatnote": "For years he studied mediums, and he came out a believer.",
+      "onwardLinkText": "Florence Cook",
+      "nextPage": "Florence Cook (medium)"
+    },
+    {
+      "page": "Florence Cook (medium)",
+      "url": "https://en.wikipedia.org/wiki/Florence_Cook_(medium)",
+      "revision": 1380680371,
+      "section": "Investigations",
+      "passage": "A 15-year-old Cook, alone in Crookes' house with Crookes' friends and family as witnesses, was said to have materialised the spirit of Katie King, who walked about, talked, allowed herself to be weighed and measured, and even held the family's baby (Doyle 1926: volume 1, 241).",
+      "hatnote": "Her 'spirit' made house calls.",
+      "onwardLinkText": null,
+      "nextPage": "Florence Cook (medium)"
+    },
+    {
+      "page": "Florence Cook (medium)",
+      "url": "https://en.wikipedia.org/wiki/Florence_Cook_(medium)",
+      "revision": 1380680371,
+      "section": "Investigations",
+      "passage": "In 1880 another of Cook's materialisations was interrupted by one of the witnesses, George Sitwell, who seized the spirit figure and revealed that the medium was not in her chair.",
+      "hatnote": "Someone else finally grabbed the ghost.",
+      "onwardLinkText": null,
+      "nextPage": "Florence Cook (medium)"
+    }
+  ],
+  "payoff": "The man whose lenses guard our eyes, short-sighted and without spectacles, vouched for a teenage medium whose 'spirit' was later grabbed and exposed.",
+  "caveats": [
+    "The account of Katie King holding the baby comes from Arthur Conan Doyle's 1926 spiritualist history, cited in the passage."
+  ]
+}

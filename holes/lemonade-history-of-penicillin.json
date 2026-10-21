@@ -1,0 +1,72 @@
+{
+  "id": "lemonade-history-of-penicillin",
+  "claim": "Making lemonade's sour acid from mould taught Pfizer to mass-produce penicillin.",
+  "start": {
+    "title": "Lemonade",
+    "page": "Lemonade",
+    "description": "Lemon-flavored drink",
+    "image": "snapshots/images/Lemonade.webp"
+  },
+  "end": {
+    "title": "History of penicillin",
+    "page": "History of penicillin",
+    "description": "Aspect of medical history",
+    "image": "snapshots/images/History-of-penicillin.webp"
+  },
+  "knots": [
+    {
+      "page": "Lemonade",
+      "url": "https://en.wikipedia.org/wiki/Lemonade",
+      "revision": 1375674862,
+      "section": "Pink lemonade",
+      "passage": "In the past, tartaric acid was commonly used to produce the typical tart flavor. In the modern era, commercially produced lemonade and powdered mixes tend to rely on citric acid.",
+      "hatnote": "Lemonade's sourness doesn't have to come from lemons.",
+      "onwardLinkText": "citric acid",
+      "nextPage": "Citric acid"
+    },
+    {
+      "page": "Citric acid",
+      "url": "https://en.wikipedia.org/wiki/Citric_acid",
+      "revision": 1379046807,
+      "section": "Natural occurrence and industrial production",
+      "passage": "Industrial-scale citric acid production first began in 1890 based on the Italian citrus fruit industry, where the juice was treated with hydrated lime (calcium hydroxide) to precipitate calcium citrate, which was isolated and converted back to the acid using diluted sulfuric acid. In 1893, C. Wehmer discovered Penicillium mold could produce citric acid from sugar. However, microbial production of citric acid did not become industrially important until World War I disrupted Italian Citrus exports.",
+      "hatnote": "Citric acid itself once came from Italian lemons.",
+      "onwardLinkText": null,
+      "nextPage": "Citric acid"
+    },
+    {
+      "page": "Citric acid",
+      "url": "https://en.wikipedia.org/wiki/Citric_acid",
+      "revision": 1379046807,
+      "section": "Natural occurrence and industrial production",
+      "passage": "In 1917, American food chemist James Currie discovered that certain strains of the mold Aspergillus niger could be efficient citric acid producers, and the pharmaceutical company Pfizer began industrial-level production using this technique two years later, followed by Citrique Belge in 1929.",
+      "hatnote": "America found a mouldier answer.",
+      "onwardLinkText": "Pfizer",
+      "nextPage": "Pfizer"
+    },
+    {
+      "page": "Pfizer",
+      "url": "https://en.wikipedia.org/wiki/Pfizer",
+      "revision": 1378286412,
+      "section": "1849–1950: Early history",
+      "passage": "World War I caused a shortage of calcium citrate. Pfizer imported the compound from Italy for the manufacture of citric acid, and due to the disruption in supply, the company began a search for an alternative. They found this in the form of a fungus capable of fermenting sugar to citric acid. By 1919, the company was able to commercialize production of citric acid from this source. The company developed expertise in fermentation technology as a result. These skills were applied to the deep-submergence mass production of penicillin, an antibiotic, during World War II in response to the need to treat injured Allied soldiers.",
+      "hatnote": "Pfizer's lemon problem became a skill.",
+      "onwardLinkText": "deep-submergence mass production",
+      "nextPage": "History of penicillin"
+    },
+    {
+      "page": "History of penicillin",
+      "url": "https://en.wikipedia.org/wiki/History_of_penicillin",
+      "revision": 1376463778,
+      "section": "Deep submergence",
+      "passage": "Pfizer was a small New York company that specialised in making citric acid, for which it had developed deep submergence techniques. This involved converting molasses to citric acid by fermenting it in a large tank in which it was stirred and the pH was carefully controlled. Pfizer's vice president, John L. Smith, whose daughter had died from an infection, put all of Pfizer's resources into the development of a practical deep submergence technique.",
+      "hatnote": "The penicillin push came from an unlikely, and grieving, small company.",
+      "onwardLinkText": null,
+      "nextPage": "History of penicillin"
+    }
+  ],
+  "payoff": "Brewing lemonade's acid from mould, instead of Italian lemons, gave Pfizer the vats and know-how to brew penicillin for the war.",
+  "caveats": [
+    "Pages differ slightly on whether Wehmer's mould was Penicillium; Pfizer's process used Aspergillus niger."
+  ]
+}

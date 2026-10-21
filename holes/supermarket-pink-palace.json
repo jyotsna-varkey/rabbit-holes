@@ -1,0 +1,80 @@
+{
+  "id": "supermarket-pink-palace",
+  "claim": "Why a Memphis museum keeps a 1916 grocery shop inside a pink marble mansion.",
+  "start": {
+    "title": "Supermarket",
+    "page": "Supermarket",
+    "description": "Large format of grocery store",
+    "image": "snapshots/images/Supermarket.webp"
+  },
+  "end": {
+    "title": "Pink Palace Museum and Planetarium",
+    "page": "Pink Palace Museum and Planetarium",
+    "description": "Museum in Memphis, Tennessee, US",
+    "image": "snapshots/images/Pink-Palace-Museum-and-Planetarium.webp"
+  },
+  "knots": [
+    {
+      "page": "Supermarket",
+      "url": "https://en.wikipedia.org/wiki/Supermarket",
+      "revision": 1380396428,
+      "section": "Self-service grocery stores",
+      "passage": "The concept of a self-service grocery store predates the supermarket; it was developed by entrepreneur Clarence Saunders at his Piggly Wiggly stores, the first of which opened in 1916. Saunders was awarded several patents for the ideas he incorporated into his stores. The stores were a financial success and Saunders began to offer franchises.",
+      "hatnote": "Before supermarkets, a clerk fetched everything for you. Then a Memphis grocer had an idea.",
+      "onwardLinkText": "Clarence Saunders",
+      "nextPage": "Clarence Saunders"
+    },
+    {
+      "page": "Clarence Saunders",
+      "url": "https://en.wikipedia.org/wiki/Clarence_Saunders",
+      "revision": 1375748609,
+      "section": "Piggly Wiggly",
+      "passage": "The store incorporated shopping baskets, self-service branded products, and checkouts at the front. Removing unnecessary clerks, creating elaborate aisle displays, and rearranging the store to force customers to view all of the merchandise in a continuous path, were just some of the characteristics of the early Piggly Wiggly stores.",
+      "hatnote": "His first stores already looked a lot like a modern supermarket.",
+      "onwardLinkText": null,
+      "nextPage": "Clarence Saunders"
+    },
+    {
+      "page": "Clarence Saunders",
+      "url": "https://en.wikipedia.org/wiki/Clarence_Saunders",
+      "revision": 1375748609,
+      "section": "Wall Street raid",
+      "passage": "In the early 1920s Saunders began construction of a pink marble mansion in Memphis. Then, in early 1923, a group of franchised outlets in New York failed. Merrill Lynch and other speculators on Wall Street attempted a bear raid on the price of Piggly Wiggly stock, gambling the price would fall. With a loan of $10 million from a number of Southern bankers, plus a bit of his own money, Saunders counteracted by buying a large amount of Piggly Wiggly stock in hopes of driving up the price.",
+      "hatnote": "Rich and flamboyant, Saunders picked a fight with Wall Street.",
+      "onwardLinkText": null,
+      "nextPage": "Clarence Saunders"
+    },
+    {
+      "page": "Clarence Saunders",
+      "url": "https://en.wikipedia.org/wiki/Clarence_Saunders",
+      "revision": 1375748609,
+      "section": "Wall Street raid",
+      "passage": "Saunders bought Piggly Wiggly stock until he had orders for 196,000 of the 200,000 outstanding shares. The firm's share price went from a low of $39 in late 1922 to $124 by March 20, 1923. Pressured by the 'bears', the New York Stock Exchange declared a 'corner' existed (see cornering the market), and gave the 'bears' five days rather than the usual 24 hours to deliver the stock Saunders had bought. The additional time meant \"a flood of stock poured [in] from distant points and gave the shorts opportunity to deliver.\"",
+      "hatnote": "He almost won. Then the rules changed.",
+      "onwardLinkText": null,
+      "nextPage": "Clarence Saunders"
+    },
+    {
+      "page": "Clarence Saunders",
+      "url": "https://en.wikipedia.org/wiki/Clarence_Saunders",
+      "revision": 1375748609,
+      "section": "Wall Street raid",
+      "passage": "In the words of John Brooks, \"...in mid-August, with the September 1st deadline for repayment of two and a half million dollars on his loan staring him in the face and with nothing like that amount of cash either on hand or in prospect, he resigned as president of Piggly Wiggly Stores, Inc., and turned over his assets—his stock in the company, his Pink Palace, and all the rest of his property—to his creditors.\"",
+      "hatnote": "Months later, the bill came due.",
+      "onwardLinkText": "Pink Palace",
+      "nextPage": "Pink Palace Museum and Planetarium"
+    },
+    {
+      "page": "Pink Palace Museum and Planetarium",
+      "url": "https://en.wikipedia.org/wiki/Pink_Palace_Museum_and_Planetarium",
+      "revision": 1363574867,
+      "section": "Exhibits",
+      "passage": "The museum contains a variety of exhibits relating to Memphis history. One exhibit features a replica of the original Piggly Wiggly store, the first self-service grocery store, commemorating the invention of the supermarket by Memphian Clarence Saunders in 1916.",
+      "hatnote": "His Pink Palace is now a Memphis museum.",
+      "onwardLinkText": null,
+      "nextPage": "Pink Palace Museum and Planetarium"
+    }
+  ],
+  "payoff": "Saunders lost his marble mansion after taking on Wall Street; today it is a museum, with a replica of his first self-service store inside.",
+  "caveats": []
+}

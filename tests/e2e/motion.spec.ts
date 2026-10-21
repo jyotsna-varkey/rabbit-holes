@@ -28,7 +28,7 @@ async function movingElements(page: Page) {
 }
 
 test('nothing else on screen animates', async ({ page }) => {
-  await page.goto('/?hole=coffee-insurance');
+  await page.goto('/?hole=tutankhamun-noblecourt-amada-rails');
   const seen: string[] = [...(await movingElements(page))];
   await enterTopHole(page);
   seen.push(...(await movingElements(page)));

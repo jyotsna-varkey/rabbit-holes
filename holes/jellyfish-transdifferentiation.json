@@ -1,0 +1,63 @@
+{
+  "id": "jellyfish-transdifferentiation",
+  "claim": "Can a jellyfish rewind its life—and what does that mean for its cells?",
+  "start": {
+    "title": "Jellyfish",
+    "page": "Jellyfish",
+    "description": "Soft-bodied, aquatic invertebrates",
+    "image": "snapshots/images/Jellyfish.webp"
+  },
+  "end": {
+    "title": "Transdifferentiation",
+    "page": "Transdifferentiation",
+    "description": "Process in developmental biology",
+    "image": ""
+  },
+  "knots": [
+    {
+      "page": "Jellyfish",
+      "url": "https://en.wikipedia.org/wiki/Jellyfish",
+      "revision": 1378530451,
+      "section": "Lifespan",
+      "passage": "An unusual species, Turritopsis dohrnii, formerly classified as Turritopsis nutricula, might be effectively immortal because of its ability under certain circumstances to transform from medusa back to the polyp stage, thereby escaping the death that typically awaits medusae after reproduction if they have not otherwise been eaten by some other organism. So far this reversal has been observed only in the laboratory.",
+      "hatnote": "One jellyfish may not have to die of old age.",
+      "onwardLinkText": "Turritopsis dohrnii",
+      "nextPage": "Turritopsis dohrnii"
+    },
+    {
+      "page": "Turritopsis dohrnii",
+      "url": "https://en.wikipedia.org/wiki/Turritopsis_dohrnii",
+      "revision": 1378329316,
+      "section": "lead",
+      "passage": "Like most other hydrozoans, T. dohrnii begin their lives as tiny, free-swimming larvae known as planulae. As a planula settles down, it gives rise to a colony of polyps that are attached to the sea floor. All the polyps and medusa arising from a single planula are clones. The polyps form into an extensively branched form, which is not commonly seen in most jellyfish. Jellyfish, also known as medusae, then bud off these polyps and continue their life in a free-swimming form, eventually becoming sexually mature. When sexually mature, they are known to prey on other jellyfish species at a rapid pace. If the T. dohrnii jellyfish is exposed to environmental stress, physical assault, or is sick or old, it can revert to the polyp stage, forming a new polyp colony. It does this through the cell development process of transdifferentiation, which alters the differentiated state of the cells and transforms them into new types of cells.",
+      "hatnote": "What does reversing the life cycle actually involve?",
+      "onwardLinkText": "transdifferentiation",
+      "nextPage": "Transdifferentiation"
+    },
+    {
+      "page": "Transdifferentiation",
+      "url": "https://en.wikipedia.org/wiki/Transdifferentiation",
+      "revision": 1370588213,
+      "section": "lead",
+      "passage": "Transdifferentiation, also known as lineage reprogramming, is the process in which one mature somatic cell is transformed into another mature somatic cell without undergoing an intermediate pluripotent or progenitor cell stage. It is a type of metaplasia, which includes all cell fate switches, including the interconversion of stem cells. Current uses of transdifferentiation include disease modeling and drug discovery and in the future may include gene therapy and regenerative medicine. The term 'transdifferentiation' was originally coined by Selman and Kafatos in 1974 to describe a change in cell properties as cuticle-producing cells became salt-secreting cells in silk moths undergoing metamorphosis.",
+      "hatnote": "How does changing a cell's identity work?",
+      "onwardLinkText": null,
+      "nextPage": "Transdifferentiation"
+    },
+    {
+      "page": "Transdifferentiation",
+      "url": "https://en.wikipedia.org/wiki/Transdifferentiation",
+      "revision": 1370588213,
+      "section": "Natural examples",
+      "passage": "In newts, when the eye lens is removed, pigmented epithelial cells dedifferentiate and then redifferentiate into lens cells. Vincenzo Colucci described this phenomenon in 1891 and Gustav Wolff described the same thing in 1894; the priority issue is examined in Holland (2021).",
+      "hatnote": "Newts do something similar with their eyes.",
+      "onwardLinkText": null,
+      "nextPage": "Transdifferentiation"
+    }
+  ],
+  "payoff": "The 'immortal' jellyfish rewinds by turning its cells into other cells, a trick newts use to regrow an eye lens.",
+  "caveats": [
+    "From Rabbit Hole Studio (GPT), rh-062, rank 49; hook is GPT's, hatnotes/payoff drafted by Claude.",
+    "The reversal has only been observed in the laboratory."
+  ]
+}

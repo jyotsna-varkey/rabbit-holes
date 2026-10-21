@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react';
 import { flushSync } from 'react-dom';
 import { animate, motion, useMotionValue, useTransform, type PanInfo } from 'framer-motion';
-import { holeById, type Hole } from '../content';
+import { cardById } from '../content';
 import { HoleCard, type HoleCardHandle } from '../components/HoleCard';
 import { getShelf, logSwipe } from '../lib/storage';
 
@@ -9,7 +9,7 @@ type Props = {
   order: string[];
   setOrder(ids: string[]): void;
   hidden: boolean;
-  onEnter(hole: Hole, from: DOMRect | null): void;
+  onEnter(id: string, from: DOMRect | null): void;
   onShelf(): void;
 };
 
@@ -26,12 +26,12 @@ export function Home({ order, setOrder, hidden, onEnter, onShelf }: Props) {
   const goIn = async () => {
     if (leaving) return;
     setLeaving(true);
-    const hole = holeById(order[0]);
-    logSwipe(hole.id, 'in');
+    const id = order[0];
+    logSwipe(id, 'in');
     // Carry straight on: the start card grows into the page from where the
     // swipe left it. Springing the card back first read as a failed swipe.
     setTaut(true);
-    onEnter(hole, top.current?.startRect() ?? null);
+    onEnter(id, top.current?.startRect() ?? null);
     // Reset the card once the page has covered the stack.
     setTimeout(() => {
       x.set(0);
@@ -91,11 +91,11 @@ export function Home({ order, setOrder, hidden, onEnter, onShelf }: Props) {
                   onDragEnd={onDragEnd}
                   whileTap={{ cursor: 'grabbing' }}
                 >
-                  <HoleCard ref={top} hole={holeById(id)} rotate={rotate} taut={taut} live={!hidden} />
+                  <HoleCard ref={top} hole={cardById(id)} rotate={rotate} taut={taut} live={!hidden} />
                 </motion.div>
               ) : (
                 <div className="stack-drag">
-                  <HoleCard hole={holeById(id)} live={false} />
+                  <HoleCard hole={cardById(id)} live={false} />
                 </div>
               )}
             </div>

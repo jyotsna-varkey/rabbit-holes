@@ -1,0 +1,80 @@
+{
+  "id": "jaws-chicken-hypnosis",
+  "claim": "The trick orcas use to kill great whites also hypnotises chickens.",
+  "start": {
+    "title": "Jaws (film)",
+    "page": "Jaws (film)",
+    "description": "1975 film by Steven Spielberg",
+    "image": "snapshots/images/Jaws-film.webp"
+  },
+  "end": {
+    "title": "Apparent death",
+    "page": "Apparent death",
+    "description": "Animals playing dead",
+    "image": "snapshots/images/Apparent-death.webp"
+  },
+  "knots": [
+    {
+      "page": "Jaws (film)",
+      "url": "https://en.wikipedia.org/wiki/Jaws_(film)",
+      "revision": 1379429660,
+      "section": "Influences",
+      "passage": "The character of Quint strongly resembles Captain Ahab, the obsessed captain of the Pequod who devotes his life to hunting a sperm whale. Quint's monologue reveals a similar obsession with sharks; even his boat, the Orca, is named after the only natural enemy of the white shark.",
+      "hatnote": "Quint is Jaws's Captain Ahab, and his boat's name is a clue.",
+      "onwardLinkText": "natural enemy of the white shark",
+      "nextPage": "Orca"
+    },
+    {
+      "page": "Orca",
+      "url": "https://en.wikipedia.org/wiki/Orca",
+      "revision": 1375859940,
+      "section": "Fish",
+      "passage": "In other parts of the world, orcas have preyed on broadnose sevengill sharks, whale sharks, and even great white sharks, whose livers orcas have been observed to target by flipping the sharks onto their backs, inducing a paralysis called tonic immobility.",
+      "hatnote": "What does a killer whale actually do to a great white?",
+      "onwardLinkText": "great white sharks",
+      "nextPage": "Great white shark"
+    },
+    {
+      "page": "Great white shark",
+      "url": "https://en.wikipedia.org/wiki/Great_white_shark",
+      "revision": 1379102330,
+      "section": "Mortality and health",
+      "passage": "Around South Africa, orcas typically hunt white sharks in groups of two to six. By flipping the sharks belly up, the whales trigger a paralytic state known as tonic immobility, allowing them to precisely target and consume the sharks' energy-rich livers.",
+      "hatnote": "Off South Africa, orcas have turned it into a team sport.",
+      "onwardLinkText": "tonic immobility",
+      "nextPage": "Apparent death"
+    },
+    {
+      "page": "Apparent death",
+      "url": "https://en.wikipedia.org/wiki/Apparent_death",
+      "revision": 1376572808,
+      "section": "Sharks",
+      "passage": "Some sharks can be induced into tonic immobility by inverting them and restraining them by hand, e.g. dogfish sharks, lemon sharks, whitetip reef sharks. For tiger sharks (measuring 3–4 metres in length), tonic immobility can be induced by humans placing their hands lightly on the sides of the animal's snout in the area surrounding the eyes.",
+      "hatnote": "Humans can switch sharks off too.",
+      "onwardLinkText": null,
+      "nextPage": "Apparent death"
+    },
+    {
+      "page": "Apparent death",
+      "url": "https://en.wikipedia.org/wiki/Apparent_death",
+      "revision": 1376572808,
+      "section": "Chickens",
+      "passage": "Tonic immobility can be induced in chickens through several means, including by gently restraining them on their side, stomach, or back for a short period of time, or by using chalk to draw a line on the ground away from the chicken's beak while restraining them with their head down.",
+      "hatnote": "The same reflex shows up somewhere far less glamorous.",
+      "onwardLinkText": null,
+      "nextPage": "Apparent death"
+    },
+    {
+      "page": "Apparent death",
+      "url": "https://en.wikipedia.org/wiki/Apparent_death",
+      "revision": 1376572808,
+      "section": "lead",
+      "passage": "When induced by humans, the state is sometimes colloquially known as animal hypnosis. The earliest written record of \"animal hypnosis\" dates back to the year 1646 in a report by Athanasius Kircher, in which he subdued chickens.",
+      "hatnote": "And people have been doing it for a very long time.",
+      "onwardLinkText": null,
+      "nextPage": "Apparent death"
+    }
+  ],
+  "payoff": "Quint's Orca is named for a shark-killer whose secret weapon is the same reflex behind 'hypnotising' a chicken with chalk.",
+  "caveats": []
+}

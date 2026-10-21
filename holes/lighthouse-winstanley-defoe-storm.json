@@ -1,0 +1,82 @@
+{
+  "id": "lighthouse-winstanley-defoe-storm",
+  "claim": "A lighthouse builder wished for the greatest storm ever. He got it.",
+  "start": {
+    "title": "Lighthouse",
+    "page": "Lighthouse",
+    "description": "Structure designed to emit light to aid navigation",
+    "image": "snapshots/images/Lighthouse.webp"
+  },
+  "end": {
+    "title": "The Storm",
+    "page": "The Storm (Daniel Defoe)",
+    "description": "Pioneering 1704 work of journalism by Daniel Defoe",
+    "image": "snapshots/images/The-Storm-Daniel-Defoe.webp"
+  },
+  "knots": [
+    {
+      "page": "Lighthouse",
+      "url": "https://en.wikipedia.org/wiki/Lighthouse",
+      "revision": 1380376593,
+      "section": "Modern construction",
+      "passage": "The Eddystone Rocks were a major shipwreck hazard for mariners sailing through the English Channel. The first lighthouse built there was an octagonal wooden structure, anchored by 12 iron stanchions secured in the rock, and was built by Henry Winstanley from 1696 to 1698. His lighthouse was the first tower in the world to have been fully exposed to the open sea.",
+      "hatnote": "The first lighthouse built out in the open sea.",
+      "onwardLinkText": "Henry Winstanley",
+      "nextPage": "Henry Winstanley"
+    },
+    {
+      "page": "Henry Winstanley",
+      "url": "https://en.wikipedia.org/wiki/Henry_Winstanley",
+      "revision": 1374259697,
+      "section": "Construction of the Eddystone lighthouse",
+      "passage": "Winstanley became a merchant, investing some of the money he had made from his work and commercial enterprises in five ships. Two of them were wrecked on the Eddystone Rocks near Plymouth, and he demanded to know why nothing was done to protect vessels from this hazard. Told that the reef was too treacherous to mark, he declared that he would build a lighthouse there himself, and the Admiralty agreed to support him with ships and men.",
+      "hatnote": "Why build there? Its builder had a personal grudge against the reef.",
+      "onwardLinkText": null,
+      "nextPage": "Henry Winstanley"
+    },
+    {
+      "page": "Henry Winstanley",
+      "url": "https://en.wikipedia.org/wiki/Henry_Winstanley",
+      "revision": 1374259697,
+      "section": "Death",
+      "passage": "Winstanley was recorded as having expressed great faith in his construction, wishing he might be inside it during \"the greatest storm there ever was\". The tower was destroyed on the night of 27 November 1703, during the Great Storm of that year. Winstanley was visiting the lighthouse that night to make repairs, and he lost his life.",
+      "hatnote": "He was very proud of his tower. Too proud.",
+      "onwardLinkText": "Great Storm",
+      "nextPage": "Great storm of 1703"
+    },
+    {
+      "page": "Great storm of 1703",
+      "url": "https://en.wikipedia.org/wiki/Great_storm_of_1703",
+      "revision": 1379015687,
+      "section": "lead",
+      "passage": "High winds caused 2,000 chimney stacks to collapse in London and damaged the New Forest, which lost 4,000 oaks. Ships were blown hundreds of miles off-course, and over 1,000 seamen died on the Goodwin Sands alone. News bulletins of casualties and damage were sold all over England and Wales – a novelty at that time.",
+      "hatnote": "The storm that took his tower battered the whole country.",
+      "onwardLinkText": null,
+      "nextPage": "Great storm of 1703"
+    },
+    {
+      "page": "Great storm of 1703",
+      "url": "https://en.wikipedia.org/wiki/Great_storm_of_1703",
+      "revision": 1379015687,
+      "section": "Literary",
+      "passage": "Daniel Defoe produced his full-length book The Storm (July 1704) in response to the calamity, calling it \"the tempest that destroyed woods and forests all over England\". He wrote: \"No pen could describe it, nor tongue express it, nor thought conceive it unless by one in the extremity of it.\"",
+      "hatnote": "One writer set out to record it all.",
+      "onwardLinkText": "The Storm",
+      "nextPage": "The Storm (Daniel Defoe)"
+    },
+    {
+      "page": "The Storm (Daniel Defoe)",
+      "url": "https://en.wikipedia.org/wiki/The_Storm_(Daniel_Defoe)",
+      "revision": 1335270670,
+      "section": "Collection of personal accounts",
+      "passage": "Within a week of the storm Defoe placed newspaper ads asking readers to submit personal accounts, of which about sixty were selected and edited by Defoe for the book. This was an innovative method for the time, before journalism that relied on first-hand reports was commonplace. Defoe considered the accounts reliable because \"most of our Relators have not only given us their Names, and sign'd the Accounts they have sent, but have also given us Leave to hand their Names down to Posterity.\" The Storm has thus been called the first substantial work of modern journalism.",
+      "hatnote": "His method was as new as the disaster was big.",
+      "onwardLinkText": null,
+      "nextPage": "The Storm (Daniel Defoe)"
+    }
+  ],
+  "payoff": "Winstanley wished to face the greatest storm ever and died in it; Defoe's crowd-sourced book on it is called the first modern journalism.",
+  "caveats": [
+    "Winstanley's 'greatest storm' wish is 'recorded as having expressed', i.e. reported, not documented first-hand."
+  ]
+}

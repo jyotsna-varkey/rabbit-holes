@@ -1,8 +1,8 @@
 import { expect, test } from '@playwright/test';
 import { enterTopHole } from './helpers';
 
-async function finishCoffeeHole(page: import('@playwright/test').Page) {
-  await page.goto('/?hole=coffee-insurance');
+async function finishHole(page: import('@playwright/test').Page) {
+  await page.goto('/?hole=tutankhamun-noblecourt-amada-rails');
   await enterTopHole(page);
   for (const n of [2, 3, 4]) {
     await page.keyboard.press('ArrowDown');
@@ -15,7 +15,7 @@ async function finishCoffeeHole(page: import('@playwright/test').Page) {
 // SPEC: end card swings in, the claim changes to [1–N], references replay the hole,
 // then three options only.
 test('the ending cites the claim, lists one reference per knot, and offers three doors', async ({ page }, info) => {
-  await finishCoffeeHole(page);
+  await finishHole(page);
   const ending = page.locator('.ending');
   await expect(ending).toHaveClass(/stage-4/, { timeout: 8000 });
   await expect(ending.locator('.end-claim sup.cited')).toHaveText('[1–4]');

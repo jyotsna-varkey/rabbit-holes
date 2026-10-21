@@ -1,0 +1,80 @@
+{
+  "id": "niagara-falls-el-ajedrecista",
+  "claim": "Niagara's century-old cable car was designed by the builder of a chess robot.",
+  "start": {
+    "title": "Niagara Falls",
+    "page": "Niagara Falls",
+    "description": "Waterfalls between the United States and Canada",
+    "image": "snapshots/images/Niagara-Falls.webp"
+  },
+  "end": {
+    "title": "El Ajedrecista",
+    "page": "El Ajedrecista",
+    "description": "First chess-playing automaton",
+    "image": "snapshots/images/El-Ajedrecista.webp"
+  },
+  "knots": [
+    {
+      "page": "Niagara Falls",
+      "url": "https://en.wikipedia.org/wiki/Niagara_Falls",
+      "revision": 1380734809,
+      "section": "Tourism",
+      "passage": "The Whirlpool Aero Car, built in 1916 from a design by Spanish engineer Leonardo Torres Quevedo, is a cable car that takes passengers over the Niagara Whirlpool on the Canadian side.",
+      "hatnote": "Below the falls, tourists still dangle over a whirlpool.",
+      "onwardLinkText": "Leonardo Torres Quevedo",
+      "nextPage": "Leonardo Torres Quevedo"
+    },
+    {
+      "page": "Leonardo Torres Quevedo",
+      "url": "https://en.wikipedia.org/wiki/Leonardo_Torres_Quevedo",
+      "revision": 1380795438,
+      "section": "Cableways",
+      "passage": "Torres' studies in the field of cableways began around 1880, during his residence in his hometown of Molledo. There, in 1885, he constructed the first cableway, which spanned a depression of some 40 metres (130 ft). The cableway was about 200 metres (660 ft) wide and carried a single person seated in a chair suspended from a cable, with another traction cable. The engine used to move the human cargo was a pair of cows.",
+      "hatnote": "His cable cars began in his home village, with very low horsepower.",
+      "onwardLinkText": null,
+      "nextPage": "Leonardo Torres Quevedo"
+    },
+    {
+      "page": "Leonardo Torres Quevedo",
+      "url": "https://en.wikipedia.org/wiki/Leonardo_Torres_Quevedo",
+      "revision": 1380795438,
+      "section": "Cableways",
+      "passage": "He failed to convince the Swiss authorities, who did not grant any reliability to the work of a Spanish engineer due to contemporary skepticism surrounding early aerial transport systems. This disappointment, known as the \"Swiss failure\", led him to focus on other fields for several years.",
+      "hatnote": "In 1890 he pitched a cableway in the Alps, and was snubbed.",
+      "onwardLinkText": null,
+      "nextPage": "Leonardo Torres Quevedo"
+    },
+    {
+      "page": "Leonardo Torres Quevedo",
+      "url": "https://en.wikipedia.org/wiki/Leonardo_Torres_Quevedo",
+      "revision": 1380795438,
+      "section": "El Ajedrecista",
+      "passage": "In 1910, Torres prepared the designs for a chess-playing device—which he dubbed El Ajedrecista (The Chess Player)—and in 1911 he began its construction in his laboratory. As opposed to The Turk and Ajeeb, El Ajedrecista was an electromechanical automaton capable of playing a king and rook endgame against a human opponent. Operating without any human intervention, the automaton achieved true integration of its mechanical and logical components from any starting position.",
+      "hatnote": "One of those other fields: teaching a machine to think.",
+      "onwardLinkText": "El Ajedrecista",
+      "nextPage": "El Ajedrecista"
+    },
+    {
+      "page": "El Ajedrecista",
+      "url": "https://en.wikipedia.org/wiki/El_Ajedrecista",
+      "revision": 1373281739,
+      "section": "Technical description",
+      "passage": "The automaton does not deliver checkmate in the minimum number of moves, nor always within the 50 moves allotted by the fifty-move rule, because of the simple algorithm that calculates the moves. It did, however, checkmate the opponent every time.",
+      "hatnote": "It was not elegant, but it never lost.",
+      "onwardLinkText": null,
+      "nextPage": "El Ajedrecista"
+    },
+    {
+      "page": "El Ajedrecista",
+      "url": "https://en.wikipedia.org/wiki/El_Ajedrecista",
+      "revision": 1373281739,
+      "section": "History",
+      "passage": "In 1951, El Ajedrecista was presented at the influential French symposium Les Machines à calculer et la pensée humaine, where it mated Savielly Tartakower. The Austrian computer pioneer Heinz Zemanek played against the second version at the 1958 Brussels World's Fair. Both automatons are still in working condition and are on display at the Museo Torres Quevedo in the Escuela de Ingenieros de Caminos, Canales y Puertos in Madrid.",
+      "hatnote": "Decades later it faced a famous opponent.",
+      "onwardLinkText": null,
+      "nextPage": "El Ajedrecista"
+    }
+  ],
+  "payoff": "From a chair pulled by two cows to a machine that mated Tartakower: Torres's Niagara car and his chess automatons still work.",
+  "caveats": []
+}

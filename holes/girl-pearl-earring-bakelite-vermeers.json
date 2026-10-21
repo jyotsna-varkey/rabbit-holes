@@ -1,0 +1,82 @@
+{
+  "id": "girl-pearl-earring-bakelite-vermeers",
+  "claim": "Fake Vermeers fooled the experts until chemists found telephone plastic in the paint.",
+  "start": {
+    "title": "Girl with a Pearl Earring",
+    "page": "Girl with a Pearl Earring",
+    "description": "1665 painting by Johannes Vermeer",
+    "image": "snapshots/images/Girl-with-a-Pearl-Earring.webp"
+  },
+  "end": {
+    "title": "Bakelite",
+    "page": "Bakelite",
+    "description": "First synthetic plastic",
+    "image": "snapshots/images/Bakelite.webp"
+  },
+  "knots": [
+    {
+      "page": "Girl with a Pearl Earring",
+      "url": "https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring",
+      "revision": 1380611597,
+      "section": "Painting title",
+      "passage": "Pearls, in fact, figure in 21 of Vermeer's pictures, including very prominently in Woman with a Pearl Necklace. Earrings alone are also featured in A Lady Writing a Letter, Study of a Young Woman, Girl with a Red Hat, and Girl with a Flute. Similarly shaped ear-pieces were used as convincing accessories in 20th-century fakes that were briefly attributed to Vermeer, such as Young Woman with a Blue Hat, Smiling Girl and The Lace Maker.",
+      "hatnote": "Pearls and earrings became a Vermeer trademark, which forgers noticed.",
+      "onwardLinkText": "Smiling Girl",
+      "nextPage": "Smiling Girl"
+    },
+    {
+      "page": "Smiling Girl",
+      "url": "https://en.wikipedia.org/wiki/Smiling_Girl",
+      "revision": 1371438227,
+      "section": "lead",
+      "passage": "The Smiling Girl, formerly thought to be by Johannes Vermeer, was donated by collector Andrew W. Mellon in 1937 to the National Gallery of Art in Washington, D.C. Now widely considered to be a fake, the painting was deemed by the Vermeer expert Arthur K. Wheelock Jr. in a 1995 study to be by a 20th-century artist and forger, Theo van Wijngaarden, a friend of Han van Meegeren.",
+      "hatnote": "One such fake fooled America's National Gallery; its painter had a famous friend.",
+      "onwardLinkText": "Han van Meegeren",
+      "nextPage": "Han van Meegeren"
+    },
+    {
+      "page": "Han van Meegeren",
+      "url": "https://en.wikipedia.org/wiki/Han_van_Meegeren",
+      "revision": 1380478517,
+      "section": "The \"perfect forgery\"",
+      "passage": "He came up with a way to use phenol formaldehyde (Bakelite) to make paints harden after application, making paintings appear 300 years old (through the illusion that the paint had already dried for that long).",
+      "hatnote": "That friend, Van Meegeren, had a chemical trick for faking old paint.",
+      "onwardLinkText": null,
+      "nextPage": "Han van Meegeren"
+    },
+    {
+      "page": "Han van Meegeren",
+      "url": "https://en.wikipedia.org/wiki/Han_van_Meegeren",
+      "revision": 1380478517,
+      "section": "Trial and prison sentence",
+      "passage": "He found that the paint contained the phenolformaldehyde resins Bakelite and Albertol, not invented until the 20th century, as paint hardeners; and a bottle had been found in Van Meegeren's studio. This proved that the paintings could not be genuine.",
+      "hatnote": "A court had Belgian chemist Paul Coremans analyse the paint.",
+      "onwardLinkText": "Bakelite",
+      "nextPage": "Bakelite"
+    },
+    {
+      "page": "Bakelite",
+      "url": "https://en.wikipedia.org/wiki/Bakelite",
+      "revision": 1376261069,
+      "section": "lead",
+      "passage": "Bakelite (/ˈbeɪkəlaɪt/ BAY-kə-lyte) is the first plastic made from synthetic components. It was developed by chemist Leo Baekeland in Yonkers, New York, in 1907, and patented on December 7, 1909.",
+      "hatnote": "That hardener was brand new, centuries too new for Vermeer.",
+      "onwardLinkText": null,
+      "nextPage": "Bakelite"
+    },
+    {
+      "page": "Bakelite",
+      "url": "https://en.wikipedia.org/wiki/Bakelite",
+      "revision": 1376261069,
+      "section": "lead",
+      "passage": "After its invention, Bakelite became a commercial success because it could be molded into any shape. It has been used for such diverse products as kitchenware, jewelry, pipe stems, children's toys, and firearms. Because Bakelite is heat-resistant and electrically nonconductive, it has also been used to make products such as electrical insulators and casings for radios and telephones.",
+      "hatnote": "And it was no rare lab chemical: it was everywhere.",
+      "onwardLinkText": null,
+      "nextPage": "Bakelite"
+    }
+  ],
+  "payoff": "A 'Vermeer' could not contain a plastic invented in 1907, the stuff of radio and telephone casings. The forger's hardener gave him away.",
+  "caveats": [
+    "Smiling Girl is attributed to van Meegeren's associate Theo van Wijngaarden; the Bakelite evidence concerns van Meegeren's own forgeries."
+  ]
+}

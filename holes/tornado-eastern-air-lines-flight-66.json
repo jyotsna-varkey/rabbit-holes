@@ -1,0 +1,83 @@
+{
+  "id": "tornado-eastern-air-lines-flight-66",
+  "claim": "The man who ranked tornadoes lived in the city meant for the Nagasaki bomb.",
+  "start": {
+    "title": "Tornado",
+    "page": "Tornado",
+    "description": "Violently rotating column of air",
+    "image": "snapshots/images/Tornado.webp"
+  },
+  "end": {
+    "title": "Eastern Air Lines Flight 66",
+    "page": "Eastern Air Lines Flight 66",
+    "description": "1975 aviation accident in New York",
+    "image": "snapshots/images/Eastern-Air-Lines-Flight-66.webp"
+  },
+  "knots": [
+    {
+      "page": "Tornado",
+      "url": "https://en.wikipedia.org/wiki/Tornado",
+      "revision": 1378210995,
+      "section": "Rating",
+      "passage": "There are several scales for rating the strength of tornadoes. The Fujita scale rates tornadoes by damage caused and has been replaced in some countries by the updated Enhanced Fujita Scale. An F0 or EF0 tornado, the weakest category, damages trees, but not substantial structures. An F5 or EF5 tornado, the strongest category, rips buildings off their foundations and can deform large skyscrapers.",
+      "hatnote": "How do you measure a tornado? By what it smashes.",
+      "onwardLinkText": "Fujita scale",
+      "nextPage": "Fujita scale"
+    },
+    {
+      "page": "Fujita scale",
+      "url": "https://en.wikipedia.org/wiki/Fujita_scale",
+      "revision": 1376981758,
+      "section": "Background",
+      "passage": "The scale was introduced in 1971 by Ted Fujita of the University of Chicago, in collaboration with Allen Pearson, head of the National Severe Storms Forecast Center/NSSFC (currently the Storm Prediction Center/SPC).",
+      "hatnote": "The scale carries the name of one meteorologist.",
+      "onwardLinkText": "Ted Fujita",
+      "nextPage": "Ted Fujita"
+    },
+    {
+      "page": "Ted Fujita",
+      "url": "https://en.wikipedia.org/wiki/Ted_Fujita",
+      "revision": 1379365382,
+      "section": "World War II",
+      "passage": "Fujita resided in Kokura during World War II. Kokura was the primary target for the \"Fat Man\" plutonium bomb, but on the morning of August 9, 1945, the city was obscured by clouds and smoke from the neighboring city of Yahata, which had been firebombed the day before [ja]. As a result, the bomb was dropped on the secondary target, Nagasaki.",
+      "hatnote": "Twenty-six years earlier, Fujita had been living in a target.",
+      "onwardLinkText": null,
+      "nextPage": "Ted Fujita"
+    },
+    {
+      "page": "Ted Fujita",
+      "url": "https://en.wikipedia.org/wiki/Ted_Fujita",
+      "revision": 1379365382,
+      "section": "World War II",
+      "passage": "Studying the damage caused by the nuclear explosions contributed to Fujita's understanding of downbursts and microbursts as \"starbursts\" of wind hitting the Earth's surface and spreading out.",
+      "hatnote": "What he saw after the bombing shaped his science.",
+      "onwardLinkText": null,
+      "nextPage": "Ted Fujita"
+    },
+    {
+      "page": "Ted Fujita",
+      "url": "https://en.wikipedia.org/wiki/Ted_Fujita",
+      "revision": 1379365382,
+      "section": "Career",
+      "passage": "Fujita was approached by an expert with the Flight Safety Foundation to investigate the case of Eastern Air Lines Flight 66, a deadly aviation crash that killed 112 under up-to-then unknown circumstances. By comparing the patterns of tree damage near the airport to previously-known patterns of non-tornadic damage, including those he surveyed during the 1974 Super Outbreak, he had come to the conclusion Flight 66 was downed by a downburst.",
+      "hatnote": "Those 'starbursts' of wind turned out to kill.",
+      "onwardLinkText": "Eastern Air Lines Flight 66",
+      "nextPage": "Eastern Air Lines Flight 66"
+    },
+    {
+      "page": "Eastern Air Lines Flight 66",
+      "url": "https://en.wikipedia.org/wiki/Eastern_Air_Lines_Flight_66",
+      "revision": 1379315918,
+      "section": "lead",
+      "passage": "Eastern Air Lines Flight 66 was a regularly scheduled flight from New Orleans to New York City that crashed on June 24, 1975, when a Boeing 727-225 went on approach to New York's John F. Kennedy International Airport, killing 113 of the 124 people on board. The accident was determined to be caused by wind shear stemming from a microburst, but the failure of the airport and the flight crew to recognize the severe weather hazard was also a contributing factor.",
+      "hatnote": "The crash Fujita was asked to explain.",
+      "onwardLinkText": null,
+      "nextPage": "Eastern Air Lines Flight 66"
+    }
+  ],
+  "payoff": "Clouds spared Fujita's city; the bombed one taught him how wind bursts outward, the very force that downed Flight 66.",
+  "caveats": [
+    "Fujita scale and Ted Fujita pages describe the scale's origin slightly differently (1971 introduction).",
+    "Ted Fujita's page says the crash killed 112; the Flight 66 page says 113."
+  ]
+}

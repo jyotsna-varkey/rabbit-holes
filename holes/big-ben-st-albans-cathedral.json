@@ -1,0 +1,80 @@
+{
+  "id": "big-ben-st-albans-cathedral",
+  "claim": "The man blamed for cracking Big Ben became a verb for mangling old buildings.",
+  "start": {
+    "title": "Big Ben",
+    "page": "Big Ben",
+    "description": "Clock tower in London, England",
+    "image": "snapshots/images/Big-Ben.webp"
+  },
+  "end": {
+    "title": "St Albans Cathedral",
+    "page": "St Albans Cathedral",
+    "description": "Anglican cathedral in Hertfordshire, England",
+    "image": "snapshots/images/St-Albans-Cathedral.webp"
+  },
+  "knots": [
+    {
+      "page": "Big Ben",
+      "url": "https://en.wikipedia.org/wiki/Big_Ben",
+      "revision": 1378287552,
+      "section": "Big Ben (Great Bell)",
+      "passage": "According to the foundry's manager, George Mears, the horologist Denison had used a hammer more than twice the maximum weight specified. For three years Big Ben was taken out of commission and the hours were struck on the lowest of the quarter bells until it was repaired. To make the repair, a square piece of metal was chipped out from the rim around the crack, and the bell given an eighth of a turn so the new hammer struck in a different place. Big Ben has chimed with a slightly different tone ever since, and is still in use today with the crack unrepaired.",
+      "hatnote": "The recast bell first rang in 1859. By September it had cracked.",
+      "onwardLinkText": null,
+      "nextPage": "Big Ben"
+    },
+    {
+      "page": "Big Ben",
+      "url": "https://en.wikipedia.org/wiki/Big_Ben",
+      "revision": 1378287552,
+      "section": "Movement",
+      "passage": "The designers were the lawyer and amateur horologist Edmund Beckett Denison and George Airy, the Astronomer Royal.",
+      "hatnote": "The man with the oversized hammer was not even a professional.",
+      "onwardLinkText": "Edmund Beckett Denison",
+      "nextPage": "Edmund Beckett, 1st Baron Grimthorpe"
+    },
+    {
+      "page": "Edmund Beckett, 1st Baron Grimthorpe",
+      "url": "https://en.wikipedia.org/wiki/Edmund_Beckett%2C_1st_Baron_Grimthorpe",
+      "revision": 1354445348,
+      "section": "Biography",
+      "passage": "He was also responsible throughout the 1880s and 1890s for rebuilding the west front, roof, and transept windows of St Albans Cathedral at his own expense. Although the building had been in need of repair (and indeed considerable work had already been done since 1856 under the guidance of Sir George Gilbert Scott until his death in 1878, including making the central tower safe, correcting the listing of the south side of the nave, and reconstructing the shrine of Saint Alban), popular opinion at the time held that he had changed the cathedral's character, even inspiring the creation and temporary popularity of the verb \"to grimthorpe\", meaning to carry out unsympathetic restorations of ancient buildings.",
+      "hatnote": "Later, as Lord Grimthorpe, the amateur turned his confidence on a cathedral.",
+      "onwardLinkText": "St Albans Cathedral",
+      "nextPage": "St Albans Cathedral"
+    },
+    {
+      "page": "St Albans Cathedral",
+      "url": "https://en.wikipedia.org/wiki/St_Albans_Cathedral",
+      "revision": 1380616325,
+      "section": "19th century",
+      "passage": "George Gilbert Scott was working on the nave roof, vaulting and west bay when he died on 27 March 1878. His plans were partially completed by his son, John Oldrid Scott, but the remaining work fell into the hands of Edmund Beckett, 1st Baron Grimthorpe, whose efforts have attracted much controversy—Nikolaus Pevsner calling him a \"pompous, righteous bully.\" However, he donated much of the immense sum of £130,000 the work cost.",
+      "hatnote": "The cathedral's own history does not mince words.",
+      "onwardLinkText": null,
+      "nextPage": "St Albans Cathedral"
+    },
+    {
+      "page": "St Albans Cathedral",
+      "url": "https://en.wikipedia.org/wiki/St_Albans_Cathedral",
+      "revision": 1380616325,
+      "section": "19th century",
+      "passage": "As early as 1897, Grimthorpe was having to return to previously renovated sections to make repairs. His use of over-strong cement led to cracking, while his fondness for ironwork in windows led to corrosion and damage to the surrounding stone.",
+      "hatnote": "And then, once again, something cracked.",
+      "onwardLinkText": null,
+      "nextPage": "St Albans Cathedral"
+    },
+    {
+      "page": "St Albans Cathedral",
+      "url": "https://en.wikipedia.org/wiki/St_Albans_Cathedral",
+      "revision": 1380616325,
+      "section": "20th century",
+      "passage": "His major work was on the crossing tower. Grimthorpe's cement was found to be damaging the Roman bricks: every brick in the tower was replaced as needed and reset in proper mortar by one man, Walter Barrett.",
+      "hatnote": "Decades later, architect Cecil Brown had to undo it, brick by brick.",
+      "onwardLinkText": null,
+      "nextPage": "St Albans Cathedral"
+    }
+  ],
+  "payoff": "Too heavy a hammer cracked Big Ben; too strong a cement cracked St Albans. Same confident amateur, who briefly became a verb.",
+  "caveats": []
+}

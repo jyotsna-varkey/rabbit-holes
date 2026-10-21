@@ -1,0 +1,80 @@
+{
+  "id": "star-flamsteed-burned-catalogue",
+  "claim": "The star numbers astronomers still use began in a book its author burned.",
+  "start": {
+    "title": "Star",
+    "page": "Star",
+    "description": "Large self-illuminated object in space",
+    "image": "snapshots/images/Star.webp"
+  },
+  "end": {
+    "title": "51 Pegasi",
+    "page": "51 Pegasi",
+    "description": "Star in the constellation Pegasus",
+    "image": "snapshots/images/51-Pegasi.webp"
+  },
+  "knots": [
+    {
+      "page": "Star",
+      "url": "https://en.wikipedia.org/wiki/Star",
+      "revision": 1370831113,
+      "section": "Designations",
+      "passage": "Circa 1600, the names of the constellations were used to name the stars in the corresponding regions of the sky. The German astronomer Johann Bayer created a series of star maps and applied Greek letters as designations to the stars in each constellation. Later a numbering system based on the star's right ascension was invented and added to John Flamsteed's star catalogue in his book \"Historia coelestis Britannica\" (the 1712 edition), whereby this numbering system came to be called Flamsteed designation or Flamsteed numbering.",
+      "hatnote": "Naming stars meant numbering them, constellation by constellation.",
+      "onwardLinkText": "John Flamsteed",
+      "nextPage": "John Flamsteed"
+    },
+    {
+      "page": "John Flamsteed",
+      "url": "https://en.wikipedia.org/wiki/John_Flamsteed",
+      "revision": 1377112139,
+      "section": "Scientific work",
+      "passage": "Unwilling to risk his reputation by releasing unverified data, he kept the incomplete records under seal at Greenwich. In 1712, Isaac Newton, then President of the Royal Society, and Edmond Halley again obtained Flamsteed's data and published a pirated star catalogue. Flamsteed managed to gather three hundred of the four hundred printings and burned them. \"If Sir I.N. would be sensible of it, I have done both him and Dr. Halley a great kindness,\" he wrote to his assistant Abraham Sharp.",
+      "hatnote": "The 1712 edition had a dark backstory.",
+      "onwardLinkText": null,
+      "nextPage": "John Flamsteed"
+    },
+    {
+      "page": "John Flamsteed",
+      "url": "https://en.wikipedia.org/wiki/John_Flamsteed",
+      "revision": 1377112139,
+      "section": "Scientific work",
+      "passage": "In 1725 Flamsteed's own version of Historia Coelestis Britannica was published posthumously, edited by his wife, Margaret Flamsteed. This contained Flamsteed's observations, and included a catalogue of 2,935 stars to much greater accuracy than any prior work. It was considered the first significant contribution of the Greenwich Observatory, and the numerical Flamsteed designations for stars that were added subsequently to a French edition are still in use.",
+      "hatnote": "Flamsteed's own version came out only after his death.",
+      "onwardLinkText": "Flamsteed designations",
+      "nextPage": "Flamsteed designation"
+    },
+    {
+      "page": "Flamsteed designation",
+      "url": "https://en.wikipedia.org/wiki/Flamsteed_designation",
+      "revision": 1322886668,
+      "section": "Description",
+      "passage": "The numbers now in use were assigned by the French astronomer, Joseph Jérôme de Lalande and appeared in his 1783 almanac, Éphémérides des mouvemens célestes which contained a revised edition of Flamsteed's catalogue. Lalande noted in his Introduction that he got the idea from the unofficial 1712 edition.",
+      "hatnote": "So where did the famous numbers really come from?",
+      "onwardLinkText": null,
+      "nextPage": "Flamsteed designation"
+    },
+    {
+      "page": "Flamsteed designation",
+      "url": "https://en.wikipedia.org/wiki/Flamsteed_designation",
+      "revision": 1322886668,
+      "section": "Description",
+      "passage": "Flamsteed designations gained popularity throughout the eighteenth century, and are now commonly used when no Bayer designation exists. Where a Bayer designation with a Greek letter does exist for a star, it is usually used in preference to the Flamsteed designation. (Flamsteed numbers are generally preferred to Bayer designations with Roman letters.) Examples of well-known stars that are usually referred to by their Flamsteed numbers include 51 Pegasi, and 61 Cygni.",
+      "hatnote": "Those numbers are now everywhere.",
+      "onwardLinkText": "51 Pegasi",
+      "nextPage": "51 Pegasi"
+    },
+    {
+      "page": "51 Pegasi",
+      "url": "https://en.wikipedia.org/wiki/51_Pegasi",
+      "revision": 1379400795,
+      "section": "lead",
+      "passage": "51 Pegasi, also named Helvetios (/hɛlˈviːʃiəs/), is a Sun-like star located 50.6 light-years (15.5 parsecs) from Earth in the constellation of Pegasus. It was the first main-sequence star found to have an exoplanet (designated 51 Pegasi b, officially named Dimidium) orbiting it.",
+      "hatnote": "One of them would become a landmark of modern astronomy.",
+      "onwardLinkText": null,
+      "nextPage": "51 Pegasi"
+    }
+  ],
+  "payoff": "The numbers on stars like 51 Pegasi trace back to the edition Newton and Halley pirated and Flamsteed tried to burn.",
+  "caveats": []
+}

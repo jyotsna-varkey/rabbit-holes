@@ -1,0 +1,63 @@
+{
+  "id": "red-cactoblastis-cactorum",
+  "claim": "How did British red coats help unleash a cactus invasion in Australia?",
+  "start": {
+    "title": "Red",
+    "page": "Red",
+    "description": "Primary color",
+    "image": "snapshots/images/Red.webp"
+  },
+  "end": {
+    "title": "Cactoblastis cactorum",
+    "page": "Cactoblastis cactorum",
+    "description": "Species of moth",
+    "image": "snapshots/images/Cactoblastis-cactorum.webp"
+  },
+  "knots": [
+    {
+      "page": "Red",
+      "url": "https://en.wikipedia.org/wiki/Red",
+      "revision": 1373395219,
+      "section": "Red uniform",
+      "passage": "Red military uniforms were adopted for general use by the English Parliament's New Model Army infantry in 1645, and were still worn as dress uniforms in the British Army until the outbreak of the First World War in August 1914. Ordinary soldiers wore red coats dyed with madder, while officers wore scarlet coats dyed with the more expensive cochineal. This led to British soldiers being called \"red coats\".",
+      "hatnote": "Britain dressed its soldiers in red, and red dye came from somewhere.",
+      "onwardLinkText": "cochineal",
+      "nextPage": "Cochineal"
+    },
+    {
+      "page": "Cochineal",
+      "url": "https://en.wikipedia.org/wiki/Cochineal",
+      "revision": 1368837799,
+      "section": "Failed farming in Australia",
+      "passage": "Opuntia species, known commonly as prickly pears, were first brought to Australia in an attempt to start a cochineal dye industry in 1788. Captain Arthur Phillip collected a number of cochineal-infested plants from Brazil on his way to establish the first European settlement at Botany Bay, part of which is now Sydney, New South Wales. At that time, Spain and Portugal had a worldwide cochineal dye monopoly via their New World colonial sources, and the British desired a source under their own control, as the dye was important to their clothing and garment industries; it was used to color the British soldiers' red coats, for example. The attempt was a failure in two ways: the Brazilian cochineal insects soon died off, but the cacti thrived, eventually overrunning about 100,000 sq mi (259,000 km) of eastern Australia. The cacti were eventually brought under control in the 1920s by the deliberate introduction of a South American moth, Cactoblastis cactorum, the larvae of which feed on the cactus.",
+      "hatnote": "Where did the red dye come from, and what travelled with attempts to produce it?",
+      "onwardLinkText": "Cactoblastis cactorum",
+      "nextPage": "Cactoblastis cactorum"
+    },
+    {
+      "page": "Cactoblastis cactorum",
+      "url": "https://en.wikipedia.org/wiki/Cactoblastis_cactorum",
+      "revision": 1364343602,
+      "section": "As a biological control agent",
+      "passage": "Native to Argentina, Cactoblastis cactorum was introduced in 1925 to Australia, where it was successfully used as a biological control agent for Opuntia cacti. Due to this success, it was subsequently introduced into other countries, including South Africa in 1933 and the Caribbean in the 1950s.",
+      "hatnote": "The cactus spread; could another insect bring it under control?",
+      "onwardLinkText": null,
+      "nextPage": "Cactoblastis cactorum"
+    },
+    {
+      "page": "Cactoblastis cactorum",
+      "url": "https://en.wikipedia.org/wiki/Cactoblastis_cactorum",
+      "revision": 1364343602,
+      "section": "Queensland monuments and memorials",
+      "passage": "The Cactoblastis Memorial Hall is located at Boonarga, 10 kilometres (6 mi) east of Chinchilla in Queensland (26°47′43″S 150°42′55″E﻿ / ﻿26.7953°S 150.7154°E﻿ / -26.7953; 150.7154﻿ (Cactoblastic Memorial Hall, Chinchilla)) and purports to be \"the only building dedicated to an insect.\" It was erected in 1936, and was one of the first insect memorials ever built, following the 1919 Boll Weevil Monument in Alabama.",
+      "hatnote": "Queensland didn't just thank the moth. It built it a hall.",
+      "onwardLinkText": null,
+      "nextPage": "Cactoblastis cactorum"
+    }
+  ],
+  "payoff": "Britain's hunt for red dye planted a cactus plague, and a moth that ended it got its own memorial hall.",
+  "caveats": [
+    "From Rabbit Hole Studio (GPT), rh-003, rank 7; hook is GPT's, hatnotes/payoff drafted by Claude.",
+    "Overlaps cactus-moth-memorial-hall (Cactoblastis, the Memorial Hall)."
+  ]
+}

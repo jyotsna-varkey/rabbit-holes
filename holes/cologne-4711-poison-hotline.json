@@ -1,0 +1,80 @@
+{
+  "id": "cologne-4711-poison-hotline",
+  "claim": "Finland's poison hotline number began as a house number in occupied Cologne.",
+  "start": {
+    "title": "Perfume",
+    "page": "Perfume",
+    "description": "Mixture of fragrant substance",
+    "image": ""
+  },
+  "end": {
+    "title": "4711",
+    "page": "4711",
+    "description": "German cologne",
+    "image": "snapshots/images/4711.webp"
+  },
+  "knots": [
+    {
+      "page": "Perfume",
+      "url": "https://en.wikipedia.org/wiki/Perfume",
+      "revision": 1380993699,
+      "section": "History",
+      "passage": "In 1693, Italian barber Giovanni Paolo Feminis created a perfume water called Aqua Admirabilis, today best known as eau de cologne; his nephew Johann Maria Farina (Giovanni Maria Farina) took over the business in 1732.",
+      "hatnote": "Cologne began as an Italian barber's 'admirable water'.",
+      "onwardLinkText": "eau de cologne",
+      "nextPage": "Eau de Cologne"
+    },
+    {
+      "page": "Eau de Cologne",
+      "url": "https://en.wikipedia.org/wiki/Eau_de_Cologne",
+      "revision": 1378885517,
+      "section": "History",
+      "passage": "Eau de Cologne was once believed to protect against bubonic plague: by drinking the cologne, the citrus oil scent would exude through the pores, repelling fleas. Many flea shampoos for dogs are based on citrus oils today.",
+      "hatnote": "It wasn't always just for splashing on.",
+      "onwardLinkText": null,
+      "nextPage": "Eau de Cologne"
+    },
+    {
+      "page": "Eau de Cologne",
+      "url": "https://en.wikipedia.org/wiki/Eau_de_Cologne",
+      "revision": 1378885517,
+      "section": "History",
+      "passage": "Another famous scent, the Original Eau de Cologne 4711, is named after its location at Cologne's Glockengasse No. 4711. It was developed by Wilhelm Mülhens and produced in Cologne since at least 1799, and is therefore probably one of the oldest fragrances still produced in the world.",
+      "hatnote": "One of the oldest colognes is named after an oddly large house number.",
+      "onwardLinkText": "4711",
+      "nextPage": "4711"
+    },
+    {
+      "page": "4711",
+      "url": "https://en.wikipedia.org/wiki/4711",
+      "revision": 1380636194,
+      "section": "House number 4711",
+      "passage": "On 6 October 1794, French troops occupied the city. On 7 October 1794, the city council decided that every local government official had to hand in an inventory of all citizens and non-citizens in his district within 48 hours. Furthermore, the guard-committee received authorisation to number the houses as previously agreed.",
+      "hatnote": "No street had four thousand houses. The number came with an army.",
+      "onwardLinkText": null,
+      "nextPage": "4711"
+    },
+    {
+      "page": "4711",
+      "url": "https://en.wikipedia.org/wiki/4711",
+      "revision": 1380636194,
+      "section": "House number 4711",
+      "passage": "The depiction of a French military officer painting the house number 4711 on the facade of the house in the Glockengasse while sitting on his horse is a product of advertising. A piece of tapestry, a gobelin which had been ordered and made in the 1920s, served as a model. A scenic version spread widely in the 1950s and the 1960s.",
+      "hatnote": "The brand later dressed the story up a little.",
+      "onwardLinkText": null,
+      "nextPage": "4711"
+    },
+    {
+      "page": "4711",
+      "url": "https://en.wikipedia.org/wiki/4711",
+      "revision": 1380636194,
+      "section": "In popular culture",
+      "passage": "Due to the cologne's usage as a surrogate alcohol, 4711 was the original telephone number of the Finnish Poison Information Centre. Currently, the number directs to the branch exchange of Helsinki University Hospital.",
+      "hatnote": "People never quite stopped drinking it.",
+      "onwardLinkText": null,
+      "nextPage": "4711"
+    }
+  ],
+  "payoff": "A wartime house count in Cologne named a perfume, and people drinking that perfume made the number Finland's poison hotline.",
+  "caveats": []
+}

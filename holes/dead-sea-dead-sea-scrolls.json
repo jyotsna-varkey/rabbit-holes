@@ -1,0 +1,94 @@
+{
+  "id": "dead-sea-dead-sea-scrolls",
+  "claim": "In 1883 London mocked an 'ancient' scroll from the Dead Sea. Then came 1947.",
+  "start": {
+    "title": "Dead Sea",
+    "page": "Dead Sea",
+    "description": "Salt lake in the Levant",
+    "image": "snapshots/images/Dead-Sea.webp"
+  },
+  "end": {
+    "title": "Dead Sea Scrolls",
+    "page": "Dead Sea Scrolls",
+    "description": "Ancient Jewish biblical manuscripts",
+    "image": ""
+  },
+  "knots": [
+    {
+      "page": "Dead Sea",
+      "url": "https://en.wikipedia.org/wiki/Dead_Sea",
+      "revision": 1378258115,
+      "section": "Modern times",
+      "passage": "After the find of the \"Moabite Stone\" in 1868 on the plateau east of the Dead Sea, Moses Wilhelm Shapira and his partner Salim al-Khouri forged and sold a whole range of presumed \"Moabite\" antiquities, and in 1883 Shapira presented what is now known as the \"Shapira Strips\", a supposedly ancient scroll written on leather strips which he claimed had been found near the Dead Sea.",
+      "hatnote": "The Dead Sea's shores have always attracted treasure-hunters, and fakers.",
+      "onwardLinkText": "Moses Wilhelm Shapira",
+      "nextPage": "Moses Wilhelm Shapira"
+    },
+    {
+      "page": "Moses Wilhelm Shapira",
+      "url": "https://en.wikipedia.org/wiki/Moses_Wilhelm_Shapira",
+      "revision": 1368355089,
+      "section": "Moabite forgeries",
+      "passage": "Since German archaeologists had not gained possession of the Moabite Stone, they rushed to buy the Shapira Collection ahead of their rivals. Berlin's Altes Museum bought 1700 artifacts for the cost of 22,000 thalers in 1873. Other private collectors followed suit. One of them was Horatio Kitchener, a not yet famous British lieutenant, who bought eight pieces for the Palestine Exploration Fund.",
+      "hatnote": "His fake 'Moabite' pottery fooled a museum and a future field marshal.",
+      "onwardLinkText": null,
+      "nextPage": "Moses Wilhelm Shapira"
+    },
+    {
+      "page": "Moses Wilhelm Shapira",
+      "url": "https://en.wikipedia.org/wiki/Moses_Wilhelm_Shapira",
+      "revision": 1368355089,
+      "section": "Manuscript affair",
+      "passage": "The Hebrew text hinted at a different version of Deuteronomy, including a surprising alternate commandment (\"Thou shalt not hate thy brother in thy heart: I am God, thy God\"). Shapira sought to sell them to the British Museum for a million pounds, and allowed them to exhibit two of the 15 strips. The exhibition was attended by thousands.",
+      "hatnote": "His scroll strips promised a lost version of the Bible, at a price.",
+      "onwardLinkText": null,
+      "nextPage": "Moses Wilhelm Shapira"
+    },
+    {
+      "page": "Moses Wilhelm Shapira",
+      "url": "https://en.wikipedia.org/wiki/Moses_Wilhelm_Shapira",
+      "revision": 1368355089,
+      "section": "Manuscript affair",
+      "passage": "However, Clermont-Ganneau also attended the exhibition; Shapira had denied him access to the other 13 strips. After close examination, Clermont-Ganneau declared them to be forgeries. Soon afterward British biblical scholar Christian David Ginsburg came to the same conclusion. Later Clermont-Ganneau showed that the leather of the Deuteronomy scroll was quite possibly cut from the margin of a genuine Yemenite scroll that Shapira had previously sold to the Museum, a claim widely accepted in 1883 and since then.",
+      "hatnote": "Charles Clermont-Ganneau, who had exposed Shapira's fake pottery, came to look.",
+      "onwardLinkText": null,
+      "nextPage": "Moses Wilhelm Shapira"
+    },
+    {
+      "page": "Moses Wilhelm Shapira",
+      "url": "https://en.wikipedia.org/wiki/Moses_Wilhelm_Shapira",
+      "revision": 1368355089,
+      "section": "Manuscript affair",
+      "passage": "Shapira fled London in despair, his name ruined and all of his hopes crushed. Having spent some time in a hotel in Bloemendaal (Netherlands), in hotel Adler in Rotterdam, he shot himself in Hotel Willemsbrug in Rotterdam on March 9, 1884.",
+      "hatnote": "The verdict was swift, and so was the ending.",
+      "onwardLinkText": null,
+      "nextPage": "Moses Wilhelm Shapira"
+    },
+    {
+      "page": "Moses Wilhelm Shapira",
+      "url": "https://en.wikipedia.org/wiki/Moses_Wilhelm_Shapira",
+      "revision": 1368355089,
+      "section": "Manuscript affair",
+      "passage": "In light of the discovery of the Dead Sea Scrolls in 1947, some scholars have called for a re-examination of the forgery charges.",
+      "hatnote": "The strips vanished. Then the desert started giving up real scrolls.",
+      "onwardLinkText": "Dead Sea Scrolls",
+      "nextPage": "Dead Sea Scrolls"
+    },
+    {
+      "page": "Dead Sea Scrolls",
+      "url": "https://en.wikipedia.org/wiki/Dead_Sea_Scrolls",
+      "revision": 1380454965,
+      "section": "Discoveries",
+      "passage": "The Dead Sea Scrolls were discovered in a series of 12 caves around the site originally known as Ein Feshkha near the Dead Sea in the West Bank (then controlled by Jordan) between 1946 and 1956 by Bedouin shepherds and a team of archaeologists.",
+      "hatnote": "Sixty-four years after London laughed.",
+      "onwardLinkText": null,
+      "nextPage": "Dead Sea Scrolls"
+    }
+  ],
+  "payoff": "A known forger offered a Dead Sea scroll and died disgraced; when real ones surfaced 64 years later, some scholars asked for a second look.",
+  "caveats": [
+    "Most scholars still regard the Shapira Strips as forgeries; the Shapira Scroll article notes only a minority (e.g. Dershowitz, 2021) argue they were genuine.",
+    "The strips themselves are lost, so they cannot be tested directly.",
+    "A 2022 examination found the margins of Shapira's Yemenite scrolls too short to have supplied the leather, so one argument against the strips is weaker; this does not make them genuine."
+  ]
+}

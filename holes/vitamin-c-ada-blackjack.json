@@ -1,0 +1,70 @@
+{
+  "id": "vitamin-c-ada-blackjack",
+  "claim": "A meat-diet champion's Arctic colony was survived only by its seamstress and a cat.",
+  "start": {
+    "title": "Vitamin C",
+    "page": "Vitamin C",
+    "description": "Essential nutrient found in citrus fruits and other foods",
+    "image": "snapshots/images/Vitamin-C.webp"
+  },
+  "end": {
+    "title": "Ada Blackjack",
+    "page": "Ada Blackjack",
+    "description": "Iñupiaq explorer (1898–1983)",
+    "image": "snapshots/images/Ada-Blackjack.webp"
+  },
+  "knots": [
+    {
+      "page": "Vitamin C",
+      "url": "https://en.wikipedia.org/wiki/Vitamin_C",
+      "revision": 1378490308,
+      "section": "Scurvy at sea",
+      "passage": "The name antiscorbutic was used in the eighteenth and nineteenth centuries for foods known to prevent scurvy. These foods included lemons, limes, oranges, sauerkraut, cabbage, malt, and portable soup. In 1928, the Canadian Arctic anthropologist Vilhjalmur Stefansson showed that the Inuit avoided scurvy on a diet largely of raw meat.",
+      "hatnote": "Sailors fought scurvy with fruit and greens. One explorer pointed to meat.",
+      "onwardLinkText": "Vilhjalmur Stefansson",
+      "nextPage": "Vilhjalmur Stefansson"
+    },
+    {
+      "page": "Vilhjalmur Stefansson",
+      "url": "https://en.wikipedia.org/wiki/Vilhjalmur_Stefansson",
+      "revision": 1374723980,
+      "section": "Advocacy of meat-based diet",
+      "passage": "Stefansson argued that it was possible for people of European descent to live on an Eskimo diet for long periods of time and the reason that explorers had developed scurvy was because they were not following the Eskimo's dietary habits.",
+      "hatnote": "Stefansson was sure Europeans could thrive in the Arctic the same way.",
+      "onwardLinkText": null,
+      "nextPage": "Vilhjalmur Stefansson"
+    },
+    {
+      "page": "Vilhjalmur Stefansson",
+      "url": "https://en.wikipedia.org/wiki/Vilhjalmur_Stefansson",
+      "revision": 1374723980,
+      "section": "Wrangel Island fiasco",
+      "passage": "The four young men Stefansson recruited, Americans Frederick Maurer, E. Lorne Knight, and Milton Galle, and Canadian Allan Crawford, were inadequately experienced and ill-equipped for the expedition. All perished on the island or in an attempt to get help from Siberia across the frozen Chukchi Sea. The only survivors were Ada Blackjack, an Iñupiaq woman the men had hired in Nome, Alaska, as a seamstress and taken with them as a cook, and the expedition's cat, Vic. Ada Blackjack had taught herself survival skills and cared for the last man on the island, E. Lorne Knight, until he died of scurvy.",
+      "hatnote": "He sent four young men to live on an Arctic island. It went badly.",
+      "onwardLinkText": "Ada Blackjack",
+      "nextPage": "Ada Blackjack"
+    },
+    {
+      "page": "Ada Blackjack",
+      "url": "https://en.wikipedia.org/wiki/Ada_Blackjack",
+      "revision": 1375569364,
+      "section": "Expedition",
+      "passage": "The other three men were never seen again, and so Blackjack was alone, except for the expedition's cat, Victoria. Blackjack survived in the extremely cold conditions for eight months, learning to hunt foxes, build boats, and sew parkas out of reindeer skin. She was rescued on August 19, 1923 by a former colleague of Stefansson's, Harold Noice. Some newspapers hailed her as the real \"female Robinson Crusoe\".",
+      "hatnote": "Three of the men had set off across the ice for help.",
+      "onwardLinkText": null,
+      "nextPage": "Ada Blackjack"
+    },
+    {
+      "page": "Ada Blackjack",
+      "url": "https://en.wikipedia.org/wiki/Ada_Blackjack",
+      "revision": 1375569364,
+      "section": "Last years",
+      "passage": "Blackjack was a quiet person and hated the media circus that developed around her and the attempts by Stefansson and her rescuer Noice to exploit her story. Except for her expedition salary and a few hundred dollars she had earned for the furs she trapped on Wrangel, Blackjack did not benefit from her ordeal and received no compensation from the books that were written about her.",
+      "hatnote": "Rescued and famous, she got almost nothing out of it.",
+      "onwardLinkText": null,
+      "nextPage": "Ada Blackjack"
+    }
+  ],
+  "payoff": "Stefansson's Arctic theory got its test, and the only person to pass it was the woman hired to sew the furs.",
+  "caveats": []
+}

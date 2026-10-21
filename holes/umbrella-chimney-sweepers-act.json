@@ -1,0 +1,53 @@
+{
+  "id": "umbrella-chimney-sweepers-act",
+  "claim": "What connects a ridiculed umbrella carrier to the fight against child chimney labour?",
+  "start": {
+    "title": "Umbrella",
+    "page": "Umbrella",
+    "description": "Canopy designed to protect against rain or sunlight",
+    "image": "snapshots/images/Umbrella.webp"
+  },
+  "end": {
+    "title": "Chimney sweep",
+    "page": "Chimney sweep",
+    "description": "Person who cleans chimneys",
+    "image": "snapshots/images/Chimney-sweep.webp"
+  },
+  "knots": [
+    {
+      "page": "Umbrella",
+      "url": "https://en.wikipedia.org/wiki/Umbrella",
+      "revision": 1375562540,
+      "section": "18th and 19th centuries",
+      "passage": "The use of the umbrella or parasol (though not unknown) was uncommon in England during the earlier half of the eighteenth century, as is evident from the comment made by General (then Lieut.-Colonel) James Wolfe, when writing from Paris in 1752; he speaks of the use of umbrellas for protection from the sun and rain and wonders why a similar practice did not occur in England. About the same time, umbrellas came into general use as people found their value and got over the shyness natural to its introduction. Jonas Hanway, the founder of the Magdalen Hospital, has the credit of being the first man who ventured to dare public reproach and ridicule by carrying one habitually in London. As he died in 1786, and he is said to have carried an umbrella for thirty years, the date of its first use by him may be set down at about 1750. John Macdonald relates that in 1770, he used to be addressed as, \"Frenchman, Frenchman! why don't you call a coach?\" whenever he went out with his umbrella. By 1788 however they seem to have been accepted: a London newspaper advertises the sale of \"improved and pocket Umbrellas, on steel frames, with every other kind of common Umbrella.\"",
+      "hatnote": "Londoners once jeered at men carrying umbrellas.",
+      "onwardLinkText": "Jonas Hanway",
+      "nextPage": "Jonas Hanway"
+    },
+    {
+      "page": "Jonas Hanway",
+      "url": "https://en.wikipedia.org/wiki/Jonas_Hanway",
+      "revision": 1372740201,
+      "section": "Life",
+      "passage": "Hanway was the first male Londoner, it is said, to carry an umbrella, (following women who had been using umbrellas since 1705) and he lived to triumph over all the hackney coachmen who tried to hoot and hustle him down. He attacked vail-giving, or tipping, with some temporary success; by his onslaught upon tea drinking he became involved in controversy with Samuel Johnson and Oliver Goldsmith. His last efforts were on behalf of child chimney-sweeps. He also advocated solitary confinement for prisoners and opposed naturalisation of non-British Jews.",
+      "hatnote": "What other causes did the umbrella carrier pursue?",
+      "onwardLinkText": "chimney-sweeps",
+      "nextPage": "Chimney sweep"
+    },
+    {
+      "page": "Chimney sweep",
+      "url": "https://en.wikipedia.org/wiki/Chimney_sweep",
+      "revision": 1373836402,
+      "section": "Regulation",
+      "passage": "In 1788, the Chimney Sweepers Act 1788 (long title: An Act for the Better Regulation of Chimney Sweepers and their Apprentices) was passed, to limit a sweeper to six apprentices, at least eight years old, but lacked enforcement. It introduced the Apprenticeship Cap badge. The Act had been partially inspired by the interest in climbing boys shown by Jonas Hanway, and his two publications The State of Chimney Sweepers' Young Apprentices (1773) and later Sentimental History of Chimney Sweeps in London and Westminster (1785). He asserted that while Parliament was exercised with the abolition of slavery in the new world, it was ignoring the slavery imposed on climbing boys. He looked to Edinburgh, Scotland, where sweeps were regulated by the police, climbing was not allowed and chimneys were swept by the master sweep himself pulling bundles of rags up and down the chimney. He did not see how climbing chimneys could be considered a valid apprenticeship, as the only skill obtained was that of climbing chimneys, which did not lead to future employment. Hanway advocated that Christianity should be brought into the boys' lives and lobbied for Sunday schools for the boys. The Lords removed the proposed clause that master sweeps should be licensed, and before civil registration, there was no way that anyone could check if a child was actually eight.",
+      "hatnote": "How did his concern for children enter legislation, and why was enforcement difficult?",
+      "onwardLinkText": null,
+      "nextPage": "Chimney sweep"
+    }
+  ],
+  "payoff": "The man jeered for carrying an umbrella helped inspire a law for child chimney sweeps, one that nobody enforced.",
+  "caveats": [
+    "From Rabbit Hole Studio (GPT), rh-094, rank 100; hook is GPT's, hatnotes/payoff drafted by Claude.",
+    "Same trail as umbrella-chimney-sweep (ours). The Act was only 'partially inspired' by Hanway."
+  ]
+}

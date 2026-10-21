@@ -1,0 +1,52 @@
+{
+  "id": "jurassic-park-deinonychus",
+  "claim": "Why do Jurassic Park’s famous raptors have someone else’s body?",
+  "start": {
+    "title": "Jurassic Park",
+    "page": "Jurassic Park",
+    "description": "1993 film by Steven Spielberg",
+    "image": "snapshots/images/Jurassic-Park.webp"
+  },
+  "end": {
+    "title": "Deinonychus",
+    "page": "Deinonychus",
+    "description": "Genus of theropod dinosaur",
+    "image": "snapshots/images/Deinonychus.webp"
+  },
+  "knots": [
+    {
+      "page": "Jurassic Park",
+      "url": "https://en.wikipedia.org/wiki/Jurassic_Park",
+      "revision": 1378104290,
+      "section": "Dinosaurs on screen",
+      "passage": "Despite the film title's referencing the Jurassic period, Brachiosaurus and Dilophosaurus are the only dinosaurs featured that lived during that time; the other species in the film did not exist until the Cretaceous. The latter period is mentioned early in the film when Grant describes the ferocity of Velociraptor to a young boy, saying: \"Try to imagine yourself in the Cretaceous period\".",
+      "hatnote": "Jurassic Park's dinosaurs mostly aren't from the Jurassic.",
+      "onwardLinkText": "Velociraptor",
+      "nextPage": "Velociraptor"
+    },
+    {
+      "page": "Velociraptor",
+      "url": "https://en.wikipedia.org/wiki/Velociraptor",
+      "revision": 1371049913,
+      "section": "Cultural significance",
+      "passage": "Velociraptor is commonly perceived as a vicious and cunning killer thanks to their portrayal in the 1990 novel Jurassic Park by Michael Crichton and its 1993 film adaptation, directed by Steven Spielberg. The \"raptors\" portrayed in Jurassic Park were actually modeled after the closely related dromaeosaurid Deinonychus. Paleontologists in both the novel and film excavate a skeleton in Montana, far from the central Asian range of Velociraptor but characteristic of the Deinonychus range. Crichton met with the discoverer of Deinonychus, John Ostrom, several times at Yale University to discuss details of the animal's possible range of behaviors and appearance. Crichton at one point apologetically told Ostrom that he had decided to use the name Velociraptor in place of Deinonychus because the former name was \"more dramatic.\" According to Ostrom, Crichton stated that the Velociraptor of the novel was based on Deinonychus in almost every detail, and that only the name had been changed. The Jurassic Park filmmakers also requested all of Ostrom's published papers on Deinonychus during production. They portrayed the animals with the size, proportions, and snout shape of Deinonychus rather than Velociraptor.",
+      "hatnote": "Which real dinosaur supplied the body behind the movie's dramatic name?",
+      "onwardLinkText": "Deinonychus",
+      "nextPage": "Deinonychus"
+    },
+    {
+      "page": "Deinonychus",
+      "url": "https://en.wikipedia.org/wiki/Deinonychus",
+      "revision": 1378034129,
+      "section": "lead",
+      "passage": "Paleontologist John Ostrom's study of Deinonychus in the late 1960s revolutionized the way scientists thought about dinosaurs, leading to the \"dinosaur renaissance\" and igniting the debate on whether dinosaurs were warm-blooded or cold-blooded. Before this, the popular conception of dinosaurs had been one of plodding, reptilian giants. Ostrom noted the small body, sleek, horizontal posture, ratite-like spine, and especially the enlarged raptorial claws on the feet, which suggested an active, agile predator.",
+      "hatnote": "Why had that animal already changed the way scientists imagined dinosaurs?",
+      "onwardLinkText": null,
+      "nextPage": "Deinonychus"
+    }
+  ],
+  "payoff": "The film's 'Velociraptor' is Deinonychus, the fossil that turned dinosaurs from plodding lizards into agile hunters.",
+  "caveats": [
+    "From Rabbit Hole Studio (GPT), rh-099, rank 40; hook is GPT's, hatnotes/payoff drafted by Claude."
+  ]
+}

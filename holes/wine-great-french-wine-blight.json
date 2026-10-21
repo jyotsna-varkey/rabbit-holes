@@ -1,0 +1,53 @@
+{
+  "id": "wine-great-french-wine-blight",
+  "claim": "Why did European vineyards need help from the continent that brought their pest?",
+  "start": {
+    "title": "Wine",
+    "page": "Wine",
+    "description": "Alcoholic drink made from grapes",
+    "image": "snapshots/images/Wine.webp"
+  },
+  "end": {
+    "title": "Great French Wine Blight",
+    "page": "Great French Wine Blight",
+    "description": "Mid-19th century blight by Phylloxera",
+    "image": "snapshots/images/Great-French-Wine-Blight.webp"
+  },
+  "knots": [
+    {
+      "page": "Wine",
+      "url": "https://en.wikipedia.org/wiki/Wine",
+      "revision": 1379204919,
+      "section": "Viticulture",
+      "passage": "Wine is usually made from one or more varieties of the European species Vitis vinifera, such as Chardonnay and Cabernet Sauvignon. Most Vitis vinifera vines have been grafted onto North American species' rootstock, a common practice due to their resistance to phylloxera, a root louse that eventually kills the vine.",
+      "hatnote": "Most of the world's wine grows on borrowed American roots.",
+      "onwardLinkText": "phylloxera",
+      "nextPage": "Phylloxera"
+    },
+    {
+      "page": "Phylloxera",
+      "url": "https://en.wikipedia.org/wiki/Phylloxera",
+      "revision": 1379247038,
+      "section": "Fighting the \"phylloxera plague\"",
+      "passage": "In the late 19th century, a phylloxera epidemic destroyed most of the vineyards for wine grapes in Europe, most notably in France. Phylloxera was introduced to Europe when avid botanists in Victorian England collected specimens of American vines in the 1850s. Because phylloxera is native to North America, the native grape species are at least partially resistant. By contrast, the European wine grape V. vinifera is very susceptible to the insect. The epidemic devastated vineyards in Britain and then moved to the European mainland, destroying most of the European grape-growing industry. In 1863, the first vines began to deteriorate inexplicably in the southern Rhône region of France. The problem spread rapidly across the continent. In France alone, total wine production fell from 84.5 million hectolitres in 1875 to only 23.4 million hectolitres in 1889. Some estimates hold that between two-thirds and nine-tenths of all European vineyards were destroyed.",
+      "hatnote": "How did the insect damage vines, and why did some American vines resist it?",
+      "onwardLinkText": "in France",
+      "nextPage": "Great French Wine Blight"
+    },
+    {
+      "page": "Great French Wine Blight",
+      "url": "https://en.wikipedia.org/wiki/Great_French_Wine_Blight",
+      "revision": 1375293002,
+      "section": "Prize",
+      "passage": "The French government had offered over 320,000 Francs as a reward to whoever could discover a cure for the blight. Having reportedly been the first to suggest the possibility of using the resistant American rootstock, Leo Laliman tried to claim the money, but the French government refused to award it, with the rationale that he had not cured the blight, but rather stopped it from occurring. However, there may have been other reasons for the government denying Laliman the prize: he was mistrusted by several notable parties, and he was thought by many to have originally introduced the pest.",
+      "hatnote": "Why was a practical solution not accepted as the promised cure?",
+      "onwardLinkText": null,
+      "nextPage": "Great French Wine Blight"
+    }
+  ],
+  "payoff": "American roots saved Europe's wine, but the man who suggested them was refused the prize: he'd stopped the blight, not cured it.",
+  "caveats": [
+    "From Rabbit Hole Studio (GPT), rh-029, rank 44; hook is GPT's, hatnotes/payoff drafted by Claude.",
+    "GPT's toad paragraph (Phylloxera) was dropped: the app needs the last passage on a page to hold the onward link."
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "king-kong-loch-ness-hippo",
+  "claim": "The sighting that launched Nessie may have been lifted from King Kong.",
+  "start": {
+    "title": "King Kong (1933 film)",
+    "page": "King Kong (1933 film)",
+    "description": "American adventure horror monster film",
+    "image": "snapshots/images/King-Kong-1933-film.webp"
+  },
+  "end": {
+    "title": "M. A. Wetherell",
+    "page": "M. A. Wetherell",
+    "description": "British actor (1883–1939)",
+    "image": ""
+  },
+  "knots": [
+    {
+      "page": "King Kong (1933 film)",
+      "url": "https://en.wikipedia.org/wiki/King_Kong_(1933_film)",
+      "revision": 1378971749,
+      "section": "Legacy",
+      "passage": "Author Daniel Loxton suggested that King Kong inspired the modern day legend of the Loch Ness Monster.",
+      "hatnote": "King Kong's legacy reaches somewhere unexpected: a Scottish lake.",
+      "onwardLinkText": "Loch Ness Monster",
+      "nextPage": "Loch Ness Monster"
+    },
+    {
+      "page": "Loch Ness Monster",
+      "url": "https://en.wikipedia.org/wiki/Loch_Ness_Monster",
+      "revision": 1377442377,
+      "section": "George Spicer (1933)",
+      "passage": "Though he was the first to describe the creature as a plesiosaur-like dinosaur, evidence suggested by researchers at Columbia University in 2013 proved his story to be fake. The university and Daniel Loxton suggested that Spicer's sighting was fictionalized and inspired by a long-necked dinosaur that rises out of a lake in King Kong, a film that was extremely popular in cinemas in his home city of London during August 1933, when Spicer reported the sighting.",
+      "hatnote": "July 1933: George Spicer reported a dinosaur-like beast crossing a road by the loch.",
+      "onwardLinkText": null,
+      "nextPage": "Loch Ness Monster"
+    },
+    {
+      "page": "Loch Ness Monster",
+      "url": "https://en.wikipedia.org/wiki/Loch_Ness_Monster",
+      "revision": 1377442377,
+      "section": "\"Surgeon's photograph\" (1934)",
+      "passage": "The toy submarine was bought from F. W. Woolworth, and its head and neck were made from wood putty. After testing it in a local pond the group went to Loch Ness, where Ian Marmaduke Wetherell took the photos near the Altsaigh Tea House. When they heard a water bailiff approaching, Wetherell sank the model with his foot and it is \"presumably still somewhere in Loch Ness\".",
+      "hatnote": "In 1934 came Nessie's most famous photo. It showed a toy.",
+      "onwardLinkText": null,
+      "nextPage": "Loch Ness Monster"
+    },
+    {
+      "page": "Loch Ness Monster",
+      "url": "https://en.wikipedia.org/wiki/Loch_Ness_Monster",
+      "revision": 1377442377,
+      "section": "\"Surgeon's photograph\" (1934)",
+      "passage": "The creature was reportedly a toy submarine built by Christian Spurling, the stepson of actor, screenwriter, director, producer, and -- perhaps most saliently -- big-game hunter M. A. Wetherell. Spurling admitted the photograph was a hoax in January 1991. Wetherell had been publicly ridiculed by his employer, the Daily Mail, after he found \"Nessie footprints\" that turned out to be a hoax.",
+      "hatnote": "Who would fake a monster, and why?",
+      "onwardLinkText": "M. A. Wetherell",
+      "nextPage": "M. A. Wetherell"
+    },
+    {
+      "page": "M. A. Wetherell",
+      "url": "https://en.wikipedia.org/wiki/M._A._Wetherell",
+      "revision": 1339195393,
+      "section": "Biography",
+      "passage": "In the 1930s, Marmaduke went to Loch Ness to look for the Loch Ness Monster. Wetherell claimed to have found footprints, but when casts of the footprints were sent to scientists for analysis they turned out to be from a hippopotamus; a prankster had used a hippopotamus-foot umbrella stand.",
+      "hatnote": "The footprints had a very domestic origin.",
+      "onwardLinkText": null,
+      "nextPage": "M. A. Wetherell"
+    }
+  ],
+  "payoff": "Nessie's founding sighting may echo King Kong, and its famous photo was faked by a man once fooled by a hippo-foot umbrella stand.",
+  "caveats": [
+    "Pages differ on Christian Spurling: Loch Ness Monster calls him Wetherell's stepson, the Wetherell article his son-in-law.",
+    "The King Kong link is a suggestion by researchers, not established fact."
+  ]
+}

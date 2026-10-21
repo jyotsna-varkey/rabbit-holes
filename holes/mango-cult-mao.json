@@ -1,0 +1,72 @@
+{
+  "id": "mango-cult-mao",
+  "claim": "Mao gave away a box of mangoes, and China began worshipping wax copies.",
+  "start": {
+    "title": "Mango",
+    "page": "Mango",
+    "description": "Tropical fruit",
+    "image": "snapshots/images/Mango.webp"
+  },
+  "end": {
+    "title": "Chairman Mao badge",
+    "page": "Chairman Mao badge",
+    "description": "Pin badge depicting Mao Zedong",
+    "image": "snapshots/images/Chairman-Mao-badge.webp"
+  },
+  "knots": [
+    {
+      "page": "Mango",
+      "url": "https://en.wikipedia.org/wiki/Mango",
+      "revision": 1377525185,
+      "section": "Culture",
+      "passage": "Mangoes were the subject of the mango cult in China during the Cultural Revolution as symbols of chairman Mao Zedong's love for the people.",
+      "hatnote": "The mango has a strange chapter in Chinese political history.",
+      "onwardLinkText": "mango cult",
+      "nextPage": "Mango cult"
+    },
+    {
+      "page": "Mango cult",
+      "url": "https://en.wikipedia.org/wiki/Mango_cult",
+      "revision": 1350766963,
+      "section": "History",
+      "passage": "On August 5, 1968, the Foreign Minister of Pakistan, Mian Arshad Hussain, visited Mao and gave him a box of Sindhri mangoes. A competing story of origin claims that the giver of the mangoes was Burmese. Mao gave them to the workers stationed at Tsinghua University. His refusal to eat the fruit himself was seen as a personal sacrifice for the benefit of the workers, and the workers believed that the mangoes were symbolic of Mao's gratefulness.",
+      "hatnote": "It started with a diplomatic gift Mao didn't eat.",
+      "onwardLinkText": null,
+      "nextPage": "Mango cult"
+    },
+    {
+      "page": "Mango cult",
+      "url": "https://en.wikipedia.org/wiki/Mango_cult",
+      "revision": 1350766963,
+      "section": "History",
+      "passage": "Very few people in that region of China at the time knew what mangoes were, leading to many people being in awe of the fruit, and comparing them to the Peaches of Immortality from Chinese mythology. The original mangoes were preserved using chemicals, such as formaldehyde, and were displayed in various Chinese universities. Workers soon began to venerate wax models of mangoes and parade them around the country, punishing anyone who disrespected them as counterrevolutionaries. A giant float shaped like a basket of mangoes was paraded on October 1, 1968, during China's National Day Parade in Tiananmen Square.",
+      "hatnote": "Most of the workers had never seen a mango before.",
+      "onwardLinkText": null,
+      "nextPage": "Mango cult"
+    },
+    {
+      "page": "Mango cult",
+      "url": "https://en.wikipedia.org/wiki/Mango_cult",
+      "revision": 1350766963,
+      "section": "History",
+      "passage": "Wax and plastic replicas of mangoes were in high demand. Various mango-themed products were sold, such as bed sheets, vanity stands, enamel trays and mugs, pencil cases, mango-scented soap, and mango-flavored cigarettes, often accompanied by patriotic slogans and images of Mao. A set of medallions was crafted to commemorate Mao's gift of the mangoes, and Mao badges were manufactured with the image of a mango under his face.",
+      "hatnote": "Then the merchandise arrived.",
+      "onwardLinkText": "Mao badges",
+      "nextPage": "Chairman Mao badge"
+    },
+    {
+      "page": "Chairman Mao badge",
+      "url": "https://en.wikipedia.org/wiki/Chairman_Mao_badge",
+      "revision": 1373646375,
+      "section": "History",
+      "passage": "The high tide of Mao badge mania was reached in April 1969, during the 9th CCP National Congress, when huge numbers of Mao badges were produced for distribution at the congress. However, the vast quantities of aluminium being used was having serious repercussions on Chinese industry, causing Mao to demand \"Give me back the airplanes\" (还我飞机), and in June 1969 the CCP Central Committee issued a document forbidding the production of any more Mao badges unless specially authorized.",
+      "hatnote": "The badge craze grew so big it hit heavy industry.",
+      "onwardLinkText": null,
+      "nextPage": "Chairman Mao badge"
+    }
+  ],
+  "payoff": "A box of Pakistani mangoes became holy relics, then badges, part of a badge mania so vast Mao demanded his airplanes back.",
+  "caveats": [
+    "The mango cult page notes a competing story that the mangoes came from a Burmese giver."
+  ]
+}

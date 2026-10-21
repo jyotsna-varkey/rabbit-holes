@@ -1,0 +1,72 @@
+{
+  "id": "snail-george",
+  "claim": "Hawaii imported a snail to eat snails. It ate the wrong ones.",
+  "start": {
+    "title": "Snail",
+    "page": "Snail",
+    "description": "Shelled gastropod",
+    "image": "snapshots/images/Snail.webp"
+  },
+  "end": {
+    "title": "Achatinella apexfulva",
+    "page": "Achatinella apexfulva",
+    "description": "Land snail species in extinct in 2019",
+    "image": "snapshots/images/Achatinella-apexfulva.webp"
+  },
+  "knots": [
+    {
+      "page": "Snail",
+      "url": "https://en.wikipedia.org/wiki/Snail",
+      "revision": 1375834457,
+      "section": "Diet",
+      "passage": "The average snail's diet varies greatly depending on the species, including different feeding styles from herbivores to highly specialized feeders and parasites. Some snails like Euglandina rosea, or rosy wolfsnail, are carnivorous and prey on other snails.",
+      "hatnote": "Not every snail is a gentle leaf-nibbler.",
+      "onwardLinkText": "Euglandina rosea",
+      "nextPage": "Euglandina rosea"
+    },
+    {
+      "page": "Euglandina rosea",
+      "url": "https://en.wikipedia.org/wiki/Euglandina_rosea",
+      "revision": 1370236894,
+      "section": "As an invasive species",
+      "passage": "These predatory snails were originally introduced to Hawaii in an attempt to eliminate another invasive species, the giant African land snail, Lissachatina fulica. The introduction occurred in 1955, when specimens were collected from Florida and sent to Hawaii. During the same year, 616 individuals were released on Oahu. In 1958 12,000 were taken from Oahu and introduced onto eight other Pacific islands. This did not, however, reduce the populations of A. fulica, but rather caused a decline in native snail populations. The introduced species vigorously attacked the endemic O'ahu tree snail.",
+      "hatnote": "So someone had an idea: fight a pest snail with a killer snail.",
+      "onwardLinkText": "O'ahu tree snail",
+      "nextPage": "Achatinella"
+    },
+    {
+      "page": "Achatinella",
+      "url": "https://en.wikipedia.org/wiki/Achatinella",
+      "revision": 1380734682,
+      "section": "lead",
+      "passage": "Achatinella species are all endemic to the island of Oahu in Hawaii, and all remaining extant species are endangered. They were once abundant and were mentioned extensively in Hawaiian folklore and songs, and their shells were used in lei and other ornaments.",
+      "hatnote": "The victims were Oahu's jewel-like tree snails.",
+      "onwardLinkText": null,
+      "nextPage": "Achatinella"
+    },
+    {
+      "page": "Achatinella",
+      "url": "https://en.wikipedia.org/wiki/Achatinella",
+      "revision": 1380734682,
+      "section": "Shell description",
+      "passage": "Type species of the genus Achatinella is Achatinella apexfulva (Dixon).",
+      "hatnote": "Biologists anchor the whole genus on one species in particular.",
+      "onwardLinkText": "Achatinella apexfulva",
+      "nextPage": "Achatinella apexfulva"
+    },
+    {
+      "page": "Achatinella apexfulva",
+      "url": "https://en.wikipedia.org/wiki/Achatinella_apexfulva",
+      "revision": 1380734692,
+      "section": "Conservation status",
+      "passage": "In 1997, in response to rapidly dwindling populations, all known remaining specimens of A. apexfulva were collected and bred in captivity. Most offspring died of unknown causes, but one successful offspring was born. This individual was named George, after Lonesome George, a Pinta Island tortoise from the Galapagos Islands who was also the last of his kind. By April 2011, George was the only remaining member of the species. In January 2019, George died at age 14 – leaving the species reportedly extinct.",
+      "hatnote": "Its story ends with a single snail.",
+      "onwardLinkText": null,
+      "nextPage": "Achatinella apexfulva"
+    }
+  ],
+  "payoff": "A wolfsnail shipped in to eat a pest snail ate Oahu's tree snails instead, leaving one lonely snail named George as the last of his kind.",
+  "caveats": [
+    "The apexfulva page says the wolfsnail was introduced to control agricultural pests; the Euglandina page names the giant African land snail as the target."
+  ]
+}

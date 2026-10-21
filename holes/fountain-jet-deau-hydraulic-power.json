@@ -1,0 +1,80 @@
+{
+  "id": "fountain-jet-deau-hydraulic-power",
+  "claim": "Geneva's famous fountain began as a vent for a forgotten kind of power grid.",
+  "start": {
+    "title": "Fountain",
+    "page": "Fountain",
+    "description": "Architecture which pours water into a basin or jets it into the air",
+    "image": "snapshots/images/Fountain.webp"
+  },
+  "end": {
+    "title": "London Hydraulic Power Company",
+    "page": "London Hydraulic Power Company",
+    "description": "Former UK business 1883–1977",
+    "image": ""
+  },
+  "knots": [
+    {
+      "page": "Fountain",
+      "url": "https://en.wikipedia.org/wiki/Fountain",
+      "revision": 1378839805,
+      "section": "lead",
+      "passage": "By the end of the 19th century, as indoor plumbing became the main source of drinking water, urban fountains became purely decorative. Mechanical pumps replaced gravity and allowed fountains to recycle water and to force it high into the air. The Jet d'Eau in Lake Geneva, built in 1951, shoots water 140 metres (460 ft) into the air.",
+      "hatnote": "Once fountains stopped supplying water, they started showing off.",
+      "onwardLinkText": "Jet d'Eau",
+      "nextPage": "Jet d'Eau"
+    },
+    {
+      "page": "Jet d'Eau",
+      "url": "https://en.wikipedia.org/wiki/Jet_d'Eau",
+      "revision": 1369813157,
+      "section": "History",
+      "passage": "The first Jet d'Eau was installed in 1886 at the Usine de la Coulouvrenière, a little further downstream from its present location. It was used as a safety valve for a hydraulic power network and could reach a height of about 30 metres (100 ft). In 1891, its aesthetic value was recognised and it was moved to its present location to celebrate the Federal Gymnastics Festival and the 600th anniversary of the Swiss Confederation, when it was operated for the first time.",
+      "hatnote": "Geneva's landmark was never meant to be pretty.",
+      "onwardLinkText": "hydraulic power network",
+      "nextPage": "Hydraulic power network"
+    },
+    {
+      "page": "Hydraulic power network",
+      "url": "https://en.wikipedia.org/wiki/Hydraulic_power_network",
+      "revision": 1376793604,
+      "section": "lead",
+      "passage": "A hydraulic power network is a system of interconnected pipes carrying pressurized liquid used to transmit mechanical power from a power source, like a pump, to hydraulic equipment like lifts or motors. The system is analogous to an electrical grid transmitting power from a generating station to end-users.",
+      "hatnote": "Before electricity was everywhere, power could flow through water pipes.",
+      "onwardLinkText": null,
+      "nextPage": "Hydraulic power network"
+    },
+    {
+      "page": "Hydraulic power network",
+      "url": "https://en.wikipedia.org/wiki/Hydraulic_power_network",
+      "revision": 1376793604,
+      "section": "London",
+      "passage": "The best-known public hydraulic network was the citywide network of the London Hydraulic Power Company. This was formed in 1882, as the General Hydraulic Power Company, with Ellington as the consulting engineer.",
+      "hatnote": "Several cities had one. London's was the biggest.",
+      "onwardLinkText": "London Hydraulic Power Company",
+      "nextPage": "London Hydraulic Power Company"
+    },
+    {
+      "page": "London Hydraulic Power Company",
+      "url": "https://en.wikipedia.org/wiki/London_Hydraulic_Power_Company",
+      "revision": 1328270715,
+      "section": "History",
+      "passage": "The system was used as a cleaner and more compact alternative to steam engines, to power workshop machinery, lifts, cranes, theatre machinery (including revolving stages at the London Palladium and the London Coliseum, safety curtains at the Theatre Royal, Drury Lane, the lifting mechanism for the cinema organ at the Leicester Square theatre and the complete Palm Court orchestra platform), and the backup mechanism of Tower Bridge. It was also used to supply fire hydrants, mostly those inside buildings. The water, pumped straight from the Thames, was heated in winter to prevent freezing.",
+      "hatnote": "Pressurised Thames water ran half of London's machinery.",
+      "onwardLinkText": null,
+      "nextPage": "London Hydraulic Power Company"
+    },
+    {
+      "page": "London Hydraulic Power Company",
+      "url": "https://en.wikipedia.org/wiki/London_Hydraulic_Power_Company",
+      "revision": 1328270715,
+      "section": "Decline",
+      "passage": "The system finally closed in June 1977. The company, as a UK statutory authority, had the legal right to dig up the public highways to install and maintain its pipe network. This made it attractive to Mercury Communications (a subsidiary of Cable & Wireless) who bought the company and used the pipes as telecommunications ducts.",
+      "hatnote": "Electricity won, but the empty pipes had one last use.",
+      "onwardLinkText": null,
+      "nextPage": "London Hydraulic Power Company"
+    }
+  ],
+  "payoff": "Geneva kept its overflow valve as a fountain; London's water-power pipes, after lifting Tower Bridge and theatre stages, now carry telecom cables.",
+  "caveats": []
+}

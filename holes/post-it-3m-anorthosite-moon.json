@@ -1,0 +1,70 @@
+{
+  "id": "post-it-3m-anorthosite-moon",
+  "claim": "The worthless rock in 3M's first mine covers most of the Moon.",
+  "start": {
+    "title": "Post-it note",
+    "page": "Post-it note",
+    "description": "Small piece of paper with a re-adherable strip of glue on its back",
+    "image": "snapshots/images/Post-it-note.webp"
+  },
+  "end": {
+    "title": "Anorthosite",
+    "page": "Anorthosite",
+    "description": "Mafic intrusive igneous rock composed predominantly of plagioclase",
+    "image": "snapshots/images/Anorthosite.webp"
+  },
+  "knots": [
+    {
+      "page": "Post-it note",
+      "url": "https://en.wikipedia.org/wiki/Post-it_note",
+      "revision": 1378033562,
+      "section": "History",
+      "passage": "In 1968, Spencer Silver, a scientist at 3M in the United States, attempted to develop a super-strong adhesive. Instead, he accidentally created a \"low-tack\", reusable, pressure-sensitive adhesive for the aerospace industry. For five years, Silver promoted his \"solution without a problem\" within 3M both informally and through seminars, but failed to gain adherents.",
+      "hatnote": "The Post-it began as a glue nobody at 3M wanted.",
+      "onwardLinkText": "3M",
+      "nextPage": "3M"
+    },
+    {
+      "page": "3M",
+      "url": "https://en.wikipedia.org/wiki/3M",
+      "revision": 1380307050,
+      "section": "History",
+      "passage": "Five businessmen founded the Minnesota Mining and Manufacturing Company as a mining venture in Two Harbors, Minnesota, making their first sale on June 13, 1902. The goal was to mine corundum, a crystalline form of aluminium oxide, which failed because the mine's mineral holdings were anorthosite, a feldspar which had no commercial value. Co-founder John Dwan solicited funds in exchange for stock and Edgar Ober and Lucius Ordway took over the company in 1905. The company moved to Duluth and began researching and producing sandpaper products.",
+      "hatnote": "3M itself began with something nobody wanted. The 'M' stood for Mining.",
+      "onwardLinkText": "anorthosite",
+      "nextPage": "Anorthosite"
+    },
+    {
+      "page": "Anorthosite",
+      "url": "https://en.wikipedia.org/wiki/Anorthosite",
+      "revision": 1374864549,
+      "section": "lead",
+      "passage": "Anorthosites are of enormous geologic interest, because it is still not fully understood how they form. Most models involve separating plagioclase crystals based on their density. Plagioclase crystals are usually less dense than magma; so, as plagioclase crystallizes in a magma chamber, the plagioclase crystals float to the top, concentrating there.",
+      "hatnote": "The useless rock has a strange origin: crystals that float.",
+      "onwardLinkText": null,
+      "nextPage": "Anorthosite"
+    },
+    {
+      "page": "Anorthosite",
+      "url": "https://en.wikipedia.org/wiki/Anorthosite",
+      "revision": 1374864549,
+      "section": "lead",
+      "passage": "Lunar anorthosites constitute the light-coloured areas of the Moon's surface and have been the subject of much research.",
+      "hatnote": "Look up on a clear night and you can see it.",
+      "onwardLinkText": null,
+      "nextPage": "Anorthosite"
+    },
+    {
+      "page": "Anorthosite",
+      "url": "https://en.wikipedia.org/wiki/Anorthosite",
+      "revision": 1374864549,
+      "section": "Lunar anorthosite",
+      "passage": "On the Moon, anorthosite is the dominant rock type of the lunar highlands which covers ~80% of the lunar surface. Lunar anorthosite is characterized as ferroan anorthosite (FAN), or magnesium anorthosite (MAN). Pristine lunar FAN is some of the oldest lunar rock and the original cumulate of the lunar magma ocean, with the Mg-suite forming from later impacts and plutonism.",
+      "hatnote": "It is the Moon's original crust.",
+      "onwardLinkText": null,
+      "nextPage": "Anorthosite"
+    }
+  ],
+  "payoff": "3M's founders dug up the wrong rock and turned to sandpaper; that rock once floated atop a molten Moon and forms its bright highlands.",
+  "caveats": []
+}

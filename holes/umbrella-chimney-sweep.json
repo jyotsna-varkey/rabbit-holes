@@ -1,0 +1,70 @@
+{
+  "id": "umbrella-chimney-sweep",
+  "claim": "London's first umbrella man helped start a century-long fight over child chimney sweeps.",
+  "start": {
+    "title": "Umbrella",
+    "page": "Umbrella",
+    "description": "Canopy designed to protect against rain or sunlight",
+    "image": "snapshots/images/Umbrella.webp"
+  },
+  "end": {
+    "title": "Chimney sweep",
+    "page": "Chimney sweep",
+    "description": "Person who cleans chimneys",
+    "image": "snapshots/images/Chimney-sweep.webp"
+  },
+  "knots": [
+    {
+      "page": "Umbrella",
+      "url": "https://en.wikipedia.org/wiki/Umbrella",
+      "revision": 1375562540,
+      "section": "18th and 19th centuries",
+      "passage": "Jonas Hanway, the founder of the Magdalen Hospital, has the credit of being the first man who ventured to dare public reproach and ridicule by carrying one habitually in London. As he died in 1786, and he is said to have carried an umbrella for thirty years, the date of its first use by him may be set down at about 1750.",
+      "hatnote": "In 1750, a man with an umbrella was a public joke.",
+      "onwardLinkText": "Jonas Hanway",
+      "nextPage": "Jonas Hanway"
+    },
+    {
+      "page": "Jonas Hanway",
+      "url": "https://en.wikipedia.org/wiki/Jonas_Hanway",
+      "revision": 1372740201,
+      "section": "Life",
+      "passage": "He attacked vail-giving, or tipping, with some temporary success; by his onslaught upon tea drinking he became involved in controversy with Samuel Johnson and Oliver Goldsmith. His last efforts were on behalf of child chimney-sweeps.",
+      "hatnote": "Hanway enjoyed picking unpopular fights. His last one mattered most.",
+      "onwardLinkText": "chimney-sweeps",
+      "nextPage": "Chimney sweep"
+    },
+    {
+      "page": "Chimney sweep",
+      "url": "https://en.wikipedia.org/wiki/Chimney_sweep",
+      "revision": 1373836402,
+      "section": "Great Britain",
+      "passage": "Boys as young as four climbed hot flues that could be as narrow as 9 by 9 inches (23 cm × 23 cm). Work was dangerous and they could get jammed in the flue, suffocate or burn to death. As soot is carcinogenic, and as the boys slept under the soot sacks and were rarely washed, they were prone to chimney sweeps' carcinoma.",
+      "hatnote": "Who was cleaning London's chimneys?",
+      "onwardLinkText": null,
+      "nextPage": "Chimney sweep"
+    },
+    {
+      "page": "Chimney sweep",
+      "url": "https://en.wikipedia.org/wiki/Chimney_sweep",
+      "revision": 1373836402,
+      "section": "Regulation",
+      "passage": "In 1788, the Chimney Sweepers Act 1788 (long title: An Act for the Better Regulation of Chimney Sweepers and their Apprentices) was passed, to limit a sweeper to six apprentices, at least eight years old, but lacked enforcement. It introduced the Apprenticeship Cap badge. The Act had been partially inspired by the interest in climbing boys shown by Jonas Hanway, and his two publications The State of Chimney Sweepers' Young Apprentices (1773) and later Sentimental History of Chimney Sweeps in London and Westminster (1785).",
+      "hatnote": "Hanway's pamphlets reached Parliament, two years after his death.",
+      "onwardLinkText": null,
+      "nextPage": "Chimney sweep"
+    },
+    {
+      "page": "Chimney sweep",
+      "url": "https://en.wikipedia.org/wiki/Chimney_sweep",
+      "revision": 1373836402,
+      "section": "Regulation",
+      "passage": "In February 1875 a twelve-year-old boy, George Brewster, was sent up the Fulbourn Hospital chimneys by his master, William Wyer. He stuck and smothered. The entire wall had to be pulled down to get him out and although he was still alive, he died shortly afterward. There was a coroner's inquest which returned a verdict of manslaughter. Wyer was sentenced to six months' imprisonment with hard labour. Lord Shaftesbury seized on the incident to press his campaign again. He wrote a series of letters to The Times and in September 1875 pushed another bill through Parliament which finally stopped the practice of sending boys up chimneys.",
+      "hatnote": "The law had no teeth for nearly a century. Then came one boy.",
+      "onwardLinkText": null,
+      "nextPage": "Chimney sweep"
+    }
+  ],
+  "payoff": "The man who braved jeers for an umbrella also took up a fight that needed nearly a century and one boy's death to win.",
+  "caveats": []
+}

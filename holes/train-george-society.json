@@ -1,0 +1,82 @@
+{
+  "id": "train-george-society",
+  "claim": "Why would a club claiming King George V care what train porters were called?",
+  "start": {
+    "title": "Train",
+    "page": "Train",
+    "description": "Series of connected rail vehicles",
+    "image": "snapshots/images/Train.webp"
+  },
+  "end": {
+    "title": "Society for the Prevention of Calling Sleeping Car Porters \"George\"",
+    "page": "Society for the Prevention of Calling Sleeping Car Porters \"George\"",
+    "description": "Joke organization",
+    "image": "snapshots/images/Society-for-the-Prevention-of-Calling-Sleeping-Car-Porters-George.webp"
+  },
+  "knots": [
+    {
+      "page": "Train",
+      "url": "https://en.wikipedia.org/wiki/Train",
+      "revision": 1375704845,
+      "section": "Crew",
+      "passage": "On passenger trains, other crew members assist passengers, such as chefs to prepare food, and service attendants to provide food and drinks to passengers. Other passenger train-specific duties include passenger car attendants, who assist passengers with boarding and alighting from trains, answer questions, and keep train cars clean, and sleeping car attendants, who perform similar duties in sleeping cars.",
+      "hatnote": "Long-distance trains carried crews whose job was looking after sleepers.",
+      "onwardLinkText": "sleeping cars",
+      "nextPage": "Sleeping car"
+    },
+    {
+      "page": "Sleeping car",
+      "url": "https://en.wikipedia.org/wiki/Sleeping_car",
+      "revision": 1380725177,
+      "section": "Cultural impact of Pullman porters",
+      "passage": "Each Pullman car was staffed by a uniformed porter. The majority of Pullman porters were African Americans. While still a menial job in many respects, Pullman offered better pay and security than most jobs open to African Americans at the time, in addition to a chance for travel, and it was a well regarded job in the African-American community of the time. The Pullman attendants, regardless of their true name, were traditionally referred to as \"George\" by the travelers, the name of the company's founder, George Pullman.",
+      "hatnote": "In America, one company's attendants shared a name that wasn't theirs.",
+      "onwardLinkText": "Pullman porters",
+      "nextPage": "Pullman porter"
+    },
+    {
+      "page": "Pullman porter",
+      "url": "https://en.wikipedia.org/wiki/Pullman_porter",
+      "revision": 1378919429,
+      "section": "History",
+      "passage": "Many passengers called every porter \"George\", as if he were George Pullman's \"boy\" (servant), a practice that was born in the South where slaves were named after their slavemasters/owners. The only ones who protested were other men named George, who founded the Society for the Prevention of Calling Sleeping Car Porters \"George\", or SPCSCPG, which eventually claimed 31,000 members.",
+      "hatnote": "The habit had ugly roots, and an unlikely group of objectors.",
+      "onwardLinkText": "Society for the Prevention of Calling Sleeping Car Porters \"George\"",
+      "nextPage": "Society for the Prevention of Calling Sleeping Car Porters \"George\""
+    },
+    {
+      "page": "Society for the Prevention of Calling Sleeping Car Porters \"George\"",
+      "url": "https://en.wikipedia.org/wiki/Society_for_the_Prevention_of_Calling_Sleeping_Car_Porters_%22George%22",
+      "revision": 1375296188,
+      "section": "lead",
+      "passage": "The Society for the Prevention of Calling Sleeping Car Porters \"George\" (SPCSCPG) was founded as a joke by lumber baron George W. Dulany in 1914. Membership was open to all those whose first or last name was George. Its early members included Admiral George Dewey, who served as the group's first president, and writer George Ade. Dulany's secretary filled out and mailed more than 45,000 membership cards to people named \"George\" throughout the world, before Dulany retired from public life.",
+      "hatnote": "It began as a lumber baron's joke.",
+      "onwardLinkText": null,
+      "nextPage": "Society for the Prevention of Calling Sleeping Car Porters \"George\""
+    },
+    {
+      "page": "Society for the Prevention of Calling Sleeping Car Porters \"George\"",
+      "url": "https://en.wikipedia.org/wiki/Society_for_the_Prevention_of_Calling_Sleeping_Car_Porters_%22George%22",
+      "revision": 1375296188,
+      "section": "Rationale",
+      "passage": "At its peak, the society claimed to have 31,000 members, including King George V of the United Kingdom, American baseball player George Herman \"Babe\" Ruth, Georgia Senator Walter F. George and French politician Georges Clemenceau.",
+      "hatnote": "The joke spread to some very famous Georges.",
+      "onwardLinkText": null,
+      "nextPage": "Society for the Prevention of Calling Sleeping Car Porters \"George\""
+    },
+    {
+      "page": "Society for the Prevention of Calling Sleeping Car Porters \"George\"",
+      "url": "https://en.wikipedia.org/wiki/Society_for_the_Prevention_of_Calling_Sleeping_Car_Porters_%22George%22",
+      "revision": 1375296188,
+      "section": "Rationale",
+      "passage": "Although founded as a joke, it nevertheless had some effects for all porters. In 1926, the SPCSCPG persuaded the Pullman Company to install small racks in each car, displaying a card with the given name of the porter on duty. Of the 12,000 porters and waiters then working for Pullman, only 362 turned out to be named George.",
+      "hatnote": "And then the joke actually changed something.",
+      "onwardLinkText": null,
+      "nextPage": "Society for the Prevention of Calling Sleeping Car Porters \"George\""
+    }
+  ],
+  "payoff": "A club of indignant Georges got every porter a name card, which revealed that only 362 of 12,000 were really George.",
+  "caveats": [
+    "The Pullman porter page says the SPCSCPG cared more about its white members' dignity than racial justice; the hole's framing should not imply it was a civil-rights group."
+  ]
+}

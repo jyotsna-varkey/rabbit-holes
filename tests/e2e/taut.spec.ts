@@ -22,7 +22,7 @@ const worstBend = (page: Page) =>
   );
 
 test('the thread is taut while reading, before and after a pull', async ({ page }) => {
-  await page.goto('/?hole=coffee-insurance');
+  await page.goto('/?hole=tutankhamun-noblecourt-amada-rails');
   await enterTopHole(page);
   await page.waitForTimeout(1200);
   expect(await worstBend(page)).toBeLessThan(1.5);

@@ -1,0 +1,72 @@
+{
+  "id": "cotton-civil-war-suez",
+  "claim": "The American Civil War helped Britain seize the Suez Canal.",
+  "start": {
+    "title": "Cotton",
+    "page": "Cotton",
+    "description": "Plant fiber from the genus Gossypium",
+    "image": "snapshots/images/Cotton.webp"
+  },
+  "end": {
+    "title": "Suez Company (1858–1997)",
+    "page": "Suez Company (1858–1997)",
+    "description": "Transport company",
+    "image": "snapshots/images/Suez-Company-1858-1997.webp"
+  },
+  "knots": [
+    {
+      "page": "Cotton",
+      "url": "https://en.wikipedia.org/wiki/Cotton",
+      "revision": 1375610201,
+      "section": "Industrial Revolution",
+      "passage": "During the American Civil War, American cotton exports slumped due to a Union blockade on Southern ports, and because of a strategic decision by the Confederate government to cut exports, hoping to force Britain to recognize the Confederacy or enter the war. The Lancashire Cotton Famine prompted the main purchasers of cotton, Britain and France, to turn to Egyptian cotton. British and French traders invested heavily in cotton plantations. The Egyptian government of Viceroy Isma'il took out substantial loans from European bankers and stock exchanges.",
+      "hatnote": "When American cotton stopped flowing, the world went looking elsewhere.",
+      "onwardLinkText": "Viceroy Isma'il",
+      "nextPage": "Isma'il Pasha of Egypt"
+    },
+    {
+      "page": "Isma'il Pasha of Egypt",
+      "url": "https://en.wikipedia.org/wiki/Isma'il_Pasha_of_Egypt",
+      "revision": 1375046668,
+      "section": "Reforms",
+      "passage": "Isma'il launched vast schemes of internal reform on the scale of his grandfather, remodeling the customs system and the post office, stimulating commercial progress, creating a sugar industry, building the cotton industry, building palaces, entertaining lavishly, and maintaining an opera and a theatre. Over one hundred thousand Europeans came to work in Cairo, where he facilitated building an entire new quarter of the city on its western edge modeled on Paris.",
+      "hatnote": "Egypt's ruler spent the cotton boom like it would never end.",
+      "onwardLinkText": null,
+      "nextPage": "Isma'il Pasha of Egypt"
+    },
+    {
+      "page": "Isma'il Pasha of Egypt",
+      "url": "https://en.wikipedia.org/wiki/Isma'il_Pasha_of_Egypt",
+      "revision": 1375046668,
+      "section": "Debts",
+      "passage": "A national debt of over £100 million sterling (as opposed to three millions when he acceded to the throne) had been incurred by the Khedive, whose fundamental idea of liquidating his borrowings was to borrow at increased interest. The bond-holders became restive, chief among them the House of Cattaui. Judgments were given against the Khedive in the international tribunals. When he could raise no more loans, he sold the Egyptian and Sudanese shares in the Suez Canal Company in 1875 with the assistance of Yacoub Cattaui to the British government for £3,976,582; this was immediately followed by the beginning of direct intervention by the Great Powers in Egypt and Sudan.",
+      "hatnote": "The spending ran on borrowed money, and the lenders wanted it back.",
+      "onwardLinkText": "Suez Canal Company",
+      "nextPage": "Suez Company (1858–1997)"
+    },
+    {
+      "page": "Suez Company (1858–1997)",
+      "url": "https://en.wikipedia.org/wiki/Suez_Company_(1858%E2%80%931997)",
+      "revision": 1359530051,
+      "section": "Early operations",
+      "passage": "This offer was slightly greater than the French offer, and Ismail physically delivered his share certificates to the British consulate. By December 1875 Britain became the largest shareholder of the Suez Canal Company, owning 44 percent of the shares.",
+      "hatnote": "A French bank bid for the shares too. Britain's bid beat it.",
+      "onwardLinkText": null,
+      "nextPage": "Suez Company (1858–1997)"
+    },
+    {
+      "page": "Suez Company (1858–1997)",
+      "url": "https://en.wikipedia.org/wiki/Suez_Company_(1858%E2%80%931997)",
+      "revision": 1359530051,
+      "section": "Early operations",
+      "passage": "In 1879, Ismail was deposed by the Ottoman Sultan and replaced with Tawfiq. Tawfiq was challenged for leadership during a nationalist uprising in 1880 by Colonel Ahmad Urabi. In response to an anti-European riot in 1882, Britain landed an army, seized the canal, and developed a protectorate over Egypt, placing Lord Cromer as the head governing authority.",
+      "hatnote": "Owning shares was only the beginning.",
+      "onwardLinkText": null,
+      "nextPage": "Suez Company (1858–1997)"
+    }
+  ],
+  "payoff": "Civil War cotton loans set Egypt borrowing; the debts sold Britain the canal's shares, and seven years later Britain seized the canal.",
+  "caveats": [
+    "The cotton page itself says the 1876 bankruptcy was 'a key factor' in the 1882 occupation, not the only cause; Isma'il's war with Ethiopia also drove the debt."
+  ]
+}

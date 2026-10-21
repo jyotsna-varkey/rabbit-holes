@@ -1,0 +1,72 @@
+{
+  "id": "fossil-henslow",
+  "claim": "Britain's fossil-poo mining boom was started by the man who launched Darwin.",
+  "start": {
+    "title": "Fossil",
+    "page": "Fossil",
+    "description": "Preserved remains or traces of organisms from a past geological age",
+    "image": "snapshots/images/Fossil.webp"
+  },
+  "end": {
+    "title": "John Stevens Henslow",
+    "page": "John Stevens Henslow",
+    "description": "British botanist, geologist, and priest (1796–1861)",
+    "image": "snapshots/images/John-Stevens-Henslow.webp"
+  },
+  "knots": [
+    {
+      "page": "Fossil",
+      "url": "https://en.wikipedia.org/wiki/Fossil",
+      "revision": 1378214793,
+      "section": "lead",
+      "passage": "Fossils may also consist of the marks left behind by the organism while it was alive, such as animal tracks or feces (coprolites). These types of fossil are called trace fossils or ichnofossils, as opposed to body fossils.",
+      "hatnote": "Not every fossil is a bone. Some are what animals left behind.",
+      "onwardLinkText": "coprolites",
+      "nextPage": "Coprolite"
+    },
+    {
+      "page": "Coprolite",
+      "url": "https://en.wikipedia.org/wiki/Coprolite",
+      "revision": 1362236587,
+      "section": "Initial discovery",
+      "passage": "British fossil hunter Mary Anning noticed as early as 1824 that \"bezoar stones\" were often found in the abdominal region of ichthyosaur skeletons found in the Lias formation at Lyme Regis. She also noted that if such stones were broken open they often contained fossilized fish bones and scales as well as sometimes bones from smaller ichthyosaurs. These observations by Anning led the geologist William Buckland to propose in 1829 that the stones were fossilized feces and to name them coprolites.",
+      "hatnote": "Their true nature was spotted in the bellies of sea monsters.",
+      "onwardLinkText": null,
+      "nextPage": "Coprolite"
+    },
+    {
+      "page": "Coprolite",
+      "url": "https://en.wikipedia.org/wiki/Coprolite",
+      "revision": 1362236587,
+      "section": "Coprolite mining",
+      "passage": "In 1842 the Rev John Stevens Henslow, a professor of botany at St John's College, Cambridge, discovered coprolites just outside Felixstowe in Suffolk in the villages of Trimley St Martin, Falkenham and Kirton and investigated their composition. Realizing their potential as a source of available phosphate once they had been treated with sulfuric acid, he patented an extraction process and set about finding new sources.",
+      "hatnote": "Then a Cambridge professor saw them as a cash crop.",
+      "onwardLinkText": "John Stevens Henslow",
+      "nextPage": "John Stevens Henslow"
+    },
+    {
+      "page": "John Stevens Henslow",
+      "url": "https://en.wikipedia.org/wiki/John_Stevens_Henslow",
+      "revision": 1369561832,
+      "section": "A country clergyman",
+      "passage": "In 1843 he discovered nodules of coprolitic origin in the Red Crag at Felixstowe in Suffolk, and two years later he called attention to those also in the Cambridge Greensand and remarked that they might be of use in agriculture. Although Henslow derived no benefit, these discoveries led to the establishment of the phosphate industry in Suffolk and Cambridgeshire; and the works proved lucrative until the introduction of foreign phosphates.",
+      "hatnote": "The professor himself never cashed in.",
+      "onwardLinkText": null,
+      "nextPage": "John Stevens Henslow"
+    },
+    {
+      "page": "John Stevens Henslow",
+      "url": "https://en.wikipedia.org/wiki/John_Stevens_Henslow",
+      "revision": 1369561832,
+      "section": "Early career",
+      "passage": "In the summer of 1831 Henslow was offered a place as naturalist to sail aboard the survey ship HMS Beagle on a two-year voyage to survey South America, but his wife dissuaded him from accepting. Seeing a perfect opportunity for his protégé, Henslow wrote to the ship's captain Robert Fitzroy telling him that Darwin was the ideal man to join the expedition team.",
+      "hatnote": "But his biggest legacy was a letter he wrote in 1831.",
+      "onwardLinkText": null,
+      "nextPage": "John Stevens Henslow"
+    }
+  ],
+  "payoff": "The professor who sent Darwin to sea also, without making a penny, turned fossil dung into a fertiliser industry.",
+  "caveats": [
+    "Pages differ on the date of Henslow's Felixstowe find (1842 on Coprolite, 1843 on his own page)."
+  ]
+}

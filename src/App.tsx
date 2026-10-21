@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from 'react';
-import { holeById, holes, loadArticle, type Hole } from './content';
+import { cardById, cards, loadArticle, loadedHole, loadHole, type Hole } from './content';
 import { Home } from './screens/Home';
 import { HoleView } from './screens/HoleView';
 import { Shelf } from './screens/Shelf';
@@ -15,7 +15,7 @@ type View =
 // ?hole=<id> links one to the top.
 const initialOrder = () => {
   const order = stackOrder(
-    holes.map((h) => h.id),
+    cards.map((h) => h.id),
     openedHoles(),
     new URLSearchParams(location.search).get('hole'),
     Math.random,
@@ -47,10 +47,26 @@ export default function App() {
     setOrderState(ids);
   }, []);
 
-  // Warm the first page of the top hole so the tumble lands on a loaded article.
+  // Warm the top hole: its passages and first page, so the tumble lands on a
+  // loaded article.
   useEffect(() => {
-    if (order[0]) loadArticle(holeById(order[0]).knots[0].page).catch(() => {});
+    if (!order[0]) return;
+    loadHole(order[0]).catch(() => {});
+    loadArticle(cardById(order[0]).firstPage).catch(() => {});
   }, [order]);
+
+  // The open hole's passages (usually already warm; otherwise they load now).
+  const openId = view.name === 'hole' ? view.id : null;
+  const [hole, setHole] = useState<Hole | null>(null);
+  useEffect(() => {
+    if (!openId || loadedHole(openId)) return;
+    let live = true;
+    loadHole(openId).then((h) => live && setHole(h), (e) => console.warn('Hole failed to load', e));
+    return () => {
+      live = false;
+    };
+  }, [openId]);
+  const shownHole = openId ? (hole?.id === openId ? hole : loadedHole(openId) ?? null) : null;
 
   // Signed-in readers: bring the shelf in from their account on open, and save
   // every keep or removal back to it. Nothing loads for readers who never sign in.
@@ -90,8 +106,8 @@ export default function App() {
     }
   };
 
-  const enter = (hole: Hole, from: DOMRect | null) => {
-    go({ name: 'hole', id: hole.id, from, run: Date.now() });
+  const enter = (id: string, from: DOMRect | null) => {
+    go({ name: 'hole', id, from, run: Date.now() });
   };
 
   const openHole = (id: string) => {
@@ -118,10 +134,10 @@ export default function App() {
           onShelf={() => go({ name: 'shelf' })}
         />
       )}
-      {view.name === 'hole' && (
+      {view.name === 'hole' && shownHole && (
         <HoleView
           key={`${view.id}:${view.run}`}
-          hole={holeById(view.id)}
+          hole={shownHole}
           from={view.from}
           onClose={goHome}
           onNext={next}

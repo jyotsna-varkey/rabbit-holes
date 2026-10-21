@@ -1,0 +1,70 @@
+{
+  "id": "emoji-north-korea-coffee",
+  "claim": "The ☕ on your phone was proposed by the world's most secretive state.",
+  "start": {
+    "title": "Emoji",
+    "page": "Emoji",
+    "description": "Symbols for emotional cues in text",
+    "image": "snapshots/images/Emoji.webp"
+  },
+  "end": {
+    "title": "Red Star OS",
+    "page": "Red Star OS",
+    "description": "North Korean Linux distribution",
+    "image": "snapshots/images/Red-Star-OS.webp"
+  },
+  "knots": [
+    {
+      "page": "Emoji",
+      "url": "https://en.wikipedia.org/wiki/Emoji",
+      "revision": 1377717476,
+      "section": "Beginnings of Unicode emoji (2007–2014)",
+      "passage": "A single character could exist in multiple sources, and characters from a source were unified with existing characters where appropriate: for example, the \"shower\" weather symbol (☔️) from the ARIB source was unified with an existing umbrella with raindrops character, which had been added for KPS 9566 compatibility.",
+      "hatnote": "Early emoji were pooled from older character sets, merged where they overlapped. One source surprises.",
+      "onwardLinkText": "KPS 9566",
+      "nextPage": "KPS 9566"
+    },
+    {
+      "page": "KPS 9566",
+      "url": "https://en.wikipedia.org/wiki/KPS_9566",
+      "revision": 1376705404,
+      "section": "Design",
+      "passage": "KPS 9566 is especially distinguished by its inclusion of several special characters from North Korean political life. Specifically, it includes the hammer, sickle and brush emblem of the Workers' Party of Korea, both uncircled and circled (code points 12-01 and 12-02), and two groups of three special-purpose characters which spell out the names of the North Korean leaders Kim Il Sung (김일성) and Kim Jong Il (김정일) in a special decorative font (code points 04-72 to 04-74 and 04-75 to 04-77, respectively).",
+      "hatnote": "KPS 9566 is North Korea's own computer alphabet, and it has unusual characters.",
+      "onwardLinkText": null,
+      "nextPage": "KPS 9566"
+    },
+    {
+      "page": "KPS 9566",
+      "url": "https://en.wikipedia.org/wiki/KPS_9566",
+      "revision": 1376705404,
+      "section": "Impact on Unicode today",
+      "passage": "Several current Unicode characters were added to Unicode 4.0 as a result of the North Korean proposals, although not always at the original proposed codepoints. These include HOT BEVERAGE (☕, proposed as TEA SYMBOL), which was proposed as a map symbol for marking a tea house, and the flag symbols WHITE FLAG (⚐) and BLACK FLAG (⚑), which were proposed as map symbols for sites of battles and military victories.",
+      "hatnote": "Some of its symbols made it onto every phone on Earth.",
+      "onwardLinkText": null,
+      "nextPage": "KPS 9566"
+    },
+    {
+      "page": "KPS 9566",
+      "url": "https://en.wikipedia.org/wiki/KPS_9566",
+      "revision": 1376705404,
+      "section": "Documentation and relationship to Unicode",
+      "passage": "Copies of Red Star OS 3.0 include fonts for a more recent edition of KPS 9566, appearing to be KPS 9566-2011. The mapping table used by Red Star OS internally has been successfully extracted.",
+      "hatnote": "The newest version was found inside North Korea's own operating system.",
+      "onwardLinkText": "Red Star OS",
+      "nextPage": "Red Star OS"
+    },
+    {
+      "page": "Red Star OS",
+      "url": "https://en.wikipedia.org/wiki/Red_Star_OS",
+      "revision": 1379673238,
+      "section": "Media attention",
+      "passage": "In 2015, two German researchers speaking at the Chaos Communication Congress described the internal operation of the OS. The system is known to watermark all files on portable media attached to computers in order to aid in tracking the underground market of USB flash drives used to exchange foreign films, music and writing.",
+      "hatnote": "That system has a habit of its own.",
+      "onwardLinkText": null,
+      "nextPage": "Red Star OS"
+    }
+  ],
+  "payoff": "The country that gave your phone ☕ also built an operating system that watermarks files on USB sticks to track smuggled foreign films.",
+  "caveats": []
+}

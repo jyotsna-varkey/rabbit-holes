@@ -1,0 +1,83 @@
+{
+  "id": "barcode-kartrak-tops",
+  "claim": "Britain's railways still run a system IBM adapted from Cold War air defence.",
+  "start": {
+    "title": "Barcode",
+    "page": "Barcode",
+    "description": "Optical machine-readable representation of data",
+    "image": "snapshots/images/Barcode.webp"
+  },
+  "end": {
+    "title": "TOPS",
+    "page": "TOPS",
+    "description": "Railway rolling stock management system",
+    "image": "snapshots/images/TOPS.webp"
+  },
+  "knots": [
+    {
+      "page": "Barcode",
+      "url": "https://en.wikipedia.org/wiki/Barcode",
+      "revision": 1380759810,
+      "section": "lead",
+      "passage": "An early use of one type of barcode in an industrial context was sponsored by the Association of American Railroads in the late 1960s. Developed by General Telephone and Electronics (GTE) and called KarTrak ACI (Automatic Car Identification), this scheme involved placing colored stripes in various combinations on steel plates which were affixed to the sides of railroad rolling stock.",
+      "hatnote": "Before barcodes reached the supermarket, America tried them on something much bigger.",
+      "onwardLinkText": "KarTrak ACI",
+      "nextPage": "KarTrak"
+    },
+    {
+      "page": "KarTrak",
+      "url": "https://en.wikipedia.org/wiki/KarTrak",
+      "revision": 1371884767,
+      "section": "Implementation",
+      "passage": "By 1975, 90% of all railcars were labeled. The read rate was about 80%, which means that after seven years of service, 10% of the labels had failed for reasons such as physical damage and dirt accumulation. The dirt accumulation was most evident on flatcars that had low-mounted labels.",
+      "hatnote": "Every freight car in North America had to carry the stripes. Then reality set in.",
+      "onwardLinkText": null,
+      "nextPage": "KarTrak"
+    },
+    {
+      "page": "KarTrak",
+      "url": "https://en.wikipedia.org/wiki/KarTrak",
+      "revision": 1371884767,
+      "section": "Demise",
+      "passage": "The maintenance program never gained sufficient compliance. Without maintenance, the read rate failed to improve, and the KarTrak system was abandoned by 1977.",
+      "hatnote": "The labels needed regular inspection and repair. The railroads didn't keep it up.",
+      "onwardLinkText": null,
+      "nextPage": "KarTrak"
+    },
+    {
+      "page": "KarTrak",
+      "url": "https://en.wikipedia.org/wiki/KarTrak",
+      "revision": 1371884767,
+      "section": "Legacy",
+      "passage": "In 1984, Computer Identics Corporation, Collins' company following his departure from GTE Sylvania, sued Southern Pacific Transportation, along with three other companies, alleging they had acted in a conspiracy to intentionally undermine KarTrak in favor of a system Southern Pacific had been working on called TOPS. The lawsuit was ultimately unsuccessful, with the jury finding no evidence of a conspiracy, which was then upheld on appeal.",
+      "hatnote": "KarTrak's inventor, David Collins, smelled a rat.",
+      "onwardLinkText": "TOPS",
+      "nextPage": "TOPS"
+    },
+    {
+      "page": "TOPS",
+      "url": "https://en.wikipedia.org/wiki/TOPS",
+      "revision": 1341350233,
+      "section": "Early development",
+      "passage": "During the late 1950s, SP entered into discussions with the American technology company IBM about implementing its technology for rail management purposes. IBM repurposed much of their work on the US Air Force's SAGE project, designed to direct interceptor aircraft against approaching Soviet nuclear bombers, to instead serve the needs of the Southern Pacific.",
+      "hatnote": "So where did the rival system come from?",
+      "onwardLinkText": null,
+      "nextPage": "TOPS"
+    },
+    {
+      "page": "TOPS",
+      "url": "https://en.wikipedia.org/wiki/TOPS",
+      "revision": 1341350233,
+      "section": "lead",
+      "passage": "During 1971, the country's nationalised rail operation, British Rail (BR), opted to procure and integrate TOPS into its operations. The acquisition of an existing system rather than develop an indigenous programme was reasoned to be both cheaper and quicker to implement; it was noted, however, that TOPS was not capable of performing all desired functions. Since its implementation during the mid 1970s, both BR and its successors have continued to operate the system.",
+      "hatnote": "And it had a long second life across the Atlantic.",
+      "onwardLinkText": null,
+      "nextPage": "TOPS"
+    }
+  ],
+  "payoff": "The barcode's first big job died of dirt; its rival, rebuilt from Cold War air-defence code, still runs Britain's railways.",
+  "caveats": [
+    "A jury found no conspiracy against KarTrak; the hole does not suggest otherwise.",
+    "The TOPS page says Southern Pacific itself replaced TOPS in 1980; it is Britain that kept it."
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "clay-champlain-sea",
+  "claim": "Some Canadian ground can turn to liquid without warning. Blame a vanished sea.",
+  "start": {
+    "title": "Clay",
+    "page": "Clay",
+    "description": "Fine grained natural soil",
+    "image": "snapshots/images/Clay.webp"
+  },
+  "end": {
+    "title": "Champlain Sea",
+    "page": "Champlain Sea",
+    "description": "Post glacial seaway in eastern North America",
+    "image": "snapshots/images/Champlain-Sea.webp"
+  },
+  "knots": [
+    {
+      "page": "Clay",
+      "url": "https://en.wikipedia.org/wiki/Clay",
+      "revision": 1376338740,
+      "section": "Varieties",
+      "passage": "Quick clay is a unique type of marine clay indigenous to the glaciated terrains of Norway, North America, Northern Ireland, and Sweden. It is a highly sensitive clay, prone to liquefaction, and has been involved in several deadly landslides.",
+      "hatnote": "Most clay is sticky and stable. One kind is neither.",
+      "onwardLinkText": "Quick clay",
+      "nextPage": "Quick clay"
+    },
+    {
+      "page": "Quick clay",
+      "url": "https://en.wikipedia.org/wiki/Quick_clay",
+      "revision": 1374142446,
+      "section": "lead",
+      "passage": "The clay is so unstable that when a mass of quick clay is subjected to sufficient stress, the material behavior may drastically change from that of a particulate material to that of a watery fluid. Landslides occur because of the sudden soil liquefaction caused by external solicitations such as vibrations induced by an earthquake, or massive rainfalls.",
+      "hatnote": "Under enough stress, it stops being ground at all.",
+      "onwardLinkText": null,
+      "nextPage": "Quick clay"
+    },
+    {
+      "page": "Quick clay",
+      "url": "https://en.wikipedia.org/wiki/Quick_clay",
+      "revision": 1374142446,
+      "section": "Formation of quick clay",
+      "passage": "At the height of the past glaciation (about 20,000 years ago), the land was 'pushed' down by the weight of the ice (isostatic depression). All of the ground-up rock was deposited in the surrounding ocean, which had penetrated significantly inland. The loose deposition of the silt and clay particles in the marine environment, allowed an unusual flocculation to take place. Essentially, this formed a strongly bonded soil skeleton, which was 'glued' by highly mobile sea-salt ions.",
+      "hatnote": "The trouble began at the end of the ice age.",
+      "onwardLinkText": null,
+      "nextPage": "Quick clay"
+    },
+    {
+      "page": "Quick clay",
+      "url": "https://en.wikipedia.org/wiki/Quick_clay",
+      "revision": 1374142446,
+      "section": "Formation of quick clay",
+      "passage": "When the glaciers retreated, the land mass rose (post-glacial rebound), the clay was exposed, and formed the soil mass for new vegetation. The rainwater in these northern countries was quite aggressive to these clays, perhaps because it was softer (containing less calcium), or the higher silt content allowed more rainwater and snowmelt to penetrate. The final result was that the ionic 'glue' of the clay was weakened, to give a weak, loose soil skeleton, enclosing significant amounts of water (high sensitivity with high moisture content).",
+      "hatnote": "Then the land rose and the rain got to work.",
+      "onwardLinkText": null,
+      "nextPage": "Quick clay"
+    },
+    {
+      "page": "Quick clay",
+      "url": "https://en.wikipedia.org/wiki/Quick_clay",
+      "revision": 1374142446,
+      "section": "Main deposits",
+      "passage": "Quick clay is found only in countries close to the North Pole, such as Russia, Canada, Norway, Sweden, Finland, and the United States (in Alaska), since they were glaciated during the Pleistocene epoch. In Canada, the clay is associated primarily with the Pleistocene-era Champlain Sea, in the modern Ottawa Valley, the St. Lawrence Valley, and the Saguenay River regions.",
+      "hatnote": "So where is this ticking ground?",
+      "onwardLinkText": "Champlain Sea",
+      "nextPage": "Champlain Sea"
+    },
+    {
+      "page": "Champlain Sea",
+      "url": "https://en.wikipedia.org/wiki/Champlain_Sea",
+      "revision": 1355354615,
+      "section": "Geological evidence",
+      "passage": "The best evidence of this former sea is the vast clay plain deposited along the Ottawa and St. Lawrence Rivers. This resulted in distinctive forest types, and large wetlands. Other modern evidence of the sea can be seen in the form of fossils of whales (belugas, fin whales, and bowhead whales), walruses and other pinnipeds, and marine shells that have been found near the cities of Ottawa, Ontario, and Montreal, Quebec. There are also fossils of oceanic fish such as capelin. The Sea also left ancient raised shorelines in the former coastal regions, and the Leda clay deposits in areas of deeper water.",
+      "hatnote": "The sea is long gone, but it left its ghosts behind.",
+      "onwardLinkText": null,
+      "nextPage": "Champlain Sea"
+    }
+  ],
+  "payoff": "Quick clay is old seabed whose salt 'glue' the rain has rinsed away; whale fossils near Ottawa mark where that sea once lay.",
+  "caveats": []
+}

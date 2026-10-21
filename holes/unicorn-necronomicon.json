@@ -1,0 +1,70 @@
+{
+  "id": "unicorn-necronomicon",
+  "claim": "The scientist who debunked unicorn horns ended up 'translating' a book that never existed.",
+  "start": {
+    "title": "Unicorn",
+    "page": "Unicorn",
+    "description": "Legendary single-horned horse-like creature",
+    "image": "snapshots/images/Unicorn.webp"
+  },
+  "end": {
+    "title": "Necronomicon",
+    "page": "Necronomicon",
+    "description": "Fictional textbook of magic in stories by H. P. Lovecraft",
+    "image": "snapshots/images/Necronomicon.webp"
+  },
+  "knots": [
+    {
+      "page": "Unicorn",
+      "url": "https://en.wikipedia.org/wiki/Unicorn",
+      "revision": 1378821510,
+      "section": "Alicorn",
+      "passage": "False alicorn powder, made from the tusks of narwhals or horns of various animals, was sold in Europe for medicinal purposes as late as 1741. The alicorn was thought to cure many diseases and have the ability to detect poisons, and many physicians would make \"cures\" and sell them.",
+      "hatnote": "For centuries, Europe's chemists sold ground-up 'unicorn horn'.",
+      "onwardLinkText": null,
+      "nextPage": "Unicorn"
+    },
+    {
+      "page": "Unicorn",
+      "url": "https://en.wikipedia.org/wiki/Unicorn",
+      "revision": 1378821510,
+      "section": "Alicorn",
+      "passage": "The horn of a unicorn itself was thought to be made of a substance called alicorn, and it was believed that the horn holds magical and medicinal properties. The Danish physician Ole Worm determined in 1638 that the alleged alicorns were the tusks of narwhals.",
+      "hatnote": "Then a Danish doctor looked closely at the horns.",
+      "onwardLinkText": "Ole Worm",
+      "nextPage": "Ole Worm"
+    },
+    {
+      "page": "Ole Worm",
+      "url": "https://en.wikipedia.org/wiki/Ole_Worm",
+      "revision": 1372846030,
+      "section": "Scientific and cultural significance",
+      "passage": "At the same time, however, he then wondered if the anti-poison properties associated with a unicorn's horn still held true, and undertook experiments in poisoning pets and then serving them ground up narwhal horn (his poisoning must have been relatively mild because he reported that they did recover).",
+      "hatnote": "Even the debunker couldn't quite let go of the magic.",
+      "onwardLinkText": null,
+      "nextPage": "Ole Worm"
+    },
+    {
+      "page": "Ole Worm",
+      "url": "https://en.wikipedia.org/wiki/Ole_Worm",
+      "revision": 1372846030,
+      "section": "In popular culture",
+      "passage": "The early twentieth century horror author H. P. Lovecraft mentions Olaus Wormius as having translated the fictional Al Azif (commonly known as the Necronomicon) from Greek to Latin; however, he dates this translation 1228, four centuries before the historical Wormius's lifetime.",
+      "hatnote": "Three centuries later, a horror writer gave Worm a new job.",
+      "onwardLinkText": "Necronomicon",
+      "nextPage": "Necronomicon"
+    },
+    {
+      "page": "Necronomicon",
+      "url": "https://en.wikipedia.org/wiki/Necronomicon",
+      "revision": 1379715495,
+      "section": "lead",
+      "passage": "Lovecraft approved of other writers building on his work, believing such common allusions built up \"a background of evil verisimilitude\". Many readers have believed it to be a real work, with booksellers and librarians receiving many requests for it; pranksters have listed it in rare book catalogues, and a student smuggled a card for it into the card catalog of the Yale University Library.",
+      "hatnote": "And the forbidden book took on a life of its own.",
+      "onwardLinkText": null,
+      "nextPage": "Necronomicon"
+    }
+  ],
+  "payoff": "Ole Worm proved the unicorn wasn't real; Lovecraft made Worm the translator of a book that wasn't real, and readers went looking for it.",
+  "caveats": []
+}

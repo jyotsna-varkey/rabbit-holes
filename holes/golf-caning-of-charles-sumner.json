@@ -1,0 +1,80 @@
+{
+  "id": "golf-caning-of-charles-sumner",
+  "claim": "The sap of early golf balls also made a cane that beat a senator.",
+  "start": {
+    "title": "Golf",
+    "page": "Golf",
+    "description": "Club-and-ball sport",
+    "image": "snapshots/images/Golf.webp"
+  },
+  "end": {
+    "title": "Caning of Charles Sumner",
+    "page": "Caning of Charles Sumner",
+    "description": "Attack of US Senator by a Representative in 1856",
+    "image": "snapshots/images/Caning-of-Charles-Sumner.webp"
+  },
+  "knots": [
+    {
+      "page": "Golf",
+      "url": "https://en.wikipedia.org/wiki/Golf",
+      "revision": 1376705088,
+      "section": "Equipment",
+      "passage": "Golf balls are spherical, usually white (although other colours are allowed), and minutely pock-marked by dimples that decrease aerodynamic drag by increasing air turbulence around the ball in motion, which delays \"boundary layer\" separation and reduces the drag-inducing \"wake\" behind the ball, thereby allowing the ball to fly farther.",
+      "hatnote": "Today's golf ball owes its long flight to its dimples.",
+      "onwardLinkText": "Golf balls",
+      "nextPage": "Golf ball"
+    },
+    {
+      "page": "Golf ball",
+      "url": "https://en.wikipedia.org/wiki/Golf_ball",
+      "revision": 1379278631,
+      "section": "Guttie",
+      "passage": "In 1848, the Rev. Dr. Robert Adams Paterson (sometimes spelled Patterson) invented the gutta-percha ball (or guttie, gutty). The guttie was made from dried sap of the Malaysian sapodilla tree. The sap had a rubber-like feel and could be made spherical by heating and shaping it in a mold. Because gutties were cheaper to produce, could be re-formed if they became out-of-round or damaged, and had improved aerodynamic qualities, they soon became the preferred ball for use.",
+      "hatnote": "But in 1848 the ball got a strange new material.",
+      "onwardLinkText": "gutta-percha",
+      "nextPage": "Gutta-percha"
+    },
+    {
+      "page": "Gutta-percha",
+      "url": "https://en.wikipedia.org/wiki/Gutta-percha",
+      "revision": 1366786525,
+      "section": "Historic",
+      "passage": "Gutta-percha was particularly important for the manufacture of underwater telegraph cables. Compared to rubber, it does not degrade in seawater, is not damaged by marine life, and maintains good electrical insulation. These properties, along with its mouldability and flexibility made it ideal for the purpose, with no other material to match it in the 19th century. The use in electrical cables generated a huge demand which led to unsustainable harvesting and collapse of supply.",
+      "hatnote": "Gutta-percha was the plastic of the Victorian age.",
+      "onwardLinkText": null,
+      "nextPage": "Gutta-percha"
+    },
+    {
+      "page": "Gutta-percha",
+      "url": "https://en.wikipedia.org/wiki/Gutta-percha",
+      "revision": 1366786525,
+      "section": "Other",
+      "passage": "Gutta-percha was used in canes and walking sticks. In 1856, United States Representative Preston Brooks used a cane made of gutta-percha as a weapon in his attack on Senator Charles Sumner.",
+      "hatnote": "It was tough enough for walking sticks too.",
+      "onwardLinkText": "his attack",
+      "nextPage": "Caning of Charles Sumner"
+    },
+    {
+      "page": "Caning of Charles Sumner",
+      "url": "https://en.wikipedia.org/wiki/Caning_of_Charles_Sumner",
+      "revision": 1376415758,
+      "section": "Day of the attack",
+      "passage": "As Sumner began to stand up, Brooks beat Sumner severely on the head before he could reach his feet, using a thick gutta-percha cane with a gold head. The force of the blows so shocked Sumner that he lost his sight immediately. \"I no longer saw my assailant, nor any other person or object in the room. What I did afterwards was done almost unconsciously, acting under the instincts of self-defense\", he recalled later.",
+      "hatnote": "On 22 May 1856, Brooks walked into the Senate.",
+      "onwardLinkText": null,
+      "nextPage": "Caning of Charles Sumner"
+    },
+    {
+      "page": "Caning of Charles Sumner",
+      "url": "https://en.wikipedia.org/wiki/Caning_of_Charles_Sumner",
+      "revision": 1376415758,
+      "section": "Day of the attack",
+      "passage": "Southern lawmakers made rings out of the other pieces Edmundson recovered from the Senate floor, which they wore on neck chains to show their solidarity with Brooks, who boasted \"[The pieces of my cane] are begged for as sacred relics.\"",
+      "hatnote": "The cane broke in the attack, and an ally of Brooks gathered up the pieces.",
+      "onwardLinkText": null,
+      "nextPage": "Caning of Charles Sumner"
+    }
+  ],
+  "payoff": "The sap that made golf balls fly and insulated undersea cables became a cane, broken over a senator and worn as trophies.",
+  "caveats": []
+}

@@ -1,0 +1,70 @@
+{
+  "id": "camera-becquerel-father",
+  "claim": "The discovery of radioactivity was already sitting in the discoverer's father's book.",
+  "start": {
+    "title": "Camera",
+    "page": "Camera",
+    "description": "Optical device for recording images",
+    "image": "snapshots/images/Camera.webp"
+  },
+  "end": {
+    "title": "Henri Becquerel",
+    "page": "Henri Becquerel",
+    "description": "French physicist (1852–1908)",
+    "image": "snapshots/images/Henri-Becquerel.webp"
+  },
+  "knots": [
+    {
+      "page": "Camera",
+      "url": "https://en.wikipedia.org/wiki/Camera",
+      "revision": 1379783939,
+      "section": "19th century",
+      "passage": "Beginning with the use of the camera obscura and transitioning to complex photographic cameras, the evolution of the technology in the 19th century was driven by pioneers like Thomas Wedgwood, Nicéphore Niépce, and Henry Fox Talbot. First using the camera obscura for chemical experiments, they ultimately created cameras specifically for chemical photography, and later reduced the camera's size and optimized lens configurations.",
+      "hatnote": "The camera began as a chemistry experiment.",
+      "onwardLinkText": "Nicéphore Niépce",
+      "nextPage": "Nicéphore Niépce"
+    },
+    {
+      "page": "Nicéphore Niépce",
+      "url": "https://en.wikipedia.org/wiki/Nic%C3%A9phore_Ni%C3%A9pce",
+      "revision": 1370174298,
+      "section": "Descendants",
+      "passage": "A cousin, Claude Félix Abel Niépce de Saint-Victor (1805–1870), was a chemist and was the first to use albumen in photography. He also produced photographic engravings on steel. During 1857–1861, he discovered that uranium salts emit a form of radiation that is invisible to the human eye.",
+      "hatnote": "Photography's pioneer had a cousin in the family business.",
+      "onwardLinkText": "Claude Félix Abel Niépce de Saint-Victor",
+      "nextPage": "Abel Niépce de Saint-Victor"
+    },
+    {
+      "page": "Abel Niépce de Saint-Victor",
+      "url": "https://en.wikipedia.org/wiki/Abel_Ni%C3%A9pce_de_Saint-Victor",
+      "revision": 1372566659,
+      "section": "Near-discovery of radioactivity",
+      "passage": "In 1857, long before Henri Becquerel's discovery of radioactivity, Saint-Victor observed that, even in complete darkness, certain salts could expose photographic emulsions. He found that uranium salts were responsible for this anomalous phenomenon. Photographers in France, England, and Germany confirmed Niépce's findings regarding uranium.",
+      "hatnote": "He was chasing colour photographs when the plates fogged in the dark.",
+      "onwardLinkText": "Henri Becquerel",
+      "nextPage": "Henri Becquerel"
+    },
+    {
+      "page": "Henri Becquerel",
+      "url": "https://en.wikipedia.org/wiki/Henri_Becquerel",
+      "revision": 1377509069,
+      "section": "Discovery of radioactivity",
+      "passage": "Throughout the first weeks of February, Becquerel layered photographic plates with coins or other objects then wrapped this in thick black paper, placed phosphorescent materials on top, placed these in bright sun light for several hours. The developed plate showed shadows of the objects. Already on 24 February he reported his first results. However, the 26 and 27 February were dark and overcast during the day, so Becquerel left his layered plates in a dark cabinet for these days. He nevertheless proceeded to develop the plates on 1 March and then made his astonishing discovery: the object shadows were just as distinct when left in the dark as when exposed to sunlight.",
+      "hatnote": "Thirty-nine years later, cloudy Paris weather gave Becquerel his famous surprise.",
+      "onwardLinkText": null,
+      "nextPage": "Henri Becquerel"
+    },
+    {
+      "page": "Henri Becquerel",
+      "url": "https://en.wikipedia.org/wiki/Henri_Becquerel",
+      "revision": 1377509069,
+      "section": "Discovery of radioactivity",
+      "passage": "Niepce de Saint-Victor knew Edmond Becquerel, Henri Becquerel's father. In 1868, Edmond Becquerel published a book, La lumière: ses causes et ses effets (Light: Its causes and its effects). On page 50 of volume 2, Edmond noted that Niepce de Saint-Victor had observed that some objects that had been exposed to sunlight could expose photographic plates even in the dark.",
+      "hatnote": "But was it really such a surprise?",
+      "onwardLinkText": null,
+      "nextPage": "Henri Becquerel"
+    }
+  ],
+  "payoff": "The son got the credit; the clue had been sitting on page 50 of his father's book all along.",
+  "caveats": []
+}

@@ -1,0 +1,80 @@
+{
+  "id": "great-pyramid-piazzi-smyth-metric",
+  "claim": "Scotland's Astronomer Royal used the Great Pyramid to fight the metric system.",
+  "start": {
+    "title": "Great Pyramid of Giza",
+    "page": "Great Pyramid of Giza",
+    "description": "Largest pyramid in the Giza Necropolis, Egypt",
+    "image": "snapshots/images/Great-Pyramid-of-Giza.webp"
+  },
+  "end": {
+    "title": "Charles Piazzi Smyth",
+    "page": "Charles Piazzi Smyth",
+    "description": "British astronomer (1819–1900)",
+    "image": "snapshots/images/Charles-Piazzi-Smyth.webp"
+  },
+  "knots": [
+    {
+      "page": "Great Pyramid of Giza",
+      "url": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
+      "revision": 1378503482,
+      "section": "Surveys and design",
+      "passage": "The first precise measurements of the pyramid were made by Egyptologist Flinders Petrie in 1880–1882, published as The Pyramids and Temples of Gizeh. Many of the casing-stones and inner chamber blocks of the Great Pyramid fit together with high precision, with joints, on average, only 0.5 millimetres (0.020 in) wide.",
+      "hatnote": "The pyramid's precision was first measured properly in 1880.",
+      "onwardLinkText": "Flinders Petrie",
+      "nextPage": "Flinders Petrie"
+    },
+    {
+      "page": "Flinders Petrie",
+      "url": "https://en.wikipedia.org/wiki/Flinders_Petrie",
+      "revision": 1373549821,
+      "section": "Giza survey",
+      "passage": "His father had corresponded with Piazzi Smyth about his theories of the Great Pyramid and Petrie travelled to Egypt in early 1880 to make an accurate survey of Giza, making him the first to properly investigate how the pyramids there were constructed; many theories had been advanced on this, and Petrie read them all, but none was based on first hand observation or logic.",
+      "hatnote": "The young surveyor had a family reason for going.",
+      "onwardLinkText": "Piazzi Smyth",
+      "nextPage": "Charles Piazzi Smyth"
+    },
+    {
+      "page": "Charles Piazzi Smyth",
+      "url": "https://en.wikipedia.org/wiki/Charles_Piazzi_Smyth",
+      "revision": 1379534858,
+      "section": "Pyramidological research",
+      "passage": "Smyth corresponded with pyramid theorist John Taylor and was heavily influenced by him. Taylor theorized in his 1859 book The Great Pyramid: Why Was It Built? & Who Built It? that the Great Pyramid was planned and the building supervised by the biblical Noah. Refused a grant by the Royal Society, Smyth went on an expedition to Egypt in order to accurately measure every surface, dimension, and aspect of the Great Pyramid.",
+      "hatnote": "Smyth was a respected astronomer with an unusual obsession.",
+      "onwardLinkText": null,
+      "nextPage": "Charles Piazzi Smyth"
+    },
+    {
+      "page": "Charles Piazzi Smyth",
+      "url": "https://en.wikipedia.org/wiki/Charles_Piazzi_Smyth",
+      "revision": 1379534858,
+      "section": "Pyramidological research",
+      "passage": "Smyth subsequently published his book Our Inheritance in the Great Pyramid in 1864 (which he expanded over the years and is also titled The Great Pyramid: Its Secrets and Mysteries Revealed). Smyth claimed that the measurements he obtained from the Great Pyramid of Giza indicated a unit of length, the pyramid inch, equivalent to 1.001 British inches, that could have been the standard of measurement by the pyramid's architects. From this he extrapolated a number of other measurements, including the pyramid pint, the sacred cubit, and the pyramid scale of temperature.",
+      "hatnote": "He came home with a brand-new unit of length.",
+      "onwardLinkText": null,
+      "nextPage": "Charles Piazzi Smyth"
+    },
+    {
+      "page": "Charles Piazzi Smyth",
+      "url": "https://en.wikipedia.org/wiki/Charles_Piazzi_Smyth",
+      "revision": 1379534858,
+      "section": "Pyramidological research",
+      "passage": "Because the pyramid inch was a divine unit of measurement, Smyth, a committed proponent of British Israelism, used his conclusions as an argument against the introduction of the metric system in Britain. For much of his life he was a vocal opponent of the metric system, which he considered a product of the minds of atheistic French radicals, a position advocated in many of his works.",
+      "hatnote": "And that unit had a political enemy.",
+      "onwardLinkText": null,
+      "nextPage": "Charles Piazzi Smyth"
+    },
+    {
+      "page": "Charles Piazzi Smyth",
+      "url": "https://en.wikipedia.org/wiki/Charles_Piazzi_Smyth",
+      "revision": 1379534858,
+      "section": "Influence of Smyth's pyramid theories",
+      "passage": "The greatest blow to the theory was dealt by the great Egyptogist William Matthew Flinders Petrie, who had initially been a supporter. When Petrie went to Egypt in 1880 to perform new measurements, he found that the pyramid was several feet smaller than previously believed.",
+      "hatnote": "Remember young Petrie? He went to check Smyth's numbers.",
+      "onwardLinkText": null,
+      "nextPage": "Charles Piazzi Smyth"
+    }
+  ],
+  "payoff": "Smyth's 'divine' pyramid inch was meant to keep Britain off the metre; Petrie's tape measure, not French radicals, killed it.",
+  "caveats": []
+}

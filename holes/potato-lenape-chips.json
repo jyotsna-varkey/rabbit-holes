@@ -1,0 +1,70 @@
+{
+  "id": "potato-lenape-chips",
+  "claim": "A popular crisp potato descends from one pulled off the market as toxic.",
+  "start": {
+    "title": "Potato",
+    "page": "Potato",
+    "description": "Starchy tuber used as a staple food",
+    "image": "snapshots/images/Potato.webp"
+  },
+  "end": {
+    "title": "Atlantic potato",
+    "page": "Atlantic potato",
+    "description": "Potato variety",
+    "image": "snapshots/images/Atlantic-potato.webp"
+  },
+  "knots": [
+    {
+      "page": "Potato",
+      "url": "https://en.wikipedia.org/wiki/Potato",
+      "revision": 1378814806,
+      "section": "Toxicity",
+      "passage": "Exposure to light, physical damage, and age increase glycoalkaloid content within the tuber. Different potato varieties contain different levels of glycoalkaloids. The 'Lenape' variety, released in 1967, was withdrawn in 1970 as it contained high levels of glycoalkaloids.",
+      "hatnote": "Potatoes are nightshades, and some carry more natural poison than others.",
+      "onwardLinkText": "Lenape",
+      "nextPage": "Lenape potato"
+    },
+    {
+      "page": "Lenape potato",
+      "url": "https://en.wikipedia.org/wiki/Lenape_potato",
+      "revision": 1353032446,
+      "section": "lead",
+      "passage": "It was bred by Wilford Mills of Pennsylvania State University in collaboration with the Wise Potato Chip Company. The Lenape potato was produced by crossing Delta Gold with a wild Peruvian potato (Solanum chacoense) known for its resistance to insects. It was selected for its high specific gravity (percentage dry matter) and low sugar content which made it ideal for producing potato chips but it was also immune to potato virus A and resistant to common strains of late blight.",
+      "hatnote": "The Lenape looked like a breeder's dream, built for one snack.",
+      "onwardLinkText": null,
+      "nextPage": "Lenape potato"
+    },
+    {
+      "page": "Lenape potato",
+      "url": "https://en.wikipedia.org/wiki/Lenape_potato",
+      "revision": 1353032446,
+      "section": "Glycoalkaloid content",
+      "passage": "After the Lenape variety was released for commercial production, a potato breeder in Ontario ate some to see if they might be suitable as new potatoes but soon felt nauseated. When the same occurred next time he ate them, he sent a sample to be analysed by a vegetable biochemist, Dr. Ambrose Zitnak of the University of Guelph, who found they contained exceptionally high levels of glycoalkaloids (mainly solanine and chaconine), the natural toxins found in potatoes that help protect them from pests and disease.",
+      "hatnote": "Then a potato breeder tried eating some.",
+      "onwardLinkText": null,
+      "nextPage": "Lenape potato"
+    },
+    {
+      "page": "Lenape potato",
+      "url": "https://en.wikipedia.org/wiki/Lenape_potato",
+      "revision": 1353032446,
+      "section": "Use in breeding",
+      "passage": "Lenape was kept for use in breeding and breeders selected for progeny containing high dry matter but rejected those with high glycoalkaloids. Lenape is a parent of chipping varieties including Atlantic, Trent, Belchip and Snowden and a grandparent of several others. A study published in 1998 found that Lenape had the highest dry matter content of chipping varieties released in the USA and concluded that the release of Lenape marked a \"major advance in chipping quality\" and was particularly responsible for a trend of increased dry matter content in newer varieties.",
+      "hatnote": "The toxic potato was banned from sale, but not from the breeding plot.",
+      "onwardLinkText": "Atlantic",
+      "nextPage": "Atlantic potato"
+    },
+    {
+      "page": "Atlantic potato",
+      "url": "https://en.wikipedia.org/wiki/Atlantic_potato",
+      "revision": 1361999679,
+      "section": "lead",
+      "passage": "It is a progeny of a cross between 'Wauseon' and 'Lenape'. It is widely grown for chipping directly off the field or with short-term storage.",
+      "hatnote": "One of its children is Atlantic, released by US government scientists in 1978.",
+      "onwardLinkText": null,
+      "nextPage": "Atlantic potato"
+    }
+  ],
+  "payoff": "The Lenape was too toxic to eat, but its chip-perfect genes live on in Atlantic, a mainstay of the crisp fryer.",
+  "caveats": []
+}

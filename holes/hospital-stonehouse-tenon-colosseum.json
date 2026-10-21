@@ -1,0 +1,80 @@
+{
+  "id": "hospital-stonehouse-tenon-colosseum",
+  "claim": "Paris nearly built a 5,000-bed Colosseum in the Seine. For patients.",
+  "start": {
+    "title": "Hospital",
+    "page": "Hospital",
+    "description": "Health care facility with specialized staff and equipment",
+    "image": "snapshots/images/Hospital.webp"
+  },
+  "end": {
+    "title": "Jacques-René Tenon",
+    "page": "Jacques-René Tenon",
+    "description": "French surgeon (1724–1816)",
+    "image": "snapshots/images/Jacques-Ren-Tenon.webp"
+  },
+  "knots": [
+    {
+      "page": "Hospital",
+      "url": "https://en.wikipedia.org/wiki/Hospital",
+      "revision": 1380625543,
+      "section": "Early modern and Enlightenment Europe",
+      "passage": "The Royal Naval Hospital, Stonehouse, Plymouth, was a pioneer of hospital design in having \"pavilions\" to minimize the spread of infection. John Wesley visited in 1785, and commented \"I never saw anything of the kind so complete; every part is so convenient, and so admirably neat. But there is nothing superfluous, and nothing purely ornamented, either within or without.\"",
+      "hatnote": "A naval hospital in Plymouth broke wards into separate blocks.",
+      "onwardLinkText": "Royal Naval Hospital, Stonehouse",
+      "nextPage": "Royal Naval Hospital, Stonehouse"
+    },
+    {
+      "page": "Royal Naval Hospital, Stonehouse",
+      "url": "https://en.wikipedia.org/wiki/Royal_Naval_Hospital%2C_Stonehouse",
+      "revision": 1365036366,
+      "section": "Design",
+      "passage": "The design of Plymouth's Royal Naval Hospital was highly influential in its time (and has since been called 'revolutionary', 'pioneering' and 'of international importance'). Its pattern of detached wards (arranged so as to maximise ventilation and minimise spread of infection) foreshadowed the 'pavilion' style of hospital building which was popularised by Florence Nightingale a century later. In the eighteenth century Plymouth's new hospital was highly praised by (among others) John Howard, Jacques-René Tenon and Charles-Augustin de Coulomb.",
+      "hatnote": "It drew admirers from abroad, including a physicist.",
+      "onwardLinkText": "Jacques-René Tenon",
+      "nextPage": "Jacques-René Tenon"
+    },
+    {
+      "page": "Jacques-René Tenon",
+      "url": "https://en.wikipedia.org/wiki/Jacques-Ren%C3%A9_Tenon",
+      "revision": 1378653284,
+      "section": "Context",
+      "passage": "In the 18th century, the Hôtel-Dieu was notoriously overcrowded, unsanitary, and susceptible to fire. It was used almost exclusively by destitute patients who had no other options. It had a reputation of being a \"death-trap\" because of its sordid conditions and high death rate. Two serious fires had occurred in 1737 and 1772.",
+      "hatnote": "The French surgeon Tenon had a disaster at home to fix.",
+      "onwardLinkText": null,
+      "nextPage": "Jacques-René Tenon"
+    },
+    {
+      "page": "Jacques-René Tenon",
+      "url": "https://en.wikipedia.org/wiki/Jacques-Ren%C3%A9_Tenon",
+      "revision": 1378653284,
+      "section": "Context",
+      "passage": "In 1785, thirteen years after the 1772 fire, the project of the architect Bernard Poyet (1742–1824) was presented in a memoir entitled \"On the need to transfer and rebuild the Hôtel-Dieu,\" written by Claude Coquéau (1755–1794). Poyet proposed to build a circular hospital on an island on the Seine. Its exterior was to be a replica of the Colosseum in Rome, with over 5,000 beds and an efficient system of air circulation (constant renewal of the air).",
+      "hatnote": "One architect had a very grand solution.",
+      "onwardLinkText": null,
+      "nextPage": "Jacques-René Tenon"
+    },
+    {
+      "page": "Jacques-René Tenon",
+      "url": "https://en.wikipedia.org/wiki/Jacques-Ren%C3%A9_Tenon",
+      "revision": 1378653284,
+      "section": "Context",
+      "passage": "The Baron de Breteuil (1730–1807), acting for Louis XVI, instructed the Royal Academy of Sciences to evaluate the Poyet project. For this purpose, a hospital commission of 9 members was created. Its members included Tenon and other renowned scientist such as Antoine-Laurent de Lavoisier (1743–1794), Charles-Augustin de Coulomb (1736–1806), and Pierre-Simon Laplace (1749–1827).",
+      "hatnote": "The king handed it to a startling panel of judges.",
+      "onwardLinkText": null,
+      "nextPage": "Jacques-René Tenon"
+    },
+    {
+      "page": "Jacques-René Tenon",
+      "url": "https://en.wikipedia.org/wiki/Jacques-Ren%C3%A9_Tenon",
+      "revision": 1378653284,
+      "section": "Context",
+      "passage": "The 1786 report concluded that the situation of the Hôtel-Dieu was irremediable and that the hospital should be moved outside of Paris. It also rejected the Poyet project as excessive and criticized the proposed location as unhealthy. The 1787 report recommended that four smaller hospitals be established in various locations around Paris, while that of 1788 proposes that the pavilion-style of hospital be adopted, with each ward occupying a separate building to reduce disease transmission and to facilitate ventilation.",
+      "hatnote": "After Tenon and Coulomb toured English hospitals, the verdict came.",
+      "onwardLinkText": null,
+      "nextPage": "Jacques-René Tenon"
+    }
+  ],
+  "payoff": "Lavoisier, Laplace and Coulomb helped sink the Seine Colosseum, and Paris was told to build Plymouth-style pavilions instead.",
+  "caveats": []
+}

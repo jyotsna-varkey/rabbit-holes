@@ -1,0 +1,60 @@
+{
+  "id": "tutankhamun-noblecourt-amada-rails",
+  "claim": "An Egyptologist's jab at de Gaulle put an ancient temple on rails.",
+  "start": {
+    "title": "Tutankhamun",
+    "page": "Tutankhamun",
+    "description": "Pharaoh of Egypt 1333-1324 BCE",
+    "image": "snapshots/images/Tutankhamun.webp"
+  },
+  "end": {
+    "title": "Temple of Amada",
+    "page": "Temple of Amada",
+    "description": "UNESCO World Heritage Site in New Amada, Egypt",
+    "image": "snapshots/images/Temple-of-Amada.webp"
+  },
+  "knots": [
+    {
+      "page": "Tutankhamun",
+      "url": "https://en.wikipedia.org/wiki/Tutankhamun",
+      "revision": 1380907534,
+      "section": "International exhibitions",
+      "passage": "Tutankhamun's artifacts have traveled the world with unprecedented visitorship. The exhibitions began in 1962 when Algeria won its independence from France. With the ending of that conflict, the Louvre Museum in Paris was quickly able to arrange an exhibition of Tutankhamun's treasures through Christiane Desroches Noblecourt. The French Egyptologist was already in Egypt as part of a UNESCO appointment. The French exhibit drew 1.2 million visitors.",
+      "hatnote": "Tutankhamun's treasures first toured thanks to the end of a war.",
+      "onwardLinkText": "Christiane Desroches Noblecourt",
+      "nextPage": "Christiane Desroches Noblecourt"
+    },
+    {
+      "page": "Christiane Desroches Noblecourt",
+      "url": "https://en.wikipedia.org/wiki/Christiane_Desroches_Noblecourt",
+      "revision": 1377866356,
+      "section": "Background",
+      "passage": "In 1940, during World War II, she returned to Paris and joined the Resistance, hiding the Louvre's Egyptian treasures in free areas of France. In December 1940, she was arrested at Moulins but was freed after three days.",
+      "hatnote": "The curator behind the show had a wartime past.",
+      "onwardLinkText": null,
+      "nextPage": "Christiane Desroches Noblecourt"
+    },
+    {
+      "page": "Christiane Desroches Noblecourt",
+      "url": "https://en.wikipedia.org/wiki/Christiane_Desroches_Noblecourt",
+      "revision": 1377866356,
+      "section": "UNESCO Campaign to Save the Temples",
+      "passage": "The Temple of Amada was a difficult case, because of its small, beautifully painted reliefs. Desroches Noblecourt announced that France would save it. However, more funds were needed for this project. To this end Desroches Noblecourt requested an interview with Charles de Gaulle, who had no idea of the commitment she had made in the name of her country. Reportedly on learning of it, he demanded, “Madame, how dare you say that France will save the temple, without authorization from my government?” Noblecourt replied, “General, how dare you make an appeal on the radio without authorization from Pétain?” De Gaulle agreed to honour Noblecourt's promise.",
+      "hatnote": "As a dam threatened Nubia's temples, she made France an unauthorised promise.",
+      "onwardLinkText": "Temple of Amada",
+      "nextPage": "Temple of Amada"
+    },
+    {
+      "page": "Temple of Amada",
+      "url": "https://en.wikipedia.org/wiki/Temple_of_Amada",
+      "revision": 1380730277,
+      "section": "Relocation",
+      "passage": "The temple was pushed by double-action jacks which are anchored on the rails and powered by two high pressure hydraulic pumps. After the temple had been moved forward to the maximum travel of the jacks they and the tracks were removed from behind and re-assembled in front. Travelling at a few feet a day it took 16 months to move the temple to its new location 2.6 kilometres (1.6 mi) away, called New Amada, which was on a cliff overlooking the lake.",
+      "hatnote": "The plan: put the whole painted temple on rails and push it uphill.",
+      "onwardLinkText": null,
+      "nextPage": "Temple of Amada"
+    }
+  ],
+  "payoff": "A Resistance veteran's one-line retort to de Gaulle bought the money to slide a pharaoh's temple 2.6 km on rails, a few feet a day.",
+  "caveats": []
+}

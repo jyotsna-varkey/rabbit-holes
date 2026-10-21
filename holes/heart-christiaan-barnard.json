@@ -1,0 +1,80 @@
+{
+  "id": "heart-christiaan-barnard",
+  "claim": "The first human heart transplant owed a debt to a Soviet scientist's two-headed dogs.",
+  "start": {
+    "title": "Heart",
+    "page": "Heart",
+    "description": "Organ found in humans and other animals",
+    "image": "snapshots/images/Heart.webp"
+  },
+  "end": {
+    "title": "Christiaan Barnard",
+    "page": "Christiaan Barnard",
+    "description": "South African cardiac surgeon (1922–2001)",
+    "image": "snapshots/images/Christiaan-Barnard.webp"
+  },
+  "knots": [
+    {
+      "page": "Heart",
+      "url": "https://en.wikipedia.org/wiki/Heart",
+      "revision": 1378398002,
+      "section": "Modern",
+      "passage": "Louis Washkansky, the first recipient of a donated heart, died 18 days after the operation while other patients did not survive for more than a few weeks. The American surgeon Norman Shumway has been credited for his efforts to improve transplantation techniques, along with pioneers Richard Lower, Vladimir Demikhov and Adrian Kantrowitz.",
+      "hatnote": "In 1967 Christiaan Barnard performed the first human-to-human heart transplant.",
+      "onwardLinkText": "Vladimir Demikhov",
+      "nextPage": "Vladimir Demikhov"
+    },
+    {
+      "page": "Vladimir Demikhov",
+      "url": "https://en.wikipedia.org/wiki/Vladimir_Demikhov",
+      "revision": 1379239403,
+      "section": "lead",
+      "passage": "He is also well known for his dog head transplants, which he conducted during the 1950s, resulting in two-headed dogs. This ultimately led to the head transplants in monkeys by Robert White, who was inspired by Demikhov's work.",
+      "hatnote": "One of those pioneers, the Soviet scientist Demikhov, is remembered for something stranger.",
+      "onwardLinkText": null,
+      "nextPage": "Vladimir Demikhov"
+    },
+    {
+      "page": "Vladimir Demikhov",
+      "url": "https://en.wikipedia.org/wiki/Vladimir_Demikhov",
+      "revision": 1379239403,
+      "section": "Early life",
+      "passage": "In 1934, Demikhov began studying at the Voronezh State University, where in 1937 he created the world's first artificial heart and successfully implanted it into a dog (which survived for two hours after the surgery).",
+      "hatnote": "He started young, and in a student lab.",
+      "onwardLinkText": null,
+      "nextPage": "Vladimir Demikhov"
+    },
+    {
+      "page": "Vladimir Demikhov",
+      "url": "https://en.wikipedia.org/wiki/Vladimir_Demikhov",
+      "revision": 1379239403,
+      "section": "Career",
+      "passage": "In February 1954, he transplanted a dog's head onto another dog, using vascular connections to the host dog's heart. Ignoring the condemnation from his critics, he continued with this particular line of experimentation, becoming more successful with time.",
+      "hatnote": "Then came the experiments that made him notorious.",
+      "onwardLinkText": null,
+      "nextPage": "Vladimir Demikhov"
+    },
+    {
+      "page": "Vladimir Demikhov",
+      "url": "https://en.wikipedia.org/wiki/Vladimir_Demikhov",
+      "revision": 1379239403,
+      "section": "Career",
+      "passage": "One admirer of his work was South African cardiac surgeon Christiaan Barnard, who became convinced through studying Demikhov's experiments that human heart transplantation was a real possibility. Barnard twice visited Demikhov's laboratory in Moscow, in 1960 and 1963, and inspired by his observations there, he successfully performed the world's first heart transplant operation from one person to another in 1967. He would later credit Demikhov's earlier experiments for making all this possible, calling him \"[the] father of heart and lung transplantation\".",
+      "hatnote": "Not everyone looked away in horror.",
+      "onwardLinkText": "Christiaan Barnard",
+      "nextPage": "Christiaan Barnard"
+    },
+    {
+      "page": "Christiaan Barnard",
+      "url": "https://en.wikipedia.org/wiki/Christiaan_Barnard",
+      "revision": 1373378869,
+      "section": "Historical context",
+      "passage": "Barnard had experimentally transplanted forty-eight hearts into dogs, which was about a fifth the number that Adrian Kantrowitz had performed at Maimonides Medical Center in New York and about a sixth the number Norman Shumway had performed at Stanford University in California. Barnard had no dogs which had survived longer than ten days, unlike Kantrowitz and Shumway who had had dogs survive for more than a year.",
+      "hatnote": "Yet Barnard was far from the most experienced dog-heart surgeon.",
+      "onwardLinkText": null,
+      "nextPage": "Christiaan Barnard"
+    }
+  ],
+  "payoff": "Barnard won the race with less practice than his rivals, after learning in Moscow from the man whose two-headed dogs shocked the world.",
+  "caveats": []
+}

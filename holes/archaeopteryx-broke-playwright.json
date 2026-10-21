@@ -1,0 +1,70 @@
+{
+  "id": "archaeopteryx-broke-playwright",
+  "claim": "The first feathered dinosaur was found thanks to a playwright's printing debts.",
+  "start": {
+    "title": "Archaeopteryx",
+    "page": "Archaeopteryx",
+    "description": "Extinct genus of bird-like dinosaurs",
+    "image": "snapshots/images/Archaeopteryx.webp"
+  },
+  "end": {
+    "title": "Alois Senefelder",
+    "page": "Alois Senefelder",
+    "description": "German actor, playwright and inventor (1771–1834)",
+    "image": "snapshots/images/Alois-Senefelder.webp"
+  },
+  "knots": [
+    {
+      "page": "Archaeopteryx",
+      "url": "https://en.wikipedia.org/wiki/Archaeopteryx",
+      "revision": 1378563677,
+      "section": "History of discovery",
+      "passage": "Over the years, fourteen body fossil specimens of Archaeopteryx have been found. All of the fossils come from the limestone deposits, quarried for centuries, near Solnhofen, Germany. These quarries excavate sediments from the Solnhofen Limestone formation and related units. The initial specimen was the first dinosaur to be discovered with feathers.",
+      "hatnote": "Every Archaeopteryx ever found comes from one corner of Bavaria.",
+      "onwardLinkText": "Solnhofen Limestone",
+      "nextPage": "Solnhofen Limestone"
+    },
+    {
+      "page": "Solnhofen Limestone",
+      "url": "https://en.wikipedia.org/wiki/Solnhofen_Limestone",
+      "revision": 1376454427,
+      "section": "Paleoenvironment and preservation",
+      "passage": "The fine-grained texture of the mud silt forming the limestone from the Solnhofen area (which is composed mainly of the towns of Solnhofen and Eichstätt) is ideal for making lithographic plates, and extensive quarrying in the 19th century revealed many fossil finds, as commemorated in the name Archaeopteryx lithographica, all the specimens of which come from these deposits.",
+      "hatnote": "Why were people digging up these quarries in the first place?",
+      "onwardLinkText": "lithographic",
+      "nextPage": "Lithography"
+    },
+    {
+      "page": "Lithography",
+      "url": "https://en.wikipedia.org/wiki/Lithography",
+      "revision": 1372341588,
+      "section": "lead",
+      "passage": "The printing is from a stone (lithographic limestone) or a metal plate with a smooth surface. It was invented in 1796 by the German author and actor Alois Senefelder and was initially used mostly for musical scores and maps.",
+      "hatnote": "Lithography is printing from a flat stone, and it had a surprising inventor.",
+      "onwardLinkText": "Alois Senefelder",
+      "nextPage": "Alois Senefelder"
+    },
+    {
+      "page": "Alois Senefelder",
+      "url": "https://en.wikipedia.org/wiki/Alois_Senefelder",
+      "revision": 1378010237,
+      "section": "Actor and playwright",
+      "passage": "The death of his father in 1791 forced him to leave his studies to support his mother and eight siblings, and he became an actor and wrote a successful play Connoisseur of Girls.",
+      "hatnote": "Senefelder never meant to be an inventor.",
+      "onwardLinkText": null,
+      "nextPage": "Alois Senefelder"
+    },
+    {
+      "page": "Alois Senefelder",
+      "url": "https://en.wikipedia.org/wiki/Alois_Senefelder",
+      "revision": 1378010237,
+      "section": "Discovery and development of lithography",
+      "passage": "Problems with the printing of his play Mathilde von Altenstein caused him to fall into debt, and unable to afford to publish a new play he had written, Senefelder experimented with a novel etching technique using a greasy, acid resistant ink as a resist on a smooth fine-grained stone of Solnhofen limestone. He then discovered that this could be extended to allow printing from the flat surface of the stone alone, the first planographic process in printing.",
+      "hatnote": "His second career brought money troubles.",
+      "onwardLinkText": null,
+      "nextPage": "Alois Senefelder"
+    }
+  ],
+  "payoff": "A struggling actor too broke to print his plays found a cheaper way on Solnhofen stone, and the quarrying that followed unearthed Archaeopteryx.",
+  "caveats": []
+}

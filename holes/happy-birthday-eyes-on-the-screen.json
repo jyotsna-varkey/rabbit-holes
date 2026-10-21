@@ -1,0 +1,72 @@
+{
+  "id": "happy-birthday-eyes-on-the-screen",
+  "claim": "'Happy Birthday to You' helped turn a civil-rights classic into contraband.",
+  "start": {
+    "title": "Happy Birthday to You",
+    "page": "Happy Birthday to You",
+    "description": "American birthday song",
+    "image": "snapshots/images/Happy-Birthday-to-You.webp"
+  },
+  "end": {
+    "title": "Eyes on the Screen",
+    "page": "Eyes on the Screen",
+    "description": "2005 documentary film sharing campaign",
+    "image": ""
+  },
+  "knots": [
+    {
+      "page": "Happy Birthday to You",
+      "url": "https://en.wikipedia.org/wiki/Happy_Birthday_to_You",
+      "revision": 1369481119,
+      "section": "History",
+      "passage": "In 1988, Warner/Chappell Music purchased the company owning the copyright for US$25 million, with the value of \"Happy Birthday\" estimated at US$5 million. Warner claimed that the United States copyright would not expire until 2030 and that unauthorized public performances of the song were illegal unless royalties were paid. In February 2010, the royalty for a single use was US$700.",
+      "hatnote": "Everyone sings it, and for decades someone was charging for it.",
+      "onwardLinkText": null,
+      "nextPage": "Happy Birthday to You"
+    },
+    {
+      "page": "Happy Birthday to You",
+      "url": "https://en.wikipedia.org/wiki/Happy_Birthday_to_You",
+      "revision": 1369481119,
+      "section": "Public performances",
+      "passage": "In the 1987 documentary Eyes on the Prize about the U.S. civil rights movement, there was a birthday party scene in which Dr. Martin Luther King Jr.'s discouragement began to lift. After its initial release, the film was unavailable for sale or broadcast for many years because of the cost of clearing many copyrights, of which \"Happy Birthday to You\" was one.",
+      "hatnote": "Even history had to pay.",
+      "onwardLinkText": "Eyes on the Prize",
+      "nextPage": "Eyes on the Prize"
+    },
+    {
+      "page": "Eyes on the Prize",
+      "url": "https://en.wikipedia.org/wiki/Eyes_on_the_Prize",
+      "revision": 1378308739,
+      "section": "Broadcast",
+      "passage": "The licensing issues from 1993 to 2006 generated what was called Eyes on the Screen, an effort to disseminate the series by file sharing networks without regard to copyright restrictions.",
+      "hatnote": "Some people refused to wait for the lawyers.",
+      "onwardLinkText": "Eyes on the Screen",
+      "nextPage": "Eyes on the Screen"
+    },
+    {
+      "page": "Eyes on the Screen",
+      "url": "https://en.wikipedia.org/wiki/Eyes_on_the_Screen",
+      "revision": 1363360377,
+      "section": "lead",
+      "passage": "Operating independently from the series producers, Downhill Battle initiated the \"Eyes on the Screen\" project, along with civil rights activist Lawrence Guyot, in January 2005. They digitized copies of the VHS tapes to encourage the use of file sharing networks such as BitTorrent to distribute the film. They also called for public screening of the film, particularly on February 8, during Black History Month.",
+      "hatnote": "An activist group and a civil rights veteran went digital.",
+      "onwardLinkText": null,
+      "nextPage": "Eyes on the Screen"
+    },
+    {
+      "page": "Eyes on the Screen",
+      "url": "https://en.wikipedia.org/wiki/Eyes_on_the_Screen",
+      "revision": 1363360377,
+      "section": "lead",
+      "passage": "Meanwhile, the Eyes on the Screen campaign had been endorsed by groups such as the Bay Area Veterans of the Civil Rights Movement, who wrote: \"Therefore, in the spirit of the Southern Freedom Movement, we who once defied the laws and customs that denied people of color their human rights and dignity, we whose faces are seen in 'Eyes on the Prize,' we who helped produce it, tonight defy the media giants who have buried our story in their vaults by publicly sharing episodes of this forbidden knowledge with all who wish to see it.\"",
+      "hatnote": "The people in the film backed the piracy.",
+      "onwardLinkText": null,
+      "nextPage": "Eyes on the Screen"
+    }
+  ],
+  "payoff": "A birthday song's royalties helped lock away the story of the civil rights movement, and its veterans answered with civil disobedience by BitTorrent.",
+  "caveats": [
+    "'Happy Birthday to You' was one of many copyrights that had to be cleared, not the sole cause."
+  ]
+}

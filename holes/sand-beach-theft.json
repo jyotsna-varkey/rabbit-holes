@@ -1,0 +1,60 @@
+{
+  "id": "sand-beach-theft",
+  "claim": "Sand is now so valuable that thieves make off with entire beaches.",
+  "start": {
+    "title": "Sand",
+    "page": "Sand",
+    "description": "Granular material composed of finely divided rock and mineral particles",
+    "image": "snapshots/images/Sand.webp"
+  },
+  "end": {
+    "title": "Sand theft",
+    "page": "Sand theft",
+    "description": "Unauthorized or illegal mining of sand",
+    "image": "snapshots/images/Sand-theft.webp"
+  },
+  "knots": [
+    {
+      "page": "Sand",
+      "url": "https://en.wikipedia.org/wiki/Sand",
+      "revision": 1379157511,
+      "section": "Resources and environmental concerns",
+      "passage": "Grains of desert sand are rounded by being blown in the wind, and for this reason do not produce solid concrete, unlike the rough sand from the sea. Because of the growth of population and of cities and the consequent construction activity there is a huge demand for these special kinds of sand, and natural sources are running low. In 2012 French director Denis Delestrac made a documentary called Sand Wars about the impact of the lack of construction sand. It shows the ecological and economic effects of both legal and illegal trade in construction sand.",
+      "hatnote": "Surely the one thing the world won't run out of is sand?",
+      "onwardLinkText": "illegal trade",
+      "nextPage": "Illegal sand trade"
+    },
+    {
+      "page": "Illegal sand trade",
+      "url": "https://en.wikipedia.org/wiki/Illegal_sand_trade",
+      "revision": 1369660495,
+      "section": "Motivations",
+      "passage": "The global construction boom has created a demand for sand, the chief ingredient for making concrete. However, sand mining has been restricted or banned in many places due to environmental concerns. These factors have contributed to the illegal trade of sand, which has become lucrative.",
+      "hatnote": "Where demand outruns the law, a black market follows.",
+      "onwardLinkText": "sand mining",
+      "nextPage": "Sand mining"
+    },
+    {
+      "page": "Sand mining",
+      "url": "https://en.wikipedia.org/wiki/Sand_mining",
+      "revision": 1372629144,
+      "section": "Illegal mining",
+      "passage": "Sand theft or unauthorised or illegal sand mining leads to a relatively unknown global example of natural and non-renewable resource depletion problem comparable in extent to global water scarcity. Beach theft is illegal removal of large quantities of sand from a beach leading to full or partial disappearance of the beach. In India, illegal sand mining is the country's largest organized criminal activity. Sand theft feeds the illegal sand trade, a black market estimated to be worth between $200B and $350B a year. Illegal removal of sand damages river and marine ecosystems.",
+      "hatnote": "Sometimes the thieves don't stop at a riverbank.",
+      "onwardLinkText": "Sand theft",
+      "nextPage": "Sand theft"
+    },
+    {
+      "page": "Sand theft",
+      "url": "https://en.wikipedia.org/wiki/Sand_theft",
+      "revision": 1378298624,
+      "section": "Hungary",
+      "passage": "An incident of beach theft occurred in Hungary in 2007. In this case, multiple tonnes of sand were stolen by thieves from an artificial beach created by a resort in Mindszent alongside the banks of the Tisza river. Approximately 6,000 cubic meters of sand were shipped in and lounge chairs, playground rides, and beach huts were added. Owing to the harsh Hungarian winters, the owners of the resort covered the rides with tarpaulin and closed the resort for the season in September 2007. When one of the owners drove by, they noticed that the beach was gone.",
+      "hatnote": "In Hungary, a riverside resort shut for the winter.",
+      "onwardLinkText": null,
+      "nextPage": "Sand theft"
+    }
+  ],
+  "payoff": "Desert sand is useless for concrete, so the world mines rivers and beaches, and some of those beaches simply vanish.",
+  "caveats": []
+}

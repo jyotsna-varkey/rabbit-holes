@@ -1,0 +1,82 @@
+{
+  "id": "taj-mahal-hope-diamond",
+  "claim": "The gem dealer behind the 'Black Taj' myth got a mythical death himself.",
+  "start": {
+    "title": "Taj Mahal",
+    "page": "Taj Mahal",
+    "description": "Marble mausoleum in Agra, India",
+    "image": "snapshots/images/Taj-Mahal.webp"
+  },
+  "end": {
+    "title": "Hope Diamond",
+    "page": "Hope Diamond",
+    "description": "Historic 45.52-carat diamond of deep-blue color",
+    "image": "snapshots/images/Hope-Diamond.webp"
+  },
+  "knots": [
+    {
+      "page": "Taj Mahal",
+      "url": "https://en.wikipedia.org/wiki/Taj_Mahal",
+      "revision": 1378868244,
+      "section": "Myths",
+      "passage": "A longstanding myth holds that Shah Jahan planned a mausoleum to be built in black marble as a Black Taj Mahal across the Yamuna river. The idea originates from fanciful writings of Jean-Baptiste Tavernier, a European traveler and gem merchant, who visited Agra in 1665. It was suggested that his son Aurangzeb overthrew Shah Jahan before it could be built.",
+      "hatnote": "Guides still tell of a second, black Taj that was never built.",
+      "onwardLinkText": "Jean-Baptiste Tavernier",
+      "nextPage": "Jean-Baptiste Tavernier"
+    },
+    {
+      "page": "Jean-Baptiste Tavernier",
+      "url": "https://en.wikipedia.org/wiki/Jean-Baptiste_Tavernier",
+      "revision": 1373737790,
+      "section": "lead",
+      "passage": "Tavernier is best known for his 1666 purchase of the 116-carat Tavernier Blue diamond that he subsequently sold to Louis XIV in 1668 for 120,000 livres, the equivalent of 172,000 ounces of pure gold, and a letter of ennoblement.",
+      "hatnote": "The storyteller was a gem dealer, and he had one famous stone.",
+      "onwardLinkText": null,
+      "nextPage": "Jean-Baptiste Tavernier"
+    },
+    {
+      "page": "Jean-Baptiste Tavernier",
+      "url": "https://en.wikipedia.org/wiki/Jean-Baptiste_Tavernier",
+      "revision": 1373737790,
+      "section": "Legacy",
+      "passage": "The In Search of... episode \"The Diamond Curse\" repeats a persistent myth that Tavernier was torn apart by wild dogs because of the curse of a blue diamond (subsequently called the Hope Diamond) he had allegedly acquired through deception and murder.",
+      "hatnote": "Then his own story was rewritten.",
+      "onwardLinkText": "Hope Diamond",
+      "nextPage": "Hope Diamond"
+    },
+    {
+      "page": "Hope Diamond",
+      "url": "https://en.wikipedia.org/wiki/Hope_Diamond",
+      "revision": 1373897818,
+      "section": "Superstitions, publicity, marketing",
+      "passage": "In keeping with these scripts, according to the legend, Tavernier did not buy the Hope diamond but stole it from a Hindu temple where it had been set as one of two matching eyes of an idol, and the temple priests then laid a curse on whoever might possess the missing stone. Largely because the other blue diamond \"eye\" never surfaced, historians dismissed the fantastical story.",
+      "hatnote": "The curse needed a crime, so the legend gave him one.",
+      "onwardLinkText": null,
+      "nextPage": "Hope Diamond"
+    },
+    {
+      "page": "Hope Diamond",
+      "url": "https://en.wikipedia.org/wiki/Hope_Diamond",
+      "revision": 1373897818,
+      "section": "Superstitions, publicity, marketing",
+      "passage": "The stories generally do not bear up to more pointed examination; for example, the legend that Tavernier's body was \"torn apart by wolves\" is inconsistent with historical evidence which shows that he lived to 84 and died of natural causes.",
+      "hatnote": "And a grisly death to match.",
+      "onwardLinkText": null,
+      "nextPage": "Hope Diamond"
+    },
+    {
+      "page": "Hope Diamond",
+      "url": "https://en.wikipedia.org/wiki/Hope_Diamond",
+      "revision": 1373897818,
+      "section": "Superstitions, publicity, marketing",
+      "passage": "There was speculation that jeweler Pierre Cartier further embroidered the lurid tales to intrigue Evalyn Walsh McLean into buying the Hope Diamond in 1911.",
+      "hatnote": "So who benefits from a cursed diamond?",
+      "onwardLinkText": null,
+      "nextPage": "Hope Diamond"
+    }
+  ],
+  "payoff": "Tavernier gave the world an imaginary Black Taj; a diamond-curse legend later gave him an imaginary death.",
+  "caveats": [
+    "Cartier's role in embroidering the curse is described as speculation on the Hope Diamond page."
+  ]
+}

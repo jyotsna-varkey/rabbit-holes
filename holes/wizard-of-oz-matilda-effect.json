@@ -1,0 +1,82 @@
+{
+  "id": "wizard-of-oz-matilda-effect",
+  "claim": "Dorothy of Oz was named for the granddaughter of the Matilda effect's Matilda.",
+  "start": {
+    "title": "The Wizard of Oz",
+    "page": "The Wizard of Oz",
+    "description": "1939 film based on L. Frank Baum's book",
+    "image": "snapshots/images/The-Wizard-of-Oz.webp"
+  },
+  "end": {
+    "title": "Matilda effect",
+    "page": "Matilda effect",
+    "description": "Bias against acknowledging the achievements of women scientists",
+    "image": ""
+  },
+  "knots": [
+    {
+      "page": "The Wizard of Oz",
+      "url": "https://en.wikipedia.org/wiki/The_Wizard_of_Oz",
+      "revision": 1378466147,
+      "section": "lead",
+      "passage": "The Wizard of Oz is a 1939 American musical fantasy film produced by Metro-Goldwyn-Mayer. Based on the 1900 novel The Wonderful Wizard of Oz by L. Frank Baum, it was primarily directed by Victor Fleming, who left production to take over the troubled Gone with the Wind.",
+      "hatnote": "Everyone knows the film. Fewer know the family behind the book.",
+      "onwardLinkText": "L. Frank Baum",
+      "nextPage": "L. Frank Baum"
+    },
+    {
+      "page": "L. Frank Baum",
+      "url": "https://en.wikipedia.org/wiki/L._Frank_Baum",
+      "revision": 1375582692,
+      "section": "Theater",
+      "passage": "On November 9, 1882, Baum married Maud Gage, a daughter of Matilda Joslyn Gage, a famous women's suffrage and feminist activist. A local newspaper reported that their ceremony was \"one of equality\" and that their marriage vows were \"precisely the same.\"",
+      "hatnote": "Baum married into a famously radical household.",
+      "onwardLinkText": "Matilda Joslyn Gage",
+      "nextPage": "Matilda Joslyn Gage"
+    },
+    {
+      "page": "Matilda Joslyn Gage",
+      "url": "https://en.wikipedia.org/wiki/Matilda_Joslyn_Gage",
+      "revision": 1379093552,
+      "section": "Family",
+      "passage": "Gage's only son and his wife Sophia had a daughter named Dorothy Louise Gage, who was born in Bloomington, Illinois, on June 11, 1898. The baby's aunt Maud, who had longed for a daughter, doted on her. The infant died in November, only five months old, and the death so upset Maud that she required medical attention. To honor his wife's grief, Baum named the protagonist of his next book Dorothy Gale.",
+      "hatnote": "Sixteen years later, the family suffered a loss.",
+      "onwardLinkText": null,
+      "nextPage": "Matilda Joslyn Gage"
+    },
+    {
+      "page": "Matilda Joslyn Gage",
+      "url": "https://en.wikipedia.org/wiki/Matilda_Joslyn_Gage",
+      "revision": 1379093552,
+      "section": "Women inventors",
+      "passage": "Gage also articulated the barriers to women becoming inventors and receiving patents. Gage argued that society disapproved of women who invent, prompting them to suppress their talents, not seek out mechanical education, and patent their inventions under the names of husbands or other men to avoid ridicule.",
+      "hatnote": "Grandmother Matilda had spent years arguing about who gets credit.",
+      "onwardLinkText": null,
+      "nextPage": "Matilda Joslyn Gage"
+    },
+    {
+      "page": "Matilda Joslyn Gage",
+      "url": "https://en.wikipedia.org/wiki/Matilda_Joslyn_Gage",
+      "revision": 1379093552,
+      "section": "Legacy",
+      "passage": "In 1993, scientific historian Margaret W. Rossiter coined the term Matilda effect after Matilda Gage, to identify the social situation where woman scientists inaccurately receive less credit for their scientific work than an objective examination of their actual effort would reveal.",
+      "hatnote": "A century later, a historian gave the problem her name.",
+      "onwardLinkText": "Matilda effect",
+      "nextPage": "Matilda effect"
+    },
+    {
+      "page": "Matilda effect",
+      "url": "https://en.wikipedia.org/wiki/Matilda_effect",
+      "revision": 1374840007,
+      "section": "lead",
+      "passage": "Rossiter provides several examples of this effect. Trotula (Trota of Salerno), a 12th-century Italian woman physician, wrote books which, after her death, were attributed to male authors. Nineteenth- and twentieth-century cases illustrating the Matilda effect include those of Nettie Stevens, Lise Meitner, Marietta Blau, Rosalind Franklin, and Jocelyn Bell Burnell.",
+      "hatnote": "The list of women it describes is long.",
+      "onwardLinkText": null,
+      "nextPage": "Matilda effect"
+    }
+  ],
+  "payoff": "Dorothy Gale honours a baby whose grandmother named the bias that hid women like Rosalind Franklin and Lise Meitner.",
+  "caveats": [
+    "The article notes this baby is often confused with an older cousin, also named Dorothy Louise Gage."
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "colosseum-ursuline-convent-riots",
+  "claim": "From a beggar in the Colosseum to a convent torched near Boston.",
+  "start": {
+    "title": "Colosseum",
+    "page": "Colosseum",
+    "description": "Ancient Roman amphitheater in Rome",
+    "image": "snapshots/images/Colosseum.webp"
+  },
+  "end": {
+    "title": "Ursuline Convent riots",
+    "page": "Ursuline Convent riots",
+    "description": "Mob violence and destruction of Catholic Convent in Boston",
+    "image": "snapshots/images/Ursuline-Convent-riots.webp"
+  },
+  "knots": [
+    {
+      "page": "Colosseum",
+      "url": "https://en.wikipedia.org/wiki/Colosseum",
+      "revision": 1378181090,
+      "section": "Significance in Christianity",
+      "passage": "Benedict Joseph Labre spent the later years of his life within the walls of the Colosseum, living on alms, before he died in 1783.",
+      "hatnote": "Long after the gladiators, the ruins had at least one resident.",
+      "onwardLinkText": "Benedict Joseph Labre",
+      "nextPage": "Benedict Joseph Labre"
+    },
+    {
+      "page": "Benedict Joseph Labre",
+      "url": "https://en.wikipedia.org/wiki/Benedict_Joseph_Labre",
+      "revision": 1359507729,
+      "section": "lead",
+      "passage": "Labre was from a well-to-do family near Arras, France. After attempting a monastic lifestyle, he opted instead for the life of a pilgrim. He traveled to most of the major shrines of Europe, subsisting by begging. Labre is patron saint of the homeless.",
+      "hatnote": "He was a beggar by choice, and became a saint.",
+      "onwardLinkText": null,
+      "nextPage": "Benedict Joseph Labre"
+    },
+    {
+      "page": "Benedict Joseph Labre",
+      "url": "https://en.wikipedia.org/wiki/Benedict_Joseph_Labre",
+      "revision": 1359507729,
+      "section": "Veneration",
+      "passage": "Labre's confessor, Marconi, wrote his biography and attributed 136 separate cures to his intercession within three months of his death. Those miracles were instrumental in the conversion of the Reverend John Thayer, the first American Protestant clergyman to convert to Catholicism, who was resident in Rome at the time of St. Benedict's death.",
+      "hatnote": "After he died, his confessor credited him with a flood of miracles.",
+      "onwardLinkText": "John Thayer",
+      "nextPage": "John Thayer (priest)"
+    },
+    {
+      "page": "John Thayer (priest)",
+      "url": "https://en.wikipedia.org/wiki/John_Thayer_(priest)",
+      "revision": 1379738186,
+      "section": "lead",
+      "passage": "Thayer was educated at Yale College and was a Protestant in his early life. He was ordained as a Congregationalist minister and served as a chaplain during the American Revolutionary War. While visiting Rome in 1783, he converted to the Roman Catholic faith, an act which caused a sensation in New England at the time.",
+      "hatnote": "The convert was a Boston-born, Yale-educated Revolutionary War chaplain.",
+      "onwardLinkText": null,
+      "nextPage": "John Thayer (priest)"
+    },
+    {
+      "page": "John Thayer (priest)",
+      "url": "https://en.wikipedia.org/wiki/John_Thayer_(priest)",
+      "revision": 1379738186,
+      "section": "lead",
+      "passage": "After his death, his estate was used to found an Ursuline convent on Mount Benedict in Charlestown, Massachusetts. It was founded by the three daughters of the family with whom he lived while in Limerick. The first convent to be established in New England, it was burned down by a nativist crowd in anti-Catholic rioting in 1834.",
+      "hatnote": "His estate outlived him, and paid for something new in New England.",
+      "onwardLinkText": "anti-Catholic rioting",
+      "nextPage": "Ursuline Convent riots"
+    },
+    {
+      "page": "Ursuline Convent riots",
+      "url": "https://en.wikipedia.org/wiki/Ursuline_Convent_riots",
+      "revision": 1360364809,
+      "section": "The first riot: August 11, 1834",
+      "passage": "At about 11:00, a crowd of 50–60 men (as estimated by the Boston Evening Transcript; the Mercantile Journal estimated the crowd as between 150 and 200) set fire to tar barrels on the convent grounds. Several fire companies were called to the scene, but declined to intervene, instead joining a crowd of spectators, which eventually grew to around 2,000 people. No city in the United States at the time had a professional police force.",
+      "hatnote": "August 1834, after rumours of a nun held against her will.",
+      "onwardLinkText": null,
+      "nextPage": "Ursuline Convent riots"
+    },
+    {
+      "page": "Ursuline Convent riots",
+      "url": "https://en.wikipedia.org/wiki/Ursuline_Convent_riots",
+      "revision": 1360364809,
+      "section": "The first riot: August 11, 1834",
+      "passage": "At about midnight, the rioters set fire to the buildings, which burned to the ground within an hour or two, leaving them in ruins. They also desecrated the convent's tomb, in which several sisters were interred.",
+      "hatnote": "Nobody stopped it.",
+      "onwardLinkText": null,
+      "nextPage": "Ursuline Convent riots"
+    }
+  ],
+  "payoff": "A homeless saint's miracles helped convert a Revolutionary War chaplain; his estate founded New England's first convent, which an anti-Catholic mob burned.",
+  "caveats": [
+    "Labre's page says he lived in the Colosseum 'for a time' in his last years; the Colosseum page says he spent his later years there."
+  ]
+}

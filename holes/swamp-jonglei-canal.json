@@ -1,0 +1,80 @@
+{
+  "id": "swamp-jonglei-canal",
+  "claim": "Why is a giant German digging machine rusting in South Sudan?",
+  "start": {
+    "title": "Swamp",
+    "page": "Swamp",
+    "description": "Forested wetland",
+    "image": "snapshots/images/Swamp.webp"
+  },
+  "end": {
+    "title": "Jonglei Canal",
+    "page": "Jonglei Canal",
+    "description": "Uncompleted canal project in South Sudan",
+    "image": "snapshots/images/Jonglei-Canal.webp"
+  },
+  "knots": [
+    {
+      "page": "Swamp",
+      "url": "https://en.wikipedia.org/wiki/Swamp",
+      "revision": 1377457944,
+      "section": "Africa",
+      "passage": "The Sudd and the Okavango Delta are Africa's best known marshland areas.",
+      "hatnote": "Africa's most famous swamp has a name that warns you off.",
+      "onwardLinkText": "Sudd",
+      "nextPage": "Sudd"
+    },
+    {
+      "page": "Sudd",
+      "url": "https://en.wikipedia.org/wiki/Sudd",
+      "revision": 1377609567,
+      "section": "lead",
+      "passage": "The Arabic word sudd is derived from sadd (سد), meaning \"barrier\" or \"obstruction\". The term \"the sudd\" has come to refer to any large solid floating vegetation island or mat.",
+      "hatnote": "It means exactly what it does.",
+      "onwardLinkText": null,
+      "nextPage": "Sudd"
+    },
+    {
+      "page": "Sudd",
+      "url": "https://en.wikipedia.org/wiki/Sudd",
+      "revision": 1377609567,
+      "section": "lead",
+      "passage": "For many centuries the swamp, and especially its thicket of vegetation, proved an impenetrable barrier to navigation along the Nile. The ancient Egyptians failed to penetrate the Sudd and reach the areas south of it. In AD 61, a party of Roman soldiers sent by the Emperor Nero proceeded up the White Nile but were not able to get beyond the Sudd, which marked the limit of Roman penetration into equatorial Africa.",
+      "hatnote": "Even Rome couldn't get through it.",
+      "onwardLinkText": null,
+      "nextPage": "Sudd"
+    },
+    {
+      "page": "Sudd",
+      "url": "https://en.wikipedia.org/wiki/Sudd",
+      "revision": 1377609567,
+      "section": "Location",
+      "passage": "A major feature of the area is the incomplete Jonglei Canal, which was planned to bypass waters from the Sudd to avoid evaporation losses and increase the amount of water discharged at the outlet of the Sudd.",
+      "hatnote": "Downstream, Egypt saw the swamp's evaporation as stolen Nile water.",
+      "onwardLinkText": "Jonglei Canal",
+      "nextPage": "Jonglei Canal"
+    },
+    {
+      "page": "Jonglei Canal",
+      "url": "https://en.wikipedia.org/wiki/Jonglei_Canal",
+      "revision": 1375262323,
+      "section": "Planning and construction",
+      "passage": "The Jonglei canal scheme was first studied by the government of Egypt in 1946 and plans were developed from 1954–1959. Construction work on the canal began in 1978 but the outbreak of political instability in Sudan has held up work for many years. By 1984 when the SPLA brought the works to a halt, 240 km of the canal of a total of 360 km had been excavated.",
+      "hatnote": "Work finally began in 1978, in a country heading for war.",
+      "onwardLinkText": null,
+      "nextPage": "Jonglei Canal"
+    },
+    {
+      "page": "Jonglei Canal",
+      "url": "https://en.wikipedia.org/wiki/Jonglei_Canal",
+      "revision": 1375262323,
+      "section": "Planning and construction",
+      "passage": "The rusting remains of the giant German-built excavation machine nicknamed \"Sarah\" are visible in satellite images near the south end of the canal. It was damaged by a missile.",
+      "hatnote": "The canal's giant digger never left.",
+      "onwardLinkText": null,
+      "nextPage": "Jonglei Canal"
+    }
+  ],
+  "payoff": "The swamp that stopped Nero's soldiers also stopped the twentieth century's diggers, leaving Sarah stranded two-thirds of the way through.",
+  "caveats": []
+}

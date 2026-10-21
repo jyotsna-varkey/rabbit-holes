@@ -1,0 +1,70 @@
+{
+  "id": "computer-mouse-five-pin-bowling",
+  "claim": "A Cold War navy computer was steered with a bowling ball. Blame tired Torontonians.",
+  "start": {
+    "title": "Computer mouse",
+    "page": "Computer mouse",
+    "description": "Pointing device used to control a computer",
+    "image": "snapshots/images/Computer-mouse.webp"
+  },
+  "end": {
+    "title": "Five-pin bowling",
+    "page": "Five-pin bowling",
+    "description": "Form of bowling",
+    "image": "snapshots/images/Five-pin-bowling.webp"
+  },
+  "knots": [
+    {
+      "page": "Computer mouse",
+      "url": "https://en.wikipedia.org/wiki/Computer_mouse",
+      "revision": 1379467431,
+      "section": "Stationary trackballs",
+      "passage": "Another early trackball was built by Kenyon Taylor, a British electrical engineer working in collaboration with Tom Cranston and Fred Longstaff. Taylor was part of the original Ferranti Canada, working on the Royal Canadian Navy's DATAR (Digital Automated Tracking and Resolving) system in 1952.",
+      "hatnote": "Before the mouse came the trackball. One early version was built for Canada's navy.",
+      "onwardLinkText": "DATAR",
+      "nextPage": "DATAR"
+    },
+    {
+      "page": "DATAR",
+      "url": "https://en.wikipedia.org/wiki/DATAR",
+      "revision": 1353156876,
+      "section": "\"Battleships\" on Lake Ontario",
+      "passage": "The system was first tested in late 1953 on Lake Ontario. A simulated convoy was set up, consisting of a shore station on the Scarborough Bluffs and two Bangor-class minesweepers, HMCS Digby and HMCS Granby. DATAR performed well, everyone being sent proper displays of the radar and simulated sonar \"blips\".",
+      "hatnote": "DATAR shared radar pictures between ships, decades ahead of its time.",
+      "onwardLinkText": null,
+      "nextPage": "DATAR"
+    },
+    {
+      "page": "DATAR",
+      "url": "https://en.wikipedia.org/wiki/DATAR",
+      "revision": 1353156876,
+      "section": "\"Battleships\" on Lake Ontario",
+      "passage": "In order to lower the overall cost, the Navy wanted to spread the development costs across a larger production line, and invited representatives of the Royal Navy and US Navy to view the system. They proved to be equally impressed; one US officer was too impressed and looked under the display console, believing the display was being faked.",
+      "hatnote": "It worked so well that visitors smelled a trick.",
+      "onwardLinkText": null,
+      "nextPage": "DATAR"
+    },
+    {
+      "page": "DATAR",
+      "url": "https://en.wikipedia.org/wiki/DATAR",
+      "revision": 1353156876,
+      "section": "The DATAR prototype",
+      "passage": "In a production setting, only one ship in a task force would carry the DATAR computer. The rest of the ships had computer terminals that allowed the operators to use a trackball based on a Canadian five-pin bowling ball and trigger to send position info over the PCM links to the DATAR.",
+      "hatnote": "And what did operators roll to point at the enemy?",
+      "onwardLinkText": "five-pin bowling",
+      "nextPage": "Five-pin bowling"
+    },
+    {
+      "page": "Five-pin bowling",
+      "url": "https://en.wikipedia.org/wiki/Five-pin_bowling",
+      "revision": 1379907624,
+      "section": "lead",
+      "passage": "Five-pin bowling is a bowling variant which is played in Canada, where many bowling alleys offer it, either alone or in combination with ten-pin bowling. It was devised around 1909 by Thomas F. Ryan in Toronto, Ontario, at his Toronto Bowling Club, in response to customers who complained that the ten-pin game was too strenuous. He cut five tenpins down to about 75% of their size, and used hand-sized hard rubber balls, thus inventing the original version of five-pin bowling.",
+      "hatnote": "Why was there a hand-sized bowling ball lying around Canada?",
+      "onwardLinkText": null,
+      "nextPage": "Five-pin bowling"
+    }
+  ],
+  "payoff": "The navy's pioneering trackball rolled on a five-pin ball, from a game invented because Toronto bowlers found ten-pin too strenuous.",
+  "caveats": []
+}

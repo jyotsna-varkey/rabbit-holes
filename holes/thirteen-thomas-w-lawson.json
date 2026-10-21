@@ -1,0 +1,70 @@
+{
+  "id": "thirteen-thomas-w-lawson",
+  "claim": "The author of 'Friday, the Thirteenth' lost his giant ship on one, by Boston time.",
+  "start": {
+    "title": "13 (number)",
+    "page": "13 (number)",
+    "description": "Natural number",
+    "image": ""
+  },
+  "end": {
+    "title": "Thomas W. Lawson (ship)",
+    "page": "Thomas W. Lawson (ship)",
+    "description": "American coal and oil transport ship (1902-07)",
+    "image": "snapshots/images/Thomas-W-Lawson-ship.webp"
+  },
+  "knots": [
+    {
+      "page": "13 (number)",
+      "url": "https://en.wikipedia.org/wiki/13_(number)",
+      "revision": 1378662549,
+      "section": "Bad",
+      "passage": "Fear of the number 13 has a specifically recognized phobia, triskaidekaphobia, a word first recorded in 1911. The superstitious sufferers of triskaidekaphobia try to avoid bad luck by keeping away from anything numbered or labelled thirteen. As a result, companies and manufacturers use another way of numbering or labelling to avoid the number, with hotels and tall buildings being conspicuous examples (thirteenth floor). It is also considered unlucky to have thirteen guests at a table. Friday the 13th has been considered an unlucky day.",
+      "hatnote": "Thirteen is feared in many ways, but one date stands out.",
+      "onwardLinkText": "Friday the 13th",
+      "nextPage": "Friday the 13th"
+    },
+    {
+      "page": "Friday the 13th",
+      "url": "https://en.wikipedia.org/wiki/Friday_the_13th",
+      "revision": 1364905634,
+      "section": "In conjunction with Friday",
+      "passage": "While there is evidence of both Friday and the number 13 being considered unlucky, there is no record of the two items being referred to as especially unlucky in conjunction before the 19th century.",
+      "hatnote": "The date's bad name is younger than you might think.",
+      "onwardLinkText": null,
+      "nextPage": "Friday the 13th"
+    },
+    {
+      "page": "Friday the 13th",
+      "url": "https://en.wikipedia.org/wiki/Friday_the_13th",
+      "revision": 1364905634,
+      "section": "Dissemination",
+      "passage": "It is possible that the publication in 1907 of T. W. Lawson's popular novel Friday, the Thirteenth, contributed to popularizing the superstition. In the novel, an unscrupulous broker takes advantage of the superstition to create a Wall Street panic on a Friday the 13th.",
+      "hatnote": "One bestseller may have helped spread it.",
+      "onwardLinkText": "T. W. Lawson",
+      "nextPage": "Thomas W. Lawson (businessman)"
+    },
+    {
+      "page": "Thomas W. Lawson (businessman)",
+      "url": "https://en.wikipedia.org/wiki/Thomas_W._Lawson_(businessman)",
+      "revision": 1370122002,
+      "section": "Legacy and honors",
+      "passage": "The Thomas W. Lawson, the only seven-masted schooner ever built, was named after him. Lawson, who was intensely superstitious, wrote the novel Friday the Thirteenth in which a broker picks that day on which to bring down Wall Street; the Thomas W. Lawson, in which he had invested heavily, was wrecked off the Isles of Scilly at 2:30 am GMT on Saturday December 14, 1907, but to Lawson, at home in Boston, it was at that time still Friday the 13th.",
+      "hatnote": "Its author was a Boston businessman, and a very superstitious one.",
+      "onwardLinkText": "Thomas W. Lawson",
+      "nextPage": "Thomas W. Lawson (ship)"
+    },
+    {
+      "page": "Thomas W. Lawson (ship)",
+      "url": "https://en.wikipedia.org/wiki/Thomas_W._Lawson_(ship)",
+      "revision": 1372404902,
+      "section": "lead",
+      "passage": "Thomas W. Lawson was destroyed off the uninhabited island of Annet, in the Isles of Scilly, in a storm on 14 December 1907, killing all but two of her eighteen crew and a harbor pilot already aboard. Her cargo of 58,000 barrels of light paraffin oil caused perhaps the first large marine oil spill.",
+      "hatnote": "The wreck left a darker legacy than a superstition.",
+      "onwardLinkText": null,
+      "nextPage": "Thomas W. Lawson (ship)"
+    }
+  ],
+  "payoff": "His novel may have popularised Friday the 13th; that same year his ship sank on one, Boston time, and spilled its oil.",
+  "caveats": []
+}

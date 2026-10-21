@@ -5,7 +5,7 @@ import { enterTopHole } from './helpers';
 test('readers who never sign in make no requests to the sign-in service', async ({ page }) => {
   const cloud: string[] = [];
   page.on('request', (r) => { if (/supabase\.co/.test(r.url())) cloud.push(r.url()); });
-  await page.goto('/?hole=coffee-insurance');
+  await page.goto('/?hole=tutankhamun-noblecourt-amada-rails');
   await enterTopHole(page);
   for (const label of ['2 / 4', '3 / 4', '4 / 4', 'Cited']) {
     await page.keyboard.press('ArrowDown');
