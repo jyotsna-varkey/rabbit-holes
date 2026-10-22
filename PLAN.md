@@ -223,12 +223,19 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          that used coffee-insurance now use tutankhamun-noblecourt-amada-rails
          (owner-approved; same checks, new content). Review sheet for the
          owner: HOLES_REVIEW.md, holes-review.csv.
+- [x] 37. Seen holes stay at the back (owner, 2026-10-22): nothing leaves
+         the stack, but a hole swiped left, swiped into or finished goes behind
+         every unseen hole on this device for good, the most recent last. Kept
+         in localStorage rh.back (one timestamp per hole, no cap; older
+         rh.swipes and rh.finished still count). Unseen holes are still
+         shuffled per visit. Tests: order.test.ts (2 new), stack-order.spec.ts
+         "holes swiped left or opened stay at the back…".
 - [ ] 15. Cover the remaining [~] steps with tests: swipe left sends the card
          to the back (8); "Back to the thread" re-centres and blur returns (3);
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
-36 done (not deployed). Owner reviews the 132 holes in holes-review.csv
+36–37 done (not deployed). Owner reviews the 132 holes in holes-review.csv
 (keep / edit / cut); then trim, tighten the image budget, redeploy. Still
 open: 29 (owner sets Supabase URLs), then 15. Open owner decisions are listed
 under "Handover" below.
@@ -397,6 +404,9 @@ under "Handover" below.
   budget (owner's choice). The card transform lives in vite.config.ts and
   needs no Node types (it works on the file text Vite passes in).
 
+- Stack memory (owner, 2026-10-22): per device is enough; left swipes count
+  as seen, same as opening; nothing is ever removed from the stack.
+
 ## Known issues
 - GPT studio hooks are questions, so "[citation needed]" after them reads
   oddly; Ballpoint pen and Bic Cristal cards show the same photo.
@@ -504,3 +514,5 @@ under "Handover" below.
   original four deleted), hole text loads on demand, review sheet written.
   2504 unit + 210 browser tests pass (all 132 holes played end to end).
   Not deployed. Next: owner's keep/edit/cut pass.
+- 2026-10-22: Step 37: swiped-left and opened holes stay at the back for good
+  (per device). 2506 unit + 212 browser tests pass. Not deployed.

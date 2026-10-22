@@ -51,3 +51,15 @@ describe('stackOrder with a saved session order (PLAN step 32)', () => {
     expect([...order].sort()).toEqual([...IDS].sort());
   });
 });
+
+describe('stackOrder: seen holes stay at the back for good (PLAN step 37)', () => {
+  it('puts seen holes last, in the order they went to the back, oldest first', () => {
+    const seen = new Set(['hole-5', 'hole-1', 'hole-9']);
+    const order = stackOrder(IDS, seen, null, seeded(11));
+    expect(order.slice(-3)).toEqual(['hole-5', 'hole-1', 'hole-9']);
+  });
+  it('keeps every hole in the stack, seen or not', () => {
+    const seen = new Set(IDS.slice(0, 20));
+    expect([...stackOrder(IDS, seen, null, seeded(4))].sort()).toEqual([...IDS].sort());
+  });
+});

@@ -3,7 +3,7 @@ import { cardById, cards, loadArticle, loadedHole, loadHole, type Hole } from '.
 import { Home } from './screens/Home';
 import { HoleView } from './screens/HoleView';
 import { Shelf } from './screens/Shelf';
-import { getSessionOrder, openedHoles, setSessionOrder, SHELF_EVENT } from './lib/storage';
+import { getSessionOrder, seenHoles, setSessionOrder, SHELF_EVENT } from './lib/storage';
 import { stackOrder } from './lib/order';
 
 type View =
@@ -16,7 +16,7 @@ type View =
 const initialOrder = () => {
   const order = stackOrder(
     cards.map((h) => h.id),
-    openedHoles(),
+    seenHoles(),
     new URLSearchParams(location.search).get('hole'),
     Math.random,
     getSessionOrder(),

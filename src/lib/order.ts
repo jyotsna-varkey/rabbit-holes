@@ -1,6 +1,7 @@
-// The order of the home stack: shuffled once per visit, holes the reader hasn't
-// opened yet first, then kept for the session so a refresh doesn't reshuffle.
-// A linked hole (?hole=<id>) goes on top.
+// The order of the home stack: holes the reader hasn't seen yet first, shuffled
+// once per visit; then the ones they've seen (swiped either way, or finished),
+// in the order they went to the back. Kept for the session so a refresh
+// doesn't reshuffle. A linked hole (?hole=<id>) goes on top.
 
 /** Fisher–Yates shuffle; returns a new array. */
 export function shuffle<T>(items: readonly T[], random: () => number = Math.random): T[] {
@@ -12,9 +13,10 @@ export function shuffle<T>(items: readonly T[], random: () => number = Math.rand
   return out;
 }
 
+/** `seen`: holes already swiped or finished, in the order they went to the back (oldest first). */
 export function stackOrder(
   ids: readonly string[],
-  opened: ReadonlySet<string>,
+  seen: ReadonlySet<string>,
   first: string | null,
   random: () => number = Math.random,
   saved: readonly string[] | null = null,
@@ -23,8 +25,8 @@ export function stackOrder(
   const rest = ids.filter((id) => !kept.includes(id));
   const order = [
     ...kept,
-    ...shuffle(rest.filter((id) => !opened.has(id)), random),
-    ...shuffle(rest.filter((id) => opened.has(id)), random),
+    ...shuffle(rest.filter((id) => !seen.has(id)), random),
+    ...[...seen].filter((id) => rest.includes(id)),
   ];
   return first && order.includes(first) ? [first, ...order.filter((id) => id !== first)] : order;
 }

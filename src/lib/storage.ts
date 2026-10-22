@@ -53,20 +53,34 @@ export function unkeep(id: string) {
 export const getFinished = () => read<Record<string, string>>('rh.finished', {});
 export function markFinished(id: string) {
   write('rh.finished', { ...getFinished(), [id]: today() });
+  sendToBack(id);
+}
+
+// When each hole last went to the back of the stack on this device: swiped
+// left ("not now"), swiped into, or finished. Kept for good, one entry per hole.
+const BACK_KEY = 'rh.back';
+function sendToBack(id: string) {
+  write(BACK_KEY, { ...read<Record<string, number>>(BACK_KEY, {}), [id]: Date.now() });
 }
 
 export function logSwipe(id: string, dir: 'in' | 'not-now') {
   const log = read<{ id: string; dir: string; at: number }[]>('rh.swipes', []);
   write('rh.swipes', [...log.slice(-199), { id, dir, at: Date.now() }]);
+  sendToBack(id);
 }
 
-/** Holes this reader has opened or finished, so the stack can show new ones first. */
-export function openedHoles() {
-  const swipes = read<{ id: string; dir: string }[]>('rh.swipes', []);
-  return new Set([
-    ...swipes.filter((s) => s.dir === 'in').map((s) => s.id),
-    ...Object.keys(getFinished()),
-  ]);
+/**
+ * Holes this reader has swiped (either way) or finished, in the order they went
+ * to the back, oldest first. Nothing leaves the stack: these go behind every
+ * hole the reader hasn't seen, the most recent last. Swipes from before
+ * rh.back existed still count.
+ */
+export function seenHoles() {
+  const at: Record<string, number> = {};
+  for (const s of read<{ id: string; at: number }[]>('rh.swipes', [])) at[s.id] = Math.max(at[s.id] ?? 0, s.at);
+  for (const [id, day] of Object.entries(getFinished())) at[id] = Math.max(at[id] ?? 0, Date.parse(`${day}T00:00:00`) || 0);
+  Object.assign(at, read<Record<string, number>>(BACK_KEY, {}));
+  return new Set(Object.keys(at).sort((a, b) => at[a] - at[b]));
 }
 
 // The stack order for this visit. Session storage lasts through refreshes but
