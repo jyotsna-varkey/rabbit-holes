@@ -1,6 +1,6 @@
 {
   "id": "mount-everest-albrecht-haushofer",
-  "claim": "Hitler's deputy parachuted into Scotland asking for the first man to fly over Everest.",
+  "claim": "Hitler's deputy flew solo to Scotland to find the first pilot over Everest.",
   "start": {
     "title": "Mount Everest",
     "page": "Mount Everest",
@@ -8,10 +8,10 @@
     "image": "snapshots/images/Mount-Everest.webp"
   },
   "end": {
-    "title": "Albrecht Haushofer",
-    "page": "Albrecht Haushofer",
-    "description": "German geographer and diplomat",
-    "image": "snapshots/images/Albrecht-Haushofer.webp"
+    "title": "Rudolf Hess",
+    "page": "Rudolf Hess",
+    "description": "German Nazi politician (1894–1987)",
+    "image": "snapshots/images/Rudolf-Hess.webp"
   },
   "knots": [
     {
@@ -20,7 +20,7 @@
       "revision": 1380626482,
       "section": "Early attempts",
       "passage": "In 1933, Lady Houston, a British millionaire, funded the Houston Everest Flight of 1933, which saw a formation of two aeroplanes led by the Marquess of Clydesdale fly over the Everest summit.",
-      "hatnote": "Twenty years before anyone stood on top, someone flew over it.",
+      "hatnote": "Twenty years before anyone stood on top, two planes flew over it.",
       "onwardLinkText": "Marquess of Clydesdale",
       "nextPage": "Douglas Douglas-Hamilton, 14th Duke of Hamilton"
     },
@@ -30,7 +30,7 @@
       "revision": 1363323831,
       "section": "Air force career and flight over Everest",
       "passage": "Flying in formation higher than any before; Lord Clydesdale, as he was then known, was chief pilot on the first flight over Mount Everest in 1933, flying a Westland PV-3 biplane. The extremity endured by the crews of these aeroplanes helped demonstrate the need for pressurised cabins in modern aircraft.",
-      "hatnote": "The lead pilot was a young Scottish aristocrat and boxing champion.",
+      "hatnote": "The lead pilot was a young Scottish aristocrat, later the Duke of Hamilton.",
       "onwardLinkText": null,
       "nextPage": "Douglas Douglas-Hamilton, 14th Duke of Hamilton"
     },
@@ -38,46 +38,35 @@
       "page": "Douglas Douglas-Hamilton, 14th Duke of Hamilton",
       "url": "https://en.wikipedia.org/wiki/Douglas_Douglas-Hamilton%2C_14th_Duke_of_Hamilton",
       "revision": 1363323831,
-      "section": "Hess affair",
-      "passage": "Hess eventually decided to go himself on a \"peace mission\" to the United Kingdom. On 10 May 1941 he parachuted into Scotland, landing at 10:34 pm on Floors Farm, near Eaglesham and close to the Duke's home. He was quickly captured, gave his name as \"Alfred Horn\", and claimed to be a friend of the Duke of Hamilton. Hess asked to see the Duke, but was instead taken to a local Home Guard post, then a hospital to address the injuries he sustained during his descent and landing.",
-      "hatnote": "By 1941 he was the Duke of Hamilton, and a very unexpected visitor arrived.",
-      "onwardLinkText": null,
-      "nextPage": "Douglas Douglas-Hamilton, 14th Duke of Hamilton"
+      "section": "lead",
+      "passage": "During World War II, Hamilton was involved in the 1941 aborted peace mission of Rudolf Hess, the Deputy Führer of the Nazi Party. After making a surprise landing in Scotland, Hess demanded to speak to Hamilton whom he believed was an opinion leader favouring peace with Germany.",
+      "hatnote": "Eight years later, the Everest pilot got a very unexpected visitor.",
+      "onwardLinkText": "Rudolf Hess",
+      "nextPage": "Rudolf Hess"
     },
     {
-      "page": "Douglas Douglas-Hamilton, 14th Duke of Hamilton",
-      "url": "https://en.wikipedia.org/wiki/Douglas_Douglas-Hamilton%2C_14th_Duke_of_Hamilton",
-      "revision": 1363323831,
-      "section": "Second World War, Hess Affair and aftermath",
-      "passage": "During this trip, Hamilton met the diplomat Albrecht Haushofer, son of the geopolitical academic Karl Haushofer. The younger Haushofer had studied alongside Deputy Fuhrer Rudolf Hess at the Ludwig-Maximilians-Universität München and was then Hess's advisor on foreign affairs.",
-      "hatnote": "Why him? The thread ran back to the 1936 Berlin Olympics.",
-      "onwardLinkText": "Albrecht Haushofer",
-      "nextPage": "Albrecht Haushofer"
+      "page": "Rudolf Hess",
+      "url": "https://en.wikipedia.org/wiki/Rudolf_Hess",
+      "revision": 1380541798,
+      "section": "Attempted peace mission",
+      "passage": "On 31 August 1940, Hess met Karl Haushofer, who told Hess that he believed that King George VI was opposed to Churchill and would dismiss him and send him to Canada at the first opportunity. Haushofer spoke of his belief that it was possible to make contact with the king via either General Ian Hamilton or the Duke of Hamilton. Hess decided they should contact his fellow aviator the Duke of Hamilton. The two men were not acquainted with each other: Hamilton and Hess were both present at a banquet at the 1936 Summer Olympics, but they sat at different tables and never spoke.",
+      "hatnote": "Why Hamilton? Hess was a keen pilot too, and had a theory.",
+      "onwardLinkText": null,
+      "nextPage": "Rudolf Hess"
     },
     {
-      "page": "Albrecht Haushofer",
-      "url": "https://en.wikipedia.org/wiki/Albrecht_Haushofer",
-      "revision": 1368921877,
-      "section": "Life",
-      "passage": "Later, under the Nuremberg Laws of 1935 (effective from 1936), Albrecht Haushofer was categorized as a Mischling. However, Hess, Deputy Führer since 1933, succeeded in having Haushofer issued a German Blood Certificate.",
-      "hatnote": "Under Nazi race laws, Haushofer had good reason to value Hess.",
+      "page": "Rudolf Hess",
+      "url": "https://en.wikipedia.org/wiki/Rudolf_Hess",
+      "revision": 1380541798,
+      "section": "Flight to Scotland",
+      "passage": "Hess was nearly out of fuel, so he climbed to 6,000 feet (1,800 m) and parachuted out of the plane at 23:06. He injured his foot, either whilst exiting the aircraft or when he hit the ground. The aircraft crashed at 23:09, about 12 miles (19 km) west of Dungavel House, the Duke of Hamilton's home. Hess would have been closer to his destination had he not had trouble exiting the aircraft. Hess's biographers Roger Manvell and Heinrich Fraenkel considered the flight to have been \"the proudest technical achievement of Hess's life.\"",
+      "hatnote": "In May 1941 Hess flew himself to Scotland, alone, to find him.",
       "onwardLinkText": null,
-      "nextPage": "Albrecht Haushofer"
-    },
-    {
-      "page": "Albrecht Haushofer",
-      "url": "https://en.wikipedia.org/wiki/Albrecht_Haushofer",
-      "revision": 1368921877,
-      "section": "Life",
-      "passage": "Haushofer was involved in Hess' attempts to negotiate peace with the French and British, acting as an intermediary. It has been speculated that he may have encouraged Hess's 1941 flight to Scotland, but if so, it was a dangerous move: Hess's departure from Germany and subsequent arrest by the British meant that Haushofer's chief protector was no longer available. Under suspicion to have helped Hess, Haushofer was put in prison for two months and then kept under Gestapo surveillance.",
-      "hatnote": "For the go-between, the flight was a disaster.",
-      "onwardLinkText": null,
-      "nextPage": "Albrecht Haushofer"
+      "nextPage": "Rudolf Hess"
     }
   ],
-  "payoff": "Everest's first pilot became the man Hess asked for in Scotland, and Haushofer, who linked them, lost his protector when Hess flew.",
+  "payoff": "One flight over Everest made Hamilton famous; another pilot's solo dash to find him became the proudest feat of Hess's life.",
   "caveats": [
-    "Haushofer's role in encouraging Hess's flight is described on his page as speculation.",
-    "The Duke of Hamilton's page says Hess and Hamilton had never actually spoken, and that he was cleared of any prior contact."
+    "Both pages say Hess and Hamilton had never spoken; Hamilton was declared in Parliament innocent of any prior contact."
   ]
 }

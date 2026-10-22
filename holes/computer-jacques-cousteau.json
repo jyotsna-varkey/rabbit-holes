@@ -1,6 +1,6 @@
 {
   "id": "computer-jacques-cousteau",
-  "claim": "A car crash is why Jacques Cousteau went underwater.",
+  "claim": "Jacques Cousteau's coins settled the age of the shipwreck holding the first computer.",
   "start": {
     "title": "Computer",
     "page": "Computer",
@@ -20,41 +20,51 @@
       "revision": 1374584850,
       "section": "Pre-20th century",
       "passage": "The Antikythera mechanism is believed to be the earliest known mechanical analog computer, according to Derek J. de Solla Price. It was designed to calculate astronomical positions. It was discovered in 1901 in the Antikythera wreck off the Greek island of Antikythera, between Kythera and Crete, and has been dated to approximately c. 100 BCE. Devices of comparable complexity to the Antikythera mechanism would not reappear until the fourteenth century.",
-      "hatnote": "The oldest known computer came out of a shipwreck.",
+      "hatnote": "The oldest known computer came out of the sea.",
       "onwardLinkText": "Antikythera mechanism",
       "nextPage": "Antikythera mechanism"
     },
     {
       "page": "Antikythera mechanism",
       "url": "https://en.wikipedia.org/wiki/Antikythera_mechanism",
-      "revision": 1377274051,
+      "revision": 1380887152,
       "section": "lead",
-      "passage": "The artefact was among wreckage retrieved from a shipwreck off the coast of the Greek island Antikythera in 1901. In 1902, during a visit to the National Archaeological Museum in Athens, it was noticed by Greek politician Spyridon Stais as containing a gear, prompting the first study of the fragment by his cousin, Valerios Stais, the museum director. The device, housed in the remains of a wooden-framed case of (uncertain) overall size 34 cm × 18 cm × 9 cm (13.4 in × 7.1 in × 3.5 in), was found as one lump, later separated into three main fragments which are now divided into 82 separate fragments after conservation efforts. Four of these fragments contain gears, while inscriptions are found on many others. The largest gear is about 13 cm (5 in) in diameter and originally had 223 teeth. All these fragments of the mechanism are kept at the National Archaeological Museum, along with reconstructions and replicas, to demonstrate how it may have looked and worked.",
-      "hatnote": "It was pulled up in 1901; a year later someone noticed a gear.",
+      "passage": "The artefact was among wreckage retrieved from a shipwreck off the coast of the Greek island Antikythera in 1901. In 1902, during a visit to the National Archaeological Museum in Athens, it was noticed by Greek politician Spyridon Stais as containing a gear, prompting the first study of the fragment by his cousin, Valerios Stais, the museum director.",
+      "hatnote": "Nobody realised what it was until someone spotted a gear.",
       "onwardLinkText": "a shipwreck",
       "nextPage": "Antikythera wreck"
     },
     {
       "page": "Antikythera wreck",
       "url": "https://en.wikipedia.org/wiki/Antikythera_wreck",
-      "revision": 1362587595,
+      "revision": 1379974650,
+      "section": "Discovery",
+      "passage": "Around Easter 1900, Captain Dimitrios Kondos and his crew of sponge divers from Symi sailed through the Aegean en route to fishing grounds off North Africa. They stopped at the Greek island of Antikythera to wait for favorable winds. During the layover, they began diving off the island's coast wearing the standard diving dress of the time – waterproofed canvas suits and copper helmets.",
+      "hatnote": "The wreck itself was found by accident, by sponge fishermen.",
+      "onwardLinkText": null,
+      "nextPage": "Antikythera wreck"
+    },
+    {
+      "page": "Antikythera wreck",
+      "url": "https://en.wikipedia.org/wiki/Antikythera_wreck",
+      "revision": 1379974650,
       "section": "Dating",
-      "passage": "Some scholars speculated that the ship was carrying part of the loot of the Roman General Sulla from Athens in 86 BC, and might have been on its way to Italy. A reference by the Greek writer, Lucian, to one of Sulla's ships sinking in the Antikythera region gave rise to this theory. Supporting an early first-century BC date were domestic utensils and objects from the ship, similar to those known from other first-century BC contexts. The amphorae recovered from the wreck indicated a date of 80–70 BC, the Hellenistic pottery a date of 75–50 BC, and the Roman ceramics were similar to known mid-first century types. Any possible association with Sulla was eliminated, however, when the coins discovered in the 1970s during work by Jacques Cousteau and associates were found to have been minted between 76 and 67 BC. Nevertheless, it is possible that the sunken cargo ship was en route to Rome or elsewhere in Italy with looted treasures to support a triumphal parade. Alternatively, perhaps the cargo was assembled on commission from a wealthy Roman patron.",
-      "hatnote": "Coins from Cousteau's dives pinned down when the ship sank.",
+      "passage": "Some scholars speculated that the ship was carrying part of the loot of the Roman General Sulla from Athens in 86 BC, and might have been on its way to Italy. A reference by the Greek writer, Lucian, to one of Sulla's ships sinking in the Antikythera region gave rise to this theory. Supporting an early first-century BC date were domestic utensils and objects from the ship, similar to those known from other first-century BC contexts. The amphorae recovered from the wreck indicated a date of 80–70 BC, the Hellenistic pottery a date of 75–50 BC, and the Roman ceramics were similar to known mid-first century types. Any possible association with Sulla was eliminated, however, when the coins discovered in the 1970s during work by Jacques Cousteau and associates were found to have been minted between 76 and 67 BC.",
+      "hatnote": "Whose ship was it? Seventy years later, a famous diver helped answer.",
       "onwardLinkText": "Jacques Cousteau",
       "nextPage": "Jacques Cousteau"
     },
     {
       "page": "Jacques Cousteau",
       "url": "https://en.wikipedia.org/wiki/Jacques_Cousteau",
-      "revision": 1377425729,
-      "section": "Early life",
-      "passage": "Cousteau was born on 11 June 1910, in Saint-André-de-Cubzac, Gironde, France, to Daniel Cousteau and Élisabeth Duranthon. He had one brother, Pierre-Antoine. Cousteau completed his preparatory studies at the Collège Stanislas in Paris. In 1930, he entered the École navale and graduated as a gunnery officer. However, an automobile accident, which broke both his arms, cut short his career in naval aviation. The accident forced Cousteau to change his plans to become a naval pilot, so he then indulged his passion for the ocean.",
-      "hatnote": "Before the sea, he wanted to fly.",
+      "revision": 1380192729,
+      "section": "Early 1940s: innovation of modern underwater diving",
+      "passage": "During the 1940s, Cousteau is credited with improving the Aqua-Lung design which gave birth to the open-circuit scuba technology used today. According to his first book, The Silent World: A Story of Undersea Discovery and Adventure (1953), Cousteau started diving with Fernez goggles in 1936, and in 1939 used the self-contained underwater breathing apparatus invented in 1926 by Commander Yves le Prieur. Cousteau was not satisfied with the length of time he could spend underwater with the Le Prieur apparatus so he improved it to extend underwater duration by adding a demand regulator, invented in 1942 by Émile Gagnan. In 1943 Cousteau tried out the first prototype Aqua-Lung which finally made extended underwater exploration possible.",
+      "hatnote": "Cousteau had made his own kind of diving possible.",
       "onwardLinkText": null,
       "nextPage": "Jacques Cousteau"
     }
   ],
-  "payoff": "Broken arms grounded a would-be naval pilot, who later helped date the wreck that held the first computer.",
+  "payoff": "Sponge divers in copper helmets found the first computer; the man who made scuba diving possible came back to date its wreck.",
   "caveats": []
 }

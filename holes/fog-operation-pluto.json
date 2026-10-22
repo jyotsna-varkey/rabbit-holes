@@ -1,6 +1,6 @@
 {
   "id": "fog-operation-pluto",
-  "claim": "To beat fog, wartime Britain lined its runways with fire.",
+  "claim": "To land bombers in fog, wartime Britain set its runways on fire.",
   "start": {
     "title": "Fog",
     "page": "Fog",
@@ -17,10 +17,20 @@
     {
       "page": "Fog",
       "url": "https://en.wikipedia.org/wiki/Fog",
-      "revision": 1373063156,
+      "revision": 1381070701,
+      "section": "Visibility",
+      "passage": "The aviation travel industry is affected by the severity of fog conditions. Even though modern auto-landing computers can put an aircraft down without the aid of a pilot, personnel manning an airport control tower must be able to see if aircraft are sitting on the runway awaiting takeoff. Safe operations are difficult in thick fog, and civilian airports may forbid takeoffs and landings until conditions improve.",
+      "hatnote": "Fog still grounds planes, even with computers that can land them.",
+      "onwardLinkText": null,
+      "nextPage": "Fog"
+    },
+    {
+      "page": "Fog",
+      "url": "https://en.wikipedia.org/wiki/Fog",
+      "revision": 1381070701,
       "section": "Visibility",
       "passage": "A solution for landing returning military aircraft developed in World War II was called Fog Investigation and Dispersal Operation (FIDO). It involved burning enormous amounts of fuel alongside runways to evaporate fog, allowing returning fighter and bomber pilots sufficient visual cues to safely land their aircraft. The high energy demands of this method discourage its use for routine operations.",
-      "hatnote": "Fog is a pilot's oldest enemy.",
+      "hatnote": "In the Second World War, Britain tried a blunter fix: fire.",
       "onwardLinkText": "Fog Investigation and Dispersal Operation",
       "nextPage": "Fog Investigation and Dispersal Operation"
     },
@@ -28,19 +38,9 @@
       "page": "Fog Investigation and Dispersal Operation",
       "url": "https://en.wikipedia.org/wiki/Fog_Investigation_and_Dispersal_Operation",
       "revision": 1334995577,
-      "section": "Procedure for aircrew before introduction",
-      "passage": "Before the introduction of FIDO, fog had been responsible for losses of a number of aircraft returning from operations. Often large areas of the UK would be simultaneously fog-bound and it was recommended procedure in these situations for the pilot to point the aircraft towards the sea and then, while still over land, for the crew to bail-out by parachute, leaving the aircraft to subsequently crash in the sea. With raids often consisting of several hundred aircraft, this could amount to a large loss of bombers.",
-      "hatnote": "Before FIDO, the official advice was grim.",
-      "onwardLinkText": null,
-      "nextPage": "Fog Investigation and Dispersal Operation"
-    },
-    {
-      "page": "Fog Investigation and Dispersal Operation",
-      "url": "https://en.wikipedia.org/wiki/Fog_Investigation_and_Dispersal_Operation",
-      "revision": 1334995577,
       "section": "System",
-      "passage": "When FIDO was needed, the fuel pumps were started to pour flammable liquid into the pipe system and a Jeep with a flaming brand lashed to its rear drove fast down both sides of the runway to ignite the fuel at the outlets in the pipes. The burners were sometimes ignited by men on bicycles or by runners on foot.",
-      "hatnote": "Lighting it was a hands-on job.",
+      "passage": "When FIDO was needed, the fuel pumps were started to pour flammable liquid into the pipe system and a Jeep with a flaming brand lashed to its rear drove fast down both sides of the runway to ignite the fuel at the outlets in the pipes. The burners were sometimes ignited by men on bicycles or by runners on foot. The result was a row of flame along the side of the runway that would warm the air. The heat from the flames evaporated suspended fog droplets so that there would be a clearing in the fog directly over the runway.",
+      "hatnote": "Lighting the runway was a hands-on job.",
       "onwardLinkText": null,
       "nextPage": "Fog Investigation and Dispersal Operation"
     },
@@ -50,7 +50,7 @@
       "revision": 1334995577,
       "section": "lead",
       "passage": "The device was developed by Arthur Hartley for British RAF bomber stations, allowing the landing of aircraft returning from raids over Germany in poor visibility by burning fuel in rows on either side of the runway.",
-      "hatnote": "Behind it was an engineer named Arthur Hartley.",
+      "hatnote": "It was developed by an engineer named Arthur Hartley.",
       "onwardLinkText": "Arthur Hartley",
       "nextPage": "Arthur Hartley"
     },
@@ -59,8 +59,8 @@
       "url": "https://en.wikipedia.org/wiki/Arthur_Hartley",
       "revision": 1370285049,
       "section": "Second World War",
-      "passage": "Hartley also developed the pipes used in Operation Pluto (Pipe Lines Under The Ocean), a series of twenty-one undersea pipes used to transport oil from Britain to continental Europe to support the Liberation of Europe.",
-      "hatnote": "Hartley had an even bigger fuel trick.",
+      "passage": "Hartley also developed the pipes used in Operation Pluto (Pipe Lines Under The Ocean), a series of twenty-one undersea pipes used to transport oil from Britain to continental Europe to support the Liberation of Europe. The system supplied the allied armies with 1 million US gallons (3,800 m) of fuel per day during the advance into Germany, and Hartley received £9000 after the war for his work on Pluto from the Royal Commission on Awards to Inventors.",
+      "hatnote": "Burning fuel was one of his jobs; moving it was a bigger one.",
       "onwardLinkText": "Operation Pluto",
       "nextPage": "Operation Pluto"
     },
@@ -70,7 +70,7 @@
       "revision": 1364681052,
       "section": "Pumping stations",
       "passage": "One was established at Sandown on the Isle of Wight, and another at Dungeness on the Kent coast. Construction was carried out at night and in secret, and equipment was carried in under tarpaulins. The pumping stations and storage tanks were camouflaged to look like villas, seaside cottages, old forts, amusement parks and other innocuous features.",
-      "hatnote": "The pipelines needed secret pumping stations on the coast.",
+      "hatnote": "The pipelines needed pumping stations on the English coast, kept secret.",
       "onwardLinkText": null,
       "nextPage": "Operation Pluto"
     },
@@ -85,7 +85,7 @@
       "nextPage": "Operation Pluto"
     }
   ],
-  "payoff": "The engineer who burned fog off runways also piped fuel under the Channel, from pumping stations so well disguised one is now mini golf.",
+  "payoff": "The engineer who burned fuel to clear fog also piped it under the Channel, from pumps disguised so well one is now mini golf.",
   "caveats": [
     "FIDO's invention is formally credited to J. D. Main-Smith; Arthur Hartley's page credits Hartley with developing it."
   ]

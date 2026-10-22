@@ -17,10 +17,20 @@
     {
       "page": "King Kong (1933 film)",
       "url": "https://en.wikipedia.org/wiki/King_Kong_(1933_film)",
-      "revision": 1378971749,
+      "revision": 1380493494,
+      "section": "Special effects",
+      "passage": "Cooper, wishing to create a point of authenticity, insisted that Kong not be played by an actor in a gorilla suit. Over the years, some media reports have alleged that in certain scenes Kong was played by an actor wearing a gorilla suit. However, film historians have generally agreed that all scenes involving Kong were achieved with animated models. These models were about 14 to 18 inches (36 to 46 cm) in height. They were made of metal armatures padded with cotton, latex, and rabbit fur.",
+      "hatnote": "The giant ape that terrified 1933 audiences was not as big as he looked.",
+      "onwardLinkText": null,
+      "nextPage": "King Kong (1933 film)"
+    },
+    {
+      "page": "King Kong (1933 film)",
+      "url": "https://en.wikipedia.org/wiki/King_Kong_(1933_film)",
+      "revision": 1380493494,
       "section": "Legacy",
       "passage": "Author Daniel Loxton suggested that King Kong inspired the modern day legend of the Loch Ness Monster.",
-      "hatnote": "King Kong's legacy reaches somewhere unexpected: a Scottish lake.",
+      "hatnote": "The film's monsters may have escaped into real life.",
       "onwardLinkText": "Loch Ness Monster",
       "nextPage": "Loch Ness Monster"
     },
@@ -29,8 +39,8 @@
       "url": "https://en.wikipedia.org/wiki/Loch_Ness_Monster",
       "revision": 1377442377,
       "section": "George Spicer (1933)",
-      "passage": "Though he was the first to describe the creature as a plesiosaur-like dinosaur, evidence suggested by researchers at Columbia University in 2013 proved his story to be fake. The university and Daniel Loxton suggested that Spicer's sighting was fictionalized and inspired by a long-necked dinosaur that rises out of a lake in King Kong, a film that was extremely popular in cinemas in his home city of London during August 1933, when Spicer reported the sighting.",
-      "hatnote": "July 1933: George Spicer reported a dinosaur-like beast crossing a road by the loch.",
+      "passage": "Modern interest in the monster was sparked by a sighting on 22 July 1933, when George Spicer and his wife saw \"a most extraordinary form of animal\" cross the road in front of their car. They described the creature as having a large body (about 4 feet (1.2 m) high and 25 feet (7.6 m) long) and a long, wavy, narrow neck, slightly thicker than an elephant's trunk and as long as the 10–12-foot (3–4 m) width of the road.",
+      "hatnote": "In July 1933, a London man reported something by the loch.",
       "onwardLinkText": null,
       "nextPage": "Loch Ness Monster"
     },
@@ -38,9 +48,9 @@
       "page": "Loch Ness Monster",
       "url": "https://en.wikipedia.org/wiki/Loch_Ness_Monster",
       "revision": 1377442377,
-      "section": "\"Surgeon's photograph\" (1934)",
-      "passage": "The toy submarine was bought from F. W. Woolworth, and its head and neck were made from wood putty. After testing it in a local pond the group went to Loch Ness, where Ian Marmaduke Wetherell took the photos near the Altsaigh Tea House. When they heard a water bailiff approaching, Wetherell sank the model with his foot and it is \"presumably still somewhere in Loch Ness\".",
-      "hatnote": "In 1934 came Nessie's most famous photo. It showed a toy.",
+      "section": "George Spicer (1933)",
+      "passage": "Though he was the first to describe the creature as a plesiosaur-like dinosaur, evidence suggested by researchers at Columbia University in 2013 proved his story to be fake. The university and Daniel Loxton suggested that Spicer's sighting was fictionalized and inspired by a long-necked dinosaur that rises out of a lake in King Kong, a film that was extremely popular in cinemas in his home city of London during August 1933, when Spicer reported the sighting.",
+      "hatnote": "His beast looked rather like one from a film then showing in London.",
       "onwardLinkText": null,
       "nextPage": "Loch Ness Monster"
     },
@@ -50,7 +60,7 @@
       "revision": 1377442377,
       "section": "\"Surgeon's photograph\" (1934)",
       "passage": "The creature was reportedly a toy submarine built by Christian Spurling, the stepson of actor, screenwriter, director, producer, and -- perhaps most saliently -- big-game hunter M. A. Wetherell. Spurling admitted the photograph was a hoax in January 1991. Wetherell had been publicly ridiculed by his employer, the Daily Mail, after he found \"Nessie footprints\" that turned out to be a hoax.",
-      "hatnote": "Who would fake a monster, and why?",
+      "hatnote": "Nessie's most famous photo, in 1934, was a model too.",
       "onwardLinkText": "M. A. Wetherell",
       "nextPage": "M. A. Wetherell"
     },
@@ -60,12 +70,12 @@
       "revision": 1339195393,
       "section": "Biography",
       "passage": "In the 1930s, Marmaduke went to Loch Ness to look for the Loch Ness Monster. Wetherell claimed to have found footprints, but when casts of the footprints were sent to scientists for analysis they turned out to be from a hippopotamus; a prankster had used a hippopotamus-foot umbrella stand.",
-      "hatnote": "The footprints had a very domestic origin.",
+      "hatnote": "The footprints that got him ridiculed had a very domestic origin.",
       "onwardLinkText": null,
       "nextPage": "M. A. Wetherell"
     }
   ],
-  "payoff": "Nessie's founding sighting may echo King Kong, and its famous photo was faked by a man once fooled by a hippo-foot umbrella stand.",
+  "payoff": "Kong was an 18-inch model; Nessie's famous photo was a toy, faked by a man once fooled by a hippo-foot umbrella stand.",
   "caveats": [
     "Pages differ on Christian Spurling: Loch Ness Monster calls him Wetherell's stepson, the Wetherell article his son-in-law.",
     "The King Kong link is a suggestion by researchers, not established fact."

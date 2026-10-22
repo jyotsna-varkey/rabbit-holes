@@ -1,6 +1,6 @@
 {
   "id": "taxi-thornton-blackburn",
-  "claim": "Toronto's first taxi was run by a man Detroit rioted over.",
+  "claim": "Toronto's first taxi was started by a man Detroit rioted over.",
   "start": {
     "title": "Taxi",
     "page": "Taxi",
@@ -8,40 +8,40 @@
     "image": "snapshots/images/Taxi.webp"
   },
   "end": {
-    "title": "Underground Railroad",
-    "page": "Underground Railroad",
-    "description": "Network for fugitive slaves in 19th-century U.S.",
-    "image": "snapshots/images/Underground-Railroad.webp"
+    "title": "Thornton Blackburn",
+    "page": "Thornton Blackburn",
+    "description": "American slave (1812–1890)",
+    "image": ""
   },
   "knots": [
     {
       "page": "Taxi",
       "url": "https://en.wikipedia.org/wiki/Taxi",
-      "revision": 1380194858,
+      "revision": 1381227017,
+      "section": "Hansoms",
+      "passage": "The hansom cab was designed and patented in 1834 by Joseph Hansom, an architect from York as a substantial improvement on the old hackney carriages. These two-wheel vehicles were fast, light enough to be pulled by a single horse (making the journey cheaper than travelling in a larger four-wheel coach) were agile enough to steer around horse-drawn vehicles in the notorious traffic jams of nineteenth-century London and had a low centre of gravity for safe cornering. Hansom's original design was modified by John Chapman and several others to improve its practicability, but retained Hansom's name.",
+      "hatnote": "The one-horse cab was born in London's traffic jams in 1834.",
+      "onwardLinkText": null,
+      "nextPage": "Taxi"
+    },
+    {
+      "page": "Taxi",
+      "url": "https://en.wikipedia.org/wiki/Taxi",
+      "revision": 1381227017,
       "section": "Hansoms",
       "passage": "The first cab service in Toronto, \"The City\", was established in 1837 by Thornton Blackburn, an ex-slave whose escape when captured in Detroit was the impetus for the Blackburn Riots.",
-      "hatnote": "Toronto's cab trade began with a remarkable founder.",
-      "onwardLinkText": "Thornton Blackburn",
-      "nextPage": "Thornton Blackburn"
+      "hatnote": "Three years later, Toronto got its first cab, from an unlikely founder.",
+      "onwardLinkText": "Blackburn Riots",
+      "nextPage": "Blackburn Riots"
     },
     {
-      "page": "Thornton Blackburn",
-      "url": "https://en.wikipedia.org/wiki/Thornton_Blackburn",
-      "revision": 1341771057,
-      "section": "Escape",
-      "passage": "Thornton and Lucie escaped from Louisville to Michigan in 1831. They had been living there for two years when, in 1833, Kentucky slave hunters located, re-captured, and arrested the couple. The Blackburns were jailed but were allowed visitors, which provided the opportunity for Lucie to exchange her clothes and her incarceration with Mrs. George French. Lucie was then smuggled across the Detroit River to safety in Amherstburg, in Essex County, Upper Canada.",
-      "hatnote": "Two years after escaping slavery, the couple were caught in Detroit.",
-      "onwardLinkText": null,
-      "nextPage": "Thornton Blackburn"
-    },
-    {
-      "page": "Thornton Blackburn",
-      "url": "https://en.wikipedia.org/wiki/Thornton_Blackburn",
-      "revision": 1341771057,
-      "section": "Escape",
-      "passage": "Thornton's escape was more difficult because he was heavily guarded, bound and shackled. The day before Thornton was to be returned to Kentucky, Detroit's black community rose up in protest in the Blackburn Riots. A crowd of about 400 men stormed the jail to free him. During the commotion, two individuals called Sleepy Polly and Daddy Walker helped Thornton escape and eventually find safety in Essex County, Upper Canada. The commotion turned into a two-day riot during which the local sheriff was shot and fatally wounded. It was the first race riot in Detroit, resulting in the first Riot Commission to be formed in the United States.",
-      "hatnote": "Getting Thornton out took a city.",
-      "onwardLinkText": null,
+      "page": "Blackburn Riots",
+      "url": "https://en.wikipedia.org/wiki/Blackburn_Riots",
+      "revision": 1370763273,
+      "section": "lead",
+      "passage": "The Blackburn riots occurred during the summer of 1833 in Detroit, Michigan. They were the first race riots in the history of the city. The riots were spurred by the imprisonment of Thornton and Rutha Blackburn, an African-American couple that had escaped slavery in Louisville, Kentucky, in 1831. They were caught by slave catchers, thrown in jail, and sentenced to be returned to their owners in Kentucky. This ruling angered the African-American population of Detroit.",
+      "hatnote": "Four years before the cab, Detroit erupted over him.",
+      "onwardLinkText": "Thornton",
       "nextPage": "Thornton Blackburn"
     },
     {
@@ -50,7 +50,7 @@
       "revision": 1341771057,
       "section": "Escape",
       "passage": "Once in Essex County, Thornton was jailed briefly while a formal request for his return was issued by the Michigan territorial governor. A reply came from the Lieutenant-Governor of Upper Canada, Major General Sir John Colborne, who refused extradition to the United States, noting that a person could not steal himself and that lifetime slavery was too severe a punishment for any crime less than murder.",
-      "hatnote": "Michigan wanted him back. Canada's answer set a precedent.",
+      "hatnote": "Freed from the jail, Thornton crossed into Canada. Michigan wanted him back.",
       "onwardLinkText": null,
       "nextPage": "Thornton Blackburn"
     },
@@ -58,25 +58,15 @@
       "page": "Thornton Blackburn",
       "url": "https://en.wikipedia.org/wiki/Thornton_Blackburn",
       "revision": 1341771057,
-      "section": "lead",
-      "passage": "Thornton Blackburn (c. 1812–1890) was a self-emancipated formerly enslaved man whose case established the principle that Canada would not return slaves to their masters in the United States and thus established Canada as a safe terminus for the Underground Railroad.",
-      "hatnote": "That refusal echoed far beyond one man.",
-      "onwardLinkText": "Underground Railroad",
-      "nextPage": "Underground Railroad"
-    },
-    {
-      "page": "Underground Railroad",
-      "url": "https://en.wikipedia.org/wiki/Underground_Railroad",
-      "revision": 1379435166,
-      "section": "Political background",
-      "passage": "Many of the fugitive slaves who \"rode\" the Underground Railroad considered Canada their final destination. An estimated 30,000 to 40,000 of them settled in Canada, half of whom came between 1850 and 1860.",
-      "hatnote": "Canada became the line's last stop.",
+      "section": "Toronto",
+      "passage": "Thornton created Toronto's first taxi service in 1837, named \"The City\". Though illiterate, he saw the need for a taxi service and so obtained blueprints for a cab from Montreal and commissioned its construction. He started this service by building a red and yellow box cab named \"The City,\" drawn by a single horse and able to carry four passengers, with a driver in a box at the front, which he would operate. It became the nucleus of a successful taxicab company.",
+      "hatnote": "Safe in Toronto, the man who 'could not steal himself' went into business.",
       "onwardLinkText": null,
-      "nextPage": "Underground Railroad"
+      "nextPage": "Thornton Blackburn"
     }
   ],
-  "payoff": "Before he built Toronto's first cab, Thornton Blackburn's own escape made Canada the end of the line for the Underground Railroad.",
+  "payoff": "Canada refused to send Thornton Blackburn back, so the man Detroit rioted over stayed to put Toronto's first cab on the road.",
   "caveats": [
-    "The Taxi and Blackburn Riots articles say Thornton's escape was the impetus for the riots; accounts of the crowd size range from 40 to 400."
+    "Taxi says Thornton's escape was the impetus for the riots; Blackburn Riots says they were spurred by the couple's imprisonment and sentence."
   ]
 }

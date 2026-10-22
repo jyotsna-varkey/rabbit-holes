@@ -1,6 +1,6 @@
 {
   "id": "dollar-jachymov-radon",
-  "claim": "The valley that gave us the word 'dollar' opened the world's first radon spa.",
+  "claim": "The valley that named the dollar now sells baths in radioactive water.",
   "start": {
     "title": "Dollar",
     "page": "Dollar",
@@ -17,10 +17,20 @@
     {
       "page": "Dollar",
       "url": "https://en.wikipedia.org/wiki/Dollar",
-      "revision": 1379701587,
+      "revision": 1381346205,
+      "section": "lead",
+      "passage": "The name 'dollar' originates from the thaler, which was the name of a 29-gram (1.0 oz) silver coin called the Joachimsthaler minted in 1519 in the western part of Bohemia (now the Czech Republic). The word thaler itself comes from the German word Thal, i.e. 'valley'.",
+      "hatnote": "Every dollar carries a buried place name.",
+      "onwardLinkText": null,
+      "nextPage": "Dollar"
+    },
+    {
+      "page": "Dollar",
+      "url": "https://en.wikipedia.org/wiki/Dollar",
+      "revision": 1381346205,
       "section": "Etymology",
-      "passage": "On 15 January 1520, the Kingdom of Bohemia began minting coins from silver mined locally in Joachimsthal and marked on reverse with the Bohemian lion. The coins were named Joachimsthaler after the town, becoming shortened in common usage to thaler or taler.",
-      "hatnote": "The dollar is named after a place: a mining valley in Bohemia.",
+      "passage": "On 15 January 1520, the Kingdom of Bohemia began minting coins from silver mined locally in Joachimsthal and marked on reverse with the Bohemian lion. The coins were named Joachimsthaler after the town, becoming shortened in common usage to thaler or taler. The town's name is derived from Saint Joachim, coupled with the German word Thal (Tal in modern spelling), which means 'valley' (cf. the English term dale); the coin is thus \"from the valley of [St] Joachim\".",
+      "hatnote": "The valley was a silver boomtown in Bohemia.",
       "onwardLinkText": "Joachimsthal",
       "nextPage": "Jáchymov"
     },
@@ -29,18 +39,8 @@
       "url": "https://en.wikipedia.org/wiki/J%C3%A1chymov",
       "revision": 1378402595,
       "section": "18th–20th centuries",
-      "passage": "At the end of the 19th century, Becquerel discovered that uranyl potassium sulfate could fog photographic papers wrapped inside opaque paper. Marie Skłodowska-Curie and Pierre Curie believed this to be a new element, more radioactive than uranium. The Austrian government sent 100 kg of the waste material from the Joachimsthal uranium-based pigment factory to the Curies, and they discovered uraninite containing the element radium.",
-      "hatnote": "Centuries on, the silver mattered less than what the valley threw away.",
-      "onwardLinkText": null,
-      "nextPage": "Jáchymov"
-    },
-    {
-      "page": "Jáchymov",
-      "url": "https://en.wikipedia.org/wiki/J%C3%A1chymov",
-      "revision": 1378402595,
-      "section": "18th–20th centuries",
-      "passage": "Until World War I, this was the foremost source of radium in the world. In 1929, Dr. Löwy of Prague discovered that \"mysterious emanations\" in the mine led to a form of cancer. Ventilation and watering measures were introduced, miners were given higher pay and longer vacations, but death rates remained high.",
-      "hatnote": "Radium made the valley famous again. Then its miners started dying.",
+      "passage": "At the end of the 19th century, Becquerel discovered that uranyl potassium sulfate could fog photographic papers wrapped inside opaque paper. Marie Skłodowska-Curie and Pierre Curie believed this to be a new element, more radioactive than uranium. The Austrian government sent 100 kg of the waste material from the Joachimsthal uranium-based pigment factory to the Curies, and they discovered uraninite containing the element radium. Until World War I, this was the foremost source of radium in the world.",
+      "hatnote": "When the silver ran out, the valley's paint-factory waste found eager buyers.",
       "onwardLinkText": null,
       "nextPage": "Jáchymov"
     },
@@ -50,7 +50,7 @@
       "revision": 1378402595,
       "section": "Spa",
       "passage": "In 1864, a spring of radon-rich water was discovered in Jáchymov. The world's first radon spa was founded in Jáchymov in 1906, joining the existing spas of the region such as Karlovy Vary, Františkovy Lázně and Mariánské Lázně.",
-      "hatnote": "Meanwhile, the same valley had opened a very different business.",
+      "hatnote": "The valley found a gentler way to sell its radioactivity.",
       "onwardLinkText": "radon",
       "nextPage": "Radon"
     },
@@ -58,14 +58,14 @@
       "page": "Radon",
       "url": "https://en.wikipedia.org/wiki/Radon",
       "revision": 1379998685,
-      "section": "History and etymology",
-      "passage": "The danger of high exposure to radon in mines, where exposures can reach 1,000,000 Bq/m, has long been known. In 1530, Paracelsus described a wasting disease of miners, the mala metallorum, and Georg Agricola recommended ventilation in mines to avoid this mountain sickness (Bergsucht). In 1879, this condition was identified as lung cancer by Harting and Hesse in their investigation of miners from Schneeberg, Germany. The first major studies with radon and health occurred in the context of uranium mining in the Joachimsthal region of Bohemia.",
-      "hatnote": "So what were those 'mysterious emanations'?",
+      "section": "Hormesis",
+      "passage": "Radioactive water baths have been applied since 1906 in Jáchymov, Czech Republic, but even before radon discovery they were used in Bad Gastein, Austria. Radium-rich springs are also used in traditional Japanese onsen in Misasa, Tottori Prefecture. Drinking therapy is applied in Bad Brambach, Germany, and during the early 20th century, water from springs with radon in them was bottled and sold (this water had little to no radon in it by the time it got to consumers due to radon's short half-life).",
+      "hatnote": "Jáchymov started a fashion that spread from Austria to Japan.",
       "onwardLinkText": null,
       "nextPage": "Radon"
     }
   ],
-  "payoff": "The gas that killed Jáchymov's miners is radon, the same gas its spa has offered bathers since 1906.",
+  "payoff": "Silver gave Joachimsthal the dollar, its waste gave the Curies radium, and its spring still fills radon baths.",
   "caveats": [
     "The Radon page notes that radon therapy rests on the controversial idea of radiation hormesis; the hole does not endorse it."
   ]

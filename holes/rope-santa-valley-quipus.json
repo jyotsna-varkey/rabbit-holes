@@ -1,6 +1,6 @@
 {
   "id": "rope-santa-valley-quipus",
-  "claim": "Six knotted strings from one tomb may be the Inca Rosetta Stone.",
+  "claim": "Six knotted strings may be the Rosetta Stone of the Inca.",
   "start": {
     "title": "Rope",
     "page": "Rope",
@@ -27,40 +27,20 @@
     {
       "page": "Quipu",
       "url": "https://en.wikipedia.org/wiki/Quipu",
-      "revision": 1375000408,
-      "section": "lead",
-      "passage": "A quipu usually consists of cotton or camelid fiber cords, and contains categorized information based on dimensions like color, order, and number. The Inca, in particular, used knots tied in a decimal positional system to store numbers and other values in quipu cords. Depending on use and the amount of information stored, quipus can have anywhere from a few to several thousand cords.",
-      "hatnote": "The Inca ran an empire's books on string.",
-      "onwardLinkText": null,
-      "nextPage": "Quipu"
-    },
-    {
-      "page": "Quipu",
-      "url": "https://en.wikipedia.org/wiki/Quipu",
-      "revision": 1375000408,
-      "section": "lead",
-      "passage": "After the Spanish conquest of the Inca Empire, quipus were slowly replaced by European writing and numeral systems. Many quipus were identified as idolatrous and destroyed, but some Spaniards promoted the adaptation of the quipu recording system to the needs of the colonial administration, and some priests advocated the use of quipus for ecclesiastical purposes.",
-      "hatnote": "Then the conquerors arrived.",
-      "onwardLinkText": null,
-      "nextPage": "Quipu"
-    },
-    {
-      "page": "Quipu",
-      "url": "https://en.wikipedia.org/wiki/Quipu",
-      "revision": 1375000408,
+      "revision": 1381186669,
       "section": "Non-numeric usage",
       "passage": "Some have argued that far more than numeric information is present and that quipus are a writing system. This would be an especially important discovery as there is no surviving written record of the Inca Empire predating the Spanish invasion.",
-      "hatnote": "What if the knots say more than numbers?",
+      "hatnote": "In the Andes, knotted cords may have held more than numbers.",
       "onwardLinkText": null,
       "nextPage": "Quipu"
     },
     {
       "page": "Quipu",
       "url": "https://en.wikipedia.org/wiki/Quipu",
-      "revision": 1375000408,
+      "revision": 1381186669,
       "section": "Purpose",
       "passage": "In 2011, a potential match between six colonial-era Santa Valley Quipus and a Spanish colonial document from the same region was identified. Researchers believe this possible quipu-document match is the strongest Rosetta Stone-like connection currently known, which could offer key clues needed to unlock the full extent of the quipu code.",
-      "hatnote": "Codebreakers need a crib: the same record in two scripts.",
+      "hatnote": "Decoding them needs a crib: the same record written two ways.",
       "onwardLinkText": "Santa Valley Quipus",
       "nextPage": "Santa Valley quipus"
     },
@@ -68,14 +48,24 @@
       "page": "Santa Valley quipus",
       "url": "https://en.wikipedia.org/wiki/Santa_Valley_quipus",
       "revision": 1356046359,
+      "section": "Description",
+      "passage": "Each of the six quipus presents a consistent cord color patterning known as color-banding, a feature sometimes used to designate these as “banded khipus”. For this set of quipus, their color bands consist of six pendant cords each, resulting in 804 total cords organized into 133 six-cord groups. The combination of their shared structure and origin suggest that the six quipus form a unified archival set.",
+      "hatnote": "The six quipus share one tidy, repeating pattern.",
+      "onwardLinkText": null,
+      "nextPage": "Santa Valley quipus"
+    },
+    {
+      "page": "Santa Valley quipus",
+      "url": "https://en.wikipedia.org/wiki/Santa_Valley_quipus",
+      "revision": 1356046359,
       "section": "Proposed link to the 1670 revisita",
-      "passage": "The potential link between the six quipus and a 1670 Spanish colonial revisita (revisit or census) was first proposed in 2011. The revisita lists 132 named tributaries divided among six pachacas (lineage groups roughly equivalent to ayllus) which closely mirrors the 133 color-banded six-cord groups in the quipus. Each differently colored group may represent one individual tributary.",
-      "hatnote": "The match is almost one-for-one.",
+      "passage": "The potential link between the six quipus and a 1670 Spanish colonial revisita (revisit or census) was first proposed in 2011. The revisita lists 132 named tributaries divided among six pachacas (lineage groups roughly equivalent to ayllus) which closely mirrors the 133 color-banded six-cord groups in the quipus. Each differently colored group may represent one individual tributary. The total tribute amounts described in the census also appear to correspond with the summed knot values of the first cord in each six cord group on the quipus.",
+      "hatnote": "And a Spanish census from 1670 seems to mirror it almost exactly.",
       "onwardLinkText": null,
       "nextPage": "Santa Valley quipus"
     }
   ],
-  "payoff": "A Spanish tax census and six bundles of string may finally let us read the only records the Inca left.",
+  "payoff": "A colonial tax census and six bundles of string may let us read the only records the Inca ever left.",
   "caveats": [
     "The Santa Valley match is described as 'potential' and 'possible'; decipherment is not complete."
   ]

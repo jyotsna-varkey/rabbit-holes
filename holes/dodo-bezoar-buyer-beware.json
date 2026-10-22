@@ -1,6 +1,6 @@
 {
   "id": "dodo-bezoar-buyer-beware",
-  "claim": "In 1647 Japan, a live dodo was worth the same as a hairball.",
+  "claim": "Before Alice met the Dodo, a real one sat in a gardener's 'Ark'.",
   "start": {
     "title": "Dodo",
     "page": "Dodo",
@@ -8,10 +8,10 @@
     "image": "snapshots/images/Dodo.webp"
   },
   "end": {
-    "title": "Chandelor v Lopus",
-    "page": "Chandelor v Lopus",
-    "description": "1603 English common law case",
-    "image": "snapshots/images/Chandelor-v-Lopus.webp"
+    "title": "Dodo (Alice's Adventures in Wonderland)",
+    "page": "Dodo (Alice's Adventures in Wonderland)",
+    "description": "Fictional character created by Lewis Carroll",
+    "image": "snapshots/images/Dodo-Alice-s-Adventures-in-Wonderland.webp"
   },
   "knots": [
     {
@@ -20,63 +20,63 @@
       "revision": 1375347989,
       "section": "Dodos transported abroad",
       "passage": "One dodo was reportedly sent as far as Nagasaki, Japan, in 1647, but it was long unknown whether it arrived. Contemporary documents first published in 2014 proved the story, and showed that it had arrived alive. It was meant as a gift, and, despite its rarity, was considered of equal value to a white deer and a bezoar stone. It is the last recorded live dodo in captivity.",
-      "hatnote": "The last dodo anyone recorded alive was shipped to Japan.",
+      "hatnote": "The last dodo seen alive was shipped to Japan as a gift.",
       "onwardLinkText": "bezoar",
       "nextPage": "Bezoar"
     },
     {
       "page": "Bezoar",
       "url": "https://en.wikipedia.org/wiki/Bezoar",
-      "revision": 1375403563,
+      "revision": 1381122898,
       "section": "History",
-      "passage": "The word bezoar is derived from the Persian pād-zahr (پادزهر), literally 'antidote'. People believed that a bezoar had the power of a universal antidote and would work against any poison – a drinking glass that contained a bezoar could allegedly neutralize any poison poured into it.",
-      "hatnote": "A bezoar is a lump of hair or fibre from an animal's gut. Why prize it?",
-      "onwardLinkText": null,
-      "nextPage": "Bezoar"
+      "passage": "Bezoars were important objects in Holy Roman Emperor Rudolf II's cabinets of curiosity and in natural-history collections, mainly for their use in early-modern pharmacy and in the study of animal health. Since bezoars began as extremely rare objects, they were mainly found in royal or elite collections, where they were treated as prized possessions and symbols of wealth rather than medicinal. Elites kept bezoars in their possession not only for bodily protection, but also to represent their wealth and rank. For example, Queen Elizabeth I of England wore a bezoar ring.",
+      "hatnote": "Why rank a bird beside a gut stone? Bezoars were treasures too.",
+      "onwardLinkText": "cabinets of curiosity",
+      "nextPage": "Cabinet of curiosities"
     },
     {
-      "page": "Bezoar",
-      "url": "https://en.wikipedia.org/wiki/Bezoar",
-      "revision": 1375403563,
-      "section": "History",
-      "passage": "A cook in the King's court was sentenced to death and chose to be poisoned rather than hanged, under the condition that he would be given a bezoar after the poison. Paré administered the bezoar stone to the cook, but it had no effect, and the cook died in agony seven hours after taking the poison, proving that – contrary to popular belief – the bezoar could not cure all poisons.",
-      "hatnote": "In 1567 the surgeon Ambroise Paré doubted it, and a condemned man offered a test.",
-      "onwardLinkText": null,
-      "nextPage": "Bezoar"
+      "page": "Cabinet of curiosities",
+      "url": "https://en.wikipedia.org/wiki/Cabinet_of_curiosities",
+      "revision": 1369796678,
+      "section": "England",
+      "passage": "Father and son, in addition to botanical specimens, collected zoological (e.g., the dodo from Mauritius, the upper jaw of a walrus, and armadillos), artificial curiosities (e.g., wampum belts, portraits, lathe turned ivory, weapons, costumes, Oriental footwear and carved alabaster panels) and rarities (e.g., a mermaid's hand, a dragon's egg, two feathers of a phoenix's tail, a piece of the True Cross, and a vial of blood that rained in the Isle of Wight). By the 1630s, the Tradescants displayed their eclectic collection at their residence in South Lambeth. Tradescant's Ark, as it came to be known, was the earliest major cabinet of curiosity in England and open to the public for a small entrance fee.",
+      "hatnote": "England's first great cabinet of wonders belonged to a gardener and his son.",
+      "onwardLinkText": "dodo",
+      "nextPage": "Dodo"
     },
     {
-      "page": "Bezoar",
-      "url": "https://en.wikipedia.org/wiki/Bezoar",
-      "revision": 1375403563,
-      "section": "History",
-      "passage": "Modern examinations of the properties of bezoars by Gustaf Arrhenius and Andrew Benson of the Scripps Institution of Oceanography show that when bezoars are immersed in an arsenic-laced solution, they can remove the poison. The toxic compounds in arsenic are arsenate and arsenite; each is acted upon differently by the bezoars: arsenate is removed by being exchanged for phosphate in brushite found in the stones, while arsenite is bound to sulfur compounds in the protein of degraded hair, which is a key component in bezoars.",
-      "hatnote": "But the stones weren't entirely useless, as modern chemists found.",
+      "page": "Dodo",
+      "url": "https://en.wikipedia.org/wiki/Dodo",
+      "revision": 1375347989,
+      "section": "17th-century specimens",
+      "passage": "The only known soft tissue remains, the Oxford head (specimen OUM 11605) and foot, belonged to the last known stuffed dodo, which was first mentioned as part of the Tradescant collection in 1656 and was moved to the Ashmolean Museum in 1659.",
+      "hatnote": "Part of the Tradescants' stuffed dodo survives to this day, in Oxford.",
       "onwardLinkText": null,
-      "nextPage": "Bezoar"
+      "nextPage": "Dodo"
     },
     {
-      "page": "Bezoar",
-      "url": "https://en.wikipedia.org/wiki/Bezoar",
-      "revision": 1375403563,
-      "section": "History",
-      "passage": "A famous case in the common law of England (Chandelor v Lopus, 79 Eng Rep. 3, Cro. Jac. 4, Eng. Ct. Exch. 1603) announced the rule of caveat emptor (\"let the buyer beware\") if the goods purchased are not in fact genuine and effective. The case concerned a purchaser who sued for the return of the purchase price of an allegedly fraudulent bezoar.",
-      "hatnote": "Fakes flooded the market, and one landed in an English court.",
-      "onwardLinkText": "Chandelor v Lopus",
-      "nextPage": "Chandelor v Lopus"
+      "page": "Dodo",
+      "url": "https://en.wikipedia.org/wiki/Dodo",
+      "revision": 1375347989,
+      "section": "Cultural significance",
+      "passage": "In 1865, the same year that George Clark started to publish reports about excavated dodo fossils, the newly vindicated bird was featured as a character in Lewis Carroll's Alice's Adventures in Wonderland. It is thought that he included the dodo because he identified with it and had adopted the name as a nickname for himself because of his stammer, which made him accidentally introduce himself as \"Do-do-dodgson\", his legal surname. Carroll and the girl who served as inspiration for Alice, Alice Liddell, had enjoyed visiting the Oxford museum to see the dodo remains there.",
+      "hatnote": "Two centuries later, an Oxford writer and a young girl came to look.",
+      "onwardLinkText": "featured as a character",
+      "nextPage": "Dodo (Alice's Adventures in Wonderland)"
     },
     {
-      "page": "Chandelor v Lopus",
-      "url": "https://en.wikipedia.org/wiki/Chandelor_v_Lopus",
-      "revision": 1319592019,
-      "section": "Judgment",
-      "passage": "The Exchequer Court held the buyer had no right to his money back, saying \"the bare affirmation that it was a bezoar stone, without warranting it to be so, is no cause of action.\"",
-      "hatnote": "Did the cheated buyer get his money back?",
+      "page": "Dodo (Alice's Adventures in Wonderland)",
+      "url": "https://en.wikipedia.org/wiki/Dodo_(Alice's_Adventures_in_Wonderland)",
+      "revision": 1377845111,
+      "section": "Alice's Adventures in Wonderland",
+      "passage": "In order to get dry after a swim, the Dodo proposes that everyone run a Caucus race – where the participants run in patterns of any shape, starting and leaving off whenever they like, so that everyone wins. At the end of the race, Alice distributes comfits from her pocket to all as prizes. However this leaves no prize for herself. The Dodo inquires what else she has in her pocket. As she has only a thimble, the Dodo requests it from her and then awards it to Alice as her prize.",
+      "hatnote": "In the book, the bird once priced like a treasure hands out prizes.",
       "onwardLinkText": null,
-      "nextPage": "Chandelor v Lopus"
+      "nextPage": "Dodo (Alice's Adventures in Wonderland)"
     }
   ],
-  "payoff": "The 'hairball' once priced like a live dodo gave English law its rule of caveat emptor: buyer beware.",
+  "payoff": "Once a gift worth a bezoar, then a showpiece in Tradescant's Ark, the dodo ended up in Wonderland handing out the prizes.",
   "caveats": [
-    "'Hairball' in the hook is loose: the Bezoar page describes bezoars as masses of hair, plant fibre or other indigestible material."
+    "The Oxford dodo remains came from the Tradescant collection; the Dodo page says Carroll and Alice Liddell enjoyed visiting them, but it does not say they were his sole reason for including the bird."
   ]
 }

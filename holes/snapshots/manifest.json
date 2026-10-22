@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-21",
+  "fetched": "2026-10-22",
   "pages": {
     "0": {
       "title": "0",
@@ -10,6 +10,7 @@
       "snapshot": true,
       "image": null,
       "fragments": {
+        "Today, the numerical digit 0 is usually written as a circle or ellipse. Traditio": "Today, the numerical digit 0 is usually written as a",
         "Some fonts designed for use with computers made the \"0\" character more squared a": "Some fonts designed for use with computers made the \"0\""
       }
     },
@@ -139,7 +140,7 @@
         }
       },
       "fragments": {
-        "As Wöhler's method could not yield great quantities of aluminium, the metal rema": "As Wöhler's method could not yield great quantities of aluminium"
+        "As W\u00f6hler's method could not yield great quantities of aluminium, the metal rema": "As W\u00f6hler's method could not yield great quantities of aluminium"
       }
     },
     "Washington-Monument": {
@@ -166,7 +167,7 @@
       }
     },
     "Hall-H-roult-process": {
-      "title": "Hall–Héroult process",
+      "title": "Hall\u2013H\u00e9roult process",
       "description": "Aluminium smelting process",
       "revision": 1375354537,
       "url": "https://en.wikipedia.org/wiki/Hall%E2%80%93H%C3%A9roult_process",
@@ -174,12 +175,12 @@
       "snapshot": true,
       "image": null,
       "fragments": {
-        "The Hall–Héroult process was discovered independently and almost simultaneously ": "The Hall–Héroult process was discovered independently and almost simultaneously in"
+        "The Hall\u2013H\u00e9roult process was discovered independently and almost simultaneously ": "The Hall\u2013H\u00e9roult process was discovered independently and almost simultaneously in"
       }
     },
     "Charles-Martin-Hall": {
       "title": "Charles Martin Hall",
-      "description": "American inventor, businessman, and chemist (1863–1914)",
+      "description": "American inventor, businessman, and chemist (1863\u20131914)",
       "revision": 1341504477,
       "url": "https://en.wikipedia.org/wiki/Charles_Martin_Hall",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Charles_Martin_Hall&oldid=1341504477",
@@ -271,7 +272,7 @@
     },
     "Alois-Senefelder": {
       "title": "Alois Senefelder",
-      "description": "German actor, playwright and inventor (1771–1834)",
+      "description": "German actor, playwright and inventor (1771\u20131834)",
       "revision": 1378010237,
       "url": "https://en.wikipedia.org/wiki/Alois_Senefelder",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Alois_Senefelder&oldid=1378010237",
@@ -321,7 +322,7 @@
     },
     "Fredrik-Vilhelm-Thorsson": {
       "title": "Fredrik Vilhelm Thorsson",
-      "description": "Swedish politician (1865–1925)",
+      "description": "Swedish politician (1865\u20131925)",
       "revision": 1349574065,
       "url": "https://en.wikipedia.org/wiki/Fredrik_Vilhelm_Thorsson",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Fredrik_Vilhelm_Thorsson&oldid=1349574065",
@@ -341,7 +342,7 @@
       "fragments": {
         "Fredrik Vilhelm Thorsson came from humble working conditions. He was the son of ": "Fredrik Vilhelm Thorsson came from humble working conditions. He was",
         "In 1914 he became a member of the governing board of the Swedish National Bank a": "In 1914 he became a member of the governing board",
-        "Fredrik Ström wrote an account of Thorsson in the small volume Skomakaren, som b": "Fredrik Ström wrote an account of Thorsson in the small"
+        "Fredrik Str\u00f6m wrote an account of Thorsson in the small volume Skomakaren, som b": "Fredrik Str\u00f6m wrote an account of Thorsson in the small"
       }
     },
     "Aurora": {
@@ -391,7 +392,7 @@
       }
     },
     "993-994-carbon-14-spike": {
-      "title": "993–994 carbon-14 spike",
+      "title": "993\u2013994 carbon-14 spike",
       "description": "Solar storm",
       "revision": 1369610017,
       "url": "https://en.wikipedia.org/wiki/993%E2%80%93994_carbon-14_spike",
@@ -411,7 +412,7 @@
       },
       "fragments": {
         "In the Korean Peninsula, between December 992 and January 993, a text describes ": "In the Korean Peninsula, between December 992 and January 993",
-        "In 2021, a scientific paper used the 993–994 carbon-14 spike as a benchmark in d": "In 2021, a scientific paper used the 993–994 carbon-14 spike"
+        "In 2021, a scientific paper used the 993\u2013994 carbon-14 spike as a benchmark in d": "In 2021, a scientific paper used the 993\u2013994 carbon-14 spike"
       }
     },
     "Ballpoint-pen": {
@@ -434,12 +435,12 @@
         }
       },
       "fragments": {
-        "László Bíró, a Hungarian newspaper editor (later a naturalized Argentine) frustr": "László Bíró, a Hungarian newspaper editor (later a naturalized Argentine)"
+        "L\u00e1szl\u00f3 B\u00edr\u00f3, a Hungarian newspaper editor (later a naturalized Argentine) frustr": "L\u00e1szl\u00f3 B\u00edr\u00f3, a Hungarian newspaper editor (later a naturalized Argentine)"
       }
     },
     "L-szl-B-r": {
-      "title": "László Bíró",
-      "description": "Hungarian-Argentine inventor (1899–1985)",
+      "title": "L\u00e1szl\u00f3 B\u00edr\u00f3",
+      "description": "Hungarian-Argentine inventor (1899\u20131985)",
       "revision": 1363796003,
       "url": "https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_B%C3%ADr%C3%B3",
       "permalink": "https://en.wikipedia.org/w/index.php?title=L%C3%A1szl%C3%B3_B%C3%ADr%C3%B3&oldid=1363796003",
@@ -457,7 +458,7 @@
         }
       },
       "fragments": {
-        "In 1945, Marcel Bich bought the patent for the pen from Bíró. The resulting desi": "In 1945, Marcel Bich bought the patent for the pen"
+        "In 1945, Marcel Bich bought the patent for the pen from B\u00edr\u00f3. The resulting desi": "In 1945, Marcel Bich bought the patent for the pen"
       }
     },
     "Bic-Cristal": {
@@ -581,7 +582,7 @@
     },
     "Ruth-Handler": {
       "title": "Ruth Handler",
-      "description": "American business magnate and inventor (1916–2002)",
+      "description": "American business magnate and inventor (1916\u20132002)",
       "revision": 1379604511,
       "url": "https://en.wikipedia.org/wiki/Ruth_Handler",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Ruth_Handler&oldid=1379604511",
@@ -712,7 +713,7 @@
         "height": 220,
         "credit": {
           "file": "Left_side_of_Flying_Pigeon.jpg",
-          "artist": "齐健 from Peking, People's Republic of China",
+          "artist": "\u9f50\u5065 from Peking, People's Republic of China",
           "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
           "filePage": "https://commons.wikimedia.org/wiki/File:Left_side_of_Flying_Pigeon.jpg"
@@ -756,9 +757,8 @@
       },
       "fragments": {
         "To demonstrate the speed of his recumbent bicycle, Mochet had the design ratifie": "To demonstrate the speed of his recumbent bicycle, Mochet had",
-        "On 7 July 1933, at a Paris velodrome, Faure rode a modified Vélo-Velocar 45.055 ": "On 7 July 1933, at a Paris velodrome, Faure rode",
-        "When the Union Cycliste Internationale (UCI) met in February 1934, manufacturers": "When the Union Cycliste Internationale (UCI) met in February 1934",
-        "The UCI ban on recumbent bicycles and other aerodynamic improvements virtually s": "The UCI ban on recumbent bicycles and other aerodynamic improvements"
+        "On 7 July 1933, at a Paris velodrome, Faure rode a modified V\u00e9lo-Velocar 45.055 ": "On 7 July 1933, at a Paris velodrome, Faure rode",
+        "When the Union Cycliste Internationale (UCI) met in February 1934, manufacturers": "When the Union Cycliste Internationale (UCI) met in February 1934"
       }
     },
     "Dandy-horse": {
@@ -834,7 +834,7 @@
     },
     "Edmund-Beckett-1st-Baron-Grimthorpe": {
       "title": "Edmund Beckett, 1st Baron Grimthorpe",
-      "description": "English lawyer and horologist (1816–1905)",
+      "description": "English lawyer and horologist (1816\u20131905)",
       "revision": 1354445348,
       "url": "https://en.wikipedia.org/wiki/Edmund_Beckett%2C_1st_Baron_Grimthorpe",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Edmund_Beckett%2C_1st_Baron_Grimthorpe&oldid=1354445348",
@@ -938,7 +938,7 @@
         "width": 330,
         "height": 248,
         "credit": {
-          "file": "Boursite_3_boûsses_drovowes.JPG",
+          "file": "Boursite_3_bo\u00fbsses_drovowes.JPG",
           "artist": "Lucien Mahin",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -952,7 +952,7 @@
     },
     "Bruce-Glick": {
       "title": "Bruce Glick",
-      "description": "American poultry scientist (1927–2009)",
+      "description": "American poultry scientist (1927\u20132009)",
       "revision": 1377277891,
       "url": "https://en.wikipedia.org/wiki/Bruce_Glick",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Bruce_Glick&oldid=1377277891",
@@ -1069,79 +1069,6 @@
         "Though not in mainstream 21st-century use like dye-based fountain pen inks, mode": "Though not in mainstream 21st-century use like dye-based fountain pen"
       }
     },
-    "Blue": {
-      "title": "Blue",
-      "description": "Colour between violet and cyan on the visible spectrum of light",
-      "revision": 1378211186,
-      "url": "https://en.wikipedia.org/wiki/Blue",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Blue&oldid=1378211186",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Blue.webp",
-        "width": 330,
-        "height": 330,
-        "credit": {
-          "file": "Earth-in-true-color-himawari-09.jpg",
-          "artist": "NOAA-JMA",
-          "license": "CC BY 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-          "filePage": "https://commons.wikimedia.org/wiki/File:Earth-in-true-color-himawari-09.jpg"
-        }
-      },
-      "fragments": {
-        "Prior to the 1700s, blue colourants for artwork were mainly based on lapis lazul": "Prior to the 1700s, blue colourants for artwork were mainly"
-      }
-    },
-    "Prussian-blue": {
-      "title": "Prussian blue",
-      "description": "Synthetic pigment",
-      "revision": 1377742428,
-      "url": "https://en.wikipedia.org/wiki/Prussian_blue",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Prussian_blue&oldid=1377742428",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Prussian-blue.webp",
-        "width": 330,
-        "height": 174,
-        "credit": {
-          "file": "Pigment_Berliner_Blau.JPG",
-          "artist": "Saalebaer",
-          "license": "CC0",
-          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-          "filePage": "https://commons.wikimedia.org/wiki/File:Pigment_Berliner_Blau.JPG"
-        }
-      },
-      "fragments": {
-        "The pigment is believed to have been accidentally created when Diesbach used pot": "The pigment is believed to have been accidentally created when",
-        "The new acid, hydrogen cyanide, first isolated from Prussian blue in pure form a": "The new acid, hydrogen cyanide, first isolated from Prussian blue",
-        "According to the International Atomic Energy Agency (IAEA), an adult male can ea": "According to the International Atomic Energy Agency (IAEA), an adult",
-        "Radiogardase (Prussian blue insoluble capsules) is a commercial product for the ": "Radiogardase (Prussian blue insoluble capsules) is a commercial product for"
-      }
-    },
-    "Goi-nia-accident": {
-      "title": "Goiânia accident",
-      "description": "1987 radioactive contamination incident in Brazil",
-      "revision": 1378367316,
-      "url": "https://en.wikipedia.org/wiki/Goi%C3%A2nia_accident",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Goi%C3%A2nia_accident&oldid=1378367316",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Goi-nia-accident.webp",
-        "width": 330,
-        "height": 276,
-        "credit": {
-          "file": "02010019_radioactive_cesium_source_Goiânia_accident.jpg",
-          "artist": "IAEA Imagebank",
-          "license": "CC BY 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-          "filePage": "https://commons.wikimedia.org/wiki/File:02010019_radioactive_cesium_source_Goi%C3%A2nia_accident.jpg"
-        }
-      },
-      "fragments": {
-        "On September 18, Roberto sold the items to a nearby scrapyard. That night, Devai": "On September 18, Roberto sold the items to a nearby",
-        "Prussian blue was used to internally decontaminate many people, although by the ": "Prussian blue was used to internally decontaminate many people, although"
-      }
-    },
     "Cactus": {
       "title": "Cactus",
       "description": "Family of mostly succulent plants, adapted to dry environments",
@@ -1155,7 +1082,7 @@
         "height": 471,
         "credit": {
           "file": "Various_Cactaceae.jpg",
-          "artist": "G. Mütrel, Leipzig ; Berlin ; Wien : F.A. Brockhaus",
+          "artist": "G. M\u00fctrel, Leipzig ; Berlin ; Wien : F.A. Brockhaus",
           "license": "Public domain",
           "licenseUrl": null,
           "filePage": "https://commons.wikimedia.org/wiki/File:Various_Cactaceae.jpg"
@@ -1238,99 +1165,6 @@
         "Proposals to erect a hall at Boonarga were first discussed in July 1934, at whic": "Proposals to erect a hall at Boonarga were first discussed"
       }
     },
-    "Calculator": {
-      "title": "Calculator",
-      "description": "Device used for calculations",
-      "revision": 1379145437,
-      "url": "https://en.wikipedia.org/wiki/Calculator",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Calculator&oldid=1379145437",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Calculator.webp",
-        "width": 330,
-        "height": 357,
-        "credit": {
-          "file": "Casio_calculator_JS-20WK_in_201901_002.jpg",
-          "artist": "Mc681",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "filePage": "https://commons.wikimedia.org/wiki/File:Casio_calculator_JS-20WK_in_201901_002.jpg"
-        }
-      },
-      "fragments": {
-        "Released in 1947, the first pocket calculator which could perform the four basic": "Released in 1947, the first pocket calculator which could perform"
-      }
-    },
-    "Curta": {
-      "title": "Curta",
-      "description": "Mechanical pocket calculator",
-      "revision": 1377260410,
-      "url": "https://en.wikipedia.org/wiki/Curta",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Curta&oldid=1377260410",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Curta.webp",
-        "width": 330,
-        "height": 446,
-        "credit": {
-          "file": "Curta_-_National_Museum_of_Computing.jpg",
-          "artist": "Own work",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "filePage": "https://commons.wikimedia.org/wiki/File:Curta_-_National_Museum_of_Computing.jpg"
-        }
-      },
-      "fragments": {
-        "The Curta is a hand-held mechanical calculator designed by Curt Herzstark. It is": "The Curta is a hand-held mechanical calculator designed by Curt"
-      }
-    },
-    "Curt-Herzstark": {
-      "title": "Curt Herzstark",
-      "description": "Austrian engineer (1902–1988)",
-      "revision": 1380230291,
-      "url": "https://en.wikipedia.org/wiki/Curt_Herzstark",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Curt_Herzstark&oldid=1380230291",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Curt-Herzstark.webp",
-        "width": 330,
-        "height": 422,
-        "credit": {
-          "file": "Curta01.JPG",
-          "artist": "Larry McElhiney",
-          "license": "CC BY-SA 2.5",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-          "filePage": "https://commons.wikimedia.org/wiki/File:Curta01.JPG"
-        }
-      },
-      "fragments": {
-        "In 1943, perhaps influenced by the fact that his father was a liberal Jew, the N": "In 1943, perhaps influenced by the fact that his father",
-        "His imprisonment at Buchenwald seriously threatened his health, but his conditio": "His imprisonment at Buchenwald seriously threatened his health, but his"
-      }
-    },
-    "Wilhelm-Gustloff": {
-      "title": "Wilhelm Gustloff",
-      "description": "German politician and meteorologist",
-      "revision": 1365809477,
-      "url": "https://en.wikipedia.org/wiki/Wilhelm_Gustloff",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Wilhelm_Gustloff&oldid=1365809477",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Wilhelm-Gustloff.webp",
-        "width": 330,
-        "height": 462,
-        "credit": {
-          "file": "Wilhelm-Gustloff.jpg",
-          "artist": "Ullstein bild",
-          "license": "Public domain",
-          "licenseUrl": null,
-          "filePage": "https://commons.wikimedia.org/wiki/File:Wilhelm-Gustloff.jpg"
-        }
-      },
-      "fragments": {
-        "On 27 May 1936 the Nazi Party created the Wilhelm-Gustloff-Stiftung (\"The Wilhel": "On 27 May 1936 the Nazi Party created the Wilhelm-Gustloff-Stiftung"
-      }
-    },
     "Camera": {
       "title": "Camera",
       "description": "Optical device for recording images",
@@ -1355,8 +1189,8 @@
       }
     },
     "Nic-phore-Ni-pce": {
-      "title": "Nicéphore Niépce",
-      "description": "French inventor (1765–1833)",
+      "title": "Nic\u00e9phore Ni\u00e9pce",
+      "description": "French inventor (1765\u20131833)",
       "revision": 1370174298,
       "url": "https://en.wikipedia.org/wiki/Nic%C3%A9phore_Ni%C3%A9pce",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Nic%C3%A9phore_Ni%C3%A9pce&oldid=1370174298",
@@ -1366,19 +1200,19 @@
         "width": 330,
         "height": 412,
         "credit": {
-          "file": "Posthumous_portrait_of_Nicéphore_Niépce.jpg",
-          "artist": "Léonard François Berger",
+          "file": "Posthumous_portrait_of_Nic\u00e9phore_Ni\u00e9pce.jpg",
+          "artist": "L\u00e9onard Fran\u00e7ois Berger",
           "license": "Public domain",
           "licenseUrl": null,
           "filePage": "https://commons.wikimedia.org/wiki/File:Posthumous_portrait_of_Nic%C3%A9phore_Ni%C3%A9pce.jpg"
         }
       },
       "fragments": {
-        "A cousin, Claude Félix Abel Niépce de Saint-Victor (1805–1870), was a chemist an": "A cousin, Claude Félix Abel Niépce de Saint-Victor (1805–1870), was"
+        "A cousin, Claude F\u00e9lix Abel Ni\u00e9pce de Saint-Victor (1805\u20131870), was a chemist an": "A cousin, Claude F\u00e9lix Abel Ni\u00e9pce de Saint-Victor (1805\u20131870), was"
       }
     },
     "Abel-Ni-pce-de-Saint-Victor": {
-      "title": "Abel Niépce de Saint-Victor",
+      "title": "Abel Ni\u00e9pce de Saint-Victor",
       "description": "French photographic inventor",
       "revision": 1372566659,
       "url": "https://en.wikipedia.org/wiki/Abel_Ni%C3%A9pce_de_Saint-Victor",
@@ -1389,7 +1223,7 @@
         "width": 330,
         "height": 445,
         "credit": {
-          "file": "Claude_Félix_Abel_Niépce_de_Saint-Victor.jpg",
+          "file": "Claude_F\u00e9lix_Abel_Ni\u00e9pce_de_Saint-Victor.jpg",
           "artist": "Nadar",
           "license": "Public domain",
           "licenseUrl": null,
@@ -1402,7 +1236,7 @@
     },
     "Henri-Becquerel": {
       "title": "Henri Becquerel",
-      "description": "French physicist (1852–1908)",
+      "description": "French physicist (1852\u20131908)",
       "revision": 1377509069,
       "url": "https://en.wikipedia.org/wiki/Henri_Becquerel",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Henri_Becquerel&oldid=1377509069",
@@ -1444,6 +1278,7 @@
         }
       },
       "fragments": {
+        "The earliest human fossils found in caves come from a series of caves near Kruge": "The earliest human fossils found in caves come from a",
         "The first early hominid ever found in Africa, the Taung Child in 1924, was also ": "The first early hominid ever found in Africa, the Taung"
       }
     },
@@ -1468,8 +1303,6 @@
       },
       "fragments": {
         "In 1924, workers at the Buxton Limeworks in Taung, showed a fossilized primate s": "In 1924, workers at the Buxton Limeworks in Taung, showed",
-        "Only forty days after he first saw the fossil, Dart completed a paper that named": "Only forty days after he first saw the fossil, Dart",
-        "In the issue of Nature immediately following the one in which Dart's paper was p": "In the issue of Nature immediately following the one in",
         "There were several reasons that it took decades for the field to accept Dart's c": "There were several reasons that it took decades for the"
       }
     },
@@ -1605,7 +1438,7 @@
     },
     "John-Harrison": {
       "title": "John Harrison",
-      "description": "English clockmaker (1693–1776)",
+      "description": "English clockmaker (1693\u20131776)",
       "revision": 1376497394,
       "url": "https://en.wikipedia.org/wiki/John_Harrison",
       "permalink": "https://en.wikipedia.org/w/index.php?title=John_Harrison&oldid=1376497394",
@@ -1615,20 +1448,20 @@
         "width": 330,
         "height": 403,
         "credit": {
-          "file": "John_Harrison_(Gemälde).jpg",
-          "artist": "Thomas King († circa 1796date QS:P,+1796-00-00T00:00:00Z/9,P1480,Q5727902)",
+          "file": "John_Harrison_(Gem\u00e4lde).jpg",
+          "artist": "Thomas King (\u2020 circa 1796date QS:P,+1796-00-00T00:00:00Z/9,P1480,Q5727902)",
           "license": "Public domain",
           "licenseUrl": null,
           "filePage": "https://commons.wikimedia.org/wiki/File:John_Harrison_(Gem%C3%A4lde).jpg"
         }
       },
       "fragments": {
-        "In total, Harrison received £23,065 for his work on chronometers. He received £4": "In total, Harrison received £23,065 for his work on chronometers"
+        "In total, Harrison received \u00a323,065 for his work on chronometers. He received \u00a34": "In total, Harrison received \u00a323,065 for his work on chronometers"
       }
     },
     "James-Cook": {
       "title": "James Cook",
-      "description": "British explorer and naval officer (1728–1779)",
+      "description": "British explorer and naval officer (1728\u20131779)",
       "revision": 1378699996,
       "url": "https://en.wikipedia.org/wiki/James_Cook",
       "permalink": "https://en.wikipedia.org/w/index.php?title=James_Cook&oldid=1378699996",
@@ -1742,13 +1575,13 @@
       "snapshot": true,
       "image": null,
       "fragments": {
-        "After she recovered, she had permanent tenderness and pain at the scar site whic": "After she recovered, she had permanent tenderness and pain at",
+        "Escola had begun to restock the restaurant refrigerator with bottles of Coca-Col": "Escola had begun to restock the restaurant refrigerator with bottles",
         "Escola was represented at trial by legendary litigator Melvin Belli, then in the": "Escola was represented at trial by legendary litigator Melvin Belli"
       }
     },
     "Melvin-Belli": {
       "title": "Melvin Belli",
-      "description": "American lawyer (1907–1996)",
+      "description": "American lawyer (1907\u20131996)",
       "revision": 1375334594,
       "url": "https://en.wikipedia.org/wiki/Melvin_Belli",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Melvin_Belli&oldid=1375334594",
@@ -1766,8 +1599,8 @@
         }
       },
       "fragments": {
-        "After winning a court case, Belli would raise a Jolly Roger flag over his office": "After winning a court case, Belli would raise a Jolly",
-        "In 1969 a man called San Francisco police, identifying himself as the serial kil": "In 1969 a man called San Francisco police, identifying himself"
+        "Besides his personal injury cases, which earned for him his byname \"King of Tort": "Besides his personal injury cases, which earned for him his",
+        "After winning a court case, Belli would raise a Jolly Roger flag over his office": "After winning a court case, Belli would raise a Jolly"
       }
     },
     "Coffee": {
@@ -1805,7 +1638,7 @@
         "width": 330,
         "height": 248,
         "credit": {
-          "file": "Café_de_Flore.jpg",
+          "file": "Caf\u00e9_de_Flore.jpg",
           "artist": "Arnaud 25",
           "license": "Public domain",
           "licenseUrl": null,
@@ -1968,7 +1801,7 @@
         }
       },
       "fragments": {
-        "At about 11:00, a crowd of 50–60 men (as estimated by the Boston Evening Transcr": "At about 11:00, a crowd of 50–60 men (as estimated",
+        "At about 11:00, a crowd of 50\u201360 men (as estimated by the Boston Evening Transcr": "At about 11:00, a crowd of 50\u201360 men (as estimated",
         "At about midnight, the rioters set fire to the buildings, which burned to the gr": "At about midnight, the rioters set fire to the buildings"
       }
     },
@@ -2067,9 +1900,9 @@
     "Antikythera-mechanism": {
       "title": "Antikythera mechanism",
       "description": "Ancient Greek analogue astronomical computer",
-      "revision": 1377274051,
+      "revision": 1380887152,
       "url": "https://en.wikipedia.org/wiki/Antikythera_mechanism",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Antikythera_mechanism&oldid=1377274051",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Antikythera_mechanism&oldid=1380887152",
       "snapshot": true,
       "image": {
         "file": "snapshots/images/Antikythera-mechanism.webp",
@@ -2090,21 +1923,22 @@
     "Antikythera-wreck": {
       "title": "Antikythera wreck",
       "description": "Roman-era shipwreck",
-      "revision": 1362587595,
+      "revision": 1379974650,
       "url": "https://en.wikipedia.org/wiki/Antikythera_wreck",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Antikythera_wreck&oldid=1362587595",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Antikythera_wreck&oldid=1379974650",
       "snapshot": true,
       "image": null,
       "fragments": {
+        "Around Easter 1900, Captain Dimitrios Kondos and his crew of sponge divers from ": "Around Easter 1900, Captain Dimitrios Kondos and his crew of",
         "Some scholars speculated that the ship was carrying part of the loot of the Roma": "Some scholars speculated that the ship was carrying part of"
       }
     },
     "Jacques-Cousteau": {
       "title": "Jacques Cousteau",
-      "description": "French oceanographer and author (1910–1997)",
-      "revision": 1377425729,
+      "description": "French oceanographer and author (1910\u20131997)",
+      "revision": 1380192729,
       "url": "https://en.wikipedia.org/wiki/Jacques_Cousteau",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Jacques_Cousteau&oldid=1377425729",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Jacques_Cousteau&oldid=1380192729",
       "snapshot": true,
       "image": {
         "file": "snapshots/images/Jacques-Cousteau.webp",
@@ -2119,7 +1953,7 @@
         }
       },
       "fragments": {
-        "Cousteau was born on 11 June 1910, in Saint-André-de-Cubzac, Gironde, France, to": "Cousteau was born on 11 June 1910, in Saint-André-de-Cubzac, Gironde"
+        "During the 1940s, Cousteau is credited with improving the Aqua-Lung design which": "During the 1940s, Cousteau is credited with improving the Aqua-Lung"
       }
     },
     "Computer-mouse": {
@@ -2196,9 +2030,9 @@
     "Cotton": {
       "title": "Cotton",
       "description": "Plant fiber from the genus Gossypium",
-      "revision": 1375610201,
+      "revision": 1380660722,
       "url": "https://en.wikipedia.org/wiki/Cotton",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Cotton&oldid=1375610201",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Cotton&oldid=1380660722",
       "snapshot": true,
       "image": {
         "file": "snapshots/images/Cotton.webp",
@@ -2214,7 +2048,8 @@
       },
       "fragments": {
         "During the American Civil War, American cotton exports slumped due to a Union bl": "During the American Civil War, American cotton exports slumped due",
-        "Handheld roller cotton gins had been used in India since the 6th century, and wa": "Handheld roller cotton gins had been used in India since"
+        "Fragments of a cotton thread, used to connect a string of eight copper beads and": "Fragments of a cotton thread, used to connect a string",
+        "Production capacity in Britain and the United States was improved by the inventi": "Production capacity in Britain and the United States was improved"
       }
     },
     "Isma-il-Pasha-of-Egypt": {
@@ -2238,11 +2073,11 @@
       },
       "fragments": {
         "Isma'il launched vast schemes of internal reform on the scale of his grandfather": "Isma'il launched vast schemes of internal reform on the scale",
-        "A national debt of over £100 million sterling (as opposed to three millions when": "A national debt of over £100 million sterling (as opposed"
+        "A national debt of over \u00a3100 million sterling (as opposed to three millions when": "A national debt of over \u00a3100 million sterling (as opposed"
       }
     },
     "Suez-Company-1858-1997": {
-      "title": "Suez Company (1858–1997)",
+      "title": "Suez Company (1858\u20131997)",
       "description": "Transport company",
       "revision": 1359530051,
       "url": "https://en.wikipedia.org/wiki/Suez_Company_(1858%E2%80%931997)",
@@ -2265,32 +2100,9 @@
         "In 1879, Ismail was deposed by the Ottoman Sultan and replaced with Tawfiq. Tawf": "In 1879, Ismail was deposed by the Ottoman Sultan and"
       }
     },
-    "Cotton-gin": {
-      "title": "Cotton gin",
-      "description": "Machine that separates cotton from seeds",
-      "revision": 1378916260,
-      "url": "https://en.wikipedia.org/wiki/Cotton_gin",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Cotton_gin&oldid=1378916260",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Cotton-gin.webp",
-        "width": 330,
-        "height": 217,
-        "credit": {
-          "file": "Cotton_gin_EWM_2007.jpg",
-          "artist": "Tom Murphy VII",
-          "license": "Public domain",
-          "licenseUrl": null,
-          "filePage": "https://commons.wikimedia.org/wiki/File:Cotton_gin_EWM_2007.jpg"
-        }
-      },
-      "fragments": {
-        "A modern mechanical cotton gin was created by American inventor Eli Whitney in 1": "A modern mechanical cotton gin was created by American inventor"
-      }
-    },
     "Eli-Whitney": {
       "title": "Eli Whitney",
-      "description": "American inventor (1765–1825)",
+      "description": "American inventor (1765\u20131825)",
       "revision": 1372573496,
       "url": "https://en.wikipedia.org/wiki/Eli_Whitney",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Eli_Whitney&oldid=1372573496",
@@ -2308,6 +2120,7 @@
         }
       },
       "fragments": {
+        "By the late 1790s, Whitney was on the verge of bankruptcy and the cotton gin lit": "By the late 1790s, Whitney was on the verge of",
         "Whitney is most famous for two innovations which came to have significant impact": "Whitney is most famous for two innovations which came to"
       }
     },
@@ -2331,7 +2144,8 @@
         }
       },
       "fragments": {
-        "Eli Terry was using interchangeable parts using a milling machine as early as 18": "Eli Terry was using interchangeable parts using a milling machine"
+        "Charles Fitch credited Whitney with successfully executing a firearms contract w": "Charles Fitch credited Whitney with successfully executing a firearms contract",
+        "The very first mass production using interchangeable parts in America was Eli Te": "The very first mass production using interchangeable parts in America"
       }
     },
     "Dam": {
@@ -2394,7 +2208,7 @@
         "height": 318,
         "credit": {
           "file": "Toulouse_,_moulin_de_Bazacle_-_Fonds_Trutat_-_MHNT.PHa.8517.05.08_(cropped).jpg",
-          "artist": "Eugène Trutat",
+          "artist": "Eug\u00e8ne Trutat",
           "license": "Public domain",
           "licenseUrl": null,
           "filePage": "https://commons.wikimedia.org/wiki/File:Toulouse_%2C_moulin_de_Bazacle_-_Fonds_Trutat_-_MHNT.PHa.8517.05.08_(cropped).jpg"
@@ -2404,68 +2218,6 @@
         "In order to raise the capital needed for the construction of these dams, the mil": "In order to raise the capital needed for the construction",
         "The dividend, paid in kind, was equivalent to 120,000 pounds of flour per year i": "The dividend, paid in kind, was equivalent to 120,000 pounds",
         "In 1886, it converted into of one of the first hydroelectric plants in France an": "In 1886, it converted into of one of the first"
-      }
-    },
-    "Dead-Sea": {
-      "title": "Dead Sea",
-      "description": "Salt lake in the Levant",
-      "revision": 1378258115,
-      "url": "https://en.wikipedia.org/wiki/Dead_Sea",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Dead_Sea&oldid=1378258115",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Dead-Sea.webp",
-        "width": 330,
-        "height": 248,
-        "credit": {
-          "file": "Dead_Sea_beach_00.JPG",
-          "artist": "لا روسا",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "filePage": "https://commons.wikimedia.org/wiki/File:Dead_Sea_beach_00.JPG"
-        }
-      },
-      "fragments": {
-        "After the find of the \"Moabite Stone\" in 1868 on the plateau east of the Dead Se": "After the find of the \"Moabite Stone\" in 1868 on"
-      }
-    },
-    "Moses-Wilhelm-Shapira": {
-      "title": "Moses Wilhelm Shapira",
-      "description": "19th-century antiquities dealer",
-      "revision": 1368355089,
-      "url": "https://en.wikipedia.org/wiki/Moses_Wilhelm_Shapira",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Moses_Wilhelm_Shapira&oldid=1368355089",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Moses-Wilhelm-Shapira.webp",
-        "width": 256,
-        "height": 569,
-        "credit": {
-          "file": "MosesShapira.jpg",
-          "artist": "Unknown author",
-          "license": "Public domain",
-          "licenseUrl": null,
-          "filePage": "https://commons.wikimedia.org/wiki/File:MosesShapira.jpg"
-        }
-      },
-      "fragments": {
-        "Since German archaeologists had not gained possession of the Moabite Stone, they": "Since German archaeologists had not gained possession of the Moabite",
-        "The Hebrew text hinted at a different version of Deuteronomy, including a surpri": "The Hebrew text hinted at a different version of Deuteronomy",
-        "However, Clermont-Ganneau also attended the exhibition; Shapira had denied him a": "However, Clermont-Ganneau also attended the exhibition; Shapira had denied him",
-        "Shapira fled London in despair, his name ruined and all of his hopes crushed. Ha": "Shapira fled London in despair, his name ruined and all",
-        "In light of the discovery of the Dead Sea Scrolls in 1947, some scholars have ca": "In light of the discovery of the Dead Sea Scrolls"
-      }
-    },
-    "Dead-Sea-Scrolls": {
-      "title": "Dead Sea Scrolls",
-      "description": "Ancient Jewish biblical manuscripts",
-      "revision": 1380454965,
-      "url": "https://en.wikipedia.org/wiki/Dead_Sea_Scrolls",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Dead_Sea_Scrolls&oldid=1380454965",
-      "snapshot": true,
-      "image": null,
-      "fragments": {
-        "The Dead Sea Scrolls were discovered in a series of 12 caves around the site ori": "The Dead Sea Scrolls were discovered in a series of"
       }
     },
     "Dodo": {
@@ -2489,15 +2241,18 @@
       },
       "fragments": {
         "One dodo was reportedly sent as far as Nagasaki, Japan, in 1647, but it was long": "One dodo was reportedly sent as far as Nagasaki, Japan",
-        "The dodo (Raphus cucullatus) is an extinct flightless bird that was endemic to M": "The dodo (Raphus cucullatus) is an extinct flightless bird that"
+        "The only known soft tissue remains, the Oxford head (specimen OUM 11605) and foo": "The only known soft tissue remains, the Oxford head (specimen",
+        "In 1865, the same year that George Clark started to publish reports about excava": "In 1865, the same year that George Clark started to",
+        "The dodo was variously declared a small ostrich, a rail, an albatross, or a vult": "The dodo was variously declared a small ostrich, a rail",
+        "The dodo's closest relative was the also-extinct and flightless Rodrigues solita": "The dodo's closest relative was the also-extinct and flightless Rodrigues"
       }
     },
     "Bezoar": {
       "title": "Bezoar",
       "description": "Mass found trapped in or adjacent to the gastrointestinal system",
-      "revision": 1375403563,
+      "revision": 1381122898,
       "url": "https://en.wikipedia.org/wiki/Bezoar",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Bezoar&oldid=1375403563",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Bezoar&oldid=1381122898",
       "snapshot": true,
       "image": {
         "file": "snapshots/images/Bezoar.webp",
@@ -2512,33 +2267,53 @@
         }
       },
       "fragments": {
-        "The word bezoar is derived from the Persian pād-zahr (پادزهر), literally 'antido": "The word bezoar is derived from the Persian pād-zahr (پادزهر)",
-        "A cook in the King's court was sentenced to death and chose to be poisoned rathe": "A cook in the King's court was sentenced to death",
-        "Modern examinations of the properties of bezoars by Gustaf Arrhenius and Andrew ": "Modern examinations of the properties of bezoars by Gustaf Arrhenius",
-        "A famous case in the common law of England (Chandelor v Lopus, 79 Eng Rep. 3, Cr": "A famous case in the common law of England (Chandelor"
+        "Bezoars were important objects in Holy Roman Emperor Rudolf II's cabinets of cur": "Bezoars were important objects in Holy Roman Emperor Rudolf II's"
       }
     },
-    "Chandelor-v-Lopus": {
-      "title": "Chandelor v Lopus",
-      "description": "1603 English common law case",
-      "revision": 1319592019,
-      "url": "https://en.wikipedia.org/wiki/Chandelor_v_Lopus",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Chandelor_v_Lopus&oldid=1319592019",
+    "Cabinet-of-curiosities": {
+      "title": "Cabinet of curiosities",
+      "description": "Collection of notable objects",
+      "revision": 1369796678,
+      "url": "https://en.wikipedia.org/wiki/Cabinet_of_curiosities",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Cabinet_of_curiosities&oldid=1369796678",
       "snapshot": true,
       "image": {
-        "file": "snapshots/images/Chandelor-v-Lopus.webp",
+        "file": "snapshots/images/Cabinet-of-curiosities.webp",
         "width": 330,
-        "height": 248,
+        "height": 258,
         "credit": {
-          "file": "Bezoars_Schatzkammer_München.JPG",
-          "artist": "Schtone",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-          "filePage": "https://commons.wikimedia.org/wiki/File:Bezoars_Schatzkammer_M%C3%BCnchen.JPG"
+          "file": "Museum_Wormiani_Historia_1655_Wellcome_L0000128.jpg",
+          "artist": "Ole Worm",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Museum_Wormiani_Historia_1655_Wellcome_L0000128.jpg"
         }
       },
       "fragments": {
-        "The Exchequer Court held the buyer had no right to his money back, saying \"the b": "The Exchequer Court held the buyer had no right to"
+        "Father and son, in addition to botanical specimens, collected zoological (e.g., ": "Father and son, in addition to botanical specimens, collected zoological"
+      }
+    },
+    "Dodo-Alice-s-Adventures-in-Wonderland": {
+      "title": "Dodo (Alice's Adventures in Wonderland)",
+      "description": "Fictional character created by Lewis Carroll",
+      "revision": 1377845111,
+      "url": "https://en.wikipedia.org/wiki/Dodo_(Alice's_Adventures_in_Wonderland)",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Dodo_(Alice's_Adventures_in_Wonderland)&oldid=1377845111",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Dodo-Alice-s-Adventures-in-Wonderland.webp",
+        "width": 330,
+        "height": 377,
+        "credit": {
+          "file": "Alice_par_John_Tenniel_09.png",
+          "artist": "John Tenniel (28 f\u00e9vrier 1820 \u2013 25 f\u00e9vrier 1914)",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:Alice_par_John_Tenniel_09.png"
+        }
+      },
+      "fragments": {
+        "In order to get dry after a swim, the Dodo proposes that everyone run a Caucus r": "In order to get dry after a swim, the Dodo"
       }
     },
     "Rodrigues-solitaire": {
@@ -2554,16 +2329,15 @@
         "height": 528,
         "credit": {
           "file": "Pezophaps_solitaria_-_2.jpg",
-          "artist": "Emőke Dénes",
+          "artist": "Em\u0151ke D\u00e9nes",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "filePage": "https://commons.wikimedia.org/wiki/File:Pezophaps_solitaria_-_2.jpg"
         }
       },
       "fragments": {
-        "Observations of the Rodrigues solitaire in life indicate that they were highly t": "Observations of the Rodrigues solitaire in life indicate that they",
         "The Rodrigues solitaire probably became extinct sometime between the 1730s and 1": "The Rodrigues solitaire probably became extinct sometime between the 1730s",
-        "The French astronomer Alexandre Guy Pingré did not encounter any solitaires when": "The French astronomer Alexandre Guy Pingré did not encounter any"
+        "The French astronomer Alexandre Guy Pingr\u00e9 did not encounter any solitaires when": "The French astronomer Alexandre Guy Pingr\u00e9 did not encounter any"
       }
     },
     "Turdus-Solitarius": {
@@ -2593,9 +2367,9 @@
     "Dollar": {
       "title": "Dollar",
       "description": "Name of monetary currency",
-      "revision": 1379701587,
+      "revision": 1381346205,
       "url": "https://en.wikipedia.org/wiki/Dollar",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Dollar&oldid=1379701587",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Dollar&oldid=1381346205",
       "snapshot": true,
       "image": {
         "file": "snapshots/images/Dollar.webp",
@@ -2610,11 +2384,12 @@
         }
       },
       "fragments": {
+        "The name 'dollar' originates from the thaler, which was the name of a 29-gram (1": "The name 'dollar' originates from the thaler, which was the",
         "On 15 January 1520, the Kingdom of Bohemia began minting coins from silver mined": "On 15 January 1520, the Kingdom of Bohemia began minting"
       }
     },
     "J-chymov": {
-      "title": "Jáchymov",
+      "title": "J\u00e1chymov",
       "description": "Town in Karlovy Vary, Czech Republic",
       "revision": 1378402595,
       "url": "https://en.wikipedia.org/wiki/J%C3%A1chymov",
@@ -2625,7 +2400,7 @@
         "width": 330,
         "height": 199,
         "credit": {
-          "file": "Jáchymov_2016_a.jpg",
+          "file": "J\u00e1chymov_2016_a.jpg",
           "artist": "Devilsanddust",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -2634,8 +2409,7 @@
       },
       "fragments": {
         "At the end of the 19th century, Becquerel discovered that uranyl potassium sulfa": "At the end of the 19th century, Becquerel discovered that",
-        "Until World War I, this was the foremost source of radium in the world. In 1929,": "Until World War I, this was the foremost source of",
-        "In 1864, a spring of radon-rich water was discovered in Jáchymov. The world's fi": "In 1864, a spring of radon-rich water was discovered in"
+        "In 1864, a spring of radon-rich water was discovered in J\u00e1chymov. The world's fi": "In 1864, a spring of radon-rich water was discovered in"
       }
     },
     "Radon": {
@@ -2658,15 +2432,15 @@
         }
       },
       "fragments": {
-        "The danger of high exposure to radon in mines, where exposures can reach 1,000,0": "The danger of high exposure to radon in mines, where"
+        "Radioactive water baths have been applied since 1906 in J\u00e1chymov, Czech Republic": "Radioactive water baths have been applied since 1906 in J\u00e1chymov"
       }
     },
     "Drum-kit": {
       "title": "Drum kit",
       "description": "Musical instrument consisting of a collection of percussion instruments",
-      "revision": 1379041565,
+      "revision": 1380795863,
       "url": "https://en.wikipedia.org/wiki/Drum_kit",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Drum_kit&oldid=1379041565",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Drum_kit&oldid=1380795863",
       "snapshot": true,
       "image": {
         "file": "snapshots/images/Drum-kit.webp",
@@ -2681,6 +2455,7 @@
         }
       },
       "fragments": {
+        "Budget constraints and space considerations in musical theater pit orchestras le": "Budget constraints and space considerations in musical theater pit orchestras",
         "In most drum kits and drum/percussion kits, cymbals are as prominent as the drum": "In most drum kits and drum/percussion kits, cymbals are as"
       }
     },
@@ -2705,14 +2480,13 @@
       },
       "fragments": {
         "The first Zildjian cymbals were created in 1618 by Avedis Zildjian, an Armenian ": "The first Zildjian cymbals were created in 1618 by Avedis",
-        "After Avedis died, the business, and the secret for producing the metal, was han": "After Avedis died, the business, and the secret for producing",
         "Haroutune II's son Avedis III had left Armenia for the United States in 1909, an": "Haroutune II's son Avedis III had left Armenia for the",
         "Avedis III sought out jazz drummers such as Gene Krupa to understand their needs": "Avedis III sought out jazz drummers such as Gene Krupa"
       }
     },
     "Gene-Krupa": {
       "title": "Gene Krupa",
-      "description": "American jazz drummer and bandleader (1909–1973)",
+      "description": "American jazz drummer and bandleader (1909\u20131973)",
       "revision": 1376906352,
       "url": "https://en.wikipedia.org/wiki/Gene_Krupa",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Gene_Krupa&oldid=1376906352",
@@ -2730,6 +2504,7 @@
         }
       },
       "fragments": {
+        "Krupa is widely regarded as one of the most influential drummers in the history ": "Krupa is widely regarded as one of the most influential",
         "Krupa developed and popularized many of the cymbal techniques that became standa": "Krupa developed and popularized many of the cymbal techniques that"
       }
     },
@@ -2758,7 +2533,7 @@
     },
     "Giovanni-Domenico-Cassini": {
       "title": "Giovanni Domenico Cassini",
-      "description": "Mathematician and astronomer (1625–1712)",
+      "description": "Mathematician and astronomer (1625\u20131712)",
       "revision": 1377089018,
       "url": "https://en.wikipedia.org/wiki/Giovanni_Domenico_Cassini",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Giovanni_Domenico_Cassini&oldid=1377089018",
@@ -2781,8 +2556,8 @@
       }
     },
     "C-sar-Fran-ois-Cassini-de-Thury": {
-      "title": "César-François Cassini de Thury",
-      "description": "French cartographer and astronomer (1714–1784)",
+      "title": "C\u00e9sar-Fran\u00e7ois Cassini de Thury",
+      "description": "French cartographer and astronomer (1714\u20131784)",
       "revision": 1371983006,
       "url": "https://en.wikipedia.org/wiki/C%C3%A9sar-Fran%C3%A7ois_Cassini_de_Thury",
       "permalink": "https://en.wikipedia.org/w/index.php?title=C%C3%A9sar-Fran%C3%A7ois_Cassini_de_Thury&oldid=1371983006",
@@ -2792,7 +2567,7 @@
         "width": 330,
         "height": 387,
         "credit": {
-          "file": "César-François_Cassini_-_Jean-Marc_Nattier.jpg",
+          "file": "C\u00e9sar-Fran\u00e7ois_Cassini_-_Jean-Marc_Nattier.jpg",
           "artist": "Jean-Marc Nattier",
           "license": "Public domain",
           "licenseUrl": null,
@@ -2804,7 +2579,7 @@
       }
     },
     "Anglo-French-Survey-1784-1790": {
-      "title": "Anglo-French Survey (1784–1790)",
+      "title": "Anglo-French Survey (1784\u20131790)",
       "description": "Survey of the distance between Greenwich and Paris",
       "revision": 1356048843,
       "url": "https://en.wikipedia.org/wiki/Anglo-French_Survey_(1784%E2%80%931790)",
@@ -2830,7 +2605,7 @@
         "height": 495,
         "credit": {
           "file": "African_Bush_Elephant.jpg",
-          "artist": "Muhammad Mahdi Karim Facebook The making of this document was supported by Wikimedia CH. (Submit your project!) For all the files concerned, please see the category Supported by Wikimedia CH. العربية ∙ বাংলা ∙ čeština ∙ Deutsch ∙ English ∙ Esperanto ∙ español ∙ français ∙ galego ∙ हिन्दी ∙ magyar ∙ italiano ∙ 日本語 ∙ македонски ∙ Nederlands ∙ português do Brasil ∙ rumantsch ∙ русский ∙ sicilianu ∙ slovenščina ∙ தமிழ் ∙ українська ∙ 中文 ∙ +/−",
+          "artist": "Muhammad Mahdi Karim Facebook The making of this document was supported by Wikimedia CH. (Submit your project!) For all the files concerned, please see the category Supported by Wikimedia CH. \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u2219 \u09ac\u09be\u0982\u09b2\u09be \u2219 \u010de\u0161tina \u2219 Deutsch \u2219 English \u2219 Esperanto \u2219 espa\u00f1ol \u2219 fran\u00e7ais \u2219 galego \u2219 \u0939\u093f\u0928\u094d\u0926\u0940 \u2219 magyar \u2219 italiano \u2219 \u65e5\u672c\u8a9e \u2219 \u043c\u0430\u043a\u0435\u0434\u043e\u043d\u0441\u043a\u0438 \u2219 Nederlands \u2219 portugu\u00eas do Brasil \u2219 rumantsch \u2219 \u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u2219 sicilianu \u2219 sloven\u0161\u010dina \u2219 \u0ba4\u0bae\u0bbf\u0bb4\u0bcd \u2219 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 \u2219 \u4e2d\u6587 \u2219 +/\u2212",
           "license": "GFDL 1.2",
           "licenseUrl": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
           "filePage": "https://commons.wikimedia.org/wiki/File:African_Bush_Elephant.jpg"
@@ -2938,7 +2713,7 @@
         "height": 186,
         "credit": {
           "file": "RedStarOS-2021-04-03-16-50-57.png",
-          "artist": "OS by Korea Computer Center/Screenshot by PantheraLeo1359531 😺 (talk)",
+          "artist": "OS by Korea Computer Center/Screenshot by PantheraLeo1359531 \ud83d\ude3a (talk)",
           "license": "GPL",
           "licenseUrl": "http://www.gnu.org/licenses/gpl.html",
           "filePage": "https://commons.wikimedia.org/wiki/File:RedStarOS-2021-04-03-16-50-57.png"
@@ -2973,7 +2748,7 @@
     },
     "Apsley-Cherry-Garrard": {
       "title": "Apsley Cherry-Garrard",
-      "description": "English polar explorer (1886–1959)",
+      "description": "English polar explorer (1886\u20131959)",
       "revision": 1372617715,
       "url": "https://en.wikipedia.org/wiki/Apsley_Cherry-Garrard",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Apsley_Cherry-Garrard&oldid=1372617715",
@@ -3040,12 +2815,13 @@
         }
       },
       "fragments": {
-        "In 1770, the English optician and scientific instrument maker Edward Nairne repo": "In 1770, the English optician and scientific instrument maker Edward"
+        "Before rubber erasers used today, tablets of wax were used to erase lead or char": "Before rubber erasers used today, tablets of wax were used",
+        "Nairne sold natural rubber erasers for the high price of three shillings per hal": "Nairne sold natural rubber erasers for the high price of"
       }
     },
     "Joseph-Priestley": {
       "title": "Joseph Priestley",
-      "description": "English chemist and polymath (1733–1804)",
+      "description": "English chemist and polymath (1733\u20131804)",
       "revision": 1375145083,
       "url": "https://en.wikipedia.org/wiki/Joseph_Priestley",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Joseph_Priestley&oldid=1375145083",
@@ -3063,35 +2839,12 @@
         }
       },
       "fragments": {
-        "Priestley is credited with his independent discovery of oxygen by the thermal de": "Priestley is credited with his independent discovery of oxygen by"
-      }
-    },
-    "Carbonated-water": {
-      "title": "Carbonated water",
-      "description": "Water containing dissolved carbon dioxide gas",
-      "revision": 1378014099,
-      "url": "https://en.wikipedia.org/wiki/Carbonated_water",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Carbonated_water&oldid=1378014099",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Carbonated-water.webp",
-        "width": 258,
-        "height": 240,
-        "credit": {
-          "file": "Drinking_glass_00118.gif",
-          "artist": "Nevit Dilmen (talk)",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-          "filePage": "https://commons.wikimedia.org/wiki/File:Drinking_glass_00118.gif"
-        }
-      },
-      "fragments": {
-        "While Priestley's discovery ultimately led to the creation of the soft drink ind": "While Priestley's discovery ultimately led to the creation of the"
+        "Priestley was considered for the position of astronomer on James Cook's second v": "Priestley was considered for the position of astronomer on James"
       }
     },
     "Johann-Jacob-Schweppe": {
       "title": "Johann Jacob Schweppe",
-      "description": "German-Swiss scientist (1740–1821)",
+      "description": "German-Swiss scientist (1740\u20131821)",
       "revision": 1351301726,
       "url": "https://en.wikipedia.org/wiki/Johann_Jacob_Schweppe",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Johann_Jacob_Schweppe&oldid=1351301726",
@@ -3137,7 +2890,7 @@
     },
     "Alphonse-Bertillon": {
       "title": "Alphonse Bertillon",
-      "description": "French police officer and biometrics researcher (1853–1914)",
+      "description": "French police officer and biometrics researcher (1853\u20131914)",
       "revision": 1378282145,
       "url": "https://en.wikipedia.org/wiki/Alphonse_Bertillon",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Alphonse_Bertillon&oldid=1378282145",
@@ -3147,7 +2900,7 @@
         "width": 330,
         "height": 204,
         "credit": {
-          "file": "Bertillon,_Alphonse,_fiche_anthropométrique_recto-verso_(cropped).jpg",
+          "file": "Bertillon,_Alphonse,_fiche_anthropom\u00e9trique_recto-verso_(cropped).jpg",
           "artist": "Jebulon",
           "license": "CC0",
           "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
@@ -3161,8 +2914,8 @@
       }
     },
     "Henri-Poincar": {
-      "title": "Henri Poincaré",
-      "description": "French mathematician, physicist and engineer (1854–1912)",
+      "title": "Henri Poincar\u00e9",
+      "description": "French mathematician, physicist and engineer (1854\u20131912)",
       "revision": 1379312708,
       "url": "https://en.wikipedia.org/wiki/Henri_Poincar%C3%A9",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Henri_Poincar%C3%A9&oldid=1379312708",
@@ -3208,7 +2961,7 @@
     },
     "Jan-Baptist-van-Helmont": {
       "title": "Jan Baptist van Helmont",
-      "description": "Chemist and physician (1580–1644)",
+      "description": "Chemist and physician (1580\u20131644)",
       "revision": 1376368236,
       "url": "https://en.wikipedia.org/wiki/Jan_Baptist_van_Helmont",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Jan_Baptist_van_Helmont&oldid=1376368236",
@@ -3257,9 +3010,9 @@
     "Fog": {
       "title": "Fog",
       "description": "Atmospheric phenomenon",
-      "revision": 1373063156,
+      "revision": 1381070701,
       "url": "https://en.wikipedia.org/wiki/Fog",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Fog&oldid=1373063156",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Fog&oldid=1381070701",
       "snapshot": true,
       "image": {
         "file": "snapshots/images/Fog.webp",
@@ -3274,6 +3027,7 @@
         }
       },
       "fragments": {
+        "The aviation travel industry is affected by the severity of fog conditions. Even": "The aviation travel industry is affected by the severity of",
         "A solution for landing returning military aircraft developed in World War II was": "A solution for landing returning military aircraft developed in World"
       }
     },
@@ -3297,14 +3051,13 @@
         }
       },
       "fragments": {
-        "Before the introduction of FIDO, fog had been responsible for losses of a number": "Before the introduction of FIDO, fog had been responsible for",
         "When FIDO was needed, the fuel pumps were started to pour flammable liquid into ": "When FIDO was needed, the fuel pumps were started to",
         "The device was developed by Arthur Hartley for British RAF bomber stations, allo": "The device was developed by Arthur Hartley for British RAF"
       }
     },
     "Arthur-Hartley": {
       "title": "Arthur Hartley",
-      "description": "British civil engineer (1889–1960)",
+      "description": "British civil engineer (1889\u20131960)",
       "revision": 1370285049,
       "url": "https://en.wikipedia.org/wiki/Arthur_Hartley",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Arthur_Hartley&oldid=1370285049",
@@ -3327,7 +3080,7 @@
     },
     "Operation-Pluto": {
       "title": "Operation Pluto",
-      "description": "Undersea oil pipeline operation in World War II (1939–45)",
+      "description": "Undersea oil pipeline operation in World War II (1939\u201345)",
       "revision": 1364681052,
       "url": "https://en.wikipedia.org/wiki/Operation_Pluto",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Operation_Pluto&oldid=1364681052",
@@ -3398,7 +3151,7 @@
     },
     "John-Stevens-Henslow": {
       "title": "John Stevens Henslow",
-      "description": "British botanist, geologist, and priest (1796–1861)",
+      "description": "British botanist, geologist, and priest (1796\u20131861)",
       "revision": 1369561832,
       "url": "https://en.wikipedia.org/wiki/John_Stevens_Henslow",
       "permalink": "https://en.wikipedia.org/w/index.php?title=John_Stevens_Henslow&oldid=1369561832",
@@ -3455,7 +3208,7 @@
         "width": 330,
         "height": 495,
         "credit": {
-          "file": "Jet_d'eau_de_Genève_(swiss).jpg",
+          "file": "Jet_d'eau_de_Gen\u00e8ve_(swiss).jpg",
           "artist": "Wikibusters",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -3463,7 +3216,7 @@
         }
       },
       "fragments": {
-        "The first Jet d'Eau was installed in 1886 at the Usine de la Coulouvrenière, a l": "The first Jet d'Eau was installed in 1886 at the"
+        "The first Jet d'Eau was installed in 1886 at the Usine de la Coulouvreni\u00e8re, a l": "The first Jet d'Eau was installed in 1886 at the"
       }
     },
     "Hydraulic-power-network": {
@@ -3492,7 +3245,7 @@
     },
     "London-Hydraulic-Power-Company": {
       "title": "London Hydraulic Power Company",
-      "description": "Former UK business 1883–1977",
+      "description": "Former UK business 1883\u20131977",
       "revision": 1328270715,
       "url": "https://en.wikipedia.org/wiki/London_Hydraulic_Power_Company",
       "permalink": "https://en.wikipedia.org/w/index.php?title=London_Hydraulic_Power_Company&oldid=1328270715",
@@ -3551,7 +3304,7 @@
     },
     "Han-van-Meegeren": {
       "title": "Han van Meegeren",
-      "description": "Dutch painter and art forger (1889–1947)",
+      "description": "Dutch painter and art forger (1889\u20131947)",
       "revision": 1380478517,
       "url": "https://en.wikipedia.org/wiki/Han_van_Meegeren",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Han_van_Meegeren&oldid=1380478517",
@@ -3586,14 +3339,14 @@
         "height": 320,
         "credit": {
           "file": "Bakelit_Struktur.svg",
-          "artist": "Original: MarkusZi Vector: Dirk Hünniger",
+          "artist": "Original: MarkusZi Vector: Dirk H\u00fcnniger",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
           "filePage": "https://commons.wikimedia.org/wiki/File:Bakelit_Struktur.svg"
         }
       },
       "fragments": {
-        "Bakelite (/ˈbeɪkəlaɪt/ BAY-kə-lyte) is the first plastic made from synthetic com": "Bakelite (/ˈbeɪkəlaɪt/ BAY-kə-lyte) is the first plastic made from synthetic",
+        "Bakelite (/\u02c8be\u026ak\u0259la\u026at/ BAY-k\u0259-lyte) is the first plastic made from synthetic com": "Bakelite (/\u02c8be\u026ak\u0259la\u026at/ BAY-k\u0259-lyte) is the first plastic made from synthetic",
         "After its invention, Bakelite became a commercial success because it could be mo": "After its invention, Bakelite became a commercial success because it"
       }
     },
@@ -3704,7 +3457,7 @@
     },
     "Isaac-Newton": {
       "title": "Isaac Newton",
-      "description": "English polymath (1642–1727)",
+      "description": "English polymath (1642\u20131727)",
       "revision": 1378734104,
       "url": "https://en.wikipedia.org/wiki/Isaac_Newton",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Isaac_Newton&oldid=1378734104",
@@ -3806,8 +3559,8 @@
         "width": 330,
         "height": 415,
         "credit": {
-          "file": "Palaquium_gutta_-_Köhler–s_Medizinal-Pflanzen-099.jpg",
-          "artist": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+          "file": "Palaquium_gutta_-_K\u00f6hler\u2013s_Medizinal-Pflanzen-099.jpg",
+          "artist": "Franz Eugen K\u00f6hler, K\u00f6hler's Medizinal-Pflanzen",
           "license": "Public domain",
           "licenseUrl": null,
           "filePage": "https://commons.wikimedia.org/wiki/File:Palaquium_gutta_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-099.jpg"
@@ -3815,31 +3568,30 @@
       },
       "fragments": {
         "Gutta-percha was particularly important for the manufacture of underwater telegr": "Gutta-percha was particularly important for the manufacture of underwater telegraph",
-        "Gutta-percha was used in canes and walking sticks. In 1856, United States Repres": "Gutta-percha was used in canes and walking sticks. In 1856"
+        "By 1845, telegraph wires insulated with gutta-percha were being manufactured in ": "By 1845, telegraph wires insulated with gutta-percha were being manufactured"
       }
     },
-    "Caning-of-Charles-Sumner": {
-      "title": "Caning of Charles Sumner",
-      "description": "Attack of US Senator by a Representative in 1856",
-      "revision": 1376415758,
-      "url": "https://en.wikipedia.org/wiki/Caning_of_Charles_Sumner",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Caning_of_Charles_Sumner&oldid=1376415758",
+    "Transatlantic-telegraph-cable": {
+      "title": "Transatlantic telegraph cable",
+      "description": "Former undersea telegraph cable",
+      "revision": 1379924695,
+      "url": "https://en.wikipedia.org/wiki/Transatlantic_telegraph_cable",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Transatlantic_telegraph_cable&oldid=1379924695",
       "snapshot": true,
       "image": {
-        "file": "snapshots/images/Caning-of-Charles-Sumner.webp",
+        "file": "snapshots/images/Transatlantic-telegraph-cable.webp",
         "width": 330,
-        "height": 218,
+        "height": 230,
         "credit": {
-          "file": "Southern_Chivalry.jpg",
-          "artist": "After John L. Magee",
+          "file": "Landing_of_the_Atlantic_Cable_of_1866,_Heart's_Content,_Newfoundland.jpg",
+          "artist": "Robert Charles Dudley",
           "license": "Public domain",
           "licenseUrl": null,
-          "filePage": "https://commons.wikimedia.org/wiki/File:Southern_Chivalry.jpg"
+          "filePage": "https://commons.wikimedia.org/wiki/File:Landing_of_the_Atlantic_Cable_of_1866%2C_Heart's_Content%2C_Newfoundland.jpg"
         }
       },
       "fragments": {
-        "As Sumner began to stand up, Brooks beat Sumner severely on the head before he c": "As Sumner began to stand up, Brooks beat Sumner severely",
-        "Southern lawmakers made rings out of the other pieces Edmundson recovered from t": "Southern lawmakers made rings out of the other pieces Edmundson"
+        "The messages were hard to decipher; Queen Victoria's message of 98 words took 16": "The messages were hard to decipher; Queen Victoria's message of"
       }
     },
     "Great-Pyramid-of-Giza": {
@@ -3867,7 +3619,7 @@
     },
     "Flinders-Petrie": {
       "title": "Flinders Petrie",
-      "description": "British Egyptologist (1853–1942)",
+      "description": "British Egyptologist (1853\u20131942)",
       "revision": 1373549821,
       "url": "https://en.wikipedia.org/wiki/Flinders_Petrie",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Flinders_Petrie&oldid=1373549821",
@@ -3890,7 +3642,7 @@
     },
     "Charles-Piazzi-Smyth": {
       "title": "Charles Piazzi Smyth",
-      "description": "British astronomer (1819–1900)",
+      "description": "British astronomer (1819\u20131900)",
       "revision": 1379534858,
       "url": "https://en.wikipedia.org/wiki/Charles_Piazzi_Smyth",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Charles_Piazzi_Smyth&oldid=1379534858",
@@ -3963,170 +3715,6 @@
         "Meanwhile, the Eyes on the Screen campaign had been endorsed by groups such as t": "Meanwhile, the Eyes on the Screen campaign had been endorsed"
       }
     },
-    "Heart": {
-      "title": "Heart",
-      "description": "Organ found in humans and other animals",
-      "revision": 1378398002,
-      "url": "https://en.wikipedia.org/wiki/Heart",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Heart&oldid=1378398002",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Heart.webp",
-        "width": 330,
-        "height": 499,
-        "credit": {
-          "file": "Heart_anterior_exterior_view.png",
-          "artist": "Jerm",
-          "license": "CC BY 2.5",
-          "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
-          "filePage": "https://commons.wikimedia.org/wiki/File:Heart_anterior_exterior_view.png"
-        }
-      },
-      "fragments": {
-        "Louis Washkansky, the first recipient of a donated heart, died 18 days after the": "Louis Washkansky, the first recipient of a donated heart, died"
-      }
-    },
-    "Vladimir-Demikhov": {
-      "title": "Vladimir Demikhov",
-      "description": "Soviet organ transplantation pioneer",
-      "revision": 1379239403,
-      "url": "https://en.wikipedia.org/wiki/Vladimir_Demikhov",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Vladimir_Demikhov&oldid=1379239403",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Vladimir-Demikhov.webp",
-        "width": 330,
-        "height": 367,
-        "credit": {
-          "file": "Heart_operation_on_Sklifosovsky_Instutute_(1968-01-25).jpg",
-          "artist": "Главархив Москвы",
-          "license": "CC BY 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-          "filePage": "https://commons.wikimedia.org/wiki/File:Heart_operation_on_Sklifosovsky_Instutute_(1968-01-25).jpg"
-        }
-      },
-      "fragments": {
-        "He is also well known for his dog head transplants, which he conducted during th": "He is also well known for his dog head transplants",
-        "In 1934, Demikhov began studying at the Voronezh State University, where in 1937": "In 1934, Demikhov began studying at the Voronezh State University",
-        "In February 1954, he transplanted a dog's head onto another dog, using vascular ": "In February 1954, he transplanted a dog's head onto another",
-        "One admirer of his work was South African cardiac surgeon Christiaan Barnard, wh": "One admirer of his work was South African cardiac surgeon"
-      }
-    },
-    "Christiaan-Barnard": {
-      "title": "Christiaan Barnard",
-      "description": "South African cardiac surgeon (1922–2001)",
-      "revision": 1373378869,
-      "url": "https://en.wikipedia.org/wiki/Christiaan_Barnard",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Christiaan_Barnard&oldid=1373378869",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Christiaan-Barnard.webp",
-        "width": 330,
-        "height": 477,
-        "credit": {
-          "file": "Heart_transplant_pioneer_Barnard_here_on_Visit_(FL61733185).jpg",
-          "artist": "IPPA photographer",
-          "license": "CC BY 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-          "filePage": "https://commons.wikimedia.org/wiki/File:Heart_transplant_pioneer_Barnard_here_on_Visit_(FL61733185).jpg"
-        }
-      },
-      "fragments": {
-        "Barnard had experimentally transplanted forty-eight hearts into dogs, which was ": "Barnard had experimentally transplanted forty-eight hearts into dogs, which was"
-      }
-    },
-    "Horse": {
-      "title": "Horse",
-      "description": "Animal",
-      "revision": 1379264111,
-      "url": "https://en.wikipedia.org/wiki/Horse",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Horse&oldid=1379264111",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Horse.webp",
-        "width": 330,
-        "height": 227,
-        "credit": {
-          "file": "Nokota_Horses_cropped.jpg",
-          "artist": "Nokota_Horses.jpg: François Marchal derivative work: Dana boomer (talk)",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-          "filePage": "https://commons.wikimedia.org/wiki/File:Nokota_Horses_cropped.jpg"
-        }
-      },
-      "fragments": {
-        "Studies have indicated that horses perform a number of cognitive tasks on a dail": "Studies have indicated that horses perform a number of cognitive"
-      }
-    },
-    "Memory": {
-      "title": "Memory",
-      "description": "Faculty of mind to store and retrieve data",
-      "revision": 1377025593,
-      "url": "https://en.wikipedia.org/wiki/Memory",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Memory&oldid=1377025593",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Memory.webp",
-        "width": 330,
-        "height": 179,
-        "credit": {
-          "file": "Memory.gif",
-          "artist": "Bernhard Wenzl",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-          "filePage": "https://commons.wikimedia.org/wiki/File:Memory.gif"
-        }
-      },
-      "fragments": {
-        "Memorization is a method of learning that allows an individual to recall informa": "Memorization is a method of learning that allows an individual"
-      }
-    },
-    "Method-of-loci": {
-      "title": "Method of loci",
-      "description": "Memory techniques adopted in ancient Roman and Greek rhetorical treatises",
-      "revision": 1376634308,
-      "url": "https://en.wikipedia.org/wiki/Method_of_loci",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Method_of_loci&oldid=1376634308",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Method-of-loci.webp",
-        "width": 330,
-        "height": 215,
-        "credit": {
-          "file": "Cicero_Denounces_Catiline_in_the_Roman_Senate_by_Cesare_Maccari.png",
-          "artist": "Cesare Maccari",
-          "license": "Public domain",
-          "licenseUrl": null,
-          "filePage": "https://commons.wikimedia.org/wiki/File:Cicero_Denounces_Catiline_in_the_Roman_Senate_by_Cesare_Maccari.png"
-        }
-      },
-      "fragments": {
-        "The method of loci is traditionally associated with the Greek poet Simonides of ": "The method of loci is traditionally associated with the Greek"
-      }
-    },
-    "Simonides-of-Ceos": {
-      "title": "Simonides of Ceos",
-      "description": "Greek lyric poet (c. 556–468 BC)",
-      "revision": 1352230113,
-      "url": "https://en.wikipedia.org/wiki/Simonides_of_Ceos",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Simonides_of_Ceos&oldid=1352230113",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Simonides-of-Ceos.webp",
-        "width": 247,
-        "height": 328,
-        "credit": {
-          "file": "Nuremberg_chronicles_f_60r_3.png",
-          "artist": "Michel Wolgemut, Wilhelm Pleydenwurff; Text: Hartmann Schedel",
-          "license": "Public domain",
-          "licenseUrl": null,
-          "filePage": "https://commons.wikimedia.org/wiki/File:Nuremberg_chronicles_f_60r_3.png"
-        }
-      },
-      "fragments": {
-        "During the excavation of the rubble of Scopas's dining hall, Simonides was calle": "During the excavation of the rubble of Scopas's dining hall"
-      }
-    },
     "Hospital": {
       "title": "Hospital",
       "description": "Health care facility with specialized staff and equipment",
@@ -4174,8 +3762,8 @@
       }
     },
     "Jacques-Ren-Tenon": {
-      "title": "Jacques-René Tenon",
-      "description": "French surgeon (1724–1816)",
+      "title": "Jacques-Ren\u00e9 Tenon",
+      "description": "French surgeon (1724\u20131816)",
       "revision": 1378653284,
       "url": "https://en.wikipedia.org/wiki/Jacques-Ren%C3%A9_Tenon",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Jacques-Ren%C3%A9_Tenon&oldid=1378653284",
@@ -4185,18 +3773,17 @@
         "width": 330,
         "height": 434,
         "credit": {
-          "file": "Jacques_Tenon_à_90_ans.jpg",
-          "artist": "incertain - signé Noël Hallé",
+          "file": "Jacques_Tenon_\u00e0_90_ans.jpg",
+          "artist": "incertain - sign\u00e9 No\u00ebl Hall\u00e9",
           "license": "Public domain",
           "licenseUrl": null,
           "filePage": "https://commons.wikimedia.org/wiki/File:Jacques_Tenon_%C3%A0_90_ans.jpg"
         }
       },
       "fragments": {
-        "In the 18th century, the Hôtel-Dieu was notoriously overcrowded, unsanitary, and": "In the 18th century, the Hôtel-Dieu was notoriously overcrowded, unsanitary",
         "In 1785, thirteen years after the 1772 fire, the project of the architect Bernar": "In 1785, thirteen years after the 1772 fire, the project",
-        "The Baron de Breteuil (1730–1807), acting for Louis XVI, instructed the Royal Ac": "The Baron de Breteuil (1730–1807), acting for Louis XVI, instructed",
-        "The 1786 report concluded that the situation of the Hôtel-Dieu was irremediable ": "The 1786 report concluded that the situation of the Hôtel-Dieu"
+        "The Baron de Breteuil (1730\u20131807), acting for Louis XVI, instructed the Royal Ac": "The Baron de Breteuil (1730\u20131807), acting for Louis XVI, instructed",
+        "The 1786 report concluded that the situation of the H\u00f4tel-Dieu was irremediable ": "The 1786 report concluded that the situation of the H\u00f4tel-Dieu"
       }
     },
     "Ice": {
@@ -4316,7 +3903,7 @@
     },
     "James-Croll": {
       "title": "James Croll",
-      "description": "Scottish scientist (1821–1890)",
+      "description": "Scottish scientist (1821\u20131890)",
       "revision": 1361648389,
       "url": "https://en.wikipedia.org/wiki/James_Croll",
       "permalink": "https://en.wikipedia.org/w/index.php?title=James_Croll&oldid=1361648389",
@@ -4339,8 +3926,8 @@
       }
     },
     "Milutin-Milankovi": {
-      "title": "Milutin Milanković",
-      "description": "Serbian scientist and professor (1879–1958)",
+      "title": "Milutin Milankovi\u0107",
+      "description": "Serbian scientist and professor (1879\u20131958)",
       "revision": 1380979512,
       "url": "https://en.wikipedia.org/wiki/Milutin_Milankovi%C4%87",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Milutin_Milankovi%C4%87&oldid=1380979512",
@@ -4350,7 +3937,7 @@
         "width": 270,
         "height": 389,
         "credit": {
-          "file": "Milutin_Milanković_2.jpg",
+          "file": "Milutin_Milankovi\u0107_2.jpg",
           "artist": "Unknown authorUnknown author",
           "license": "Public domain",
           "licenseUrl": null,
@@ -4359,7 +3946,7 @@
       },
       "fragments": {
         "They decided to go on their honeymoon to Switzerland, but before that they stopp": "They decided to go on their honeymoon to Switzerland, but",
-        "Immediately after arriving in Budapest, Milanković met the Director of the Libra": "Immediately after arriving in Budapest, Milanković met the Director of"
+        "Immediately after arriving in Budapest, Milankovi\u0107 met the Director of the Libra": "Immediately after arriving in Budapest, Milankovi\u0107 met the Director of"
       }
     },
     "Iceberg": {
@@ -4596,12 +4183,13 @@
         }
       },
       "fragments": {
+        "The outer atmosphere is divided into a series of latitudinal bands, with turbule": "The outer atmosphere is divided into a series of latitudinal",
         "The Great Red Spot may have been observed as early as 1664 by Robert Hooke and i": "The Great Red Spot may have been observed as early"
       }
     },
     "Heinrich-Schwabe": {
       "title": "Heinrich Schwabe",
-      "description": "German astronomer (1789–1875)",
+      "description": "German astronomer (1789\u20131875)",
       "revision": 1372004701,
       "url": "https://en.wikipedia.org/wiki/Heinrich_Schwabe",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Heinrich_Schwabe&oldid=1372004701",
@@ -4643,8 +4231,6 @@
         }
       },
       "fragments": {
-        "The case for their probable existence was bolstered by the support of the French": "The case for their probable existence was bolstered by the",
-        "Many searches were conducted for Vulcan over the following decades but, despite ": "Many searches were conducted for Vulcan over the following decades",
         "As a planet near the Sun would be lost in its glare, several observers mounted s": "As a planet near the Sun would be lost in"
       }
     },
@@ -4684,7 +4270,7 @@
         "height": 247,
         "credit": {
           "file": "Velociraptor_skeleton_white_background.jpg",
-          "artist": "Eduard Solà Vázquez",
+          "artist": "Eduard Sol\u00e0 V\u00e1zquez",
           "license": "CC BY 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
           "filePage": "https://commons.wikimedia.org/wiki/File:Velociraptor_skeleton_white_background.jpg"
@@ -4720,9 +4306,9 @@
     "King-Kong-1933-film": {
       "title": "King Kong (1933 film)",
       "description": "American adventure horror monster film",
-      "revision": 1378971749,
+      "revision": 1380493494,
       "url": "https://en.wikipedia.org/wiki/King_Kong_(1933_film)",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=King_Kong_(1933_film)&oldid=1378971749",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=King_Kong_(1933_film)&oldid=1380493494",
       "snapshot": true,
       "image": {
         "file": "snapshots/images/King-Kong-1933-film.webp",
@@ -4737,6 +4323,7 @@
         }
       },
       "fragments": {
+        "Cooper, wishing to create a point of authenticity, insisted that Kong not be pla": "Cooper, wishing to create a point of authenticity, insisted that",
         "Author Daniel Loxton suggested that King Kong inspired the modern day legend of ": "Author Daniel Loxton suggested that King Kong inspired the modern"
       }
     },
@@ -4760,14 +4347,14 @@
         }
       },
       "fragments": {
+        "Modern interest in the monster was sparked by a sighting on 22 July 1933, when G": "Modern interest in the monster was sparked by a sighting",
         "Though he was the first to describe the creature as a plesiosaur-like dinosaur, ": "Though he was the first to describe the creature as",
-        "The toy submarine was bought from F. W. Woolworth, and its head and neck were ma": "The toy submarine was bought from F. W. Woolworth, and",
         "The creature was reportedly a toy submarine built by Christian Spurling, the ste": "The creature was reportedly a toy submarine built by Christian"
       }
     },
     "M-A-Wetherell": {
       "title": "M. A. Wetherell",
-      "description": "British actor (1883–1939)",
+      "description": "British actor (1883\u20131939)",
       "revision": 1339195393,
       "url": "https://en.wikipedia.org/wiki/M._A._Wetherell",
       "permalink": "https://en.wikipedia.org/w/index.php?title=M._A._Wetherell&oldid=1339195393",
@@ -4847,78 +4434,6 @@
       "fragments": {
         "In this form, with a Union Jack flying from the strut between the upper and lowe": "In this form, with a Union Jack flying from the",
         "He also flew the aircraft at the Doncaster Flight Meeting in October 1909. Altho": "He also flew the aircraft at the Doncaster Flight Meeting"
-      }
-    },
-    "Leaning-Tower-of-Pisa": {
-      "title": "Leaning Tower of Pisa",
-      "description": "Bell tower in Pisa, Italy",
-      "revision": 1376152951,
-      "url": "https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Leaning_Tower_of_Pisa&oldid=1376152951",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Leaning-Tower-of-Pisa.webp",
-        "width": 330,
-        "height": 460,
-        "credit": {
-          "file": "Italy_-_Pisa_-_Leaning_Tower.jpg",
-          "artist": "Arne Müseler",
-          "license": "CC BY-SA 3.0 de",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
-          "filePage": "https://commons.wikimedia.org/wiki/File:Italy_-_Pisa_-_Leaning_Tower.jpg"
-        }
-      },
-      "fragments": {
-        "This bell is older than the bell-chamber itself, and comes from the tower Vergat": "This bell is older than the bell-chamber itself, and comes"
-      }
-    },
-    "Ugolino-della-Gherardesca": {
-      "title": "Ugolino della Gherardesca",
-      "description": "13th-century ruler of Pisa, character in Dante's ''Divine Comedy''",
-      "revision": 1355749111,
-      "url": "https://en.wikipedia.org/wiki/Ugolino_della_Gherardesca",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Ugolino_della_Gherardesca&oldid=1355749111",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Ugolino-della-Gherardesca.webp",
-        "width": 330,
-        "height": 438,
-        "credit": {
-          "file": "Ugolino.jpg",
-          "artist": "Unknown authorUnknown author",
-          "license": "Public domain",
-          "licenseUrl": null,
-          "filePage": "https://commons.wikimedia.org/wiki/File:Ugolino.jpg"
-        }
-      },
-      "fragments": {
-        "The archbishop, accusing Ugolino of treachery, aroused the citizens. When the to": "The archbishop, accusing Ugolino of treachery, aroused the citizens. When",
-        "According to Dante, the prisoners were slowly starved to death and before dying ": "According to Dante, the prisoners were slowly starved to death",
-        "Ugolino's statement that hunger proved stronger than grief has been interpreted ": "Ugolino's statement that hunger proved stronger than grief has been",
-        "In 2002, paleoanthropologist Francesco Mallegni conducted DNA testing on the rec": "In 2002, paleoanthropologist Francesco Mallegni conducted DNA testing on the"
-      }
-    },
-    "Francesco-Mallegni": {
-      "title": "Francesco Mallegni",
-      "description": "Italian paleontologist (1940–2025)",
-      "revision": 1372480143,
-      "url": "https://en.wikipedia.org/wiki/Francesco_Mallegni",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Francesco_Mallegni&oldid=1372480143",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Francesco-Mallegni.webp",
-        "width": 183,
-        "height": 275,
-        "credit": {
-          "file": "Francesco_Mallegni.jpeg",
-          "artist": "unknown",
-          "license": "Fair use",
-          "licenseUrl": null,
-          "filePage": "https://commons.wikimedia.org/wiki/File:Francesco_Mallegni.jpeg"
-        }
-      },
-      "fragments": {
-        "In 2007, Mallegni gave Dante's image a new 3D look. The new face shows softer tr": "In 2007, Mallegni gave Dante's image a new 3D look"
       }
     },
     "Lemonade": {
@@ -5027,20 +4542,19 @@
         "height": 486,
         "credit": {
           "file": "Aerial_photograph_60D_2012_05_13_8760_DxO_retusche.jpg",
-          "artist": "Walter Rademacher, derivative work Lämpel",
+          "artist": "Walter Rademacher, derivative work L\u00e4mpel",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
           "filePage": "https://commons.wikimedia.org/wiki/File:Aerial_photograph_60D_2012_05_13_8760_DxO_retusche.jpg"
         }
       },
       "fragments": {
-        "The use of gas as illuminant became widely available with the invention of the D": "The use of gas as illuminant became widely available with",
-        "The Eddystone Rocks were a major shipwreck hazard for mariners sailing through t": "The Eddystone Rocks were a major shipwreck hazard for mariners"
+        "The use of gas as illuminant became widely available with the invention of the D": "The use of gas as illuminant became widely available with"
       }
     },
     "Gustaf-Dal-n": {
-      "title": "Gustaf Dalén",
-      "description": "Swedish engineer and inventor (1869–1937)",
+      "title": "Gustaf Dal\u00e9n",
+      "description": "Swedish engineer and inventor (1869\u20131937)",
       "revision": 1366307378,
       "url": "https://en.wikipedia.org/wiki/Gustaf_Dal%C3%A9n",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Gustaf_Dal%C3%A9n&oldid=1366307378",
@@ -5050,7 +4564,7 @@
         "width": 330,
         "height": 455,
         "credit": {
-          "file": "Nils_Gustaf_Dalén.jpg",
+          "file": "Nils_Gustaf_Dal\u00e9n.jpg",
           "artist": "Atelier Jaeger",
           "license": "Public domain",
           "licenseUrl": null,
@@ -5058,8 +4572,8 @@
         }
       },
       "fragments": {
-        "Early in 1912, Dalén was blinded in an acetylene explosion during a test of maxi": "Early in 1912, Dalén was blinded in an acetylene explosion",
-        "In 1922, Dalén patented his invention of the AGA cooker. Most of the testing for": "In 1922, Dalén patented his invention of the AGA cooker"
+        "Early in 1912, Dal\u00e9n was blinded in an acetylene explosion during a test of maxi": "Early in 1912, Dal\u00e9n was blinded in an acetylene explosion",
+        "In 1922, Dal\u00e9n patented his invention of the AGA cooker. Most of the testing for": "In 1922, Dal\u00e9n patented his invention of the AGA cooker"
       }
     },
     "AGA-cooker": {
@@ -5082,13 +4596,13 @@
         }
       },
       "fragments": {
-        "Forced to stay at home, Dalén discovered that his wife was exhausted by cooking.": "Forced to stay at home, Dalén discovered that his wife",
+        "Forced to stay at home, Dal\u00e9n discovered that his wife was exhausted by cooking.": "Forced to stay at home, Dal\u00e9n discovered that his wife",
         "David Ogilvy was initially hired as an Aga range cooker salesperson, before writ": "David Ogilvy was initially hired as an Aga range cooker"
       }
     },
     "David-Ogilvy-businessman": {
       "title": "David Ogilvy (businessman)",
-      "description": "British advertising executive (1911–1999)",
+      "description": "British advertising executive (1911\u20131999)",
       "revision": 1361247491,
       "url": "https://en.wikipedia.org/wiki/David_Ogilvy_(businessman)",
       "permalink": "https://en.wikipedia.org/w/index.php?title=David_Ogilvy_(businessman)&oldid=1361247491",
@@ -5108,77 +4622,6 @@
       "fragments": {
         "In 1931, he became a kitchen hand at the Hotel Majestic in Paris. After a year, ": "In 1931, he became a kitchen hand at the Hotel",
         "Trained at the Gallup research organisation, he created highly successful advert": "Trained at the Gallup research organisation, he created highly successful"
-      }
-    },
-    "Henry-Winstanley": {
-      "title": "Henry Winstanley",
-      "description": "English painter",
-      "revision": 1374259697,
-      "url": "https://en.wikipedia.org/wiki/Henry_Winstanley",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Henry_Winstanley&oldid=1374259697",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Henry-Winstanley.webp",
-        "width": 330,
-        "height": 437,
-        "credit": {
-          "file": "Henry_Winstanley00.jpg",
-          "artist": "Henry Winstanley",
-          "license": "Public domain",
-          "licenseUrl": null,
-          "filePage": "https://commons.wikimedia.org/wiki/File:Henry_Winstanley00.jpg"
-        }
-      },
-      "fragments": {
-        "Winstanley became a merchant, investing some of the money he had made from his w": "Winstanley became a merchant, investing some of the money he",
-        "Winstanley was recorded as having expressed great faith in his construction, wis": "Winstanley was recorded as having expressed great faith in his"
-      }
-    },
-    "Great-storm-of-1703": {
-      "title": "Great storm of 1703",
-      "description": "English extratropical cyclone",
-      "revision": 1379015687,
-      "url": "https://en.wikipedia.org/wiki/Great_storm_of_1703",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Great_storm_of_1703&oldid=1379015687",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Great-storm-of-1703.webp",
-        "width": 330,
-        "height": 226,
-        "credit": {
-          "file": "British_fleet_sinking_in_the_sea_during_the_Great_Storm_in_1703_(cropped).jpg",
-          "artist": "William Rayner",
-          "license": "Public domain",
-          "licenseUrl": null,
-          "filePage": "https://commons.wikimedia.org/wiki/File:British_fleet_sinking_in_the_sea_during_the_Great_Storm_in_1703_(cropped).jpg"
-        }
-      },
-      "fragments": {
-        "High winds caused 2,000 chimney stacks to collapse in London and damaged the New": "High winds caused 2,000 chimney stacks to collapse in London",
-        "Daniel Defoe produced his full-length book The Storm (July 1704) in response to ": "Daniel Defoe produced his full-length book The Storm (July 1704)"
-      }
-    },
-    "The-Storm-Daniel-Defoe": {
-      "title": "The Storm (Daniel Defoe)",
-      "description": "Pioneering 1704 work of journalism by Daniel Defoe",
-      "revision": 1335270670,
-      "url": "https://en.wikipedia.org/wiki/The_Storm_(Daniel_Defoe)",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=The_Storm_(Daniel_Defoe)&oldid=1335270670",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/The-Storm-Daniel-Defoe.webp",
-        "width": 330,
-        "height": 549,
-        "credit": {
-          "file": "The_Storm_by_Daniel_Defoe_cover_page.jpg",
-          "artist": "Daniel Defoe",
-          "license": "Public domain",
-          "licenseUrl": null,
-          "filePage": "https://commons.wikimedia.org/wiki/File:The_Storm_by_Daniel_Defoe_cover_page.jpg"
-        }
-      },
-      "fragments": {
-        "Within a week of the storm Defoe placed newspaper ads asking readers to submit p": "Within a week of the storm Defoe placed newspaper ads"
       }
     },
     "Lock-and-key": {
@@ -5229,7 +4672,7 @@
     },
     "Henry-Maudslay": {
       "title": "Henry Maudslay",
-      "description": "English inventor and machine tool innovator (1771–1831)",
+      "description": "English inventor and machine tool innovator (1771\u20131831)",
       "revision": 1341785022,
       "url": "https://en.wikipedia.org/wiki/Henry_Maudslay",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Henry_Maudslay&oldid=1341785022",
@@ -5286,8 +4729,8 @@
         "width": 330,
         "height": 450,
         "credit": {
-          "file": "Zea_mays_-_Köhler–s_Medizinal-Pflanzen-283.jpg",
-          "artist": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+          "file": "Zea_mays_-_K\u00f6hler\u2013s_Medizinal-Pflanzen-283.jpg",
+          "artist": "Franz Eugen K\u00f6hler, K\u00f6hler's Medizinal-Pflanzen",
           "license": "Public domain",
           "licenseUrl": null,
           "filePage": "https://commons.wikimedia.org/wiki/File:Zea_mays_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-283.jpg"
@@ -5441,7 +4884,7 @@
     },
     "Archimedes": {
       "title": "Archimedes",
-      "description": "Greek mathematician and physicist (c. 287 – 212 BC)",
+      "description": "Greek mathematician and physicist (c. 287 \u2013 212 BC)",
       "revision": 1376063220,
       "url": "https://en.wikipedia.org/wiki/Archimedes",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Archimedes&oldid=1376063220",
@@ -5463,7 +4906,7 @@
       }
     },
     "Siege-of-Syracuse-213-212-BC": {
-      "title": "Siege of Syracuse (213–212 BC)",
+      "title": "Siege of Syracuse (213\u2013212 BC)",
       "description": "Roman victory during the Second Punic War",
       "revision": 1377288244,
       "url": "https://en.wikipedia.org/wiki/Siege_of_Syracuse_(213%E2%80%93212_BC)",
@@ -5487,7 +4930,7 @@
     },
     "Claw-of-Archimedes": {
       "title": "Claw of Archimedes",
-      "description": "Greek anti-ship weapon used in 213–212 BC",
+      "description": "Greek anti-ship weapon used in 213\u2013212 BC",
       "revision": 1299107380,
       "url": "https://en.wikipedia.org/wiki/Claw_of_Archimedes",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Claw_of_Archimedes&oldid=1299107380",
@@ -5528,6 +4971,7 @@
         }
       },
       "fragments": {
+        "French poet Guillaume Apollinaire came under suspicion and was arrested and impr": "French poet Guillaume Apollinaire came under suspicion and was arrested",
         "A year after the theft, Saturday Evening Post journalist Karl Decker wrote that ": "A year after the theft, Saturday Evening Post journalist Karl"
       }
     },
@@ -5545,7 +4989,7 @@
     },
     "Evangelina-Cosio-y-Cisneros": {
       "title": "Evangelina Cosio y Cisneros",
-      "description": "Cuban rebel (1877–1970)",
+      "description": "Cuban rebel (1877\u20131970)",
       "revision": 1378695197,
       "url": "https://en.wikipedia.org/wiki/Evangelina_Cosio_y_Cisneros",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Evangelina_Cosio_y_Cisneros&oldid=1378695197",
@@ -5564,80 +5008,7 @@
       },
       "fragments": {
         "Cosio suggested drugging her jail-mates so they would sleep through the night an": "Cosio suggested drugging her jail-mates so they would sleep through",
-        "The young woman was taken to the home of one of the conspirators, Carlos Carbone": "The young woman was taken to the home of one",
-        "Cosio’s story faded with the rush of events, in particular the sinking of the Am": "Cosio’s story faded with the rush of events, in particular"
-      }
-    },
-    "Moon": {
-      "title": "Moon",
-      "description": "Natural satellite orbiting Earth",
-      "revision": 1379468184,
-      "url": "https://en.wikipedia.org/wiki/Moon",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Moon&oldid=1379468184",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Moon.webp",
-        "width": 330,
-        "height": 314,
-        "credit": {
-          "file": "FullMoon2010.jpg",
-          "artist": "Gregory H. Revera",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-          "filePage": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg"
-        }
-      },
-      "fragments": {
-        "Beside the remains of human activity on the Moon, there have been some intended ": "Beside the remains of human activity on the Moon, there"
-      }
-    },
-    "Fallen-Astronaut": {
-      "title": "Fallen Astronaut",
-      "description": "Sculpture by Paul Van Hoeydonck placed on the Moon",
-      "revision": 1359569457,
-      "url": "https://en.wikipedia.org/wiki/Fallen_Astronaut",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Fallen_Astronaut&oldid=1359569457",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Fallen-Astronaut.webp",
-        "width": 330,
-        "height": 330,
-        "credit": {
-          "file": "Fallen_Astronaut.jpg",
-          "artist": "NASA",
-          "license": "Public domain",
-          "licenseUrl": null,
-          "filePage": "https://commons.wikimedia.org/wiki/File:Fallen_Astronaut.jpg"
-        }
-      },
-      "fragments": {
-        "Fallen Astronaut is a 3.5-inch (8.9 cm) aluminum sculpture created by Belgian ar": "Fallen Astronaut is a 3.5-inch (8.9 cm) aluminum sculpture created",
-        "Scott photographed the memorial but waited for a post-mission press conference t": "Scott photographed the memorial but waited for a post-mission press"
-      }
-    },
-    "Valentin-Bondarenko": {
-      "title": "Valentin Bondarenko",
-      "description": "Soviet fighter pilot and cosmonaut candidate (1937–1961)",
-      "revision": 1378507049,
-      "url": "https://en.wikipedia.org/wiki/Valentin_Bondarenko",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Valentin_Bondarenko&oldid=1378507049",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Valentin-Bondarenko.webp",
-        "width": 330,
-        "height": 498,
-        "credit": {
-          "file": "Valentin_Bondarenko.jpg",
-          "artist": "Главархив Москвы / Музей космонавтики",
-          "license": "CC BY 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-          "filePage": "https://commons.wikimedia.org/wiki/File:Valentin_Bondarenko.jpg"
-        }
-      },
-      "fragments": {
-        "23 March 1961 was the tenth day of a 15-day endurance experiment in a low-pressu": "23 March 1961 was the tenth day of a 15-day",
-        "According to Golyakhovsky, cosmonaut Yuri Gagarin spent several hours at the hos": "According to Golyakhovsky, cosmonaut Yuri Gagarin spent several hours at",
-        "James Oberg, in his book Red Star in Orbit, wrote how the Soviet government airb": "James Oberg, in his book Red Star in Orbit, wrote"
+        "The young woman was taken to the home of one of the conspirators, Carlos Carbone": "The young woman was taken to the home of one"
       }
     },
     "Mount-Everest": {
@@ -5665,7 +5036,7 @@
     },
     "Douglas-Douglas-Hamilton-14th-Duke-of-Hamilton": {
       "title": "Douglas Douglas-Hamilton, 14th Duke of Hamilton",
-      "description": "Scottish aviator and politician (1903–1973)",
+      "description": "Scottish aviator and politician (1903\u20131973)",
       "revision": 1363323831,
       "url": "https://en.wikipedia.org/wiki/Douglas_Douglas-Hamilton%2C_14th_Duke_of_Hamilton",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Douglas_Douglas-Hamilton%2C_14th_Duke_of_Hamilton&oldid=1363323831",
@@ -5684,63 +5055,39 @@
       },
       "fragments": {
         "Flying in formation higher than any before; Lord Clydesdale, as he was then know": "Flying in formation higher than any before; Lord Clydesdale, as",
-        "Hess eventually decided to go himself on a \"peace mission\" to the United Kingdom": "Hess eventually decided to go himself on a \"peace mission\"",
-        "During this trip, Hamilton met the diplomat Albrecht Haushofer, son of the geopo": "During this trip, Hamilton met the diplomat Albrecht Haushofer, son"
+        "During World War II, Hamilton was involved in the 1941 aborted peace mission of ": "During World War II, Hamilton was involved in the 1941"
       }
     },
-    "Albrecht-Haushofer": {
-      "title": "Albrecht Haushofer",
-      "description": "German geographer and diplomat",
-      "revision": 1368921877,
-      "url": "https://en.wikipedia.org/wiki/Albrecht_Haushofer",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Albrecht_Haushofer&oldid=1368921877",
+    "Rudolf-Hess": {
+      "title": "Rudolf Hess",
+      "description": "German Nazi politician (1894\u20131987)",
+      "revision": 1380541798,
+      "url": "https://en.wikipedia.org/wiki/Rudolf_Hess",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Rudolf_Hess&oldid=1380541798",
       "snapshot": true,
       "image": {
-        "file": "snapshots/images/Albrecht-Haushofer.webp",
+        "file": "snapshots/images/Rudolf-Hess.webp",
         "width": 330,
-        "height": 413,
+        "height": 412,
         "credit": {
-          "file": "Albrecht_Haushofer_small.tif",
-          "artist": "Unknown author",
-          "license": "Fair use",
-          "licenseUrl": null,
-          "filePage": "https://commons.wikimedia.org/wiki/File:Albrecht_Haushofer_small.tif"
+          "file": "Bundesarchiv_Bild_183-1987-0313-507,_Rudolf_Hess_(cropped)(b)(2).jpg",
+          "artist": "Unknown authorUnknown author",
+          "license": "CC BY-SA 3.0 de",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-1987-0313-507%2C_Rudolf_Hess_(cropped)(b)(2).jpg"
         }
       },
       "fragments": {
-        "Later, under the Nuremberg Laws of 1935 (effective from 1936), Albrecht Haushofe": "Later, under the Nuremberg Laws of 1935 (effective from 1936)",
-        "Haushofer was involved in Hess' attempts to negotiate peace with the French and ": "Haushofer was involved in Hess' attempts to negotiate peace with"
-      }
-    },
-    "Mushroom": {
-      "title": "Mushroom",
-      "description": "Spore-bearing fruiting body of a fungus",
-      "revision": 1378988777,
-      "url": "https://en.wikipedia.org/wiki/Mushroom",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Mushroom&oldid=1378988777",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Mushroom.webp",
-        "width": 330,
-        "height": 222,
-        "credit": {
-          "file": "Sparrige_Schüppling_(Pholiota_squarrosa).jpg",
-          "artist": "Holger Krisp",
-          "license": "CC BY 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-          "filePage": "https://commons.wikimedia.org/wiki/File:Sparrige_Sch%C3%BCppling_(Pholiota_squarrosa).jpg"
-        }
-      },
-      "fragments": {
-        "The term \"mushroom\" and its variations may have been derived from the French wor": "The term \"mushroom\" and its variations may have been derived"
+        "On 31 August 1940, Hess met Karl Haushofer, who told Hess that he believed that ": "On 31 August 1940, Hess met Karl Haushofer, who told",
+        "Hess was nearly out of fuel, so he climbed to 6,000 feet (1,800 m) and parachute": "Hess was nearly out of fuel, so he climbed to"
       }
     },
     "Moss": {
       "title": "Moss",
       "description": "Division of typically non-vascular land plants",
-      "revision": 1376153997,
+      "revision": 1379522948,
       "url": "https://en.wikipedia.org/wiki/Moss",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Moss&oldid=1376153997",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Moss&oldid=1379522948",
       "snapshot": true,
       "image": {
         "file": "snapshots/images/Moss.webp",
@@ -5755,15 +5102,15 @@
         }
       },
       "fragments": {
-        "Most mosses rely on the wind to disperse the spores. In the genus Sphagnum the s": "Most mosses rely on the wind to disperse the spores"
+        "The main commercial significance of mosses is as the main constituent of peat (m": "The main commercial significance of mosses is as the main"
       }
     },
     "Sphagnum": {
       "title": "Sphagnum",
       "description": "Genus of mosses, peat moss",
-      "revision": 1357278652,
+      "revision": 1379373807,
       "url": "https://en.wikipedia.org/wiki/Sphagnum",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Sphagnum&oldid=1357278652",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Sphagnum&oldid=1379373807",
       "snapshot": true,
       "image": {
         "file": "snapshots/images/Sphagnum.webp",
@@ -5778,22 +5125,23 @@
         }
       },
       "fragments": {
+        "Sphagnum and the peat formed from it do not decay readily because of the phenoli": "Sphagnum and the peat formed from it do not decay",
         "Anaerobic acidic sphagnum bogs have low rates of decay, and hence preserve plant": "Anaerobic acidic sphagnum bogs have low rates of decay, and"
       }
     },
     "Tollund-Man": {
       "title": "Tollund Man",
       "description": "Iron Age bog body from Denmark",
-      "revision": 1376169694,
+      "revision": 1379744498,
       "url": "https://en.wikipedia.org/wiki/Tollund_Man",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Tollund_Man&oldid=1376169694",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Tollund_Man&oldid=1379744498",
       "snapshot": true,
       "image": {
         "file": "snapshots/images/Tollund-Man.webp",
         "width": 330,
         "height": 462,
         "credit": {
-          "file": "Moorleiche_von_Tollund_Jütland_um_100_n_Chr_hingerichtet.jpg",
+          "file": "Moorleiche_von_Tollund_J\u00fctland_um_100_n_Chr_hingerichtet.jpg",
           "artist": "Unknown authorUnknown author",
           "license": "Public domain",
           "licenseUrl": null,
@@ -5801,7 +5149,8 @@
         }
       },
       "fragments": {
-        "On 8 May 1950, Tollund Man was discovered in the peat layer of the peat bog, 12 ": "On 8 May 1950, Tollund Man was discovered in the"
+        "On 8 May 1950, Tollund Man was discovered in the peat layer of the peat bog, 12 ": "On 8 May 1950, Tollund Man was discovered in the",
+        "Both feet and the right thumb were placed in formalin after the examination. Twe": "Both feet and the right thumb were placed in formalin"
       }
     },
     "Natural-rubber": {
@@ -5829,7 +5178,7 @@
     },
     "Charles-Goodyear": {
       "title": "Charles Goodyear",
-      "description": "American inventor (1800–1860)",
+      "description": "American inventor (1800\u20131860)",
       "revision": 1361479941,
       "url": "https://en.wikipedia.org/wiki/Charles_Goodyear",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Charles_Goodyear&oldid=1361479941",
@@ -5898,9 +5247,33 @@
         "The Whirlpool Aero Car, built in 1916 from a design by Spanish engineer Leonardo": "The Whirlpool Aero Car, built in 1916 from a design"
       }
     },
+    "Whirlpool-Aero-Car": {
+      "title": "Whirlpool Aero Car",
+      "description": "Cable car in Niagara, Ontario",
+      "revision": 1376579022,
+      "url": "https://en.wikipedia.org/wiki/Whirlpool_Aero_Car",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Whirlpool_Aero_Car&oldid=1376579022",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Whirlpool-Aero-Car.webp",
+        "width": 330,
+        "height": 248,
+        "credit": {
+          "file": "Niagara_Whirlpool_with_aerocar.JPG",
+          "artist": "Ad Meskens",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Niagara_Whirlpool_with_aerocar.JPG"
+        }
+      },
+      "fragments": {
+        "The Aero Car is suspended between two Canadian points, though it crosses the Can": "The Aero Car is suspended between two Canadian points, though",
+        "The system was designed by Spanish engineer Leonardo Torres Quevedo and has been": "The system was designed by Spanish engineer Leonardo Torres Quevedo"
+      }
+    },
     "Leonardo-Torres-Quevedo": {
       "title": "Leonardo Torres Quevedo",
-      "description": "Spanish civil engineer (1852–1936)",
+      "description": "Spanish civil engineer (1852\u20131936)",
       "revision": 1380795438,
       "url": "https://en.wikipedia.org/wiki/Leonardo_Torres_Quevedo",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Leonardo_Torres_Quevedo&oldid=1380795438",
@@ -5911,7 +5284,7 @@
         "height": 462,
         "credit": {
           "file": "1921_Leonardo_Torres_Quevedo.jpg",
-          "artist": "Auguste Léon",
+          "artist": "Auguste L\u00e9on",
           "license": "Public domain",
           "licenseUrl": null,
           "filePage": "https://commons.wikimedia.org/wiki/File:1921_Leonardo_Torres_Quevedo.jpg"
@@ -5919,8 +5292,7 @@
       },
       "fragments": {
         "Torres' studies in the field of cableways began around 1880, during his residenc": "Torres' studies in the field of cableways began around 1880",
-        "He failed to convince the Swiss authorities, who did not grant any reliability t": "He failed to convince the Swiss authorities, who did not",
-        "In 1910, Torres prepared the designs for a chess-playing device—which he dubbed ": "In 1910, Torres prepared the designs for a chess-playing device—which"
+        "In 1910, Torres prepared the designs for a chess-playing device\u2014which he dubbed ": "In 1910, Torres prepared the designs for a chess-playing device\u2014which"
       }
     },
     "El-Ajedrecista": {
@@ -5945,240 +5317,6 @@
       "fragments": {
         "The automaton does not deliver checkmate in the minimum number of moves, nor alw": "The automaton does not deliver checkmate in the minimum number",
         "In 1951, El Ajedrecista was presented at the influential French symposium Les Ma": "In 1951, El Ajedrecista was presented at the influential French"
-      }
-    },
-    "Nutmeg": {
-      "title": "Nutmeg",
-      "description": "Spice from tree seed",
-      "revision": 1375616977,
-      "url": "https://en.wikipedia.org/wiki/Nutmeg",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Nutmeg&oldid=1375616977",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Nutmeg.webp",
-        "width": 330,
-        "height": 220,
-        "credit": {
-          "file": "Biji_Pala_Bubuk.jpg",
-          "artist": "Herusutimbul",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "filePage": "https://commons.wikimedia.org/wiki/File:Biji_Pala_Bubuk.jpg"
-        }
-      },
-      "fragments": {
-        "The earliest evidence of use of nutmeg comes in the form of 3,500-year-old potsh": "The earliest evidence of use of nutmeg comes in the",
-        "In order to obtain a monopoly on the production and trade of nutmeg, the Dutch E": "In order to obtain a monopoly on the production and"
-      }
-    },
-    "Banda-Islands": {
-      "title": "Banda Islands",
-      "description": "Volcanic islands in the Banda Sea, Maluku, Indonesia",
-      "revision": 1374268490,
-      "url": "https://en.wikipedia.org/wiki/Banda_Islands",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Banda_Islands&oldid=1374268490",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Banda-Islands.webp",
-        "width": 330,
-        "height": 220,
-        "credit": {
-          "file": "BandaBesarIslandSeenFromFortBelgica.JPG",
-          "artist": "Photo by Mark Richards",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-          "filePage": "https://commons.wikimedia.org/wiki/File:BandaBesarIslandSeenFromFortBelgica.JPG"
-        }
-      },
-      "fragments": {
-        "In April 1609, Admiral Pieter Willemsz Verhoeff arrived at Banda Neira with a re": "In April 1609, Admiral Pieter Willemsz Verhoeff arrived at Banda"
-      }
-    },
-    "Jan-Pieterszoon-Coen": {
-      "title": "Jan Pieterszoon Coen",
-      "description": "Dutch colonial administrator",
-      "revision": 1364313141,
-      "url": "https://en.wikipedia.org/wiki/Jan_Pieterszoon_Coen",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Jan_Pieterszoon_Coen&oldid=1364313141",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Jan-Pieterszoon-Coen.webp",
-        "width": 330,
-        "height": 445,
-        "credit": {
-          "file": "Jan_Pieterszoon_Coen_by_Jacob_Waben.jpg",
-          "artist": "Jacques Waben",
-          "license": "Public domain",
-          "licenseUrl": null,
-          "filePage": "https://commons.wikimedia.org/wiki/File:Jan_Pieterszoon_Coen_by_Jacob_Waben.jpg"
-        }
-      },
-      "fragments": {
-        "He was long considered a national hero in the Netherlands. Since the 19th centur": "He was long considered a national hero in the Netherlands. Since the 19th century, his legacy has become controversial due to the violence"
-      }
-    },
-    "Dutch-conquest-of-the-Banda-Islands": {
-      "title": "Dutch conquest of the Banda Islands",
-      "description": "1609–1621 Dutch East India Company campaign",
-      "revision": 1371966664,
-      "url": "https://en.wikipedia.org/wiki/Dutch_conquest_of_the_Banda_Islands",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Dutch_conquest_of_the_Banda_Islands&oldid=1371966664",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Dutch-conquest-of-the-Banda-Islands.webp",
-        "width": 330,
-        "height": 229,
-        "credit": {
-          "file": "Kaart_van_de_Banda-eilanden,_1599,_RP-P-OB-75.391.jpg",
-          "artist": "Rijksmuseum",
-          "license": "CC0",
-          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-          "filePage": "https://commons.wikimedia.org/wiki/File:Kaart_van_de_Banda-eilanden%2C_1599%2C_RP-P-OB-75.391.jpg"
-        }
-      },
-      "fragments": {
-        "According to Coen, \"about 2,500\" inhabitants died \"of hunger and misery or by th": "According to Coen, \"about 2,500\" inhabitants died \"of hunger and"
-      }
-    },
-    "Run-island": {
-      "title": "Run (island)",
-      "description": "Island in Maluku Province, Indonesia",
-      "revision": 1364196348,
-      "url": "https://en.wikipedia.org/wiki/Run_(island)",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Run_(island)&oldid=1364196348",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Run-island.webp",
-        "width": 330,
-        "height": 211,
-        "credit": {
-          "file": "Run,_Banda_islands,_Maluku,_Indonesia.jpg",
-          "artist": "Georg Holderied from Basel, Switzerland",
-          "license": "CC BY-SA 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-          "filePage": "https://commons.wikimedia.org/wiki/File:Run%2C_Banda_islands%2C_Maluku%2C_Indonesia.jpg"
-        }
-      },
-      "fragments": {
-        "After the Second Anglo-Dutch War (1665–1667), England and the United Provinces o": "After the Second Anglo-Dutch War (1665–1667), England and the United"
-      }
-    },
-    "Treaty-of-Breda-1667": {
-      "title": "Treaty of Breda (1667)",
-      "description": "Peace ending the Second Anglo-Dutch War",
-      "revision": 1367904118,
-      "url": "https://en.wikipedia.org/wiki/Treaty_of_Breda_(1667)",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Treaty_of_Breda_(1667)&oldid=1367904118",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Treaty-of-Breda-1667.webp",
-        "width": 330,
-        "height": 253,
-        "credit": {
-          "file": "Congress_of_Breda.jpg",
-          "artist": "Romeyn de Hooghe",
-          "license": "Public domain",
-          "licenseUrl": null,
-          "filePage": "https://commons.wikimedia.org/wiki/File:Congress_of_Breda.jpg"
-        }
-      },
-      "fragments": {
-        "Article 1 of the treaty stipulated a limited military alliance, obliging fleets ": "Article 1 of the treaty stipulated a limited military alliance"
-      }
-    },
-    "Parrot": {
-      "title": "Parrot",
-      "description": "Order of birds",
-      "revision": 1380782777,
-      "url": "https://en.wikipedia.org/wiki/Parrot",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Parrot&oldid=1380782777",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Parrot.webp",
-        "width": 330,
-        "height": 427,
-        "credit": {
-          "file": "Rainbow_lorikeet_(Trichoglossus_moluccanus_moluccanus)_Sydney.jpg",
-          "artist": "Charles J. Sharp",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "filePage": "https://commons.wikimedia.org/wiki/File:Rainbow_lorikeet_(Trichoglossus_moluccanus_moluccanus)_Sydney.jpg"
-        }
-      },
-      "fragments": {
-        "The most common years that feral parrots were released to non-native environment": "The most common years that feral parrots were released to"
-      }
-    },
-    "Psittacosis": {
-      "title": "Psittacosis",
-      "description": "Infectious disease in humans",
-      "revision": 1376974093,
-      "url": "https://en.wikipedia.org/wiki/Psittacosis",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Psittacosis&oldid=1376974093",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Psittacosis.webp",
-        "width": 330,
-        "height": 220,
-        "credit": {
-          "file": "Chlamydophila_psittaci_FA_stain.jpg",
-          "artist": "Photo Credit: Content Providers(s): CDC/Dr. Vester Lewis",
-          "license": "Public domain",
-          "licenseUrl": null,
-          "filePage": "https://commons.wikimedia.org/wiki/File:Chlamydophila_psittaci_FA_stain.jpg"
-        }
-      },
-      "fragments": {
-        "In 1930, during the 1929–1930 psittacosis pandemic, Lena Rose Pepperdine died of": "In 1930, during the 1929–1930 psittacosis pandemic, Lena Rose Pepperdine"
-      }
-    },
-    "1929-1930-psittacosis-pandemic": {
-      "title": "1929–1930 psittacosis pandemic",
-      "description": "Pandemic",
-      "revision": 1369213404,
-      "url": "https://en.wikipedia.org/wiki/1929%E2%80%931930_psittacosis_pandemic",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=1929%E2%80%931930_psittacosis_pandemic&oldid=1369213404",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/1929-1930-psittacosis-pandemic.webp",
-        "width": 330,
-        "height": 537,
-        "credit": {
-          "file": "ChrysotisChloronotaKeulemans.jpg",
-          "artist": "John Gerrard Keulemans",
-          "license": "Public domain",
-          "licenseUrl": null,
-          "filePage": "https://commons.wikimedia.org/wiki/File:ChrysotisChloronotaKeulemans.jpg"
-        }
-      },
-      "fragments": {
-        "In early January 1930, an outbreak of \"mysterious pneumonias\" in the United Stat": "In early January 1930, an outbreak of \"mysterious pneumonias\" in",
-        "Six major pet dealers in the U.S. stood to lose $5 million per year as a result ": "Six major pet dealers in the U.S. stood to lose",
-        "Two of the 16 people that developed the illness from exposure at the National Hy": "Two of the 16 people that developed the illness from",
-        "The impact of the outbreak on the U.S. Hygienic Laboratory, with 16 of its worke": "The impact of the outbreak on the U.S. Hygienic Laboratory"
-      }
-    },
-    "National-Institutes-of-Health": {
-      "title": "National Institutes of Health",
-      "description": "US government medical research agency",
-      "revision": 1377900654,
-      "url": "https://en.wikipedia.org/wiki/National_Institutes_of_Health",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=National_Institutes_of_Health&oldid=1377900654",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/National-Institutes-of-Health.webp",
-        "width": 330,
-        "height": 290,
-        "credit": {
-          "file": "NIH_2013_logo_vertical.svg",
-          "artist": "Original: National Institutes of Health Vector: AntiCompositeNumber",
-          "license": "Public domain",
-          "licenseUrl": null,
-          "filePage": "https://commons.wikimedia.org/wiki/File:NIH_2013_logo_vertical.svg"
-        }
-      },
-      "fragments": {
-        "The NIH conducts its scientific research through the NIH Intramural Research Pro": "The NIH conducts its scientific research through the NIH Intramural"
       }
     },
     "Password": {
@@ -6206,7 +5344,7 @@
     },
     "Robert-Morris-cryptographer": {
       "title": "Robert Morris (cryptographer)",
-      "description": "American cryptographer (1932–2011)",
+      "description": "American cryptographer (1932\u20132011)",
       "revision": 1372720258,
       "url": "https://en.wikipedia.org/wiki/Robert_Morris_(cryptographer)",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Robert_Morris_(cryptographer)&oldid=1372720258",
@@ -6256,9 +5394,9 @@
     "Graphite": {
       "title": "Graphite",
       "description": "Crystalline form of carbon",
-      "revision": 1377432704,
+      "revision": 1380925878,
       "url": "https://en.wikipedia.org/wiki/Graphite",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Graphite&oldid=1377432704",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Graphite&oldid=1380925878",
       "snapshot": true,
       "image": {
         "file": "snapshots/images/Graphite.webp",
@@ -6273,53 +5411,31 @@
         }
       },
       "fragments": {
-        "Sometime before 1565 (some sources say as early as 1500), an enormous deposit of": "Sometime before 1565 (some sources say as early as 1500)"
+        "During the reign of Elizabeth I (1558\u20131603), Borrowdale graphite was used as a r": "During the reign of Elizabeth I (1558\u20131603), Borrowdale graphite was",
+        "From the 16th century, all pencils were made with leads of English natural graph": "From the 16th century, all pencils were made with leads"
       }
     },
-    "Borrowdale": {
-      "title": "Borrowdale",
-      "description": "Valley and civil parish in Cumbria, England",
-      "revision": 1378832314,
-      "url": "https://en.wikipedia.org/wiki/Borrowdale",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Borrowdale&oldid=1378832314",
+    "Nicolas-Jacques-Cont": {
+      "title": "Nicolas-Jacques Cont\u00e9",
+      "description": "French painter, and inventor of the modern pencil (1755\u20131805)",
+      "revision": 1378033141,
+      "url": "https://en.wikipedia.org/wiki/Nicolas-Jacques_Cont%C3%A9",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Nicolas-Jacques_Cont%C3%A9&oldid=1378033141",
       "snapshot": true,
       "image": {
-        "file": "snapshots/images/Borrowdale.webp",
+        "file": "snapshots/images/Nicolas-Jacques-Cont.webp",
         "width": 330,
-        "height": 248,
+        "height": 417,
         "credit": {
-          "file": "Borrowdale_-_Rosthwaite.jpg",
-          "artist": "Steve Mason",
-          "license": "CC BY-SA 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-          "filePage": "https://commons.wikimedia.org/wiki/File:Borrowdale_-_Rosthwaite.jpg"
+          "file": "Nicolas-Jacques_Cont\u00e9.jpg",
+          "artist": "Robert de Launay / After Adolphe Roehn",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:Nicolas-Jacques_Cont%C3%A9.jpg"
         }
       },
       "fragments": {
-        "The B5289 road runs down the full length of the valley, and at the southern end ": "The B5289 road runs down the full length of the"
-      }
-    },
-    "Seathwaite-Cumberland": {
-      "title": "Seathwaite, Cumberland",
-      "description": "Hamlet in Cumbria, England",
-      "revision": 1352563762,
-      "url": "https://en.wikipedia.org/wiki/Seathwaite%2C_Cumberland",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Seathwaite%2C_Cumberland&oldid=1352563762",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Seathwaite-Cumberland.webp",
-        "width": 330,
-        "height": 248,
-        "credit": {
-          "file": "Seathwaite.jpg",
-          "artist": "Antiquary",
-          "license": "CC BY 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-          "filePage": "https://commons.wikimedia.org/wiki/File:Seathwaite.jpg"
-        }
-      },
-      "fragments": {
-        "In 2008 Seathwaite was the wettest inhabited place in the United Kingdom and rec": "In 2008 Seathwaite was the wettest inhabited place in the"
+        "Cont\u00e9 invented the modern pencil lead at the request of Lazare Nicolas Marguerit": "Cont\u00e9 invented the modern pencil lead at the request of"
       }
     },
     "Penny": {
@@ -6477,7 +5593,7 @@
     },
     "John-Cage": {
       "title": "John Cage",
-      "description": "American avant-garde composer (1912–1992)",
+      "description": "American avant-garde composer (1912\u20131992)",
       "revision": 1379055809,
       "url": "https://en.wikipedia.org/wiki/John_Cage",
       "permalink": "https://en.wikipedia.org/w/index.php?title=John_Cage&oldid=1379055809",
@@ -6495,11 +5611,11 @@
         }
       },
       "fragments": {
-        "In 1952–1953, he completed another mammoth project—Williams Mix for eight magnet": "In 1952–1953, he completed another mammoth project—Williams Mix for eight"
+        "In 1952\u20131953, he completed another mammoth project\u2014Williams Mix for eight magnet": "In 1952\u20131953, he completed another mammoth project\u2014Williams Mix for eight"
       }
     },
     "4-33": {
-      "title": "4′33″",
+      "title": "4\u203233\u2033",
       "description": "1952 modernist composition by John Cage",
       "revision": 1375617582,
       "url": "https://en.wikipedia.org/wiki/4%E2%80%B233%E2%80%B3",
@@ -6564,6 +5680,7 @@
         }
       },
       "fragments": {
+        "3M launched \"Press 'n Peel\", a sticky bookmark page holder in stores in four cit": "3M launched \"Press 'n Peel\", a sticky bookmark page holder",
         "Five businessmen founded the Minnesota Mining and Manufacturing Company as a min": "Five businessmen founded the Minnesota Mining and Manufacturing Company as"
       }
     },
@@ -6587,7 +5704,6 @@
         }
       },
       "fragments": {
-        "Anorthosites are of enormous geologic interest, because it is still not fully un": "Anorthosites are of enormous geologic interest, because it is still",
         "Lunar anorthosites constitute the light-coloured areas of the Moon's surface and": "Lunar anorthosites constitute the light-coloured areas of the Moon's surface",
         "On the Moon, anorthosite is the dominant rock type of the lunar highlands which ": "On the Moon, anorthosite is the dominant rock type of"
       }
@@ -6678,7 +5794,7 @@
     },
     "John-Wanamaker": {
       "title": "John Wanamaker",
-      "description": "US Postmaster General and merchant (1838–1922)",
+      "description": "US Postmaster General and merchant (1838\u20131922)",
       "revision": 1370246705,
       "url": "https://en.wikipedia.org/wiki/John_Wanamaker",
       "permalink": "https://en.wikipedia.org/w/index.php?title=John_Wanamaker&oldid=1370246705",
@@ -6804,8 +5920,7 @@
         }
       },
       "fragments": {
-        "Red military uniforms were adopted for general use by the English Parliament's N": "Red military uniforms were adopted for general use by the",
-        "The first known team sport to feature red uniforms was chariot racing during the": "The first known team sport to feature red uniforms was"
+        "Red military uniforms were adopted for general use by the English Parliament's N": "Red military uniforms were adopted for general use by the"
       }
     },
     "Cochineal": {
@@ -6829,55 +5944,6 @@
       },
       "fragments": {
         "Opuntia species, known commonly as prickly pears, were first brought to Australi": "Opuntia species, known commonly as prickly pears, were first brought"
-      }
-    },
-    "Chariot-racing": {
-      "title": "Chariot racing",
-      "description": "Ancient Greek, Roman, and Byzantine sport",
-      "revision": 1379144986,
-      "url": "https://en.wikipedia.org/wiki/Chariot_racing",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Chariot_racing&oldid=1379144986",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Chariot-racing.webp",
-        "width": 330,
-        "height": 182,
-        "credit": {
-          "file": "Jean_Léon_Gérôme_-_Chariot_Race_-_1983.380_-_Art_Institute_of_Chicago.jpg",
-          "artist": "Jean-Léon Gérôme",
-          "license": "Public domain",
-          "licenseUrl": null,
-          "filePage": "https://commons.wikimedia.org/wiki/File:Jean_L%C3%A9on_G%C3%A9r%C3%B4me_-_Chariot_Race_-_1983.380_-_Art_Institute_of_Chicago.jpg"
-        }
-      },
-      "fragments": {
-        "Tertullian claims that there were originally just two factions, White and Red, s": "Tertullian claims that there were originally just two factions, White",
-        "In the Eastern Roman (Byzantine) Empire, the traditional Roman chariot-racing fa": "In the Eastern Roman (Byzantine) Empire, the traditional Roman chariot-racing"
-      }
-    },
-    "Nika-riots": {
-      "title": "Nika riots",
-      "description": "532 Byzantine revolt against Justinian I",
-      "revision": 1372483923,
-      "url": "https://en.wikipedia.org/wiki/Nika_riots",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Nika_riots&oldid=1372483923",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Nika-riots.webp",
-        "width": 330,
-        "height": 495,
-        "credit": {
-          "file": "Turkey-03228_-_Hippodrome_of_Constantinople_(11312626353).jpg",
-          "artist": "Dennis G. Jarvis",
-          "license": "CC BY-SA 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-          "filePage": "https://commons.wikimedia.org/wiki/File:Turkey-03228_-_Hippodrome_of_Constantinople_(11312626353).jpg"
-        }
-      },
-      "fragments": {
-        "The murderers were to be executed, and most of them were. However, on January 10": "The murderers were to be executed, and most of them",
-        "From the start, the crowd hurled insults at Justinian. By the end of the day, at": "From the start, the crowd hurled insults at Justinian. By",
-        "According to the account of Procopius, around 30,000 people were killed, althoug": "According to the account of Procopius, around 30,000 people were"
       }
     },
     "Roller-coaster": {
@@ -6978,9 +6044,9 @@
     "Quipu": {
       "title": "Quipu",
       "description": "Andean record-keeping system using knotted cords",
-      "revision": 1375000408,
+      "revision": 1381186669,
       "url": "https://en.wikipedia.org/wiki/Quipu",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Quipu&oldid=1375000408",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Quipu&oldid=1381186669",
       "snapshot": true,
       "image": {
         "file": "snapshots/images/Quipu.webp",
@@ -6995,8 +6061,6 @@
         }
       },
       "fragments": {
-        "A quipu usually consists of cotton or camelid fiber cords, and contains categori": "A quipu usually consists of cotton or camelid fiber cords",
-        "After the Spanish conquest of the Inca Empire, quipus were slowly replaced by Eu": "After the Spanish conquest of the Inca Empire, quipus were",
         "Some have argued that far more than numeric information is present and that quip": "Some have argued that far more than numeric information is",
         "In 2011, a potential match between six colonial-era Santa Valley Quipus and a Sp": "In 2011, a potential match between six colonial-era Santa Valley"
       }
@@ -7021,6 +6085,7 @@
         }
       },
       "fragments": {
+        "Each of the six quipus presents a consistent cord color patterning known as colo": "Each of the six quipus presents a consistent cord color",
         "The potential link between the six quipus and a 1670 Spanish colonial revisita (": "The potential link between the six quipus and a 1670"
       }
     },
@@ -7176,7 +6241,7 @@
         "height": 495,
         "credit": {
           "file": "Silk_raw_01a.jpg",
-          "artist": "Kuebi = Armin Kübelbeck",
+          "artist": "Kuebi = Armin K\u00fcbelbeck",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
           "filePage": "https://commons.wikimedia.org/wiki/File:Silk_raw_01a.jpg"
@@ -7211,7 +6276,7 @@
     },
     "Sogdia": {
       "title": "Sogdia",
-      "description": "Ancient Iranian civilization (6th century BCE – 11th century CE)",
+      "description": "Ancient Iranian civilization (6th century BCE \u2013 11th century CE)",
       "revision": 1378304607,
       "url": "https://en.wikipedia.org/wiki/Sogdia",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Sogdia&oldid=1378304607",
@@ -7222,7 +6287,7 @@
         "height": 164,
         "credit": {
           "file": "Map_of_Sogdia.png",
-          "artist": "DEMIS Mapserver, पाटलिपुत्र",
+          "artist": "DEMIS Mapserver, \u092a\u093e\u091f\u0932\u093f\u092a\u0941\u0924\u094d\u0930",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
           "filePage": "https://commons.wikimedia.org/wiki/File:Map_of_Sogdia.png"
@@ -7242,66 +6307,6 @@
       "image": null,
       "fragments": {
         "The economic and political importance of Sogdian guaranteed its survival in the ": "The economic and political importance of Sogdian guaranteed its survival"
-      }
-    },
-    "Skyscraper": {
-      "title": "Skyscraper",
-      "description": "Tall habitable building",
-      "revision": 1379820423,
-      "url": "https://en.wikipedia.org/wiki/Skyscraper",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Skyscraper&oldid=1379820423",
-      "snapshot": true,
-      "image": null,
-      "fragments": {
-        "The medieval Egyptian city of Fustat housed many high-rise residential buildings": "The medieval Egyptian city of Fustat housed many high-rise residential"
-      }
-    },
-    "Fustat": {
-      "title": "Fustat",
-      "description": "First capital of Islamic Egypt, in Old Cairo",
-      "revision": 1377779140,
-      "url": "https://en.wikipedia.org/wiki/Fustat",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Fustat&oldid=1377779140",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Fustat.webp",
-        "width": 330,
-        "height": 440,
-        "credit": {
-          "file": "Fostat-329.jpg",
-          "artist": "Rappoport, A.S. (Angelo Solomon), 1871-1950 VIAF (71482297)",
-          "license": "Public domain",
-          "licenseUrl": null,
-          "filePage": "https://commons.wikimedia.org/wiki/File:Fostat-329.jpg"
-        }
-      },
-      "fragments": {
-        "From 975 to 1075, Fustat was a major production centre for Islamic art and ceram": "From 975 to 1075, Fustat was a major production centre",
-        "In the mid-12th century, the caliph of Egypt was the teenager Athid, but his pos": "In the mid-12th century, the caliph of Egypt was the"
-      }
-    },
-    "Shawar": {
-      "title": "Shawar",
-      "description": "Egyptian de facto ruler of Fatimid Egypt",
-      "revision": 1379796726,
-      "url": "https://en.wikipedia.org/wiki/Shawar",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Shawar&oldid=1379796726",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Shawar.webp",
-        "width": 330,
-        "height": 396,
-        "credit": {
-          "file": "Shawar_with_King_Amalric's_messengers.jpg",
-          "artist": "AnonymousUnknown author artist from Paris",
-          "license": "Public domain",
-          "licenseUrl": null,
-          "filePage": "https://commons.wikimedia.org/wiki/File:Shawar_with_King_Amalric's_messengers.jpg"
-        }
-      },
-      "fragments": {
-        "Shawar sent 20,000 naphtha pots and 10,000 lighting bombs [mish'al] and distribu": "Shawar sent 20,000 naphtha pots and 10,000 lighting bombs [mish'al]",
-        "But Shirkuh forced Amalric to withdraw, and then conquered Egypt with his own fo": "But Shirkuh forced Amalric to withdraw, and then conquered Egypt"
       }
     },
     "Snail": {
@@ -7446,7 +6451,7 @@
     },
     "John-Huddleston": {
       "title": "John Huddleston",
-      "description": "English Catholic priest (1608–1698)",
+      "description": "English Catholic priest (1608\u20131698)",
       "revision": 1359600694,
       "url": "https://en.wikipedia.org/wiki/John_Huddleston",
       "permalink": "https://en.wikipedia.org/w/index.php?title=John_Huddleston&oldid=1359600694",
@@ -7481,7 +6486,7 @@
         "width": 330,
         "height": 204,
         "credit": {
-          "file": "CargoNet_Di_12_Euro_4000_Lønsdal_-_Bolna.jpg",
+          "file": "CargoNet_Di_12_Euro_4000_L\u00f8nsdal_-_Bolna.jpg",
           "artist": "Kabelleger / David Gubler (http://www.bahnbilder.ch).",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -7489,7 +6494,7 @@
         }
       },
       "fragments": {
-        "Once a droplet has frozen, it grows in the supersaturated environment—one where ": "Once a droplet has frozen, it grows in the supersaturated"
+        "These large crystals are an efficient source of precipitation, since they fall t": "These large crystals are an efficient source of precipitation, since"
       }
     },
     "Snowflake": {
@@ -7535,30 +6540,8 @@
         }
       },
       "fragments": {
-        "Wilson Alwyn Bentley (February 9, 1865 – December 23, 1931), also known as Snowf": "Wilson Alwyn Bentley (February 9, 1865 – December 23, 1931)"
-      }
-    },
-    "Photography": {
-      "title": "Photography",
-      "description": "Art and practice of creating images by recording light",
-      "revision": 1379059042,
-      "url": "https://en.wikipedia.org/wiki/Photography",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Photography&oldid=1379059042",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Photography.webp",
-        "width": 330,
-        "height": 220,
-        "credit": {
-          "file": "Photographer_Photographing_Nevada_Mountains.jpg",
-          "artist": "Noah Wulf",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "filePage": "https://commons.wikimedia.org/wiki/File:Photographer_Photographing_Nevada_Mountains.jpg"
-        }
-      },
-      "fragments": {
-        "Niépce died in 1833 and Daguerre then redirected the experiments toward the ligh": "Niépce died in 1833 and Daguerre then redirected the experiments"
+        "He first became interested in snow crystals as a teenager on his family farm. \u201cA": "He first became interested in snow crystals as a teenager",
+        "Kenneth G. Libbrecht notes that the techniques used by Bentley to photograph sno": "Kenneth G. Libbrecht notes that the techniques used by Bentley"
       }
     },
     "Sperm-whale": {
@@ -7651,7 +6634,7 @@
         }
       },
       "fragments": {
-        "In 1937, the Commission Internationale de l'Éclairage (International Commission ": "In 1937, the Commission Internationale de l'Éclairage (International Commission on",
+        "In 1937, the Commission Internationale de l'\u00c9clairage (International Commission ": "In 1937, the Commission Internationale de l'\u00c9clairage (International Commission on",
         "The arbitrary (1/683) term was chosen so that the new definition would precisely": "The arbitrary (1/683) term was chosen so that the new"
       }
     },
@@ -7668,7 +6651,7 @@
         "height": 330,
         "credit": {
           "file": "The_Sun_in_white_light.jpg",
-          "artist": "Matúš Motlo",
+          "artist": "Mat\u00fa\u0161 Motlo",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "filePage": "https://commons.wikimedia.org/wiki/File:The_Sun_in_white_light.jpg"
@@ -7680,7 +6663,7 @@
     },
     "John-Flamsteed": {
       "title": "John Flamsteed",
-      "description": "English astronomer (1646–1719)",
+      "description": "English astronomer (1646\u20131719)",
       "revision": 1377112139,
       "url": "https://en.wikipedia.org/wiki/John_Flamsteed",
       "permalink": "https://en.wikipedia.org/w/index.php?title=John_Flamsteed&oldid=1377112139",
@@ -7690,7 +6673,7 @@
         "width": 330,
         "height": 414,
         "credit": {
-          "file": "John_Flamsteed_(Gemälde).jpg",
+          "file": "John_Flamsteed_(Gem\u00e4lde).jpg",
           "artist": "Thomas Gibson",
           "license": "Public domain",
           "licenseUrl": null,
@@ -7722,7 +6705,7 @@
         }
       },
       "fragments": {
-        "The numbers now in use were assigned by the French astronomer, Joseph Jérôme de ": "The numbers now in use were assigned by the French",
+        "The numbers now in use were assigned by the French astronomer, Joseph J\u00e9r\u00f4me de ": "The numbers now in use were assigned by the French",
         "Flamsteed designations gained popularity throughout the eighteenth century, and ": "Flamsteed designations gained popularity throughout the eighteenth century, and are"
       }
     },
@@ -7746,7 +6729,7 @@
         }
       },
       "fragments": {
-        "51 Pegasi, also named Helvetios (/hɛlˈviːʃiəs/), is a Sun-like star located 50.6": "51 Pegasi, also named Helvetios (/hɛlˈviːʃiəs/), is a Sun-like star"
+        "51 Pegasi, also named Helvetios (/h\u025bl\u02c8vi\u02d0\u0283i\u0259s/), is a Sun-like star located 50.6": "51 Pegasi, also named Helvetios (/h\u025bl\u02c8vi\u02d0\u0283i\u0259s/), is a Sun-like star"
       }
     },
     "Sunglasses": {
@@ -7774,7 +6757,7 @@
     },
     "William-Crookes": {
       "title": "William Crookes",
-      "description": "English chemist and physicist (1832–1919)",
+      "description": "English chemist and physicist (1832\u20131919)",
       "revision": 1380613073,
       "url": "https://en.wikipedia.org/wiki/William_Crookes",
       "permalink": "https://en.wikipedia.org/w/index.php?title=William_Crookes&oldid=1380613073",
@@ -7799,7 +6782,7 @@
     },
     "Florence-Cook-medium": {
       "title": "Florence Cook (medium)",
-      "description": "British medium (ca. 1856–1904)",
+      "description": "British medium (ca. 1856\u20131904)",
       "revision": 1380680371,
       "url": "https://en.wikipedia.org/wiki/Florence_Cook_(medium)",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Florence_Cook_(medium)&oldid=1380680371",
@@ -7913,6 +6896,7 @@
         }
       },
       "fragments": {
+        "A swamp is a forested wetland. Swamps are considered to be transition zones beca": "A swamp is a forested wetland. Swamps are considered to",
         "The Sudd and the Okavango Delta are Africa's best known marshland areas.": "The Sudd and the Okavango Delta are Africa's best known"
       }
     },
@@ -7936,9 +6920,9 @@
         }
       },
       "fragments": {
-        "The Arabic word sudd is derived from sadd (سد), meaning \"barrier\" or \"obstructio": "The Arabic word sudd is derived from sadd (سد), meaning",
+        "The Sudd (Arabic: \u0627\u0644\u0633\u062f, romanized: as-Sudd, Nuer: Baki\u0331ec, Dinka: Toc) is a vast": "The Sudd (Arabic: \u0627\u0644\u0633\u062f, romanized: as-Sudd, Nuer: Baki\u0331ec, Dinka: Toc)",
         "For many centuries the swamp, and especially its thicket of vegetation, proved a": "For many centuries the swamp, and especially its thicket of",
-        "A major feature of the area is the incomplete Jonglei Canal, which was planned t": "A major feature of the area is the incomplete Jonglei"
+        "Since the Sudd area consists of various meandering channels, lagoons, reed and p": "Since the Sudd area consists of various meandering channels, lagoons"
       }
     },
     "Jonglei-Canal": {
@@ -7990,7 +6974,7 @@
     },
     "Jean-Baptiste-Tavernier": {
       "title": "Jean-Baptiste Tavernier",
-      "description": "17th-century French gem merchant and traveler (1605–1689)",
+      "description": "17th-century French gem merchant and traveler (1605\u20131689)",
       "revision": 1373737790,
       "url": "https://en.wikipedia.org/wiki/Jean-Baptiste_Tavernier",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Jean-Baptiste_Tavernier&oldid=1373737790",
@@ -8000,8 +6984,8 @@
         "width": 330,
         "height": 585,
         "credit": {
-          "file": "Jean-Baptist_Tavernier,_by_Nicolas_de_Largillière.jpg",
-          "artist": "Nicolas de Largillière",
+          "file": "Jean-Baptist_Tavernier,_by_Nicolas_de_Largilli\u00e8re.jpg",
+          "artist": "Nicolas de Largilli\u00e8re",
           "license": "Public domain",
           "licenseUrl": null,
           "filePage": "https://commons.wikimedia.org/wiki/File:Jean-Baptist_Tavernier%2C_by_Nicolas_de_Largilli%C3%A8re.jpg"
@@ -8099,9 +7083,9 @@
     "Taxi": {
       "title": "Taxi",
       "description": "Type of vehicle for hire with a driver",
-      "revision": 1380194858,
+      "revision": 1381227017,
       "url": "https://en.wikipedia.org/wiki/Taxi",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Taxi&oldid=1380194858",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Taxi&oldid=1381227017",
       "snapshot": true,
       "image": {
         "file": "snapshots/images/Taxi.webp",
@@ -8109,52 +7093,40 @@
         "height": 245,
         "credit": {
           "file": "TAXI.jpg",
-          "artist": "Petar Milošević",
+          "artist": "Petar Milo\u0161evi\u0107",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "filePage": "https://commons.wikimedia.org/wiki/File:TAXI.jpg"
         }
       },
       "fragments": {
+        "The hansom cab was designed and patented in 1834 by Joseph Hansom, an architect ": "The hansom cab was designed and patented in 1834 by",
         "The first cab service in Toronto, \"The City\", was established in 1837 by Thornto": "The first cab service in Toronto, \"The City\", was established"
+      }
+    },
+    "Blackburn-Riots": {
+      "title": "Blackburn Riots",
+      "description": "1833 civil conflict in Detroit, Michigan",
+      "revision": 1370763273,
+      "url": "https://en.wikipedia.org/wiki/Blackburn_Riots",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Blackburn_Riots&oldid=1370763273",
+      "snapshot": true,
+      "image": null,
+      "fragments": {
+        "The Blackburn riots occurred during the summer of 1833 in Detroit, Michigan. The": "The Blackburn riots occurred during the summer of 1833 in"
       }
     },
     "Thornton-Blackburn": {
       "title": "Thornton Blackburn",
-      "description": "American slave (1812–1890)",
+      "description": "American slave (1812\u20131890)",
       "revision": 1341771057,
       "url": "https://en.wikipedia.org/wiki/Thornton_Blackburn",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Thornton_Blackburn&oldid=1341771057",
       "snapshot": true,
       "image": null,
       "fragments": {
-        "Thornton and Lucie escaped from Louisville to Michigan in 1831. They had been li": "Thornton and Lucie escaped from Louisville to Michigan in 1831",
-        "Thornton's escape was more difficult because he was heavily guarded, bound and s": "Thornton's escape was more difficult because he was heavily guarded",
         "Once in Essex County, Thornton was jailed briefly while a formal request for his": "Once in Essex County, Thornton was jailed briefly while a",
-        "Thornton Blackburn (c. 1812–1890) was a self-emancipated formerly enslaved man w": "Thornton Blackburn (c. 1812–1890) was a self-emancipated formerly enslaved man"
-      }
-    },
-    "Underground-Railroad": {
-      "title": "Underground Railroad",
-      "description": "Network for fugitive slaves in 19th-century U.S.",
-      "revision": 1379435166,
-      "url": "https://en.wikipedia.org/wiki/Underground_Railroad",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Underground_Railroad&oldid=1379435166",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Underground-Railroad.webp",
-        "width": 330,
-        "height": 163,
-        "credit": {
-          "file": "Undergroundrailroadsmall2.jpg",
-          "artist": "https://lccn.loc.gov/68003375 Siebert, Wilbur Henry, 1866-1961. The underground railroad from slavery to freedom. With an introd. by Albert Bushnell Hart. Gloucester, Mass., P. Smith, 1968 [c1898] xxvi, 478 p. illus., facsim., fold. map, ports. 21 cm. E450 .S57 1968",
-          "license": "Public domain",
-          "licenseUrl": null,
-          "filePage": "https://commons.wikimedia.org/wiki/File:Undergroundrailroadsmall2.jpg"
-        }
-      },
-      "fragments": {
-        "Many of the fugitive slaves who \"rode\" the Underground Railroad considered Canad": "Many of the fugitive slaves who \"rode\" the Underground Railroad"
+        "Thornton created Toronto's first taxi service in 1837, named \"The City\". Though ": "Thornton created Toronto's first taxi service in 1837, named \"The"
       }
     },
     "Tea": {
@@ -8271,9 +7243,7 @@
         }
       },
       "fragments": {
-        "The expression comes from an ancient anecdote that crocodiles weep for the victi": "The expression comes from an ancient anecdote that crocodiles weep",
         "In 2006, neurologist Malcolm Shaner, assisted by Kent Vliet, a researcher at the": "In 2006, neurologist Malcolm Shaner, assisted by Kent Vliet, a",
-        "These serpents slay men, and they eat them weeping; and when they eat they move ": "These serpents slay men, and they eat them weeping; and",
         "This tale was first spread widely in English in the stories of the travels of Si": "This tale was first spread widely in English in the"
       }
     },
@@ -8297,6 +7267,7 @@
         }
       },
       "fragments": {
+        "The Travels of Sir John Mandeville or Mandeville's Travels is a book written bet": "The Travels of Sir John Mandeville or Mandeville's Travels is",
         "In the preface, the compiler calls himself a knight, and states that he was born": "In the preface, the compiler calls himself a knight, and"
       }
     },
@@ -8325,7 +7296,7 @@
     },
     "Albert-J-Myer": {
       "title": "Albert J. Myer",
-      "description": "United States Army general (1828–1880)",
+      "description": "United States Army general (1828\u20131880)",
       "revision": 1379822524,
       "url": "https://en.wikipedia.org/wiki/Albert_J._Myer",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Albert_J._Myer&oldid=1379822524",
@@ -8437,12 +7408,12 @@
         }
       },
       "fragments": {
-        "Before the Revolution, French society—aside from royalty—was divided into three ": "Before the Revolution, French society—aside from royalty—was divided into three"
+        "Before the Revolution, French society\u2014aside from royalty\u2014was divided into three ": "Before the Revolution, French society\u2014aside from royalty\u2014was divided into three"
       }
     },
     "French-Revolution": {
       "title": "French Revolution",
-      "description": "1789–1799 sociopolitical change in France",
+      "description": "1789\u20131799 sociopolitical change in France",
       "revision": 1379258701,
       "url": "https://en.wikipedia.org/wiki/French_Revolution",
       "permalink": "https://en.wikipedia.org/w/index.php?title=French_Revolution&oldid=1379258701",
@@ -8570,7 +7541,7 @@
     },
     "Quirico-Filopanti": {
       "title": "Quirico Filopanti",
-      "description": "Italian mathematician and politician (1812–1894)",
+      "description": "Italian mathematician and politician (1812\u20131894)",
       "revision": 1371985903,
       "url": "https://en.wikipedia.org/wiki/Quirico_Filopanti",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Quirico_Filopanti&oldid=1371985903",
@@ -8594,7 +7565,7 @@
     },
     "Augustus-De-Morgan": {
       "title": "Augustus De Morgan",
-      "description": "British mathematician and logician (1806–1871)",
+      "description": "British mathematician and logician (1806\u20131871)",
       "revision": 1377005691,
       "url": "https://en.wikipedia.org/wiki/Augustus_De_Morgan",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Augustus_De_Morgan&oldid=1377005691",
@@ -8664,7 +7635,7 @@
     },
     "John-A-Costello": {
       "title": "John A. Costello",
-      "description": "Taoiseach (1948–1951, 1954–1957)",
+      "description": "Taoiseach (1948\u20131951, 1954\u20131957)",
       "revision": 1364976882,
       "url": "https://en.wikipedia.org/wiki/John_A._Costello",
       "permalink": "https://en.wikipedia.org/w/index.php?title=John_A._Costello&oldid=1364976882",
@@ -8686,89 +7657,6 @@
         "Ireland left the Commonwealth on 18 April 1949, when the Republic of Ireland Act": "Ireland left the Commonwealth on 18 April 1949, when the"
       }
     },
-    "Tornado": {
-      "title": "Tornado",
-      "description": "Violently rotating column of air",
-      "revision": 1378210995,
-      "url": "https://en.wikipedia.org/wiki/Tornado",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Tornado&oldid=1378210995",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Tornado.webp",
-        "width": 330,
-        "height": 248,
-        "credit": {
-          "file": "F5_tornado_Elie_Manitoba_2007.jpg",
-          "artist": "Justin Hobson (Justin1569 at English Wikipedia)",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-          "filePage": "https://commons.wikimedia.org/wiki/File:F5_tornado_Elie_Manitoba_2007.jpg"
-        }
-      },
-      "fragments": {
-        "There are several scales for rating the strength of tornadoes. The Fujita scale ": "There are several scales for rating the strength of tornadoes"
-      }
-    },
-    "Fujita-scale": {
-      "title": "Fujita scale",
-      "description": "Scale for rating tornado intensity",
-      "revision": 1376981758,
-      "url": "https://en.wikipedia.org/wiki/Fujita_scale",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Fujita_scale&oldid=1376981758",
-      "snapshot": true,
-      "image": null,
-      "fragments": {
-        "The scale was introduced in 1971 by Ted Fujita of the University of Chicago, in ": "The scale was introduced in 1971 by Ted Fujita of"
-      }
-    },
-    "Ted-Fujita": {
-      "title": "Ted Fujita",
-      "description": "Japanese-American meteorologist (1920–1998)",
-      "revision": 1379365382,
-      "url": "https://en.wikipedia.org/wiki/Ted_Fujita",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Ted_Fujita&oldid=1379365382",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Ted-Fujita.webp",
-        "width": 330,
-        "height": 423,
-        "credit": {
-          "file": "Ted_Fujita_1972_(cropped).jpg",
-          "artist": "Unknown authorUnknown author",
-          "license": "Public domain",
-          "licenseUrl": null,
-          "filePage": "https://commons.wikimedia.org/wiki/File:Ted_Fujita_1972_(cropped).jpg"
-        }
-      },
-      "fragments": {
-        "Fujita resided in Kokura during World War II. Kokura was the primary target for ": "Fujita resided in Kokura during World War II. Kokura was",
-        "Studying the damage caused by the nuclear explosions contributed to Fujita's und": "Studying the damage caused by the nuclear explosions contributed to",
-        "Fujita was approached by an expert with the Flight Safety Foundation to investig": "Fujita was approached by an expert with the Flight Safety"
-      }
-    },
-    "Eastern-Air-Lines-Flight-66": {
-      "title": "Eastern Air Lines Flight 66",
-      "description": "1975 aviation accident in New York",
-      "revision": 1379315918,
-      "url": "https://en.wikipedia.org/wiki/Eastern_Air_Lines_Flight_66",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Eastern_Air_Lines_Flight_66&oldid=1379315918",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Eastern-Air-Lines-Flight-66.webp",
-        "width": 300,
-        "height": 351,
-        "credit": {
-          "file": "Eastern_Airlines_Flight_66_crashsite_(cropped).jpg",
-          "artist": "FAA",
-          "license": "Public domain",
-          "licenseUrl": null,
-          "filePage": "https://commons.wikimedia.org/wiki/File:Eastern_Airlines_Flight_66_crashsite_(cropped).jpg"
-        }
-      },
-      "fragments": {
-        "Eastern Air Lines Flight 66 was a regularly scheduled flight from New Orleans to": "Eastern Air Lines Flight 66 was a regularly scheduled flight"
-      }
-    },
     "Train": {
       "title": "Train",
       "description": "Series of connected rail vehicles",
@@ -8781,8 +7669,8 @@
         "width": 330,
         "height": 220,
         "credit": {
-          "file": "Поезд_на_фоне_горы_Шатрище._Воронежская_область.jpg",
-          "artist": "Алексей Задонский",
+          "file": "\u041f\u043e\u0435\u0437\u0434_\u043d\u0430_\u0444\u043e\u043d\u0435_\u0433\u043e\u0440\u044b_\u0428\u0430\u0442\u0440\u0438\u0449\u0435._\u0412\u043e\u0440\u043e\u043d\u0435\u0436\u0441\u043a\u0430\u044f_\u043e\u0431\u043b\u0430\u0441\u0442\u044c.jpg",
+          "artist": "\u0410\u043b\u0435\u043a\u0441\u0435\u0439 \u0417\u0430\u0434\u043e\u043d\u0441\u043a\u0438\u0439",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "filePage": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%BE%D0%B5%D0%B7%D0%B4_%D0%BD%D0%B0_%D1%84%D0%BE%D0%BD%D0%B5_%D0%B3%D0%BE%D1%80%D1%8B_%D0%A8%D0%B0%D1%82%D1%80%D0%B8%D1%89%D0%B5._%D0%92%D0%BE%D1%80%D0%BE%D0%BD%D0%B5%D0%B6%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C.jpg"
@@ -8888,7 +7776,7 @@
     },
     "Christiane-Desroches-Noblecourt": {
       "title": "Christiane Desroches Noblecourt",
-      "description": "French Egyptologist (1913–2011)",
+      "description": "French Egyptologist (1913\u20132011)",
       "revision": 1377866356,
       "url": "https://en.wikipedia.org/wiki/Christiane_Desroches_Noblecourt",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Christiane_Desroches_Noblecourt&oldid=1377866356",
@@ -8923,7 +7811,7 @@
         "height": 248,
         "credit": {
           "file": "Amada_Front.JPG",
-          "artist": "Einsamer Schütze",
+          "artist": "Einsamer Sch\u00fctze",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
           "filePage": "https://commons.wikimedia.org/wiki/File:Amada_Front.JPG"
@@ -8953,13 +7841,12 @@
         }
       },
       "fragments": {
-        "Jonas Hanway, the founder of the Magdalen Hospital, has the credit of being the ": "Jonas Hanway, the founder of the Magdalen Hospital, has the",
         "The use of the umbrella or parasol (though not unknown) was uncommon in England ": "The use of the umbrella or parasol (though not unknown)"
       }
     },
     "Jonas-Hanway": {
       "title": "Jonas Hanway",
-      "description": "English merchant, writer and philanthropist (1712–1786)",
+      "description": "English merchant, writer and philanthropist (1712\u20131786)",
       "revision": 1372740201,
       "url": "https://en.wikipedia.org/wiki/Jonas_Hanway",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Jonas_Hanway&oldid=1372740201",
@@ -8977,7 +7864,6 @@
         }
       },
       "fragments": {
-        "He attacked vail-giving, or tipping, with some temporary success; by his onslaug": "He attacked vail-giving, or tipping, with some temporary success; by",
         "Hanway was the first male Londoner, it is said, to carry an umbrella, (following": "Hanway was the first male Londoner, it is said, to",
         "In 1757, Samuel Johnson, a tea drinker, wrote an anonymous negative review of Ha": "In 1757, Samuel Johnson, a tea drinker, wrote an anonymous"
       }
@@ -9002,9 +7888,7 @@
         }
       },
       "fragments": {
-        "Boys as young as four climbed hot flues that could be as narrow as 9 by 9 inches": "Boys as young as four climbed hot flues that could",
-        "In 1788, the Chimney Sweepers Act 1788 (long title: An Act for the Better Regula": "In 1788, the Chimney Sweepers Act 1788 (long title: An",
-        "In February 1875 a twelve-year-old boy, George Brewster, was sent up the Fulbour": "In February 1875 a twelve-year-old boy, George Brewster, was sent"
+        "In 1788, the Chimney Sweepers Act 1788 (long title: An Act for the Better Regula": "In 1788, the Chimney Sweepers Act 1788 (long title: An"
       }
     },
     "Foundling-Hospital": {
@@ -9032,7 +7916,7 @@
     },
     "Thomas-Coram": {
       "title": "Thomas Coram",
-      "description": "English sea captain and philanthropist (c. 1668–1751)",
+      "description": "English sea captain and philanthropist (c. 1668\u20131751)",
       "revision": 1366168807,
       "url": "https://en.wikipedia.org/wiki/Thomas_Coram",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Thomas_Coram&oldid=1366168807",
@@ -9079,7 +7963,7 @@
     },
     "Ole-Worm": {
       "title": "Ole Worm",
-      "description": "Danish scientist (1588–1654)",
+      "description": "Danish scientist (1588\u20131654)",
       "revision": 1372846030,
       "url": "https://en.wikipedia.org/wiki/Ole_Worm",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Ole_Worm&oldid=1372846030",
@@ -9124,184 +8008,19 @@
         "Lovecraft approved of other writers building on his work, believing such common ": "Lovecraft approved of other writers building on his work, believing"
       }
     },
-    "Vitamin-C": {
-      "title": "Vitamin C",
-      "description": "Essential nutrient found in citrus fruits and other foods",
-      "revision": 1378490308,
-      "url": "https://en.wikipedia.org/wiki/Vitamin_C",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Vitamin_C&oldid=1378490308",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Vitamin-C.webp",
-        "width": 330,
-        "height": 195,
-        "credit": {
-          "file": "L-Ascorbic_acid.svg",
-          "artist": "Yikrazuul",
-          "license": "Public domain",
-          "licenseUrl": null,
-          "filePage": "https://commons.wikimedia.org/wiki/File:L-Ascorbic_acid.svg"
-        }
-      },
-      "fragments": {
-        "The name antiscorbutic was used in the eighteenth and nineteenth centuries for f": "The name antiscorbutic was used in the eighteenth and nineteenth"
-      }
-    },
-    "Vilhjalmur-Stefansson": {
-      "title": "Vilhjalmur Stefansson",
-      "description": "Canadian-born explorer (1879–1962)",
-      "revision": 1374723980,
-      "url": "https://en.wikipedia.org/wiki/Vilhjalmur_Stefansson",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Vilhjalmur_Stefansson&oldid=1374723980",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Vilhjalmur-Stefansson.webp",
-        "width": 330,
-        "height": 526,
-        "credit": {
-          "file": "Vilhjalmur_Stefansson.jpg",
-          "artist": "Unknown (Bain News Service, publisher)",
-          "license": "Public domain",
-          "licenseUrl": null,
-          "filePage": "https://commons.wikimedia.org/wiki/File:Vilhjalmur_Stefansson.jpg"
-        }
-      },
-      "fragments": {
-        "Stefansson argued that it was possible for people of European descent to live on": "Stefansson argued that it was possible for people of European",
-        "The four young men Stefansson recruited, Americans Frederick Maurer, E. Lorne Kn": "The four young men Stefansson recruited, Americans Frederick Maurer, E"
-      }
-    },
-    "Ada-Blackjack": {
-      "title": "Ada Blackjack",
-      "description": "Iñupiaq explorer (1898–1983)",
-      "revision": 1375569364,
-      "url": "https://en.wikipedia.org/wiki/Ada_Blackjack",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Ada_Blackjack&oldid=1375569364",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Ada-Blackjack.webp",
-        "width": 330,
-        "height": 409,
-        "credit": {
-          "file": "Ada_Blackjack_with_her_son_Bennett,_1923.jpg",
-          "artist": "unknown",
-          "license": "Public domain",
-          "licenseUrl": null,
-          "filePage": "https://commons.wikimedia.org/wiki/File:Ada_Blackjack_with_her_son_Bennett%2C_1923.jpg"
-        }
-      },
-      "fragments": {
-        "The other three men were never seen again, and so Blackjack was alone, except fo": "The other three men were never seen again, and so",
-        "Blackjack was a quiet person and hated the media circus that developed around he": "Blackjack was a quiet person and hated the media circus"
-      }
-    },
-    "Volcano": {
-      "title": "Volcano",
-      "description": "Rupture in a planet's crust where material escapes",
-      "revision": 1380352685,
-      "url": "https://en.wikipedia.org/wiki/Volcano",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Volcano&oldid=1380352685",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Volcano.webp",
-        "width": 330,
-        "height": 248,
-        "credit": {
-          "file": "Augustine_volcano_Jan_24_2006_-_Cyrus_Read.jpg",
-          "artist": "Cyrus Read Geophysicist USGS, Alaska Volcano Observatory cread@usgs.gov",
-          "license": "Public domain",
-          "licenseUrl": null,
-          "filePage": "https://commons.wikimedia.org/wiki/File:Augustine_volcano_Jan_24_2006_-_Cyrus_Read.jpg"
-        }
-      },
-      "fragments": {
-        "Volcanic gases can reach the stratosphere, where they form sulfuric acid aerosol": "Volcanic gases can reach the stratosphere, where they form sulfuric"
-      }
-    },
-    "Russian-famine-of-1601-1603": {
-      "title": "Russian famine of 1601–1603",
-      "description": "",
-      "revision": 1379091940,
-      "url": "https://en.wikipedia.org/wiki/Russian_famine_of_1601%E2%80%931603",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Russian_famine_of_1601%E2%80%931603&oldid=1379091940",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Russian-famine-of-1601-1603.webp",
-        "width": 330,
-        "height": 203,
-        "credit": {
-          "file": "Golod.jpg",
-          "artist": "Boris Chorikov",
-          "license": "Public domain",
-          "licenseUrl": null,
-          "filePage": "https://commons.wikimedia.org/wiki/File:Golod.jpg"
-        }
-      },
-      "fragments": {
-        "The Russian famine of 1601–1603, Russia's worst famine in terms of proportional ": "The Russian famine of 1601–1603, Russia's worst famine in terms"
-      }
-    },
-    "Time-of-Troubles": {
-      "title": "Time of Troubles",
-      "description": "1598–1613 chaotic period of Russian history",
-      "revision": 1377769151,
-      "url": "https://en.wikipedia.org/wiki/Time_of_Troubles",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Time_of_Troubles&oldid=1377769151",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Time-of-Troubles.webp",
-        "width": 330,
-        "height": 388,
-        "credit": {
-          "file": "Appeal_of_Minin.jpg",
-          "artist": "Konstantin Makovsky",
-          "license": "Public domain",
-          "licenseUrl": null,
-          "filePage": "https://commons.wikimedia.org/wiki/File:Appeal_of_Minin.jpg"
-        }
-      },
-      "fragments": {
-        "Famine enveloped the country in 1602, followed by disease, claiming a third to t": "Famine enveloped the country in 1602, followed by disease, claiming",
-        "Conspiracies were rampant after Feodor's death. Rumors circulated that his young": "Conspiracies were rampant after Feodor's death. Rumors circulated that his"
-      }
-    },
-    "False-Dmitry-I": {
-      "title": "False Dmitry I",
-      "description": "Tsar of Russia from 1605 to 1606",
-      "revision": 1376008793,
-      "url": "https://en.wikipedia.org/wiki/False_Dmitry_I",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=False_Dmitry_I&oldid=1376008793",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/False-Dmitry-I.webp",
-        "width": 330,
-        "height": 331,
-        "credit": {
-          "file": "False_Dmitry_I_portrait.png",
-          "artist": "Unknown authorUnknown author",
-          "license": "Public domain",
-          "licenseUrl": null,
-          "filePage": "https://commons.wikimedia.org/wiki/File:False_Dmitry_I_portrait.png"
-        }
-      },
-      "fragments": {
-        "Dmitry ascended to the throne after the deposition of Tsar Feodor II and ruled f": "Dmitry ascended to the throne after the deposition of Tsar",
-        "On the morning of 17 May 1606, ten days after Dmitry's marriage to Marina, huge ": "On the morning of 17 May 1606, ten days after"
-      }
-    },
     "Waterfall": {
       "title": "Waterfall",
       "description": "Point in a river or brook where water flows over a vertical drop",
-      "revision": 1380098311,
+      "revision": 1381111406,
       "url": "https://en.wikipedia.org/wiki/Waterfall",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Waterfall&oldid=1380098311",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Waterfall&oldid=1381111406",
       "snapshot": true,
       "image": {
         "file": "snapshots/images/Waterfall.webp",
         "width": 330,
         "height": 508,
         "credit": {
-          "file": "Cascada_Dynjandi,_Vestfirðir,_Islandia,_2014-08-14,_DD_136-138_HDR.JPG",
+          "file": "Cascada_Dynjandi,_Vestfir\u00f0ir,_Islandia,_2014-08-14,_DD_136-138_HDR.JPG",
           "artist": "Diego Delso",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -9309,12 +8028,13 @@
         }
       },
       "fragments": {
-        "Human development has also threatened many waterfalls. For instance, the Guaíra ": "Human development has also threatened many waterfalls. For instance, the"
+        "Waterfalls are an important factor in determining the distribution of lotic orga": "Waterfalls are an important factor in determining the distribution of",
+        "Human development has also threatened many waterfalls. For instance, the Gua\u00edra ": "Human development has also threatened many waterfalls. For instance, the"
       }
     },
     "Gua-ra-Falls": {
-      "title": "Guaíra Falls",
-      "description": "Submerged waterfall on the Paraná River in Paraguay and Brazil",
+      "title": "Gua\u00edra Falls",
+      "description": "Submerged waterfall on the Paran\u00e1 River in Paraguay and Brazil",
       "revision": 1380176242,
       "url": "https://en.wikipedia.org/wiki/Gua%C3%ADra_Falls",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Gua%C3%ADra_Falls&oldid=1380176242",
@@ -9332,15 +8052,14 @@
         }
       },
       "fragments": {
-        "The falls were located at a point where the Paraná River was forced through a na": "The falls were located at a point where the Paraná",
-        "As construction of the Itaipu Dam progressed, thousands of visitors flocked to t": "As construction of the Itaipu Dam progressed, thousands of visitors",
+        "The falls were located at a point where the Paran\u00e1 River was forced through a na": "The falls were located at a point where the Paran\u00e1",
         "Earlier, as the waters began to rise, a demonstration took place, as hundreds of": "Earlier, as the waters began to rise, a demonstration took",
         "A tourist attraction and a favorite of locals, the falls were completely submerg": "A tourist attraction and a favorite of locals, the falls"
       }
     },
     "Itaipu-Dam": {
       "title": "Itaipu Dam",
-      "description": "Dam along the Brazil–Paraguay border",
+      "description": "Dam along the Brazil\u2013Paraguay border",
       "revision": 1379972505,
       "url": "https://en.wikipedia.org/wiki/Itaipu_Dam",
       "permalink": "https://en.wikipedia.org/w/index.php?title=Itaipu_Dam&oldid=1379972505",
@@ -9358,7 +8077,7 @@
         }
       },
       "fragments": {
-        "The Guaíra Falls was an effective barrier that separated freshwater species in t": "The Guaíra Falls was an effective barrier that separated freshwater"
+        "The Gua\u00edra Falls was an effective barrier that separated freshwater species in t": "The Gua\u00edra Falls was an effective barrier that separated freshwater"
       }
     },
     "WD-40": {
@@ -9418,7 +8137,7 @@
       },
       "fragments": {
         "Balloon tanks get their name from the cylindrical party balloons that inspired K": "Balloon tanks get their name from the cylindrical party balloons",
-        "In May 1963 at Vandenberg Air Force Base an Atlas–Agena vehicle under static tes": "In May 1963 at Vandenberg Air Force Base an Atlas–Agena"
+        "In May 1963 at Vandenberg Air Force Base an Atlas\u2013Agena vehicle under static tes": "In May 1963 at Vandenberg Air Force Base an Atlas\u2013Agena"
       }
     },
     "Whale": {
@@ -9434,45 +8153,22 @@
         "height": 495,
         "credit": {
           "file": "Southern_right_whale.jpg",
-          "artist": "Michaël CATANZARITI",
+          "artist": "Micha\u00ebl CATANZARITI",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
           "filePage": "https://commons.wikimedia.org/wiki/File:Southern_right_whale.jpg"
         }
       },
       "fragments": {
-        "Whaling by humans has existed since the Stone Age. Ancient whalers used harpoons": "Whaling by humans has existed since the Stone Age. Ancient"
-      }
-    },
-    "Ambergris": {
-      "title": "Ambergris",
-      "description": "Substance produced in the digestive system of sperm whales",
-      "revision": 1376838872,
-      "url": "https://en.wikipedia.org/wiki/Ambergris",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Ambergris&oldid=1376838872",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Ambergris.webp",
-        "width": 330,
-        "height": 238,
-        "credit": {
-          "file": "Ambergris,_Skagway_Museum.JPG",
-          "artist": "Wmpearl",
-          "license": "CC0",
-          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-          "filePage": "https://commons.wikimedia.org/wiki/File:Ambergris%2C_Skagway_Museum.JPG"
-        }
-      },
-      "fragments": {
-        "Ambergris (/ˈæmbərɡrɪs/ or /ˈæmbərɡriːs/; Latin: ambra grisea; Old French: ambre": "Ambergris (/ˈæmbərɡrɪs/ or /ˈæmbərɡriːs/; Latin: ambra grisea; Old French: ambre"
+        "Whales are fully aquatic, open-ocean animals: they can feed, mate, give birth, s": "Whales are fully aquatic, open-ocean animals: they can feed, mate"
       }
     },
     "Moby-Dick": {
       "title": "Moby-Dick",
       "description": "1851 novel by Herman Melville",
-      "revision": 1376535159,
+      "revision": 1381319065,
       "url": "https://en.wikipedia.org/wiki/Moby-Dick",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Moby-Dick&oldid=1376535159",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Moby-Dick&oldid=1381319065",
       "snapshot": true,
       "image": {
         "file": "snapshots/images/Moby-Dick.webp",
@@ -9487,6 +8183,7 @@
         }
       },
       "fragments": {
+        "In addition to his own experience on the whaling ship Acushnet, two actual event": "In addition to his own experience on the whaling ship",
         "Because the English edition omitted the epilogue describing Ishmael's escape, Br": "Because the English edition omitted the epilogue describing Ishmael's escape"
       }
     },
@@ -9503,7 +8200,7 @@
         "height": 318,
         "credit": {
           "file": "Red_and_white_wine_in_glass.jpg",
-          "artist": "André Karwath",
+          "artist": "Andr\u00e9 Karwath",
           "license": "CC BY-SA 2.5",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
           "filePage": "https://commons.wikimedia.org/wiki/File:Red_and_white_wine_in_glass.jpg"
@@ -9549,7 +8246,7 @@
         "height": 322,
         "credit": {
           "file": "Phylloxera_cartoon.png",
-          "artist": "Edward Linley Sambourne (January 4, 1844–August 3, 1910).",
+          "artist": "Edward Linley Sambourne (January 4, 1844\u2013August 3, 1910).",
           "license": "Public domain",
           "licenseUrl": null,
           "filePage": "https://commons.wikimedia.org/wiki/File:Phylloxera_cartoon.png"
@@ -9557,89 +8254,6 @@
       },
       "fragments": {
         "The French government had offered over 320,000 Francs as a reward to whoever cou": "The French government had offered over 320,000 Francs as a"
-      }
-    },
-    "The-Wizard-of-Oz": {
-      "title": "The Wizard of Oz",
-      "description": "1939 film based on L. Frank Baum's book",
-      "revision": 1378466147,
-      "url": "https://en.wikipedia.org/wiki/The_Wizard_of_Oz",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=The_Wizard_of_Oz&oldid=1378466147",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/The-Wizard-of-Oz.webp",
-        "width": 330,
-        "height": 494,
-        "credit": {
-          "file": "Wizard_of_oz_movie_poster.jpg",
-          "artist": "MGM",
-          "license": "Public domain",
-          "licenseUrl": null,
-          "filePage": "https://commons.wikimedia.org/wiki/File:Wizard_of_oz_movie_poster.jpg"
-        }
-      },
-      "fragments": {
-        "The Wizard of Oz is a 1939 American musical fantasy film produced by Metro-Goldw": "The Wizard of Oz is a 1939 American musical fantasy"
-      }
-    },
-    "L-Frank-Baum": {
-      "title": "L. Frank Baum",
-      "description": "American author (1856–1919)",
-      "revision": 1375582692,
-      "url": "https://en.wikipedia.org/wiki/L._Frank_Baum",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=L._Frank_Baum&oldid=1375582692",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/L-Frank-Baum.webp",
-        "width": 330,
-        "height": 402,
-        "credit": {
-          "file": "L._Frank_Baum_(1911).jpg",
-          "artist": "George Steckel",
-          "license": "Public domain",
-          "licenseUrl": null,
-          "filePage": "https://commons.wikimedia.org/wiki/File:L._Frank_Baum_(1911).jpg"
-        }
-      },
-      "fragments": {
-        "On November 9, 1882, Baum married Maud Gage, a daughter of Matilda Joslyn Gage, ": "On November 9, 1882, Baum married Maud Gage, a daughter"
-      }
-    },
-    "Matilda-Joslyn-Gage": {
-      "title": "Matilda Joslyn Gage",
-      "description": "American abolitionist, author (1826–1898)",
-      "revision": 1379093552,
-      "url": "https://en.wikipedia.org/wiki/Matilda_Joslyn_Gage",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Matilda_Joslyn_Gage&oldid=1379093552",
-      "snapshot": true,
-      "image": {
-        "file": "snapshots/images/Matilda-Joslyn-Gage.webp",
-        "width": 330,
-        "height": 494,
-        "credit": {
-          "file": "MatildaJoslynGage.jpeg",
-          "artist": "Unknown author",
-          "license": "Public domain",
-          "licenseUrl": null,
-          "filePage": "https://commons.wikimedia.org/wiki/File:MatildaJoslynGage.jpeg"
-        }
-      },
-      "fragments": {
-        "Gage's only son and his wife Sophia had a daughter named Dorothy Louise Gage, wh": "Gage's only son and his wife Sophia had a daughter",
-        "Gage also articulated the barriers to women becoming inventors and receiving pat": "Gage also articulated the barriers to women becoming inventors and",
-        "In 1993, scientific historian Margaret W. Rossiter coined the term Matilda effec": "In 1993, scientific historian Margaret W. Rossiter coined the term"
-      }
-    },
-    "Matilda-effect": {
-      "title": "Matilda effect",
-      "description": "Bias against acknowledging the achievements of women scientists",
-      "revision": 1374840007,
-      "url": "https://en.wikipedia.org/wiki/Matilda_effect",
-      "permalink": "https://en.wikipedia.org/w/index.php?title=Matilda_effect&oldid=1374840007",
-      "snapshot": true,
-      "image": null,
-      "fragments": {
-        "Rossiter provides several examples of this effect. Trotula (Trota of Salerno), a": "Rossiter provides several examples of this effect. Trotula (Trota of"
       }
     },
     "FE-Schrift": {
@@ -9663,8 +8277,6 @@
       },
       "fragments": {
         "The motivation for the creation of the typeface arose in the late 1970s in the l": "The motivation for the creation of the typeface arose in",
-        "The RAF terrorism however allowed to fund a project over a couple of years — run": "The RAF terrorism however allowed to fund a project over",
-        "With the fall of the Iron Curtain there was again a spike in the theft rate of l": "With the fall of the Iron Curtain there was again",
         "The original design for the FE-Schrift typeface was created by Karlgeorg Hoefer ": "The original design for the FE-Schrift typeface was created by"
       }
     },

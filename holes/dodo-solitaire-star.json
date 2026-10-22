@@ -1,6 +1,6 @@
 {
   "id": "dodo-solitaire-star",
-  "claim": "In 2024 a star was named after a bird unseen since the 1760s.",
+  "claim": "The dodo's lost cousin got a star named after it in 2024.",
   "start": {
     "title": "Dodo",
     "page": "Dodo",
@@ -18,20 +18,20 @@
       "page": "Dodo",
       "url": "https://en.wikipedia.org/wiki/Dodo",
       "revision": 1375347989,
-      "section": "lead",
-      "passage": "The dodo (Raphus cucullatus) is an extinct flightless bird that was endemic to Mauritius, an island east of Madagascar in the Indian Ocean. The dodo's closest relative was the also-extinct and flightless Rodrigues solitaire.",
-      "hatnote": "The dodo had a cousin on a smaller island next door.",
-      "onwardLinkText": "Rodrigues solitaire",
-      "nextPage": "Rodrigues solitaire"
+      "section": "Taxonomy",
+      "passage": "The dodo was variously declared a small ostrich, a rail, an albatross, or a vulture, by early scientists. In 1842, Danish zoologist Johannes Theodor Reinhardt proposed that dodos were ground pigeons, based on studies of a dodo skull he had discovered in the collection of the Natural History Museum of Denmark. This view was met with ridicule, but was later supported by English naturalists Hugh Edwin Strickland and Alexander Gordon Melville in their 1848 monograph The Dodo and Its Kindred, which attempted to separate myth from reality.",
+      "hatnote": "Early scientists had no idea what kind of bird the dodo was.",
+      "onwardLinkText": null,
+      "nextPage": "Dodo"
     },
     {
-      "page": "Rodrigues solitaire",
-      "url": "https://en.wikipedia.org/wiki/Rodrigues_solitaire",
-      "revision": 1369388467,
-      "section": "Territoriality",
-      "passage": "Observations of the Rodrigues solitaire in life indicate that they were highly territorial. They presumably settled disputes by striking each other with their wings; to aid this purpose, they used the knobs on their wrists. Fractures in their wing bones also indicate that they were used in combat.",
-      "hatnote": "Unlike the placid dodo, the solitaire was a fighter.",
-      "onwardLinkText": null,
+      "page": "Dodo",
+      "url": "https://en.wikipedia.org/wiki/Dodo",
+      "revision": 1375347989,
+      "section": "lead",
+      "passage": "The dodo's closest relative was the also-extinct and flightless Rodrigues solitaire. The two formed the subtribe Raphina, a clade of extinct flightless birds that are a part of the group that includes pigeons and doves (the family Columbidae).",
+      "hatnote": "The ridiculed pigeon idea won, and the dodo turned out to have a twin.",
+      "onwardLinkText": "Rodrigues solitaire",
       "nextPage": "Rodrigues solitaire"
     },
     {
@@ -40,7 +40,7 @@
       "revision": 1369388467,
       "section": "Extinction",
       "passage": "The Rodrigues solitaire probably became extinct sometime between the 1730s and 1760s; the exact date is unknown. Its disappearance coincided with the tortoise trade between 1730 and 1750; traders burnt off vegetation, hunted solitaires and imported cats and pigs that preyed on eggs and chicks. In 1755, the French engineer Joseph-François Charpentier de Cossigny attempted to obtain a live specimen, as he had been assured the Rodrigues solitaire still survived in remote areas of the island. Though trying for 18 months, and offering large rewards, none could be found.",
-      "hatnote": "Then it vanished, and nobody noticed exactly when.",
+      "hatnote": "The dodo's cousin outlived it on its own island, but not for long.",
       "onwardLinkText": null,
       "nextPage": "Rodrigues solitaire"
     },
@@ -75,6 +75,6 @@
       "nextPage": "Turdus Solitarius"
     }
   ],
-  "payoff": "An astronomer chasing Venus missed the last solitaires, so the bird went into the sky instead, and in 2024 a real star took its name.",
+  "payoff": "The dodo's twin vanished unseen, so an astronomer's friend put it in the sky; in 2024 a real star took its name.",
   "caveats": []
 }

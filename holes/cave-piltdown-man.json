@@ -1,6 +1,6 @@
 {
   "id": "cave-piltdown-man",
-  "claim": "Africa's first human-ancestor fossil was brushed aside because of a fake one.",
+  "claim": "Africa's first ancestor skull sat on a mantelpiece, then lost out to a fake.",
   "start": {
     "title": "Cave",
     "page": "Cave",
@@ -19,8 +19,18 @@
       "url": "https://en.wikipedia.org/wiki/Cave",
       "revision": 1373031936,
       "section": "Archaeological and cultural importance",
-      "passage": "The first early hominid ever found in Africa, the Taung Child in 1924, was also thought for many years to come from a cave, where it had been deposited after being predated on by an eagle.",
-      "hatnote": "Caves preserve our ancestors. One famous skull has a strange backstory.",
+      "passage": "The earliest human fossils found in caves come from a series of caves near Krugersdorp and Mokopane in South Africa. The cave sites of Sterkfontein, Swartkrans, Kromdraai B, Drimolen, Malapa, Cooper's D, Gladysvale, Gondolin and Makapansgat have yielded a range of early human species dating back to between three and one million years ago, including Australopithecus africanus, Australopithecus sediba and Paranthropus robustus. However, it is not generally thought that these early humans were living in the caves, but that they were brought into the caves by carnivores that had killed them.",
+      "hatnote": "South Africa's caves hold some of the oldest human fossils on Earth.",
+      "onwardLinkText": null,
+      "nextPage": "Cave"
+    },
+    {
+      "page": "Cave",
+      "url": "https://en.wikipedia.org/wiki/Cave",
+      "revision": 1373031936,
+      "section": "Archaeological and cultural importance",
+      "passage": "The first early hominid ever found in Africa, the Taung Child in 1924, was also thought for many years to come from a cave, where it had been deposited after being predated on by an eagle. However, this is now debated (Hopley et al., 2013; Am. J. Phys. Anthrop.).",
+      "hatnote": "The very first one, though, may not have come from a cave at all.",
       "onwardLinkText": "Taung Child",
       "nextPage": "Taung Child"
     },
@@ -30,27 +40,7 @@
       "revision": 1379822758,
       "section": "Discovery",
       "passage": "In 1924, workers at the Buxton Limeworks in Taung, showed a fossilized primate skull to Edwin Gilbert Izod, the visiting director of the Northern Lime Company, the managing company of the quarry. The director gave it to his son, Pat Izod, who displayed it on the mantle over the fireplace. When Josephine Salmons, a friend of the Izod family, paid a visit to Pat's home, she noticed the primate skull, identified it as from an extinct monkey and realising its possible significance mentioned it to her mentor, Raymond Dart.",
-      "hatnote": "Its road to science ran through a quarry and a fireplace.",
-      "onwardLinkText": null,
-      "nextPage": "Taung Child"
-    },
-    {
-      "page": "Taung Child",
-      "url": "https://en.wikipedia.org/wiki/Taung_Child",
-      "revision": 1379822758,
-      "section": "Discovery",
-      "passage": "Only forty days after he first saw the fossil, Dart completed a paper that named the species of Australopithecus africanus, the \"southern ape from Africa\", and described it as \"an extinct race of apes intermediate between living anthropoids and man\". The paper appeared in the 7 February 1925 issue of the journal Nature.",
-      "hatnote": "Raymond Dart moved fast.",
-      "onwardLinkText": null,
-      "nextPage": "Taung Child"
-    },
-    {
-      "page": "Taung Child",
-      "url": "https://en.wikipedia.org/wiki/Taung_Child",
-      "revision": 1379822758,
-      "section": "Reception",
-      "passage": "In the issue of Nature immediately following the one in which Dart's paper was published, several authorities in British paleoanthropology criticized Dart's conclusion. Three of the four scholars were members of the Piltdown Man committee: Sir Arthur Keith, Grafton Elliot Smith, and Sir Arthur Smith Woodward. They were much more skeptical about this fossil's place in evolutionary history, and believed it deserved to be categorized as a chimp or gorilla rather than a human ancestor.",
-      "hatnote": "The response was swift, and it came from a very particular committee.",
+      "hatnote": "It reached science by way of a quarry and a fireplace.",
       "onwardLinkText": null,
       "nextPage": "Taung Child"
     },
@@ -60,7 +50,7 @@
       "revision": 1379822758,
       "section": "Reasons for dissent",
       "passage": "There were several reasons that it took decades for the field to accept Dart's claim that Australopithecus africanus was in the human line of descent. First and foremost was that the British scientific establishment had been fooled by the hoax of the Piltdown Man, which had a large brain and ape-like teeth. Expecting human ancestors to have evolved a large brain very early, they found that the Taung Child's small brain and human-like teeth made it an unlikely ancestor to modern humans.",
-      "hatnote": "Why were they so sure? Because they had already been fooled.",
+      "hatnote": "Experts in Britain refused to believe it, and a famous fake explains why.",
       "onwardLinkText": "Piltdown Man",
       "nextPage": "Piltdown Man"
     },
@@ -70,12 +60,12 @@
       "revision": 1380281079,
       "section": "Scientific investigation",
       "passage": "In November 1953, Time magazine published evidence, gathered variously by Oakley, Le Gros Clark, and Weiner, proving that Piltdown Man was a forgery and demonstrating that the fossil was a composite of three distinct species. It consisted of a medieval human skull, a 500-year-old orangutan lower jaw, and fossil chimpanzee teeth. Someone had created the appearance of age by staining the bones with an iron solution and chromic acid.",
-      "hatnote": "In 1953, the fake finally came apart.",
+      "hatnote": "The fake that had misled them finally came apart in 1953.",
       "onwardLinkText": null,
       "nextPage": "Piltdown Man"
     }
   ],
-  "payoff": "The real ancestor sat on a mantelpiece, then on the sidelines, because the experts trusted a fake until 1953.",
+  "payoff": "Africa's first hominid fossil was shrugged off for decades because Britain's experts had already been fooled by a forgery.",
   "caveats": [
     "The Cave page notes that the Taung Child's cave origin, and its eagle predator, are debated."
   ]

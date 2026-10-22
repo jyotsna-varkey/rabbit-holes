@@ -1,6 +1,6 @@
 {
   "id": "snow-photography",
-  "claim": "The first photo of a person exists because a man stood still to get his boots polished.",
+  "claim": "A Vermont farm boy photographed 5,000 snowflakes to see if any two match.",
   "start": {
     "title": "Snow",
     "page": "Snow",
@@ -8,10 +8,10 @@
     "image": "snapshots/images/Snow.webp"
   },
   "end": {
-    "title": "Photography",
-    "page": "Photography",
-    "description": "Art and practice of creating images by recording light",
-    "image": "snapshots/images/Photography.webp"
+    "title": "Wilson Bentley",
+    "page": "Wilson Bentley",
+    "description": "American photographer known for photographing snowflakes",
+    "image": "snapshots/images/Wilson-Bentley.webp"
   },
   "knots": [
     {
@@ -19,8 +19,8 @@
       "url": "https://en.wikipedia.org/wiki/Snow",
       "revision": 1372800586,
       "section": "Cloud physics",
-      "passage": "Once a droplet has frozen, it grows in the supersaturated environment—one where air is saturated with respect to ice when the temperature is below the freezing point. The droplet then grows by diffusion of water molecules in the air (vapor) onto the ice crystal surface where they are collected. Because water droplets are so much more numerous than the ice crystals, the crystals are able to grow to hundreds of micrometers or millimeters in size at the expense of the water droplets by the Wegener–Bergeron–Findeisen process. These large crystals are an efficient source of precipitation, since they fall through the atmosphere due to their mass, and may collide and stick together in clusters, or aggregates. These aggregates are snowflakes, and are usually the type of ice particle that falls to the ground. Although the ice is clear, scattering of light by the crystal facets and hollows/imperfections mean that the crystals often appear white in color due to diffuse reflection of the whole spectrum of light by the small ice particles.",
-      "hatnote": "Snowflakes are clumps of ice crystals that grew in the cloud.",
+      "passage": "These large crystals are an efficient source of precipitation, since they fall through the atmosphere due to their mass, and may collide and stick together in clusters, or aggregates. These aggregates are snowflakes, and are usually the type of ice particle that falls to the ground. Although the ice is clear, scattering of light by the crystal facets and hollows/imperfections mean that the crystals often appear white in color due to diffuse reflection of the whole spectrum of light by the small ice particles.",
+      "hatnote": "Inside a cloud, ice crystals grow, collide and stick together.",
       "onwardLinkText": "snowflakes",
       "nextPage": "Snowflake"
     },
@@ -30,7 +30,7 @@
       "revision": 1372222901,
       "section": "Classification",
       "passage": "Snowflakes form in a wide variety of intricate shapes, leading to the notion that \"no two are alike\". Although nearly-identical snowflakes have been made in laboratories, they are very unlikely to be found in nature. Initial attempts to find identical snowflakes by photographing thousands of them with a microscope from 1885 onward by Wilson Alwyn Bentley found the wide variety of snowflakes we know about today.",
-      "hatnote": "One man photographed thousands of them to test \"no two alike\".",
+      "hatnote": "Is it really true that no two snowflakes are alike?",
       "onwardLinkText": "Wilson Alwyn Bentley",
       "nextPage": "Wilson Bentley"
     },
@@ -38,23 +38,23 @@
       "page": "Wilson Bentley",
       "url": "https://en.wikipedia.org/wiki/Wilson_Bentley",
       "revision": 1368027911,
-      "section": "lead",
-      "passage": "Wilson Alwyn Bentley (February 9, 1865 – December 23, 1931), also known as Snowflake Bentley, was an American meteorologist and photographer, who was the first known person to take detailed photographs of snowflakes and record their features. He perfected a process of catching flakes on black velvet such that their images could be captured before they either melted or sublimated, and elaborated the theory that no two snowflakes are identical.",
-      "hatnote": "He caught them on black velvet before they melted.",
-      "onwardLinkText": "photographer",
-      "nextPage": "Photography"
+      "section": "Biography",
+      "passage": "He first became interested in snow crystals as a teenager on his family farm. “Always, right from the beginning it was the snowflakes that fascinated me most,” he said. “The farm folks up in this country dread the winter, but I was supremely happy.” He tried to draw what he saw through an old microscope given to him by his mother when he was fifteen. The snowflakes were too complex to record before they melted, so he attached a bellows camera to a compound microscope and, after much experimentation, photographed his first snowflake on January 15, 1885. He captured more than 5,000 images of crystals.",
+      "hatnote": "The man who tried to find out started as a teenager on a farm.",
+      "onwardLinkText": null,
+      "nextPage": "Wilson Bentley"
     },
     {
-      "page": "Photography",
-      "url": "https://en.wikipedia.org/wiki/Photography",
-      "revision": 1379059042,
-      "section": "Invention",
-      "passage": "Niépce died in 1833 and Daguerre then redirected the experiments toward the light-sensitive silver halides, which Niépce had abandoned many years earlier because of his inability to make the images he captured with them light-fast and permanent. Daguerre's efforts culminated in what would later be named the daguerreotype process. The essential elements—a silver-plated surface sensitized by iodine vapor, developed by mercury vapor, and \"fixed\" with hot saturated salt water—were in place in 1837. The required exposure time was measured in minutes instead of hours. Daguerre took the earliest confirmed photograph of a person in 1838 while capturing a view of a Paris street: unlike the other pedestrian and horse-drawn traffic on the busy boulevard, which appears deserted, one man having his boots polished stood sufficiently still throughout the several-minutes-long exposure to be visible. The existence of Daguerre's process was publicly announced, without details, on 7 January 1839. The news created an international sensation. France soon agreed to pay Daguerre a pension in exchange for the right to present his invention to the world as the gift of France, which occurred when complete working instructions were unveiled on 19 August 1839. In that same year, American photographer Robert Cornelius is credited with taking the earliest surviving photographic self-portrait. Moreover, Daguerre informed the Academy of Science in Paris on 7 January 1840 of the invention.",
-      "hatnote": "Early photos needed minutes of stillness, which erased everyone who moved.",
+      "page": "Wilson Bentley",
+      "url": "https://en.wikipedia.org/wiki/Wilson_Bentley",
+      "revision": 1368027911,
+      "section": "lead",
+      "passage": "Kenneth G. Libbrecht notes that the techniques used by Bentley to photograph snowflakes are essentially the same as those used today, and that while the quality of his photographs reflects the technical limitations of the equipment of the era, \"he did it so well that hardly anybody bothered to photograph snowflakes for almost 100 years\". The broadest collection of Bentley's photographs is held by the Jericho Historical Society in his home town, Jericho, Vermont.",
+      "hatnote": "His homemade rig set the standard for a century.",
       "onwardLinkText": null,
-      "nextPage": "Photography"
+      "nextPage": "Wilson Bentley"
     }
   ],
-  "payoff": "Bentley froze snowflakes in a photograph; the first photo of a person needed a man to keep still for minutes.",
+  "payoff": "Bentley's microscope camera did the job so well that, for almost a century, hardly anyone bothered to photograph snowflakes again.",
   "caveats": []
 }

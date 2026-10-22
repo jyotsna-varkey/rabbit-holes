@@ -1,6 +1,6 @@
 {
   "id": "jupiter-schwabe-sunspot-cycle",
-  "claim": "A pharmacist hunting a planet that doesn't exist found the Sun's heartbeat.",
+  "claim": "Jupiter's Great Red Spot was first drawn by a pharmacist hunting a phantom planet.",
   "start": {
     "title": "Jupiter",
     "page": "Jupiter",
@@ -18,9 +18,19 @@
       "page": "Jupiter",
       "url": "https://en.wikipedia.org/wiki/Jupiter",
       "revision": 1380352046,
+      "section": "lead",
+      "passage": "The outer atmosphere is divided into a series of latitudinal bands, with turbulence and storms along their interacting boundaries; the most obvious result of this is the Great Red Spot, a giant storm that has been recorded since 1831.",
+      "hatnote": "Jupiter's most famous feature is a storm older than anyone alive.",
+      "onwardLinkText": null,
+      "nextPage": "Jupiter"
+    },
+    {
+      "page": "Jupiter",
+      "url": "https://en.wikipedia.org/wiki/Jupiter",
+      "revision": 1380352046,
       "section": "Ground-based telescope research",
       "passage": "The Great Red Spot may have been observed as early as 1664 by Robert Hooke and in 1665 by Cassini, although this is disputed. The pharmacist Heinrich Schwabe produced the earliest known drawing to show details of the Great Red Spot in 1831.",
-      "hatnote": "Jupiter's famous storm was first drawn in detail by an unlikely astronomer.",
+      "hatnote": "Why 1831? Because a pharmacist happened to sketch it.",
       "onwardLinkText": "Heinrich Schwabe",
       "nextPage": "Heinrich Schwabe"
     },
@@ -30,28 +40,8 @@
       "revision": 1372004701,
       "section": "Life and work",
       "passage": "Schwabe was looking for a theoretical planet inside the orbit of Mercury, known as Vulcan. Because of the proximity to the Sun, it would have been very difficult to observe such a planet, and Schwabe believed one possibility to detect a new planet might be to see it during its transit in front of the Sun.",
-      "hatnote": "The pharmacist wasn't really looking at Jupiter. He was hunting a planet.",
+      "hatnote": "Jupiter was a sideline. Schwabe's real quarry was a planet nobody had seen.",
       "onwardLinkText": "Vulcan",
-      "nextPage": "Vulcan (hypothetical planet)"
-    },
-    {
-      "page": "Vulcan (hypothetical planet)",
-      "url": "https://en.wikipedia.org/wiki/Vulcan_(hypothetical_planet)",
-      "revision": 1379188182,
-      "section": "lead",
-      "passage": "The case for their probable existence was bolstered by the support of the French mathematician Urbain Le Verrier, who had predicted the existence of Neptune using disturbances in the orbit of Uranus. By 1859, he had confirmed unexplained peculiarities in Mercury's orbit and predicted that they had to be the result of the gravitational influence of another unknown nearby planet or series of asteroids. A French amateur astronomer's report that he had observed an object passing in front of the Sun that same year led Le Verrier to announce that the long sought after planet, which he gave the name Vulcan, had been discovered at last.",
-      "hatnote": "Others suspected planets hidden inside Mercury's orbit, and a famous name agreed.",
-      "onwardLinkText": null,
-      "nextPage": "Vulcan (hypothetical planet)"
-    },
-    {
-      "page": "Vulcan (hypothetical planet)",
-      "url": "https://en.wikipedia.org/wiki/Vulcan_(hypothetical_planet)",
-      "revision": 1379188182,
-      "section": "lead",
-      "passage": "Many searches were conducted for Vulcan over the following decades but, despite several claimed observations, its existence could not be confirmed. The need for the planet as an explanation for Mercury's orbital peculiarities was later rendered unnecessary when Einstein's 1915 theory of general relativity showed that Mercury's departure from an orbit predicted by Newtonian physics was explained by effects arising from the curvature of spacetime caused by the Sun's mass.",
-      "hatnote": "Then Einstein deleted it.",
-      "onwardLinkText": null,
       "nextPage": "Vulcan (hypothetical planet)"
     },
     {
@@ -60,7 +50,7 @@
       "revision": 1379188182,
       "section": "Hypotheses and observations",
       "passage": "As a planet near the Sun would be lost in its glare, several observers mounted systematic searches to try to catch it during \"transit\", i.e. when it passes in front of the Sun's disc. German amateur astronomer Heinrich Schwabe searched unsuccessfully on every clear day from 1826 to 1843 and Yale scientist Edward Claudius Herrick conducted observations twice daily starting in 1847, hoping to catch a planet in transit.",
-      "hatnote": "So was Schwabe's 17-year vigil wasted?",
+      "hatnote": "Vulcan was a famous phantom, and Schwabe was its most stubborn hunter.",
       "onwardLinkText": "Heinrich Schwabe",
       "nextPage": "Heinrich Schwabe"
     },
@@ -70,13 +60,14 @@
       "revision": 1372004701,
       "section": "Life and work",
       "passage": "Although he did not find any planet transiting the solar disc he noticed the regular variation in the number of sunspots and published his findings in a short article entitled \"Solar Observations during 1843\". In it he made the suggestion of a probable ten-year period (i.e. that at every tenth year the number of spots reached a maximum).",
-      "hatnote": "Every clear day, he had been drawing the spots in the way.",
+      "hatnote": "Seventeen years of staring at the Sun, and no planet. But he kept seeing spots.",
       "onwardLinkText": null,
       "nextPage": "Heinrich Schwabe"
     }
   ],
-  "payoff": "Vulcan was never there, but the sunspots Schwabe logged while looking for it revealed the Sun's roughly ten-year cycle.",
+  "payoff": "Schwabe never found Vulcan, but the same patient telescope gave us the Red Spot's first drawing and the Sun's ten-year rhythm.",
   "caveats": [
-    "Schwabe proposed a ten-year period; the modern solar cycle averages about 11 years."
+    "Schwabe proposed a ten-year period; the modern solar cycle averages about 11 years.",
+    "Vulcan was later shown not to exist (Einstein's general relativity explained Mercury's orbit); the passages show only that it was never found."
   ]
 }

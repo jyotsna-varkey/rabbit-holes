@@ -230,12 +230,21 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          rh.swipes and rh.finished still count). Unseen holes are still
          shuffled per visit. Tests: order.test.ts (2 new), stack-order.spec.ts
          "holes swiped left or opened stay at the back…".
+- [x] 38. Owner's content pass (2026-10-22): from the owner's notes on the
+         first 16 holes, four reviewers rated all 379 for darkness,
+         connection and balance. 51 cut as too dark (18 were in the app,
+         now deleted; list in holes-cut-dark.csv). 115 loose, broken or
+         lopsided holes salvaged on the same pages (re-cut passages, dropped
+         filler, new hooks, bridges, payoffs; every passage re-verified),
+         29 of them in the app. 55 recommended cuts (unsalvageable or
+         duplicates) left in the sheet for the owner. App: 114 holes.
+         holes-review.csv regenerated with verdict and what-changed columns.
 - [ ] 15. Cover the remaining [~] steps with tests: swipe left sends the card
          to the back (8); "Back to the thread" re-centres and blur returns (3);
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
-36–37 done (not deployed). Owner reviews the 132 holes in holes-review.csv
+36–38 done (not deployed). Owner reviews the 132 holes in holes-review.csv
 (keep / edit / cut); then trim, tighten the image budget, redeploy. Still
 open: 29 (owner sets Supabase URLs), then 15. Open owner decisions are listed
 under "Handover" below.
@@ -247,7 +256,7 @@ under "Handover" below.
   -- --workers=1`.
 - Local: `npm run dev -- --host` (phone: http://192.168.0.2:5173).
   Tests: `npm test` (500 unit/data), `npm run test:e2e` (102 browser).
-- Content: 132 holes in holes/*.json (step 36); review sheet HOLES_REVIEW.md; import more from "Rabbit Holes — Reading
+- Content: 114 holes in holes/*.json (step 38); review sheet HOLES_REVIEW.md; import more from "Rabbit Holes — Reading
   Copy.txt" with `node scripts/import-holes.mjs "<txt>" 21-40`, then
   `node scripts/fetch-content.mjs`, then write claim/hatnotes/payoff.
 - Supabase: project rabbit-holes, id zqrfcmdhbdatrjooipif, org
@@ -407,6 +416,13 @@ under "Handover" below.
 - Stack memory (owner, 2026-10-22): per device is enough; left swipes count
   as seen, same as opening; nothing is ever removed from the stack.
 
+- Darkness (owner, 2026-10-22): no hole whose core is death, atrocity,
+  disaster or gruesome detail (Ugolino, Fallen Astronaut, Fustat cut);
+  history told lightly is fine (Bamboo, Taxi, Maize kept). Holes must be
+  connected (not pages joined by coincidence) and balanced (no page takes
+  over). Hole ids are kept when a salvage changed the start or end page
+  (renaming would break saved shelves and links).
+
 ## Known issues
 - GPT studio hooks are questions, so "[citation needed]" after them reads
   oddly; Ballpoint pen and Bic Cristal cards show the same photo.
@@ -516,3 +532,6 @@ under "Handover" below.
   Not deployed. Next: owner's keep/edit/cut pass.
 - 2026-10-22: Step 37: swiped-left and opened holes stay at the back for good
   (per device). 2506 unit + 212 browser tests pass. Not deployed.
+- 2026-10-22: Step 38: owner's content pass applied (51 dark cut, 115 salvaged,
+  55 recommended cuts). App 114 holes; 2164 unit + 190 browser tests pass.
+  Not deployed. Next: owner reviews the new holes-review.csv.

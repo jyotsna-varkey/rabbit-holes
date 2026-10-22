@@ -18,9 +18,19 @@
       "page": "Swamp",
       "url": "https://en.wikipedia.org/wiki/Swamp",
       "revision": 1377457944,
+      "section": "lead",
+      "passage": "A swamp is a forested wetland. Swamps are considered to be transition zones because both land and water play a role in creating this environment. Swamps vary in size and are located all around the world.",
+      "hatnote": "A swamp is neither land nor lake, but both at once.",
+      "onwardLinkText": null,
+      "nextPage": "Swamp"
+    },
+    {
+      "page": "Swamp",
+      "url": "https://en.wikipedia.org/wiki/Swamp",
+      "revision": 1377457944,
       "section": "Africa",
       "passage": "The Sudd and the Okavango Delta are Africa's best known marshland areas.",
-      "hatnote": "Africa's most famous swamp has a name that warns you off.",
+      "hatnote": "One African swamp is famous for keeping people out.",
       "onwardLinkText": "Sudd",
       "nextPage": "Sudd"
     },
@@ -29,8 +39,8 @@
       "url": "https://en.wikipedia.org/wiki/Sudd",
       "revision": 1377609567,
       "section": "lead",
-      "passage": "The Arabic word sudd is derived from sadd (سد), meaning \"barrier\" or \"obstruction\". The term \"the sudd\" has come to refer to any large solid floating vegetation island or mat.",
-      "hatnote": "It means exactly what it does.",
+      "passage": "The Sudd (Arabic: السد, romanized: as-Sudd, Nuer: Baki̱ec, Dinka: Toc) is a vast swamp in South Sudan, formed by the White Nile's Baḥr al-Jabal section. The Arabic word sudd is derived from sadd (سد), meaning \"barrier\" or \"obstruction\". The term \"the sudd\" has come to refer to any large solid floating vegetation island or mat. The area which the swamp covers is one of the world's largest wetlands and the largest freshwater wetland in the Nile Basin.",
+      "hatnote": "Its very name is a warning.",
       "onwardLinkText": null,
       "nextPage": "Sudd"
     },
@@ -40,7 +50,7 @@
       "revision": 1377609567,
       "section": "lead",
       "passage": "For many centuries the swamp, and especially its thicket of vegetation, proved an impenetrable barrier to navigation along the Nile. The ancient Egyptians failed to penetrate the Sudd and reach the areas south of it. In AD 61, a party of Roman soldiers sent by the Emperor Nero proceeded up the White Nile but were not able to get beyond the Sudd, which marked the limit of Roman penetration into equatorial Africa.",
-      "hatnote": "Even Rome couldn't get through it.",
+      "hatnote": "The barrier held for thousands of years.",
       "onwardLinkText": null,
       "nextPage": "Sudd"
     },
@@ -49,8 +59,8 @@
       "url": "https://en.wikipedia.org/wiki/Sudd",
       "revision": 1377609567,
       "section": "Location",
-      "passage": "A major feature of the area is the incomplete Jonglei Canal, which was planned to bypass waters from the Sudd to avoid evaporation losses and increase the amount of water discharged at the outlet of the Sudd.",
-      "hatnote": "Downstream, Egypt saw the swamp's evaporation as stolen Nile water.",
+      "passage": "Since the Sudd area consists of various meandering channels, lagoons, reed and papyrus fields and loses half of its inflowing water through evapotranspiration in the permanent and seasonal floodplains, the complex hydrology has many primary and secondary effects. A major feature of the area is the incomplete Jonglei Canal, which was planned to bypass waters from the Sudd to avoid evaporation losses and increase the amount of water discharged at the outlet of the Sudd.",
+      "hatnote": "Downstream, Egypt saw the swamp's thirsty reeds as stolen Nile water.",
       "onwardLinkText": "Jonglei Canal",
       "nextPage": "Jonglei Canal"
     },
@@ -69,12 +79,14 @@
       "url": "https://en.wikipedia.org/wiki/Jonglei_Canal",
       "revision": 1375262323,
       "section": "Planning and construction",
-      "passage": "The rusting remains of the giant German-built excavation machine nicknamed \"Sarah\" are visible in satellite images near the south end of the canal. It was damaged by a missile.",
+      "passage": "The rusting remains of the giant German-built excavation machine nicknamed \"Sarah\" are visible in satellite images near the south end of the canal. It was damaged by a missile. As peace was restored in 2000, speculation grew about a restart of the project; however, on February 2, 2008, the Sudanese Government said the revival of the project was not a priority. However, in 2008, Sudan and Egypt agreed to restart the project and finish the canal after 24 years.",
       "hatnote": "The canal's giant digger never left.",
       "onwardLinkText": null,
       "nextPage": "Jonglei Canal"
     }
   ],
-  "payoff": "The swamp that stopped Nero's soldiers also stopped the twentieth century's diggers, leaving Sarah stranded two-thirds of the way through.",
-  "caveats": []
+  "payoff": "The swamp whose name means 'barrier' stopped Nero's soldiers, then stopped the twentieth century's diggers too, leaving Sarah stranded two-thirds of the way through.",
+  "caveats": [
+    "Sudd page says the machine was nicknamed 'Sarah' or 'Lucy'; the Jonglei Canal page says 'Sarah'."
+  ]
 }

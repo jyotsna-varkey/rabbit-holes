@@ -19,8 +19,8 @@
       "url": "https://en.wikipedia.org/wiki/Post-it_note",
       "revision": 1378033562,
       "section": "History",
-      "passage": "In 1968, Spencer Silver, a scientist at 3M in the United States, attempted to develop a super-strong adhesive. Instead, he accidentally created a \"low-tack\", reusable, pressure-sensitive adhesive for the aerospace industry. For five years, Silver promoted his \"solution without a problem\" within 3M both informally and through seminars, but failed to gain adherents.",
-      "hatnote": "The Post-it began as a glue nobody at 3M wanted.",
+      "passage": "In 1968, Spencer Silver, a scientist at 3M in the United States, attempted to develop a super-strong adhesive. Instead, he accidentally created a \"low-tack\", reusable, pressure-sensitive adhesive for the aerospace industry. For five years, Silver promoted his \"solution without a problem\" within 3M both informally and through seminars, but failed to gain adherents. In 1974, a colleague who had attended one of his seminars, Arthur Fry, came up with the idea of using the adhesive to anchor his bookmark in his hymn book.",
+      "hatnote": "The Post-it began as a glue that didn't stick well enough.",
       "onwardLinkText": "3M",
       "nextPage": "3M"
     },
@@ -29,19 +29,19 @@
       "url": "https://en.wikipedia.org/wiki/3M",
       "revision": 1380307050,
       "section": "History",
-      "passage": "Five businessmen founded the Minnesota Mining and Manufacturing Company as a mining venture in Two Harbors, Minnesota, making their first sale on June 13, 1902. The goal was to mine corundum, a crystalline form of aluminium oxide, which failed because the mine's mineral holdings were anorthosite, a feldspar which had no commercial value. Co-founder John Dwan solicited funds in exchange for stock and Edgar Ober and Lucius Ordway took over the company in 1905. The company moved to Duluth and began researching and producing sandpaper products.",
-      "hatnote": "3M itself began with something nobody wanted. The 'M' stood for Mining.",
-      "onwardLinkText": "anorthosite",
-      "nextPage": "Anorthosite"
+      "passage": "3M launched \"Press 'n Peel\", a sticky bookmark page holder in stores in four cities in 1977, but the results were disappointing. A year later 3M instead issued free samples of the product as a sticky note directly to consumers in Boise, Idaho, with 95% of those who tried them indicating they would buy it.",
+      "hatnote": "Even then, 3M's first attempt to sell it flopped.",
+      "onwardLinkText": null,
+      "nextPage": "3M"
     },
     {
-      "page": "Anorthosite",
-      "url": "https://en.wikipedia.org/wiki/Anorthosite",
-      "revision": 1374864549,
-      "section": "lead",
-      "passage": "Anorthosites are of enormous geologic interest, because it is still not fully understood how they form. Most models involve separating plagioclase crystals based on their density. Plagioclase crystals are usually less dense than magma; so, as plagioclase crystallizes in a magma chamber, the plagioclase crystals float to the top, concentrating there.",
-      "hatnote": "The useless rock has a strange origin: crystals that float.",
-      "onwardLinkText": null,
+      "page": "3M",
+      "url": "https://en.wikipedia.org/wiki/3M",
+      "revision": 1380307050,
+      "section": "History",
+      "passage": "Five businessmen founded the Minnesota Mining and Manufacturing Company as a mining venture in Two Harbors, Minnesota, making their first sale on June 13, 1902. The goal was to mine corundum, a crystalline form of aluminium oxide, which failed because the mine's mineral holdings were anorthosite, a feldspar which had no commercial value. Co-founder John Dwan solicited funds in exchange for stock and Edgar Ober and Lucius Ordway took over the company in 1905. The company moved to Duluth and began researching and producing sandpaper products.",
+      "hatnote": "Flops were nothing new at 3M. The 'M' stood for Mining.",
+      "onwardLinkText": "anorthosite",
       "nextPage": "Anorthosite"
     },
     {
@@ -60,11 +60,11 @@
       "revision": 1374864549,
       "section": "Lunar anorthosite",
       "passage": "On the Moon, anorthosite is the dominant rock type of the lunar highlands which covers ~80% of the lunar surface. Lunar anorthosite is characterized as ferroan anorthosite (FAN), or magnesium anorthosite (MAN). Pristine lunar FAN is some of the oldest lunar rock and the original cumulate of the lunar magma ocean, with the Mg-suite forming from later impacts and plutonism.",
-      "hatnote": "It is the Moon's original crust.",
+      "hatnote": "It is among the Moon's oldest rock, its original crust.",
       "onwardLinkText": null,
       "nextPage": "Anorthosite"
     }
   ],
-  "payoff": "3M's founders dug up the wrong rock and turned to sandpaper; that rock once floated atop a molten Moon and forms its bright highlands.",
+  "payoff": "3M thrives on flops: a too-weak glue became the Post-it, and its worthless first mine held the rock of the Moon's bright highlands.",
   "caveats": []
 }

@@ -17,10 +17,20 @@
     {
       "page": "Waterfall",
       "url": "https://en.wikipedia.org/wiki/Waterfall",
-      "revision": 1380098311,
+      "revision": 1381111406,
+      "section": "Ecology",
+      "passage": "Waterfalls are an important factor in determining the distribution of lotic organisms such as fish and aquatic invertebrates, as they may restrict dispersal along streams. The presence or absence of certain species can have cascading ecological effects, and thus cause differences in trophic regimes above and below waterfalls.",
+      "hatnote": "A waterfall isn't just scenery; it's a wall in the river.",
+      "onwardLinkText": null,
+      "nextPage": "Waterfall"
+    },
+    {
+      "page": "Waterfall",
+      "url": "https://en.wikipedia.org/wiki/Waterfall",
+      "revision": 1381111406,
       "section": "Development and tourism",
       "passage": "Human development has also threatened many waterfalls. For instance, the Guaíra Falls, once one of the most powerful waterfalls in the world, were submerged in 1982 by a human-made dam, as were the Ripon Falls in 1952.",
-      "hatnote": "Waterfalls seem permanent. Some are not.",
+      "hatnote": "And walls can be taken down.",
       "onwardLinkText": "Guaíra Falls",
       "nextPage": "Guaíra Falls"
     },
@@ -39,18 +49,8 @@
       "url": "https://en.wikipedia.org/wiki/Gua%C3%ADra_Falls",
       "revision": 1380176242,
       "section": "Submergence",
-      "passage": "As construction of the Itaipu Dam progressed, thousands of visitors flocked to the area to see the falls before they disappeared forever. Disaster struck on January 17, 1982, when a suspended footbridge affording access to a particularly spectacular view of the falls collapsed, killing dozens of tourists.",
-      "hatnote": "When people learned it would disappear, they came to say goodbye.",
-      "onwardLinkText": null,
-      "nextPage": "Guaíra Falls"
-    },
-    {
-      "page": "Guaíra Falls",
-      "url": "https://en.wikipedia.org/wiki/Gua%C3%ADra_Falls",
-      "revision": 1380176242,
-      "section": "Submergence",
       "passage": "Earlier, as the waters began to rise, a demonstration took place, as hundreds of people gathered to participate in a quarup, an indigenous ritual of remembrance for the dead, in memory of the falls. The inundation took only 14 days, occurring during the rainy season when the level of the Paraná River was high. On October 27, 1982, the falls had vanished as the reservoir was fully formed and with only part of the rock face visible during years of drought.",
-      "hatnote": "Others came to mourn it like a person.",
+      "hatnote": "As the dam's lake began to rise, people came to mourn it.",
       "onwardLinkText": null,
       "nextPage": "Guaíra Falls"
     },
@@ -59,8 +59,8 @@
       "url": "https://en.wikipedia.org/wiki/Gua%C3%ADra_Falls",
       "revision": 1380176242,
       "section": "Submergence",
-      "passage": "A tourist attraction and a favorite of locals, the falls were completely submerged under the artificial lake created by the Itaipu Dam upon its completion in 1982.",
-      "hatnote": "What swallowed it was the lake behind a single new dam.",
+      "passage": "A tourist attraction and a favorite of locals, the falls were completely submerged under the artificial lake created by the Itaipu Dam upon its completion in 1982. The building of the dam, authorized by a 1973 bilateral agreement between the Paraguayan and Brazilian regimes of the time, marked a new era of cooperation between the countries, both of which had claimed ownership of Guaíra Falls.",
+      "hatnote": "What swallowed it was the lake behind one enormous new dam.",
       "onwardLinkText": "Itaipu Dam",
       "nextPage": "Itaipu Dam"
     },
@@ -75,8 +75,6 @@
       "nextPage": "Itaipu Dam"
     }
   ],
-  "payoff": "Drowning the falls didn't just end a view: it pulled down a wall that had kept two worlds of fish apart.",
-  "caveats": [
-    "The Itaipu page gives 80 deaths in the bridge collapse; the Guaíra page says 'dozens'."
-  ]
+  "payoff": "Drowning Guaíra didn't just end a view: it pulled down a wall that had kept two worlds of fish apart.",
+  "caveats": []
 }

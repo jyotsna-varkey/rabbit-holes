@@ -1,6 +1,6 @@
 {
   "id": "drum-kit-hi-hat-heir",
-  "claim": "A Boston candy maker inherited a 300-year-old Ottoman secret by letter.",
+  "claim": "A Boston candy maker's letter from his uncle shaped the modern drum kit.",
   "start": {
     "title": "Drum kit",
     "page": "Drum kit",
@@ -17,10 +17,20 @@
     {
       "page": "Drum kit",
       "url": "https://en.wikipedia.org/wiki/Drum_kit",
-      "revision": 1379041565,
+      "revision": 1380795863,
+      "section": "20th century",
+      "passage": "Budget constraints and space considerations in musical theater pit orchestras led bandleaders to pressure percussionists to cover more percussion parts. Metal consoles were developed to hold Chinese tom-toms, with swing-out stands for snare drums and cymbals. On top of the console was a \"contraption\" tray (shortened to \"trap\"), used to hold items like whistles, klaxons, and cowbells. These kits were dubbed \"trap kits\". Hi-hat stands became available around 1926.",
+      "hatnote": "In the 1920s, the drum kit was still being cobbled together.",
+      "onwardLinkText": null,
+      "nextPage": "Drum kit"
+    },
+    {
+      "page": "Drum kit",
+      "url": "https://en.wikipedia.org/wiki/Drum_kit",
+      "revision": 1380795863,
       "section": "Cymbals",
       "passage": "In most drum kits and drum/percussion kits, cymbals are as prominent as the drums themselves. The oldest idiophones in music are cymbals, a version of which were used throughout the ancient Near East very early in the Bronze Age period. Cymbals are mostly associated with Turkey and Turkish craftsmanship, where Zildjian has made them since 1623.",
-      "hatnote": "Look at any drum kit: half of it is cymbals.",
+      "hatnote": "Its cymbals came from one very old family firm.",
       "onwardLinkText": "Zildjian",
       "nextPage": "Zildjian"
     },
@@ -38,19 +48,9 @@
       "page": "Zildjian",
       "url": "https://en.wikipedia.org/wiki/Zildjian",
       "revision": 1376573624,
-      "section": "Beginnings",
-      "passage": "After Avedis died, the business, and the secret for producing the metal, was handed down through several generations of male heirs. In the early 19th century, Haroutune Zildjian passed it to his son Avedis II.",
-      "hatnote": "The alloy recipe became a family secret.",
-      "onwardLinkText": null,
-      "nextPage": "Zildjian"
-    },
-    {
-      "page": "Zildjian",
-      "url": "https://en.wikipedia.org/wiki/Zildjian",
-      "revision": 1376573624,
       "section": "20th century",
       "passage": "Haroutune II's son Avedis III had left Armenia for the United States in 1909, and settled in Boston, where he established a family and a confectionary business. In 1927, he received a letter from his uncle Aram, informing him that he was to become heir to the family business, and Aram came to the US. In 1928, Avedis III, his brother Puzant, and his uncle Aram Zildjian began manufacturing cymbals in Quincy, Massachusetts, and the Avedis Zildjian Co. was formed the following year in 1929.",
-      "hatnote": "Three centuries on, the secret needed a new keeper.",
+      "hatnote": "Three centuries on, the family firm needed a new keeper.",
       "onwardLinkText": null,
       "nextPage": "Zildjian"
     },
@@ -68,13 +68,25 @@
       "page": "Gene Krupa",
       "url": "https://en.wikipedia.org/wiki/Gene_Krupa",
       "revision": 1376906352,
+      "section": "lead",
+      "passage": "Krupa is widely regarded as one of the most influential drummers in the history of popular music. His drum solo on Benny Goodman's 1937 recording of \"Sing, Sing, Sing\" elevated the role of the drummer from that of an accompanist to that of an important solo voice in the band.",
+      "hatnote": "One of those drummers was about to become a star.",
+      "onwardLinkText": null,
+      "nextPage": "Gene Krupa"
+    },
+    {
+      "page": "Gene Krupa",
+      "url": "https://en.wikipedia.org/wiki/Gene_Krupa",
+      "revision": 1376906352,
       "section": "Endorsement",
       "passage": "Krupa developed and popularized many of the cymbal techniques that became standard. His collaboration with Avedis Zildjian developed the modern hi-hat cymbals and standardized the names and uses of the ride cymbal, crash cymbal, and splash cymbal.",
-      "hatnote": "One of those drummers changed the kit itself.",
+      "hatnote": "Krupa and the Boston cymbalsmith remade the kit itself.",
       "onwardLinkText": null,
       "nextPage": "Gene Krupa"
     }
   ],
-  "payoff": "The modern hi-hat came from a swing drummer and a Boston confectioner holding a 1618 Ottoman recipe.",
-  "caveats": []
+  "payoff": "The hi-hat on every kit came from a swing drummer and a Boston confectioner holding a 1618 Ottoman recipe.",
+  "caveats": [
+    "Drum kit credits William Ludwig and Baby Dodds with the first hi-hats; the Krupa page credits Krupa and Zildjian with the modern hi-hat cymbals."
+  ]
 }

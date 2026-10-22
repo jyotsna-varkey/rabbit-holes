@@ -1,6 +1,6 @@
 {
   "id": "pencil-seathwaite-cumberland",
-  "claim": "Pencil \"lead\" was once a military secret.",
+  "claim": "Pencil \"lead\" was once controlled by the Crown because it made better cannonballs.",
   "start": {
     "title": "Pencil",
     "page": "Pencil",
@@ -8,10 +8,10 @@
     "image": "snapshots/images/Pencil.webp"
   },
   "end": {
-    "title": "Seathwaite, Cumberland",
-    "page": "Seathwaite, Cumberland",
-    "description": "Hamlet in Cumbria, England",
-    "image": "snapshots/images/Seathwaite-Cumberland.webp"
+    "title": "Nicolas-Jacques Conté",
+    "page": "Nicolas-Jacques Conté",
+    "description": "French painter, and inventor of the modern pencil (1755–1805)",
+    "image": "snapshots/images/Nicolas-Jacques-Cont.webp"
   },
   "knots": [
     {
@@ -19,43 +19,43 @@
       "url": "https://en.wikipedia.org/wiki/Pencil",
       "revision": 1376096227,
       "section": "Graphite deposit discoveries",
-      "passage": "As a technique for drawing, the closest predecessor to the pencil was silverpoint or leadpoint until, in 1565 (some sources say as early as 1500), a large deposit of graphite was discovered on the approach to Grey Knotts from the hamlet of Seathwaite in Borrowdale parish, Cumbria, England. This particular deposit of graphite was extremely pure and solid, and it could easily be sawn into sticks. It remains the only large-scale deposit of graphite ever found in this solid form. Chemistry was in its infancy, and the substance was thought to be a form of lead. Consequently, it was called plumbago (Latin for \"lead ore\"). Because the pencil core is still referred to as \"lead\", or \"a lead\", many people have the misconception that the graphite in the pencil is lead, and the black core of pencils is still referred to as lead, even though it never contained the element lead. The words for pencil in German (Bleistift), Irish (peann luaidhe), Arabic (قلم رصاص qalam raṣāṣ), and some other languages literally mean lead pen.",
-      "hatnote": "Pencil lead never contained lead; it came from a Cumbrian hillside.",
+      "passage": "As a technique for drawing, the closest predecessor to the pencil was silverpoint or leadpoint until, in 1565 (some sources say as early as 1500), a large deposit of graphite was discovered on the approach to Grey Knotts from the hamlet of Seathwaite in Borrowdale parish, Cumbria, England. This particular deposit of graphite was extremely pure and solid, and it could easily be sawn into sticks. It remains the only large-scale deposit of graphite ever found in this solid form. Chemistry was in its infancy, and the substance was thought to be a form of lead. Consequently, it was called plumbago (Latin for \"lead ore\").",
+      "hatnote": "The modern pencil starts with one strange hillside in the Lake District.",
       "onwardLinkText": "graphite",
       "nextPage": "Graphite"
     },
     {
       "page": "Graphite",
       "url": "https://en.wikipedia.org/wiki/Graphite",
-      "revision": 1377432704,
+      "revision": 1380925878,
       "section": "History of use",
-      "passage": "Sometime before 1565 (some sources say as early as 1500), an enormous deposit of graphite was discovered on the approach to Grey Knotts from the hamlet of Seathwaite in Borrowdale parish, Cumbria, England, which the locals found useful for marking sheep. During the reign of Elizabeth I (1558–1603), Borrowdale graphite was used as a refractory material to line molds for cannonballs, resulting in rounder, smoother balls that could be fired farther, contributing to the strength of the English navy. This particular deposit of graphite was extremely pure and soft, and could easily be cut into sticks. Because of its military importance, this unique mine and its production were strictly controlled by the Crown.",
-      "hatnote": "The same graphite made rounder cannonballs for Elizabeth I's navy.",
-      "onwardLinkText": "Borrowdale parish",
-      "nextPage": "Borrowdale"
-    },
-    {
-      "page": "Borrowdale",
-      "url": "https://en.wikipedia.org/wiki/Borrowdale",
-      "revision": 1378832314,
-      "section": "Geography",
-      "passage": "The B5289 road runs down the full length of the valley, and at the southern end crosses the Honister Pass to Buttermere. At the heart of the valley is the village of Rosthwaite, other Borrowdale villages include Stonethwaite, Seatoller, Seathwaite, and Grange. The valley also contains the largest remnant of ancient temperate rainforest in England, which was declared a national nature reserve in 2024.",
-      "hatnote": "The valley also holds England's largest patch of ancient rainforest.",
-      "onwardLinkText": "Seathwaite",
-      "nextPage": "Seathwaite, Cumberland"
-    },
-    {
-      "page": "Seathwaite, Cumberland",
-      "url": "https://en.wikipedia.org/wiki/Seathwaite%2C_Cumberland",
-      "revision": 1352563762,
-      "section": "Climate",
-      "passage": "In 2008 Seathwaite was the wettest inhabited place in the United Kingdom and received around 3,552 millimetres (140 in) of rain per year. In September 1966, 130 millimetres (5 in) of rain fell on Seathwaite and the surrounding fells in an hour, the resulting flood severely damaging the nearby Stockley Bridge, which lies 1,097 metres (1,200 yd) south of the hamlet. Stockley Bridge is an ancient packhorse bridge on the old route between Borrowdale and the Cumbrian coast. The bridge was widened in 1887 and had to be repaired after the 1966 storm. On 19–20 November 2009 Seathwaite received 314.4 millimetres (12.38 in) of rain in a 24-hour period, a major contributor to the 2009 Cumbria and southwest Scotland floods. This was a record for the amount of rain falling anywhere in the UK within 24 hours, until it was beaten by Honister Pass in December 2015.",
-      "hatnote": "It's rainforest for a reason: Seathwaite is among the wettest places in Britain.",
+      "passage": "During the reign of Elizabeth I (1558–1603), Borrowdale graphite was used as a refractory material to line molds for cannonballs, resulting in rounder, smoother balls that could be fired farther, contributing to the strength of the English navy. This particular deposit of graphite was extremely pure and soft, and could easily be cut into sticks. Because of its military importance, this unique mine and its production were strictly controlled by the Crown.",
+      "hatnote": "Before it was a writing tool, Borrowdale graphite was a weapon of war.",
       "onwardLinkText": null,
-      "nextPage": "Seathwaite, Cumberland"
+      "nextPage": "Graphite"
+    },
+    {
+      "page": "Graphite",
+      "url": "https://en.wikipedia.org/wiki/Graphite",
+      "revision": 1380925878,
+      "section": "Pencils",
+      "passage": "From the 16th century, all pencils were made with leads of English natural graphite, but modern pencil lead is most commonly a mix of powdered graphite and clay; it was invented by Nicolas-Jacques Conté in 1795. It is chemically unrelated to the metal lead, whose ores had a similar appearance, hence the continuation of the name.",
+      "hatnote": "England had the world's only pure pencil graphite. So who invented today's pencil lead?",
+      "onwardLinkText": "Nicolas-Jacques Conté",
+      "nextPage": "Nicolas-Jacques Conté"
+    },
+    {
+      "page": "Nicolas-Jacques Conté",
+      "url": "https://en.wikipedia.org/wiki/Nicolas-Jacques_Cont%C3%A9",
+      "revision": 1378033141,
+      "section": "Writing and drawing equipment",
+      "passage": "Conté invented the modern pencil lead at the request of Lazare Nicolas Marguerite Carnot. The French Republic was at that time under economic blockade and unable to import graphite from Great Britain, the main source of the material. Carnot asked Conté to create a pencil that did not rely on foreign imports. After several days of research, Conté had the idea of mixing powdered graphite with clay and pressing the material between two half-cylinders of wood. Thus was formed the modern pencil.",
+      "hatnote": "A Frenchman, because England's monopoly left France without pencils.",
+      "onwardLinkText": null,
+      "nextPage": "Nicolas-Jacques Conté"
     }
   ],
-  "payoff": "Pencil lead, navy cannonballs and England's rainforest all come from one very wet valley.",
+  "payoff": "England's cannonball graphite was unique, so when a blockade cut France off, Conté invented the clay-and-graphite lead still in your pencil.",
   "caveats": [
     "Knot 1 carries a [citation needed] on Wikipedia (\"thought to be a form of lead\")."
   ]

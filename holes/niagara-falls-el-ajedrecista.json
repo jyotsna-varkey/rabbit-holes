@@ -1,6 +1,6 @@
 {
   "id": "niagara-falls-el-ajedrecista",
-  "claim": "Niagara's century-old cable car was designed by the builder of a chess robot.",
+  "claim": "Niagara's whirlpool cable car shares its inventor with a chess machine that never lost.",
   "start": {
     "title": "Niagara Falls",
     "page": "Niagara Falls",
@@ -20,7 +20,27 @@
       "revision": 1380734809,
       "section": "Tourism",
       "passage": "The Whirlpool Aero Car, built in 1916 from a design by Spanish engineer Leonardo Torres Quevedo, is a cable car that takes passengers over the Niagara Whirlpool on the Canadian side.",
-      "hatnote": "Below the falls, tourists still dangle over a whirlpool.",
+      "hatnote": "Below the falls, tourists still dangle over a churning whirlpool.",
+      "onwardLinkText": "Whirlpool Aero Car",
+      "nextPage": "Whirlpool Aero Car"
+    },
+    {
+      "page": "Whirlpool Aero Car",
+      "url": "https://en.wikipedia.org/wiki/Whirlpool_Aero_Car",
+      "revision": 1376579022,
+      "section": "Technical specifications",
+      "passage": "The Aero Car is suspended between two Canadian points, though it crosses the Canadian and American borders four times on a full trip. The car crosses the border about 500 feet (150 m) from the starting point and runs through United States territory for about 200 feet (61 m), but riders need no immigration clearance.",
+      "hatnote": "The ride has a quirk: it never leaves Canada, yet visits America.",
+      "onwardLinkText": null,
+      "nextPage": "Whirlpool Aero Car"
+    },
+    {
+      "page": "Whirlpool Aero Car",
+      "url": "https://en.wikipedia.org/wiki/Whirlpool_Aero_Car",
+      "revision": 1376579022,
+      "section": "lead",
+      "passage": "The system was designed by Spanish engineer Leonardo Torres Quevedo and has been upgraded several times since 1916 (in 1961, 1967, 1984 and 2023). The system uses one car that carries 35 standing passengers over a one-kilometre trip.",
+      "hatnote": "The designer was a Spanish engineer, and the car has run since 1916.",
       "onwardLinkText": "Leonardo Torres Quevedo",
       "nextPage": "Leonardo Torres Quevedo"
     },
@@ -30,17 +50,7 @@
       "revision": 1380795438,
       "section": "Cableways",
       "passage": "Torres' studies in the field of cableways began around 1880, during his residence in his hometown of Molledo. There, in 1885, he constructed the first cableway, which spanned a depression of some 40 metres (130 ft). The cableway was about 200 metres (660 ft) wide and carried a single person seated in a chair suspended from a cable, with another traction cable. The engine used to move the human cargo was a pair of cows.",
-      "hatnote": "His cable cars began in his home village, with very low horsepower.",
-      "onwardLinkText": null,
-      "nextPage": "Leonardo Torres Quevedo"
-    },
-    {
-      "page": "Leonardo Torres Quevedo",
-      "url": "https://en.wikipedia.org/wiki/Leonardo_Torres_Quevedo",
-      "revision": 1380795438,
-      "section": "Cableways",
-      "passage": "He failed to convince the Swiss authorities, who did not grant any reliability to the work of a Spanish engineer due to contemporary skepticism surrounding early aerial transport systems. This disappointment, known as the \"Swiss failure\", led him to focus on other fields for several years.",
-      "hatnote": "In 1890 he pitched a cableway in the Alps, and was snubbed.",
+      "hatnote": "Its Spanish designer had started small, in his home village.",
       "onwardLinkText": null,
       "nextPage": "Leonardo Torres Quevedo"
     },
@@ -50,7 +60,7 @@
       "revision": 1380795438,
       "section": "El Ajedrecista",
       "passage": "In 1910, Torres prepared the designs for a chess-playing device—which he dubbed El Ajedrecista (The Chess Player)—and in 1911 he began its construction in his laboratory. As opposed to The Turk and Ajeeb, El Ajedrecista was an electromechanical automaton capable of playing a king and rook endgame against a human opponent. Operating without any human intervention, the automaton achieved true integration of its mechanical and logical components from any starting position.",
-      "hatnote": "One of those other fields: teaching a machine to think.",
+      "hatnote": "Cables weren't his only passion. He also wanted machines that could think.",
       "onwardLinkText": "El Ajedrecista",
       "nextPage": "El Ajedrecista"
     },
@@ -60,7 +70,7 @@
       "revision": 1373281739,
       "section": "Technical description",
       "passage": "The automaton does not deliver checkmate in the minimum number of moves, nor always within the 50 moves allotted by the fifty-move rule, because of the simple algorithm that calculates the moves. It did, however, checkmate the opponent every time.",
-      "hatnote": "It was not elegant, but it never lost.",
+      "hatnote": "It played clumsily, but it always won.",
       "onwardLinkText": null,
       "nextPage": "El Ajedrecista"
     },
@@ -70,11 +80,11 @@
       "revision": 1373281739,
       "section": "History",
       "passage": "In 1951, El Ajedrecista was presented at the influential French symposium Les Machines à calculer et la pensée humaine, where it mated Savielly Tartakower. The Austrian computer pioneer Heinz Zemanek played against the second version at the 1958 Brussels World's Fair. Both automatons are still in working condition and are on display at the Museo Torres Quevedo in the Escuela de Ingenieros de Caminos, Canales y Puertos in Madrid.",
-      "hatnote": "Decades later it faced a famous opponent.",
+      "hatnote": "Decades later it took on a chess grandmaster.",
       "onwardLinkText": null,
       "nextPage": "El Ajedrecista"
     }
   ],
-  "payoff": "From a chair pulled by two cows to a machine that mated Tartakower: Torres's Niagara car and his chess automatons still work.",
+  "payoff": "From a cow-drawn chair to Niagara's Aero Car and a machine that beat Tartakower: Torres's inventions are still working.",
   "caveats": []
 }

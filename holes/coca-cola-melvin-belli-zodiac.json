@@ -1,6 +1,6 @@
 {
   "id": "coca-cola-melvin-belli-zodiac",
-  "claim": "A waitress's exploding Coke bottle and the Zodiac Killer share a lawyer.",
+  "claim": "An exploding Coke bottle in a waitress's hand rewrote American product law.",
   "start": {
     "title": "Coca-Cola",
     "page": "Coca-Cola",
@@ -29,8 +29,8 @@
       "url": "https://en.wikipedia.org/wiki/Escola_v._Coca-Cola_Bottling_Co.",
       "revision": 1337949890,
       "section": "Background",
-      "passage": "After she recovered, she had permanent tenderness and pain at the scar site which left her partially incapacitated in her occupation as a waitress. She filed a workers' compensation claim with the Industrial Accident Commission but was granted only $42.60 in compensation, which did not cover her medical expenses or lost wages. That was when she decided to file a lawsuit and sued the company who had supplied the bottles, the Coca-Cola Bottling Company of Fresno.",
-      "hatnote": "The bottle burst in a waffle shop in Merced, California, in 1941.",
+      "passage": "Escola had begun to restock the restaurant refrigerator with bottles of Coca-Cola delivered two days earlier, when the fourth one suddenly exploded in her hand. After she recovered, she had permanent tenderness and pain at the scar site which left her partially incapacitated in her occupation as a waitress. She filed a workers' compensation claim with the Industrial Accident Commission but was granted only $42.60 in compensation, which did not cover her medical expenses or lost wages. That was when she decided to file a lawsuit and sued the company who had supplied the bottles, the Coca-Cola Bottling Company of Fresno.",
+      "hatnote": "It began with a waitress restocking a restaurant fridge.",
       "onwardLinkText": null,
       "nextPage": "Escola v. Coca-Cola Bottling Co."
     },
@@ -49,8 +49,8 @@
       "url": "https://en.wikipedia.org/wiki/Melvin_Belli",
       "revision": 1375334594,
       "section": "Career",
-      "passage": "After winning a court case, Belli would raise a Jolly Roger flag over his office building in the Barbary Coast district of San Francisco (which Belli claimed had been a Gold Rush-era brothel) and fire a cannon, mounted on his office roof, to announce the victory and the impending party. This former law office was at the Belli Building in the Jackson Square neighborhood of San Francisco.",
-      "hatnote": "He became the 'King of Torts', and he was never quiet about it.",
+      "passage": "Besides his personal injury cases, which earned for him his byname \"King of Torts,\" Belli was instrumental in setting up some of the foundations of modern consumer rights law, arguing several cases in the 1940s and 1950s that formed the basis for later lawsuits and landmark litigation by Ralph Nader.",
+      "hatnote": "Cases like hers became Belli's speciality, and his nickname.",
       "onwardLinkText": null,
       "nextPage": "Melvin Belli"
     },
@@ -59,14 +59,14 @@
       "url": "https://en.wikipedia.org/wiki/Melvin_Belli",
       "revision": 1375334594,
       "section": "Career",
-      "passage": "In 1969 a man called San Francisco police, identifying himself as the serial killer known only as The Zodiac, and agreed to call talk show host Jim Dunbar on Dunbar's morning television talk show A.M. San Francisco if either Belli or attorney F. Lee Bailey were present on air. The police contacted Belli and Dunbar to arrange this in the hopes of capturing the individual. As promised, the suspect called, spoke a few words, and then hung up, repeating this activity 54 times over the next two hours. Belli received a letter from the Zodiac that same year.",
-      "hatnote": "So famous that a serial killer asked for him by name.",
+      "passage": "After winning a court case, Belli would raise a Jolly Roger flag over his office building in the Barbary Coast district of San Francisco (which Belli claimed had been a Gold Rush-era brothel) and fire a cannon, mounted on his office roof, to announce the victory and the impending party. This former law office was at the Belli Building in the Jackson Square neighborhood of San Francisco.",
+      "hatnote": "The 'King of Torts' was never quiet about winning.",
       "onwardLinkText": null,
       "nextPage": "Melvin Belli"
     }
   ],
-  "payoff": "Belli won the exploding-bottle case that became a product-liability landmark, then grew so famous the Zodiac demanded him on live TV.",
+  "payoff": "One burst bottle gave America strict product liability, and gave its young lawyer a career firing a rooftop cannon after every win.",
   "caveats": [
-    "Coca-Cola and Escola pages credit the strict-liability idea to Justice Traynor's concurrence; Belli's page credits Belli's arguments. Both played a part."
+    "The Coca-Cola page credits Justice Traynor's concurring opinion with the doctrine; Belli's page says his arguments in the case gave birth to it."
   ]
 }
