@@ -1,0 +1,70 @@
+{
+  "id": "shadow-chhaya-saturday",
+  "claim": "In Hindu myth, the god of Saturday is the son of a shadow.",
+  "start": {
+    "title": "Saturday",
+    "page": "Saturday",
+    "description": "Day of the week",
+    "image": "snapshots/images/Saturday.webp"
+  },
+  "end": {
+    "title": "Chhaya",
+    "page": "Chhaya",
+    "description": "Hindu goddess of shadow",
+    "image": "snapshots/images/Chhaya.webp"
+  },
+  "knots": [
+    {
+      "page": "Saturday",
+      "url": "https://en.wikipedia.org/wiki/Saturday",
+      "revision": 1380223493,
+      "section": "Name and associations",
+      "passage": "In most languages of India, Saturday is Shanivāra, vāra meaning day, based on Shani, the Hindu god manifested in the planet Saturn. Some Hindus fast on Saturdays to reverse the ill effects of Shani as well as pray to and worship the deity Hanuman.",
+      "hatnote": "Saturday isn't named after Saturn everywhere. In India, it belongs to a god.",
+      "onwardLinkText": "Shani",
+      "nextPage": "Shani"
+    },
+    {
+      "page": "Shani",
+      "url": "https://en.wikipedia.org/wiki/Shani",
+      "revision": 1378445597,
+      "section": "Iconography",
+      "passage": "Shani is depicted wearing blue or black robes, having a dark complexion and riding a vulture or on an iron chariot drawn by eight horses. He holds in his hands a bow, an arrow, an axe and a trident. He is canonically represented riding on a large crow or vulture which follows him wherever he goes. Some Hindu texts also depict him riding other animals such as a horse, a snake or a buffalo, while Buddhist texts from Northeastern India and Nepal uniformly represent him mounted on a tortoise.",
+      "hatnote": "Shani is easy to recognise: dark robes, weapons, and a bird for a mount.",
+      "onwardLinkText": null,
+      "nextPage": "Shani"
+    },
+    {
+      "page": "Shani",
+      "url": "https://en.wikipedia.org/wiki/Shani",
+      "revision": 1378445597,
+      "section": "Deity",
+      "passage": "Shani is a deity in medieval-era texts, who is considered inauspicious and is feared for delivering misfortune and loss to those who deserve it. He is also capable of conferring boons and blessings to the worthy, depending upon their karma. In medieval Hindu literature, he is mainly referred to as the son of Surya and Chhaya, or in a few accounts as the son of Balarama and Revati.",
+      "hatnote": "Feared and respected, he has an unusual family tree.",
+      "onwardLinkText": "Chhaya",
+      "nextPage": "Chhaya"
+    },
+    {
+      "page": "Chhaya",
+      "url": "https://en.wikipedia.org/wiki/Chhaya",
+      "revision": 1362652885,
+      "section": "lead",
+      "passage": "Chhaya or Chaya (Sanskrit: छाया, romanized: Chāyā, lit. 'shadow' or 'shade'), also known as Savarna, is the Hindu personification and goddess of shadow, and a consort of Surya, the Hindu sun god. She is the shadow-image or reflection of Saranyu (Sanjna), the first wife of Surya. Chhaya was born from the shadow of Sanjna and replaced Sanjna in her house, after the latter temporarily left her husband.",
+      "hatnote": "Chhaya means 'shadow', and in the myths that is literally what she is.",
+      "onwardLinkText": null,
+      "nextPage": "Chhaya"
+    },
+    {
+      "page": "Chhaya",
+      "url": "https://en.wikipedia.org/wiki/Chhaya",
+      "revision": 1362652885,
+      "section": "Puranic legends",
+      "passage": "Surya mistakes Chhaya for Sanjna and fathers three children on her. Chhaya gives birth to Shani, Savarni Manu and Tapti.",
+      "hatnote": "The Sun god never noticed the swap.",
+      "onwardLinkText": null,
+      "nextPage": "Chhaya"
+    }
+  ],
+  "payoff": "Saturday belongs to Shani, the feared crow-riding god, and his mother was a shadow left behind to stand in for the Sun's wife.",
+  "caveats": []
+}

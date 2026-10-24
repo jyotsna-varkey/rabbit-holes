@@ -48,13 +48,23 @@
       "page": "TAS2R38",
       "url": "https://en.wikipedia.org/wiki/TAS2R38",
       "revision": 1377900976,
-      "section": "Drug consumption",
-      "passage": "PTC sensitivity and TAS2R38 genotype have been researched in relation to smoking behavior. It was suggested in a research that non-tasters may be likely to smoke cigarettes more, compared to PTC tasters, that is due to the fact that tobacco smoke contains chemical substances that activate TAS2R38.",
-      "hatnote": "The same gene may even nudge who reaches for a cigarette.",
+      "section": "PROP sensitivity",
+      "passage": "As with watercress, mustard greens, turnip, broccoli and horseradish, human perception of bitterness in rutabaga is governed by a gene affecting the TAS2R bitter receptor, which detects the glucosinolates in rutabaga. Sensitive individuals with the genotype PAV/PAV (supertasters) find rutabaga twice as bitter as insensitive subjects (AVI/AVI). The difference for the mixed type (PAV/AVI) is insignificant for rutabaga. As a result, sensitive individuals may find some rutabagas too bitter to eat.",
+      "hatnote": "The same gene decides how your vegetables taste.",
+      "onwardLinkText": null,
+      "nextPage": "TAS2R38"
+    },
+    {
+      "page": "TAS2R38",
+      "url": "https://en.wikipedia.org/wiki/TAS2R38",
+      "revision": 1377900976,
+      "section": "Pathogen resistance",
+      "passage": "Bitter taste receptors exhibit expression in various cell types within the sinonasal and airway regions. Other ligands that activate T2R38 are N-Acyl homoserine lactones (AHLs) are a class of signaling molecules involved in bacterial quorum sensing. Upon encountering these agonists, the receptors initiate a signaling cascade that relies on T2R activation. Consequently, this cascade triggers the release of nitric oxide (NO), a potent bactericidal agent, thereby promoting both bactericidal activity and an enhancement in mucociliary clearance (MCC).",
+      "hatnote": "But this 'taste' receptor also turns up far from the tongue.",
       "onwardLinkText": null,
       "nextPage": "TAS2R38"
     }
   ],
-  "payoff": "One accidental puff of powder revealed a gene that splits people, and chimps, into tasters and non-tasters, and may even sway smoking.",
+  "payoff": "One puff of spilled powder exposed a gene that makes rutabaga taste twice as bitter to some, and helps the nose fight bacteria.",
   "caveats": []
 }

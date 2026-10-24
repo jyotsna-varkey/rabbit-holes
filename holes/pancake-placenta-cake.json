@@ -1,0 +1,60 @@
+{
+  "id": "pancake-placenta-cake",
+  "claim": "A Central European pancake shares its name with an organ of pregnancy.",
+  "start": {
+    "title": "Pancake",
+    "page": "Pancake",
+    "description": "Thin round cake made of eggs, milk, and flour",
+    "image": "snapshots/images/Pancake.webp"
+  },
+  "end": {
+    "title": "Placenta cake",
+    "page": "Placenta cake",
+    "description": "Layered dessert from classical antiquity",
+    "image": "snapshots/images/Placenta-cake.webp"
+  },
+  "knots": [
+    {
+      "page": "Pancake",
+      "url": "https://en.wikipedia.org/wiki/Pancake",
+      "revision": 1377398353,
+      "section": "Austria, Czech Republic, and Romania, Slovakia, and former Yugoslavia",
+      "passage": "In Austria, the Czech Republic, and Slovakia, pancakes are called palatschinke, palačinka and palacinka, respectively (plural: palatschinken, palačinky, and palacinky). Kaiserschmarrn is an Austrian pancake including raisins, almonds, apple jam or small pieces of apple, split into pieces, and sprinkled with powdered sugar. In Romania, they are called clătită (plural: clătite). In countries of former Yugoslavia, they are called palačinka (plural: palačinke). In these languages, the word derives from the Latin placenta, meaning \"cake\".",
+      "hatnote": "Across Central Europe, the pancake has a curious name.",
+      "onwardLinkText": "palatschinke",
+      "nextPage": "Palatschinke"
+    },
+    {
+      "page": "Palatschinke",
+      "url": "https://en.wikipedia.org/wiki/Palatschinke",
+      "revision": 1378993830,
+      "section": "History and etymology",
+      "passage": "The name comes from the Latin word placenta, which in turn is derived from the Greek word plakous for thin or layered flat breads. The name of the dish has followed a track of borrowing across several languages of Central and Southeastern Europe; the dish originates in the Roman era, and the Austrian-German term Palatschinke, the Czech palačinka, the Slovak palacinka, and the Croatian-Serb palačinka are deemed to have been borrowed from Hungarian palacsinta, that in turn from Romanian plăcintă (a cake, a pie), the Romanian word can be traced back to the Latin placenta, meaning \"pie, cake\".",
+      "hatnote": "The word has travelled a long way.",
+      "onwardLinkText": "placenta",
+      "nextPage": "Placenta cake"
+    },
+    {
+      "page": "Placenta cake",
+      "url": "https://en.wikipedia.org/wiki/Placenta_cake",
+      "revision": 1373546906,
+      "section": "lead",
+      "passage": "Placenta cake is a dish from ancient Greece and Rome consisting of many dough layers interspersed with a mixture of cheese (such as ricotta) and honey and flavored with bay leaves, baked and then covered in honey. The dessert is mentioned in classical texts such as the Greek poems of Archestratos and Antiphanes, as well as the De agri cultura of Cato the Elder. It is thought to be related to baklava.",
+      "hatnote": "The original placenta was a Roman dessert.",
+      "onwardLinkText": null,
+      "nextPage": "Placenta cake"
+    },
+    {
+      "page": "Placenta cake",
+      "url": "https://en.wikipedia.org/wiki/Placenta_cake",
+      "revision": 1373546906,
+      "section": "Etymology",
+      "passage": "The placenta of mammalian pregnancy is so named from the perceived resemblance between its shape and that of a placenta cake.",
+      "hatnote": "And the cake lent its name to something unexpected.",
+      "onwardLinkText": null,
+      "nextPage": "Placenta cake"
+    }
+  ],
+  "payoff": "Palacsinta, palačinka and the placenta all descend from one layered Roman cake, named for being flat.",
+  "caveats": []
+}

@@ -1,0 +1,72 @@
+{
+  "id": "fireworks-tree-of-heaven",
+  "claim": "A Jesuit mailed Paris China's firework secrets, plus some badly labelled seeds.",
+  "start": {
+    "title": "Fireworks",
+    "page": "Fireworks",
+    "description": "Low explosive pyrotechnic devices for entertainment",
+    "image": "snapshots/images/Fireworks.webp"
+  },
+  "end": {
+    "title": "Ailanthus altissima",
+    "page": "Ailanthus altissima",
+    "description": "Species of tree",
+    "image": "snapshots/images/Ailanthus-altissima.webp"
+  },
+  "knots": [
+    {
+      "page": "Fireworks",
+      "url": "https://en.wikipedia.org/wiki/Fireworks",
+      "revision": 1380207396,
+      "section": "History",
+      "passage": "The Chinese pyrotechnics were described by the French author Antoine Caillot (1818): \"It is certain that the variety of colours which the Chinese have the secret of giving to flame is the greatest mystery of their fireworks.\" Similarly, the English geographer Sir John Barrow (ca. 1797) wrote \"The diversity of colours indeed with which the Chinese have the secret of cloathing fire seems to be the chief merit of their pyrotechny.\"",
+      "hatnote": "For centuries, China's coloured fireworks baffled European visitors.",
+      "onwardLinkText": null,
+      "nextPage": "Fireworks"
+    },
+    {
+      "page": "Fireworks",
+      "url": "https://en.wikipedia.org/wiki/Fireworks",
+      "revision": 1380207396,
+      "section": "History",
+      "passage": "Fireworks were produced in Europe by the 14th century, becoming popular by the 17th century. Lev Izmailov, ambassador of Peter the Great, once reported from China: \"They make such fireworks that no one in Europe has ever seen.\" In 1758, the Jesuit missionary Pierre Nicolas le Chéron d'Incarville, living in Beijing, wrote about the methods and composition of Chinese fireworks to the Paris Academy of Sciences, which published the account five years later.",
+      "hatnote": "Then a priest in Beijing simply wrote the recipe down and posted it.",
+      "onwardLinkText": "Pierre Nicolas le Chéron d'Incarville",
+      "nextPage": "Pierre Nicolas d'Incarville"
+    },
+    {
+      "page": "Pierre Nicolas d'Incarville",
+      "url": "https://en.wikipedia.org/wiki/Pierre_Nicolas_d'Incarville",
+      "revision": 1371491231,
+      "section": "Biography",
+      "passage": "D'Incarville described and sent back seeds of several plants then unknown in Europe as a correspondent of the Jardin des Plantes. He was not a professional botanist, but was nonetheless well educated in the field and was made a correspondent of Claude Joseph Geoffroy at the Académie des Sciences in Paris after refusing to become a foreign associate of the Royal Society. Plants he introduced to the Western world include the tree of heaven (Ailanthus altissima), the pagoda tree (Styphnolobium japonicum), Koelreuteria paniculata and Toona sinensis. He was also the first European to describe the kiwifruit.",
+      "hatnote": "Firework notes weren't the only things he mailed to Paris.",
+      "onwardLinkText": "Ailanthus altissima",
+      "nextPage": "Ailanthus altissima"
+    },
+    {
+      "page": "Ailanthus altissima",
+      "url": "https://en.wikipedia.org/wiki/Ailanthus_altissima",
+      "revision": 1377879364,
+      "section": "Taxonomy",
+      "passage": "The first Western scientific descriptions of the tree of heaven were made shortly after it was introduced to Europe by Pierre Nicolas d'Incarville, a French Jesuit, who had sent seeds from Peking via Siberia to his botanist friend Bernard de Jussieu in the 1740s. The seeds sent by d'Incarville were thought to be from the economically important and similar-looking Chinese varnish tree (Toxicodendron vernicifluum), which he had observed in the lower Yangtze region, rather than the tree of heaven. D'Incarville attached a note indicating this, which caused much taxonomic confusion over the next few decades.",
+      "hatnote": "One of those seed packets came with the wrong label.",
+      "onwardLinkText": null,
+      "nextPage": "Ailanthus altissima"
+    },
+    {
+      "page": "Ailanthus altissima",
+      "url": "https://en.wikipedia.org/wiki/Ailanthus_altissima",
+      "revision": 1377879364,
+      "section": "History",
+      "passage": "In many countries, it is an invasive species due to its ability both to colonise disturbed areas quickly and to suppress competition with allelopathic chemicals. The tree also resprouts vigorously when cut, making its eradication difficult and time-consuming. This has led to its being called \"tree of hell\" among gardeners and conservationists.",
+      "hatnote": "The mislabelled seeds grew into a tree nobody could get rid of.",
+      "onwardLinkText": null,
+      "nextPage": "Ailanthus altissima"
+    }
+  ],
+  "payoff": "Beijing's Jesuit postman sent Paris the secret of Chinese fireworks, and seeds under the wrong name that grew into the 'tree of hell'.",
+  "caveats": [
+    "The Fireworks article dates d'Incarville's fireworks letter to 1758, but his own article says he died in 1757."
+  ]
+}

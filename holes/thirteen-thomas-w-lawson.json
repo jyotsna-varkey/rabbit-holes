@@ -1,6 +1,6 @@
 {
   "id": "thirteen-thomas-w-lawson",
-  "claim": "The author of 'Friday, the Thirteenth' lost his giant ship on one, by Boston time.",
+  "claim": "The man who wrote 'Friday, the Thirteenth' lost his giant ship on one.",
   "start": {
     "title": "13 (number)",
     "page": "13 (number)",
@@ -58,13 +58,23 @@
       "page": "Thomas W. Lawson (ship)",
       "url": "https://en.wikipedia.org/wiki/Thomas_W._Lawson_(ship)",
       "revision": 1372404902,
+      "section": "Wreck",
+      "passage": "On December 13, entering the English Channel, she mistakenly passed inside the Bishop Rock lighthouse. Her captain anchored between the Nundeeps shallows and Gunner's Rock, northwest of the island of Annet, to ride out an impending gale, refusing several requests of St. Agnes and St. Mary's lifeboat crews to abandon the ship. Captain Dow, trusting in his anchors, only accepted the Trinity House pilot Billy \"Cook\" Hicks from St. Agnes lifeboat, who came aboard at 5 p.m. on Friday 13.",
+      "hatnote": "That Friday, the giant schooner was already in trouble off the Isles of Scilly.",
+      "onwardLinkText": null,
+      "nextPage": "Thomas W. Lawson (ship)"
+    },
+    {
+      "page": "Thomas W. Lawson (ship)",
+      "url": "https://en.wikipedia.org/wiki/Thomas_W._Lawson_(ship)",
+      "revision": 1372404902,
       "section": "lead",
       "passage": "Thomas W. Lawson was destroyed off the uninhabited island of Annet, in the Isles of Scilly, in a storm on 14 December 1907, killing all but two of her eighteen crew and a harbor pilot already aboard. Her cargo of 58,000 barrels of light paraffin oil caused perhaps the first large marine oil spill.",
-      "hatnote": "The wreck left a darker legacy than a superstition.",
+      "hatnote": "Overnight the storm won, and the wreck made history of an unwanted kind.",
       "onwardLinkText": null,
       "nextPage": "Thomas W. Lawson (ship)"
     }
   ],
-  "payoff": "His novel may have popularised Friday the 13th; that same year his ship sank on one, Boston time, and spilled its oil.",
+  "payoff": "A superstitious man's novel may have popularised Friday the 13th; his giant ship rode out that very Friday at anchor, then wrecked, spilling its oil.",
   "caveats": []
 }

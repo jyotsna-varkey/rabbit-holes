@@ -1,0 +1,73 @@
+{
+  "id": "cash-register-tennessee-valley",
+  "claim": "The Tennessee Valley's great dams trace back to a cash-register factory.",
+  "start": {
+    "title": "Cash register",
+    "page": "Cash register",
+    "description": "Device to register and calculate retail sales",
+    "image": "snapshots/images/Cash-register.webp"
+  },
+  "end": {
+    "title": "Arthur Ernest Morgan",
+    "page": "Arthur Ernest Morgan",
+    "description": "First Chairman, Tennessee Valley Authority",
+    "image": "snapshots/images/Arthur-Ernest-Morgan.webp"
+  },
+  "knots": [
+    {
+      "page": "Cash register",
+      "url": "https://en.wikipedia.org/wiki/Cash_register",
+      "revision": 1380042780,
+      "section": "History",
+      "passage": "In 1884 Eckert sold the company to John H. Patterson, who renamed the company the National Cash Register Company and improved the cash register by adding a paper roll to record sales transactions, thereby creating the journal for internal bookkeeping purposes, and the receipt for external bookkeeping purposes. The original purpose of the receipt was enhanced fraud protection.",
+      "hatnote": "The cash register was built to stop staff stealing. One man made it an empire.",
+      "onwardLinkText": "John H. Patterson",
+      "nextPage": "John Henry Patterson (NCR owner)"
+    },
+    {
+      "page": "John Henry Patterson (NCR owner)",
+      "url": "https://en.wikipedia.org/wiki/John_Henry_Patterson_(NCR_owner)",
+      "revision": 1380076062,
+      "section": "Violation of the Sherman Antitrust Act",
+      "passage": "In 1912, NCR was found guilty of violating the Sherman Antitrust Act. Patterson, Watson and 26 other NCR executives and managers were convicted of illegal anti-competitive sales practices and were sentenced to one year of imprisonment. Their convictions were unpopular with the public due to the efforts of Patterson and Watson to help those affected by the Dayton, Ohio floods of 1913, but efforts to have them pardoned by President Woodrow Wilson were unsuccessful.",
+      "hatnote": "Patterson played rough. So rough that a court sent him, and IBM's future boss, to prison.",
+      "onwardLinkText": "Dayton, Ohio floods of 1913",
+      "nextPage": "Great Dayton Flood"
+    },
+    {
+      "page": "Great Dayton Flood",
+      "url": "https://en.wikipedia.org/wiki/Great_Dayton_Flood",
+      "revision": 1365916983,
+      "section": "Relief efforts",
+      "passage": "Some of the Dayton flood victims made their way to National Cash Register's (NCR) factory and headquarters, where John H. Patterson, the company's president, and his factory workers assisted flood victims and relief workers. NCR employees built nearly 300 flat-bottomed rescue boats. Patterson organized rescue teams to save the thousands of people stranded on roofs and the upper stories of buildings.",
+      "hatnote": "Then, in 1913, the river came through Dayton.",
+      "onwardLinkText": null,
+      "nextPage": "Great Dayton Flood"
+    },
+    {
+      "page": "Great Dayton Flood",
+      "url": "https://en.wikipedia.org/wiki/Great_Dayton_Flood",
+      "revision": 1365916983,
+      "section": "Civil engineering",
+      "passage": "The people of the Dayton area were determined to prevent another flood disaster of the same magnitude. Led by Patterson's vision for a managed watershed district, on March 27, 1913, Governor Cox appointed people to the Dayton Citizens Relief Commission. In May, the commission conducted a 10-day fundraiser, which collected more than $2 million ($47 million in 2024 dollars) to fund the flood control effort. The commission hired hydrological engineer Arthur E. Morgan and his Morgan Engineering Company from Tennessee to design an extensive plan based on levees and dams to protect Dayton from future floods.",
+      "hatnote": "Rescue wasn't enough for Patterson. He wanted the river tamed.",
+      "onwardLinkText": "Arthur E. Morgan",
+      "nextPage": "Arthur Ernest Morgan"
+    },
+    {
+      "page": "Arthur Ernest Morgan",
+      "url": "https://en.wikipedia.org/wiki/Arthur_Ernest_Morgan",
+      "revision": 1368858096,
+      "section": "Engineer",
+      "passage": "After the disastrous Great Dayton, Ohio Flood in 1913, Morgan proposed a system of dry earthen dams to control the river systems above Dayton. His concepts were challenged because of his lack of formal engineering training, but eventually his plans were adopted and constructed, and the subsequent years proved the effectiveness of his concepts. Because of this success, he was chosen in 1933 to design and deploy the Tennessee Valley system of dams for flood control and electrification.",
+      "hatnote": "The engineer had no formal training, and a very big future.",
+      "onwardLinkText": null,
+      "nextPage": "Arthur Ernest Morgan"
+    }
+  ],
+  "payoff": "A convicted cash-register tycoon's flood rescue launched the career of the engineer who went on to dam the Tennessee Valley.",
+  "caveats": [
+    "Patterson's conviction was overturned on appeal in 1915 for procedural reasons, not because of the flood.",
+    "The Morgan page also records his exclusion of Black Americans from TVA jobs and housing; not covered here."
+  ]
+}

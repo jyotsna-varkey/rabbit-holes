@@ -1,0 +1,60 @@
+{
+  "id": "pluto-see-70-ophiuchi",
+  "claim": "Pluto was nearly named 'Cronus', until astronomers remembered who had suggested it.",
+  "start": {
+    "title": "Pluto",
+    "page": "Pluto",
+    "description": "Largest dwarf planet in the Solar System",
+    "image": "snapshots/images/Pluto.webp"
+  },
+  "end": {
+    "title": "Thomas Jefferson Jackson See",
+    "page": "Thomas Jefferson Jackson See",
+    "description": "American astronomer",
+    "image": "snapshots/images/Thomas-Jefferson-Jackson-See.webp"
+  },
+  "knots": [
+    {
+      "page": "Pluto",
+      "url": "https://en.wikipedia.org/wiki/Pluto",
+      "revision": 1379256428,
+      "section": "Name",
+      "passage": "Upon the announcement of the discovery, Lowell Observatory received over a thousand suggestions for names. Three names topped the list: Minerva, Pluto and Cronus. 'Minerva' was the Lowell staff's first choice but was rejected because it had already been used for an asteroid; Cronus was disfavored because it was promoted by an unpopular and egocentric astronomer, Thomas Jefferson Jackson See. A vote was then taken and 'Pluto' was the unanimous choice.",
+      "hatnote": "Pluto almost had another name, and lost it because of who suggested it.",
+      "onwardLinkText": "Thomas Jefferson Jackson See",
+      "nextPage": "Thomas Jefferson Jackson See"
+    },
+    {
+      "page": "Thomas Jefferson Jackson See",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Jefferson_Jackson_See",
+      "revision": 1373208084,
+      "section": "Scientific work",
+      "passage": "Several years earlier, in 1895, while studying the well known binary star 70 Ophiuchi at the University of Chicago (and from a few observations made at the Leander McCormick Observatory of the University of Virginia during a visit in April 1895), See believed he had found small anomalies in the motion of one of the stars suggesting a third object was present and its gravitational influence was affecting the motion of the star (William Stephen Jacob had mentioned this possibility in an earlier study in 1855).",
+      "hatnote": "The unpopular astronomer had once claimed a hidden planet around a nearby star.",
+      "onwardLinkText": "70 Ophiuchi",
+      "nextPage": "70 Ophiuchi"
+    },
+    {
+      "page": "70 Ophiuchi",
+      "url": "https://en.wikipedia.org/wiki/70_Ophiuchi",
+      "revision": 1380654883,
+      "section": "Claims of a planetary system",
+      "passage": "T. J. J. See made a stronger claim for the existence of a dark companion in this system in 1899, but Forest Ray Moulton soon published a paper proving that a three-body system with the specified orbital parameters would be highly unstable. The claims by Jacob and See have both been shown to be erroneous.",
+      "hatnote": "Other astronomers checked See's maths, and his planet fell apart.",
+      "onwardLinkText": "T. J. J. See",
+      "nextPage": "Thomas Jefferson Jackson See"
+    },
+    {
+      "page": "Thomas Jefferson Jackson See",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Jefferson_Jackson_See",
+      "revision": 1373208084,
+      "section": "Scientific work",
+      "passage": "See took great offense and wrote an abusive letter to the Astronomical Journal. An edited version was published and he was banned from future publication in the Astronomical Journal. See found himself increasingly at odds with other astronomers, and eventually suffered a breakdown in 1902. He spent one semester teaching at the United States Naval Academy, but was then transferred to a naval shipyard at Mare Island, California in charge of the time station, until his retirement in 1930.",
+      "hatnote": "See did not take the correction well.",
+      "onwardLinkText": null,
+      "nextPage": "Thomas Jefferson Jackson See"
+    }
+  ],
+  "payoff": "See's phantom planet was disproved, his angry letter got him banned, and he ended up running a shipyard time station. Pluto never became 'Cronus'.",
+  "caveats": []
+}

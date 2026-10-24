@@ -1,0 +1,62 @@
+{
+  "id": "ketchup-saccharin",
+  "claim": "Modern ketchup began with a chemist who paid men to eat poison.",
+  "start": {
+    "title": "Ketchup",
+    "page": "Ketchup",
+    "description": "Sauce used as a condiment",
+    "image": "snapshots/images/Ketchup.webp"
+  },
+  "end": {
+    "title": "Saccharin",
+    "page": "Saccharin",
+    "description": "Chemical compound",
+    "image": "snapshots/images/Saccharin.webp"
+  },
+  "knots": [
+    {
+      "page": "Ketchup",
+      "url": "https://en.wikipedia.org/wiki/Ketchup",
+      "revision": 1379038261,
+      "section": "Tomato ketchup",
+      "passage": "Modern ketchup emerged in the early years of the 20th century, out of a debate over the use of sodium benzoate as a preservative in condiments. Harvey W. Wiley, the \"father\" of the US Food and Drug Administration, challenged the safety of benzoate which was banned in the 1906 Pure Food and Drug Act. In response, entrepreneurs including Henry J. Heinz, pursued an alternative recipe that eliminated the need for that preservative.",
+      "hatnote": "Why is ketchup so sweet and sharp?",
+      "onwardLinkText": "Harvey W. Wiley",
+      "nextPage": "Harvey Washington Wiley"
+    },
+    {
+      "page": "Harvey Washington Wiley",
+      "url": "https://en.wikipedia.org/wiki/Harvey_Washington_Wiley",
+      "revision": 1378467138,
+      "section": "Government career",
+      "passage": "After assisting Congress in their earliest questions regarding the safety of the chemical preservatives then being employed in foods, Wiley was appropriated $5,000 in 1902 to study the effects of a diet including various preservatives, on human volunteers. These tests were called Hygienic Table Trials. The subjects received $5 a month and free food to be systematically poisoned. 12 volunteers were chosen.",
+      "hatnote": "Wiley tested additives the direct way.",
+      "onwardLinkText": null,
+      "nextPage": "Harvey Washington Wiley"
+    },
+    {
+      "page": "Harvey Washington Wiley",
+      "url": "https://en.wikipedia.org/wiki/Harvey_Washington_Wiley",
+      "revision": 1378467138,
+      "section": "Government career",
+      "passage": "President Roosevelt brought one of his heroes, Ira Remsen, in to monitor Wiley. This was bound to create conflict as Wiley had raised concerns regarding the president's use of saccharin which had been invented by Remsen. This was intended to curb Wiley who had been having large shipments of food and additives condemned.",
+      "hatnote": "But one additive was personal to the President.",
+      "onwardLinkText": "saccharin",
+      "nextPage": "Saccharin"
+    },
+    {
+      "page": "Saccharin",
+      "url": "https://en.wikipedia.org/wiki/Saccharin",
+      "revision": 1376643641,
+      "section": "Government regulation",
+      "passage": "Harvey Wiley, then the director of the bureau of chemistry for the FDA, viewed it as an illegal substitution of a valuable ingredient, sugar, by a less valuable ingredient. In a clash that had career consequences, Wiley told President Theodore Roosevelt, \"Everyone who ate that sweet corn was deceived. He thought he was eating sugar, when in point of fact he was eating a coal tar product totally devoid of food value and extremely injurious to health.\" But Roosevelt himself was a consumer of saccharin, and, in a heated exchange, Roosevelt angrily answered Wiley by stating, \"Anybody who says saccharin is injurious to health is an idiot.\" The episode proved the undoing of Wiley's career.",
+      "hatnote": "Wiley took it to Roosevelt himself.",
+      "onwardLinkText": null,
+      "nextPage": "Saccharin"
+    }
+  ],
+  "payoff": "Wiley's poison squad pushed ketchup to sugar and vinegar, but his attack on saccharin, the President's sweetener, ended his career.",
+  "caveats": [
+    "Ketchup says benzoate was banned under the 1906 Act; Wiley's page says the courts were still settling benzoate's use after it."
+  ]
+}

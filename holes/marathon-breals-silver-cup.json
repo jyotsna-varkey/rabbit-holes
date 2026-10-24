@@ -1,0 +1,80 @@
+{
+  "id": "marathon-breals-silver-cup",
+  "claim": "The marathon was invented by the man who coined the word 'semantics'.",
+  "start": {
+    "title": "Marathon",
+    "page": "Marathon",
+    "description": "Long-distance running event of 42.195 kilometres",
+    "image": "snapshots/images/Marathon.webp"
+  },
+  "end": {
+    "title": "Breal's Silver Cup",
+    "page": "Breal's Silver Cup",
+    "description": "Trophy awarded to the marathon winner in the 1896 summer Olympics",
+    "image": "snapshots/images/Breal-s-Silver-Cup.webp"
+  },
+  "knots": [
+    {
+      "page": "Marathon",
+      "url": "https://en.wikipedia.org/wiki/Marathon",
+      "revision": 1381196097,
+      "section": "Modern Olympic marathon",
+      "passage": "When the modern Olympics began in 1896, the initiators and organizers were looking for a great popularizing event, recalling the glory of ancient Greece. The idea of a marathon race came from Michel Bréal, who wanted the event to feature in the first modern Olympic Games in 1896 in Athens. This idea was heavily supported by Pierre de Coubertin, the founder of the modern Olympics, as well as by the Greeks.",
+      "hatnote": "When the Olympics were revived in 1896, someone turned an ancient legend into a race.",
+      "onwardLinkText": "Michel Bréal",
+      "nextPage": "Michel Bréal"
+    },
+    {
+      "page": "Michel Bréal",
+      "url": "https://en.wikipedia.org/wiki/Michel_Br%C3%A9al",
+      "revision": 1365329135,
+      "section": "Life and career",
+      "passage": "In 1883, Bréal coined the term semantics in the article \"Les lois intellectuelles du langage. Fragment de sémantique\" published in the journal Annuaire de l'Association des études grecques en France (page 133).",
+      "hatnote": "Bréal was no athlete. He studied the meaning of words.",
+      "onwardLinkText": null,
+      "nextPage": "Michel Bréal"
+    },
+    {
+      "page": "Michel Bréal",
+      "url": "https://en.wikipedia.org/wiki/Michel_Br%C3%A9al",
+      "revision": 1365329135,
+      "section": "Invention of the modern marathon",
+      "passage": "As part of his sponsorship of the race, Bréal had a Paris jeweler create Breal's Silver Cup for the winner, who ended up being the Greek Spyros Louis.",
+      "hatnote": "He didn't just suggest the race. He paid for the prize.",
+      "onwardLinkText": "Spyros Louis",
+      "nextPage": "Spyridon Louis"
+    },
+    {
+      "page": "Spyridon Louis",
+      "url": "https://en.wikipedia.org/wiki/Spyridon_Louis",
+      "revision": 1366434080,
+      "section": "Marathon race",
+      "passage": "In the town of Pikermi, Louis is said to have made a stop at a local inn to drink a glass of wine. (Louis's grandson, also Spyridon Louis, has stated that this is incorrect; that his grandfather's girlfriend gave him half an orange and shortly afterwards he \"got a glass of cognac from his future father-in-law.\") After asking for the advantage of the other runners, he confidently declared he would overtake them all before the end.",
+      "hatnote": "The winner ran it his own way.",
+      "onwardLinkText": null,
+      "nextPage": "Spyridon Louis"
+    },
+    {
+      "page": "Spyridon Louis",
+      "url": "https://en.wikipedia.org/wiki/Spyridon_Louis",
+      "revision": 1366434080,
+      "section": "Breal's Silver Cup",
+      "passage": "The silver cup given to Louis at the first modern Olympic Games staged in Athens in 1896, was sold for £541,250 ($860,000) in London during a Christie's auction on 18 April 2012. The trophy, with a height of six inches, broke the auction record for Olympic memorabilia.",
+      "hatnote": "More than a century later, Bréal's cup came up for sale.",
+      "onwardLinkText": "silver cup given to Louis",
+      "nextPage": "Breal's Silver Cup"
+    },
+    {
+      "page": "Breal's Silver Cup",
+      "url": "https://en.wikipedia.org/wiki/Breal's_Silver_Cup",
+      "revision": 1378666258,
+      "section": "lead",
+      "passage": "The Cup belongs to the Stavros Niarchos Foundation, which acquired it at an auction held on April 18, 2012 by Christie's in London. A delegation from the Municipality of Amarousion, the birthplace of Spyros Louis, attended and bid in the auction. The Cup was sold by the grandson of Spyros Louis, who has the same name.",
+      "hatnote": "The bidding had a family twist.",
+      "onwardLinkText": null,
+      "nextPage": "Breal's Silver Cup"
+    }
+  ],
+  "payoff": "A linguist dreamed up the marathon and paid for its silver cup; the winner's namesake grandson sold it for an Olympic auction record.",
+  "caveats": []
+}

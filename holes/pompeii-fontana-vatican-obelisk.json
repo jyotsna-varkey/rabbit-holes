@@ -1,0 +1,72 @@
+{
+  "id": "pompeii-fontana-vatican-obelisk",
+  "claim": "The man who moved the Vatican obelisk dug straight through Pompeii and told nobody.",
+  "start": {
+    "title": "Pompeii",
+    "page": "Pompeii",
+    "description": "Ancient city near modern Naples, Italy",
+    "image": "snapshots/images/Pompeii.webp"
+  },
+  "end": {
+    "title": "Domenico Fontana",
+    "page": "Domenico Fontana",
+    "description": "Italian architect born in today's Ticino (1543–1607)",
+    "image": "snapshots/images/Domenico-Fontana.webp"
+  },
+  "knots": [
+    {
+      "page": "Pompeii",
+      "url": "https://en.wikipedia.org/wiki/Pompeii",
+      "revision": 1377727528,
+      "section": "Rediscovery and excavations",
+      "passage": "Archaeological evidence suggests that following the eruption, the site was reoccupied by survivors as a small informal settlement that lasted until the fifth century. Over the following centuries, its name and location were forgotten, though it appeared on the Tabula Peutingeriana of the 4th century. Further eruptions, particularly in 471–473 and 512, covered the remains more deeply. The area became known as La Civita (the city) due to the features in the ground.",
+      "hatnote": "After Vesuvius, even Pompeii's name slipped out of memory.",
+      "onwardLinkText": null,
+      "nextPage": "Pompeii"
+    },
+    {
+      "page": "Pompeii",
+      "url": "https://en.wikipedia.org/wiki/Pompeii",
+      "revision": 1377727528,
+      "section": "Rediscovery and excavations",
+      "passage": "The next known date that any part was unearthed was in 1592, when architect Domenico Fontana, while digging an underground aqueduct to the mills of Torre Annunziata, ran into ancient walls covered with paintings and inscriptions. His aqueduct passed through and underneath a large part of the city and would have had to pass through many buildings and foundations, as they still can be seen in many places today. However, he kept the finding secret.",
+      "hatnote": "Then, in 1592, someone dug straight through it.",
+      "onwardLinkText": "Domenico Fontana",
+      "nextPage": "Domenico Fontana"
+    },
+    {
+      "page": "Domenico Fontana",
+      "url": "https://en.wikipedia.org/wiki/Domenico_Fontana",
+      "revision": 1362891272,
+      "section": "Egyptian obelisks",
+      "passage": "In 1586 he erected the 320-ton Vatican obelisk in St. Peter's Square. This feat of engineering took the concerted effort of 800 men, 160 horses and countless pulleys and metres of rope.",
+      "hatnote": "Six years earlier, Fontana had been the hero of Rome.",
+      "onwardLinkText": "Vatican obelisk",
+      "nextPage": "Vatican obelisk"
+    },
+    {
+      "page": "Vatican obelisk",
+      "url": "https://en.wikipedia.org/wiki/Vatican_obelisk",
+      "revision": 1370201676,
+      "section": "History",
+      "passage": "Having stood in the same location in Rome since c.40 AD, it was moved 260 meters at the behest of Pope Sixtus V in a single day on September 10, 1586. The work was carried out under the direction of the architect Domenico Fontana who required thirteen months of preparatory work, 800 men, 160 horses and 45 winches to carry out the work. It was the first of Rome's ancient obelisks to be moved in modern times. During the move, there was a famous cry by sailor Benedetto Bresca: Acqua alle funi (\"Water on the ropes!\"), in order to avoid breaking the ropes that were about to give in under the great weight of the obelisk.",
+      "hatnote": "Moving it took a year of planning, one day, and one shout.",
+      "onwardLinkText": "Domenico Fontana",
+      "nextPage": "Domenico Fontana"
+    },
+    {
+      "page": "Domenico Fontana",
+      "url": "https://en.wikipedia.org/wiki/Domenico_Fontana",
+      "revision": 1362891272,
+      "section": "Other works",
+      "passage": "After his patron's death, he continued for some time in the service of his successor, Pope Clement VIII. Soon, however, dissatisfaction with his style, envy, and the charge that he had misappropriated public money, caused him to be dismissed from his post, and he was driven to Naples. There he accepted the appointment of architect to the Viceroy, Juan de Zúñiga, 1st Duke of Peñaranda. During this time, it is notable that a crew working for him building a canal was the first to confirm the location of the ancient city of Pompeii. In addition to designing canals, he erected the Royal Palace of Naples.",
+      "hatnote": "So why was Rome's star engineer digging canals near Naples?",
+      "onwardLinkText": null,
+      "nextPage": "Domenico Fontana"
+    }
+  ],
+  "payoff": "Rome's star engineer was only digging near Naples because Rome had thrown him out, so his canal ran straight through Pompeii.",
+  "caveats": [
+    "The Pompeii page says Fontana kept his find secret; the Fontana page says his crew was the first to confirm the city's location. Pompeii was only identified by inscription in 1763."
+  ]
+}

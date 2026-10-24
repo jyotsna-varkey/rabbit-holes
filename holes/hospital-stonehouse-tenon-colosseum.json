@@ -49,8 +49,8 @@
       "url": "https://en.wikipedia.org/wiki/Jacques-Ren%C3%A9_Tenon",
       "revision": 1378653284,
       "section": "Context",
-      "passage": "The Baron de Breteuil (1730–1807), acting for Louis XVI, instructed the Royal Academy of Sciences to evaluate the Poyet project. For this purpose, a hospital commission of 9 members was created. Its members included Tenon and other renowned scientist such as Antoine-Laurent de Lavoisier (1743–1794), Charles-Augustin de Coulomb (1736–1806), and Pierre-Simon Laplace (1749–1827).",
-      "hatnote": "The king handed the plan to a startling panel of judges.",
+      "passage": "The 1786 report concluded that the situation of the Hôtel-Dieu was irremediable and that the hospital should be moved outside of Paris. It also rejected the Poyet project as excessive and criticized the proposed location as unhealthy. The 1787 report recommended that four smaller hospitals be established in various locations around Paris, while that of 1788 proposes that the pavilion-style of hospital be adopted, with each ward occupying a separate building to reduce disease transmission and to facilitate ventilation.",
+      "hatnote": "The king had scientists review the plan. Tenon and Coulomb had seen Plymouth.",
       "onwardLinkText": null,
       "nextPage": "Jacques-René Tenon"
     },
@@ -58,13 +58,13 @@
       "page": "Jacques-René Tenon",
       "url": "https://en.wikipedia.org/wiki/Jacques-Ren%C3%A9_Tenon",
       "revision": 1378653284,
-      "section": "Context",
-      "passage": "The 1786 report concluded that the situation of the Hôtel-Dieu was irremediable and that the hospital should be moved outside of Paris. It also rejected the Poyet project as excessive and criticized the proposed location as unhealthy. The 1787 report recommended that four smaller hospitals be established in various locations around Paris, while that of 1788 proposes that the pavilion-style of hospital be adopted, with each ward occupying a separate building to reduce disease transmission and to facilitate ventilation.",
-      "hatnote": "Tenon and Coulomb had seen Plymouth. Their verdict followed.",
+      "section": "Reception and posterity",
+      "passage": "Throughout the nineteenth century, Parisian hospital policy seemed to align gradually with Tenon's principles. As he suggested, Parisian hospitals of the nineteenth century were located at the four cardinal points, such as Beaujon to the west, Hospital Saint-Antoine to the east, Hospital Saint Louis and Hospital Lariboisière to the north and Hospital Cochin and Hospital Sainte Anne to the south. On the other hand, contrary to Tenon's recommendation, the Hôtel-Dieu de Paris was finally rebuilt by Baron Haussman in 1877 as a large central hospital very close to its former location next to Notre Dame de Paris.",
+      "hatnote": "Did Paris listen?",
       "onwardLinkText": null,
       "nextPage": "Jacques-René Tenon"
     }
   ],
-  "payoff": "Lavoisier, Laplace and Coulomb helped sink the Seine Colosseum, and Paris was told to copy Plymouth's separate pavilions instead.",
+  "payoff": "Paris rejected the Seine Colosseum and its scientists urged Plymouth-style pavilions, yet Haussmann rebuilt the old Hôtel-Dieu right beside Notre Dame.",
   "caveats": []
 }

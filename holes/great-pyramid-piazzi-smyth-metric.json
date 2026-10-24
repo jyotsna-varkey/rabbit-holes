@@ -8,10 +8,10 @@
     "image": "snapshots/images/Great-Pyramid-of-Giza.webp"
   },
   "end": {
-    "title": "Charles Piazzi Smyth",
-    "page": "Charles Piazzi Smyth",
-    "description": "British astronomer (1819–1900)",
-    "image": "snapshots/images/Charles-Piazzi-Smyth.webp"
+    "title": "Pyramid inch",
+    "page": "Pyramid inch",
+    "description": "Purported but now discredited unit of measure claimed by pyramidologists",
+    "image": "snapshots/images/Pyramid-inch.webp"
   },
   "knots": [
     {
@@ -39,42 +39,32 @@
       "url": "https://en.wikipedia.org/wiki/Charles_Piazzi_Smyth",
       "revision": 1379534858,
       "section": "Pyramidological research",
-      "passage": "Smyth corresponded with pyramid theorist John Taylor and was heavily influenced by him. Taylor theorized in his 1859 book The Great Pyramid: Why Was It Built? & Who Built It? that the Great Pyramid was planned and the building supervised by the biblical Noah. Refused a grant by the Royal Society, Smyth went on an expedition to Egypt in order to accurately measure every surface, dimension, and aspect of the Great Pyramid.",
-      "hatnote": "Smyth was a respected astronomer with an unusual obsession.",
-      "onwardLinkText": null,
-      "nextPage": "Charles Piazzi Smyth"
-    },
-    {
-      "page": "Charles Piazzi Smyth",
-      "url": "https://en.wikipedia.org/wiki/Charles_Piazzi_Smyth",
-      "revision": 1379534858,
-      "section": "Pyramidological research",
       "passage": "Smyth subsequently published his book Our Inheritance in the Great Pyramid in 1864 (which he expanded over the years and is also titled The Great Pyramid: Its Secrets and Mysteries Revealed). Smyth claimed that the measurements he obtained from the Great Pyramid of Giza indicated a unit of length, the pyramid inch, equivalent to 1.001 British inches, that could have been the standard of measurement by the pyramid's architects. From this he extrapolated a number of other measurements, including the pyramid pint, the sacred cubit, and the pyramid scale of temperature.",
-      "hatnote": "He came home with a brand-new unit of length.",
-      "onwardLinkText": null,
-      "nextPage": "Charles Piazzi Smyth"
+      "hatnote": "Smyth was Scotland's Astronomer Royal, and he came home with a new unit.",
+      "onwardLinkText": "pyramid inch",
+      "nextPage": "Pyramid inch"
     },
     {
-      "page": "Charles Piazzi Smyth",
-      "url": "https://en.wikipedia.org/wiki/Charles_Piazzi_Smyth",
-      "revision": 1379534858,
-      "section": "Pyramidological research",
-      "passage": "Because the pyramid inch was a divine unit of measurement, Smyth, a committed proponent of British Israelism, used his conclusions as an argument against the introduction of the metric system in Britain. For much of his life he was a vocal opponent of the metric system, which he considered a product of the minds of atheistic French radicals, a position advocated in many of his works.",
-      "hatnote": "And that unit had a political enemy.",
+      "page": "Pyramid inch",
+      "url": "https://en.wikipedia.org/wiki/Pyramid_inch",
+      "revision": 1351012772,
+      "section": "lead",
+      "passage": "Taylor and his followers, who included the Astronomer Royal of Scotland Charles Piazzi Smyth (1819–1900), also found numerous apparent coincidences between the measurements of the pyramids and the geometry of the Earth and the Solar System. They concluded that the British system of measures was derived from a far more ancient, if not divine, system. During the 19th and early 20th centuries, this theory played a significant role in the debates over whether Britain and the United States should adopt the metric system.",
+      "hatnote": "His ancient inch became a weapon in a very modern argument.",
       "onwardLinkText": null,
-      "nextPage": "Charles Piazzi Smyth"
+      "nextPage": "Pyramid inch"
     },
     {
-      "page": "Charles Piazzi Smyth",
-      "url": "https://en.wikipedia.org/wiki/Charles_Piazzi_Smyth",
-      "revision": 1379534858,
-      "section": "Influence of Smyth's pyramid theories",
-      "passage": "The greatest blow to the theory was dealt by the great Egyptogist William Matthew Flinders Petrie, who had initially been a supporter. When Petrie went to Egypt in 1880 to perform new measurements, he found that the pyramid was several feet smaller than previously believed.",
-      "hatnote": "Remember young Petrie? He went to check Smyth's numbers.",
+      "page": "Pyramid inch",
+      "url": "https://en.wikipedia.org/wiki/Pyramid_inch",
+      "revision": 1351012772,
+      "section": "lead",
+      "passage": "The theory of Taylor and Smyth gained many eminent supporters and detractors during the following decades, but by the end of the 19th century it had lost most of its mainstream scientific support. The greatest blow to the theory was dealt by the Egyptologist Flinders Petrie (1853–1942), whose father was a believer. When Petrie went to Egypt in 1880 to perform new measurements, he found that the pyramid was several feet smaller than previously believed, including the missing capstone. This so undermined the theory that Petrie rejected it, writing \"there is no authentic example, that will bear examination, of the use or existence of any such measure as a ‘Pyramid inch,’ or of a cubit of 25.025 British inches.\"",
+      "hatnote": "Then young Petrie, the believer's son, measured the pyramid himself.",
       "onwardLinkText": null,
-      "nextPage": "Charles Piazzi Smyth"
+      "nextPage": "Pyramid inch"
     }
   ],
-  "payoff": "Smyth's 'divine' pyramid inch was meant to keep Britain off the metre; Petrie's tape measure, not French radicals, killed it.",
+  "payoff": "A 'divine' pyramid inch was meant to keep Britain off the metric system, until a believer's son measured the pyramid properly.",
   "caveats": []
 }

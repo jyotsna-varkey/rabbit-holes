@@ -27,10 +27,10 @@
     {
       "page": "Spermaceti",
       "url": "https://en.wikipedia.org/wiki/Spermaceti",
-      "revision": 1346142710,
+      "revision": 1381387776,
       "section": "lead",
-      "passage": "Cetaceous lamp oil was a commodity that created many maritime fortunes. Candlepower, a photometric unit defined in the United Kingdom Act of Parliament Metropolitan Gas Act 1860 and adopted at the International Electrotechnical Conference of 1883, was based on the light produced by a single, pure spermaceti candle.",
-      "hatnote": "That wax burned so cleanly it became a yardstick for light itself.",
+      "passage": "The whaling industry in the 17th and 18th centuries was developed to find, harvest, and refine the contents of the head of a sperm whale. The crews seeking spermaceti routinely left on three-year tours on several oceans. Cetaceous lamp oil was a commodity that created many maritime fortunes. Candlepower, a photometric unit defined in the United Kingdom Act of Parliament Metropolitan Gas Act 1860 and adopted at the International Electrotechnical Conference of 1883, was based on the light produced by a single, pure spermaceti candle.",
+      "hatnote": "Whalers chased that wax for centuries, and it became a yardstick for light.",
       "onwardLinkText": "Candlepower",
       "nextPage": "Candlepower"
     },
@@ -40,7 +40,7 @@
       "revision": 1359378675,
       "section": "lead",
       "passage": "Candlepower (abbreviated as cp or CP) is the unit of luminous intensity in the United States customary systems of measurement. It is currently defined as being equal to 0.981 candela.",
-      "hatnote": "Today the whale candle is tied to a scientific unit.",
+      "hatnote": "The whale-candle unit survives today, pegged to a scientific one.",
       "onwardLinkText": "candela",
       "nextPage": "Candela"
     },
@@ -49,8 +49,18 @@
       "url": "https://en.wikipedia.org/wiki/Candela",
       "revision": 1377246614,
       "section": "History",
+      "passage": "In 1884, Jules Violle had proposed a standard based on the light emitted by 1 cm of platinum at its melting point (or freezing point). The resulting unit of intensity, called the \"violle\", was roughly equal to 60 English candlepower. Platinum was convenient for this purpose because it had a high enough melting point, was not prone to oxidation, and could be obtained in pure form.",
+      "hatnote": "Candles vary, so scientists looked for a steadier light: glowing platinum.",
+      "onwardLinkText": null,
+      "nextPage": "Candela"
+    },
+    {
+      "page": "Candela",
+      "url": "https://en.wikipedia.org/wiki/Candela",
+      "revision": 1377246614,
+      "section": "History",
       "passage": "In 1937, the Commission Internationale de l'Éclairage (International Commission on Illumination) and the CIPM proposed a \"new candle\" based on this concept, with value chosen to make it similar to the earlier unit candlepower.",
-      "hatnote": "Scientists swapped the candle for glowing molten platinum, but kept its size.",
+      "hatnote": "When the platinum standard arrived, it was deliberately sized to match the old candle.",
       "onwardLinkText": null,
       "nextPage": "Candela"
     },
@@ -60,7 +70,7 @@
       "revision": 1377246614,
       "section": "History",
       "passage": "The arbitrary (1/683) term was chosen so that the new definition would precisely match the old definition. Although the candela is now defined in terms of the second (an SI base unit) and the watt (a derived SI unit), the candela remains a base unit of the SI system, by definition.",
-      "hatnote": "Today's definition swaps platinum for a formula with an odd factor: 1/683.",
+      "hatnote": "Today's definition uses a formula with an odd factor, 1/683, for the same reason.",
       "onwardLinkText": null,
       "nextPage": "Candela"
     }

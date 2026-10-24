@@ -1,0 +1,73 @@
+{
+  "id": "scream-ozone-hole-clouds",
+  "claim": "The Scream's blood-red sky points to the clouds that blindsided ozone scientists.",
+  "start": {
+    "title": "The Scream",
+    "page": "The Scream",
+    "description": "1893 painting by Edvard Munch",
+    "image": "snapshots/images/The-Scream.webp"
+  },
+  "end": {
+    "title": "Ozone depletion",
+    "page": "Ozone depletion",
+    "description": "Atmospheric phenomenon",
+    "image": "snapshots/images/Ozone-depletion.webp"
+  },
+  "knots": [
+    {
+      "page": "The Scream",
+      "url": "https://en.wikipedia.org/wiki/The_Scream",
+      "revision": 1380097283,
+      "section": "Sources of inspiration",
+      "passage": "Another explanation for the red skies is that they are due to the appearance of nacreous clouds which occur at the latitude of Norway and which look remarkably similar to the skies depicted in The Scream.",
+      "hatnote": "Forget Krakatoa: there's another suspect for Munch's blood-red sky.",
+      "onwardLinkText": "nacreous clouds",
+      "nextPage": "Polar stratospheric cloud"
+    },
+    {
+      "page": "Polar stratospheric cloud",
+      "url": "https://en.wikipedia.org/wiki/Polar_stratospheric_cloud",
+      "revision": 1379995618,
+      "section": "lead",
+      "passage": "A polar stratospheric cloud (PSC) is a cloud that forms in the winter polar stratosphere at altitudes from 15,000 to 25,000 m (49,000 to 82,000 ft). They are best observed during civil twilight, when the Sun is between 1° and 6° below the horizon, as well as in winter and in more northerly latitudes. One main type of PSC is composed of mostly supercooled droplets of water and nitric acid and is implicated in the formation of ozone holes.",
+      "hatnote": "Nacreous clouds belong to a family that forms impossibly high and cold.",
+      "onwardLinkText": "ozone holes",
+      "nextPage": "Ozone depletion"
+    },
+    {
+      "page": "Ozone depletion",
+      "url": "https://en.wikipedia.org/wiki/Ozone_depletion",
+      "revision": 1379959077,
+      "section": "Observations on ozone layer depletion",
+      "passage": "Reactions that take place on polar stratospheric clouds (PSCs) play an important role in enhancing ozone depletion. PSCs form more readily in the extreme cold of the Arctic and Antarctic stratosphere. This is why ozone holes first formed, and are deeper, over Antarctica. Early models failed to take PSCs into account and predicted a gradual global depletion, which is why the sudden Antarctic ozone hole was such a surprise to many scientists.",
+      "hatnote": "These clouds explain where the ozone hole opened.",
+      "onwardLinkText": null,
+      "nextPage": "Ozone depletion"
+    },
+    {
+      "page": "Ozone depletion",
+      "url": "https://en.wikipedia.org/wiki/Ozone_depletion",
+      "revision": 1379959077,
+      "section": "Antarctic ozone hole",
+      "passage": "Satellite measurements (TOMS onboard Nimbus 7) showing massive depletion of ozone around the south pole were becoming available at the same time. However, these were initially rejected as unreasonable by data quality control algorithms (they were filtered out as errors since the values were unexpectedly low); the ozone hole was detected only in satellite data when the raw data was reprocessed following evidence of ozone depletion in in situ observations. When the software was rerun without the flags, the ozone hole was seen as far back as 1976.",
+      "hatnote": "The surprise was so big that computers threw the evidence out.",
+      "onwardLinkText": null,
+      "nextPage": "Ozone depletion"
+    },
+    {
+      "page": "Ozone depletion",
+      "url": "https://en.wikipedia.org/wiki/Ozone_depletion",
+      "revision": 1379959077,
+      "section": "lead",
+      "passage": "In 2019, NASA reported that the ozone hole was the smallest ever since it was first discovered in 1982. The UN now projects that under the current regulations the ozone layer will completely regenerate by 2045. The Montreal Protocol is considered the most successful international environmental agreement to date.",
+      "hatnote": "Once the hole was proven, the world acted on it.",
+      "onwardLinkText": null,
+      "nextPage": "Ozone depletion"
+    }
+  ],
+  "payoff": "Munch may have painted the clouds that made the ozone hole so sudden computers discarded it; now a treaty has it on track to heal.",
+  "caveats": [
+    "The Polar stratospheric cloud article says the pure-ice (nacreous) type is itself 'not harmful' and ties ozone holes to the nitric-acid type; the Ozone depletion article lists nacreous water-ice clouds among the PSCs providing reaction surfaces. The hook says 'points to the clouds' (the PSC family) for this reason.",
+    "The nacreous-cloud explanation for The Scream is one theory among several."
+  ]
+}

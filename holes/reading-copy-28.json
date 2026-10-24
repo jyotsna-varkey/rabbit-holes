@@ -1,0 +1,70 @@
+{
+  "id": "reading-copy-28",
+  "claim": "The chess bishop began as a war elephant.",
+  "start": {
+    "title": "Chess",
+    "page": "Chess",
+    "description": "Traditional board game for two players",
+    "image": "snapshots/images/Chess.webp"
+  },
+  "end": {
+    "title": "Bishop (chess)",
+    "page": "Bishop (chess)",
+    "description": "Chess piece",
+    "image": "snapshots/images/Bishop-chess.webp"
+  },
+  "knots": [
+    {
+      "page": "Chess",
+      "url": "https://en.wikipedia.org/wiki/Chess",
+      "revision": 1381252359,
+      "section": "Origins",
+      "passage": "The early forms of chess in India were known as chaturaṅga (Sanskrit: चतुरङ्ग), literally \"four divisions\" [of the military] – infantry, cavalry, elephants, and chariotry – represented by pieces that would later evolve into the modern pawn, knight, bishop, and rook, respectively. Chaturanga was played on an 8×8 uncheckered board, called ashtāpada. Thence it spread eastward and westward along the Silk Road.",
+      "hatnote": "Chess began in India as a miniature army.",
+      "onwardLinkText": "elephants",
+      "nextPage": "War elephant"
+    },
+    {
+      "page": "War elephant",
+      "url": "https://en.wikipedia.org/wiki/War_elephant",
+      "revision": 1379520114,
+      "section": "North Africa",
+      "passage": "During the Second Punic War, Hannibal led an army of war elephants across the Alps. Many of them perished in the harsh conditions but the surviving elephants were successfully used in the battle of Trebia, where they panicked the Roman cavalry and Gallic allies. The Romans eventually developed effective anti-elephant tactics, leading to Hannibal's defeat at his final battle of Zama in 202 BC; his elephant charge, unlike the one at the battle of Tunis, was ineffective because the disciplined Roman maniples made way for them to pass.",
+      "hatnote": "Real war elephants were terrifying, until Rome worked out how to handle them.",
+      "onwardLinkText": null,
+      "nextPage": "War elephant"
+    },
+    {
+      "page": "War elephant",
+      "url": "https://en.wikipedia.org/wiki/War_elephant",
+      "revision": 1379520114,
+      "section": "Cultural legacy",
+      "passage": "Many traditional war games incorporate war elephants. The bishop in the game of chess is called an elephant in many languages, including Sanskrit, Malayalam, Russian, Bengali, Arabic, and Spanish. In Chinese chess the elephant serves as a defensive piece, moving two spaces diagonally on its own side.",
+      "hatnote": "The animal lives on, on the chessboard, and in its name.",
+      "onwardLinkText": "bishop",
+      "nextPage": "Bishop (chess)"
+    },
+    {
+      "page": "Bishop (chess)",
+      "url": "https://en.wikipedia.org/wiki/Bishop_(chess)",
+      "revision": 1380722703,
+      "section": "History",
+      "passage": "The bishop's predecessor in medieval chess, shatranj (originally chaturanga), was the alfil, meaning \"elephant\", which could leap two squares along any diagonal, and could jump over an intervening piece. As a consequence, each alfil was restricted to eight squares, and no alfil could attack another.",
+      "hatnote": "The medieval elephant moved very differently from today's bishop.",
+      "onwardLinkText": null,
+      "nextPage": "Bishop (chess)"
+    },
+    {
+      "page": "Bishop (chess)",
+      "url": "https://en.wikipedia.org/wiki/Bishop_(chess)",
+      "revision": 1380722703,
+      "section": "History",
+      "passage": "The piece's deep groove symbolizes a bishop's (or abbot's) mitre. Some have written that the groove originated from the original form of the piece, an elephant with the groove representing the elephant's tusks. The English apparently chose to call the piece a bishop because the projections at the top resembled a mitre. This groove was interpreted differently in different countries as the game moved to Europe. In France, for example, the groove was taken to be a jester's cap, which fit with the piece's French name fou (jester) even though its etymology comes from the original arabic alfil.",
+      "hatnote": "So how did an elephant end up wearing a mitre?",
+      "onwardLinkText": null,
+      "nextPage": "Bishop (chess)"
+    }
+  ],
+  "payoff": "The chess bishop was once a war elephant like Hannibal's; its groove became a bishop's mitre in England and a jester's cap in France.",
+  "caveats": []
+}

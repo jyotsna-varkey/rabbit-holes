@@ -8,10 +8,10 @@
     "image": "snapshots/images/Snail.webp"
   },
   "end": {
-    "title": "Achatinella apexfulva",
-    "page": "Achatinella apexfulva",
-    "description": "Land snail species in extinct in 2019",
-    "image": "snapshots/images/Achatinella-apexfulva.webp"
+    "title": "George (snail)",
+    "page": "George (snail)",
+    "description": "Last of the species Achatinella apexfulva",
+    "image": "snapshots/images/George-snail.webp"
   },
   "knots": [
     {
@@ -38,19 +38,9 @@
       "page": "Achatinella",
       "url": "https://en.wikipedia.org/wiki/Achatinella",
       "revision": 1380734682,
-      "section": "lead",
-      "passage": "Achatinella species are all endemic to the island of Oahu in Hawaii, and all remaining extant species are endangered. They were once abundant and were mentioned extensively in Hawaiian folklore and songs, and their shells were used in lei and other ornaments.",
-      "hatnote": "The victims were Oahu's jewel-like tree snails.",
-      "onwardLinkText": null,
-      "nextPage": "Achatinella"
-    },
-    {
-      "page": "Achatinella",
-      "url": "https://en.wikipedia.org/wiki/Achatinella",
-      "revision": 1380734682,
       "section": "Shell description",
       "passage": "Type species of the genus Achatinella is Achatinella apexfulva (Dixon).",
-      "hatnote": "Biologists anchor the whole genus on one species in particular.",
+      "hatnote": "Its victims, Oahu's tree snails, are a genus led by one species in particular.",
       "onwardLinkText": "Achatinella apexfulva",
       "nextPage": "Achatinella apexfulva"
     },
@@ -59,13 +49,33 @@
       "url": "https://en.wikipedia.org/wiki/Achatinella_apexfulva",
       "revision": 1380734692,
       "section": "Conservation status",
-      "passage": "In 1997, in response to rapidly dwindling populations, all known remaining specimens of A. apexfulva were collected and bred in captivity. Most offspring died of unknown causes, but one successful offspring was born. This individual was named George, after Lonesome George, a Pinta Island tortoise from the Galapagos Islands who was also the last of his kind. By April 2011, George was the only remaining member of the species. In January 2019, George died at age 14 – leaving the species reportedly extinct.",
-      "hatnote": "Its story ends with a single snail.",
+      "passage": "In 1997, in response to rapidly dwindling populations, all known remaining specimens of A. apexfulva were collected and bred in captivity. Most offspring died of unknown causes, but one successful offspring was born. This individual was named George, after Lonesome George, a Pinta Island tortoise from the Galapagos Islands who was also the last of his kind.",
+      "hatnote": "By the 1990s that species was nearly gone, so scientists stepped in.",
+      "onwardLinkText": "George",
+      "nextPage": "George (snail)"
+    },
+    {
+      "page": "George (snail)",
+      "url": "https://en.wikipedia.org/wiki/George_(snail)",
+      "revision": 1369934906,
+      "section": "Life",
+      "passage": "George has been described as \"a thumbnail-size whorl of dark brown and tan.\" Although typically referred to using the pronoun \"he\", George was actually a hermaphrodite. He became sexually mature in 2012, but could not reproduce without a mate. While George was alive, it became a tradition for snail researchers to stop at the spot where the last A. apexfulva were found and scan the trees with binoculars, in the hope of finding him a mate.",
+      "hatnote": "George never lost hope of company, and nor did the scientists.",
       "onwardLinkText": null,
-      "nextPage": "Achatinella apexfulva"
+      "nextPage": "George (snail)"
+    },
+    {
+      "page": "George (snail)",
+      "url": "https://en.wikipedia.org/wiki/George_(snail)",
+      "revision": 1369934906,
+      "section": "Death and legacy",
+      "passage": "On January 1, 2019, George died at age 14, leaving the species reportedly extinct. His body was discovered the following morning. As of 2019, George's remains are stored in a cupboard labelled \"DEATH CABINET\", alongside the bodies of other dead snail specimens. In 2017, researchers collected a two-millimetre sample of George's foot, which is now kept in storage at San Diego's Frozen Zoo, to be available for possible future cloning attempts.",
+      "hatnote": "On New Year's Day 2019, the search ended, but not quite the story.",
+      "onwardLinkText": null,
+      "nextPage": "George (snail)"
     }
   ],
-  "payoff": "A wolfsnail shipped in to eat a pest snail ate Oahu's tree snails instead, leaving one lonely snail named George as the last of his kind.",
+  "payoff": "A wolfsnail sent to eat a pest ate Oahu's tree snails; George, last of his species, died mateless, but his frozen foot sample awaits cloning.",
   "caveats": [
     "The apexfulva page says the wolfsnail was introduced to control agricultural pests; the Euglandina page names the giant African land snail as the target."
   ]

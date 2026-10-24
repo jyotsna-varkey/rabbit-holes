@@ -1,0 +1,80 @@
+{
+  "id": "snow-sekka-zusetsu",
+  "claim": "Edo Japan's snowflake fashion began with a feudal lord's Dutch microscope.",
+  "start": {
+    "title": "Snowflake",
+    "page": "Snowflake",
+    "description": "Ice crystals that fall as snow",
+    "image": "snapshots/images/Snowflake.webp"
+  },
+  "end": {
+    "title": "Sekka Zusetsu",
+    "page": "Sekka Zusetsu",
+    "description": "1832 Japanese book on snowflakes",
+    "image": "snapshots/images/Sekka-Zusetsu.webp"
+  },
+  "knots": [
+    {
+      "page": "Snowflake",
+      "url": "https://en.wikipedia.org/wiki/Snowflake",
+      "revision": 1372222901,
+      "section": "Classification",
+      "passage": "As Nakaya discovered, shape is also a function of whether the prevalent moisture is above or below saturation. Forms below the saturation line trend more towards solid and compact. Crystals formed in supersaturated air trend more towards lacy, delicate and ornate.",
+      "hatnote": "Why are some snowflakes lacy and others solid? A Japanese physicist worked it out.",
+      "onwardLinkText": "Nakaya",
+      "nextPage": "Ukichiro Nakaya"
+    },
+    {
+      "page": "Ukichiro Nakaya",
+      "url": "https://en.wikipedia.org/wiki/Ukichiro_Nakaya",
+      "revision": 1372003227,
+      "section": "Life and research",
+      "passage": "When he arrived at Hokkaido University, the physics department had a minimum of equipment and few research funds. But there was an unlimited supply of natural snow, so Nakaya began his research into snow crystals. From over 3,000 photomicrographs he established a general classification of natural snow crystals. In 1935, he opened the Low Temperature Science Laboratory, and on March 12, 1936, created the first artificial snow crystal.",
+      "hatnote": "He studied what his poor lab had in abundance.",
+      "onwardLinkText": null,
+      "nextPage": "Ukichiro Nakaya"
+    },
+    {
+      "page": "Ukichiro Nakaya",
+      "url": "https://en.wikipedia.org/wiki/Ukichiro_Nakaya",
+      "revision": 1372003227,
+      "section": "Life and research",
+      "passage": "Nakaya was born near the Katayamazu hot springs in Kaga, Ishikawa Prefecture, near the area depicted in Hokuetsu Seppu, an encyclopedic work published in 1837 that contains 183 sketches of natural snowflake crystals – the subject that became Nakaya's life work.",
+      "hatnote": "But Japan had been drawing snowflakes for a century.",
+      "onwardLinkText": "Hokuetsu Seppu",
+      "nextPage": "Hokuetsu Seppu"
+    },
+    {
+      "page": "Hokuetsu Seppu",
+      "url": "https://en.wikipedia.org/wiki/Hokuetsu_Seppu",
+      "revision": 1337903510,
+      "section": "lead",
+      "passage": "Some of the material in the book is of scientific interest. For example, it contains sketches of 86 types of natural snowflake crystals, copied from Sekka Zusetsu by Doi Toshitsura who made the sketches with the aid of a microscope during his 20 years as daimyō of the Koga Domain. An 1840 edition included an additional 97 sketches by Doi Toshitsura, copied from his expanded edition Zoku Sekka Zusetsu. Thereafter, the snow crystal became a popular design motif on kimono and on chawan, Japanese tea bowls.",
+      "hatnote": "Those drawings came from a surprising source.",
+      "onwardLinkText": "Doi Toshitsura",
+      "nextPage": "Doi Toshitsura"
+    },
+    {
+      "page": "Doi Toshitsura",
+      "url": "https://en.wikipedia.org/wiki/Doi_Toshitsura",
+      "revision": 1378324882,
+      "section": "Biography",
+      "passage": "One of Toshitsura’s greater cultural legacies are the diagrams he made of 86 types of snowflakes that he catalogued in a book he titled the Sekka zusetsu, published in 1832. He made his drawings by observing snowflakes with a Dutch microscope, and his drawings became popular among the artists of the time, who petitioned to see his work.",
+      "hatnote": "Doi Toshitsura was a feudal lord with a scientist's hobby.",
+      "onwardLinkText": "Sekka zusetsu",
+      "nextPage": "Sekka Zusetsu"
+    },
+    {
+      "page": "Sekka Zusetsu",
+      "url": "https://en.wikipedia.org/wiki/Sekka_Zusetsu",
+      "revision": 1368750218,
+      "section": "Overview",
+      "passage": "This book was written for him and his family (the Doi clan [de], 土井氏), but it had great influence on Japanese textile-patterns also. As soon as he wrote the book, snowflake patterns (雪華模様) became popular among ordinary people in Edo.",
+      "hatnote": "The book was a private one, until Edo saw it.",
+      "onwardLinkText": null,
+      "nextPage": "Sekka Zusetsu"
+    }
+  ],
+  "payoff": "Long before modern snow science, a daimyo's microscope sketches put snowflakes on kimono across Edo.",
+  "caveats": []
+}

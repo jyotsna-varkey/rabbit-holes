@@ -1,0 +1,70 @@
+{
+  "id": "horseshoe-losecoat-pigsty",
+  "claim": "A king's horseshoe in Rutland commemorates a battle named after a pigsty.",
+  "start": {
+    "title": "Horseshoe",
+    "page": "Horseshoe",
+    "description": "Device attached to a horse's hoof to protect it from wear",
+    "image": "snapshots/images/Horseshoe.webp"
+  },
+  "end": {
+    "title": "Battle of Losecoat Field",
+    "page": "Battle of Losecoat Field",
+    "description": "Battle on 12 March 1470, during the Wars of the Roses",
+    "image": "snapshots/images/Battle-of-Losecoat-Field.webp"
+  },
+  "knots": [
+    {
+      "page": "Horseshoe",
+      "url": "https://en.wikipedia.org/wiki/Horseshoe",
+      "revision": 1374471896,
+      "section": "Heraldry",
+      "passage": "The flag of Rutland, England's smallest historic county, consists of a golden horseshoe laid over a field scattered with acorns. This refers to an ancient tradition in which every noble visiting Oakham, Rutland's county town, presents a horseshoe to the Lord of the Manor, which is then nailed to the wall of Oakham Castle. Over the centuries, the Castle has amassed a vast collection of horseshoes, the oldest of which date from the 15th century.",
+      "hatnote": "One English county flies a horseshoe on its flag.",
+      "onwardLinkText": "Oakham Castle",
+      "nextPage": "Oakham Castle"
+    },
+    {
+      "page": "Oakham Castle",
+      "url": "https://en.wikipedia.org/wiki/Oakham_Castle",
+      "revision": 1364142404,
+      "section": "The horseshoes",
+      "passage": "There remains a unique tradition that peers of the realm should forfeit a horseshoe to the Lord of the Manor of Oakham on their first visit to the town. Two hundred and thirty horseshoes currently decorate the walls of Oakham Castle. It is thought that this tradition is linked to the de Ferrers' family name; Ferrier was the Norman French word for farrier and the horseshoe has been a symbol of the de Ferrers family since Henry de Ferrers arrived in England in 1066.",
+      "hatnote": "The castle walls are covered in them.",
+      "onwardLinkText": null,
+      "nextPage": "Oakham Castle"
+    },
+    {
+      "page": "Oakham Castle",
+      "url": "https://en.wikipedia.org/wiki/Oakham_Castle",
+      "revision": 1364142404,
+      "section": "The horseshoes",
+      "passage": "The oldest surviving horseshoe in the collection is one that was presented by Edward IV in 1470 after his victory at the Battle of Losecoat Field.",
+      "hatnote": "The oldest one marks a royal victory.",
+      "onwardLinkText": "Battle of Losecoat Field",
+      "nextPage": "Battle of Losecoat Field"
+    },
+    {
+      "page": "Battle of Losecoat Field",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Losecoat_Field",
+      "revision": 1370448088,
+      "section": "Name",
+      "passage": "According to popular etymology, the name of the battle is explained in this way; many of Welles' men were wearing jackets displaying Warwick's and Clarence's livery, and when the rout began, not wanting to be caught wearing such identification, many discarded their garments. The battle was thus called \"Lose-coat\". This story does not appear to have any historical basis, being first recorded in the 19th century. Contemporary accounts refer to the battle site as \"Hornfield\" (Horn was an adjacent parish), and do not use the name Losecoat or anything comparable.",
+      "hatnote": "In 1470 Edward IV routed rebels there, and the rout named the battle.",
+      "onwardLinkText": null,
+      "nextPage": "Battle of Losecoat Field"
+    },
+    {
+      "page": "Battle of Losecoat Field",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Losecoat_Field",
+      "revision": 1370448088,
+      "section": "Name",
+      "passage": "The name is probably derived from an Old English phrase hlose-cot meaning \"pigsty cottage\". Forms of Losecote also appear as field names in other parishes in Rutland. A field at the site of the battle seems to have acquired that name, which later generated the imaginary \"lose coat\" etymology which was linked to the battle.",
+      "hatnote": "The real origin is far humbler.",
+      "onwardLinkText": null,
+      "nextPage": "Battle of Losecoat Field"
+    }
+  ],
+  "payoff": "Rutland's oldest royal horseshoe marks the Battle of Losecoat Field, whose coat-shedding story is a myth: the name probably meant \"pigsty cottage\".",
+  "caveats": []
+}

@@ -1,0 +1,72 @@
+{
+  "id": "week-kodak-cotsworth",
+  "claim": "For decades Kodak's year had thirteen months, thanks to a railway accountant.",
+  "start": {
+    "title": "Week",
+    "page": "Week",
+    "description": "Time unit equal to seven days",
+    "image": "snapshots/images/Week.webp"
+  },
+  "end": {
+    "title": "Moses B. Cotsworth",
+    "page": "Moses B. Cotsworth",
+    "description": "British accountant and calendar reformer",
+    "image": "snapshots/images/Moses-B-Cotsworth.webp"
+  },
+  "knots": [
+    {
+      "page": "Week",
+      "url": "https://en.wikipedia.org/wiki/Week",
+      "revision": 1379590932,
+      "section": "Modern reforms",
+      "passage": "The International Fixed Calendar (also known as the \"Eastman plan\") kept a seven-day week while defining a year of 13 months with 28 days each (364 days). Every calendar date was always on the same weekday.",
+      "hatnote": "Months don't fit weeks. One plan fixed that with a thirteenth month.",
+      "onwardLinkText": "International Fixed Calendar",
+      "nextPage": "International Fixed Calendar"
+    },
+    {
+      "page": "International Fixed Calendar",
+      "url": "https://en.wikipedia.org/wiki/International_Fixed_Calendar",
+      "revision": 1380440570,
+      "section": "lead",
+      "passage": "The International Fixed Calendar (also known as the Cotsworth plan, the Cotsworth calendar, the Eastman plan or the Yearal) was a proposed reform of the Gregorian calendar designed by Moses B. Cotsworth, first presented in 1902. The International Fixed Calendar divides the year into 13 months of 28 days each. A type of perennial calendar, every date is fixed to the same weekday every year. Though it was never officially adopted at the country level, the entrepreneur George Eastman instituted its use at the Eastman Kodak Company in 1928, where it was used until 1989.",
+      "hatnote": "Countries never adopted it, but one famous company ran on it for sixty years.",
+      "onwardLinkText": "Moses B. Cotsworth",
+      "nextPage": "Moses B. Cotsworth"
+    },
+    {
+      "page": "Moses B. Cotsworth",
+      "url": "https://en.wikipedia.org/wiki/Moses_B._Cotsworth",
+      "revision": 1316714555,
+      "section": "Calendar reform",
+      "passage": "Cotsworth's interest in calendar reform began around 1894 when he was working at the North Eastern Railway (United Kingdom). He found that monthly accounting was greatly complicated by the fact that months did not divide evenly into weeks. Railway statistics could not be directly compared across different months as some contained four weekends and some five, while the number of working days varied even between months of the same length.",
+      "hatnote": "It began with a railway clerk's annoyance at untidy monthly accounts.",
+      "onwardLinkText": null,
+      "nextPage": "Moses B. Cotsworth"
+    },
+    {
+      "page": "Moses B. Cotsworth",
+      "url": "https://en.wikipedia.org/wiki/Moses_B._Cotsworth",
+      "revision": 1316714555,
+      "section": "Calendar reform",
+      "passage": "Cotsworth travelled to over 50 countries to promote his calendar. He also wrote many pamphlets and, in 1914, The \"Fixed\" Yearal. His publicity campaign was rewarded by an international conference on calendar reform at the League of Nations in October 1931. His calendar was one of the two main contenders. The other being the World Calendar championed by Elisabeth Achelis. The conference did not choose a new calendar but decided that further publicity was required which Cotsworth and Achelis undertook.",
+      "hatnote": "He spent decades selling it to the world, and came close.",
+      "onwardLinkText": null,
+      "nextPage": "Moses B. Cotsworth"
+    },
+    {
+      "page": "Moses B. Cotsworth",
+      "url": "https://en.wikipedia.org/wiki/Moses_B._Cotsworth",
+      "revision": 1316714555,
+      "section": "Calendar reform",
+      "passage": "Public interest in calendar reform waned after the 1931 conference and, although both reformers continued to campaign, due to the developing hostilities before and during World War II the idea was not taken up. Cotsworth retired from the campaign in 1938.",
+      "hatnote": "Then the world's attention turned elsewhere.",
+      "onwardLinkText": null,
+      "nextPage": "Moses B. Cotsworth"
+    }
+  ],
+  "payoff": "A railway clerk's untidy accounts nearly gave the world a 13-month year; the League of Nations declined, and only Kodak kept it.",
+  "caveats": [
+    "Kodak's end date differs: International Fixed Calendar page says 1989, Cotsworth page says 1982."
+  ]
+}

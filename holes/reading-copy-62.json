@@ -1,0 +1,72 @@
+{
+  "id": "reading-copy-62",
+  "claim": "Some Greenland sharks alive today may be older than the United States.",
+  "start": {
+    "title": "Shark",
+    "page": "Shark",
+    "description": "Predatory cartilaginous fishes",
+    "image": "snapshots/images/Shark.webp"
+  },
+  "end": {
+    "title": "Hákarl",
+    "page": "Hákarl",
+    "description": "National dish of Iceland consisting of fermented shark",
+    "image": "snapshots/images/H-karl.webp"
+  },
+  "knots": [
+    {
+      "page": "Shark",
+      "url": "https://en.wikipedia.org/wiki/Shark",
+      "revision": 1372165993,
+      "section": "Life history",
+      "passage": "Shark lifespans vary by species. Most live 20 to 30 years. The spiny dogfish has one of the longest lifespans at more than 100 years. Whale sharks (Rhincodon typus) may also live over 100 years. Earlier estimates suggested the Greenland shark (Somniosus microcephalus) could reach about 200 years, but a recent study found that a 5.02-metre-long (16.5 ft) specimen was 392 ± 120 years old (i.e., at least 272 years old), making it the longest-lived vertebrate known.",
+      "hatnote": "Most sharks live a few decades. One kind lives for centuries.",
+      "onwardLinkText": "Greenland shark",
+      "nextPage": "Greenland shark"
+    },
+    {
+      "page": "Greenland shark",
+      "url": "https://en.wikipedia.org/wiki/Greenland_shark",
+      "revision": 1379890535,
+      "section": "Life history",
+      "passage": "The Greenland shark has the longest known lifespan of all vertebrates. It is estimated that the species has a lifespan of at least 272 years, with the oldest individual estimated to be 392 ± 120 years of age. Estimates of age were made using radiocarbon dating of crystals within the lenses of their eyes. Greenland sharks are estimated to reach sexual maturity around 150 years of age when females measure around 4.19 ± 0.04 m and males measure around 2.84 ± 0.06 m.",
+      "hatnote": "How do you tell a shark's age? Look it in the eye.",
+      "onwardLinkText": null,
+      "nextPage": "Greenland shark"
+    },
+    {
+      "page": "Greenland shark",
+      "url": "https://en.wikipedia.org/wiki/Greenland_shark",
+      "revision": 1379890535,
+      "section": "lead",
+      "passage": "Greenland shark meat is made toxic to mammals by high levels of trimethylamine N-oxide, although a treated form of it is eaten in Iceland as the pungent delicacy kæstur hákarl. Because they live deep in remote parts of the northern oceans, Greenland sharks are not considered a threat to humans.",
+      "hatnote": "Its meat is poisonous. Iceland eats it anyway.",
+      "onwardLinkText": "kæstur hákarl",
+      "nextPage": "Hákarl"
+    },
+    {
+      "page": "Hákarl",
+      "url": "https://en.wikipedia.org/wiki/H%C3%A1karl",
+      "revision": 1351134190,
+      "section": "lead",
+      "passage": "Hákarl (short for kæstur hákarl [ˈkʰaistʏr ˈhauːˌkʰa(r)tl̥]), referred to as fermented shark in English, is a national dish of Iceland consisting of Greenland shark or other sleeper shark that has been cured with a particular fermentation process and hung to dry for four to five months. It has a strong ammonia-rich smell and fishy taste, making hákarl an acquired taste.",
+      "hatnote": "The trick is rot, then patience.",
+      "onwardLinkText": null,
+      "nextPage": "Hákarl"
+    },
+    {
+      "page": "Hákarl",
+      "url": "https://en.wikipedia.org/wiki/H%C3%A1karl",
+      "revision": 1351134190,
+      "section": "lead",
+      "passage": "Fermented shark is readily available in Icelandic stores and may be eaten year-round, but is most often served as part of a Þorramatur, a selection of traditional Icelandic food served at the midwinter festival þorrablót. The consumption, hunting, and bycatch of Greenlandic sharks has been criticized for its unsustainability, as the species takes 150 years to reach sexual maturity, with some individuals living up to 400 years.",
+      "hatnote": "A national dish, made from one of the slowest-living animals on Earth.",
+      "onwardLinkText": null,
+      "nextPage": "Hákarl"
+    }
+  ],
+  "payoff": "A shark that may outlive nations and matures at 150 ends up as Iceland's ammonia-scented national dish, a habit critics call unsustainable.",
+  "caveats": [
+    "Greenland shark ages are estimates with wide error bars (392 ± 120 years for the oldest)."
+  ]
+}

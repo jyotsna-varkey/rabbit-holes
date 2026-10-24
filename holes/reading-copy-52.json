@@ -1,0 +1,70 @@
+{
+  "id": "reading-copy-52",
+  "claim": "Australia's cane toads couldn't jump high enough to eat the beetles.",
+  "start": {
+    "title": "Ant",
+    "page": "Ant",
+    "description": "Family of insects",
+    "image": "snapshots/images/Ant.webp"
+  },
+  "end": {
+    "title": "Cane toad",
+    "page": "Cane toad",
+    "description": "World's largest true toad",
+    "image": "snapshots/images/Cane-toad.webp"
+  },
+  "knots": [
+    {
+      "page": "Ant",
+      "url": "https://en.wikipedia.org/wiki/Ant",
+      "revision": 1380954385,
+      "section": "Relationship with humans",
+      "passage": "Ants perform many ecological roles that are beneficial to humans, including the suppression of pest populations and aeration of the soil. It has been estimated that an average of about 1.5 tons of subsoil are moved to the surface (bioturbation) by ants per year per hectare. The use of weaver ants in citrus cultivation in southern China is considered one of the oldest known applications of biological control.",
+      "hatnote": "Ants are some of the hardest-working pest controllers on Earth.",
+      "onwardLinkText": "biological control",
+      "nextPage": "Biological pest control"
+    },
+    {
+      "page": "Biological pest control",
+      "url": "https://en.wikipedia.org/wiki/Biological_pest_control",
+      "revision": 1378698309,
+      "section": "Ancient China",
+      "passage": "The first report of the use of an insect species to control an insect pest comes from \"Nanfang Caomu Zhuang\" (南方草木狀 Plants of the Southern Regions) (c. 304 AD), attributed to Western Jin dynasty botanist Ji Han (嵇含, 263–307), in which it is mentioned that \"Jiaozhi people sell ants and their nests attached to twigs looking like thin cotton envelopes, the reddish-yellow ant being larger than normal. Without such ants, southern citrus fruits will be severely insect-damaged\". The ants used are known as huang gan (\"yellow citrus\") ants (Oecophylla smaragdina).",
+      "hatnote": "Chinese farmers were buying ants in their nests 1,700 years ago.",
+      "onwardLinkText": null,
+      "nextPage": "Biological pest control"
+    },
+    {
+      "page": "Biological pest control",
+      "url": "https://en.wikipedia.org/wiki/Biological_pest_control",
+      "revision": 1378698309,
+      "section": "Side effects",
+      "passage": "Vertebrate animals tend to be generalist feeders, and seldom make good biological control agents; many of the classic cases of \"biocontrol gone awry\" involve vertebrates. For example, the cane toad (Rhinella marina) was intentionally introduced to Australia to control the greyback cane beetle (Dermolepida albohirtum), and other pests of sugar cane. 102 toads were obtained from Hawaii and bred in captivity to increase their numbers until they were released into the sugar cane fields of the tropic north in 1935. It was later discovered that the toads could not jump very high and so were unable to eat the cane beetles which stayed on the upper stalks of the cane plants.",
+      "hatnote": "Insects make good hired guns. Bigger animals tend to go rogue.",
+      "onwardLinkText": "cane toad",
+      "nextPage": "Cane toad"
+    },
+    {
+      "page": "Cane toad",
+      "url": "https://en.wikipedia.org/wiki/Cane_toad",
+      "revision": 1380649385,
+      "section": "Australia",
+      "passage": "The study was completed in 1936 and the ban lifted, and large-scale releases were undertaken; by March 1937, 62,000 toadlets had been released into the wild. The toads became firmly established in Queensland, increasing exponentially in number and extending their range into the Northern Territory and New South Wales. In 2010, one was found on the far western coast in Broome, Western Australia.",
+      "hatnote": "Meanwhile, the toads were released by the thousand, and kept going.",
+      "onwardLinkText": null,
+      "nextPage": "Cane toad"
+    },
+    {
+      "page": "Cane toad",
+      "url": "https://en.wikipedia.org/wiki/Cane_toad",
+      "revision": 1380649385,
+      "section": "Defences",
+      "passage": "Since 2011, experimenters in the Kimberley region of Western Australia have used poisonous sausages containing toad meat in an attempt to protect native animals from cane toads' deadly impact. The Western Australian Department of Environment and Conservation, along with the University of Sydney, developed these sausage-shaped baits as a tool in order to train native animals not to eat the toads. By blending bits of toad with a nausea-inducing chemical, the baits train the animals to stay away from the amphibians.",
+      "hatnote": "With toads now across the north, the latest fix involves sausages.",
+      "onwardLinkText": null,
+      "nextPage": "Cane toad"
+    }
+  ],
+  "payoff": "China's citrus ants worked for centuries; Australia's toads couldn't reach the beetles, so now scientists feed native animals toad sausages instead.",
+  "caveats": []
+}

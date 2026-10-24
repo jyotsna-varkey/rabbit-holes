@@ -1,0 +1,70 @@
+{
+  "id": "tomato-tobacco-mosaic-virus",
+  "claim": "A tomato virus spread by smokers' hands was rebuilt from ping-pong balls.",
+  "start": {
+    "title": "Tomato",
+    "page": "Tomato",
+    "description": "Edible berry",
+    "image": "snapshots/images/Tomato.webp"
+  },
+  "end": {
+    "title": "Rosalind Franklin",
+    "page": "Rosalind Franklin",
+    "description": "British X-ray crystallographer (1920–1958)",
+    "image": "snapshots/images/Rosalind-Franklin.webp"
+  },
+  "knots": [
+    {
+      "page": "Tomato",
+      "url": "https://en.wikipedia.org/wiki/Tomato",
+      "revision": 1380709062,
+      "section": "Diseases",
+      "passage": "Tomato cultivars vary widely in their resistance to disease. Modern hybrids focus on improving disease resistance over the heirloom plants. A common tomato disease is tobacco mosaic virus. Handling cigarettes and other infected tobacco products can transmit the virus to tomato plants.",
+      "hatnote": "Tomatoes have plenty of enemies. One of them travels on cigarettes.",
+      "onwardLinkText": "tobacco mosaic virus",
+      "nextPage": "Tobacco mosaic virus"
+    },
+    {
+      "page": "Tobacco mosaic virus",
+      "url": "https://en.wikipedia.org/wiki/Tobacco_mosaic_virus",
+      "revision": 1378569235,
+      "section": "lead",
+      "passage": "TMV was the first virus to be discovered. Although it was known from the late 19th century that a non-bacterial infectious disease was damaging tobacco crops, it was not until 1930 that the infectious agent was determined to be a virus. The virus was crystallised by Wendell Meredith Stanley.",
+      "hatnote": "This garden pest has a surprising place in the history of science.",
+      "onwardLinkText": "Wendell Meredith Stanley",
+      "nextPage": "Wendell Meredith Stanley"
+    },
+    {
+      "page": "Wendell Meredith Stanley",
+      "url": "https://en.wikipedia.org/wiki/Wendell_Meredith_Stanley",
+      "revision": 1372007334,
+      "section": "Research",
+      "passage": "In 1935, Stanley managed to produce crystals from tobacco mosaic virus particles. The discovery was widely publicized, appearing for example on the front page of the New York Times of June 28, 1935, as people at the time were surprised that living-like creatures such as viruses could form crystals.",
+      "hatnote": "A chemist turned the virus into something nobody thought a living thing could be.",
+      "onwardLinkText": "tobacco mosaic virus",
+      "nextPage": "Tobacco mosaic virus"
+    },
+    {
+      "page": "Tobacco mosaic virus",
+      "url": "https://en.wikipedia.org/wiki/Tobacco_mosaic_virus",
+      "revision": 1378569235,
+      "section": "History",
+      "passage": "The crystallographer Rosalind Franklin worked for Stanley for about a month at Berkeley, and later designed and built a model of TMV for the 1958 World's Fair at Brussels. In 1958, she speculated that the virus was hollow, not solid, and hypothesized that the RNA of TMV is single-stranded. This conjecture was proven to be correct after her death and is now known to be the + strand.",
+      "hatnote": "Later, one famous scientist spent her last years on this same virus.",
+      "onwardLinkText": "Rosalind Franklin",
+      "nextPage": "Rosalind Franklin"
+    },
+    {
+      "page": "Rosalind Franklin",
+      "url": "https://en.wikipedia.org/wiki/Rosalind_Franklin",
+      "revision": 1379023603,
+      "section": "RNA research",
+      "passage": "Expo 58, the first major international fair after World War II, was to be held in Brussels in 1958. Franklin was invited to make a five-foot high model of TMV, which she started in 1957. Her materials included table tennis balls and plastic bicycle handlebar grips. The Brussels world's fair, with an exhibit of her virus model at the International Science Pavilion, opened on 17 April, the day after she died.",
+      "hatnote": "Her final project was a giant model for a world's fair.",
+      "onwardLinkText": null,
+      "nextPage": "Rosalind Franklin"
+    }
+  ],
+  "payoff": "The blight you can carry to tomatoes on your fingers was the first virus ever found, and Rosalind Franklin's last, ping-pong-ball masterpiece.",
+  "caveats": []
+}

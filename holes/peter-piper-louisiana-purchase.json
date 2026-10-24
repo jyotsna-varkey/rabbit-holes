@@ -1,0 +1,72 @@
+{
+  "id": "peter-piper-louisiana-purchase",
+  "claim": "Peter Piper's pickled peppers lead, via a spice smuggler's widow, to the Louisiana Purchase.",
+  "start": {
+    "title": "Peter Piper",
+    "page": "Peter Piper",
+    "description": "Nursery rhyme",
+    "image": "snapshots/images/Peter-Piper.webp"
+  },
+  "end": {
+    "title": "Pierre Samuel du Pont de Nemours",
+    "page": "Pierre Samuel du Pont de Nemours",
+    "description": "French-American writer, economist, and government official (1739–1817)",
+    "image": "snapshots/images/Pierre-Samuel-du-Pont-de-Nemours.webp"
+  },
+  "knots": [
+    {
+      "page": "Peter Piper",
+      "url": "https://en.wikipedia.org/wiki/Peter_Piper",
+      "revision": 1364045309,
+      "section": "Origins",
+      "passage": "The earliest published version of this tongue-twister was in Peter Piper's Practical Principles of Plain and Perfect Pronunciation, by John Harris (1756–1846), issued in London in 1813. The book includes a one-name tongue-twister for each letter of the alphabet in the same style. However, the rhyme was apparently known at least a generation earlier. Some authors have identified the subject of the rhyme as Pierre Poivre, an eighteenth‑century French horticulturalist and government administrator of Mauritius, who once investigated the Seychelles' potential for spice cultivation.",
+      "hatnote": "Who was Peter Piper? 'Poivre' is French for pepper.",
+      "onwardLinkText": "Pierre Poivre",
+      "nextPage": "Pierre Poivre"
+    },
+    {
+      "page": "Pierre Poivre",
+      "url": "https://en.wikipedia.org/wiki/Pierre_Poivre",
+      "revision": 1372478052,
+      "section": "Second trip to Southeast Asia",
+      "passage": "In 1750 he raided various Dutch territories including Cebu, Mindanao and Borneo, collecting various plants. With difficulty he returned to Pondicherry aboard the Cheval Marin in April 1753. Twelve out of nineteen of his nutmeg plants survived and he finally reached Mauritius in December with five surviving plants.",
+      "hatnote": "Poivre really did go after spices, raiding Dutch islands for plants.",
+      "onwardLinkText": null,
+      "nextPage": "Pierre Poivre"
+    },
+    {
+      "page": "Pierre Poivre",
+      "url": "https://en.wikipedia.org/wiki/Pierre_Poivre",
+      "revision": 1372478052,
+      "section": "Retirement, death and after",
+      "passage": "Nine years after the death of Poivre, Francoise married Pierre Samuel du Pont de Nemours, who wrote a biography of Poivre, and was the father of the American industrialist who would establish the DuPont chemical company.",
+      "hatnote": "After Poivre's death, his young widow's story took a turn.",
+      "onwardLinkText": "Pierre Samuel du Pont de Nemours",
+      "nextPage": "Pierre Samuel du Pont de Nemours"
+    },
+    {
+      "page": "Pierre Samuel du Pont de Nemours",
+      "url": "https://en.wikipedia.org/wiki/Pierre_Samuel_du_Pont_de_Nemours",
+      "revision": 1375060148,
+      "section": "French Revolution",
+      "passage": "They hoped (but failed) to found a model community of French exiles. In the United States, du Pont developed strong ties with industry and government, in particular with Thomas Jefferson, with whom he had been acquainted since at least 1787 and who had referred to him as \"one of the very great men of the age\" and \"the ablest man in France.\"",
+      "hatnote": "The du Ponts moved to America as French exiles, and made a powerful friend.",
+      "onwardLinkText": null,
+      "nextPage": "Pierre Samuel du Pont de Nemours"
+    },
+    {
+      "page": "Pierre Samuel du Pont de Nemours",
+      "url": "https://en.wikipedia.org/wiki/Pierre_Samuel_du_Pont_de_Nemours",
+      "revision": 1375060148,
+      "section": "French Revolution",
+      "passage": "Du Pont engaged in informal diplomacy between the United States and France during the reign of Napoleon. He was the originator of an idea that eventually became the Louisiana Purchase, as a way to avoid French troops landing in New Orleans, and possibly sparking armed conflict with U.S. forces.",
+      "hatnote": "Du Pont's friendship with Jefferson soon turned into diplomacy.",
+      "onwardLinkText": null,
+      "nextPage": "Pierre Samuel du Pont de Nemours"
+    }
+  ],
+  "payoff": "The pepper man behind the rhyme raided for nutmeg; his widow's second husband, Jefferson's friend du Pont, dreamed up the Louisiana Purchase.",
+  "caveats": [
+    "The Peter Piper–Poivre link is speculative ('some authors')."
+  ]
+}

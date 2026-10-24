@@ -8,10 +8,10 @@
     "image": "snapshots/images/Snow.webp"
   },
   "end": {
-    "title": "Wilson Bentley",
-    "page": "Wilson Bentley",
-    "description": "American photographer known for photographing snowflakes",
-    "image": "snapshots/images/Wilson-Bentley.webp"
+    "title": "Kenneth G. Libbrecht",
+    "page": "Kenneth G. Libbrecht",
+    "description": "American physicist",
+    "image": "snapshots/images/Kenneth-G-Libbrecht.webp"
   },
   "knots": [
     {
@@ -19,7 +19,7 @@
       "url": "https://en.wikipedia.org/wiki/Snow",
       "revision": 1372800586,
       "section": "Cloud physics",
-      "passage": "These large crystals are an efficient source of precipitation, since they fall through the atmosphere due to their mass, and may collide and stick together in clusters, or aggregates. These aggregates are snowflakes, and are usually the type of ice particle that falls to the ground. Although the ice is clear, scattering of light by the crystal facets and hollows/imperfections mean that the crystals often appear white in color due to diffuse reflection of the whole spectrum of light by the small ice particles.",
+      "passage": "These large crystals are an efficient source of precipitation, since they fall through the atmosphere due to their mass, and may collide and stick together in clusters, or aggregates. These aggregates are snowflakes, and are usually the type of ice particle that falls to the ground.",
       "hatnote": "Inside a cloud, ice crystals grow, collide and stick together.",
       "onwardLinkText": "snowflakes",
       "nextPage": "Snowflake"
@@ -51,10 +51,30 @@
       "section": "lead",
       "passage": "Kenneth G. Libbrecht notes that the techniques used by Bentley to photograph snowflakes are essentially the same as those used today, and that while the quality of his photographs reflects the technical limitations of the equipment of the era, \"he did it so well that hardly anybody bothered to photograph snowflakes for almost 100 years\". The broadest collection of Bentley's photographs is held by the Jericho Historical Society in his home town, Jericho, Vermont.",
       "hatnote": "His homemade rig set the standard for a century.",
+      "onwardLinkText": "Kenneth G. Libbrecht",
+      "nextPage": "Kenneth G. Libbrecht"
+    },
+    {
+      "page": "Kenneth G. Libbrecht",
+      "url": "https://en.wikipedia.org/wiki/Kenneth_G._Libbrecht",
+      "revision": 1372019212,
+      "section": "Biography",
+      "passage": "Libbrecht won the 2004 National Outdoor Book Award (Nature & Environment category) for The Snowflake. Libbrecht was a scientific consultant on snowflakes for the 2013 Film Frozen.",
+      "hatnote": "The physicist who praised Bentley picked up where he left off.",
       "onwardLinkText": null,
-      "nextPage": "Wilson Bentley"
+      "nextPage": "Kenneth G. Libbrecht"
+    },
+    {
+      "page": "Kenneth G. Libbrecht",
+      "url": "https://en.wikipedia.org/wiki/Kenneth_G._Libbrecht",
+      "revision": 1372019212,
+      "section": "Biography",
+      "passage": "Four of Libbrecht's snowflake pictures were selected by the United States Postal Service as designs for stamps for the 2006 winter holiday season, with a total printing of approximately 3 billion stamps.",
+      "hatnote": "And his snowflakes travelled further than Bentley's ever did.",
+      "onwardLinkText": null,
+      "nextPage": "Kenneth G. Libbrecht"
     }
   ],
-  "payoff": "Bentley's microscope camera did the job so well that, for almost a century, hardly anyone bothered to photograph snowflakes again.",
+  "payoff": "A farm boy's microscope camera set the snowflake standard for a century; his modern heir advised Frozen and put snowflakes on 3 billion stamps.",
   "caveats": []
 }

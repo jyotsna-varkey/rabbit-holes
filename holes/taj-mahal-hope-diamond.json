@@ -8,10 +8,10 @@
     "image": "snapshots/images/Taj-Mahal.webp"
   },
   "end": {
-    "title": "Hope Diamond",
-    "page": "Hope Diamond",
-    "description": "Historic 45.52-carat diamond of deep-blue color",
-    "image": "snapshots/images/Hope-Diamond.webp"
+    "title": "Evalyn Walsh McLean",
+    "page": "Evalyn Walsh McLean",
+    "description": "American heiress and socialite (1886–1947)",
+    "image": "snapshots/images/Evalyn-Walsh-McLean.webp"
   },
   "knots": [
     {
@@ -40,7 +40,7 @@
       "revision": 1373737790,
       "section": "Legacy",
       "passage": "The In Search of... episode \"The Diamond Curse\" repeats a persistent myth that Tavernier was torn apart by wild dogs because of the curse of a blue diamond (subsequently called the Hope Diamond) he had allegedly acquired through deception and murder.",
-      "hatnote": "Then his own story was rewritten.",
+      "hatnote": "Then his own story was rewritten, with a curse.",
       "onwardLinkText": "Hope Diamond",
       "nextPage": "Hope Diamond"
     },
@@ -49,18 +49,8 @@
       "url": "https://en.wikipedia.org/wiki/Hope_Diamond",
       "revision": 1373897818,
       "section": "Superstitions, publicity, marketing",
-      "passage": "In keeping with these scripts, according to the legend, Tavernier did not buy the Hope diamond but stole it from a Hindu temple where it had been set as one of two matching eyes of an idol, and the temple priests then laid a curse on whoever might possess the missing stone. Largely because the other blue diamond \"eye\" never surfaced, historians dismissed the fantastical story.",
-      "hatnote": "The curse needed a crime, so the legend gave him one.",
-      "onwardLinkText": null,
-      "nextPage": "Hope Diamond"
-    },
-    {
-      "page": "Hope Diamond",
-      "url": "https://en.wikipedia.org/wiki/Hope_Diamond",
-      "revision": 1373897818,
-      "section": "Superstitions, publicity, marketing",
       "passage": "The stories generally do not bear up to more pointed examination; for example, the legend that Tavernier's body was \"torn apart by wolves\" is inconsistent with historical evidence which shows that he lived to 84 and died of natural causes.",
-      "hatnote": "And a grisly death to match.",
+      "hatnote": "The legend gave him a grisly death. The records disagree.",
       "onwardLinkText": null,
       "nextPage": "Hope Diamond"
     },
@@ -68,15 +58,23 @@
       "page": "Hope Diamond",
       "url": "https://en.wikipedia.org/wiki/Hope_Diamond",
       "revision": 1373897818,
-      "section": "Superstitions, publicity, marketing",
-      "passage": "There was speculation that jeweler Pierre Cartier further embroidered the lurid tales to intrigue Evalyn Walsh McLean into buying the Hope Diamond in 1911.",
-      "hatnote": "So who benefits from a cursed diamond?",
+      "section": "United States (1902–present)",
+      "passage": "Pierre Cartier tried to sell the Hope Diamond to Washington, D.C., socialite Evalyn Walsh McLean and her husband in 1910. Cartier was a consummate salesman who used an understated presentation to entice Mrs. McLean. He described the gem's illustrious history to her while keeping it concealed underneath special wrapping paper. The suspense worked: McLean became impatient to the point where she suddenly requested to see the stone. She recalled later that Cartier \"held before our eyes the Hope Diamond.\"",
+      "hatnote": "A 'cursed' stone still needed a buyer, and a master salesman found one.",
+      "onwardLinkText": "Evalyn Walsh McLean",
+      "nextPage": "Evalyn Walsh McLean"
+    },
+    {
+      "page": "Evalyn Walsh McLean",
+      "url": "https://en.wikipedia.org/wiki/Evalyn_Walsh_McLean",
+      "revision": 1380620701,
+      "section": "The Hope Diamond",
+      "passage": "On January 28, 1911, in a deal made in the offices of The Washington Post, McLean's husband purchased the Hope Diamond for US$180,000 (equivalent to $6,220,000 in 2025) from Pierre Cartier of Cartier Jewelers in New York. The Hope Diamond was traditionally associated with a curse, but no tragic events befell the couple until eight years later. Due to the rumors of a curse, her friends and mother-in-law urged her to sell it back, but Cartier refused to buy it.",
+      "hatnote": "The curse came with the diamond, and there was no returning it.",
       "onwardLinkText": null,
-      "nextPage": "Hope Diamond"
+      "nextPage": "Evalyn Walsh McLean"
     }
   ],
-  "payoff": "Tavernier gave the world an imaginary Black Taj; a diamond-curse legend later gave him an imaginary death.",
-  "caveats": [
-    "Cartier's role in embroidering the curse is described as speculation on the Hope Diamond page."
-  ]
+  "payoff": "Tavernier invented a Black Taj; legend invented his death by wolves; and Cartier sold the 'cursed' diamond but refused to buy it back.",
+  "caveats": []
 }

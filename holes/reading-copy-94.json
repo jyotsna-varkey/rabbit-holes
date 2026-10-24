@@ -1,0 +1,70 @@
+{
+  "id": "reading-copy-94",
+  "claim": "A tax fight sent the tomato all the way to the US Supreme Court.",
+  "start": {
+    "title": "Tomato",
+    "page": "Tomato",
+    "description": "Edible berry",
+    "image": "snapshots/images/Tomato.webp"
+  },
+  "end": {
+    "title": "List of New Jersey state symbols",
+    "page": "List of New Jersey state symbols",
+    "description": "List of official symbols of the State of New Jersey",
+    "image": "snapshots/images/List-of-New-Jersey-state-symbols.webp"
+  },
+  "knots": [
+    {
+      "page": "Tomato",
+      "url": "https://en.wikipedia.org/wiki/Tomato",
+      "revision": 1380709062,
+      "section": "Fruit or vegetable",
+      "passage": "In 1887, U.S. tariff laws that imposed a duty on vegetables, but not on fruit, caused the tomato's status to become a matter of legal importance. In Nix v. Hedden, the U.S. Supreme Court settled the controversy on 10 May 1893, by declaring that for the purposes of the Tariff of 1883 only, the tomato is a vegetable, based on the popular definition that classifies vegetables by use—they are generally served with dinner and not dessert.",
+      "hatnote": "Botanically, a tomato is a fruit. In 1880s America, that difference cost money.",
+      "onwardLinkText": "Nix v. Hedden",
+      "nextPage": "Nix v. Hedden"
+    },
+    {
+      "page": "Nix v. Hedden",
+      "url": "https://en.wikipedia.org/wiki/Nix_v._Hedden",
+      "revision": 1375296060,
+      "section": "Background",
+      "passage": "On March 3, 1883, President Chester A. Arthur signed the Tariff Act of 1883, requiring a tax to be paid on imported vegetables, but not fruit. The John Nix & Co. company filed a suit against Edward L. Hedden, Collector of the Port of New York, to recover back duties paid under protest. They argued against the tariff by pointing out that, botanically, a tomato is a fruit due to its seed-bearing structure growing from the flowering part of a plant.",
+      "hatnote": "A big New York produce firm paid the duty under protest, then sued.",
+      "onwardLinkText": null,
+      "nextPage": "Nix v. Hedden"
+    },
+    {
+      "page": "Nix v. Hedden",
+      "url": "https://en.wikipedia.org/wiki/Nix_v._Hedden",
+      "revision": 1375296060,
+      "section": "Background",
+      "passage": "Both the plaintiffs' counsel and the defendant's counsel made use of the dictionaries. The plaintiffs' counsel read in evidence from the same dictionaries the definitions of the word tomato, while the defendant's counsel then read in evidence from Webster's Dictionary the definitions of the words pea, eggplant, cucumber, squash, and pepper. Countering this, the plaintiff then read in evidence from Webster's and Worcester's dictionaries the definitions of potato, turnip, parsnip, cauliflower, cabbage, carrot and bean.",
+      "hatnote": "In court, both sides came armed with dictionaries.",
+      "onwardLinkText": null,
+      "nextPage": "Nix v. Hedden"
+    },
+    {
+      "page": "Nix v. Hedden",
+      "url": "https://en.wikipedia.org/wiki/Nix_v._Hedden",
+      "revision": 1375296060,
+      "section": "Legacy",
+      "passage": "In 2005, supporters in the New Jersey Legislature cited Nix as a basis for a bill designating the tomato as the official state vegetable.",
+      "hatnote": "The case never quite went away.",
+      "onwardLinkText": "state vegetable",
+      "nextPage": "List of New Jersey state symbols"
+    },
+    {
+      "page": "List of New Jersey state symbols",
+      "url": "https://en.wikipedia.org/wiki/List_of_New_Jersey_state_symbols",
+      "revision": 1302426920,
+      "section": "History",
+      "passage": "In what The New York Times described as a \"food fight\", Assemblymember Clare Farragher argued in 2003 that the tomato has a strong historical association with the Garden State and that \"the Jersey tomato does have a unique taste\" that derives from the characteristics of the soil on the Atlantic coast. Legislation ultimately passed in 2003 establishing the blueberry as New Jersey's official state fruit.",
+      "hatnote": "Two years earlier, New Jersey had held a 'food fight' over the tomato as fruit.",
+      "onwardLinkText": null,
+      "nextPage": "List of New Jersey state symbols"
+    }
+  ],
+  "payoff": "Taxed as a vegetable since 1893 because it's served at dinner, the tomato later lost New Jersey's state-fruit title to the blueberry.",
+  "caveats": []
+}

@@ -8,10 +8,10 @@
     "image": "snapshots/images/WD-40.webp"
   },
   "end": {
-    "title": "Balloon tank",
-    "page": "Balloon tank",
-    "description": "Lightweight tank that needs to be pressurized to keep its shape",
-    "image": "snapshots/images/Balloon-tank.webp"
+    "title": "Centaur (rocket stage)",
+    "page": "Centaur (rocket stage)",
+    "description": "Family of rocket stages which can be used as a space tug",
+    "image": "snapshots/images/Centaur-rocket-stage.webp"
   },
   "knots": [
     {
@@ -49,7 +49,7 @@
       "url": "https://en.wikipedia.org/wiki/Balloon_tank",
       "revision": 1349532639,
       "section": "Design",
-      "passage": "Balloon tanks get their name from the cylindrical party balloons that inspired Karel Bossart, who designed both the Atlas and Centaur rockets for the U.S. Air Force and NASA. Constructed of very thin 301 extra-full-hard stainless steel 0.014–0.037 inch (0.3556–0.9398 mm) thick, prior to integration into the Atlas or Centaur rocket body the tanks are inflated with nitrogen to give them their shape and strength. As such, balloon tanks must always remain pressurized, as any appreciable drop in pressurization will result in failure.",
+      "passage": "Balloon tanks get their name from the cylindrical party balloons that inspired Karel Bossart, who designed both the Atlas and Centaur rockets for the U.S. Air Force and NASA. Constructed of very thin 301 extra-full-hard stainless steel 0.014–0.037 inch (0.3556–0.9398 mm) thick, prior to integration into the Atlas or Centaur rocket body the tanks are inflated with nitrogen to give them their shape and strength.",
       "hatnote": "The idea came from a children's party.",
       "onwardLinkText": null,
       "nextPage": "Balloon tank"
@@ -59,12 +59,22 @@
       "url": "https://en.wikipedia.org/wiki/Balloon_tank",
       "revision": 1349532639,
       "section": "History",
-      "passage": "In May 1963 at Vandenberg Air Force Base an Atlas–Agena vehicle under static testing suffered a pressurization failure, leading to the total collapse of the vehicle that was scheduled to carry a KH-7 spy satellite. The Agena upper stage was repaired and used for later flight.",
-      "hatnote": "And like a balloon, it could simply go flat.",
+      "passage": "After its initial development in the Atlas rocket, Bossart used the same technology with the high-energy Centaur upper stage. The Centaur rocket, fueled with liquid hydrogen and powered by an RL10 engine, was originally planned to be used with the Saturn V rocket for high-energy missions to the Solar System, but was later adapted for use as part of the Atlas and Titan rockets.",
+      "hatnote": "Bossart reused his balloon trick on a new upper stage.",
+      "onwardLinkText": "Centaur",
+      "nextPage": "Centaur (rocket stage)"
+    },
+    {
+      "page": "Centaur (rocket stage)",
+      "url": "https://en.wikipedia.org/wiki/Centaur_(rocket_stage)",
+      "revision": 1379827336,
+      "section": "Centaur D-1T (Titan III)",
+      "passage": "The next Titan-Centaurs launched Helios 1, Viking 1, Viking 2, Helios 2, Voyager 1, and Voyager 2. The Titan booster used to launch Voyager 1 had a hardware problem that caused a premature shutdown, which the Centaur stage detected and successfully compensated for. Centaur ended its burn with less than 4 seconds of fuel remaining.",
+      "hatnote": "That thin-skinned stage went on to launch famous space probes.",
       "onwardLinkText": null,
-      "nextPage": "Balloon tank"
+      "nextPage": "Centaur (rocket stage)"
     }
   ],
-  "payoff": "WD-40 kept rust off a missile built like a party balloon: very thin steel that collapsed if it lost pressure.",
+  "payoff": "WD-40 kept rust off a missile built like a party balloon, and the same balloon-tank idea later rescued Voyager 1's launch.",
   "caveats": []
 }

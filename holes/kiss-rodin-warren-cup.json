@@ -1,0 +1,80 @@
+{
+  "id": "kiss-rodin-warren-cup",
+  "claim": "The man who ordered Rodin's The Kiss owned a cup America refused entry.",
+  "start": {
+    "title": "Kiss",
+    "page": "Kiss",
+    "description": "Touch with the lips, usually to express love, affection or greeting",
+    "image": "snapshots/images/Kiss.webp"
+  },
+  "end": {
+    "title": "Warren Cup",
+    "page": "Warren Cup",
+    "description": "Ancient Greco-Roman drinking cup",
+    "image": "snapshots/images/Warren-Cup.webp"
+  },
+  "knots": [
+    {
+      "page": "Kiss",
+      "url": "https://en.wikipedia.org/wiki/Kiss",
+      "revision": 1376801956,
+      "section": "East Asia",
+      "passage": "The early Edison film, The Widow Jones – the May Irwin-John Rice Kiss (1896), created a sensation when it was shown in Tokyo, and people crowded to view the enormity. Likewise, Rodin's sculpture The Kiss was not displayed in Japan until after the Pacific War.",
+      "hatnote": "In Japan, a public kiss was long a scandal, even in art.",
+      "onwardLinkText": "The Kiss",
+      "nextPage": "The Kiss (Rodin sculpture)"
+    },
+    {
+      "page": "The Kiss (Rodin sculpture)",
+      "url": "https://en.wikipedia.org/wiki/The_Kiss_(Rodin_sculpture)",
+      "revision": 1361429368,
+      "section": "Warren's commission",
+      "passage": "In 1914 the sculpture was loaned to the Lewes town council and put on public display in Lewes Town Hall. A number of puritanical local residents, led by headmistress Miss Kate Fowler Tutt, objected to the erotic nature of the sculpture. They were particularly concerned that it might encourage the ardour of the large number of soldiers who were billeted in the town at that time, and successfully campaigned to have the sculpture draped and screened from public view.",
+      "hatnote": "England was hardly more relaxed about one marble copy of it.",
+      "onwardLinkText": null,
+      "nextPage": "The Kiss (Rodin sculpture)"
+    },
+    {
+      "page": "The Kiss (Rodin sculpture)",
+      "url": "https://en.wikipedia.org/wiki/The_Kiss_(Rodin_sculpture)",
+      "revision": 1361429368,
+      "section": "Warren's commission",
+      "passage": "In 1900, Rodin made a copy for Edward Perry Warren, an eccentric American collector who lived in Lewes in Sussex, England, with his collection of Greek antiquities and his lover John Marshall. After seeing The Kiss in the Salon de Paris, the painter William Rothenstein recommended it to Warren as a possible purchase, but The Kiss had been commissioned by the French government and was not available for sale. In its place, Rodin offered to make a copy and Warren offered half of its original price (10,000 francs, instead of 20,000), but Rodin would not lower the price. The contract for the commission included that \"the genitals of the man must be complete.\"",
+      "hatnote": "That copy had been ordered by a very particular collector.",
+      "onwardLinkText": "Edward Perry Warren",
+      "nextPage": "Edward Perry Warren"
+    },
+    {
+      "page": "Edward Perry Warren",
+      "url": "https://en.wikipedia.org/wiki/Edward_Perry_Warren",
+      "revision": 1376522510,
+      "section": "Biography",
+      "passage": "Warren purchased the ancient Greco-Roman drinking vessel known as the Warren Cup, now in the British Museum, which he did not attempt to sell during his lifetime because of its explicit depiction of homoerotic scenes.",
+      "hatnote": "Warren owned something even harder to show in public.",
+      "onwardLinkText": "Warren Cup",
+      "nextPage": "Warren Cup"
+    },
+    {
+      "page": "Warren Cup",
+      "url": "https://en.wikipedia.org/wiki/Warren_Cup",
+      "revision": 1370940095,
+      "section": "Modern provenance",
+      "passage": "In February 1953 it was posted by Thomas to Walter Baker, however US Customs impounded the box requiring a decision from Washington as to whether to admit it or to prohibit it as pornography. It was refused entry to the US on that basis and it took until October 1954 to be returned to the UK, by which time Thomas had died. After that event, a number of museums declined to buy it.",
+      "hatnote": "After his death, his heirs tried to sell it.",
+      "onwardLinkText": null,
+      "nextPage": "Warren Cup"
+    },
+    {
+      "page": "Warren Cup",
+      "url": "https://en.wikipedia.org/wiki/Warren_Cup",
+      "revision": 1370940095,
+      "section": "Modern provenance",
+      "passage": "The cup was then acquired by its present owner, the British Museum, in 1999 for £1.8 million (equivalent to £3.45 million in 2025), with funds provided by the Heritage Lottery Fund, National Art Collections Fund and The British Museum Friends, to prevent its going abroad again. This was, at that time, the most expensive single item ever acquired by the British Museum, and many times the price at which it had been offered to them in the 1950s.",
+      "hatnote": "Half a century later, attitudes had changed.",
+      "onwardLinkText": null,
+      "nextPage": "Warren Cup"
+    }
+  ],
+  "payoff": "Rodin's Kiss was hidden from soldiers; its owner's Roman cup was turned back as pornography, then became the British Museum's costliest purchase.",
+  "caveats": []
+}

@@ -1,0 +1,60 @@
+{
+  "id": "reading-copy-67",
+  "claim": "Every safety match owes something to an alchemist boiling urine for gold.",
+  "start": {
+    "title": "Match",
+    "page": "Match",
+    "description": "Device for lighting fires",
+    "image": "snapshots/images/Match.webp"
+  },
+  "end": {
+    "title": "Phosphorus",
+    "page": "Phosphorus",
+    "description": "Chemical element with atomic number 15 (P)",
+    "image": "snapshots/images/Phosphorus.webp"
+  },
+  "knots": [
+    {
+      "page": "Match",
+      "url": "https://en.wikipedia.org/wiki/Match",
+      "revision": 1377418670,
+      "section": "Chemical matches",
+      "passage": "Before the use of matches, fires were sometimes lit using a burning glass (a lens) to focus the sun on tinder, a method that could only work on sunny days. Another more common method was igniting tinder with sparks produced by striking flint and steel, or by sharply increasing air pressure in a fire piston. Early work had been done by alchemist Hennig Brand, who discovered the flammable nature of phosphorus in 1669. Others, including Robert Boyle and his assistant, Ambrose Godfrey, continued these experiments in the 1680s with phosphorus and sulfur, but their efforts did not produce practical and inexpensive methods for generating fires.",
+      "hatnote": "Before matches, lighting a fire took sunshine or a flint.",
+      "onwardLinkText": "Hennig Brand",
+      "nextPage": "Hennig Brand"
+    },
+    {
+      "page": "Hennig Brand",
+      "url": "https://en.wikipedia.org/wiki/Hennig_Brand",
+      "revision": 1376899512,
+      "section": "lead",
+      "passage": "Hennig Brand (German pronunciation: [ˈhɛnɪç bʁant]; c. 1630 – c. 1692 or c. 1710) was a German alchemist who lived and worked in Hamburg. In 1669, Brand accidentally discovered the chemical element phosphorus while searching for the \"philosopher's stone\", a substance which was believed to transmute base metals into gold.",
+      "hatnote": "The match's story starts with an alchemist who wanted gold.",
+      "onwardLinkText": "phosphorus",
+      "nextPage": "Phosphorus"
+    },
+    {
+      "page": "Phosphorus",
+      "url": "https://en.wikipedia.org/wiki/Phosphorus",
+      "revision": 1380731189,
+      "section": "History",
+      "passage": "To this end, he experimented with urine, which contains considerable quantities of dissolved phosphates from normal metabolism. By letting the urine rot (a step later discovered to be unnecessary), boiling it down to a paste, then distilling it at a high temperature and leading the resulting vapours through water, he obtained a white, waxy substance that glowed in the dark and burned brilliantly. He named it in Latin: phosphorus mirabilis, lit. 'miraculous bearer of light'.",
+      "hatnote": "His raw material for making gold was urine, and lots of it.",
+      "onwardLinkText": null,
+      "nextPage": "Phosphorus"
+    },
+    {
+      "page": "Phosphorus",
+      "url": "https://en.wikipedia.org/wiki/Phosphorus",
+      "revision": 1380731189,
+      "section": "History",
+      "passage": "The discovery of red phosphorus allowed for the development of matches that were both much safer to use and to manufacture, leading to the gradual replacement of white phosphorus in matches. Additionally, around 1900 French chemists Henri Sévène and Emile David Cahen invented the modern strike-anywhere match, wherein the white phosphorus was replaced by phosphorus sesquisulfide (P4S3), a non-toxic and non-pyrophoric compound that ignites under friction. For a time these safer strike-anywhere matches were quite popular but in the long run they were superseded by the modern red phosphorus-based safety match.",
+      "hatnote": "The glowing stuff was dangerous. A safer form changed everything.",
+      "onwardLinkText": null,
+      "nextPage": "Phosphorus"
+    }
+  ],
+  "payoff": "Brand went looking for gold in urine and found a glowing element that, once tamed as red phosphorus, lights every safety match.",
+  "caveats": []
+}

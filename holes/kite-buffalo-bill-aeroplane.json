@@ -8,10 +8,10 @@
     "image": "snapshots/images/Kite.webp"
   },
   "end": {
-    "title": "British Army Aeroplane No 1",
-    "page": "British Army Aeroplane No 1",
-    "description": "1907 biplane, made first powered and sustained flight in the UK",
-    "image": "snapshots/images/British-Army-Aeroplane-No-1.webp"
+    "title": "John Moore-Brabazon, 1st Baron Brabazon of Tara",
+    "page": "John Moore-Brabazon, 1st Baron Brabazon of Tara",
+    "description": "English aviation pioneer and politician (1884–1964)",
+    "image": "snapshots/images/John-Moore-Brabazon-1st-Baron-Brabazon-of-Tara.webp"
   },
   "knots": [
     {
@@ -38,19 +38,9 @@
       "page": "Samuel Franklin Cody",
       "url": "https://en.wikipedia.org/wiki/Samuel_Franklin_Cody",
       "revision": 1373113626,
-      "section": "Kites",
-      "passage": "In December 1901, he offered his design to the War Office as an observation \"War Kite\" for use in the Second Boer War, and made several demonstration flights of up to 2,000 ft (610 m) in various places around London. A large exhibition of the Cody kites took place at Alexandra Palace in 1903. Later, he succeeded in crossing the English Channel in a Berthon boat towed by one of his kites.",
-      "hatnote": "Then the showman pitched his kites to the War Office.",
-      "onwardLinkText": null,
-      "nextPage": "Samuel Franklin Cody"
-    },
-    {
-      "page": "Samuel Franklin Cody",
-      "url": "https://en.wikipedia.org/wiki/Samuel_Franklin_Cody",
-      "revision": 1373113626,
       "section": "Aeroplanes",
       "passage": "Later in 1907 the Army decided to back the development of his powered aeroplane, the British Army Aeroplane No 1.",
-      "hatnote": "Then the Army backed the showman's biggest project yet.",
+      "hatnote": "The showman's kites won over the Army, which then backed something bolder.",
       "onwardLinkText": "British Army Aeroplane No 1",
       "nextPage": "British Army Aeroplane No 1"
     },
@@ -69,13 +59,23 @@
       "url": "https://en.wikipedia.org/wiki/British_Army_Aeroplane_No_1",
       "revision": 1356438643,
       "section": "Subsequent use",
-      "passage": "He also flew the aircraft at the Doncaster Flight Meeting in October 1909. Although he did not win any of the prizes on offer, Cody made use of his appearance to publicly take British citizenship on 28 October, and promptly entered his name for the Daily Mail prize for the first British aircraft to make a circular flight of over a mile.",
-      "hatnote": "One more piece of showmanship remained.",
+      "passage": "He also flew the aircraft at the Doncaster Flight Meeting in October 1909. Although he did not win any of the prizes on offer, Cody made use of his appearance to publicly take British citizenship on 28 October, and promptly entered his name for the Daily Mail prize for the first British aircraft to make a circular flight of over a mile. However, the Doncaster meeting had not been sanctioned by the Royal Aero Club, and so any flights made there could not be officially ratified, and the prize was eventually won by J.T.C. Moore-Brabazon on 30 October.",
+      "hatnote": "A year later the showman became British, and went after a big prize.",
+      "onwardLinkText": "J.T.C. Moore-Brabazon",
+      "nextPage": "John Moore-Brabazon, 1st Baron Brabazon of Tara"
+    },
+    {
+      "page": "John Moore-Brabazon, 1st Baron Brabazon of Tara",
+      "url": "https://en.wikipedia.org/wiki/John_Moore-Brabazon%2C_1st_Baron_Brabazon_of_Tara",
+      "revision": 1364787955,
+      "section": "Pioneer aviator",
+      "passage": "On 30 October 1909, flying the Short Biplane No. 2, he flew a circular mile and won a £1,000 prize offered by the Daily Mail newspaper. On 4 November 1909, as a joke to prove that pigs could fly, he put a small pig in a waste-paper basket tied to a wing strut of his aeroplane. This may have been the first live cargo flight by aeroplane.",
+      "hatnote": "The rival who beat him had a showman's streak of his own.",
       "onwardLinkText": null,
-      "nextPage": "British Army Aeroplane No 1"
+      "nextPage": "John Moore-Brabazon, 1st Baron Brabazon of Tara"
     }
   ],
-  "payoff": "The sharpshooting showman who posed as Buffalo Bill's son made Britain's first powered flight under a Union Jack, then became British.",
+  "payoff": "Buffalo Bill's fake son made Britain's first flight and became British, but the mile prize went to a rival who then made a pig fly.",
   "caveats": [
     "Cody's early life is partly known only from his own stories, as his article notes."
   ]

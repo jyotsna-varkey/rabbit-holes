@@ -1,0 +1,70 @@
+{
+  "id": "white-klaproth-uranium",
+  "claim": "One 18th-century chemist named the elements behind white paint and atomic bombs.",
+  "start": {
+    "title": "White",
+    "page": "White",
+    "description": "Lightest color",
+    "image": "snapshots/images/White.webp"
+  },
+  "end": {
+    "title": "Uranium",
+    "page": "Uranium",
+    "description": "Chemical element with atomic number 92 (U)",
+    "image": "snapshots/images/Uranium.webp"
+  },
+  "knots": [
+    {
+      "page": "White",
+      "url": "https://en.wikipedia.org/wiki/White",
+      "revision": 1372111390,
+      "section": "20th and 21st centuries",
+      "passage": "At the end of the 19th century, lead white was still the most popular pigment; but between 1916 and 1918, chemical companies in Norway and the United States began to produce titanium white, made from titanium oxide. It had first been identified in the 18th century by the German chemist Martin Klaproth, who also discovered uranium. It had twice the covering power of lead white, and was the brightest white pigment known. By 1945, 80 percent of the white pigments sold were titanium white.",
+      "hatnote": "The brightest modern white is a 20th-century newcomer.",
+      "onwardLinkText": "Martin Klaproth",
+      "nextPage": "Martin Heinrich Klaproth"
+    },
+    {
+      "page": "Martin Heinrich Klaproth",
+      "url": "https://en.wikipedia.org/wiki/Martin_Heinrich_Klaproth",
+      "revision": 1371971443,
+      "section": "Contributions",
+      "passage": "William Gregor of Cornwall was the first to identify the element titanium in 1791, correctly concluding that he had found a new element in the ore ilmenite from the Menachan valley. He proposed the name \"menachanite\", but his discovery attracted little attention. Klaproth verified the presence of an oxide of an unknown element in the ore rutile from Hungary in 1795. Klaproth suggested the name \"titanium\". It was later determined that menachanite and titanium were the same element, from two different minerals, and Klaproth's name was adopted.",
+      "hatnote": "Klaproth, a Berlin apothecary, didn't find titanium first, but he gave it its name.",
+      "onwardLinkText": null,
+      "nextPage": "Martin Heinrich Klaproth"
+    },
+    {
+      "page": "Martin Heinrich Klaproth",
+      "url": "https://en.wikipedia.org/wiki/Martin_Heinrich_Klaproth",
+      "revision": 1371971443,
+      "section": "Contributions",
+      "passage": "Klaproth was the first to discover uranium, identifying it first in torbernite but doing the majority of his research on it with the mineral pitchblende. On 24 September 1789 he announced his discovery to the Royal Prussian Academy of sciences in Berlin.",
+      "hatnote": "Six years earlier, his shop's lab had found something far weightier.",
+      "onwardLinkText": "uranium",
+      "nextPage": "Uranium"
+    },
+    {
+      "page": "Uranium",
+      "url": "https://en.wikipedia.org/wiki/Uranium",
+      "revision": 1379195527,
+      "section": "Discovery",
+      "passage": "He named the newly discovered element \"Uranit\" after the planet Uranus (named after the primordial Greek god of the sky), which had been discovered eight years earlier by William Herschel. He later renamed it \"Uranium\" to conform to the naming standard.",
+      "hatnote": "He reached for the newest name in the sky.",
+      "onwardLinkText": null,
+      "nextPage": "Uranium"
+    },
+    {
+      "page": "Uranium",
+      "url": "https://en.wikipedia.org/wiki/Uranium",
+      "revision": 1379195527,
+      "section": "lead",
+      "passage": "Research by Otto Hahn, Lise Meitner, Enrico Fermi and others (including J. Robert Oppenheimer), beginning in 1934, led to its use as a fuel in the nuclear power industry and in Little Boy, the first nuclear weapon used in war.",
+      "hatnote": "A century and a half later, his element changed the world.",
+      "onwardLinkText": null,
+      "nextPage": "Uranium"
+    }
+  ],
+  "payoff": "The apothecary who named titanium, behind today's brightest white, also named uranium after a brand-new planet, and it went on to power the atomic age.",
+  "caveats": []
+}

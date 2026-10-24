@@ -1,0 +1,62 @@
+{
+  "id": "library-zaluski-petersburg-bede",
+  "claim": "A library's papal curse on book thieves couldn't stop the biggest theft of all.",
+  "start": {
+    "title": "Library",
+    "page": "Library",
+    "description": "Collection of books, materials and media",
+    "image": "snapshots/images/Library.webp"
+  },
+  "end": {
+    "title": "National Library of Russia",
+    "page": "National Library of Russia",
+    "description": "National public library in Saint Petersburg, Russia",
+    "image": "snapshots/images/National-Library-of-Russia.webp"
+  },
+  "knots": [
+    {
+      "page": "Library",
+      "url": "https://en.wikipedia.org/wiki/Library",
+      "revision": 1378708212,
+      "section": "History",
+      "passage": "The oldest modern public library was the Załuski Library (Polish: Biblioteka Załuskich, Latin: Bibliotheca Zalusciana) established in 1732 in Warsaw, Poland-Lithuania, which ultimately evolved into the National Library of Poland.",
+      "hatnote": "Public libraries as we know them began in Warsaw.",
+      "onwardLinkText": "Załuski Library",
+      "nextPage": "Załuski Library"
+    },
+    {
+      "page": "Załuski Library",
+      "url": "https://en.wikipedia.org/wiki/Za%C5%82uski_Library",
+      "revision": 1379605807,
+      "section": "Operation",
+      "passage": "This library, open on Tuesdays and Thursdays from 7:00 a.m. to 7:00 p.m., asked patrons to be quiet and to say a prayer on behalf of the Załuski brothers. The library initially lent out its collection items, but soon reversed this policy by prohibiting to take the books outside the library, as book theft became a growing problem, to that extent that the bishop patrons decided to ask the pope for help. Responding to their request, in 1752 pope Benedict XIV issued a papal bull that threatened to excommunicate individuals taking the books from this library; even that did not eliminate the problem completely.",
+      "hatnote": "Its founders, two bishops, had a theft problem.",
+      "onwardLinkText": null,
+      "nextPage": "Załuski Library"
+    },
+    {
+      "page": "Załuski Library",
+      "url": "https://en.wikipedia.org/wiki/Za%C5%82uski_Library",
+      "revision": 1379605807,
+      "section": "Looting and destruction",
+      "passage": "Twenty years later in 1794, in the aftermath of the second Partition of Poland and Kościuszko Uprising, Russian troops, on orders from Russian Czarina Catherine II, emptied the library and dispatched the whole collection to Saint Petersburg. The looted books formed the foundations of the Imperial Public Library on its formation a year later; meanwhile, its looted Polish predecessor was abolished and destined by the victorious three powers to be sent into oblivion along with its owner, the Polish state itself.",
+      "hatnote": "Then an empress took everything.",
+      "onwardLinkText": "Imperial Public Library",
+      "nextPage": "National Library of Russia"
+    },
+    {
+      "page": "National Library of Russia",
+      "url": "https://en.wikipedia.org/wiki/National_Library_of_Russia",
+      "revision": 1375166731,
+      "section": "Establishment",
+      "passage": "The cornerstone of the foreign-language department came from the Polish–Lithuanian Commonwealth in the form of Załuski's Library (420,000 volumes), seized in part by the Russian government at the time of the partitions, though many volumes were lost en route to theft by Russian soldiers who sold them for profit. The Polish-language books from the library (numbering some 55,000 titles) were returned to Poland by the Russian SFSR in 1921.",
+      "hatnote": "Even the looters couldn't keep their hands off the books.",
+      "onwardLinkText": null,
+      "nextPage": "National Library of Russia"
+    }
+  ],
+  "payoff": "The pope's curse failed, Catherine took the whole library, her own soldiers pilfered it en route, and Poland's books finally came home in 1921.",
+  "caveats": [
+    "The Library article dates the Załuski Library to 1732; its own article says 1747."
+  ]
+}

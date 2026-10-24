@@ -1,0 +1,72 @@
+{
+  "id": "tennis-leyland-motors",
+  "claim": "Lawn tennis owes its grass courts to a machine for trimming cloth.",
+  "start": {
+    "title": "Tennis",
+    "page": "Tennis",
+    "description": "Racket sport",
+    "image": "snapshots/images/Tennis.webp"
+  },
+  "end": {
+    "title": "Edwin Beard Budding",
+    "page": "Edwin Beard Budding",
+    "description": "English engineer (1796-1846)",
+    "image": "snapshots/images/Edwin-Beard-Budding.webp"
+  },
+  "knots": [
+    {
+      "page": "Tennis",
+      "url": "https://en.wikipedia.org/wiki/Tennis",
+      "revision": 1380872774,
+      "section": "Origins of the modern game",
+      "passage": "Between 1859 and 1865, Harry Gem, a solicitor, and his friend Augurio Perera developed a game that combined elements of racquets and the Basque ball game pelota, which they played on Perera's croquet lawn in Birmingham, England. In 1872, along with two local doctors, they founded the world's first tennis club on Avenue Road, Leamington Spa. This is where \"lawn tennis\" was used as the name of an activity by a club for the first time.",
+      "hatnote": "Modern tennis began as a backyard game on a croquet lawn.",
+      "onwardLinkText": null,
+      "nextPage": "Tennis"
+    },
+    {
+      "page": "Tennis",
+      "url": "https://en.wikipedia.org/wiki/Tennis",
+      "revision": 1380872774,
+      "section": "Predecessors",
+      "passage": "The invention of the first lawn mower in Britain in 1830 is believed to have been a catalyst for the preparation of modern-style grass courts, sporting ovals, playing fields, pitches, greens, etc. This in turn led to the codification of modern rules for many sports, including lawn tennis, most football codes, lawn bowls and others.",
+      "hatnote": "Those smooth lawns were themselves a recent invention.",
+      "onwardLinkText": "lawn mower",
+      "nextPage": "Lawn mower"
+    },
+    {
+      "page": "Lawn mower",
+      "url": "https://en.wikipedia.org/wiki/Lawn_mower",
+      "revision": 1372833248,
+      "section": "Invention",
+      "passage": "The lawn mower was invented in 1830 by Edwin Beard Budding of Stroud, Gloucestershire, England. Budding's mower was designed primarily to cut the grass on sports grounds and extensive gardens, as a superior alternative to the scythe, and was granted a British patent on 31 August 1830.",
+      "hatnote": "The mower's inventor wanted a better tool than the scythe for sports grounds.",
+      "onwardLinkText": "Edwin Beard Budding",
+      "nextPage": "Edwin Beard Budding"
+    },
+    {
+      "page": "Edwin Beard Budding",
+      "url": "https://en.wikipedia.org/wiki/Edwin_Beard_Budding",
+      "revision": 1356939376,
+      "section": "lead",
+      "passage": "Edwin Beard Budding (25 August 1796 – 25 September 1846), an engineer born in Eastington, Stroud, Gloucestershire, was the English inventor of the lawnmower (1830) and adjustable spanner (1842).",
+      "hatnote": "Budding was a Stroud engineer with more than one handy invention.",
+      "onwardLinkText": null,
+      "nextPage": "Edwin Beard Budding"
+    },
+    {
+      "page": "Edwin Beard Budding",
+      "url": "https://en.wikipedia.org/wiki/Edwin_Beard_Budding",
+      "revision": 1356939376,
+      "section": "Lawnmower",
+      "passage": "Budding had the idea of the lawnmower after seeing a machine in a local cloth mill that used a cutting cylinder (or bladed reel) mounted on a bench to trim the irregular nap from the surface of woolen cloth and give a smooth finish. Budding realized that a similar device could be used to cut grass if the mechanism was mounted in a wheeled frame to make the blades rotate close to the lawn's surface.",
+      "hatnote": "So where did the idea for a grass-cutting machine come from?",
+      "onwardLinkText": null,
+      "nextPage": "Edwin Beard Budding"
+    }
+  ],
+  "payoff": "Tennis needed smooth lawns, lawns needed Budding's mower, and Budding's mower was a woollen-mill cloth trimmer put on wheels.",
+  "caveats": [
+    "Lawn mower calls the firm the 'Leyland Steam Motor Company'; Leyland Motors calls it the Lancashire Steam Motor Company."
+  ]
+}

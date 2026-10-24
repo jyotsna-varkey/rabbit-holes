@@ -1,0 +1,73 @@
+{
+  "id": "mount-rushmore-spodumene",
+  "claim": "Mount Rushmore got its name from a tin rush that found something better.",
+  "start": {
+    "title": "Mount Rushmore",
+    "page": "Mount Rushmore",
+    "description": "Mountain with U.S. presidential sculptures",
+    "image": "snapshots/images/Mount-Rushmore.webp"
+  },
+  "end": {
+    "title": "Spodumene",
+    "page": "Spodumene",
+    "description": "Pyroxene, inosilicate mineral rich in lithium",
+    "image": "snapshots/images/Spodumene.webp"
+  },
+  "knots": [
+    {
+      "page": "Mount Rushmore",
+      "url": "https://en.wikipedia.org/wiki/Mount_Rushmore",
+      "revision": 1379207183,
+      "section": "Early history and naming",
+      "passage": "Among the early prospectors in the area was New York mining promoter James Wilson, who organized the Harney Peak Tin Company, and hired New York attorney Charles E. Rushmore to visit the Black Hills and confirm the company's land claims. Rushmore visited the area on three or four trips over the span of 1884 and 1885. During one of these visits, Rushmore was traveling near the base of the peak and, impressed with it, asked his guide, Bill Challis, the mountain's name; Challis replied that the mountain did not have a name, but that it would henceforth be named after Rushmore.",
+      "hatnote": "Before the presidents, the mountain got a name almost by accident.",
+      "onwardLinkText": "Charles E. Rushmore",
+      "nextPage": "Charles E. Rushmore"
+    },
+    {
+      "page": "Charles E. Rushmore",
+      "url": "https://en.wikipedia.org/wiki/Charles_E._Rushmore",
+      "revision": 1361890338,
+      "section": "Biography",
+      "passage": "In 1885 Rushmore came to the Black Hills of South Dakota to check the titles to properties for an eastern mining company owned by James Wilson following the 1883 opening of the Etta tin mine. How Mount Rushmore came to be named after Charles is subject to contradictory recounting, but the United States Board of Geographic Names officially recognized the name in June 1930, five years after Rushmore donated $5,000 (equivalent to $91,793 in 2025) towards Gutzon Borglum's sculpture.",
+      "hatnote": "The lawyer was there because of a tin mine.",
+      "onwardLinkText": "Etta",
+      "nextPage": "Etta, South Dakota"
+    },
+    {
+      "page": "Etta, South Dakota",
+      "url": "https://en.wikipedia.org/wiki/Etta%2C_South_Dakota",
+      "revision": 1370517088,
+      "section": "History",
+      "passage": "It was first started by the Harvey Peak Tin Mining, Milling, and Manufacturing Company as a mica mining camp. However, the ore was revealed to actually be cassiterite, a tin ore; this discovery caused dozens of new mines to spring up all over the Black Hills. Most of these mines were not successful because there was not a large amount of tin in the area.",
+      "hatnote": "The Etta mine, near Keystone, had set off a Black Hills tin rush.",
+      "onwardLinkText": null,
+      "nextPage": "Etta, South Dakota"
+    },
+    {
+      "page": "Etta, South Dakota",
+      "url": "https://en.wikipedia.org/wiki/Etta%2C_South_Dakota",
+      "revision": 1370517088,
+      "section": "History",
+      "passage": "The company built a mill and smelter in 1883. During the mining operations, a large lump of tin weighing 1,200 pounds (540 kg) was melted from hand-picked cassiterite deposits; the miners described it as being as \"big as a small boy.\" This tin was displayed to potential shareholders in London, England in order to raise support for the company. However, the company dissolved after a lawsuit, and the mine ceased operation until 1898. That year, the mine began producing spodumene, a lithium ore, and became well known for its huge crystals. The largest spodumene crystal in the world was found in the mine.",
+      "hatnote": "One showpiece lump of tin was used to woo investors overseas.",
+      "onwardLinkText": "spodumene",
+      "nextPage": "Spodumene"
+    },
+    {
+      "page": "Spodumene",
+      "url": "https://en.wikipedia.org/wiki/Spodumene",
+      "revision": 1378749226,
+      "section": "Economic importance",
+      "passage": "Spodumene is an important source of lithium, for use in ceramics, mobile phones and batteries (including for automotive applications), medicine, Pyroceram, and as a fluxing agent. As of 2019, around half of lithium is extracted from mineral ores, which mainly consist of spodumene.",
+      "hatnote": "Those giant crystals matter far more today than the tin ever did.",
+      "onwardLinkText": null,
+      "nextPage": "Spodumene"
+    }
+  ],
+  "payoff": "The tin boom that gave Mount Rushmore its name fizzled. The same mine's giant crystals were lithium ore, the stuff of today's batteries.",
+  "caveats": [
+    "Mount Rushmore's page calls the company the 'Harney Peak Tin Company'; Etta's page spells it 'Harvey Peak' (as quoted verbatim). Charles Rushmore's page says accounts of the naming are contradictory.",
+    "Black Elk Peak's page describes the Harney Peak Tin Company as never actually mining tin and calls its collapse the largest fraud in Black Hills mining history."
+  ]
+}

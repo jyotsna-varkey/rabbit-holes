@@ -1,0 +1,72 @@
+{
+  "id": "potato-chuno-freeze-drying",
+  "claim": "The Inca were freeze-drying potatoes centuries before astronauts ate freeze-dried meals.",
+  "start": {
+    "title": "Potato",
+    "page": "Potato",
+    "description": "Starchy tuber used as a staple food",
+    "image": "snapshots/images/Potato.webp"
+  },
+  "end": {
+    "title": "Freeze drying",
+    "page": "Freeze drying",
+    "description": "Low-temperature dehydration process",
+    "image": "snapshots/images/Freeze-drying.webp"
+  },
+  "knots": [
+    {
+      "page": "Potato",
+      "url": "https://en.wikipedia.org/wiki/Potato",
+      "revision": 1378814806,
+      "section": "Culinary",
+      "passage": "Peruvian cuisine naturally contains the potato as a primary ingredient in many dishes, as around 3,000 varieties of the tuber are grown there. Chuño is a freeze-dried potato product traditionally made by Quechua and Aymara communities of Peru and Bolivia.",
+      "hatnote": "In the potato's Andean homeland, one product is older than the Inca.",
+      "onwardLinkText": "Chuño",
+      "nextPage": "Chuño"
+    },
+    {
+      "page": "Chuño",
+      "url": "https://en.wikipedia.org/wiki/Chu%C3%B1o",
+      "revision": 1291805889,
+      "section": "Origins",
+      "passage": "Due to its portability, long shelf life, and nutritional value, chuño was eaten by Inca soldiers on marches. Indeed Carl Troll argued that the nighttime sub-freezing temperatures of southern Peruvian highlands that allowed for chuño production favoured the rise of the Inca Empire.",
+      "hatnote": "This shrivelled potato had military uses.",
+      "onwardLinkText": null,
+      "nextPage": "Chuño"
+    },
+    {
+      "page": "Chuño",
+      "url": "https://en.wikipedia.org/wiki/Chu%C3%B1o",
+      "revision": 1291805889,
+      "section": "Production",
+      "passage": "Chuño is made at the beginning of winter during June and July, during which time the temperatures reach around −5 °C (23 °F) at elevations of over 3,800 metres (12,500 ft). After fall harvest (April–May), potatoes are selected for the production of chuño, typically small ones for ease of processing. These small potatoes are spread closely on flat ground, and allowed to freeze with the low night temperatures and dehydrate in the daytime, for about three nights. This process results in natural freeze-drying.",
+      "hatnote": "The recipe needs only mountain nights and mountain sun.",
+      "onwardLinkText": "freeze-drying",
+      "nextPage": "Freeze drying"
+    },
+    {
+      "page": "Freeze drying",
+      "url": "https://en.wikipedia.org/wiki/Freeze_drying",
+      "revision": 1375737482,
+      "section": "History",
+      "passage": "A significant turning point for freeze drying occurred during World War II when blood plasma and penicillin were needed to treat the wounded in the field. Because of the lack of refrigerated transport, many serum supplies spoiled before reaching their recipients. The freeze-drying process was developed as a commercial technique that enabled blood plasma and penicillin to be rendered chemically stable and viable without refrigeration. In the 1950s–1960s, freeze drying began to be viewed as a multi-purpose tool for both pharmaceuticals and food processing.",
+      "hatnote": "The modern machine version arrived in a hurry, for a war.",
+      "onwardLinkText": null,
+      "nextPage": "Freeze drying"
+    },
+    {
+      "page": "Freeze drying",
+      "url": "https://en.wikipedia.org/wiki/Freeze_drying",
+      "revision": 1375737482,
+      "section": "Early uses in food",
+      "passage": "Freeze-dried foods became a major component of astronaut and military rations. What began for astronaut crews as tubed meals and freeze-dried snacks that were difficult to rehydrate, were transformed into hot meals by improving the process of rehydrating freeze-dried meals with water.",
+      "hatnote": "And then it went to space.",
+      "onwardLinkText": null,
+      "nextPage": "Freeze drying"
+    }
+  ],
+  "payoff": "From Inca soldiers' rations to wartime plasma and astronaut dinners, the trick is the same: freeze it, then let the water go.",
+  "caveats": [
+    "Wikipedia notes the Andean method is similar but not technically equivalent to modern freeze-drying, which needs refrigeration and a vacuum."
+  ]
+}

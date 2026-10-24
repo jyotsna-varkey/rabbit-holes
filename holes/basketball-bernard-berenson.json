@@ -1,0 +1,70 @@
+{
+  "id": "basketball-bernard-berenson",
+  "claim": "Women's basketball rules came from a teacher once too frail to stand five minutes.",
+  "start": {
+    "title": "Basketball",
+    "page": "Basketball",
+    "description": "Team sport",
+    "image": "snapshots/images/Basketball.webp"
+  },
+  "end": {
+    "title": "Women's Basketball Hall of Fame",
+    "page": "Women's Basketball Hall of Fame",
+    "description": "Sport hall of fame in Knoxville, Tennessee",
+    "image": "snapshots/images/Women-s-Basketball-Hall-of-Fame.webp"
+  },
+  "knots": [
+    {
+      "page": "Basketball",
+      "url": "https://en.wikipedia.org/wiki/Basketball",
+      "revision": 1379108314,
+      "section": "Women's basketball",
+      "passage": "By 1895, the game had spread to colleges across the country, including Wellesley, Vassar, and Bryn Mawr. The first intercollegiate women's game was on April 4, 1896. Stanford women played Berkeley, 9-on-9, ending in a 2–1 Stanford victory.",
+      "hatnote": "Within a few years of its invention, women's basketball was everywhere.",
+      "onwardLinkText": null,
+      "nextPage": "Basketball"
+    },
+    {
+      "page": "Basketball",
+      "url": "https://en.wikipedia.org/wiki/Basketball",
+      "revision": 1379108314,
+      "section": "Creation",
+      "passage": "Shortly after, Senda Berenson, instructor of physical culture at the nearby Smith College, went to Naismith to learn more about the game. Fascinated by the new sport and the values it could teach, she started to organize games with her pupils, following adjusted rules. The first official women's interinstitutional game was played barely 11 months later, between the University of California and Miss Head's School. In 1899, a committee was established at the Conference of Physical Training in Springfield to draw up general rules for women's basketball. Thus, the sport quickly spread throughout America's schools, colleges and universities with uniform rules for both sexes.",
+      "hatnote": "It began with one teacher who went straight to the game's inventor.",
+      "onwardLinkText": "Senda Berenson",
+      "nextPage": "Senda Berenson Abbott"
+    },
+    {
+      "page": "Senda Berenson Abbott",
+      "url": "https://en.wikipedia.org/wiki/Senda_Berenson_Abbott",
+      "revision": 1380929992,
+      "section": "Boston Normal School of Gymnastics",
+      "passage": "Berenson's start was inauspicious. Years later she would exclaim \"how I hated that school for the first few months!\". She wasn't interested in the gymnastics work, as the exercises made her \"ache all over\". Berenson felt by just standing erect for five minutes forced her to lie down, and she found she had to study lying on her back. She decided to give the exercises a \"fair trial\", and she saw improvement in three months. By the end of the year, she was doing the prescribed two hours a day of exercise and felt much better.",
+      "hatnote": "Yet the woman who brought basketball to women had once been painfully frail.",
+      "onwardLinkText": null,
+      "nextPage": "Senda Berenson Abbott"
+    },
+    {
+      "page": "Senda Berenson Abbott",
+      "url": "https://en.wikipedia.org/wiki/Senda_Berenson_Abbott",
+      "revision": 1380929992,
+      "section": "lead",
+      "passage": "Senda Berenson Abbott (March 19, 1868 – February 16, 1954) was a Russian-American figure of women's basketball and the author of the first Basketball Guide for Women (1901–07). She was inducted into the Basketball Hall of Fame as a contributor on July 1, 1985, the International Jewish Sports Hall of Fame in 1987, and the Women's Basketball Hall of Fame in 1999.",
+      "hatnote": "She recovered, and went on to write the women's game's first guide.",
+      "onwardLinkText": "Women's Basketball Hall of Fame",
+      "nextPage": "Women's Basketball Hall of Fame"
+    },
+    {
+      "page": "Women's Basketball Hall of Fame",
+      "url": "https://en.wikipedia.org/wiki/Women's_Basketball_Hall_of_Fame",
+      "revision": 1377775364,
+      "section": "Eastman Statue",
+      "passage": "The Eastman Statue, sculpted by Elizabeth MacQueen, is erected at the entrance to the Women's Basketball Hall of Fame. This 17-foot-tall bronze statue exemplifies Women's Basketball Hall of Fame's mission to \"honor the past, celebrate the present and promote the future\" of women's basketball. Each year, the Women's Basketball Hall of Fame presents its current class of Inductees with a replica of the Eastman statue, which is now known as the \"Berenson\" named after Senda Berenson.",
+      "hatnote": "The women's Hall of Fame in Knoxville found a fitting way to remember her.",
+      "onwardLinkText": null,
+      "nextPage": "Women's Basketball Hall of Fame"
+    }
+  ],
+  "payoff": "The teacher once too frail to stand five minutes wrote women's basketball's first guide; its Hall of Fame trophy is now called the \"Berenson\".",
+  "caveats": []
+}

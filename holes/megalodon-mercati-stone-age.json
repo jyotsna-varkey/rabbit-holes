@@ -1,0 +1,72 @@
+{
+  "id": "megalodon-mercati-stone-age",
+  "claim": "Megalodon's teeth lead to a papal doctor who cracked the mystery of 'thunderstones'.",
+  "start": {
+    "title": "Megalodon",
+    "page": "Megalodon",
+    "description": "Extinct giant shark species",
+    "image": "snapshots/images/Megalodon.webp"
+  },
+  "end": {
+    "title": "Three-age system",
+    "page": "Three-age system",
+    "description": "Stone, bronze and iron ages of pre-history",
+    "image": "snapshots/images/Three-age-system.webp"
+  },
+  "knots": [
+    {
+      "page": "Megalodon",
+      "url": "https://en.wikipedia.org/wiki/Megalodon",
+      "revision": 1380888665,
+      "section": "Prescientific and early research history",
+      "passage": "The earliest written account of megalodon teeth was by Pliny the Elder in an AD 73 volume of Historia Naturalis, who described them as resembling petrified human tongues that Roman folklorists believed to have fallen from the sky during lunar eclipses and called them glossopetrae (\"tongue stones\"). The purported tongues were later thought in a 12th-century Maltese tradition to have belonged to serpents that Paul the Apostle turned to stone while shipwrecked there, and were given antivenom powers by the saint.",
+      "hatnote": "Long before anyone knew of megalodon, people were finding its teeth.",
+      "onwardLinkText": null,
+      "nextPage": "Megalodon"
+    },
+    {
+      "page": "Megalodon",
+      "url": "https://en.wikipedia.org/wiki/Megalodon",
+      "revision": 1380888665,
+      "section": "Prescientific and early research history",
+      "passage": "Steensen's argument in particular is most recognized as inferred from his dissection of the head of a great white caught in 1666. His 1667 report depicted engravings of a shark's head and megalodon teeth that became especially iconic. However, the illustrated head was not actually the head that Steensen dissected, nor were the fossil teeth illustrated by him. Both engravings were originally commissioned in the 1590s by Papal physician Michele Mercati, who also had in possession the head of a great white, for his book Metallotheca.",
+      "hatnote": "In 1667 Nicolas Steno famously showed they were shark teeth. But his pictures weren't his.",
+      "onwardLinkText": "Michele Mercati",
+      "nextPage": "Michele Mercati"
+    },
+    {
+      "page": "Michele Mercati",
+      "url": "https://en.wikipedia.org/wiki/Michele_Mercati",
+      "revision": 1341918128,
+      "section": "Biography",
+      "passage": "Mercati collected curious objects - fossils, minerals and so on - as well as 'ceraunia' or 'thunderstones'. Mercati was particularly interested in Ceraunia cuneata, \"wedge-shaped thunderstones,\" which seemed to him to be most like axes and arrowheads, which he now called ceraunia vulgaris, \"folk thunderstones,\" distinguishing his view from the popular one. Mercati examined the surfaces of the ceraunia and noted that the stones were of flint and that they had been chipped all over by another stone. By their shapes, Mercati deduced that the stones were intended to be hafted.",
+      "hatnote": "Mercati collected another kind of mystery stone too.",
+      "onwardLinkText": null,
+      "nextPage": "Michele Mercati"
+    },
+    {
+      "page": "Michele Mercati",
+      "url": "https://en.wikipedia.org/wiki/Michele_Mercati",
+      "revision": 1341918128,
+      "section": "Biography",
+      "passage": "Mercati posited that these stone tools must have been used when metal was unknown and cited Biblical passages to prove that in Biblical times stone was the first material used. He also revived the Three-age system of Lucretius, which described a succession of periods based on the use of stone (and wood), bronze and iron respectively.",
+      "hatnote": "If thunderstones were tools, someone must have made them before metal.",
+      "onwardLinkText": "Three-age system",
+      "nextPage": "Three-age system"
+    },
+    {
+      "page": "Three-age system",
+      "url": "https://en.wikipedia.org/wiki/Three-age_system",
+      "revision": 1360742207,
+      "section": "lead",
+      "passage": "The relative chronology of the Stone Age, the Bronze Age and the Iron Age remains in use, and the three-ages concept underpins prehistoric chronology for Europe, the Mediterranean world and the Near East.",
+      "hatnote": "His book waited until 1717, but the three ages he revived stuck.",
+      "onwardLinkText": null,
+      "nextPage": "Three-age system"
+    }
+  ],
+  "payoff": "Megalodon teeth lead to the papal doctor who saw 'thunderstones' were Stone Age tools, and revived the three ages that still order prehistory.",
+  "caveats": [
+    "Mercati 'revived' Lucretius's three-age idea; the modern system was developed by C. J. Thomsen (1816–1825). The passages say Mercati revived it, not that he invented it."
+  ]
+}

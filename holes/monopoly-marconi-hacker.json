@@ -1,0 +1,72 @@
+{
+  "id": "monopoly-marconi-hacker",
+  "claim": "Britain's wartime Monopoly sets were rigged with help from a stage magician.",
+  "start": {
+    "title": "Monopoly (game)",
+    "page": "Monopoly (game)",
+    "description": "Property-trading board game",
+    "image": "snapshots/images/Monopoly-game.webp"
+  },
+  "end": {
+    "title": "Jasper Maskelyne",
+    "page": "Jasper Maskelyne",
+    "description": "British stage magician (1902–1973)",
+    "image": "snapshots/images/Jasper-Maskelyne.webp"
+  },
+  "knots": [
+    {
+      "page": "Monopoly (game)",
+      "url": "https://en.wikipedia.org/wiki/Monopoly_(game)",
+      "revision": 1379540842,
+      "section": "UK version",
+      "passage": "In the 1930s, John Waddington Ltd., known as Waddingtons, was a printing company in Leeds that had branched out into packaging and the production of playing cards. Waddingtons had sent the card game Lexicon to Parker Brothers hoping to interest it in publishing the game in the United States. In a similar fashion, Parker Brothers sent over a copy of Monopoly to Waddingtons early in 1935 before the game had been put into production in the United States.",
+      "hatnote": "British Monopoly began with two game companies swapping parcels across the Atlantic.",
+      "onwardLinkText": "John Waddington Ltd.",
+      "nextPage": "Waddingtons"
+    },
+    {
+      "page": "Waddingtons",
+      "url": "https://en.wikipedia.org/wiki/Waddingtons",
+      "revision": 1375032856,
+      "section": "Founding and history",
+      "passage": "Waddingtons became the UK publisher of the US Parker Brothers' Monopoly, while Parker licensed Waddingtons' Cluedo. In 1941, the British Directorate of Military Intelligence section 9 (MI9) had the company create a special edition of Monopoly for World War II prisoners of war held by the Germans. Hidden inside these games were maps, compasses, real money and other objects useful for escaping. They were distributed to prisoners by fake charitable organisations.",
+      "hatnote": "Then a secret customer ordered some very special sets.",
+      "onwardLinkText": "Directorate of Military Intelligence section 9",
+      "nextPage": "MI9"
+    },
+    {
+      "page": "MI9",
+      "url": "https://en.wikipedia.org/wiki/MI9",
+      "revision": 1376002741,
+      "section": "Escape aids",
+      "passage": "MI9 used the services of former magician Jasper Maskelyne to design hiding places for escape aids including tools hidden in cricket bats and baseball bats, maps concealed in playing cards and actual money in board-games. Notably were maps hidden in Monopoly boards, and real money hidden in the piles of Monopoly money.",
+      "hatnote": "Hiding things in plain sight is a magician's trade, so MI9 hired one.",
+      "onwardLinkText": "Jasper Maskelyne",
+      "nextPage": "Jasper Maskelyne"
+    },
+    {
+      "page": "Jasper Maskelyne",
+      "url": "https://en.wikipedia.org/wiki/Jasper_Maskelyne",
+      "revision": 1379925207,
+      "section": "Wartime service",
+      "passage": "When the Second World War broke out, Maskelyne, believing his skills could be used for camouflage, joined the Royal Engineers. According to one account, he convinced sceptical officers, including inspector of training Viscount Gort, of his bona fides by camouflaging a machine gun position in plain sight and creating the illusion of the German warship Graf Spee on the Thames using mirrors and a model.",
+      "hatnote": "Maskelyne told even grander tales of wartime illusions.",
+      "onwardLinkText": null,
+      "nextPage": "Jasper Maskelyne"
+    },
+    {
+      "page": "Jasper Maskelyne",
+      "url": "https://en.wikipedia.org/wiki/Jasper_Maskelyne",
+      "revision": 1379925207,
+      "section": "Possible film adaptations",
+      "passage": "In 2003, director Peter Weir and actor Tom Cruise were working on a film based on The War Magician. When questions rose about how much of the story was factual and how much was invented by the author, the project was dropped while still in pre-production.",
+      "hatnote": "Hollywood loved the stories. Then someone checked them.",
+      "onwardLinkText": null,
+      "nextPage": "Jasper Maskelyne"
+    }
+  ],
+  "payoff": "The Monopoly maps were real; the magician's grander wartime illusions were shaky enough to sink a Tom Cruise film.",
+  "caveats": [
+    "Historians dispute most of Maskelyne's wartime claims; the escape-aid work for MI9 is the best attested."
+  ]
+}

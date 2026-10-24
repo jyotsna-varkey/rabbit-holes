@@ -17,10 +17,10 @@
     {
       "page": "Coffee",
       "url": "https://en.wikipedia.org/wiki/Coffee",
-      "revision": 1371799424,
+      "revision": 1381123987,
       "section": "Historical transmission",
-      "passage": "Within the Ottoman Empire, the first coffeehouse opened in 1555 in Tahtakale, Istanbul. Since Tahtakale is to the West of the Bosporus, this would likely have been the first coffee house in Europe. Thriving trade brought many goods, including coffee, from the Ottoman Empire to Venice. Coffee became more widely accepted in Europe after Pope Clement VIII declared it a Christian beverage in 1600, despite appeals to ban the \"Muslim drink\". Coffee had spread to Italy by 1600 and then to the rest of Europe, Indonesia, and the Americas. The first European coffeehouse outside of the Ottoman Empire opened in Venice in 1647.",
-      "hatnote": "Coffee reached Europe by way of Istanbul and Venice.",
+      "passage": "Thriving trade brought many goods, including coffee, from the Ottoman Empire to Venice. Coffee became more widely accepted in Europe after Pope Clement VIII declared it a Christian beverage in 1600, despite appeals to ban the \"Muslim drink\". Coffee had spread to Italy by 1600 and then to the rest of Europe, Indonesia, and the Americas. The first European coffeehouse outside of the Ottoman Empire opened in Venice in 1647.",
+      "hatnote": "Coffee reached Europe through Ottoman trade with Venice.",
       "onwardLinkText": "coffeehouse",
       "nextPage": "Coffeehouse"
     },
@@ -37,10 +37,20 @@
     {
       "page": "Lloyd's of London",
       "url": "https://en.wikipedia.org/wiki/Lloyd's_of_London",
-      "revision": 1371088846,
+      "revision": 1381319355,
+      "section": "Miscellaneous",
+      "passage": "In the main Underwriting Room of Lloyd's stands the Lutine bell, salvaged in 1858, which was rung when the fate of a ship \"overdue\" at its destination port became known. If the ship was safe, the bell would be rung twice; if it had sunk, the bell would be rung once. (This had the practical purpose of immediately stopping the sale or purchase of \"overdue\" reinsurance on that vessel.) Nowadays it is only rung for ceremonial purposes, such as the visit of a distinguished guest, or for the annual Remembrance Day service and anniversaries of major world events.",
+      "hatnote": "The coffeehouse insurers kept a bell for news of missing ships.",
+      "onwardLinkText": null,
+      "nextPage": "Lloyd's of London"
+    },
+    {
+      "page": "Lloyd's of London",
+      "url": "https://en.wikipedia.org/wiki/Lloyd's_of_London",
+      "revision": 1381319355,
       "section": "Early 20th century: San Francisco earthquake and first Lloyd's building",
       "passage": "A year later in April 1912 Lloyd's suffered perhaps its most famous loss: the sinking of the Titanic. It was insured for £1 million (equivalent to £124 million in 2024), which represented 20 per cent of the entire market's capacity, making it the largest marine risk ever insured. The record of its sinking in the 1912 \"Loss Book\" is on display in the Lloyd's building.",
-      "hatnote": "One coffeehouse's insurers took on the Titanic: a fifth of the whole market.",
+      "hatnote": "Then came the biggest marine risk the market had ever taken.",
       "onwardLinkText": "Titanic",
       "nextPage": "Titanic"
     },
@@ -48,14 +58,14 @@
       "page": "Titanic",
       "url": "https://en.wikipedia.org/wiki/Titanic",
       "revision": 1375768600,
-      "section": "Atlantic crossing",
-      "passage": "Titanic received a series of warnings from other ships of drifting ice in the area of the Grand Banks of Newfoundland, but Captain Smith ignored them. One of the ships to warn Titanic was the Atlantic Line's Mesaba. Nevertheless, Titanic continued to steam at full speed, which was standard practice at the time. Although not trying to set a speed record, timekeeping was a priority, and under prevailing maritime practices, ships were often operated at close to full speed; ice warnings were seen as advisories, and reliance was placed upon lookouts and the watch on the bridge. It was generally believed that ice posed little danger to large vessels. Close calls with ice were not uncommon, and even head-on collisions had not been disastrous. In 1907, SS Kronprinz Wilhelm, a German liner, had rammed an iceberg but still completed the voyage, and Captain Smith said in 1907 that he \"could not imagine any condition which would cause a ship to founder. Modern shipbuilding has gone beyond that.\"",
-      "hatnote": "Its captain had said he couldn't imagine a modern ship foundering.",
+      "section": "Insurance, aid for survivors and lawsuits",
+      "passage": "In January 1912, the hulls and equipment of Titanic and Olympic had been insured through Lloyd's of London and London Marine Insurance. The total coverage was £1 million (£124 million today) per ship. The policy was to be \"free from all average\" under £150,000, meaning that the insurers would only pay for damage in excess of that sum. The premium, negotiated by brokers Willis Faber & Company (now Willis Group), was 15 s (75 p) per £100, or £7,500 (£740,000 today) for the term of one year. Lloyd's paid the White Star Line the full sum owed to them within 30 days.",
+      "hatnote": "So did the coffeehouse market pay up?",
       "onwardLinkText": null,
       "nextPage": "Titanic"
     }
   ],
-  "payoff": "The insurance market born in a coffeehouse took its biggest marine risk on a ship its captain thought couldn't founder.",
+  "payoff": "A coffeehouse's ship insurers grew into Lloyd's, which staked a fifth of its capacity on Titanic, and paid in full within 30 days.",
   "caveats": [
     "Shares the Coffeehouse page with coffee-insurance; both now use the newer revision (1379296908)."
   ]

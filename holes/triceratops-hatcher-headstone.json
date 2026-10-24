@@ -1,0 +1,62 @@
+{
+  "id": "triceratops-hatcher-headstone",
+  "claim": "A great fossil hunter's headstone shows a dinosaur whose existence is disputed.",
+  "start": {
+    "title": "Triceratops",
+    "page": "Triceratops",
+    "description": "Genus of Late Cretaceous dinosaur",
+    "image": "snapshots/images/Triceratops.webp"
+  },
+  "end": {
+    "title": "Torosaurus",
+    "page": "Torosaurus",
+    "description": "Extinct genus of dinosaurs",
+    "image": "snapshots/images/Torosaurus.webp"
+  },
+  "knots": [
+    {
+      "page": "Triceratops",
+      "url": "https://en.wikipedia.org/wiki/Triceratops",
+      "revision": 1376767985,
+      "section": "Discovery and identification",
+      "passage": "The Triceratops holotype, YPM 1820, was collected in 1888 from the Lance Formation of Wyoming by fossil hunter John Bell Hatcher, but Marsh initially described this specimen as another species of Ceratops. Cowboy Edmund B. Wilson had been startled by the sight of a monstrous skull poking out of the side of a ravine. He tried to recover it by throwing a lasso around one of the horns. When it broke off, the skull tumbling to the bottom of the cleft, Wilson brought the horn to his boss.",
+      "hatnote": "The first Triceratops skull was nearly wrecked by a cowboy's lasso.",
+      "onwardLinkText": "John Bell Hatcher",
+      "nextPage": "John Bell Hatcher"
+    },
+    {
+      "page": "John Bell Hatcher",
+      "url": "https://en.wikipedia.org/wiki/John_Bell_Hatcher",
+      "revision": 1372378085,
+      "section": "lead",
+      "passage": "John Bell Hatcher (October 11, 1861 – July 3, 1904) was an American paleontologist and fossil hunter known as the \"king of collectors\" and best known for discovering Torosaurus and Triceratops, two genera of dinosaurs described by Othniel Charles Marsh.",
+      "hatnote": "The man who finally collected it became a legend of fossil hunting.",
+      "onwardLinkText": null,
+      "nextPage": "John Bell Hatcher"
+    },
+    {
+      "page": "John Bell Hatcher",
+      "url": "https://en.wikipedia.org/wiki/John_Bell_Hatcher",
+      "revision": 1372378085,
+      "section": "Legacy",
+      "passage": "He is interred in Pittsburgh's Homewood Cemetery. For 91 years his grave went unmarked (his widow and children moved back to Iowa after his death). However, at the 1995 annual meeting in Pittsburgh of the Society of Vertebrate Paleontology, some members bought him a headstone engraved with his name and the name of his daughter, Ruth, and the sandblasted image of Torosaurus.",
+      "hatnote": "He died in 1904, and his grave was soon forgotten.",
+      "onwardLinkText": "Torosaurus",
+      "nextPage": "Torosaurus"
+    },
+    {
+      "page": "Torosaurus",
+      "url": "https://en.wikipedia.org/wiki/Torosaurus",
+      "revision": 1375992171,
+      "section": "lead",
+      "passage": "In 2010, the validity of Torosaurus was disputed. A study of fossil bone histology combined with an investigation of frill shape concluded that Torosaurus probably represented the mature form of Triceratops, with the bones of typical Triceratops specimens still immature and showing signs of a first development of distinct Torosaurus frill holes. During maturation, the skull frill would have been greatly lengthened and holes would have appeared in it. In 2011, 2012, and 2013, however, studies of external features of known specimens have claimed that morphological differences between the two genera preclude their synonymy.",
+      "hatnote": "Torosaurus was Hatcher's own find, but it has an identity problem.",
+      "onwardLinkText": null,
+      "nextPage": "Torosaurus"
+    }
+  ],
+  "payoff": "Hatcher's headstone honours Torosaurus, which may be nothing but a grown-up Triceratops, his other famous find. Palaeontologists are still arguing.",
+  "caveats": [
+    "The Torosaurus page says newer research has favoured keeping Torosaurus as a separate genus."
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "id": "common-sunflower-phytoremediation",
-  "claim": "Why were sunflowers used after a nuclear disaster?",
+  "claim": "Sunflowers that scrubbed a Chernobyl pond hint at a new kind of mine.",
   "start": {
     "title": "Common sunflower",
     "page": "Common sunflower",
@@ -8,10 +8,10 @@
     "image": "snapshots/images/Common-sunflower.webp"
   },
   "end": {
-    "title": "Phytoremediation",
-    "page": "Phytoremediation",
-    "description": "Decontamination technique using living plants",
-    "image": "snapshots/images/Phytoremediation.webp"
+    "title": "Hyperaccumulator",
+    "page": "Hyperaccumulator",
+    "description": "Category of plant",
+    "image": "snapshots/images/Hyperaccumulator.webp"
   },
   "knots": [
     {
@@ -20,8 +20,18 @@
       "revision": 1379493801,
       "section": "Phytoremediation",
       "passage": "Helianthus annuus can be used in phytoremediation to extract pollutants from soil such as lead and other heavy metals, such as cadmium, zinc, cesium, strontium, and uranium. The phytoremediation process begins by absorbing the heavy metal(s) through the roots, which gradually accumulate in other areas, such as the shoots and leaves. Helianthus annuus can also be used in rhizofiltration to neutralize radionuclides, such as caesium-137 and strontium-90, from contaminated water, as was done in the case of a pond after the Chernobyl disaster. A similar campaign was mounted in response to the Fukushima Daiichi nuclear disaster.",
-      "hatnote": "Sunflowers were sent to clean up Chernobyl.",
+      "hatnote": "Sunflowers have a little-known job after nuclear accidents.",
       "onwardLinkText": "rhizofiltration",
+      "nextPage": "Rhizofiltration"
+    },
+    {
+      "page": "Rhizofiltration",
+      "url": "https://en.wikipedia.org/wiki/Rhizofiltration",
+      "revision": 1369020910,
+      "section": "Advantages",
+      "passage": "In some cases, contaminants have been shown to be significantly decreased in a very short amount of time. One study found that roots of sunflower reduced levels of Uranium by nearly 95% in just 24 hours.",
+      "hatnote": "Their roots work astonishingly fast.",
+      "onwardLinkText": null,
       "nextPage": "Rhizofiltration"
     },
     {
@@ -30,7 +40,7 @@
       "revision": 1369020910,
       "section": "lead",
       "passage": "Rhizofiltration is a form of phytoremediation that involves filtering contaminated groundwater, surface water and wastewater through a mass of roots to remove toxic substances or excess nutrients.",
-      "hatnote": "How do roots remove contaminants from water?",
+      "hatnote": "The trick is a living root filter, one branch of a bigger idea.",
       "onwardLinkText": "phytoremediation",
       "nextPage": "Phytoremediation"
     },
@@ -39,15 +49,35 @@
       "url": "https://en.wikipedia.org/wiki/Phytoremediation",
       "revision": 1365182993,
       "section": "Phytoextraction",
-      "passage": "One challenge to phytoremediation is that heavy metals are often insufficiently mobile to be taken up by the plants, hyperaccumulators or otherwise. This challenge prompted the invention of assisted phytoextraction, whereby a chelator is added to soil to increase metal solubility or mobilization so that the plants can absorb them more easily. A typical chelator is edta.",
-      "hatnote": "What limitation matters when applying plant-based remediation elsewhere?",
+      "passage": "Hyperaccumulating plants are often metallophytes, i.e. they hyperaccumulate metals. Metallophytes are the basis of phytomining, a proposed technology for collecting valuable metals without excavating.",
+      "hatnote": "Some plants soak up so much metal that people see them as mines.",
+      "onwardLinkText": "phytomining",
+      "nextPage": "Hyperaccumulator"
+    },
+    {
+      "page": "Hyperaccumulator",
+      "url": "https://en.wikipedia.org/wiki/Hyperaccumulator",
+      "revision": 1380972289,
+      "section": "Phytomining",
+      "passage": "Phytomining, sometimes called agromining, is the concept of extracting heavy metals from the soil using hyperaccumulating plants. Once the hyperaccumulation has proceeded to some extent, the metals are collected from the plant matter and then refined for sale or disposed of.",
+      "hatnote": "Farming metal instead of digging for it:",
       "onwardLinkText": null,
-      "nextPage": "Phytoremediation"
+      "nextPage": "Hyperaccumulator"
+    },
+    {
+      "page": "Hyperaccumulator",
+      "url": "https://en.wikipedia.org/wiki/Hyperaccumulator",
+      "revision": 1380972289,
+      "section": "Phytomining",
+      "passage": "Several startups are investigating the process for mining surface-available heavy metals. In 2025, Genomines received 45 million dollars of Series A funding to commercialize nickel phytomining from mine tailings. The French company Econick and the Albanian company MetalPlant both have nickel phytomining projects. As of mid-2024, MetalPlant had extracted less than a kilo of usable nickel, using Odontarrhena plants.",
+      "hatnote": "It's no longer just an idea. Investors are betting on it.",
+      "onwardLinkText": null,
+      "nextPage": "Hyperaccumulator"
     }
   ],
-  "payoff": "Sunflower roots can soak radioactive metals out of water, though plants often need chemical help to reach them.",
+  "payoff": "Sunflower roots pulled radioactive metal from a Chernobyl pond; scaled up, the same trick could turn plants into mines, so far yielding under a kilo.",
   "caveats": [
-    "From Rabbit Hole Studio (GPT), rh-038, rank 97; hook is GPT's, hatnotes/payoff drafted by Claude.",
-    "GPT's second Rhizofiltration paragraph was dropped (the onward link sits in the first). Plants remove radioactivity, they don't destroy it."
+    "From Rabbit Hole Studio (GPT), rh-038, rank 97; original hook was GPT's, refined by Claude.",
+    "Plants remove radioactivity, they don't destroy it."
   ]
 }

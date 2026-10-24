@@ -6,7 +6,7 @@
 
 import { readFile, readdir, rm, stat, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
-import { compressImage, LEAD_MAX_WIDTH } from './images.mjs';
+import { ARTICLE_WEBP_QUALITY, compressImage, LEAD_MAX_WIDTH } from './images.mjs';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const HOLES = `${ROOT}holes`;
@@ -30,7 +30,7 @@ for (const path of await walk(IMAGES)) {
   if (/^(webp|svg)$/i.test(ext) || path.endsWith('.DS_Store')) continue;
   const bytes = await readFile(path);
   const lead = !path.includes('/images/pages/');
-  const out = await compressImage(bytes, ext, lead ? { maxWidth: LEAD_MAX_WIDTH } : {});
+  const out = await compressImage(bytes, ext, lead ? { maxWidth: LEAD_MAX_WIDTH } : { quality: ARTICLE_WEBP_QUALITY });
   const next = path.replace(/\.[^.]+$/, `.${out.ext}`);
   await writeFile(next, out.bytes);
   if (next !== path) await rm(path);

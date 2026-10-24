@@ -239,12 +239,25 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          29 of them in the app. 55 recommended cuts (unsalvageable or
          duplicates) left in the sheet for the owner. App: 114 holes.
          holes-review.csv regenerated with verdict and what-changed columns.
+- [x] 39. Owner's second content pass (2026-10-24): notes on rows 17–56
+         (abrupt endings, one-fact holes, lingering pages, weak hooks)
+         became five rules (review/REFINE.md in the library); 183 of 273
+         holes refined and re-verified, 80 of them in the app. Two judges
+         gated the 162 refined holes not in the app against 20 owner-approved
+         anchors: 104 added, 49 fixed and re-judged (24 more added). App now
+         242 holes. Fetch script: requests moved to scripts/http.mjs, which
+         also retries dropped connections (the run kept crashing on
+         ETIMEDOUT); test tests/unit/http.test.ts. Article images re-encoded
+         at WebP quality 60 (owner: shrink a little and raise the budget):
+         133.9 → 122.2 MB; image budget test 90 → 140 MB. Bundle size test
+         now builds in production mode (it measured React's development
+         build under the test runner); real entry 227 KB, budget unchanged.
 - [ ] 15. Cover the remaining [~] steps with tests: swipe left sends the card
          to the back (8); "Back to the thread" re-centres and blur returns (3);
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
-36–38 done (not deployed). Owner reviews the 132 holes in holes-review.csv
+36–39 done (not deployed). Owner reviews the 132 holes in holes-review.csv
 (keep / edit / cut); then trim, tighten the image budget, redeploy. Still
 open: 29 (owner sets Supabase URLs), then 15. Open owner decisions are listed
 under "Handover" below.
@@ -256,7 +269,7 @@ under "Handover" below.
   -- --workers=1`.
 - Local: `npm run dev -- --host` (phone: http://192.168.0.2:5173).
   Tests: `npm test` (500 unit/data), `npm run test:e2e` (102 browser).
-- Content: 114 holes in holes/*.json (step 38); review sheet HOLES_REVIEW.md; import more from "Rabbit Holes — Reading
+- Content: 242 holes in holes/*.json (step 39); review sheet HOLES_REVIEW.md; import more from "Rabbit Holes — Reading
   Copy.txt" with `node scripts/import-holes.mjs "<txt>" 21-40`, then
   `node scripts/fetch-content.mjs`, then write claim/hatnotes/payoff.
 - Supabase: project rabbit-holes, id zqrfcmdhbdatrjooipif, org
@@ -423,6 +436,12 @@ under "Handover" below.
   over). Hole ids are kept when a salvage changed the start or end page
   (renaming would break saved shelves and links).
 
+- Hole standards (owner, 2026-10-24): a real ending that answers the hook;
+  a chain of connections, not one fact; no page with more than 2 passages;
+  about 280–420 words; plain, compelling hooks. Holes join the app only
+  after two judges rate them at least as good as holes the owner approved.
+- Article images at WebP quality 60, card images at 70 (owner, 2026-10-24).
+
 ## Known issues
 - GPT studio hooks are questions, so "[citation needed]" after them reads
   oddly; Ballpoint pen and Bic Cristal cards show the same photo.
@@ -535,3 +554,6 @@ under "Handover" below.
 - 2026-10-22: Step 38: owner's content pass applied (51 dark cut, 115 salvaged,
   55 recommended cuts). App 114 holes; 2164 unit + 190 browser tests pass.
   Not deployed. Next: owner reviews the new holes-review.csv.
+- 2026-10-24: Step 39: second content pass; app 242 holes; fetch survives dropped
+  connections; images shrunk a step. 4659 unit + 322 browser tests pass.
+  Not deployed. Next: owner reviews holes-review.csv.

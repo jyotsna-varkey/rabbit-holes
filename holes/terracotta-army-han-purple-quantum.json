@@ -1,0 +1,82 @@
+{
+  "id": "terracotta-army-han-purple-quantum",
+  "claim": "The Terracotta Army's trousers were painted with a pigment that 'loses a dimension'.",
+  "start": {
+    "title": "Terracotta Army",
+    "page": "Terracotta Army",
+    "description": "Collection of ancient Chinese military statues",
+    "image": "snapshots/images/Terracotta-Army.webp"
+  },
+  "end": {
+    "title": "Satyendra Nath Bose",
+    "page": "Satyendra Nath Bose",
+    "description": "Indian theoretical physicist (1894–1974)",
+    "image": "snapshots/images/Satyendra-Nath-Bose.webp"
+  },
+  "knots": [
+    {
+      "page": "Terracotta Army",
+      "url": "https://en.wikipedia.org/wiki/Terracotta_Army",
+      "revision": 1380487280,
+      "section": "The warriors",
+      "passage": "Originally, the figures were painted with ground precious stones, intensely fired bones (white), pigments of iron oxide (dark red), cinnabar (red), malachite (green), azurite (blue), charcoal (black), cinnabar barium copper silicate mix (Chinese purple or Han purple), tree sap from a nearby source (more than likely from the Chinese lacquer tree) (brown), and other colors including pink, lilac, red, and one unidentified color. The colored lacquer finish and individual facial features would have given the figures a realistic feel, with eyebrows and facial hair in black and the faces done in pink.",
+      "hatnote": "The warriors weren't always the colour of mud.",
+      "onwardLinkText": "cinnabar barium copper silicate mix",
+      "nextPage": "Han purple and Han blue"
+    },
+    {
+      "page": "Han purple and Han blue",
+      "url": "https://en.wikipedia.org/wiki/Han_purple_and_Han_blue",
+      "revision": 1380222425,
+      "section": "Terracotta army",
+      "passage": "Han purple and Han blue were first used in paints in the Qin dynasty. Han purple was used for the Terracotta Army in the tomb of Emperor Qin Shi Huang—the expense of producing Han purple and other pigments in such large quantities would have emphasized luxury and status. Han purple seems to have mostly been used on the trousers (pants) of the warriors.",
+      "hatnote": "Han purple was a man-made colour, and an expensive one.",
+      "onwardLinkText": null,
+      "nextPage": "Han purple and Han blue"
+    },
+    {
+      "page": "Han purple and Han blue",
+      "url": "https://en.wikipedia.org/wiki/Han_purple_and_Han_blue",
+      "revision": 1380222425,
+      "section": "Exotic properties and applications to superconductivity and quantum computing research",
+      "passage": "In 2006 scientists at Stanford, Los Alamos National Laboratory and the Institute for Solid State Physics (University of Tokyo), showed that Han purple \"loses a dimension\" under suitable conditions when it enters a new state, as a Bose-Einstein Condensate.",
+      "hatnote": "In 2006, physicists found the old pigment doing something astonishing.",
+      "onwardLinkText": "Bose-Einstein Condensate",
+      "nextPage": "Bose–Einstein condensate"
+    },
+    {
+      "page": "Bose–Einstein condensate",
+      "url": "https://en.wikipedia.org/wiki/Bose%E2%80%93Einstein_condensate",
+      "revision": 1374389793,
+      "section": "lead",
+      "passage": "In condensed matter physics, a Bose–Einstein condensate (BEC) is a state of matter that is typically formed when a gas of bosons at very low densities is cooled to temperatures very close to absolute zero, i.e. 0 K (−273.15 °C; −459.67 °F).",
+      "hatnote": "A Bose–Einstein condensate is one of physics' strangest states.",
+      "onwardLinkText": null,
+      "nextPage": "Bose–Einstein condensate"
+    },
+    {
+      "page": "Bose–Einstein condensate",
+      "url": "https://en.wikipedia.org/wiki/Bose%E2%80%93Einstein_condensate",
+      "revision": 1374389793,
+      "section": "lead",
+      "passage": "Bose–Einstein condensates were first predicted, generally, in 1924–1925 by Albert Einstein, crediting a pioneering paper by Satyendra Nath Bose on the new field now known as quantum statistics. In 1995, the Bose–Einstein condensate was created by Eric Cornell and Carl Wieman of the University of Colorado Boulder using rubidium atoms. Later that year, Wolfgang Ketterle of MIT produced a BEC using sodium atoms. In 2001 Cornell, Wieman, and Ketterle shared the Nobel Prize in Physics \"for the achievement of Bose–Einstein condensation in dilute gases of alkali atoms, and for early fundamental studies of the properties of the condensates\".",
+      "hatnote": "Predicting it took Einstein. Making one took seventy more years, and won a Nobel.",
+      "onwardLinkText": "Satyendra Nath Bose",
+      "nextPage": "Satyendra Nath Bose"
+    },
+    {
+      "page": "Satyendra Nath Bose",
+      "url": "https://en.wikipedia.org/wiki/Satyendra_Nath_Bose",
+      "revision": 1379213268,
+      "section": "Legacy",
+      "passage": "Although seven Nobel Prizes were awarded for research related to S N Bose's concepts of the boson, Bose–Einstein statistics and Bose–Einstein condensate, Bose himself was not awarded the Nobel Prize.",
+      "hatnote": "And the man whose idea started it all?",
+      "onwardLinkText": null,
+      "nextPage": "Satyendra Nath Bose"
+    }
+  ],
+  "payoff": "Qin's painters made trouser paint that enters a state of matter worth Nobel Prizes, yet Bose, who first imagined it, never won one.",
+  "caveats": [
+    "The Han purple condensate is of its magnetic excitations under special laboratory conditions, not of the pigment as found on the warriors; the passages say 'under suitable conditions'."
+  ]
+}

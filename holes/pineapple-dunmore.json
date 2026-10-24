@@ -1,0 +1,70 @@
+{
+  "id": "pineapple-dunmore",
+  "claim": "Scotland's 'most bizarre building' was built by a man Virginia's rebels loathed.",
+  "start": {
+    "title": "Pineapple",
+    "page": "Pineapple",
+    "description": "Species of flowering plant in the family Bromeliaceae",
+    "image": "snapshots/images/Pineapple.webp"
+  },
+  "end": {
+    "title": "John Murray, 4th Earl of Dunmore",
+    "page": "John Murray, 4th Earl of Dunmore",
+    "description": "British Army officer and colonial administrator (1730–1809)",
+    "image": "snapshots/images/John-Murray-4th-Earl-of-Dunmore.webp"
+  },
+  "knots": [
+    {
+      "page": "Pineapple",
+      "url": "https://en.wikipedia.org/wiki/Pineapple",
+      "revision": 1372920452,
+      "section": "Old World introduction",
+      "passage": "They were initially used mainly for display at dinner parties, rather than being eaten, and were used again and again until they began to rot. In the second half of the 18th century, the production of the fruit on British estates became the subject of great rivalry between wealthy aristocrats. John Murray, 4th Earl of Dunmore, built a hothouse on his estate surmounted by a huge stone cupola 14 metres tall in the shape of the fruit; it is known as the Dunmore Pineapple.",
+      "hatnote": "Pineapples were such status symbols they were displayed, not eaten.",
+      "onwardLinkText": "Dunmore Pineapple",
+      "nextPage": "Dunmore Pineapple"
+    },
+    {
+      "page": "Dunmore Pineapple",
+      "url": "https://en.wikipedia.org/wiki/Dunmore_Pineapple",
+      "revision": 1376696839,
+      "section": "lead",
+      "passage": "The Dunmore Pineapple is a folly in Dunmore Park, near Airth in Stirlingshire, Scotland. In 1995, it was ranked \"as the most bizarre building in Scotland\".",
+      "hatnote": "The stone pineapple still stands.",
+      "onwardLinkText": null,
+      "nextPage": "Dunmore Pineapple"
+    },
+    {
+      "page": "Dunmore Pineapple",
+      "url": "https://en.wikipedia.org/wiki/Dunmore_Pineapple",
+      "revision": 1376696839,
+      "section": "Building",
+      "passage": "A building containing a hothouse was built into this wall in 1761 by John Murray, 4th Earl of Dunmore. The hothouse, which was located in the ground floor of the building, was used, among other things, for growing pineapples. The south ground floor, which is now covered in stucco and largely overgrown with vines, was originally covered with glass windowpanes. Additional heat was provided by a furnace-driven heating system that circulated hot air through cavities in the wall construction of the adjoining hothouse buildings. The smoke from the furnace was expelled through four chimneys, cleverly disguised as Grecian urns.",
+      "hatnote": "Behind the folly was a working fruit factory.",
+      "onwardLinkText": "John Murray, 4th Earl of Dunmore",
+      "nextPage": "John Murray, 4th Earl of Dunmore"
+    },
+    {
+      "page": "John Murray, 4th Earl of Dunmore",
+      "url": "https://en.wikipedia.org/wiki/John_Murray%2C_4th_Earl_of_Dunmore",
+      "revision": 1369226869,
+      "section": "lead",
+      "passage": "As Virginia's governor, Dunmore directed a series of campaigns against the trans-Appalachian Indians, known as Lord Dunmore's War. He is noted for issuing a 1775 document, Dunmore's Proclamation, offering freedom to slaves who fought for the British Crown against Patriot rebels in Virginia. Dunmore fled to New York after the burning of Norfolk in 1776 and later returned to Britain.",
+      "hatnote": "Its owner had a far stormier job across the Atlantic.",
+      "onwardLinkText": null,
+      "nextPage": "John Murray, 4th Earl of Dunmore"
+    },
+    {
+      "page": "John Murray, 4th Earl of Dunmore",
+      "url": "https://en.wikipedia.org/wiki/John_Murray%2C_4th_Earl_of_Dunmore",
+      "revision": 1369226869,
+      "section": "Battle for control",
+      "passage": "Lacking diplomatic skills, Dunmore tried to govern without consulting the House of Burgesses of the Colonial Assembly for more than a year, which exacerbated an already tense situation. Richard Henry Lee would later write of the deeply unpopular governor that, if British administrators had \"searched through the world for a person the best fitted to ruin their cause and procure union and success for these Colonies, they could not have found a more complete Agent than Lord Dunmore.\"",
+      "hatnote": "His enemies had a memorable verdict on him.",
+      "onwardLinkText": null,
+      "nextPage": "John Murray, 4th Earl of Dunmore"
+    }
+  ],
+  "payoff": "The earl who grew pineapples to impress Scotland made such a mess of Virginia that a rebel called him the perfect agent of British ruin.",
+  "caveats": []
+}

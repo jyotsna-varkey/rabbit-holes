@@ -1,0 +1,80 @@
+{
+  "id": "television-farnsworth-fusor",
+  "claim": "Television's inventor left behind a fusion machine that hobbyists now build at home.",
+  "start": {
+    "title": "Television",
+    "page": "Television",
+    "description": "Medium for transmitting moving images and sound",
+    "image": "snapshots/images/Television.webp"
+  },
+  "end": {
+    "title": "Fusor",
+    "page": "Fusor",
+    "description": "Apparatus to create nuclear fusion",
+    "image": "snapshots/images/Fusor.webp"
+  },
+  "knots": [
+    {
+      "page": "Television",
+      "url": "https://en.wikipedia.org/wiki/Television",
+      "revision": 1380566010,
+      "section": "Electronic",
+      "passage": "On 7 September 1927, US inventor Philo Farnsworth's image dissector camera tube transmitted its first image, a simple straight line, at his laboratory at 202 Green Street in San Francisco. By 3 September 1928, Farnsworth had developed the system sufficiently to hold a demonstration for the press. This is widely regarded as the first electronic television demonstration.",
+      "hatnote": "Electronic television began with a single straight line.",
+      "onwardLinkText": "Philo Farnsworth",
+      "nextPage": "Philo Farnsworth"
+    },
+    {
+      "page": "Philo Farnsworth",
+      "url": "https://en.wikipedia.org/wiki/Philo_Farnsworth",
+      "revision": 1372255204,
+      "section": "TV appearance",
+      "passage": "Although he was the man responsible for its technology, Farnsworth appeared only once on a television program. On July 3, 1957, he was a mystery guest (\"Doctor X\") on the CBS quiz show I've Got A Secret. He fielded questions from the panel as they unsuccessfully tried to guess his secret (\"I invented electronic television.\"). For stumping the panel, he received $80 and a carton of Winston cigarettes.",
+      "hatnote": "Its inventor stayed oddly invisible on his own medium.",
+      "onwardLinkText": null,
+      "nextPage": "Philo Farnsworth"
+    },
+    {
+      "page": "Philo Farnsworth",
+      "url": "https://en.wikipedia.org/wiki/Philo_Farnsworth",
+      "revision": 1372255204,
+      "section": "Career",
+      "passage": "In addition to his electronics research, ITT management agreed to nominally fund Farnsworth's nuclear fusion research. He and staff members invented and refined a series of fusion reaction tubes called \"fusors\". For scientific reasons unknown to Farnsworth and his staff, the necessary reactions lasted no longer than thirty seconds.",
+      "hatnote": "By then he was chasing something far bigger than TV.",
+      "onwardLinkText": "fusors",
+      "nextPage": "Fusor"
+    },
+    {
+      "page": "Fusor",
+      "url": "https://en.wikipedia.org/wiki/Fusor",
+      "revision": 1377500743,
+      "section": "In fusors",
+      "passage": "In the original fusor design, several small particle accelerators, essentially TV tubes with the ends removed, inject ions at a relatively low voltage into a vacuum chamber.",
+      "hatnote": "Fittingly, his fusion machine was built from television parts.",
+      "onwardLinkText": null,
+      "nextPage": "Fusor"
+    },
+    {
+      "page": "Fusor",
+      "url": "https://en.wikipedia.org/wiki/Fusor",
+      "revision": 1377500743,
+      "section": "Work at Farnsworth Television labs",
+      "passage": "The team then turned to the AEC, then in charge of fusion research funding, and provided them with a demonstration device mounted on a serving cart that produced more fusion than any existing \"classical\" device. The observers were startled, but the timing was bad; Hirsch himself had recently revealed the great progress being made by the Soviets using the tokamak. In response to this surprising development, the AEC decided to concentrate funding on large tokamak projects, and reduce backing for alternative concepts.",
+      "hatnote": "It worked better than anyone expected, and still lost out.",
+      "onwardLinkText": null,
+      "nextPage": "Fusor"
+    },
+    {
+      "page": "Fusor",
+      "url": "https://en.wikipedia.org/wiki/Fusor",
+      "revision": 1377500743,
+      "section": "Recent developments",
+      "passage": "Most recently, the fusor has gained popularity among amateurs, who choose them as home projects due to their relatively low space, money, and power requirements. An online community of \"fusioneers\", The Open Source Fusor Research Consortium, or Fusor.net, is dedicated to reporting developments in the world of fusors and aiding other amateurs in their projects.",
+      "hatnote": "So the fusor found a new home: literally, the home.",
+      "onwardLinkText": null,
+      "nextPage": "Fusor"
+    }
+  ],
+  "payoff": "The man who put a picture tube in every home built a fusion machine from TV tubes, and garage 'fusioneers' now build their own.",
+  "caveats": []
+}

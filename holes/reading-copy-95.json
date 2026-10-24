@@ -1,0 +1,60 @@
+{
+  "id": "reading-copy-95",
+  "claim": "Decades before the phone, French bankers hacked a network of towers.",
+  "start": {
+    "title": "Telephone",
+    "page": "Telephone",
+    "description": "Telecommunications device",
+    "image": "snapshots/images/Telephone.webp"
+  },
+  "end": {
+    "title": "Optical telegraph",
+    "page": "Optical telegraph",
+    "description": "Tower-based signaling network",
+    "image": "snapshots/images/Optical-telegraph.webp"
+  },
+  "knots": [
+    {
+      "page": "Telephone",
+      "url": "https://en.wikipedia.org/wiki/Telephone",
+      "revision": 1376797188,
+      "section": "Early history",
+      "passage": "Before the development of the electric telephone, the term telephone was applied to other inventions, and not all early researchers of the electrical device used the term. Perhaps the earliest use of the word for a communications system was the telephon created by Gottfried Huth in 1796. Huth proposed an alternative to the optical telegraph of Claude Chappe in which the operators in the signaling towers would shout to each other by means of what he called \"speaking tubes\", but would now be called giant megaphones.",
+      "hatnote": "Before Bell, 'telephone' meant something else: a plan for towers that shouted.",
+      "onwardLinkText": "Claude Chappe",
+      "nextPage": "Claude Chappe"
+    },
+    {
+      "page": "Claude Chappe",
+      "url": "https://en.wikipedia.org/wiki/Claude_Chappe",
+      "revision": 1354466854,
+      "section": "lead",
+      "passage": "Claude Chappe (French: [klod ʃap]; 25 December 1763 – 23 January 1805) was a French inventor who in 1792 demonstrated a practical semaphore system that eventually spanned all of France. His system consisted of a series of towers, each within line of sight of others, each supporting a wooden mast with two crossarms on pivots that could be placed in various positions. The operator in a tower moved the arms to a sequence of positions, spelling out text messages in semaphore code.",
+      "hatnote": "Huth was trying to beat a silent system of towers that already worked.",
+      "onwardLinkText": "semaphore system",
+      "nextPage": "Optical telegraph"
+    },
+    {
+      "page": "Optical telegraph",
+      "url": "https://en.wikipedia.org/wiki/Optical_telegraph",
+      "revision": 1381090007,
+      "section": "History in France",
+      "passage": "The network was reserved for government use, but an early case of wire fraud occurred in 1834 when two bankers, François and Joseph Blanc, bribed the operators at a station near Tours on the line between Paris and Bordeaux to pass Paris stock exchange information to an accomplice in Bordeaux. It took three days for the information to travel the 480-kilometre (300 mi) distance, giving the schemers plenty of time to play the market.",
+      "hatnote": "Any network that carries news can be gamed. This one was.",
+      "onwardLinkText": null,
+      "nextPage": "Optical telegraph"
+    },
+    {
+      "page": "Optical telegraph",
+      "url": "https://en.wikipedia.org/wiki/Optical_telegraph",
+      "revision": 1381090007,
+      "section": "In popular culture",
+      "passage": "In Chapter 60 (\"The Telegraph\") of Alexandre Dumas' The Count of Monte Cristo (1844), the title character describes with fascination the semaphore line's moving arms: \"I had at times seen rise at the end of a road, on a hillock and in the bright light of the sun, these black folding arms looking like the legs of an immense beetle.\" He later bribes a semaphore operator to relay a false message in order to manipulate the French financial market. Dumas also describes in detail the functioning of a Chappe telegraph line.",
+      "hatnote": "Ten years later, a famous novel used the very same trick.",
+      "onwardLinkText": null,
+      "nextPage": "Optical telegraph"
+    }
+  ],
+  "payoff": "Chappe's towers beat Huth's shouting 'telephone', then fell to bankers bribing operators in 1834, the trick Dumas's Count of Monte Cristo repeats.",
+  "caveats": []
+}

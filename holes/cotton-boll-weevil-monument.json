@@ -1,0 +1,82 @@
+{
+  "id": "cotton-boll-weevil-monument",
+  "claim": "An Alabama town built a statue to thank the beetle that destroyed its cotton.",
+  "start": {
+    "title": "Cotton",
+    "page": "Cotton",
+    "description": "Plant fiber from the genus Gossypium",
+    "image": "snapshots/images/Cotton.webp"
+  },
+  "end": {
+    "title": "Boll Weevil Monument",
+    "page": "Boll Weevil Monument",
+    "description": "United States historic place",
+    "image": "snapshots/images/Boll-Weevil-Monument.webp"
+  },
+  "knots": [
+    {
+      "page": "Cotton",
+      "url": "https://en.wikipedia.org/wiki/Cotton",
+      "revision": 1380660722,
+      "section": "North American insect pests",
+      "passage": "Historically, in North America, one of the most economically destructive pests in cotton production has been the boll weevil.",
+      "hatnote": "Every crop has its nemesis. Cotton's came from Mexico.",
+      "onwardLinkText": "boll weevil",
+      "nextPage": "Boll weevil"
+    },
+    {
+      "page": "Boll weevil",
+      "url": "https://en.wikipedia.org/wiki/Boll_weevil",
+      "revision": 1375963515,
+      "section": "Impact",
+      "passage": "By 1922, it was taking 8% of the cotton in the country annually. This failure of the South's primary crop became a major impetus for the Great Migration of the time, although not the only one. Thereby it was one of the factors in the birth of the Harlem Renaissance—including the culture of the Cotton Club.",
+      "hatnote": "Its damage reached far beyond the fields, as far as Harlem.",
+      "onwardLinkText": null,
+      "nextPage": "Boll weevil"
+    },
+    {
+      "page": "Boll weevil",
+      "url": "https://en.wikipedia.org/wiki/Boll_weevil",
+      "revision": 1375963515,
+      "section": "Impact",
+      "passage": "The citizens of Enterprise, Alabama, erected the Boll Weevil Monument in 1919, perceiving that their economy had been overly dependent on cotton and that mixed farming and manufacturing were better alternatives.",
+      "hatnote": "Yet one Alabama town decided the pest deserved thanks.",
+      "onwardLinkText": "Enterprise, Alabama",
+      "nextPage": "Enterprise, Alabama"
+    },
+    {
+      "page": "Enterprise, Alabama",
+      "url": "https://en.wikipedia.org/wiki/Enterprise%2C_Alabama",
+      "revision": 1376404142,
+      "section": "Founding and the Boll Weevil Monument",
+      "passage": "Enterprise's way of life came under threat in 1915. An infestation of boll weevils found its way into the region's cotton crops, resulting in the destruction of most of the cotton in Coffee County. Facing economic ruin, the nearly bankrupt area farmers were forced to diversify, planting peanuts and other crops in an effort to lessen the damage and recoup some of their losses.",
+      "hatnote": "The weevil reached Enterprise in 1915, and the town had to change.",
+      "onwardLinkText": null,
+      "nextPage": "Enterprise, Alabama"
+    },
+    {
+      "page": "Enterprise, Alabama",
+      "url": "https://en.wikipedia.org/wiki/Enterprise%2C_Alabama",
+      "revision": 1376404142,
+      "section": "Founding and the Boll Weevil Monument",
+      "passage": "Two years later, Coffee County was the United States' leading producer of peanuts. Not only did Enterprise stave off disaster, but its economy was renewed by the thriving new crop base. In appreciation, the people of Enterprise erected a monument in the city center to what the monument calls their \"herald of prosperity\", the boll weevil. The Boll Weevil Monument was dedicated on December 11, 1919, as a reminder of how the city adjusted in the face of adversity.",
+      "hatnote": "The gamble on peanuts paid off fast.",
+      "onwardLinkText": "Boll Weevil Monument",
+      "nextPage": "Boll Weevil Monument"
+    },
+    {
+      "page": "Boll Weevil Monument",
+      "url": "https://en.wikipedia.org/wiki/Boll_Weevil_Monument",
+      "revision": 1376576789,
+      "section": "Description",
+      "passage": "The original statue of the woman, excluding the fountain and boll weevil, was crafted in Italy for approximately $1,800 (equivalent to $33,000 in 2025). The boll weevil was not added until thirty years later, when Luther Baker thought the Boll Weevil Monument should have a boll weevil on it. He made the boll weevil and mounted it atop the statue.",
+      "hatnote": "There was just one thing missing from the monument.",
+      "onwardLinkText": null,
+      "nextPage": "Boll Weevil Monument"
+    }
+  ],
+  "payoff": "The weevil that wrecked King Cotton pushed Enterprise into peanuts, so the town thanked it with a statue, which waited 30 years for its weevil.",
+  "caveats": [
+    "The weevil was one of several factors behind the Great Migration, as the Boll weevil page says."
+  ]
+}

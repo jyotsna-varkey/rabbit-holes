@@ -1,0 +1,72 @@
+{
+  "id": "suitcase-junkers-boiler-maker",
+  "claim": "The grooves on a famous aluminium suitcase trace back to a boiler factory.",
+  "start": {
+    "title": "Suitcase",
+    "page": "Suitcase",
+    "description": "Form of luggage",
+    "image": "snapshots/images/Suitcase.webp"
+  },
+  "end": {
+    "title": "Hugo Junkers",
+    "page": "Hugo Junkers",
+    "description": "German aviation pioneer (1859–1935)",
+    "image": "snapshots/images/Hugo-Junkers.webp"
+  },
+  "knots": [
+    {
+      "page": "Suitcase",
+      "url": "https://en.wikipedia.org/wiki/Suitcase",
+      "revision": 1371383722,
+      "section": "Late 19th century to mid-20th century: Beginnings",
+      "passage": "In 1938, a weight limit of 40 pounds for checked bags was established in the United States, which led to the heavier leather model of suitcase being supplanted by lighter plastic and cardboard suitcases throughout the 1930s and 1940s. German luggage company Rimowa built the first aluminum suitcase, which it started selling in 1950 with a grooved design inspired by the Junkers Ju 52 airplane.",
+      "hatnote": "Lighter suitcases arrived with air travel, and one borrowed an aeroplane's look.",
+      "onwardLinkText": "Junkers Ju 52",
+      "nextPage": "Junkers Ju 52"
+    },
+    {
+      "page": "Junkers Ju 52",
+      "url": "https://en.wikipedia.org/wiki/Junkers_Ju_52",
+      "revision": 1374490506,
+      "section": "lead",
+      "passage": "Development of the Ju 52 commenced in the late 1920s, headed by German aeronautical engineer Ernst Zindel. The aircraft's design incorporated a corrugated duralumin metal skin as a strengthening measure, which was a material design pioneered by Junkers and used on many of their aircraft, including the popular Junkers F 13 1920s, the record-setting Junkers W 33, and Junkers W34. The corrugation was both a strength and a weakness; it provided increased structural strength but also increased aerodynamic drag. But more importantly it allowed the practical use of aluminum before newer alloys were developed.",
+      "hatnote": "The plane's ribbed metal skin was a structural trick.",
+      "onwardLinkText": null,
+      "nextPage": "Junkers Ju 52"
+    },
+    {
+      "page": "Junkers Ju 52",
+      "url": "https://en.wikipedia.org/wiki/Junkers_Ju_52",
+      "revision": 1374490506,
+      "section": "lead",
+      "passage": "The Junkers Ju 52, best known in its Ju 52/3m form (nicknamed Tante Ju (\"Aunt Junkers\") and Iron Annie) is a transport aircraft that was designed and manufactured by German aviation company Junkers. First introduced in 1930 as a civilian airliner, it was adapted into a military transport aircraft by Nazi Germany.",
+      "hatnote": "'Aunt Ju' began as an airliner. It didn't stay one.",
+      "onwardLinkText": "Junkers",
+      "nextPage": "Junkers"
+    },
+    {
+      "page": "Junkers",
+      "url": "https://en.wikipedia.org/wiki/Junkers",
+      "revision": 1377134271,
+      "section": "lead",
+      "passage": "Junkers Flugzeug- und Motorenwerke AG (JFM, earlier JCO or JKO in World War I, English: Junkers Aircraft and Motor Works) more commonly Junkers [ˈjʊŋkɐs], was a major German aircraft and aircraft engine manufacturer. It was founded in Dessau, Germany, in 1895 by Hugo Junkers, initially manufacturing boilers and radiators. During World War I and following the war, the company became famous for its pioneering all-metal aircraft.",
+      "hatnote": "Its maker hadn't started out in aviation at all.",
+      "onwardLinkText": "Hugo Junkers",
+      "nextPage": "Hugo Junkers"
+    },
+    {
+      "page": "Hugo Junkers",
+      "url": "https://en.wikipedia.org/wiki/Hugo_Junkers",
+      "revision": 1368246391,
+      "section": "Aeronautical work",
+      "passage": "Junkers's aeronautical work began in earnest at age 50 when he worked with engineer Hans Reissner in Aachen. Reissner had developed an all-metal aircraft, on which work first started in 1909 at the Brand Heath, equipped with corrugated iron wings built by Junkers & Co. in Dessau. The iron wings were patented one year later.",
+      "hatnote": "The ribbed metal began with a boiler-maker's first wings.",
+      "onwardLinkText": null,
+      "nextPage": "Hugo Junkers"
+    }
+  ],
+  "payoff": "Rimowa's grooves copy the Ju 52's corrugated skin, a trick Junkers first used on iron wings built at his boiler works.",
+  "caveats": [
+    "The Suitcase article says Rimowa's grooves were inspired by the Ju 52; Rimowa's own article says only 'early all-metal aircraft'."
+  ]
+}

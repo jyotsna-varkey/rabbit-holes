@@ -1,0 +1,82 @@
+{
+  "id": "spider-zeta-reticuli",
+  "claim": "A spider's thread leads, star by star, to a famous alien abduction.",
+  "start": {
+    "title": "Spider",
+    "page": "Spider",
+    "description": "Order of arachnids",
+    "image": "snapshots/images/Spider.webp"
+  },
+  "end": {
+    "title": "Barney and Betty Hill incident",
+    "page": "Barney and Betty Hill incident",
+    "description": "Alleged alien abduction in 1961",
+    "image": "snapshots/images/Barney-and-Betty-Hill-incident.webp"
+  },
+  "knots": [
+    {
+      "page": "Spider",
+      "url": "https://en.wikipedia.org/wiki/Spider",
+      "revision": 1377148305,
+      "section": "Silk",
+      "passage": "Because spider silk is both light and very strong, attempts are being made to produce it in goats' milk and in the leaves of plants, by means of genetic engineering.",
+      "hatnote": "Spider silk is so good that people want to farm it.",
+      "onwardLinkText": "spider silk",
+      "nextPage": "Spider silk"
+    },
+    {
+      "page": "Spider silk",
+      "url": "https://en.wikipedia.org/wiki/Spider_silk",
+      "revision": 1370102600,
+      "section": "Science and technology",
+      "passage": "Spider silk has been used as a thread for crosshairs in optical instruments such as telescopes, microscopes, and telescopic rifle sights.",
+      "hatnote": "Long before genetic engineering, it was already a precision tool.",
+      "onwardLinkText": "crosshairs",
+      "nextPage": "Reticle"
+    },
+    {
+      "page": "Reticle",
+      "url": "https://en.wikipedia.org/wiki/Reticle",
+      "revision": 1366873881,
+      "section": "Astronomy",
+      "passage": "The constellation Reticulum was designated to recognize the reticle and its contributions to astronomy.",
+      "hatnote": "Those crosshairs were thanked in the sky itself.",
+      "onwardLinkText": "Reticulum",
+      "nextPage": "Reticulum"
+    },
+    {
+      "page": "Reticulum",
+      "url": "https://en.wikipedia.org/wiki/Reticulum",
+      "revision": 1374401333,
+      "section": "Features",
+      "passage": "Zeta Reticuli is a wide binary star system, with both members being similar to the Sun. It is located at a distance of about 39 light years. This system gained some notoriety in ufology when the alleged alien abductees Betty and Barney Hill named it as the home of their abductors.",
+      "hatnote": "One faint pair of stars in that net became infamous.",
+      "onwardLinkText": "Betty and Barney Hill",
+      "nextPage": "Barney and Betty Hill incident"
+    },
+    {
+      "page": "Barney and Betty Hill incident",
+      "url": "https://en.wikipedia.org/wiki/Barney_and_Betty_Hill_incident",
+      "revision": 1378343590,
+      "section": "Analyzing the star map",
+      "passage": "Assuming that one of the fifteen stars on the map must represent Earth's Sun, Fish constructed a three-dimensional model of nearby Sun-like stars (i.e., stars deemed to have characteristics that could support life such as that found on Earth) using thread and beads, basing stellar distances on those published in the 1969 Gliese Star Catalogue. Studying thousands of vantage points over several years, the only one that seemed to match the Hill map was from the viewpoint of the double star system of Zeta Reticuli (about 39 light-years from Earth).",
+      "hatnote": "In 1968 a schoolteacher tried to decode Betty Hill's alien 'star map'.",
+      "onwardLinkText": null,
+      "nextPage": "Barney and Betty Hill incident"
+    },
+    {
+      "page": "Barney and Betty Hill incident",
+      "url": "https://en.wikipedia.org/wiki/Barney_and_Betty_Hill_incident",
+      "revision": 1378343590,
+      "section": "Analyzing the star map",
+      "passage": "In the early 1990s, the European Hipparcos (\"high precision parallax collecting satellite\") mission, which measured the distances to more than a hundred thousand stars around the Sun more accurately than had previously been done, showed that some of the stars in Fish's interpretation of the map were in fact much farther away than previously thought. Other research revealed that some stars counted by Fish as likely to host life would have had to be excluded by her own criteria, while some other stars which had been discounted by Fish have been recognised as potential abodes for life. Results such as these led Fish herself to reject her hypothesis in a public statement.",
+      "hatnote": "Then a satellite measured the stars properly.",
+      "onwardLinkText": null,
+      "nextPage": "Barney and Betty Hill incident"
+    }
+  ],
+  "payoff": "Spider thread once fixed star positions; a constellation honours it, and a thread-and-bead model put alleged aliens in it, until better data unpicked it.",
+  "caveats": [
+    "The abduction is an unverified claim; the page presents it as alleged."
+  ]
+}

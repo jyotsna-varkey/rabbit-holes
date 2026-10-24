@@ -1,0 +1,80 @@
+{
+  "id": "dozen-tam-o-shanter",
+  "claim": "The man who defined a baker's dozen talked Burns into writing a witch tale.",
+  "start": {
+    "title": "Dozen",
+    "page": "Dozen",
+    "description": "Group of twelve items",
+    "image": "snapshots/images/Dozen.webp"
+  },
+  "end": {
+    "title": "Tam o' shanter (cap)",
+    "page": "Tam o' shanter (cap)",
+    "description": "Traditional Scottish bonnet",
+    "image": "snapshots/images/Tam-o-shanter-cap.webp"
+  },
+  "knots": [
+    {
+      "page": "Dozen",
+      "url": "https://en.wikipedia.org/wiki/Dozen",
+      "revision": 1379842788,
+      "section": "Baker's dozen",
+      "passage": "The expression is recorded from the late 16th century. The 1811 Classical Dictionary of the Vulgar Tongue by Francis Grose defines a baker's dozen as thirteen, explaining that thirteen rolls were allowed to the purchaser of a dozen.",
+      "hatnote": "A baker's dozen is thirteen. One famous slang dictionary explained why.",
+      "onwardLinkText": "Francis Grose",
+      "nextPage": "Francis Grose"
+    },
+    {
+      "page": "Francis Grose",
+      "url": "https://en.wikipedia.org/wiki/Francis_Grose",
+      "revision": 1330733702,
+      "section": "Books and publications",
+      "passage": "He did not get on well with his new commanding officer, and he handled regimental finances in a slipshod manner. The result was that he incurred debts towards fellow officers that would take years to straighten out. The financial pressure forced him to increase both the rate and the range of his publications.",
+      "hatnote": "Its compiler, a soldier-artist, wrote so much partly because he was broke.",
+      "onwardLinkText": null,
+      "nextPage": "Francis Grose"
+    },
+    {
+      "page": "Francis Grose",
+      "url": "https://en.wikipedia.org/wiki/Francis_Grose",
+      "revision": 1330733702,
+      "section": "Books and publications",
+      "passage": "It was on the second of these tours, in summer 1789, that he met and immediately formed a friendship with the poet Robert Burns. Burns met him while he was staying with Robert Riddell at the Friar's Carse, collecting material for his Scottish work. Burns suggested to him that he should include Alloway Kirk in his Scottish Antiquities, and Grose agreed on condition that Burns provided a witch tale to go with his drawing. In June 1790, Burns sent Grose a prose tale with a variant in a letter to Grose, following it up with a rhymed version, \"Tam o' Shanter\".",
+      "hatnote": "Churning out books took him sketching in Scotland, where he met a poet.",
+      "onwardLinkText": "Tam o' Shanter",
+      "nextPage": "Tam o' Shanter (poem)"
+    },
+    {
+      "page": "Tam o' Shanter (poem)",
+      "url": "https://en.wikipedia.org/wiki/Tam_o'_Shanter_(poem)",
+      "revision": 1375596148,
+      "section": "lead",
+      "passage": "The music intensifies as the witches dance and, seeing one witch in a short dress, Tam loses his reason and shouts, '\"Weel done, cutty-sark!\" (\"weel\": well; \"cutty-sark\": short shirt). Immediately, the lights go out, the music and dancing stop, and many of the creatures lunge after Tam, with the witches leading. Tam turns and flees, driving his horse towards the River Doon as the creatures dare not cross a running stream. The witches come close enough that they pull Meg's tail off just as she reaches the Brig o' Doon.",
+      "hatnote": "Burns delivered: a farmer named Tam, a dance of witches, a wild ride.",
+      "onwardLinkText": null,
+      "nextPage": "Tam o' Shanter (poem)"
+    },
+    {
+      "page": "Tam o' Shanter (poem)",
+      "url": "https://en.wikipedia.org/wiki/Tam_o'_Shanter_(poem)",
+      "revision": 1375596148,
+      "section": "Cultural depictions",
+      "passage": "This poem appears to be the first mention of the name.The tam o' shanter cap is named after it.",
+      "hatnote": "The poem even named something you can still buy.",
+      "onwardLinkText": "tam o' shanter cap",
+      "nextPage": "Tam o' shanter (cap)"
+    },
+    {
+      "page": "Tam o' shanter (cap)",
+      "url": "https://en.wikipedia.org/wiki/Tam_o'_shanter_(cap)",
+      "revision": 1368178847,
+      "section": "Military use",
+      "passage": "In the First World War, a khaki Balmoral bonnet was introduced in 1915 for wear in the trenches by Scottish infantry serving on the Western Front. This came to be known as the \"bonnet, tam o' shanter\", later abbreviated among military personnel to \"ToS\". It replaced the Glengarry – which was the regulation bonnet worn by Scottish troops with khaki field dress at the start of the war. Originally knitted, the military tam o' shanter subsequently came to be constructed from separate pieces of khaki serge cloth.",
+      "hatnote": "A century later, that hat went to war.",
+      "onwardLinkText": null,
+      "nextPage": "Tam o' shanter (cap)"
+    }
+  ],
+  "payoff": "A slang collector's debts sent him sketching in Scotland, where a drawing bought Burns's witch tale, which named the bonnet Scottish soldiers wore.",
+  "caveats": []
+}

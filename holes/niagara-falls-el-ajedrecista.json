@@ -40,18 +40,8 @@
       "revision": 1376579022,
       "section": "lead",
       "passage": "The system was designed by Spanish engineer Leonardo Torres Quevedo and has been upgraded several times since 1916 (in 1961, 1967, 1984 and 2023). The system uses one car that carries 35 standing passengers over a one-kilometre trip.",
-      "hatnote": "The designer was a Spanish engineer, and the car has run since 1916.",
+      "hatnote": "Its 1916 design is still in service, upgraded several times since.",
       "onwardLinkText": "Leonardo Torres Quevedo",
-      "nextPage": "Leonardo Torres Quevedo"
-    },
-    {
-      "page": "Leonardo Torres Quevedo",
-      "url": "https://en.wikipedia.org/wiki/Leonardo_Torres_Quevedo",
-      "revision": 1380795438,
-      "section": "Cableways",
-      "passage": "Torres' studies in the field of cableways began around 1880, during his residence in his hometown of Molledo. There, in 1885, he constructed the first cableway, which spanned a depression of some 40 metres (130 ft). The cableway was about 200 metres (660 ft) wide and carried a single person seated in a chair suspended from a cable, with another traction cable. The engine used to move the human cargo was a pair of cows.",
-      "hatnote": "Its Spanish designer had started small, in his home village.",
-      "onwardLinkText": null,
       "nextPage": "Leonardo Torres Quevedo"
     },
     {
@@ -85,6 +75,6 @@
       "nextPage": "El Ajedrecista"
     }
   ],
-  "payoff": "From a cow-drawn chair to Niagara's Aero Car and a machine that beat Tartakower: Torres's inventions are still working.",
+  "payoff": "Torres's 1916 cable car still carries Niagara tourists, and his chess machine that beat Tartakower still works in Madrid.",
   "caveats": []
 }

@@ -1,0 +1,70 @@
+{
+  "id": "metre-messier-102",
+  "claim": "The man who measured the metre also disowned a galaxy, probably by mistake.",
+  "start": {
+    "title": "Metre",
+    "page": "Metre",
+    "description": "SI unit of length",
+    "image": "snapshots/images/Metre.webp"
+  },
+  "end": {
+    "title": "Messier 102",
+    "page": "Messier 102",
+    "description": "Galaxy with a disputed and ambiguous identity",
+    "image": "snapshots/images/Messier-102.webp"
+  },
+  "knots": [
+    {
+      "page": "Metre",
+      "url": "https://en.wikipedia.org/wiki/Metre",
+      "revision": 1378344055,
+      "section": "History of definition",
+      "passage": "Following the arc measurement of Delambre and Méchain, the historical French official standard of the metre was made available in the form of the Mètre des Archives, a platinum bar held in Paris. It was originally also planned to dematerialise the definition of the metre by counting the number of swings of a one-metre-long pendulum during a day at a latitude of 45°. However, dematerialising the definition of units of length by means of the pendulum would prove less reliable than artefacts.",
+      "hatnote": "The metre was meant to be a slice of the Earth itself.",
+      "onwardLinkText": "arc measurement of Delambre and Méchain",
+      "nextPage": "Arc measurement of Delambre and Méchain"
+    },
+    {
+      "page": "Arc measurement of Delambre and Méchain",
+      "url": "https://en.wikipedia.org/wiki/Arc_measurement_of_Delambre_and_M%C3%A9chain",
+      "revision": 1368708272,
+      "section": "Invention and international adoption of the metre as scientific unit of length",
+      "passage": "The task of surveying the meridian arc fell to Pierre Méchain and Jean-Baptiste Delambre, and took more than six years (1792–1798). The technical difficulties were not the only problems the surveyors had to face in the convulsed period of the aftermath of the Revolution: Méchain and Delambre, and later François Arago, were imprisoned several times during their surveys, and Méchain died in 1804 of yellow fever, which he contracted while trying to improve his original results in northern Spain.",
+      "hatnote": "Measuring France during a revolution was dangerous work.",
+      "onwardLinkText": "Pierre Méchain",
+      "nextPage": "Pierre Méchain"
+    },
+    {
+      "page": "Pierre Méchain",
+      "url": "https://en.wikipedia.org/wiki/Pierre_M%C3%A9chain",
+      "revision": 1371985280,
+      "section": "Life",
+      "passage": "A particularly intriguing fact about this project was that Méchain was uncertain of the precision of his measurements owing to anomalous results in verifying his latitude by astronomical observation. Ultimately, the distance from the pole to the equator, which Méchain and his associate Jean Baptiste Joseph Delambre had intended to be exactly ten million meters (or ten thousand kilometres), was determined in the late 20th century by space satellites to be 10,002,290 metres.",
+      "hatnote": "Why go back to Spain? Méchain didn't trust his own numbers.",
+      "onwardLinkText": null,
+      "nextPage": "Pierre Méchain"
+    },
+    {
+      "page": "Pierre Méchain",
+      "url": "https://en.wikipedia.org/wiki/Pierre_M%C3%A9chain",
+      "revision": 1371985280,
+      "section": "Discoveries",
+      "passage": "Méchain discovered either 25 or 26 deep-sky objects, depending on how one counts M102. Méchain disavowed the M102 observation in 1783, claiming it was a mistaken re-observation of M101. Since that time, others have proposed that he did in fact observe another object, and suggested what they might be.",
+      "hatnote": "Before the metre, he hunted for objects in the night sky.",
+      "onwardLinkText": "M102",
+      "nextPage": "Messier 102"
+    },
+    {
+      "page": "Messier 102",
+      "url": "https://en.wikipedia.org/wiki/Messier_102",
+      "revision": 1354335859,
+      "section": "lead",
+      "passage": "Messier 102 (also known as M102) is a galaxy listed in the Messier Catalogue that cannot be unambiguously identified. Its original discoverer Pierre Méchain retracted his discovery two years after publication and said that it was a duplicate observation of Messier 101. Later historical evidence favors that M102 is actually the galaxy NGC 5866, although other galaxies have been suggested as possible identities. The National Aeronautics and Space Administration (NASA) considers it to be the same as NGC 5866.",
+      "hatnote": "The galaxy he took back may have been real all along.",
+      "onwardLinkText": null,
+      "nextPage": "Messier 102"
+    }
+  ],
+  "payoff": "Méchain doubted his own work twice: his metre survey missed by just 2,290 metres, and the galaxy he disowned is one NASA counts as real.",
+  "caveats": []
+}

@@ -63,8 +63,18 @@
       "hatnote": "And the forbidden book took on a life of its own.",
       "onwardLinkText": null,
       "nextPage": "Necronomicon"
+    },
+    {
+      "page": "Necronomicon",
+      "url": "https://en.wikipedia.org/wiki/Necronomicon",
+      "revision": 1379715495,
+      "section": "Hoaxes",
+      "passage": "In 1973, George H. Scithers commercially published a hoax Necronomicon under his publishing company Owlswick. It featured an introduction by L. Sprague de Camp that purported it to be untranslatable and detailed a fictional history of various attempted translators who died mysteriously. In reality, it consisted of repeated, nonsensical glyphs in a fictional language known as Duriac. When some credulous customers believed it to be authentic, Scithers attempted to convince them otherwise.",
+      "hatnote": "So someone finally printed it.",
+      "onwardLinkText": null,
+      "nextPage": "Necronomicon"
     }
   ],
-  "payoff": "Ole Worm proved the unicorn wasn't real; Lovecraft made Worm the translator of a book that wasn't real, and readers went looking for it.",
+  "payoff": "Worm unmasked fake unicorn horn; Lovecraft made him translator of a fake book, and when someone printed it in gibberish, buyers still believed.",
   "caveats": []
 }

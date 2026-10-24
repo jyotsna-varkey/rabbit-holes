@@ -22,7 +22,8 @@ import { readFile, readdir, writeFile, mkdir, rm } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { parseHTML } from 'linkedom';
 import { existsSync } from 'node:fs';
-import { compressImage, LEAD_MAX_WIDTH } from './images.mjs';
+import { ARTICLE_WEBP_QUALITY, compressImage, LEAD_MAX_WIDTH } from './images.mjs';
+import { makeGet } from './http.mjs';
 import { fragmentFor, fragmentKey, keyOf, knotProblems, loadDom, passageSection } from './knots.mjs';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
@@ -42,17 +43,7 @@ await mkdir(`${SNAP}/images`, { recursive: true });
 
 const pathTitle = (title) => encodeURIComponent(title.replace(/ /g, '_'));
 
-async function get(url, as = 'json') {
-  for (let attempt = 0; attempt < 5; attempt++) {
-    await new Promise((r) => setTimeout(r, 300));
-    const res = await fetch(url, { headers: { 'User-Agent': UA, 'Api-User-Agent': UA } });
-    if (res.ok) return as === 'json' ? res.json() : as === 'text' ? res.text() : Buffer.from(await res.arrayBuffer());
-    if (res.status !== 429 && res.status < 500) throw new Error(`${res.status} ${url}`);
-    const wait = Number(res.headers.get('retry-after')) || 2 * (attempt + 1);
-    await new Promise((r) => setTimeout(r, (wait + 1) * 1000));
-  }
-  throw new Error(`gave up on ${url}`);
-}
+const get = makeGet({ ua: UA });
 
 const DROP_SECTIONS = /^(references|notes|further reading|external links|see also|bibliography|sources|citations|footnotes|notes and references|works cited)$/i;
 const DROP_SELECTORS = [
@@ -164,7 +155,7 @@ async function bundleImages(body, key) {
       file = `${String(++n).padStart(3, '0')}-${base}`;
       // Some images (e.g. rendered maths formulas) have no extension in their URL.
       if (!/\.(jpe?g|png|gif|svg|webp)$/i.test(file)) file += `.${sniffImageType(bytes)}`;
-      const out = await compressImage(bytes, file.split('.').pop());
+      const out = await compressImage(bytes, file.split('.').pop(), { quality: ARTICLE_WEBP_QUALITY });
       file = file.replace(/\.[^.]+$/, `.${out.ext}`);
       await writeFile(`${dir}/${file}`, out.bytes);
       saved.set(src, file);

@@ -1,6 +1,6 @@
 {
   "id": "bicycle-recumbent-hour-record",
-  "claim": "A second-tier racer broke cycling's hour record, so the sport redefined the bicycle.",
+  "claim": "An unfancied racer broke cycling's hour record, so the sport banned his bike.",
   "start": {
     "title": "Bicycle",
     "page": "Bicycle",
@@ -8,10 +8,10 @@
     "image": "snapshots/images/Bicycle.webp"
   },
   "end": {
-    "title": "Recumbent bicycle",
-    "page": "Recumbent bicycle",
-    "description": "Type of bicycle",
-    "image": "snapshots/images/Recumbent-bicycle.webp"
+    "title": "Francesco Moser",
+    "page": "Francesco Moser",
+    "description": "Italian cyclist (born 1951)",
+    "image": "snapshots/images/Francesco-Moser.webp"
   },
   "knots": [
     {
@@ -21,17 +21,7 @@
       "section": "Frame",
       "passage": "Another style is the recumbent bicycle. These are inherently more aerodynamic than upright versions, as the rider may lean back onto a support and operate pedals that are on about the same level as the seat. The world's fastest bicycle is a recumbent bicycle but this type was banned from competition in 1934 by the Union Cycliste Internationale.",
       "hatnote": "The fastest bike in the world is not allowed in bike races.",
-      "onwardLinkText": "Union Cycliste Internationale",
-      "nextPage": "Union Cycliste Internationale"
-    },
-    {
-      "page": "Union Cycliste Internationale",
-      "url": "https://en.wikipedia.org/wiki/Union_Cycliste_Internationale",
-      "revision": 1376138242,
-      "section": "Records",
-      "passage": "They were promoted for three classes of bicycle: solos, tandems and unusual machines such as what are now known as recumbents, on which the rider lies horizontal. Distances were imperial and metric, from 440 yards and 500 metres to 24 hours. The UCI banned recumbents in competitions and in record attempts on 1 April 1934.",
-      "hatnote": "The UCI's early records even had a class for odd machines, until 1934.",
-      "onwardLinkText": "recumbents",
+      "onwardLinkText": "recumbent bicycle",
       "nextPage": "Recumbent bicycle"
     },
     {
@@ -41,30 +31,42 @@
       "section": "The Mochet 'Vélo-Velocar' and 'Vélorizontal'",
       "passage": "To demonstrate the speed of his recumbent bicycle, Mochet had the design ratified by the UCI and UVF and enlisted cyclist Francis Faure, a Category 2 racer, to ride it in races. Faure was highly successful, defeating many of Europe's top cyclists both on the track and in road races, and setting new world records at short distances. Another cyclist, Paul Morand, won the Paris-Limoges race in 1933 on one of Mochet's recumbents.",
       "hatnote": "It began with a French maker who needed a rider for his lie-down bike.",
-      "onwardLinkText": null,
-      "nextPage": "Recumbent bicycle"
+      "onwardLinkText": "Francis Faure",
+      "nextPage": "Francis Faure"
     },
     {
-      "page": "Recumbent bicycle",
-      "url": "https://en.wikipedia.org/wiki/Recumbent_bicycle",
-      "revision": 1377386032,
-      "section": "The Mochet 'Vélo-Velocar' and 'Vélorizontal'",
-      "passage": "On 7 July 1933, at a Paris velodrome, Faure rode a modified Vélo-Velocar 45.055 km (27.996 mi) in one hour, beating an almost 20-year-old hour record held by Oscar Egg, and attracting a great deal of attention.",
-      "hatnote": "Then Faure took on cycling's most famous record.",
+      "page": "Francis Faure",
+      "url": "https://en.wikipedia.org/wiki/Francis_Faure",
+      "revision": 1251088553,
+      "section": "lead",
+      "passage": "Francis Faure (1910, Ambert – 1948) was a French bicycle racer who captured the world hour record in July 1933 on a Vélocar. This prompted the Union Cycliste Internationale (UCI) to restrict bicycle designs for all future competitions.",
+      "hatnote": "His Category 2 racer then went after cycling's most famous record.",
       "onwardLinkText": null,
-      "nextPage": "Recumbent bicycle"
+      "nextPage": "Francis Faure"
     },
     {
-      "page": "Recumbent bicycle",
-      "url": "https://en.wikipedia.org/wiki/Recumbent_bicycle",
-      "revision": 1377386032,
-      "section": "The Mochet 'Vélo-Velocar' and 'Vélorizontal'",
-      "passage": "When the Union Cycliste Internationale (UCI) met in February 1934, manufacturers of 'upright' bicycles lobbied to have Faure's one-hour record declared invalid. On 1 April 1934, the UCI published a new definition of a racing bicycle that specified how high the bottom bracket could be above the ground, how far it could be in front of the seat and how close it could be to the front wheel. The new definition effectively banned recumbents from UCI events for a combination of tradition, safety, and economic reasons.",
-      "hatnote": "The upright-bike industry did not take it well.",
+      "page": "Francis Faure",
+      "url": "https://en.wikipedia.org/wiki/Francis_Faure",
+      "revision": 1251088553,
+      "section": "1938",
+      "passage": "In 1938, Faure rode an updated, streamlined Vélocar to become the first cyclists to exceed 50 km in one hour, but this record is unofficial because of the UCI ban on non-traditional designs. This record was not broken on a conventional bicycle until Francesco Moser rode one for 51.151 km in 1984.",
+      "hatnote": "Banned or not, Faure kept riding the thing.",
+      "onwardLinkText": "Francesco Moser",
+      "nextPage": "Francesco Moser"
+    },
+    {
+      "page": "Francesco Moser",
+      "url": "https://en.wikipedia.org/wiki/Francesco_Moser",
+      "revision": 1380381085,
+      "section": "Other accomplishments",
+      "passage": "He rode 50.808 kilometres on an aerodynamic bike with full disc wheels, more advanced than the conventional bike Merckx used in 1972. As a result, in 1997, the Union Cycliste Internationale banned hour records set on bikes featuring technological advantages. Under the new rules, Merckx's record wasn't broken until 2000.",
+      "hatnote": "Moser did it on a futuristic bike, and history repeated itself.",
       "onwardLinkText": null,
-      "nextPage": "Recumbent bicycle"
+      "nextPage": "Francesco Moser"
     }
   ],
-  "payoff": "Faure's lie-down hour ride didn't just lose its record: the UCI rewrote the very definition of a racing bicycle to shut it out.",
-  "caveats": []
+  "payoff": "Faure's lie-down record got recumbents banned; fifty years later Moser's disc-wheeled record got high-tech bikes banned too. The UCI keeps protecting the old bicycle.",
+  "caveats": [
+    "The Faure page gives Moser's 1984 distance as 51.151 km; the Moser page gives 50.808 km (Moser set two hour records that week)."
+  ]
 }

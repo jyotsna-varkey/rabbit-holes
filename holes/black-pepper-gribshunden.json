@@ -1,0 +1,72 @@
+{
+  "id": "black-pepper-gribshunden",
+  "claim": "Two thousand peppercorns sank with a Danish king's plan to win back Sweden.",
+  "start": {
+    "title": "Black pepper",
+    "page": "Black pepper",
+    "description": "Ground fruit of the family Piperaceae",
+    "image": "snapshots/images/Black-pepper.webp"
+  },
+  "end": {
+    "title": "Hans, King of Denmark",
+    "page": "Hans, King of Denmark",
+    "description": "Scandinavian king under the Kalmar Union (1455–1513)",
+    "image": "snapshots/images/Hans-King-of-Denmark.webp"
+  },
+  "knots": [
+    {
+      "page": "Black pepper",
+      "url": "https://en.wikipedia.org/wiki/Black_pepper",
+      "revision": 1377161631,
+      "section": "Postclassical Europe",
+      "passage": "Pepper was so valuable that it was often used as collateral or even currency. The taste for pepper (or the appreciation of its monetary value) was passed on to those who would see Rome fall. Alaric, king of the Visigoths, included 3,000 pounds of pepper as part of the ransom he demanded from Rome when he besieged the city in the fifth century.",
+      "hatnote": "Pepper was once worth its weight in power.",
+      "onwardLinkText": null,
+      "nextPage": "Black pepper"
+    },
+    {
+      "page": "Black pepper",
+      "url": "https://en.wikipedia.org/wiki/Black_pepper",
+      "revision": 1377161631,
+      "section": "Postclassical Europe",
+      "passage": "Archaeological evidence of pepper consumption in late medieval Northern Europe comes from excavations on the Danish-Norwegian flagship, Gribshunden, which sank in the summer of 1495. In 2021, archaeologists recovered more than 2,000 peppercorns from the wreck, along with a variety of other spices and exotic foodstuffs including clove, ginger, saffron, and almond. The ship was carrying King Hans to a political summit at the time of its loss. The spices were likely intended for feasts at the summit, which would have included the Danish, Norwegian, and Swedish Councils of State.",
+      "hatnote": "Proof of pepper's prestige turned up at the bottom of the Baltic.",
+      "onwardLinkText": "Gribshunden",
+      "nextPage": "Gribshunden"
+    },
+    {
+      "page": "Gribshunden",
+      "url": "https://en.wikipedia.org/wiki/Gribshunden",
+      "revision": 1358048183,
+      "section": "lead",
+      "passage": "Gribshunden sank in 1495 after an explosion while in the Baltic Sea off the coast of Ronneby in southeastern Sweden; the ship is one of the best-preserved wrecks yet discovered from the late medieval period.",
+      "hatnote": "The spice ship was King Hans's flagship, the 'Griffin-Hound'.",
+      "onwardLinkText": null,
+      "nextPage": "Gribshunden"
+    },
+    {
+      "page": "Gribshunden",
+      "url": "https://en.wikipedia.org/wiki/Gribshunden",
+      "revision": 1358048183,
+      "section": "History",
+      "passage": "The first mention of this ship by name comes from a letter dated 16 May 1486, in which Hans, King of Denmark and Norway, noted his location as \"in navi nostra Griffone\", Latin for \"in our ship Griffon\". Gribshunden and its variant names were then subsequently recorded in the Danish fleet's ship lists from 1487 to 1495.",
+      "hatnote": "He had sailed her for nearly a decade, as letters show.",
+      "onwardLinkText": "Hans, King of Denmark and Norway",
+      "nextPage": "Hans, King of Denmark"
+    },
+    {
+      "page": "Hans, King of Denmark",
+      "url": "https://en.wikipedia.org/wiki/Hans%2C_King_of_Denmark",
+      "revision": 1361800799,
+      "section": "Restoration of the Kalmar Union",
+      "passage": "On his way from Copenhagen to Kalmar in June 1495, Hans's premier vessel and flagship, the artillery-carrying carvel Gribshunden, exploded and sank at anchor near Ronneby. Hans himself had left the ship prior to the accident, and so was uninjured and able to continue to Kalmar by other means of conveyance. However, Sten repeatedly delayed his appearance by over a month, effectively sabotaging the negotiations. After weeks of fruitless waiting, Hans abandoned the summit in August and returned to Copenhagen.",
+      "hatnote": "The feast was for a Kalmar summit with Sweden's leader, Sten Sture.",
+      "onwardLinkText": null,
+      "nextPage": "Hans, King of Denmark"
+    }
+  ],
+  "payoff": "The peppercorns were meant to dazzle a summit to win back Sweden; instead the flagship blew up, Sweden's leader stalled, and King Hans sailed home.",
+  "caveats": [
+    "King Hans of Denmark is called John, King of Denmark on some pages."
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "vikings-varangian-guard-englishmen",
+  "claim": "After 1066, the Byzantine emperor's Viking bodyguard filled up with Englishmen.",
+  "start": {
+    "title": "Vikings",
+    "page": "Vikings",
+    "description": "Norse seafarers, merchants and raiders",
+    "image": "snapshots/images/Vikings.webp"
+  },
+  "end": {
+    "title": "Varangian Guard",
+    "page": "Varangian Guard",
+    "description": "Elite unit of the Byzantine Army",
+    "image": "snapshots/images/Varangian-Guard.webp"
+  },
+  "knots": [
+    {
+      "page": "Vikings",
+      "url": "https://en.wikipedia.org/wiki/Vikings",
+      "revision": 1377364110,
+      "section": "Viking Age",
+      "passage": "In the late 10th century, a new unit of the imperial bodyguard formed. Traditionally containing large numbers of Scandinavians, it was known as the Varangian Guard. The word Varangian may have originated in Old Norse, but in Slavic and Greek it could refer either to Scandinavians or Franks. In these years, Swedish men left to enlist in the Byzantine Varangian Guard in such numbers that a medieval Swedish law, the Västgötalagen, from Västergötland declared no-one could inherit while staying in \"Greece\"—the then Scandinavian term for the Byzantine Empire—to stop the emigration, especially as two other European courts simultaneously also recruited Scandinavians: Kievan Rus' c. 980–1060 and London 1018–1066 (the Þingalið).",
+      "hatnote": "Vikings didn't only raid the Byzantine Empire. They guarded it.",
+      "onwardLinkText": "Varangian",
+      "nextPage": "Varangians"
+    },
+    {
+      "page": "Varangians",
+      "url": "https://en.wikipedia.org/wiki/Varangians",
+      "revision": 1376529009,
+      "section": "lead",
+      "passage": "The Varangians (/vəˈrændʒiənz/) were Viking warriors, traders and settlers, mostly from present-day Sweden, who settled in the territories of present-day Belarus, Russia and Ukraine from the 8th and 9th centuries and established the state of Kievan Rus' as well as the principalities of Polotsk and Turov. They also formed the Byzantine Varangian Guard.",
+      "hatnote": "The Varangians were mostly Swedes heading east.",
+      "onwardLinkText": "Varangian Guard",
+      "nextPage": "Varangian Guard"
+    },
+    {
+      "page": "Varangian Guard",
+      "url": "https://en.wikipedia.org/wiki/Varangian_Guard",
+      "revision": 1367469934,
+      "section": "Norse sagas",
+      "passage": "Harald then sought to leave his post, but was denied this. He eventually escaped and returned home in 1043, becoming King of Norway before eventually dying at the Battle of Stamford Bridge while invading England in 1066.",
+      "hatnote": "The Guard's most famous recruit, Norway's Harald Hardrada, wanted out.",
+      "onwardLinkText": null,
+      "nextPage": "Varangian Guard"
+    },
+    {
+      "page": "Varangian Guard",
+      "url": "https://en.wikipedia.org/wiki/Varangian_Guard",
+      "revision": 1367469934,
+      "section": "History",
+      "passage": "Composed primarily of Scandinavians for the first 100 years, the guard began to see increasing numbers of Anglo-Saxons after the successful invasion of England by the Normans. In 1088, a large number of Anglo-Saxons and Danes emigrated to the Byzantine Empire by way of the Mediterranean. One source has more than 5,000 of them arriving in 235 ships. Those who did not enter imperial service settled on the Black Sea coast, building and garrisoning the town of Helenopolis for Alexios I. Those who did became so vital to the Varangians that the Guard was commonly called the Englinbarrangoi (Anglo-Varangians) from that point. In this capacity, they fought in Sicily against the Normans under Robert Guiscard, who unsuccessfully sought to invade the lower Balkans as well.",
+      "hatnote": "1066 sent the Guard a new kind of recruit.",
+      "onwardLinkText": null,
+      "nextPage": "Varangian Guard"
+    }
+  ],
+  "payoff": "Harald Hardrada quit the Guard and fell invading England in 1066; the Norman conquest then sent Englishmen east to guard Byzantium and fight Normans again.",
+  "caveats": []
+}

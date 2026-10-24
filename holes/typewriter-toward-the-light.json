@@ -1,0 +1,80 @@
+{
+  "id": "typewriter-toward-the-light",
+  "claim": "The first typewriter's inventor had a daughter who took dictation from spirits.",
+  "start": {
+    "title": "Typewriter",
+    "page": "Typewriter",
+    "description": "Mechanical device for typing characters",
+    "image": "snapshots/images/Typewriter.webp"
+  },
+  "end": {
+    "title": "Toward the Light",
+    "page": "Toward the Light",
+    "description": "1920 Danish book by Michael Agerskov",
+    "image": ""
+  },
+  "knots": [
+    {
+      "page": "Typewriter",
+      "url": "https://en.wikipedia.org/wiki/Typewriter",
+      "revision": 1380717326,
+      "section": "Hansen Writing Ball",
+      "passage": "In 1865, Rev. Rasmus Malling-Hansen of Denmark invented the Hansen Writing Ball, which went into commercial production in 1870 and was the first commercially sold typewriter. It was a success in Europe and was reported as being used in offices on the European continent as late as 1909.",
+      "hatnote": "Before Remington, the first typewriter you could actually buy was Danish.",
+      "onwardLinkText": "Hansen Writing Ball",
+      "nextPage": "Hansen Writing Ball"
+    },
+    {
+      "page": "Hansen Writing Ball",
+      "url": "https://en.wikipedia.org/wiki/Hansen_Writing_Ball",
+      "revision": 1371977843,
+      "section": "Design",
+      "passage": "The Hansen ball was a combination of unusual design and ergonomic innovations: its distinctive feature was an arrangement of 52 keys on a large brass hemisphere, causing the machine to resemble an oversized pincushion. Hvem er Skrivekuglens Opfinder, written by Malling-Hansen's daughter Johanne Agerskov, describes Malling-Hansen's experiments with a model of his writing ball made out of porcelain.",
+      "hatnote": "It looked nothing like a modern typewriter.",
+      "onwardLinkText": "Johanne Agerskov",
+      "nextPage": "Johanne Agerskov"
+    },
+    {
+      "page": "Johanne Agerskov",
+      "url": "https://en.wikipedia.org/wiki/Johanne_Agerskov",
+      "revision": 1365830166,
+      "section": "A message to mankind",
+      "passage": "Johanne Agerskov was also deeply engaged in the work of her father. In 1924 a Danish professor asserted that Malling-Hansen was not the inventor of the Hansen Writing Ball, and Agerskov undertook a thorough investigation of the facts, together with her sister, Engelke Wiberg. They wrote several articles on the subject, and Agerskov also wrote a book, called Hvem var Skrivekuglens Opfinder? (Who was the Inventor of the Writing Ball?), published in Copenhagen in 1925.",
+      "hatnote": "When a professor questioned her father's claim, his daughter fought back.",
+      "onwardLinkText": null,
+      "nextPage": "Johanne Agerskov"
+    },
+    {
+      "page": "Johanne Agerskov",
+      "url": "https://en.wikipedia.org/wiki/Johanne_Agerskov",
+      "revision": 1365830166,
+      "section": "lead",
+      "passage": "Johanne Elisabeth Agerskov (13 June 1873 – 1946) was a Danish medium. Together with her husband, Michael Agerskov, she was responsible for the ethico-religious, philosophical, and pseudo-scientific book, Toward the Light (in Danish, Vandrer mod Lyset!), first published by Michael Agerskov in Copenhagen in 1920.",
+      "hatnote": "But history remembers her for a very different kind of writing.",
+      "onwardLinkText": "Toward the Light",
+      "nextPage": "Toward the Light"
+    },
+    {
+      "page": "Toward the Light",
+      "url": "https://en.wikipedia.org/wiki/Toward_the_Light",
+      "revision": 1332960531,
+      "section": "lead",
+      "passage": "Toward the Light (in Danish: Vandrer mod Lyset!) is a book that was first published in Copenhagen, Denmark, in 1920 by the Danish author Michael Agerskov. The content of the book is said to have been received through intuitive thought-inspiration from the transcendental world by Michael Agerskov's wife, Johanne Agerskov, who was an intermediary. Johanne Agerskov was the daughter of the Danish inventor Rasmus Malling-Hansen.",
+      "hatnote": "The book's real author, they claimed, was not of this world.",
+      "onwardLinkText": null,
+      "nextPage": "Toward the Light"
+    },
+    {
+      "page": "Toward the Light",
+      "url": "https://en.wikipedia.org/wiki/Toward_the_Light",
+      "revision": 1332960531,
+      "section": "Content",
+      "passage": "This book was supposedly the result of séances during 1913–1918. The content is divided into several parts. In Ardor's Account, the spirit formerly known as Lucifer, tells about the two primeval powers of the universe, the Light and the Darkness.",
+      "hatnote": "And one of the voices had a famous former name.",
+      "onwardLinkText": null,
+      "nextPage": "Toward the Light"
+    }
+  ],
+  "payoff": "Malling-Hansen built a writing machine; his daughter defended it, then became one herself, writing down words she said came from Lucifer.",
+  "caveats": []
+}

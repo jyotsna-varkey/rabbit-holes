@@ -1,6 +1,6 @@
 {
   "id": "glacier-whillans-ice-stream",
-  "claim": "Twice a day, an Antarctic ice stream lurches with about a magnitude-7 quake's strength.",
+  "claim": "Under an Antarctic ice river that quakes twice a day, scientists found life.",
   "start": {
     "title": "Glacier",
     "page": "Glacier",
@@ -8,10 +8,10 @@
     "image": "snapshots/images/Glacier.webp"
   },
   "end": {
-    "title": "Whillans Ice Stream",
-    "page": "Whillans Ice Stream",
-    "description": "Glaciological feature of the West Antarctic Ice Sheet",
-    "image": "snapshots/images/Whillans-Ice-Stream.webp"
+    "title": "Lake Whillans",
+    "page": "Lake Whillans",
+    "description": "Subglacial lake in Antarctica",
+    "image": "snapshots/images/Lake-Whillans.webp"
   },
   "knots": [
     {
@@ -22,16 +22,6 @@
       "passage": "In glaciated areas where the glacier moves faster than one km per year, glacial earthquakes occur. These are large scale earthquakes that have seismic magnitudes as high as 6.1.",
       "hatnote": "Glaciers flow, but fast ones don't always flow smoothly.",
       "onwardLinkText": "glacial earthquakes",
-      "nextPage": "Glacial earthquake"
-    },
-    {
-      "page": "Glacial earthquake",
-      "url": "https://en.wikipedia.org/wiki/Glacial_earthquake",
-      "revision": 1356310636,
-      "section": "Discovery",
-      "passage": "Since glacial earthquakes produce large amplitude and long period waves that deviate from traditional tectonic earthquake activity, glacial earthquakes require different monitoring methods. This is a primary reason why the specific class of glacial earthquakes was not discovered until 2003. Additionally, glacial earthquakes differ from tectonic earthquakes by lasting longer; for example, a tectonic earthquake with a magnitude of 5 may last 5 seconds, while a glacial earthquake with a magnitude of 5 may last 30 seconds.",
-      "hatnote": "These are earthquakes that look nothing like earthquakes.",
-      "onwardLinkText": null,
       "nextPage": "Glacial earthquake"
     },
     {
@@ -53,9 +43,39 @@
       "hatnote": "And it runs on a timetable set by the tides.",
       "onwardLinkText": null,
       "nextPage": "Whillans Ice Stream"
+    },
+    {
+      "page": "Whillans Ice Stream",
+      "url": "https://en.wikipedia.org/wiki/Whillans_Ice_Stream",
+      "revision": 1368631585,
+      "section": "Research",
+      "passage": "In 2007, an active subglacial water system consisting of several interconnected subglacial lakes was discovered under Whillans Ice Stream using repeat-track data from the ICESat satellite (Fricker and others, 2007). One of these active lakes, subglacial Lake Whillans, is the subject of a major drilling program funded by the National Science Foundation (Whillans Ice Stream Subglacial Access (WISSARD)) which successfully reached the lake on January 28, 2013.",
+      "hatnote": "Something else was hiding under that moving ice.",
+      "onwardLinkText": "Lake Whillans",
+      "nextPage": "Lake Whillans"
+    },
+    {
+      "page": "Lake Whillans",
+      "url": "https://en.wikipedia.org/wiki/Lake_Whillans",
+      "revision": 1378601406,
+      "section": "Research",
+      "passage": "Initial analysis of water and sediment has revealed that they contain more than 3,900 kinds of microbial life. Bacteria are surviving in this environment without photosynthesis. The ecosystem is apparently based on the oxidation of ammonia and methane from sediments laid down at least 120,000 years ago.",
+      "hatnote": "Drillers bored 800 metres down to a lake no one had ever sampled.",
+      "onwardLinkText": null,
+      "nextPage": "Lake Whillans"
+    },
+    {
+      "page": "Lake Whillans",
+      "url": "https://en.wikipedia.org/wiki/Lake_Whillans",
+      "revision": 1378601406,
+      "section": "Research",
+      "passage": "These projects may yield insights into the search for life elsewhere in the Solar System. In particular, the moons Europa (Jupiter) and Enceladus (Saturn) have large amounts of liquid water beneath icy crusts.",
+      "hatnote": "Which is why space scientists care about a puddle under Antarctica.",
+      "onwardLinkText": null,
+      "nextPage": "Lake Whillans"
     }
   ],
-  "payoff": "A river of ice lurches with the tides twice a day, sending waves to Australia and jolting the whole Ross Ice Shelf.",
+  "payoff": "A tide-driven ice river that shakes Antarctica twice a day hides a dark lake of microbes, a rehearsal for icy moons.",
   "caveats": [
     "'Equivalent to a magnitude 7' describes the energy of slow slip events, not violent shaking like a tectonic quake."
   ]

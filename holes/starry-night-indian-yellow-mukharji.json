@@ -1,0 +1,72 @@
+{
+  "id": "starry-night-indian-yellow-mukharji",
+  "claim": "The yellow in Van Gogh's stars had a farmyard origin few believed.",
+  "start": {
+    "title": "The Starry Night",
+    "page": "The Starry Night",
+    "description": "1889 painting by Vincent van Gogh",
+    "image": "snapshots/images/The-Starry-Night.webp"
+  },
+  "end": {
+    "title": "Troilokyanath Mukhopadhyay",
+    "page": "Troilokyanath Mukhopadhyay",
+    "description": "Indian public servant",
+    "image": "snapshots/images/Troilokyanath-Mukhopadhyay.webp"
+  },
+  "knots": [
+    {
+      "page": "The Starry Night",
+      "url": "https://en.wikipedia.org/wiki/The_Starry_Night",
+      "revision": 1380968962,
+      "section": "lead",
+      "passage": "Scientific analysis of the painting has confirmed Van Gogh’s use of ultramarine and cobalt blue for the sky, with indian yellow and zinc yellow for the stars and moon.",
+      "hatnote": "Lab tests have identified the paints in Van Gogh's night sky.",
+      "onwardLinkText": "indian yellow",
+      "nextPage": "Indian yellow"
+    },
+    {
+      "page": "Indian yellow",
+      "url": "https://en.wikipedia.org/wiki/Indian_yellow",
+      "revision": 1377854488,
+      "section": "History",
+      "passage": "Indian yellow pigment is claimed to have been originally manufactured in rural India from the urine of cattle fed only on mango leaves and water. The urine would be collected and dried, producing foul-smelling hard dirty yellow balls of the raw pigment, called \"purree\". The pigment was prized by British and Post-Impressionist painters; J. M. W. Turner used it in works such as The Angel Standing in the Sun (1846), and Vincent van Gogh employed it in The Starry Night (1889).",
+      "hatnote": "Indian yellow came with a notorious origin story.",
+      "onwardLinkText": null,
+      "nextPage": "Indian yellow"
+    },
+    {
+      "page": "Indian yellow",
+      "url": "https://en.wikipedia.org/wiki/Indian_yellow",
+      "revision": 1377854488,
+      "section": "History",
+      "passage": "In her 2002 book Colour: Travels Through the Paintbox, Victoria Finlay examined whether Indian yellow was really made from cow urine. The only printed source that she found mentioning this practice was the single letter written by T. N. Mukharji, who claimed to have seen the color being made. Finlay was very skeptical as she found no oral evidence of the production of pigment in Mirzapur and she failed to find legal records concerning the supposed banning of Indian yellow production in Monghyr around 1908 as claimed by Mukharji.",
+      "hatnote": "A colour historian went looking for proof, and found almost none.",
+      "onwardLinkText": null,
+      "nextPage": "Indian yellow"
+    },
+    {
+      "page": "Indian yellow",
+      "url": "https://en.wikipedia.org/wiki/Indian_yellow",
+      "revision": 1377854488,
+      "section": "lead",
+      "passage": "The origin and manufacture of Indian yellow had long been disputed partly due to variations among the sources themselves which included both pure materials and mixtures of chrome salts, dyes of plant origin, and dyes of animal origin. Studies in 2018 of a sample collected by T. N. Mukharji in 1883 give credibility to his observations that it was obtained from concentrated urine from cows fed on a diet of mango leaves.",
+      "hatnote": "Then someone tested the old sample itself.",
+      "onwardLinkText": "T. N. Mukharji",
+      "nextPage": "Troilokyanath Mukhopadhyay"
+    },
+    {
+      "page": "Troilokyanath Mukhopadhyay",
+      "url": "https://en.wikipedia.org/wiki/Troilokyanath_Mukhopadhyay",
+      "revision": 1374338113,
+      "section": "Literary career",
+      "passage": "Trailokyanath Mukhopadhyay was a famous writer, one of the pioneers of secular Bengali literature. One of his most famous works is Damaru Charit (Bengali: ডমরু-চরিত), a collection of humorous and satirical short stories published posthumously in 1923. The stories, set in colonial India, recount the life and times of the antihero Damarudhar, portrayed as a dishonest man who rises from a lowly shop-assistant to a landowner.",
+      "hatnote": "The curator vindicated after a century had another life entirely.",
+      "onwardLinkText": null,
+      "nextPage": "Troilokyanath Mukhopadhyay"
+    }
+  ],
+  "payoff": "Van Gogh's starlight was said to be mango-fed cow urine; long doubted, it was backed by a sample from a curator who wrote comic tales.",
+  "caveats": [
+    "Indian yellow page: the 1908 ban on the process is alleged, with no record found."
+  ]
+}

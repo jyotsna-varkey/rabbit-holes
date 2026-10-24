@@ -1,0 +1,80 @@
+{
+  "id": "chess-houdini-escape",
+  "claim": "How a faked Houdini escape ended up inside Britain's chess pieces.",
+  "start": {
+    "title": "Chess",
+    "page": "Chess",
+    "description": "Traditional board game for two players",
+    "image": "snapshots/images/Chess.webp"
+  },
+  "end": {
+    "title": "Christopher Hutton",
+    "page": "Christopher Hutton",
+    "description": "British soldier, airman, journalist and inventor",
+    "image": "snapshots/images/Christopher-Hutton.webp"
+  },
+  "knots": [
+    {
+      "page": "Chess",
+      "url": "https://en.wikipedia.org/wiki/Chess",
+      "revision": 1381252359,
+      "section": "Setup",
+      "passage": "Chess sets come in a wide variety of styles. The Staunton pattern is the most common, and is usually required for competition.",
+      "hatnote": "Picture a chess set. You are almost certainly picturing one design.",
+      "onwardLinkText": "Staunton pattern",
+      "nextPage": "Staunton chess set"
+    },
+    {
+      "page": "Staunton chess set",
+      "url": "https://en.wikipedia.org/wiki/Staunton_chess_set",
+      "revision": 1364866832,
+      "section": "lead",
+      "passage": "The English journalist Nathaniel Cooke is credited with the design on the patent, and the design is named after the leading English chess master Howard Staunton, who endorsed it; the first 500 sets were numbered and hand-signed by Staunton. This style of set was first made available by Jaques of London in 1849, and it quickly became the standard. The set style and its variations have been used around the world since.",
+      "hatnote": "That design was a Victorian marketing deal.",
+      "onwardLinkText": "Jaques of London",
+      "nextPage": "Jaques of London"
+    },
+    {
+      "page": "Jaques of London",
+      "url": "https://en.wikipedia.org/wiki/Jaques_of_London",
+      "revision": 1333063598,
+      "section": "History",
+      "passage": "The popularity of chess during World War II helped MI9 hide items in chess games sent to British and American prisoners of war, because the chess sets were made of wood, especially the Staunton chess sets by Jaques of London. The inside walls of the chess pieces box were hollowed out \"...to secrete maps, currency, documents, hacksaw blades and swinger compasses.\" The large chess boards were perfect for supplying to prisoners \"...counterfeit documents, maps, currency and other contraband.\" The chess pieces themselves were hollowed out and used to hold messages, compasses, maps and dye to help turn uniforms into civilian attire. The base of the piece was often screwed in with a left turn screw, so any attempt to unscrew the base normally would only make it tighter.",
+      "hatnote": "A century later, the same firm's chessmen went to war.",
+      "onwardLinkText": "MI9",
+      "nextPage": "MI9"
+    },
+    {
+      "page": "MI9",
+      "url": "https://en.wikipedia.org/wiki/MI9",
+      "revision": 1376002741,
+      "section": "Escape aids",
+      "passage": "MI9 manufactured various escape aids that they sent to prisoner-of-war camps. Many of them were based on the ideas of Christopher Hutton. These included maps on silk and compasses.",
+      "hatnote": "MI9 was the secret department for escape and evasion.",
+      "onwardLinkText": "Christopher Hutton",
+      "nextPage": "Christopher Hutton"
+    },
+    {
+      "page": "Christopher Hutton",
+      "url": "https://en.wikipedia.org/wiki/Christopher_Hutton",
+      "revision": 1365050552,
+      "section": "Fabric maps",
+      "passage": "Mulberry leaf paper could be folded tightly without permanent creases and did not fade or disintegrate when soaked in water. Maps printed on mulberry leaf paper could be folded tightly and concealed inside a chess piece or a phonograph record. Hutton arranged for a greeting card printer to laminate mulberry paper maps inside playing cards. When soaked in water, these cards delaminated to reveal serviceable maps of a chosen area.",
+      "hatnote": "Hutton's maps had to fit in impossible places.",
+      "onwardLinkText": null,
+      "nextPage": "Christopher Hutton"
+    },
+    {
+      "page": "Christopher Hutton",
+      "url": "https://en.wikipedia.org/wiki/Christopher_Hutton",
+      "revision": 1365050552,
+      "section": "Personal life",
+      "passage": "Upon leaving school, Hutton worked for his uncle, William Clayton, at Clayton's timber business and sawmills in Saltley. In April 1913, Hutton was involved in the stunt of Harry Houdini's faked escape from a wooden packing case. This event strengthened his fascination with both stage performances and escapology; Hutton writes that his mother discouraged him from pursuing a career in performance.",
+      "hatnote": "Where did Hutton learn to think like an escaper?",
+      "onwardLinkText": null,
+      "nextPage": "Christopher Hutton"
+    }
+  ],
+  "payoff": "Britain's chief escape-gadget maker learned his trade helping Houdini fake an escape from a box.",
+  "caveats": []
+}

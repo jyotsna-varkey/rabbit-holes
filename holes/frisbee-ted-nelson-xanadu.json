@@ -1,0 +1,80 @@
+{
+  "id": "frisbee-ted-nelson-xanadu",
+  "claim": "The Frisbee's first musical was written by the man who coined 'hypertext'.",
+  "start": {
+    "title": "Frisbee",
+    "page": "Frisbee",
+    "description": "Throwing toy",
+    "image": "snapshots/images/Frisbee.webp"
+  },
+  "end": {
+    "title": "Project Xanadu",
+    "page": "Project Xanadu",
+    "description": "First hypertext project, founded in 1960",
+    "image": ""
+  },
+  "knots": [
+    {
+      "page": "Frisbee",
+      "url": "https://en.wikipedia.org/wiki/Frisbee",
+      "revision": 1380213266,
+      "section": "History",
+      "passage": "In June 1957, Wham-O co-founders Richard Knerr and Arthur \"Spud\" Melin gave the disc the brand name \"Frisbee\" after learning college students were calling the Pluto Platter by that term, which was derived from the Connecticut-based pie manufacturer Frisbie Pie Company, a supplier of pies to Yale University, where students started a campus craze tossing empty pie tins stamped with the company's logo—the way Morrison and his wife had in 1937.",
+      "hatnote": "The Frisbee got its name from students throwing pie tins.",
+      "onwardLinkText": null,
+      "nextPage": "Frisbee"
+    },
+    {
+      "page": "Frisbee",
+      "url": "https://en.wikipedia.org/wiki/Frisbee",
+      "revision": 1380213266,
+      "section": "History",
+      "passage": "In November 1957, the Frisbee was featured in what may be the first rock musical, Anything & Everything, written by Ted Nelson. The game of Frisbee (spelled Frisby) is described in the song \"Friz Me the Frisby,\" as a Frisbee was passed among stooges in the audience. The scene was expressly intended as a way to introduce the game to the audience.",
+      "hatnote": "Five months later, a student put it on stage.",
+      "onwardLinkText": "Ted Nelson",
+      "nextPage": "Ted Nelson"
+    },
+    {
+      "page": "Ted Nelson",
+      "url": "https://en.wikipedia.org/wiki/Ted_Nelson",
+      "revision": 1372000147,
+      "section": "lead",
+      "passage": "Theodor Holm Nelson (born June 17, 1937) is an American pioneer of information technology, philosopher of computer science, and sociologist. He coined the terms hypertext and hypermedia in 1963 and published them in 1965. According to his profile published in Forbes in 1997, Nelson \"sees himself as a literary romantic, like a Cyrano de Bergerac, or 'the Orson Welles of software'.\"",
+      "hatnote": "The songwriter went on to name something far bigger.",
+      "onwardLinkText": null,
+      "nextPage": "Ted Nelson"
+    },
+    {
+      "page": "Ted Nelson",
+      "url": "https://en.wikipedia.org/wiki/Ted_Nelson",
+      "revision": 1372000147,
+      "section": "Early life and education",
+      "passage": "During college and graduate school, Nelson began to envision a computer-based writing system that would provide a lasting repository for the world's knowledge, and also permit greater flexibility of drawing connections between ideas. This came to be known as Project Xanadu.",
+      "hatnote": "Even as a student, he was dreaming of a web of documents.",
+      "onwardLinkText": "Project Xanadu",
+      "nextPage": "Project Xanadu"
+    },
+    {
+      "page": "Project Xanadu",
+      "url": "https://en.wikipedia.org/wiki/Project_Xanadu",
+      "revision": 1374265729,
+      "section": "lead",
+      "passage": "Project Xanadu (/ˈzænəduː/ ZAN-ə-doo) was the first hypertext project, founded in 1960 by Ted Nelson. Administrators of Project Xanadu declared it superior to the World Wide Web, with the mission statement: \"Today's popular software simulates paper. The World Wide Web (another imitation of paper) trivialises our original hypertext model with one-way ever-breaking links and no management of version or contents.\"",
+      "hatnote": "He still thinks the web got it wrong.",
+      "onwardLinkText": null,
+      "nextPage": "Project Xanadu"
+    },
+    {
+      "page": "Project Xanadu",
+      "url": "https://en.wikipedia.org/wiki/Project_Xanadu",
+      "revision": 1374265729,
+      "section": "lead",
+      "passage": "Wired magazine published an article entitled \"The Curse of Xanadu\", calling Project Xanadu \"the longest-running vaporware story in the history of the computer industry\". The first attempt at implementation began in 1960, but it was not until 1998 that an incomplete implementation was released. A version described as \"a working deliverable\", OpenXanadu, was made available in 2014.",
+      "hatnote": "The trouble was finishing it.",
+      "onwardLinkText": null,
+      "nextPage": "Project Xanadu"
+    }
+  ],
+  "payoff": "The student who put the Frisbee on stage in 1957 went on to name hypertext, then spent decades building a web he says beats ours.",
+  "caveats": []
+}

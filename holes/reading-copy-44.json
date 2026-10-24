@@ -1,0 +1,70 @@
+{
+  "id": "reading-copy-44",
+  "claim": "The man behind the first televisions waited 45 years to watch one.",
+  "start": {
+    "title": "Television",
+    "page": "Television",
+    "description": "Medium for transmitting moving images and sound",
+    "image": "snapshots/images/Television.webp"
+  },
+  "end": {
+    "title": "Paul Gottlieb Nipkow",
+    "page": "Paul Gottlieb Nipkow",
+    "description": "German electrical engineer and inventor (1860–1940)",
+    "image": "snapshots/images/Paul-Gottlieb-Nipkow.webp"
+  },
+  "knots": [
+    {
+      "page": "Television",
+      "url": "https://en.wikipedia.org/wiki/Television",
+      "revision": 1380566010,
+      "section": "Sets",
+      "passage": "A television set, also called a television receiver, television, TV set, TV, or \"telly\", is a device that combines a tuner, display, amplifier, and speakers for the purpose of viewing television and hearing its audio components. Introduced in the late 1920s in mechanical form, television sets became a popular consumer product after World War II in electronic form, using cathode-ray tubes.",
+      "hatnote": "Before the glass tube, the first TV sets ran on moving parts.",
+      "onwardLinkText": "mechanical",
+      "nextPage": "Mechanical television"
+    },
+    {
+      "page": "Mechanical television",
+      "url": "https://en.wikipedia.org/wiki/Mechanical_television",
+      "revision": 1371807980,
+      "section": "Television demonstrations",
+      "passage": "Scottish inventor John Logie Baird in 1925 built some of the first prototype video systems, which employed the Nipkow disk. On March 25, 1925, Baird gave the first public demonstration of televised silhouette images in motion, at Selfridge's Department Store in London. Since human faces had inadequate contrast to show up on his primitive system, he televised a ventriloquist's dummy named \"Stooky Bill\" talking and moving, whose painted face had higher contrast.",
+      "hatnote": "Baird's first star couldn't be human: faces were too faint.",
+      "onwardLinkText": "Nipkow disk",
+      "nextPage": "Nipkow disk"
+    },
+    {
+      "page": "Nipkow disk",
+      "url": "https://en.wikipedia.org/wiki/Nipkow_disk",
+      "revision": 1381176258,
+      "section": "lead",
+      "passage": "A Nipkow disk (sometimes Anglicized as Nipkov disk; patented in 1884), also known as scanning disk, is a mechanical, rotating, geometrically operating image scanning device, patented by Paul Gottlieb Nipkow in Berlin. This scanning disk was a fundamental component in mechanical television, and thus the first televisions, through the 1920s and 1930s.",
+      "hatnote": "Baird's spinning disk was patented four decades before his show.",
+      "onwardLinkText": "Paul Gottlieb Nipkow",
+      "nextPage": "Paul Gottlieb Nipkow"
+    },
+    {
+      "page": "Paul Gottlieb Nipkow",
+      "url": "https://en.wikipedia.org/wiki/Paul_Gottlieb_Nipkow",
+      "revision": 1371976443,
+      "section": "Nipkow disk",
+      "passage": "It is not known whether Nipkow ever attempted a practical realization of this disk, but one may assume that he himself never constructed one. The patent lapsed after 15 years owing to lack of interest. Nipkow took up a position as a construction engineer at an railway signal factory in Berlin-Borsigwalde and did not continue work on the broadcasting of pictures.",
+      "hatnote": "The inventor himself had moved on long before.",
+      "onwardLinkText": null,
+      "nextPage": "Paul Gottlieb Nipkow"
+    },
+    {
+      "page": "Paul Gottlieb Nipkow",
+      "url": "https://en.wikipedia.org/wiki/Paul_Gottlieb_Nipkow",
+      "revision": 1371976443,
+      "section": "First TV systems",
+      "passage": "The first television broadcasts used an optical-mechanical picture scanning method, the method that Nipkow had helped create with his disk; he could claim credit for the invention. Nipkow recounted his first sight of television at a Berlin radio show in 1928: \"The televisions stood in dark cells. Hundreds stood and waited patiently for the moment at which they would see television for the first time. I waited among them, growing ever more nervous. Now for the first time, I would see what I had devised 45 years ago. Finally, I reached the front row; a dark cloth was pushed to the side, and I saw before me a flickering image, not easy to discern.\" The system demonstrated was from the company Telefunken.",
+      "hatnote": "Then, in 1928, he finally queued up to see it.",
+      "onwardLinkText": null,
+      "nextPage": "Paul Gottlieb Nipkow"
+    }
+  ],
+  "payoff": "Nipkow dreamed up the disk in the 1880s, let the patent lapse, and finally saw his idea flicker to life in a 1928 queue.",
+  "caveats": []
+}

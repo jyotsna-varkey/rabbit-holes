@@ -1,0 +1,70 @@
+{
+  "id": "rubiks-cube-teddy-bear",
+  "claim": "The Rubik's Cube was named by the company that invented the teddy bear.",
+  "start": {
+    "title": "Rubik's Cube",
+    "page": "Rubik's Cube",
+    "description": "3D combination puzzle",
+    "image": "snapshots/images/Rubik-s-Cube.webp"
+  },
+  "end": {
+    "title": "Teddy bear",
+    "page": "Teddy bear",
+    "description": "Soft toy in the form of a bear",
+    "image": "snapshots/images/Teddy-bear.webp"
+  },
+  "knots": [
+    {
+      "page": "Rubik's Cube",
+      "url": "https://en.wikipedia.org/wiki/Rubik's_Cube",
+      "revision": 1378865788,
+      "section": "lead",
+      "passage": "The Rubik's Cube (Hungarian: Rubik-kocka) is a 3D combination puzzle invented in 1974 by Hungarian sculptor and professor of architecture Ernő Rubik. Originally called the Magic Cube (Hungarian: bűvös kocka), the puzzle was licensed by Rubik to be sold by Pentangle Puzzles in the UK in 1978, and then by Ideal Toy Corp in 1980 via businessman Tibor Laczi and Seven Towns founder Tom Kremer.",
+      "hatnote": "It wasn't always called the Rubik's Cube.",
+      "onwardLinkText": "Ideal Toy Corp",
+      "nextPage": "Ideal Toy Company"
+    },
+    {
+      "page": "Ideal Toy Company",
+      "url": "https://en.wikipedia.org/wiki/Ideal_Toy_Company",
+      "revision": 1367126192,
+      "section": "1970–1999",
+      "passage": "In 1979, a Hungarian inventor, Erno Rubik, pitched his Magic Cube to Ideal Toy Company. Ideal renamed it the Rubik's cube.",
+      "hatnote": "The American toy firm gave it its famous name.",
+      "onwardLinkText": null,
+      "nextPage": "Ideal Toy Company"
+    },
+    {
+      "page": "Ideal Toy Company",
+      "url": "https://en.wikipedia.org/wiki/Ideal_Toy_Company",
+      "revision": 1367126192,
+      "section": "1903–1939",
+      "passage": "Morris and Rose Michtom founded the Ideal Novelty and Toy Company, in Brooklyn, New York, when they invented the Teddy bear in 1903. Rose had made the original \"Teddy's Bear\" for their children. Morris and Rose sent a bear to President \"Teddy\" Roosevelt, and asked permission to use his name for the bear. Roosevelt \"adopted\" the bear and had it present in his campaign and on display at White House functions.",
+      "hatnote": "Ideal itself had started with a far softer toy.",
+      "onwardLinkText": "Teddy bear",
+      "nextPage": "Teddy bear"
+    },
+    {
+      "page": "Teddy bear",
+      "url": "https://en.wikipedia.org/wiki/Teddy_bear",
+      "revision": 1379931254,
+      "section": "lead",
+      "passage": "The teddy bear was named by Morris Michtom after the 26th president of the United States, Theodore Roosevelt; it was developed apparently simultaneously in the first decade of the 20th century by two toymakers: Richard Steiff in Germany and Michtom in the United States.",
+      "hatnote": "But Brooklyn wasn't the only place the bear was born.",
+      "onwardLinkText": null,
+      "nextPage": "Teddy bear"
+    },
+    {
+      "page": "Teddy bear",
+      "url": "https://en.wikipedia.org/wiki/Teddy_bear",
+      "revision": 1379931254,
+      "section": "Billy Possum",
+      "passage": "The Billy Possum was a plush toy created after William Howard Taft won the 1908 United States presidential election. The toy was a stuffed possum, made to replace the teddy bear. The possum was chosen because of Taft's love for \"possum and taters\", and as a symbol of southern pride. Toy companies making them advertised using slogans predicting the end of teddy bear popularity. Those around Taft theorized that he would be remembered in a similar way as Roosevelt with a popular toy. However, the Billy Possum plush toy didn't achieve the same level of popularity or enduring legacy, and the toy's production and impact were minimal in comparison.",
+      "hatnote": "The bear was such a hit that the next president got a toy too.",
+      "onwardLinkText": null,
+      "nextPage": "Teddy bear"
+    }
+  ],
+  "payoff": "The firm that renamed the Magic Cube began with Teddy Roosevelt's bear, a hit so big that Taft's rival possum flopped.",
+  "caveats": []
+}

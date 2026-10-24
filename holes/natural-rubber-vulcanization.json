@@ -1,6 +1,6 @@
 {
   "id": "natural-rubber-vulcanization",
-  "claim": "Why did rubber need changing before it could become a dependable tyre?",
+  "claim": "The Briton who first patented tough, modern rubber had been shown American samples.",
   "start": {
     "title": "Natural rubber",
     "page": "Natural rubber",
@@ -8,30 +8,20 @@
     "image": "snapshots/images/Natural-rubber.webp"
   },
   "end": {
-    "title": "Vulcanization",
-    "page": "Vulcanization",
-    "description": "Process of hardening rubber",
-    "image": "snapshots/images/Vulcanization.webp"
+    "title": "Charles Goodyear",
+    "page": "Charles Goodyear",
+    "description": "American inventor (1800–1860)",
+    "image": "snapshots/images/Charles-Goodyear.webp"
   },
   "knots": [
     {
       "page": "Natural rubber",
       "url": "https://en.wikipedia.org/wiki/Natural_rubber",
-      "revision": 1375384508,
+      "revision": 1379820383,
       "section": "History",
-      "passage": "Charles Marie de La Condamine is credited with introducing samples of rubber to the Académie Royale des Sciences of France in 1736, which he wrote as caoutchouc, from cahuchu in the language of the Manina people in Quito. In 1751, he presented a paper by François Fresneau to the Académie (published in 1755) that described many of rubber's properties. This has been referred to as the first scientific paper on rubber. In England, Joseph Priestley, in 1770, observed that a piece of the material was extremely good for rubbing off pencil marks on paper, hence the name \"rubber\". It slowly made its way around England. In 1764, François Fresnau discovered that turpentine was a rubber solvent. Giovanni Fabbroni is credited with the discovery of naphtha as a rubber solvent in 1779. Charles Macintosh also experimented with naphtha leading to his invention of waterproof rubberized fabric; the essence of his patent was the cementing of two thicknesses of cloth together with natural rubber. Charles Goodyear redeveloped vulcanization in 1839, although Mesoamericans had used stabilized rubber for balls and other objects as early as 1600 BC.",
-      "hatnote": "Rubber got its English name from rubbing out pencil marks.",
+      "passage": "Charles Macintosh also experimented with naphtha leading to his invention of waterproof rubberized fabric; the essence of his patent was the cementing of two thicknesses of cloth together with natural rubber. Charles Goodyear redeveloped vulcanization in 1839, although Mesoamericans had used stabilized rubber for balls and other objects as early as 1600 BC.",
+      "hatnote": "Raincoats were rubber's first big hit. Then an American went further.",
       "onwardLinkText": "Charles Goodyear",
-      "nextPage": "Charles Goodyear"
-    },
-    {
-      "page": "Charles Goodyear",
-      "url": "https://en.wikipedia.org/wiki/Charles_Goodyear",
-      "revision": 1361479941,
-      "section": "Marriage and early career",
-      "passage": "Goodyear discovered a new method for making rubber shoes and received a patent which he sold to the Providence Company in Rhode Island. However, a method had not yet been found to process rubber so that it would withstand hot and cold temperatures and acids, and so the rubber goods were constantly growing sticky, decomposing and being returned to the manufacturers.",
-      "hatnote": "What went wrong with early rubber goods as conditions changed?",
-      "onwardLinkText": null,
       "nextPage": "Charles Goodyear"
     },
     {
@@ -40,34 +30,44 @@
       "revision": 1361479941,
       "section": "Perfection and patent of vulcanization",
       "passage": "From 1834 through 1839, Goodyear worked anywhere he could find investors, and often moved locations, mostly within New York, Massachusetts, Philadelphia, and Connecticut. In 1839, Goodyear was at the Eagle India Rubber Company in Woburn, Massachusetts, where he discovered that combining rubber and sulfur over a hot stove caused the rubber to become rigid, a process which he called vulcanization because of the heat involved. For this Goodyear received US patent number 1090 on February 24 of the same year.",
-      "hatnote": "The fix came from a hot stove.",
+      "hatnote": "Early rubber went sticky in summer. Goodyear spent years chasing a fix.",
       "onwardLinkText": "vulcanization",
       "nextPage": "Vulcanization"
     },
     {
       "page": "Vulcanization",
       "url": "https://en.wikipedia.org/wiki/Vulcanization",
-      "revision": 1371351915,
+      "revision": 1381231317,
       "section": "lead",
-      "passage": "Vulcanization (British English: vulcanisation) is a range of processes for hardening rubbers. The term originally referred exclusively to the treatment of natural rubber with sulfur and heat, which remains the most common practice. It has also grown to include the hardening of other (synthetic) rubbers via various means. Examples include silicone rubber via room temperature vulcanising and chloroprene rubber (neoprene) using metal oxides.",
-      "hatnote": "How did the processing idea spread?",
-      "onwardLinkText": null,
-      "nextPage": "Vulcanization"
+      "passage": "The word was suggested by William Brockedon (a friend of Thomas Hancock who attained the British patent for the process) based on the god Vulcan who was associated with heat and sulfur in volcanoes.",
+      "hatnote": "Yet the name, at least, may not have been his.",
+      "onwardLinkText": "Thomas Hancock",
+      "nextPage": "Thomas Hancock (inventor)"
     },
     {
-      "page": "Vulcanization",
-      "url": "https://en.wikipedia.org/wiki/Vulcanization",
-      "revision": 1371351915,
-      "section": "History",
-      "passage": "On 21 November 1843, British inventor, Thomas Hancock took out a patent for the vulcanization of rubber using sulfur, eight weeks before Charles Goodyear did the same in the US (30 January 1844). Accounts differ as to whether Hancock's patent was informed by inspecting samples of American rubber from Goodyear and whether inspecting such samples could have provided information sufficient to recreate Goodyear's process.",
-      "hatnote": "Goodyear wasn't the first to patent it.",
+      "page": "Thomas Hancock (inventor)",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Hancock_(inventor)",
+      "revision": 1350247203,
+      "section": "Vulcanisation",
+      "passage": "On 21 November 1843, Hancock took out a patent for the vulcanisation of rubber using sulphur, 8 weeks before Charles Goodyear in the US (30 January 1844). He mentioned in his \"Personal Narrative\" that his friend William Brockedon invented the word vulcanisation from the god Vulcan of Roman mythology. Hancock did not credit himself with discovering the reaction of sulphur with rubber; he instead said that in 1842 Brockendon had shown him some American rubber samples which had been treated with sulphur.",
+      "hatnote": "Hancock got the patent too, and got there first.",
+      "onwardLinkText": "Charles Goodyear",
+      "nextPage": "Charles Goodyear"
+    },
+    {
+      "page": "Charles Goodyear",
+      "url": "https://en.wikipedia.org/wiki/Charles_Goodyear",
+      "revision": 1361479941,
+      "section": "Court cases regarding vulcanization",
+      "passage": "In 1855, in the last of three patent disputes with fellow British rubber pioneer, Stephen Moulton, Hancock's patent was challenged with the claim that Hancock had copied Goodyear. Goodyear attended the trial. If Hancock lost, Goodyear stood to have his own British patent application granted, allowing him to claim royalties from both Hancock and Moulton. Both had examined Goodyear's vulcanized rubber in 1842, but several chemists testified that it would not have been possible to determine how it was made by studying it. Hancock prevailed.",
+      "hatnote": "Did Hancock copy him? It went to court, with Goodyear watching.",
       "onwardLinkText": null,
-      "nextPage": "Vulcanization"
+      "nextPage": "Charles Goodyear"
     }
   ],
-  "payoff": "Rubber melted and cracked until Goodyear heated it with sulfur, and a British rival patented the trick eight weeks sooner.",
+  "payoff": "Goodyear cooked rubber hard on a stove; Hancock, shown his samples, patented it eight weeks sooner in Britain and won in court.",
   "caveats": [
     "From Rabbit Hole Studio (GPT), rh-086, rank 95; hook is GPT's, hatnotes/payoff drafted by Claude.",
-    "The pages differ on dates for the vulcanization patents."
+    "The pages differ on dates for the vulcanization patents, and on who coined 'vulcanization' (the Goodyear page credits Goodyear; the Vulcanization and Hancock pages credit Hancock's friend William Brockedon)."
   ]
 }

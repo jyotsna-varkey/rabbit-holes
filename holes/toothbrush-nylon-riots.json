@@ -1,0 +1,72 @@
+{
+  "id": "toothbrush-nylon-riots",
+  "claim": "The plastic in your toothbrush once caused riots on American streets.",
+  "start": {
+    "title": "Toothbrush",
+    "page": "Toothbrush",
+    "description": "Oral hygiene tool",
+    "image": "snapshots/images/Toothbrush.webp"
+  },
+  "end": {
+    "title": "Nylon riots",
+    "page": "Nylon riots",
+    "description": "Fashion-based social unrest in the 20th-century",
+    "image": "snapshots/images/Nylon-riots.webp"
+  },
+  "knots": [
+    {
+      "page": "Toothbrush",
+      "url": "https://en.wikipedia.org/wiki/Toothbrush",
+      "revision": 1377234121,
+      "section": "Toothbrush",
+      "passage": "During the 1900s, celluloid gradually replaced bone handles. Natural animal bristles were also replaced by synthetic fibers, usually nylon, by DuPont in 1938. The first nylon bristle toothbrush made with nylon yarn went on sale on February 24, 1938.",
+      "hatnote": "For centuries, toothbrushes used pig hair. Then came a lab-made fibre.",
+      "onwardLinkText": "nylon",
+      "nextPage": "Nylon"
+    },
+    {
+      "page": "Nylon",
+      "url": "https://en.wikipedia.org/wiki/Nylon",
+      "revision": 1378421151,
+      "section": "DuPont and the invention of nylon",
+      "passage": "Nylon was first used commercially in a nylon-bristled toothbrush in 1938, followed more famously in women's stockings or \"nylons\" which were shown at the 1939 New York World's Fair and first sold commercially in 1940, whereupon they became an instant commercial success with 64 million pairs sold during their first year on the market. During World War II, almost all nylon production was diverted to the military for use in parachutes and parachute cord.",
+      "hatnote": "The toothbrush was just the warm-up act.",
+      "onwardLinkText": null,
+      "nextPage": "Nylon"
+    },
+    {
+      "page": "Nylon",
+      "url": "https://en.wikipedia.org/wiki/Nylon",
+      "revision": 1378421151,
+      "section": "Production of nylon fabric",
+      "passage": "Once the war ended, the return of nylon was awaited with great anticipation. Although DuPont projected yearly production of 360 million pairs of stockings, there were delays in converting back to consumer rather than wartime production. In 1946, the demand for nylon stockings could not be satisfied, which led to the nylon riots.",
+      "hatnote": "Then the war ended, and everyone wanted their nylons back at once.",
+      "onwardLinkText": "nylon riots",
+      "nextPage": "Nylon riots"
+    },
+    {
+      "page": "Nylon riots",
+      "url": "https://en.wikipedia.org/wiki/Nylon_riots",
+      "revision": 1363314249,
+      "section": "Wartime \"stocking panic\"",
+      "passage": "Nylon stockings became increasingly popular on the black market, selling for up to $20 (worth about $438 today) per pair. Women who could not acquire nylons resorted to lotions, makeup, creams, stick cakes, and painting seam lines down their legs to give the illusion of stockings. Spray-on nylon \"liquid hosiery\" products were also used.",
+      "hatnote": "During the war, people had faked it.",
+      "onwardLinkText": null,
+      "nextPage": "Nylon riots"
+    },
+    {
+      "page": "Nylon riots",
+      "url": "https://en.wikipedia.org/wiki/Nylon_riots",
+      "revision": 1363314249,
+      "section": "End of the war and beginning of riots",
+      "passage": "The first riot occurred in September 1945 when a small post-war shipment of stockings went on limited sale around the country. In June, 30,000 or 40,000 women in Pittsburgh queued up for a mere 13,000 pairs that were designated for \"working girls\" only. In November, 30,000 women lined up for stockings in New York. In San Francisco, a sale was called off in San Francisco after around 10,000 shoppers who were waiting to get in broke the store window, prompting several women to faint. The shortage persisted into 1946, but by March, DuPont was finally able to ramp up production and began churning out 30 million pairs of stockings a month. Widespread availability of the stockings ended the period of 'nylon riots'.",
+      "hatnote": "When real nylons finally returned, the queues turned ugly.",
+      "onwardLinkText": null,
+      "nextPage": "Nylon riots"
+    }
+  ],
+  "payoff": "The fibre that quietly debuted in a toothbrush became so coveted that shoppers smashed store windows, until DuPont churned out 30 million pairs a month.",
+  "caveats": [
+    "The Nylon page dates the riots to 1946; the Nylon riots page says August 1945 to March 1946, and its 'In June' sits oddly after September 1945."
+  ]
+}

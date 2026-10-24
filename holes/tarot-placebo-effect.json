@@ -1,0 +1,90 @@
+{
+  "id": "tarot-placebo-effect",
+  "claim": "Tarot's 'ancient Egyptian' secrets were dreamed up by Benjamin Franklin's lodge-brother.",
+  "start": {
+    "title": "Tarot",
+    "page": "Tarot",
+    "description": "Cards used for games or divination",
+    "image": "snapshots/images/Tarot.webp"
+  },
+  "end": {
+    "title": "Franz Mesmer",
+    "page": "Franz Mesmer",
+    "description": "German physician (1734–1815)",
+    "image": "snapshots/images/Franz-Mesmer.webp"
+  },
+  "knots": [
+    {
+      "page": "Tarot",
+      "url": "https://en.wikipedia.org/wiki/Tarot",
+      "revision": 1379638686,
+      "section": "Cartomancy",
+      "passage": "However, scholarly research has demonstrated that tarot cards were invented in northern Italy in the mid-15th century and confirmed that there is no historical evidence of any significant use of tarot cards for divination until the late 18th century.",
+      "hatnote": "Tarot cards look ancient and mystical. Historians say otherwise.",
+      "onwardLinkText": null,
+      "nextPage": "Tarot"
+    },
+    {
+      "page": "Tarot",
+      "url": "https://en.wikipedia.org/wiki/Tarot",
+      "revision": 1379638686,
+      "section": "Cartomancy",
+      "passage": "The popularization of esoteric tarot started with Antoine Court and Jean-Baptiste Alliette (Etteilla) in Paris during the 1780s, using the Tarot of Marseilles.",
+      "hatnote": "So who started the fortune-telling?",
+      "onwardLinkText": "Antoine Court",
+      "nextPage": "Antoine Court de Gébelin"
+    },
+    {
+      "page": "Antoine Court de Gébelin",
+      "url": "https://en.wikipedia.org/wiki/Antoine_Court_de_G%C3%A9belin",
+      "revision": 1352572398,
+      "section": "The tarot",
+      "passage": "It was his immediate perception, the first time he saw the Tarot deck, that it held the secrets of the Egyptians. Writing without the benefit of Champollion's deciphering of the Egyptian language, Court de Gébelin developed a reconstruction of Tarot history, without producing any historical evidence, which was that Egyptian priests had distilled the ancient Book of Thoth into these images. These they brought to Rome, where they were secretly known to the popes, who brought them to Avignon in the 14th century, whence they were introduced into France.",
+      "hatnote": "A Protestant pastor sees a deck of game cards for the first time.",
+      "onwardLinkText": null,
+      "nextPage": "Antoine Court de Gébelin"
+    },
+    {
+      "page": "Antoine Court de Gébelin",
+      "url": "https://en.wikipedia.org/wiki/Antoine_Court_de_G%C3%A9belin",
+      "revision": 1352572398,
+      "section": "Early life",
+      "passage": "In Paris, he was initiated into Freemasonry at the lodge Les Amis Réunis, in 1771, and moved on to the lodge Les Neuf Sœurs where he welcomed Benjamin Franklin as a lodge-brother.",
+      "hatnote": "He moved in very good company in Paris.",
+      "onwardLinkText": null,
+      "nextPage": "Antoine Court de Gébelin"
+    },
+    {
+      "page": "Antoine Court de Gébelin",
+      "url": "https://en.wikipedia.org/wiki/Antoine_Court_de_G%C3%A9belin",
+      "revision": 1352572398,
+      "section": "Career",
+      "passage": "He was a supporter of American Independence who contributed to the massive Affaires de l'Angleterre et de l'Amérique, of the new theories of economics, and of the \"animal magnetism\" of Mesmer.",
+      "hatnote": "And he had another enthusiasm besides the tarot.",
+      "onwardLinkText": "Mesmer",
+      "nextPage": "Franz Mesmer"
+    },
+    {
+      "page": "Franz Mesmer",
+      "url": "https://en.wikipedia.org/wiki/Franz_Mesmer",
+      "revision": 1371995235,
+      "section": "Investigation",
+      "passage": "In 1784, without Mesmer having requested it, King Louis XVI appointed four members of the Faculty of Medicine as commissioners to investigate animal magnetism and Mesmerism. At the request of these commissioners, the king appointed Baron de Breteuil, minister of the Department of Paris, to establish investigative commissions. One was composed of individuals from the Royal Academy of Sciences, and the other of individuals from the Academy of Sciences and the Faculty of Medicine. The investigative teams included the chemist Antoine Lavoisier, the doctor Joseph-Ignace Guillotin, the astronomer Jean Sylvain Bailly, and the American ambassador Benjamin Franklin.",
+      "hatnote": "Mesmer's 'animal magnetism' was the craze of Paris. The king wanted it tested.",
+      "onwardLinkText": null,
+      "nextPage": "Franz Mesmer"
+    },
+    {
+      "page": "Franz Mesmer",
+      "url": "https://en.wikipedia.org/wiki/Franz_Mesmer",
+      "revision": 1371995235,
+      "section": "Investigation",
+      "passage": "The commission did not examine Mesmer specifically, but instead observed the practice of d'Eslon. They used blind trials, blindfolding the subjects, in their investigation, and found that Mesmerism seemed to work only when the subject was aware of it. Their findings are considered the first observation of the placebo effect.",
+      "hatnote": "Franklin and the commissioners tried a trick: blindfolds.",
+      "onwardLinkText": null,
+      "nextPage": "Franz Mesmer"
+    }
+  ],
+  "payoff": "Court de Gébelin's Egyptian tarot fooled the world; his lodge-brother Franklin's blindfolds exposed mesmerism, first observing the placebo effect.",
+  "caveats": []
+}

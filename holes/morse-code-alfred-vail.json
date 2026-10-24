@@ -1,0 +1,82 @@
+{
+  "id": "morse-code-alfred-vail",
+  "claim": "Morse code's shortchanged co-inventor had a cousin whose funeral silenced 12 million phones.",
+  "start": {
+    "title": "Morse code",
+    "page": "Morse code",
+    "description": "Transmission of language with brief pulses",
+    "image": "snapshots/images/Morse-code.webp"
+  },
+  "end": {
+    "title": "Theodore Newton Vail",
+    "page": "Theodore Newton Vail",
+    "description": "American industrialist (1845–1920)",
+    "image": "snapshots/images/Theodore-Newton-Vail.webp"
+  },
+  "knots": [
+    {
+      "page": "Morse code",
+      "url": "https://en.wikipedia.org/wiki/Morse_code",
+      "revision": 1381305135,
+      "section": "Samuel Morse and Alfred Vail",
+      "passage": "However, the code was soon expanded by Alfred Vail in 1840 to include letters and special characters, so it could be used more generally. Vail estimated the English language letter frequency by counting the movable type he found in the type cases of a local newspaper in Morristown, New Jersey. The shorter marks were called \"dots\" and the longer ones \"dashes\", and the letters most commonly used were assigned the shortest sequences of dots and dashes.",
+      "hatnote": "Morse first planned a code of numbered words in a codebook. Someone else changed that.",
+      "onwardLinkText": "Alfred Vail",
+      "nextPage": "Alfred Vail"
+    },
+    {
+      "page": "Alfred Vail",
+      "url": "https://en.wikipedia.org/wiki/Alfred_Vail",
+      "revision": 1380650764,
+      "section": "Retirement",
+      "passage": "When Morse took on an influential congressman as a partner, Morse cut the Vail brothers' share to one-eighth, although the other partners' shares were not reduced. Morse retained patent rights to all the apparatus and the alphabetic code-system that Vail had developed.",
+      "hatnote": "Vail was promised a quarter of the profits. It didn't last.",
+      "onwardLinkText": null,
+      "nextPage": "Alfred Vail"
+    },
+    {
+      "page": "Alfred Vail",
+      "url": "https://en.wikipedia.org/wiki/Alfred_Vail",
+      "revision": 1380650764,
+      "section": "Retirement",
+      "passage": "Vail retired from the telegraph operations in 1848 and moved back to Morristown, where he spent his last ten years researching genealogy. Since Alfred and his brother George shared a one-eighth interest in Morse's telegraph patents, Vail realized far less financial gain from his work on the telegraph than Morse and others.",
+      "hatnote": "So he walked away from the telegraph.",
+      "onwardLinkText": null,
+      "nextPage": "Alfred Vail"
+    },
+    {
+      "page": "Alfred Vail",
+      "url": "https://en.wikipedia.org/wiki/Alfred_Vail",
+      "revision": 1380650764,
+      "section": "Retirement",
+      "passage": "Alfred Vail's cousin, Theodore N. Vail, became the first president of American Telephone & Telegraph.",
+      "hatnote": "But the Vail family wasn't finished with wires.",
+      "onwardLinkText": "Theodore N. Vail",
+      "nextPage": "Theodore Newton Vail"
+    },
+    {
+      "page": "Theodore Newton Vail",
+      "url": "https://en.wikipedia.org/wiki/Theodore_Newton_Vail",
+      "revision": 1380088553,
+      "section": "American Bell and AT&T",
+      "passage": "Vail became convinced as a result of his association with Hubbard that the telephone would eventually revolutionize world communication, and he became a vigorous, though generally unsuccessful, promoter of Bell stock. Hubbard was impressed with Vail and offered him the position of general manager of the American Bell Telephone Company in 1878. Vail defended the Bell patents successfully from challenges from Western Union and others. He introduced the use of copper wire in telephone and telegraph lines.",
+      "hatnote": "Theodore bet on the telephone, and fought the telegraph giant over patents.",
+      "onwardLinkText": null,
+      "nextPage": "Theodore Newton Vail"
+    },
+    {
+      "page": "Theodore Newton Vail",
+      "url": "https://en.wikipedia.org/wiki/Theodore_Newton_Vail",
+      "revision": 1380088553,
+      "section": "Later years and death",
+      "passage": "As a tribute to Vail, telephone service across the United States was halted for one minute on the morning of April 18, 1920, while his funeral was conducted in Parsippany, New Jersey. From 11:00 to 11:01, Eastern time (8:00 to 8:01 a.m. Pacific Time), AT&T telephone operators disconnected calls. At the time, \"This caused temporary silence of about 12,000,000 telephones and 24,000,000 miles of telephone wire.\"",
+      "hatnote": "When Theodore died, his network paid him an unusual tribute.",
+      "onwardLinkText": null,
+      "nextPage": "Theodore Newton Vail"
+    }
+  ],
+  "payoff": "Alfred Vail left the telegraph with little to show for it; his cousin built the telephone giant, and the whole network fell silent for him.",
+  "caveats": [
+    "Who invented the code is disputed; the Alfred Vail page notes Vail himself attributed it to Morse."
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "reading-copy-45",
+  "claim": "Tulip mania may have ruined fewer than half a dozen people.",
+  "start": {
+    "title": "Tulip",
+    "page": "Tulip",
+    "description": "Genus of plants",
+    "image": "snapshots/images/Tulip.webp"
+  },
+  "end": {
+    "title": "Economic bubble",
+    "page": "Economic bubble",
+    "description": "Temporary spike in asset prices",
+    "image": ""
+  },
+  "knots": [
+    {
+      "page": "Tulip",
+      "url": "https://en.wikipedia.org/wiki/Tulip",
+      "revision": 1380020017,
+      "section": "Ecology",
+      "passage": "Variegated tulips admired during the Dutch tulipomania gained their delicately feathered patterns from an infection with the tulip breaking virus, a mosaic virus that was carried by the green peach aphid, Myzus persicae. While the virus produces fantastically streaked flowers, it also weakens plants and reduces the number of offsets produced. Dutch growers would go to extraordinary lengths during tulipomania to make tulips break, borrowing alchemists' techniques and resorting to sprinkling paint powders of the desired hue or pigeon droppings onto flower roots.",
+      "hatnote": "Tulips get their colour from two pigments, and the most prized ones were sick.",
+      "onwardLinkText": "tulipomania",
+      "nextPage": "Tulip mania"
+    },
+    {
+      "page": "Tulip mania",
+      "url": "https://en.wikipedia.org/wiki/Tulip_mania",
+      "revision": 1379805579,
+      "section": "Dutch tulip business",
+      "passage": "The Semper Augustus was the most expensive tulip during the tulip mania; during the peak this tulip was sold for ƒ10.000 (~€130.000 in 2024). After seeing the tulip in the garden of Dr. Adriaan Pauw, a director of the Dutch East India Company, Nicolas van Wassenaer wrote in 1624 \"The colour is white, with carmine on a blue base, and with an unbroken flame right to the top\". Semper Augustus was actually not a tulip variety but rather a tulip affected by the tulip mosaic virus.",
+      "hatnote": "One infected bulb fetched a fortune.",
+      "onwardLinkText": null,
+      "nextPage": "Tulip mania"
+    },
+    {
+      "page": "Tulip mania",
+      "url": "https://en.wikipedia.org/wiki/Tulip_mania",
+      "revision": 1379805579,
+      "section": "Modern views",
+      "passage": "Any economic fallout from the bubble was very limited. Goldgar, who identifies many prominent buyers and sellers in the market, finds fewer than half a dozen who experienced financial troubles in the time period, and even of these cases it is not clear that tulips were to blame.",
+      "hatnote": "But a modern historian went looking for the ruined investors.",
+      "onwardLinkText": null,
+      "nextPage": "Tulip mania"
+    },
+    {
+      "page": "Tulip mania",
+      "url": "https://en.wikipedia.org/wiki/Tulip_mania",
+      "revision": 1379805579,
+      "section": "Mackay's Madness of Crowds",
+      "passage": "Mackay's vivid book was popular among generations of economists and stock market participants. His popular but flawed description of tulip mania as a speculative bubble remains prominent, even though since the 1980s economists have debunked many aspects of his account.",
+      "hatnote": "The legend of ruin came from an 1841 bestseller by Charles Mackay.",
+      "onwardLinkText": "speculative bubble",
+      "nextPage": "Economic bubble"
+    },
+    {
+      "page": "Economic bubble",
+      "url": "https://en.wikipedia.org/wiki/Economic_bubble",
+      "revision": 1371533290,
+      "section": "Causes",
+      "passage": "Puzzlingly for some, bubbles occur even in highly predictable experimental markets, where uncertainty is eliminated and market participants should be able to calculate the intrinsic value of the assets simply by examining the expected stream of dividends. Nevertheless, bubbles have been observed repeatedly in experimental markets, even with participants such as business students, managers, and professional traders. Experimental bubbles have proven robust to a variety of conditions, including short-selling, margin buying, and insider trading.",
+      "hatnote": "Real bubbles exist, though, even where nobody could be fooled.",
+      "onwardLinkText": null,
+      "nextPage": "Economic bubble"
+    }
+  ],
+  "payoff": "History's favourite bubble was over virus-streaked flowers and barely hurt anyone, yet bubbles still form in labs where everyone knows the true price.",
+  "caveats": [
+    "How big a bubble tulip mania really was is disputed; the passages present the modern sceptical view."
+  ]
+}

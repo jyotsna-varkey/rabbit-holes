@@ -1,0 +1,72 @@
+{
+  "id": "telescope-dobson-geranium-code",
+  "claim": "Why a San Francisco monk wrote coded letters about geraniums.",
+  "start": {
+    "title": "Telescope",
+    "page": "Telescope",
+    "description": "Instrument that makes distant objects appear magnified",
+    "image": "snapshots/images/Telescope.webp"
+  },
+  "end": {
+    "title": "Dobsonian telescope",
+    "page": "Dobsonian telescope",
+    "description": "Type of Newtonian telescope popularized by John Dobson",
+    "image": "snapshots/images/Dobsonian-telescope.webp"
+  },
+  "knots": [
+    {
+      "page": "Telescope",
+      "url": "https://en.wikipedia.org/wiki/Telescope",
+      "revision": 1370790151,
+      "section": "History",
+      "passage": "The idea that the objective, or light-gathering element, could be a mirror instead of a lens was being investigated soon after the invention of the refracting telescope. The potential advantages of using parabolic mirrors—reduction of spherical aberration and no chromatic aberration—led to many proposed designs and several attempts to build reflecting telescopes. In 1668, Isaac Newton built the first practical reflecting telescope, of a design which now bears his name, the Newtonian reflector. John Dobson invented the Dobsonian telescope in 1956.",
+      "hatnote": "Mirrors beat lenses, and Newton made the first one that worked.",
+      "onwardLinkText": "John Dobson",
+      "nextPage": "John Dobson (amateur astronomer)"
+    },
+    {
+      "page": "John Dobson (amateur astronomer)",
+      "url": "https://en.wikipedia.org/wiki/John_Dobson_(amateur_astronomer)",
+      "revision": 1378772606,
+      "section": "Time at the monastery",
+      "passage": "That same year Dobson joined the Vedanta Society monastery in San Francisco, becoming a monk of the Ramakrishna Order. “One of John's responsibilities at the monastery was to reconcile astronomy with the teachings of Vedanta. That job led him to build telescopes on the side. He took to wheeling them around outside the monastery, fascinating the neighbors who would congregate around him.”",
+      "hatnote": "The man who made Newton's design cheap was a monk.",
+      "onwardLinkText": null,
+      "nextPage": "John Dobson (amateur astronomer)"
+    },
+    {
+      "page": "John Dobson (amateur astronomer)",
+      "url": "https://en.wikipedia.org/wiki/John_Dobson_(amateur_astronomer)",
+      "revision": 1378772606,
+      "section": "Time at the monastery",
+      "passage": "Amateur telescope making was not part of the curriculum at the monastery, however, and much of his correspondence was written in code so as to attract less attention. For instance, a telescope was referred to as a \"geranium\", which is a type of flower. A \"potted geranium\" referred to a telescope in a tube and rocker, while a \"geranium in bloom\" referred to a telescope whose mirror was now aluminized.",
+      "hatnote": "His monastery didn't approve of the hobby, so it went underground.",
+      "onwardLinkText": null,
+      "nextPage": "John Dobson (amateur astronomer)"
+    },
+    {
+      "page": "John Dobson (amateur astronomer)",
+      "url": "https://en.wikipedia.org/wiki/John_Dobson_(amateur_astronomer)",
+      "revision": 1378772606,
+      "section": "Amateur astronomy",
+      "passage": "It was also at this time that Dobson's simple form of telescope – which came to be known as the Dobsonian – became well known after he started teaching classes to the public on how to make your own telescope.",
+      "hatnote": "Later, his 'geraniums' bloomed in public.",
+      "onwardLinkText": "Dobsonian",
+      "nextPage": "Dobsonian telescope"
+    },
+    {
+      "page": "Dobsonian telescope",
+      "url": "https://en.wikipedia.org/wiki/Dobsonian_telescope",
+      "revision": 1377880829,
+      "section": "Origin and design",
+      "passage": "Dobson identified the characteristic features of the design as lightweight objective mirrors made from porthole glass, and mountings constructed from plywood, Teflon strips and other low-cost materials. Since he built these telescopes as aids in his avocation of instructional sidewalk astronomy, he preferred to call the design a \"sidewalk telescope\". Dobson combined all these innovations in a design focused towards one goal: building a very large, inexpensive, easy to use, portable telescope, one that could bring deep-sky astronomy to the masses.",
+      "hatnote": "What made his telescope special was what it was made of.",
+      "onwardLinkText": null,
+      "nextPage": "Dobsonian telescope"
+    }
+  ],
+  "payoff": "Newton's mirror telescope, rebuilt from porthole glass and plywood by a monk who called it a geranium, brought the deep sky to the sidewalk.",
+  "caveats": [
+    "The Telescope article dates the Dobsonian to 1956; the Dobsonian telescope article says 1965."
+  ]
+}

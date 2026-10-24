@@ -1,6 +1,6 @@
 {
   "id": "silk-sogdian-language",
-  "claim": "The language of the Silk Road's middlemen is still spoken today.",
+  "claim": "The Silk Road's go-between language survives in one hidden mountain valley.",
   "start": {
     "title": "Silk",
     "page": "Silk",
@@ -8,18 +8,18 @@
     "image": "snapshots/images/Silk.webp"
   },
   "end": {
-    "title": "Sogdian language",
-    "page": "Sogdian language",
-    "description": "Extinct Eastern Iranian language of Central Asia",
-    "image": ""
+    "title": "Yaghnobis",
+    "page": "Yaghnobis",
+    "description": "Iranian ethnic group",
+    "image": "snapshots/images/Yaghnobis.webp"
   },
   "knots": [
     {
       "page": "Silk",
       "url": "https://en.wikipedia.org/wiki/Silk",
-      "revision": 1372169666,
+      "revision": 1380989048,
       "section": "China",
-      "passage": "Silk is described in a chapter of the Fan Shengzhi shu from the Western Han empire (202 BC – 9 AD). There is a surviving calendar for silk production in an Eastern Han empire (25–220 AD) document. The two other known works on silk from the Han empire are lost. The first evidence of the long distance silk trade is the finding of silk in the hair of an Egyptian mummy of the 21st dynasty, c.1070 BC. The silk trade reached as far as the Indian subcontinent, the Middle East, Europe, and North Africa. This trade was so extensive that the major set of trade routes between Europe and Asia came to be known as the Silk Road.",
+      "passage": "The first evidence of the long distance silk trade is the finding of silk in the hair of an Egyptian mummy of the 21st dynasty, c.1070 BC. The silk trade reached as far as the Indian subcontinent, the Middle East, Europe, and North Africa. This trade was so extensive that the major set of trade routes between Europe and Asia came to be known as the Silk Road.",
       "hatnote": "Silk travelled so far that the trade routes were named after it.",
       "onwardLinkText": "Silk Road",
       "nextPage": "Silk Road"
@@ -29,18 +29,18 @@
       "url": "https://en.wikipedia.org/wiki/Silk_Road",
       "revision": 1379074984,
       "section": "Byzantine Empire (6th–14th centuries)",
-      "passage": "Byzantine Greek historian Procopius stated that two Nestorian Christian monks eventually uncovered the way silk was made. From this revelation, monks were sent by the Byzantine Emperor Justinian (ruled 527–565) as spies on the Silk Road from Constantinople to China and back to steal the silkworm eggs, resulting in silk production in the Mediterranean, particularly in Thrace in northern Greece, and giving the Byzantine Empire a monopoly on silk production in medieval Europe. In 568, the Byzantine ruler Justin II was greeted by a Sogdian embassy representing Istämi, ruler of the First Turkic Khaganate, who formed an alliance with the Byzantines against Khosrow I of the Sasanian Empire that allowed the Byzantines to bypass the Sasanian merchants and trade directly with the Sogdians for purchasing Chinese silk. Although the Byzantines had already procured silkworm eggs from China by this point, the quality of Chinese silk was still far greater than anything produced in the West, a fact that is perhaps emphasized by the discovery of coins minted by Justin II found in a Chinese tomb of Shanxi province dated to the Sui dynasty (581–618).",
-      "hatnote": "Byzantium had silkworm eggs smuggled out, but still bought silk through Sogdian traders.",
+      "passage": "In 568, the Byzantine ruler Justin II was greeted by a Sogdian embassy representing Istämi, ruler of the First Turkic Khaganate, who formed an alliance with the Byzantines against Khosrow I of the Sasanian Empire that allowed the Byzantines to bypass the Sasanian merchants and trade directly with the Sogdians for purchasing Chinese silk. Although the Byzantines had already procured silkworm eggs from China by this point, the quality of Chinese silk was still far greater than anything produced in the West, a fact that is perhaps emphasized by the discovery of coins minted by Justin II found in a Chinese tomb of Shanxi province dated to the Sui dynasty (581–618).",
+      "hatnote": "Byzantium could make silk by then, but still bought China's best from Sogdian traders.",
       "onwardLinkText": "Sogdian",
       "nextPage": "Sogdia"
     },
     {
       "page": "Sogdia",
       "url": "https://en.wikipedia.org/wiki/Sogdia",
-      "revision": 1378304607,
+      "revision": 1381088056,
       "section": "Samanids (819–999)",
-      "passage": "The withdrawal of Chinese armies from Central Asia allowed for the rise of the Samanid Empire (819–999), a Persian state centred at Bukhara (in what is now modern Uzbekistan) that had nominally observed the Abbasids as their overlords, yet retained a great deal of autonomy and upheld the mercantile legacy of the Sogdians. The Samanids occupied the Sogdian region from circa 819 until 999, establishing their capital at Samarkand (819–892) and then at Bukhara (892–999). During this time the Sogdian language gradually declined in favour of the Persian language of the Samanids (the ancestor of the modern Tajik language), the spoken language of renowned poets and intellectuals of the age such as Ferdowsi (940–1020). So too did the original religions of the Sogdians decline: Zoroastrianism, Buddhism, Manichaeism, and Nestorian Christianity disappeared in the region by the end of the Samanid period. The Samanids were also responsible for converting the surrounding Turkic peoples to Islam.",
-      "hatnote": "When the Sogdians' world changed, their language gave way to Persian.",
+      "passage": "The Samanids occupied the Sogdian region from circa 819 until 999, establishing their capital at Samarkand (819–892) and then at Bukhara (892–999). During this time the Sogdian language gradually declined in favour of the Persian language of the Samanids (the ancestor of the modern Tajik language), the spoken language of renowned poets and intellectuals of the age such as Ferdowsi (940–1020).",
+      "hatnote": "The Sogdian traders' homeland was later conquered, and Persian took over.",
       "onwardLinkText": "Sogdian language",
       "nextPage": "Sogdian language"
     },
@@ -50,13 +50,21 @@
       "revision": 1372695432,
       "section": "History",
       "passage": "The economic and political importance of Sogdian guaranteed its survival in the first few centuries after the Muslim conquest of Sogdia in the early eighth century. A dialect of Sogdian spoken around the 8th century in Osrushana (capital: Bunjikat, near present-day Istaravshan, Tajikistan), a region to the south of Sogdia, developed into the Yaghnobi language and has survived into the 21st century. It is spoken by the Yaghnobi people.",
-      "hatnote": "One dialect held on, and is still spoken.",
+      "hatnote": "Yet one mountain dialect of Sogdian held on.",
+      "onwardLinkText": "Yaghnobi people",
+      "nextPage": "Yaghnobis"
+    },
+    {
+      "page": "Yaghnobis",
+      "url": "https://en.wikipedia.org/wiki/Yaghnobis",
+      "revision": 1376913718,
+      "section": "Pre-20th century",
+      "passage": "The ancient Sogdians fled to the Yaghnob Valley to escape the Abbasid Caliphate. Their direct descendants, the Yaghnobi, lived there in peaceful isolation until the 1820s.",
+      "hatnote": "Its speakers had climbed out of reach long before.",
       "onwardLinkText": null,
-      "nextPage": "Sogdian language"
+      "nextPage": "Yaghnobis"
     }
   ],
-  "payoff": "Silk's middlemen lost their world, but a dialect of their language outlived it.",
-  "caveats": [
-    "Knot 2: the monks' smuggling story comes from Procopius."
-  ]
+  "payoff": "Sogdian merchants sold China's silk to Byzantium; when their world fell to Persian, their language hid in a valley and is still spoken.",
+  "caveats": []
 }

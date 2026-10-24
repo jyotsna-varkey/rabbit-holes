@@ -1,0 +1,82 @@
+{
+  "id": "lipstick-hazel-bishop-eosin",
+  "claim": "The first kiss-proof lipstick came from an aircraft-fuel chemist and a microscope stain.",
+  "start": {
+    "title": "Lipstick",
+    "page": "Lipstick",
+    "description": "Cosmetic for coloring the lip",
+    "image": "snapshots/images/Lipstick.webp"
+  },
+  "end": {
+    "title": "Eosin",
+    "page": "Eosin",
+    "description": "Group of bromo derivatives of fluorescein used as red dye",
+    "image": "snapshots/images/Eosin.webp"
+  },
+  "knots": [
+    {
+      "page": "Lipstick",
+      "url": "https://en.wikipedia.org/wiki/Lipstick",
+      "revision": 1363459965,
+      "section": "Lipstick trends",
+      "passage": "In 1950, a chemist named Hazel Bishop formed a company, Hazel Bishop Inc., to promote her invention of long-lasting, non-smearing 'kissproof' lipstick (\"stays on you... not on him\"), which quickly gained acceptance.",
+      "hatnote": "Lipstick that didn't come off on collars and cups was a chemist's work.",
+      "onwardLinkText": "Hazel Bishop",
+      "nextPage": "Hazel Bishop"
+    },
+    {
+      "page": "Hazel Bishop",
+      "url": "https://en.wikipedia.org/wiki/Hazel_Bishop",
+      "revision": 1356792776,
+      "section": "Career",
+      "passage": "In 1942, she worked as an organic chemist for Standard Oil Development Company designing fuels for airplanes during World War II. During her time there she discovered the cause of deposits affecting superchargers of aircraft engines. In 1945, she joined the Socony Vacuum Oil Company, where she worked until 1950.",
+      "hatnote": "Her day job had nothing to do with beauty.",
+      "onwardLinkText": null,
+      "nextPage": "Hazel Bishop"
+    },
+    {
+      "page": "Hazel Bishop",
+      "url": "https://en.wikipedia.org/wiki/Hazel_Bishop",
+      "revision": 1356792776,
+      "section": "Lipstick invention",
+      "passage": "Aiming to appeal to a wider market, Bishop began experimenting in her own small kitchen with staining dyes, oils, and molten wax. The goal was a non-drying, smudge-proof, long-lasting lipstick that would not smear on clothing or cups. The resultant mixture, formed into a mold, was called \"No-Smear Lipstick.\"",
+      "hatnote": "At night, the fuel chemist cooked lipstick at home.",
+      "onwardLinkText": null,
+      "nextPage": "Hazel Bishop"
+    },
+    {
+      "page": "Hazel Bishop",
+      "url": "https://en.wikipedia.org/wiki/Hazel_Bishop",
+      "revision": 1356792776,
+      "section": "Lipstick invention",
+      "passage": "Bishop's innovative use of bromo acids would set in motion what would be known as the \"lipstick wars.\" with competitors such as Revlon making their own versions of Bishop's formula in vying for dominance of the cosmetics market. The advent of the \"no smear\" lipstick would prove to be a success for Bishop, as her debut line would not only sell out on the first day, but end up taking over 25% of the American lipstick market.",
+      "hatnote": "The secret was a dye that doesn't sit on the lips, but stains them.",
+      "onwardLinkText": "bromo acids",
+      "nextPage": "Eosin"
+    },
+    {
+      "page": "Eosin",
+      "url": "https://en.wikipedia.org/wiki/Eosin",
+      "revision": 1326107467,
+      "section": "Use in histology",
+      "passage": "Eosin is most often used as a counterstain to hematoxylin in H&E (haematoxylin and eosin) staining. H&E staining is one of the most commonly used techniques in histology. Tissue stained with haematoxylin and eosin shows cytoplasm stained pink-orange and nuclei stained darkly, either blue or purple. Eosin also stains red blood cells intensely red.",
+      "hatnote": "Those 'bromo acids' are eosin dyes, best known for staining cells pink.",
+      "onwardLinkText": null,
+      "nextPage": "Eosin"
+    },
+    {
+      "page": "Eosin",
+      "url": "https://en.wikipedia.org/wiki/Eosin",
+      "revision": 1326107467,
+      "section": "Other uses",
+      "passage": "Eosin is also used as a red dye in inks; however, the molecule, especially that of eosin Y, tends to degrade over time, leaving behind its bromine atoms, hence causing paint incorporating such a dye to obtain a darker brown tinge over time. A notable user of eosin dye was the Post-Impressionist painter Van Gogh.",
+      "hatnote": "It doesn't last forever, as one famous painter found out.",
+      "onwardLinkText": null,
+      "nextPage": "Eosin"
+    }
+  ],
+  "payoff": "One red dye links kiss-proof lipstick, the pink of a pathology slide, and the browning reds in Van Gogh's paint.",
+  "caveats": [
+    "Hazel Bishop's article says 'bromo acids'; the link leads to Eosin, the best-known bromo acid dye."
+  ]
+}

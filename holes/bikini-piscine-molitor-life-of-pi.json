@@ -1,0 +1,70 @@
+{
+  "id": "bikini-piscine-molitor-life-of-pi",
+  "claim": "The bikini's debut stage gave a famous shipwrecked boy his name.",
+  "start": {
+    "title": "Bikini",
+    "page": "Bikini",
+    "description": "Two-piece swimwear",
+    "image": "snapshots/images/Bikini.webp"
+  },
+  "end": {
+    "title": "Life of Pi",
+    "page": "Life of Pi",
+    "description": "2001 novel by Yann Martel",
+    "image": "snapshots/images/Life-of-Pi.webp"
+  },
+  "knots": [
+    {
+      "page": "Bikini",
+      "url": "https://en.wikipedia.org/wiki/Bikini",
+      "revision": 1380957569,
+      "section": "Modern bikini",
+      "passage": "Soon after, Louis Réard created a competing two-piece swimsuit design, which he called the bikini. He noticed that women at the beach rolled up the edges of their swimsuit bottoms and tops to improve their tan. On 5 July, Réard introduced his design at a swimsuit review held at a popular Paris public pool, Piscine Molitor, four days after the first test of a US nuclear weapon at the Bikini Atoll. The newspapers were full of news about it and Réard hoped for the same with his design.",
+      "hatnote": "Everyone remembers the bomb in the bikini's name. Few remember the pool.",
+      "onwardLinkText": "Piscine Molitor",
+      "nextPage": "Piscine Molitor"
+    },
+    {
+      "page": "Piscine Molitor",
+      "url": "https://en.wikipedia.org/wiki/Piscine_Molitor",
+      "revision": 1366124788,
+      "section": "History",
+      "passage": "Piscine Molitor was built in 1929 by architect Lucien Pollet, who was working for Les Belles Piscines de France and had designed three other pool complexes. It was designed to resemble an ocean liner and was adorned with Art Deco stained glass by Louis Barillet. In the summer of 1929, Olympic athlete Johnny Weissmuller, who was a lifeguard in his spare time, officially opened Piscine Molitor.",
+      "hatnote": "The pool was a ship on dry land, opened by the future Tarzan.",
+      "onwardLinkText": null,
+      "nextPage": "Piscine Molitor"
+    },
+    {
+      "page": "Piscine Molitor",
+      "url": "https://en.wikipedia.org/wiki/Piscine_Molitor",
+      "revision": 1366124788,
+      "section": "In popular culture",
+      "passage": "The title character of Yann Martel's Man Booker Prize winning novel Life of Pi, Piscine Molitor \"Pi\" Patel, is named after Piscine Molitor. This book was made into a movie of the same name which was released in 2012.",
+      "hatnote": "Decades later, a novelist borrowed its name for a boy.",
+      "onwardLinkText": "Life of Pi",
+      "nextPage": "Life of Pi"
+    },
+    {
+      "page": "Life of Pi",
+      "url": "https://en.wikipedia.org/wiki/Life_of_Pi",
+      "revision": 1374606766,
+      "section": "Piscine Molitor \"Pi\" Patel",
+      "passage": "Piscine Molitor Patel, known to all as just \"Pi\", is the narrator and protagonist of the novel. He was named after a swimming pool in Paris, despite the fact that neither his mother nor his father particularly liked swimming. The story is told as a narrative from the perspective of a middle-aged Pi, who is now married with a family and living in Canada. At the time of the main events of the story, he was sixteen years old. He recounts the story of his life and his 227-day journey on a lifeboat when the ship he sailed sinks in the middle of the Pacific Ocean during a voyage to North America.",
+      "hatnote": "An odd choice for parents who didn't swim.",
+      "onwardLinkText": null,
+      "nextPage": "Life of Pi"
+    },
+    {
+      "page": "Life of Pi",
+      "url": "https://en.wikipedia.org/wiki/Life_of_Pi",
+      "revision": 1374606766,
+      "section": "Part one",
+      "passage": "The narrator describes how he acquired his full name as a tribute to the swimming pool in France. After schoolmates tease him by transforming his first name into \"Pissing\", he establishes the short form of his name as \"Pi\" when he starts secondary school. The name, he says, pays tribute to the transcendental number which is the ratio of the circumference of a circle to its diameter.",
+      "hatnote": "So 'Pi' is a nickname, invented to escape a playground joke.",
+      "onwardLinkText": null,
+      "nextPage": "Life of Pi"
+    }
+  ],
+  "payoff": "The boy who spends 227 days adrift is named after a pool built to look like an ocean liner, where the bikini was born.",
+  "caveats": []
+}

@@ -1,0 +1,72 @@
+{
+  "id": "coin-leiden-herring",
+  "claim": "A coin shortage explains why one Dutch city hands out free herring.",
+  "start": {
+    "title": "Coin",
+    "page": "Coin",
+    "description": "Small, flat and usually round piece of material used as money",
+    "image": "snapshots/images/Coin.webp"
+  },
+  "end": {
+    "title": "3 October Festival",
+    "page": "3 October Festival",
+    "description": "Festival in Leiden, the Netherlands",
+    "image": "snapshots/images/3-October-Festival.webp"
+  },
+  "knots": [
+    {
+      "page": "Coin",
+      "url": "https://en.wikipedia.org/wiki/Coin",
+      "revision": 1378986369,
+      "section": "Modern history",
+      "passage": "The first attested siege coins appeared at the siege of Pavia in 1524.",
+      "hatnote": "When a city is surrounded, soldiers still want paying. So it makes its own money.",
+      "onwardLinkText": "siege coins",
+      "nextPage": "Siege money"
+    },
+    {
+      "page": "Siege money",
+      "url": "https://en.wikipedia.org/wiki/Siege_money",
+      "revision": 1354914198,
+      "section": "Eighty Years' War",
+      "passage": "During the Eighty Years' War a number of towns and cities issued their own currency (money of necessity), for example during the siege of Leiden (1573–1574), the authorities issued diamond (square) silver coinage struck with a circular die. When silver ran out they used the same die to print money on cardboard. This was the first usage of paper money in Europe.",
+      "hatnote": "In one besieged Dutch town, even the silver ran out.",
+      "onwardLinkText": "siege of Leiden",
+      "nextPage": "Siege of Leiden"
+    },
+    {
+      "page": "Siege of Leiden",
+      "url": "https://en.wikipedia.org/wiki/Siege_of_Leiden",
+      "revision": 1375808582,
+      "section": "Second siege and relief of Leiden",
+      "passage": "This was a formidable obstacle, but the Spaniards, adept at land fighting and not amphibious warfare, had despaired of maintaining so unequal a contest against the combined forces of the sea and the veteran Dutch seamen. Accordingly, the Spanish commander Valdez ordered a retreat in the night of 2 October, and the army fled, rendered more fearful by a terrible crash they heard from the city, and assumed to be the men of Leiden breaking still another dam upon them. In fact, part of the wall of Leiden, eroded by the sea water, had fallen, leaving the city completely vulnerable to attack, had any Spaniards chosen to remain.",
+      "hatnote": "Rebels flooded the land to rescue Leiden. In October 1574, the water finally rose.",
+      "onwardLinkText": null,
+      "nextPage": "Siege of Leiden"
+    },
+    {
+      "page": "Siege of Leiden",
+      "url": "https://en.wikipedia.org/wiki/Siege_of_Leiden",
+      "revision": 1375808582,
+      "section": "Aftermath",
+      "passage": "The 3 October Festival is celebrated every year in Leiden. It is a festival, with a funfair and a dozen open air discos in the night. The municipality gives free herring and white bread to the citizens of Leiden.",
+      "hatnote": "Leiden has never forgotten its rescue.",
+      "onwardLinkText": "3 October Festival",
+      "nextPage": "3 October Festival"
+    },
+    {
+      "page": "3 October Festival",
+      "url": "https://en.wikipedia.org/wiki/3_October_Festival",
+      "revision": 1286615947,
+      "section": "Historical origins",
+      "passage": "William and his soldiers sailed to Leiden as part of a makeshift military fleet dubbed the Watergeuzen (\"Sea Beggars\") on the morning of 3 October. They headed north along the Vliet canal, which now had water deep enough to support their boats, and brought food and other supplies to Leiden's citizens. The food supplies primarily consisted of herring and white bread (haring en wittebrood). To reward the city's citizens for withstanding the Spanish attack, William established Leiden University the following year.",
+      "hatnote": "Why herring? Look at what the rescuers carried in on 3 October 1574.",
+      "onwardLinkText": null,
+      "nextPage": "3 October Festival"
+    }
+  ],
+  "payoff": "Leiden ran so short of silver it printed cardboard money; it survived, won a university, and still hands out the rescuers' herring every 3 October.",
+  "caveats": [
+    "'First usage of paper money in Europe' is the Siege money page's claim; other pages credit later issuers such as Stockholm's banknotes, and this is debated."
+  ]
+}

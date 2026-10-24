@@ -1,0 +1,83 @@
+{
+  "id": "vending-machine-devils-chaplain",
+  "claim": "A vending machine for banned books leads to Darwin's darkest phrase.",
+  "start": {
+    "title": "Vending machine",
+    "page": "Vending machine",
+    "description": "Machine which dispenses products to customers",
+    "image": "snapshots/images/Vending-machine.webp"
+  },
+  "end": {
+    "title": "Robert Taylor (Radical)",
+    "page": "Robert Taylor (Radical)",
+    "description": "",
+    "image": "snapshots/images/Robert-Taylor-Radical.webp"
+  },
+  "knots": [
+    {
+      "page": "Vending machine",
+      "url": "https://en.wikipedia.org/wiki/Vending_machine",
+      "revision": 1373187192,
+      "section": "History",
+      "passage": "Coin-operated machines that dispensed tobacco were being operated as early as 1615 in the taverns of England. The machines were portable and made of brass. An English bookseller, Richard Carlile, devised a newspaper dispensing machine for the dissemination of banned works in 1822.",
+      "hatnote": "Long before snacks, vending machines sold tobacco, and something more dangerous.",
+      "onwardLinkText": "Richard Carlile",
+      "nextPage": "Richard Carlile"
+    },
+    {
+      "page": "Richard Carlile",
+      "url": "https://en.wikipedia.org/wiki/Richard_Carlile",
+      "revision": 1380558854,
+      "section": "Peterloo and The Republican",
+      "passage": "In the same year Jane Carlile was in turn sentenced to two years imprisonment for seditious libel, and her place as publisher was taken by Richard Carlile's sister, Mary. Within six months she was imprisoned for the same offence. The process was repeated with eight of his shop workers, including Susannah Wright, and over 150 men and women were sent to prison for selling The Republican.",
+      "hatnote": "Selling his paper over the counter was a jailable offence, as his family found out.",
+      "onwardLinkText": null,
+      "nextPage": "Richard Carlile"
+    },
+    {
+      "page": "Richard Carlile",
+      "url": "https://en.wikipedia.org/wiki/Richard_Carlile",
+      "revision": 1380558854,
+      "section": "The Devil's Chaplain",
+      "passage": "He joined up with the radical and sceptical clergyman Robert Taylor and set out on an \"infidel home missionary tour\" which reached Cambridge on Thursday 21 May 1829 and caused a considerable upset to the University of Cambridge where a young Charles Darwin was a second-year student.",
+      "hatnote": "Out of prison, Carlile took his message on the road, with an ex-priest.",
+      "onwardLinkText": "Robert Taylor",
+      "nextPage": "Robert Taylor (Radical)"
+    },
+    {
+      "page": "Robert Taylor (Radical)",
+      "url": "https://en.wikipedia.org/wiki/Robert_Taylor_(Radical)",
+      "revision": 1239367689,
+      "section": "Infidel home missionary tour",
+      "passage": "The Vice-Chancellor and Proctors revoked the licence and made the lodgings out of bounds, posting a notice in the butteries of all the colleges to warn the students, among them Charles Darwin, then in his second year.",
+      "hatnote": "Cambridge fought back by punishing the pair's landlord.",
+      "onwardLinkText": null,
+      "nextPage": "Robert Taylor (Radical)"
+    },
+    {
+      "page": "Robert Taylor (Radical)",
+      "url": "https://en.wikipedia.org/wiki/Robert_Taylor_(Radical)",
+      "revision": 1239367689,
+      "section": "The Devil's Chaplain",
+      "passage": "Two Sunday sermons on \"The Devil\" caused particular outrage when he pronounced \"God and the Devil... to be but one and the self-same being... Hell and Hell-fire... are, in the original, nothing more than names and titles of the Supreme God.\" He was then dubbed \"The Devil's Chaplain\", and thousands of copies of his ceremonies were circulated in a seditious publication, The Devil's Pulpit.",
+      "hatnote": "Back in London, Taylor preached in a rented hall and earned a nickname.",
+      "onwardLinkText": null,
+      "nextPage": "Robert Taylor (Radical)"
+    },
+    {
+      "page": "Robert Taylor (Radical)",
+      "url": "https://en.wikipedia.org/wiki/Robert_Taylor_(Radical)",
+      "revision": 1239367689,
+      "section": "Darwin recalls Taylor",
+      "passage": "Taylor would be remembered by Charles Darwin as a warning example of a social pariah. In 1857 as he worked towards the publication of his theory he wrote \"What a book a Devil's Chaplain might write on the clumsy, wasteful, blundering low & horridly cruel works of Nature!\" in what Desmond and Moore argue is a reference to Taylor's nickname.",
+      "hatnote": "Nearly thirty years later, the student remembered the warning.",
+      "onwardLinkText": null,
+      "nextPage": "Robert Taylor (Radical)"
+    }
+  ],
+  "payoff": "Darwin's bleakest line about nature may echo the nickname of a blasphemer whose publisher sold banned papers by machine.",
+  "caveats": [
+    "That Darwin's 'Devil's Chaplain' refers to Taylor is an argument by Desmond and Moore; the page notes the phrase itself goes back to Chaucer.",
+    "The Vending machine page credits Carlile with the machine; the Carlile page itself does not mention it."
+  ]
+}

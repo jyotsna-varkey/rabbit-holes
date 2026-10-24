@@ -8,10 +8,10 @@
     "image": ""
   },
   "end": {
-    "title": "TNT",
-    "page": "TNT",
-    "description": "Impact-resistant high explosive",
-    "image": "snapshots/images/TNT.webp"
+    "title": "Canary Girls",
+    "page": "Canary Girls",
+    "description": "UK's female TNT shell makers of World War I",
+    "image": "snapshots/images/Canary-Girls.webp"
   },
   "knots": [
     {
@@ -50,11 +50,21 @@
       "revision": 1380938527,
       "section": "Safety and toxicity",
       "passage": "TNT is poisonous, and skin contact can cause skin irritation, causing the skin to turn a bright yellow-orange color. During the First World War, female munition workers who handled the chemical found that their skin turned bright yellow, which resulted in their acquiring the nickname \"canary girls\" or simply \"canaries\".",
-      "hatnote": "Once a dye, always a dye.",
+      "hatnote": "Its first job left a mark on the people who handled it.",
+      "onwardLinkText": "canary girls",
+      "nextPage": "Canary Girls"
+    },
+    {
+      "page": "Canary Girls",
+      "url": "https://en.wikipedia.org/wiki/Canary_Girls",
+      "revision": 1336558592,
+      "section": "Effects of working with TNT",
+      "passage": "Shells were filled with a mixture of TNT (the explosive) and cordite (the propellant), and even though these ingredients were known to be hazardous, they were mixed by hand, and thus came into direct contact with the skin of workers, where it reacted with melanin to cause yellow pigmentation, staining the skin of the munitions workers. Although unpleasant, this was not dangerous and the discolouration eventually faded over time with no long-term health effects.",
+      "hatnote": "So what was turning the workers yellow?",
       "onwardLinkText": null,
-      "nextPage": "TNT"
+      "nextPage": "Canary Girls"
     }
   ],
-  "payoff": "A dye became an explosive, the explosive gave us perfume's musk, and in the factories the old dye still turned workers yellow.",
+  "payoff": "A yellow dye became an explosive, the explosive gave us laundry's clean musk, and on workers' skin it went back to dyeing.",
   "caveats": []
 }

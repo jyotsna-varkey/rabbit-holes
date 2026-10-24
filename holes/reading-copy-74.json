@@ -1,0 +1,70 @@
+{
+  "id": "reading-copy-74",
+  "claim": "Sweden once fixed its calendar by adding a day February never has.",
+  "start": {
+    "title": "Calendar",
+    "page": "Calendar",
+    "description": "System for organizing days",
+    "image": "snapshots/images/Calendar.webp"
+  },
+  "end": {
+    "title": "List of non-standard dates",
+    "page": "List of non-standard dates",
+    "description": "",
+    "image": "snapshots/images/List-of-non-standard-dates.webp"
+  },
+  "knots": [
+    {
+      "page": "Calendar",
+      "url": "https://en.wikipedia.org/wiki/Calendar",
+      "revision": 1375352272,
+      "section": "History",
+      "passage": "The Roman calendar was reformed by Julius Caesar in 46 BC. His \"Julian\" calendar was no longer dependent on the observation of the new moon, but followed an algorithm of introducing a leap day every four years. This dissociated the calendar month from lunation. The Gregorian calendar, introduced in 1582, corrected most of the remaining difference between the Julian calendar and the solar year.",
+      "hatnote": "Leap days began as Julius Caesar's fix for a drifting year.",
+      "onwardLinkText": null,
+      "nextPage": "Calendar"
+    },
+    {
+      "page": "Calendar",
+      "url": "https://en.wikipedia.org/wiki/Calendar",
+      "revision": 1375352272,
+      "section": "Gregorian",
+      "passage": "The Gregorian calendar was introduced in 1582 as a refinement to the Julian calendar, which had been in use throughout the European Middle Ages, amounting to a 0.002% correction in the length of the year. During the Early Modern period, its adoption was mostly limited to Roman Catholic nations, but by the 19th century it had become widely adopted for the sake of convenience in international trade. The last European country to adopt it was Greece, in 1923.",
+      "hatnote": "Switching to the better calendar took Europe centuries.",
+      "onwardLinkText": "its adoption was mostly limited",
+      "nextPage": "Adoption of the Gregorian calendar"
+    },
+    {
+      "page": "Adoption of the Gregorian calendar",
+      "url": "https://en.wikipedia.org/wiki/Adoption_of_the_Gregorian_calendar",
+      "revision": 1377458140,
+      "section": "Sweden",
+      "passage": "Sweden's transition to the Gregorian calendar was difficult and protracted. Sweden started to make the change from the Julian calendar and towards the Gregorian calendar in 1700, but it was decided to make the (then 11-day) adjustment gradually by excluding the leap days (29 February) from each of 11 successive leap years, 1700 to 1740.",
+      "hatnote": "Sweden thought it had a gentler way to switch.",
+      "onwardLinkText": null,
+      "nextPage": "Adoption of the Gregorian calendar"
+    },
+    {
+      "page": "Adoption of the Gregorian calendar",
+      "url": "https://en.wikipedia.org/wiki/Adoption_of_the_Gregorian_calendar",
+      "revision": 1377458140,
+      "section": "Sweden",
+      "passage": "Rather than proceeding directly to the Gregorian calendar, it was decided to revert to the Julian calendar. This was achieved by introducing the unique date 30 February in 1712, adjusting the discrepancy in the calendars from 10 back to 11 days. Sweden finally adopted the solar portion of the Gregorian calendar in 1753, when Wednesday, 17 February, was followed by Thursday, 1 March.",
+      "hatnote": "The gradual plan went wrong, so Sweden turned back instead.",
+      "onwardLinkText": "the unique date 30 February",
+      "nextPage": "List of non-standard dates"
+    },
+    {
+      "page": "List of non-standard dates",
+      "url": "https://en.wikipedia.org/wiki/List_of_non-standard_dates",
+      "revision": 1380823429,
+      "section": "February 30",
+      "passage": "Although the leap day was omitted in February 1700, the Great Northern War had begun, diverting the attention of the Swedes from their calendar so that they did not omit leap days on the next two occasions; 1704 and 1708 remained leap years.",
+      "hatnote": "Why had the plan gone wrong in the first place?",
+      "onwardLinkText": null,
+      "nextPage": "List of non-standard dates"
+    }
+  ],
+  "payoff": "Distracted by war, Sweden forgot to skip two leap days, so the only way back was a 30 February.",
+  "caveats": []
+}

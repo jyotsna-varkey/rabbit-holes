@@ -1,0 +1,80 @@
+{
+  "id": "thinker-the-prince",
+  "claim": "The Thinker got its name from a Medici who may never have read Machiavelli.",
+  "start": {
+    "title": "The Thinker",
+    "page": "The Thinker",
+    "description": "Sculpture by Auguste Rodin",
+    "image": "snapshots/images/The-Thinker.webp"
+  },
+  "end": {
+    "title": "The Prince",
+    "page": "The Prince",
+    "description": "Political treatise by Niccolò Machiavelli",
+    "image": "snapshots/images/The-Prince.webp"
+  },
+  "knots": [
+    {
+      "page": "The Thinker",
+      "url": "https://en.wikipedia.org/wiki/The_Thinker",
+      "revision": 1377468522,
+      "section": "Origin",
+      "passage": "This detail from the Gates of Hell was first named The Thinker by foundry workers, who noted its similarity to Michelangelo's statue of Lorenzo de' Medici, Duke of Urbino, called Il Pensieroso (The Thinker).",
+      "hatnote": "Rodin's most famous figure didn't get its name from Rodin.",
+      "onwardLinkText": "Lorenzo de' Medici, Duke of Urbino",
+      "nextPage": "Lorenzo de' Medici, Duke of Urbino"
+    },
+    {
+      "page": "Lorenzo de' Medici, Duke of Urbino",
+      "url": "https://en.wikipedia.org/wiki/Lorenzo_de'_Medici%2C_Duke_of_Urbino",
+      "revision": 1365201969,
+      "section": "Career",
+      "passage": "Lorenzo II's tomb is in the Medici Chapel of Florence's Church of San Lorenzo. There is disagreement over which of the two tombs is Lorenzo II's. The received view is that Lorenzo's tomb that is adorned by Michelangelo's sculpture Pensieroso, which offers an idealized portrait of Lorenzo II, and that its companion piece, also sculpted by Michelangelo, represents Lorenzo II's uncle Giuliano di Lorenzo de' Medici. But historian Richard Trexler has argued that Lorenzo II, having been Captain of the Florentine militia, must be the figure holding the baton, symbol of military authority conferred by the Republic.",
+      "hatnote": "But is Michelangelo's thinker even Lorenzo?",
+      "onwardLinkText": null,
+      "nextPage": "Lorenzo de' Medici, Duke of Urbino"
+    },
+    {
+      "page": "Lorenzo de' Medici, Duke of Urbino",
+      "url": "https://en.wikipedia.org/wiki/Lorenzo_de'_Medici%2C_Duke_of_Urbino",
+      "revision": 1365201969,
+      "section": "Career",
+      "passage": "Famously, Niccolò Machiavelli dedicated his political treatise The Prince to Lorenzo to advise him of tactics to use to maintain his authority.",
+      "hatnote": "Lorenzo had one claim to fame beyond his tomb.",
+      "onwardLinkText": "The Prince",
+      "nextPage": "The Prince"
+    },
+    {
+      "page": "The Prince",
+      "url": "https://en.wikipedia.org/wiki/The_Prince",
+      "revision": 1379050480,
+      "section": "Analysis",
+      "passage": "The book had originally been intended for Giuliano di Lorenzo de' Medici, young Lorenzo's uncle, who however died in 1516. It is not certain that the work was ever read by any of the Medici before it was printed.",
+      "hatnote": "Lorenzo was not Machiavelli's first choice.",
+      "onwardLinkText": null,
+      "nextPage": "The Prince"
+    },
+    {
+      "page": "The Prince",
+      "url": "https://en.wikipedia.org/wiki/The_Prince",
+      "revision": 1379050480,
+      "section": "Other interpretations",
+      "passage": "Mary Dietz, in her essay \"Trapping The Prince\", writes that Machiavelli's agenda was not to be satirical, as Rousseau had argued, but instead was \"offering carefully crafted advice (such as arming the people) designed to undo the ruler if taken seriously and followed.\" By this account, the aim was to reestablish the republic in Florence.",
+      "hatnote": "One scholar thinks the book was never meant to help him at all.",
+      "onwardLinkText": null,
+      "nextPage": "The Prince"
+    },
+    {
+      "page": "The Prince",
+      "url": "https://en.wikipedia.org/wiki/The_Prince",
+      "revision": 1379050480,
+      "section": "Other interpretations",
+      "passage": "According to Dietz, the trap never succeeded because Lorenzo – \"a suspicious prince\" – never read the work of the \"former republican.\"",
+      "hatnote": "If so, the plan had one flaw.",
+      "onwardLinkText": null,
+      "nextPage": "The Prince"
+    }
+  ],
+  "payoff": "Rodin's Thinker is named for a Medici statue; that Medici received The Prince and, by one theory, never read the trap inside it.",
+  "caveats": []
+}

@@ -1,0 +1,82 @@
+{
+  "id": "tunnel-paleoburrow-glossotherium",
+  "claim": "Brazil has thousands of ancient tunnels, and no human dug them.",
+  "start": {
+    "title": "Tunnel",
+    "page": "Tunnel",
+    "description": "Underground passage made for traffic",
+    "image": "snapshots/images/Tunnel.webp"
+  },
+  "end": {
+    "title": "Mylodon",
+    "page": "Mylodon",
+    "description": "Extinct genus of mammals",
+    "image": "snapshots/images/Mylodon.webp"
+  },
+  "knots": [
+    {
+      "page": "Tunnel",
+      "url": "https://en.wikipedia.org/wiki/Tunnel",
+      "revision": 1373672483,
+      "section": "History",
+      "passage": "It is believed that the first artificial tunnel was constructed in Babylon, in about 2200 B.C. This was built to join the temple of Belos with the palace with the aid of the cut and cover technique.",
+      "hatnote": "The oldest human-made tunnel is about 4,000 years old.",
+      "onwardLinkText": null,
+      "nextPage": "Tunnel"
+    },
+    {
+      "page": "Tunnel",
+      "url": "https://en.wikipedia.org/wiki/Tunnel",
+      "revision": 1373672483,
+      "section": "History",
+      "passage": "Some of the earliest tunnels used by humans were paleoburrows excavated by prehistoric mammals.",
+      "hatnote": "But people were using tunnels long before they built any.",
+      "onwardLinkText": "paleoburrows",
+      "nextPage": "Paleoburrow"
+    },
+    {
+      "page": "Paleoburrow",
+      "url": "https://en.wikipedia.org/wiki/Paleoburrow",
+      "revision": 1379216896,
+      "section": "lead",
+      "passage": "A paleoburrow is an underground shelter excavated by extinct paleo-vertebrate megafauna that lived in the prehistoric era. Most paleoburrows are likely made by giant armadillos, pampatheres, and/or large ground sloths, depending on their size. Thousands of examples have been identified across South America, mostly in the Brazilian states of Santa Catarina and Rio Grande do Sul.",
+      "hatnote": "The diggers were giant animals of the Ice Age.",
+      "onwardLinkText": null,
+      "nextPage": "Paleoburrow"
+    },
+    {
+      "page": "Paleoburrow",
+      "url": "https://en.wikipedia.org/wiki/Paleoburrow",
+      "revision": 1379216896,
+      "section": "Description",
+      "passage": "The exact animals which dug the largest burrows, up to 5 feet in diameter, are debated. One group of scientists, including Heinrich Frank, believe that they were dug by giant ground sloths, possibly Catonyx, Glossotherium, or Lestodon. Another group believes that even the largest burrows are attributable to extinct armadillos and/or pampatheres like Pampatherium, Holmesina or Propraopus, even though they were smaller than the sloths.",
+      "hatnote": "So who dug the biggest ones? Scientists still argue.",
+      "onwardLinkText": "Glossotherium",
+      "nextPage": "Glossotherium"
+    },
+    {
+      "page": "Glossotherium",
+      "url": "https://en.wikipedia.org/wiki/Glossotherium",
+      "revision": 1365254367,
+      "section": "lead",
+      "passage": "Glossotherium is an extinct genus of large mylodontid ground sloths of the subfamily Mylodontinae. It represents one of the best-known members of the family, along with Mylodon and Paramylodon. Reconstructed animals were between 3 and 4 metres (9.8 and 13.1 ft) long and possibly weighed up to 1,002.6–1,500 kg.",
+      "hatnote": "One suspect was a ground sloth the size of a car.",
+      "onwardLinkText": "Mylodon",
+      "nextPage": "Mylodon"
+    },
+    {
+      "page": "Mylodon",
+      "url": "https://en.wikipedia.org/wiki/Mylodon",
+      "revision": 1375709899,
+      "section": "Discovery",
+      "passage": "At several sites, preserved hide and dung have been discovered, and are in such a state of conservation that the people who first discovered them believed they belonged to a living animal, instead of to an extinct species. The discovery of fresh-looking samples of skin and dung sparked a small wave of expeditions during the early 20th century to search for a living example of the animal. The samples have since been found to be around 10,000 years old, although they look fresh because of the extreme cold and stable conditions in the caves in which they were found.",
+      "hatnote": "Its close cousin left behind something far stranger than burrows.",
+      "onwardLinkText": null,
+      "nextPage": "Mylodon"
+    }
+  ],
+  "payoff": "Brazil's oldest tunnels were likely clawed out by giant sloths, and one sloth's skin looked so fresh that people went hunting for a living one.",
+  "caveats": [
+    "Which animals dug the largest burrows is debated (sloths vs giant armadillos)."
+  ]
+}

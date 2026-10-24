@@ -1,0 +1,72 @@
+{
+  "id": "ice-cream-penny-lick",
+  "claim": "The ice cream cone exists because of a glass that strangers shared.",
+  "start": {
+    "title": "Ice cream",
+    "page": "Ice cream",
+    "description": "Frozen dessert",
+    "image": "snapshots/images/Ice-cream.webp"
+  },
+  "end": {
+    "title": "Ice cream cone",
+    "page": "Ice cream cone",
+    "description": "Pastry",
+    "image": "snapshots/images/Ice-cream-cone.webp"
+  },
+  "knots": [
+    {
+      "page": "Ice cream",
+      "url": "https://en.wikipedia.org/wiki/Ice_cream",
+      "revision": 1380685301,
+      "section": "Expansion in popularity",
+      "passage": "Ice cream became popular and inexpensive in England in the mid-19th century, when Swiss émigré Carlo Gatti set up the first stand outside Charing Cross station in 1851. He sold scoops in shells for one penny. Prior to this, ice cream was an expensive treat confined to those with access to an ice house.",
+      "hatnote": "Ice cream was a luxury until one immigrant arrived.",
+      "onwardLinkText": "Carlo Gatti",
+      "nextPage": "Carlo Gatti"
+    },
+    {
+      "page": "Carlo Gatti",
+      "url": "https://en.wikipedia.org/wiki/Carlo_Gatti",
+      "revision": 1346530234,
+      "section": "Success in London",
+      "passage": "Gatti exhibited his chocolate-making machine, imported from France, at the Great Exhibition in 1851. Also in 1851, Gatti opened a stand in Hungerford Market, near Charing Cross, to sell confectionery and cakes, hot coffee, cold soft drinks and ice cream. A portion of ice cream was sold for one penny served in a shell, perhaps the origin of the penny lick.",
+      "hatnote": "In 1851 Gatti took his ice cream onto the street.",
+      "onwardLinkText": "penny lick",
+      "nextPage": "Penny lick"
+    },
+    {
+      "page": "Penny lick",
+      "url": "https://en.wikipedia.org/wiki/Penny_lick",
+      "revision": 1293434444,
+      "section": "lead",
+      "passage": "A penny lick was a small glass for serving ice cream, used in London, England, and elsewhere in the late nineteenth century and early twentieth century. Street vendors would sell the contents of the glass for one penny. The glass was usually made with a thick glass base and a shallow depression on top in which the ice cream was placed. The customer would lick clean the glass and return it to the vendor, who would reuse it.",
+      "hatnote": "The penny lick was a glass you gave back.",
+      "onwardLinkText": null,
+      "nextPage": "Penny lick"
+    },
+    {
+      "page": "Penny lick",
+      "url": "https://en.wikipedia.org/wiki/Penny_lick",
+      "revision": 1293434444,
+      "section": "lead",
+      "passage": "The penny lick was banned in London after 1899 due to concerns about the spread of disease, particularly cholera and tuberculosis, as the glass was often not washed between customers. Questions of hygiene led Italo Marchiony to introduce a pastry cup in New York City in 1896, which he patented in 1903. The waffle ice cream cone rapidly became popular soon afterwards, displacing the penny lick.",
+      "hatnote": "Which raised an obvious problem.",
+      "onwardLinkText": "ice cream cone",
+      "nextPage": "Ice cream cone"
+    },
+    {
+      "page": "Ice cream cone",
+      "url": "https://en.wikipedia.org/wiki/Ice_cream_cone",
+      "revision": 1368926631,
+      "section": "20th century",
+      "passage": "At the St. Louis World's Fair in 1904, after an ice cream vendor ran out of paper cups, a Syrian concessionaire named Ernest A. Hamwi offered a solution by curling a waffle cookie into a receptacle for the ice cream. This is believed by some (although there is much dispute) to be the moment where ice cream cones became mainstream. Hamwi started his own cone-making company a few years later.",
+      "hatnote": "Within a few years the cone had its big moment.",
+      "onwardLinkText": null,
+      "nextPage": "Ice cream cone"
+    }
+  ],
+  "payoff": "Gatti's penny ice cream came in a glass licked by stranger after stranger; hygiene fears banned it, and the edible cone took over.",
+  "caveats": [
+    "Penny lick says the shell-served penny portion was 'perhaps' its origin."
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "tide-galileo-foucault-pendulum",
+  "claim": "Galileo's big proof that the Earth moves may have begun on a water barge.",
+  "start": {
+    "title": "Tide",
+    "page": "Tide",
+    "description": "Change in sea level due to gravity",
+    "image": "snapshots/images/Tide.webp"
+  },
+  "end": {
+    "title": "Foucault pendulum",
+    "page": "Foucault pendulum",
+    "description": "Device to demonstrate Earth's rotation",
+    "image": "snapshots/images/Foucault-pendulum.webp"
+  },
+  "knots": [
+    {
+      "page": "Tide",
+      "url": "https://en.wikipedia.org/wiki/Tide",
+      "revision": 1380583895,
+      "section": "History of tidal theory",
+      "passage": "Galileo Galilei in his 1632 Dialogue Concerning the Two Chief World Systems, whose working title was Dialogue on the Tides, made his tidal theory a key element of his physical defense of Copernican heliocentrism, proposing that the tides result from the combined motions of the Earth's rotation and revolution. He explicitly rejected Kepler’s suggestion that the Moon influences the seas, dismissing such lunar attraction as an appeal to occult qualities rather than a mechanically intelligible cause.",
+      "hatnote": "Long before Newton, Galileo had his own theory of the tides.",
+      "onwardLinkText": "Dialogue Concerning the Two Chief World Systems",
+      "nextPage": "Dialogue Concerning the Two Chief World Systems"
+    },
+    {
+      "page": "Dialogue Concerning the Two Chief World Systems",
+      "url": "https://en.wikipedia.org/wiki/Dialogue_Concerning_the_Two_Chief_World_Systems",
+      "revision": 1348555133,
+      "section": "Overview",
+      "passage": "While writing the book, Galileo referred to it as his Dialogue on the Tides, and when the manuscript went to the Inquisition for approval, the title was Dialogue on the Ebb and Flow of the Sea. He was ordered to remove all mention of tides from the title and to change the preface because not granting approval to such a title would look like approval of his theory of the tides using the motion of the Earth as proof.",
+      "hatnote": "His most famous book was, at heart, a book about the sea.",
+      "onwardLinkText": "his theory of the tides",
+      "nextPage": "Discourse on the Tides"
+    },
+    {
+      "page": "Discourse on the Tides",
+      "url": "https://en.wikipedia.org/wiki/Discourse_on_the_Tides",
+      "revision": 1367025761,
+      "section": "Background",
+      "passage": "The letter is thus not just an explanation of tidal phenomenon but also a private confirmation and defense of Galileo's ideas on heliocentrism, which are discussed completely in his Dialogue Concerning the Two Chief World Systems. Galileo's ideas for tidal theory may have begun during 1595. While aboard a ferry carrying freshwater to Venice, Galileo noticed that the ship's cargo would undulate in accordance with the rocking of the ship.",
+      "hatnote": "Where did the idea come from? Possibly a boat full of water.",
+      "onwardLinkText": "Dialogue Concerning the Two Chief World Systems",
+      "nextPage": "Dialogue Concerning the Two Chief World Systems"
+    },
+    {
+      "page": "Dialogue Concerning the Two Chief World Systems",
+      "url": "https://en.wikipedia.org/wiki/Dialogue_Concerning_the_Two_Chief_World_Systems",
+      "revision": 1348555133,
+      "section": "Content",
+      "passage": "As an account of the causation of tides or a proof of the Earth's motion, it is a failure. The fundamental argument is internally inconsistent and actually leads to the conclusion that tides do not exist. But, Galileo was fond of the argument and devoted the \"Fourth Day\" of the discussion to it.",
+      "hatnote": "There was just one problem.",
+      "onwardLinkText": null,
+      "nextPage": "Dialogue Concerning the Two Chief World Systems"
+    },
+    {
+      "page": "Dialogue Concerning the Two Chief World Systems",
+      "url": "https://en.wikipedia.org/wiki/Dialogue_Concerning_the_Two_Chief_World_Systems",
+      "revision": 1348555133,
+      "section": "Omissions",
+      "passage": "While the Copernican and Tychonic systems are equivalent geometrically, they are quite different dynamically. Galileo's tidal theory entailed the actual, physical movement of the Earth; that is, if true, it would have provided the kind of proof that Foucault's pendulum apparently provided two centuries later.",
+      "hatnote": "So why did he cling to it? Because it promised what nothing else could.",
+      "onwardLinkText": "Foucault's pendulum",
+      "nextPage": "Foucault pendulum"
+    },
+    {
+      "page": "Foucault pendulum",
+      "url": "https://en.wikipedia.org/wiki/Foucault_pendulum",
+      "revision": 1379906502,
+      "section": "History",
+      "passage": "The first public exhibition of a Foucault pendulum took place in February 1851 in the Meridian of the Paris Observatory. A few weeks later, Foucault made his most famous pendulum when he suspended a 28-kilogram (62 lb) brass-coated lead bob with a 67-metre-long (220 ft) wire from the dome of the Panthéon, Paris.",
+      "hatnote": "That proof finally came in 1851, from a swinging weight.",
+      "onwardLinkText": null,
+      "nextPage": "Foucault pendulum"
+    }
+  ],
+  "payoff": "Galileo hoped sloshing seas would prove the Earth moves; the physical proof he wanted came two centuries later, swinging under the Panthéon's dome.",
+  "caveats": [
+    "The barge origin is hedged on Wikipedia: his tidal ideas 'may have begun' in 1595."
+  ]
+}

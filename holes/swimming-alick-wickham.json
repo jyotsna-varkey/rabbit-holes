@@ -1,0 +1,62 @@
+{
+  "id": "swimming-alick-wickham",
+  "claim": "The 'crawl' got its name from a coach shouting at a schoolboy.",
+  "start": {
+    "title": "Swimming",
+    "page": "Swimming",
+    "description": "Self-propulsion of a person through water",
+    "image": "snapshots/images/Swimming.webp"
+  },
+  "end": {
+    "title": "Alick Wickham",
+    "page": "Alick Wickham",
+    "description": "Solomon Islander swimmer and diver (1886–1967)",
+    "image": "snapshots/images/Alick-Wickham.webp"
+  },
+  "knots": [
+    {
+      "page": "Swimming",
+      "url": "https://en.wikipedia.org/wiki/Swimming",
+      "revision": 1377934046,
+      "section": "lead",
+      "passage": "Swimming involves repeated motions known as strokes to propel the body forward. While the front crawl, also known as freestyle, is widely regarded as the fastest of the four main strokes, other strokes are practiced for special purposes, such as training and competition.",
+      "hatnote": "Today the crawl is the stroke everyone races.",
+      "onwardLinkText": "front crawl",
+      "nextPage": "Front crawl"
+    },
+    {
+      "page": "Front crawl",
+      "url": "https://en.wikipedia.org/wiki/Front_crawl",
+      "revision": 1375371171,
+      "section": "History",
+      "passage": "The stroke which would later be refined into the modern front crawl was first seen in the modern Western world at an 1844 swimming race in London, where it was swum by Ojibwe swimmers Flying Gull and Tobacco. They had been invited by the British Swimming Society to give an exhibition at the swimming baths in High Holborn and race against each other for a silver medal to be presented by the society; Flying Gull won both races. English swimmer Harold Kenworthy, who was fresh, then used the breaststroke to take on the too-tired Ojibwe in a third race and won easily. The breaststroke and then sidestroke continued to be favoured by British swimmers for the next 50 years.",
+      "hatnote": "Britain first saw it in 1844 and shrugged.",
+      "onwardLinkText": null,
+      "nextPage": "Front crawl"
+    },
+    {
+      "page": "Front crawl",
+      "url": "https://en.wikipedia.org/wiki/Front_crawl",
+      "revision": 1375371171,
+      "section": "History",
+      "passage": "This style was further improved by the Australian champion swimmer Richmond \"Dick\" Cavill (the son of swimming instructor Professor Richard \"Frederick\" Cavill) and by Alick Wickham, a young Solomon Islander living in Sydney who swam a version of the crawl stroke at Bronte Baths that was popular in his home island at Roviana lagoon. Their modifications to the Trudgen resulted in the stroke now known as the \"Australian crawl\".",
+      "hatnote": "Half a century later it arrived again, from the Pacific.",
+      "onwardLinkText": "Alick Wickham",
+      "nextPage": "Alick Wickham"
+    },
+    {
+      "page": "Alick Wickham",
+      "url": "https://en.wikipedia.org/wiki/Alick_Wickham",
+      "revision": 1329679187,
+      "section": "Early life",
+      "passage": "At the age of seven, Wickham moved from the Solomon Islands to Sydney in his father's schooner. In Sydney, as a schoolboy, Wickham would work as a house boy and in his free time would swim at the sea baths in Bronte Beach where he was often observed by prominent members of the Australian sporting scene including notable Australian coach of the time, George Farmer. Farmer would observe speedy Wickham and shout, \"look at that kid crawling!\" From this comment the stroke label, the Australian crawl, was coined then later developed by other swimmers. Sydneysider, Arthur Freeman would watch Wickham too and claimed that, \"Wickham's six-beat kick reminded me [Freeman] of an outboard motor\".",
+      "hatnote": "The boy who gave the stroke its name:",
+      "onwardLinkText": null,
+      "nextPage": "Alick Wickham"
+    }
+  ],
+  "payoff": "Freestyle's fastest stroke came from Ojibwe and Solomon Islands swimmers; its name came from a coach's shout at Bronte Baths.",
+  "caveats": [
+    "Wikipedia credits the crawl's development to several people; Wickham's page calls him its inventor, Front crawl credits him with Cavill."
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "reading-copy-38",
+  "claim": "A whole Greek army was once knocked flat by honey.",
+  "start": {
+    "title": "Honey",
+    "page": "Honey",
+    "description": "Sweet and viscous substance made by bees",
+    "image": "snapshots/images/Honey.webp"
+  },
+  "end": {
+    "title": "Anabasis (Xenophon)",
+    "page": "Anabasis (Xenophon)",
+    "description": "4th-century BC work by Xenophon on the expedition of the Ten Thousand",
+    "image": "snapshots/images/Anabasis-Xenophon.webp"
+  },
+  "knots": [
+    {
+      "page": "Honey",
+      "url": "https://en.wikipedia.org/wiki/Honey",
+      "revision": 1380415835,
+      "section": "Toxic honey",
+      "passage": "Mad honey intoxication is a result of eating honey containing grayanotoxins. Honey produced from flowers of rhododendrons, mountain laurels, sheep laurel, and azaleas may cause honey intoxication. Symptoms include dizziness, weakness, excessive perspiration, nausea, and vomiting.",
+      "hatnote": "Honey is refined flower nectar, so poisonous flowers make poisonous honey.",
+      "onwardLinkText": "Mad honey intoxication",
+      "nextPage": "Mad honey"
+    },
+    {
+      "page": "Mad honey",
+      "url": "https://en.wikipedia.org/wiki/Mad_honey",
+      "revision": 1376488205,
+      "section": "Prevalence and harvesting",
+      "passage": "Rhododendron species and other plants in the family Ericaceae produce grayanotoxins. Honey made from the nectar contains pollen from these plants as well as the grayanotoxins. Mad honey is darker and redder than other honeys, and has a slightly bitter taste. Due to its reddish color, it is sometimes called rose of the forest honey. Mad honey is produced in specific world regions, notably the Black Sea Region of Turkey and Nepal.",
+      "hatnote": "The culprit is a garden favourite: the rhododendron.",
+      "onwardLinkText": null,
+      "nextPage": "Mad honey"
+    },
+    {
+      "page": "Mad honey",
+      "url": "https://en.wikipedia.org/wiki/Mad_honey",
+      "revision": 1376488205,
+      "section": "Historical accounts",
+      "passage": "The Greek military leader and historian Xenophon wrote an account of a 401 BCE incident involving mad honey in his work Anabasis about the expedition of the Ten Thousand. In his account, he describes how Greek soldiers traveling near Trabzon (now part of Turkey) near the Black Sea, ate mad honey and then became disoriented, suffering vomiting and diarrhea, and no longer able to stand. The soldiers recovered the following day.",
+      "hatnote": "Near that same Black Sea coast, 2,400 years ago, an army found some.",
+      "onwardLinkText": "Anabasis",
+      "nextPage": "Anabasis (Xenophon)"
+    },
+    {
+      "page": "Anabasis (Xenophon)",
+      "url": "https://en.wikipedia.org/wiki/Anabasis_(Xenophon)",
+      "revision": 1380847354,
+      "section": "Content",
+      "passage": "Ultimately this \"marching republic\" managed to reach the Black Sea at Trabzon (Trebizond), a destination they greeted with their famous cry of exultation on the mountain of Theches (now Madur) in Hyssos (now Sürmene): \"Thalatta! Thalatta!\", \"The sea, the sea!\". \"The sea\" meant that they were at last among Greek cities but it was not the end of their journey, which included a period fighting for Seuthes II of Thrace and ended with their recruitment into the army of the Spartan general Thibron.",
+      "hatnote": "They were Xenophon's Ten Thousand, at the end of an epic march home.",
+      "onwardLinkText": null,
+      "nextPage": "Anabasis (Xenophon)"
+    },
+    {
+      "page": "Anabasis (Xenophon)",
+      "url": "https://en.wikipedia.org/wiki/Anabasis_(Xenophon)",
+      "revision": 1380847354,
+      "section": "Educational use",
+      "passage": "Since the narrative mainly concerns a marching army, a common term used in Anabasis is ἐξελαύνω (exelauno), meaning \"march out, march forth\". Throughout the work, this term is used 23 times in the 3rd person singular present indicative active (ἐξελαύνει) and five additional times in other forms. In the late 19th century, a tongue-in-cheek tradition arose among American students of Greek who were all too familiar with Xenophon's usage of this vocabulary item: March 4 (a date phonetically similar to the phrase \"march forth\") became known as \"Exelauno Day\". The origin of this niche holiday is connected with the Roxbury Latin School in Massachusetts.",
+      "hatnote": "Their march still echoes through Greek classrooms, as a joke.",
+      "onwardLinkText": null,
+      "nextPage": "Anabasis (Xenophon)"
+    }
+  ],
+  "payoff": "Rhododendron honey knocked flat Xenophon's Ten Thousand on a march so famous that Greek students still salute it every 'march forth', 4 March.",
+  "caveats": []
+}

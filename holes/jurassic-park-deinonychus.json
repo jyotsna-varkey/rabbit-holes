@@ -1,6 +1,6 @@
 {
   "id": "jurassic-park-deinonychus",
-  "claim": "Why do Jurassic Park’s famous raptors have someone else’s body?",
+  "claim": "Jurassic Park's Velociraptor is really another dinosaur, renamed because it sounded more dramatic.",
   "start": {
     "title": "Jurassic Park",
     "page": "Jurassic Park",
@@ -8,10 +8,10 @@
     "image": "snapshots/images/Jurassic-Park.webp"
   },
   "end": {
-    "title": "Deinonychus",
-    "page": "Deinonychus",
-    "description": "Genus of theropod dinosaur",
-    "image": "snapshots/images/Deinonychus.webp"
+    "title": "Feathered dinosaur",
+    "page": "Feathered dinosaur",
+    "description": "Dinosaur with feathers",
+    "image": "snapshots/images/Feathered-dinosaur.webp"
   },
   "knots": [
     {
@@ -28,24 +28,44 @@
       "page": "Velociraptor",
       "url": "https://en.wikipedia.org/wiki/Velociraptor",
       "revision": 1371049913,
-      "section": "Cultural significance",
-      "passage": "Velociraptor is commonly perceived as a vicious and cunning killer thanks to their portrayal in the 1990 novel Jurassic Park by Michael Crichton and its 1993 film adaptation, directed by Steven Spielberg. The \"raptors\" portrayed in Jurassic Park were actually modeled after the closely related dromaeosaurid Deinonychus. Paleontologists in both the novel and film excavate a skeleton in Montana, far from the central Asian range of Velociraptor but characteristic of the Deinonychus range. Crichton met with the discoverer of Deinonychus, John Ostrom, several times at Yale University to discuss details of the animal's possible range of behaviors and appearance. Crichton at one point apologetically told Ostrom that he had decided to use the name Velociraptor in place of Deinonychus because the former name was \"more dramatic.\" According to Ostrom, Crichton stated that the Velociraptor of the novel was based on Deinonychus in almost every detail, and that only the name had been changed. The Jurassic Park filmmakers also requested all of Ostrom's published papers on Deinonychus during production. They portrayed the animals with the size, proportions, and snout shape of Deinonychus rather than Velociraptor.",
-      "hatnote": "Which real dinosaur supplied the body behind the movie's dramatic name?",
-      "onwardLinkText": "Deinonychus",
-      "nextPage": "Deinonychus"
+      "section": "lead",
+      "passage": "Velociraptor (commonly referred to as \"raptor\") is one of the dinosaur genera most familiar to the general public due to its prominent role in the Jurassic Park films. In reality, Velociraptor was roughly the size of a turkey, considerably smaller than the approximately 2 m (6.6 ft) long and 90 kg (200 lb) reptiles seen in the novels and films (which were based on members of the related genus Deinonychus).",
+      "hatnote": "The movie's star turns out to be badly miscast.",
+      "onwardLinkText": null,
+      "nextPage": "Velociraptor"
     },
     {
-      "page": "Deinonychus",
-      "url": "https://en.wikipedia.org/wiki/Deinonychus",
-      "revision": 1378034129,
+      "page": "Velociraptor",
+      "url": "https://en.wikipedia.org/wiki/Velociraptor",
+      "revision": 1371049913,
+      "section": "Cultural significance",
+      "passage": "The \"raptors\" portrayed in Jurassic Park were actually modeled after the closely related dromaeosaurid Deinonychus. Paleontologists in both the novel and film excavate a skeleton in Montana, far from the central Asian range of Velociraptor but characteristic of the Deinonychus range. Crichton met with the discoverer of Deinonychus, John Ostrom, several times at Yale University to discuss details of the animal's possible range of behaviors and appearance. Crichton at one point apologetically told Ostrom that he had decided to use the name Velociraptor in place of Deinonychus because the former name was \"more dramatic.\"",
+      "hatnote": "So whose body did the film's raptors really have?",
+      "onwardLinkText": "John Ostrom",
+      "nextPage": "John Ostrom"
+    },
+    {
+      "page": "John Ostrom",
+      "url": "https://en.wikipedia.org/wiki/John_Ostrom",
+      "revision": 1372549281,
       "section": "lead",
-      "passage": "Paleontologist John Ostrom's study of Deinonychus in the late 1960s revolutionized the way scientists thought about dinosaurs, leading to the \"dinosaur renaissance\" and igniting the debate on whether dinosaurs were warm-blooded or cold-blooded. Before this, the popular conception of dinosaurs had been one of plodding, reptilian giants. Ostrom noted the small body, sleek, horizontal posture, ratite-like spine, and especially the enlarged raptorial claws on the feet, which suggested an active, agile predator.",
-      "hatnote": "Why had that animal already changed the way scientists imagined dinosaurs?",
+      "passage": "Ostrom showed more bird-like traits common in dinosaurs and proved that birds themselves are coelurosaurian theropod dinosaurs. The first of Ostrom's broad-based reviews of the osteology and phylogeny of the primitive bird Archaeopteryx appeared in 1976. Ostrom lived to see the eventual discovery of feathered dinosaurs in northeastern China, confirming his theories about dinosaurs being progenitors of birds, and the existence of dinosaurs with feathered plumage.",
+      "hatnote": "The scientist Crichton consulted had a much bigger idea about dinosaurs.",
+      "onwardLinkText": "feathered dinosaurs",
+      "nextPage": "Feathered dinosaur"
+    },
+    {
+      "page": "Feathered dinosaur",
+      "url": "https://en.wikipedia.org/wiki/Feathered_dinosaur",
+      "revision": 1374680850,
+      "section": "Fossil discoveries",
+      "passage": "The most important discoveries at Liaoning have been a host of feathered dinosaur fossils, with a steady stream of new finds filling in the picture of the dinosaur–bird connection and adding more to theories of the evolutionary development of feathers and flight. Turner et al. (2007) reported quill knobs from an ulna of Velociraptor mongoliensis, and these are strongly correlated with large and well-developed secondary feathers.",
+      "hatnote": "And the Chinese finds reached the real Velociraptor too.",
       "onwardLinkText": null,
-      "nextPage": "Deinonychus"
+      "nextPage": "Feathered dinosaur"
     }
   ],
-  "payoff": "The film's 'Velociraptor' is Deinonychus, the fossil that turned dinosaurs from plodding lizards into agile hunters.",
+  "payoff": "Crichton took Deinonychus's body and Velociraptor's name; their expert then proved birds are dinosaurs, and the real Velociraptor had wing feathers.",
   "caveats": [
     "From Rabbit Hole Studio (GPT), rh-099, rank 40; hook is GPT's, hatnotes/payoff drafted by Claude."
   ]

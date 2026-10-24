@@ -1,6 +1,6 @@
 {
   "id": "elephant-billiard-taiwan",
-  "claim": "How a game of pool stripped the forests of Taiwan.",
+  "claim": "Saving elephants from pool tables turned Taiwan's forests into a colonial prize.",
   "start": {
     "title": "Elephant",
     "page": "Elephant",
@@ -8,10 +8,10 @@
     "image": "snapshots/images/Elephant.webp"
   },
   "end": {
-    "title": "Billiard ball",
-    "page": "Billiard ball",
-    "description": "Ball used in cue sports",
-    "image": "snapshots/images/Billiard-ball.webp"
+    "title": "Camphor",
+    "page": "Camphor",
+    "description": "Toxic, waxy organic compound",
+    "image": "snapshots/images/Camphor.webp"
   },
   "knots": [
     {
@@ -50,21 +50,31 @@
       "revision": 1375598391,
       "section": "History",
       "passage": "Although not the first artificial substance to be used for the balls (e.g. Sorel cement, invented in 1867, was marketed as an artificial ivory), John Wesley Hyatt patented an \"ivory imitation\" composite made of nitrocellulose, camphor, and ground cattle bone on May 4, 1869 (US patent 89582, the first US billiard ball patent).",
-      "hatnote": "Industry needed a substitute, and an inventor patented one.",
-      "onwardLinkText": null,
-      "nextPage": "Billiard ball"
+      "hatnote": "An inventor patented a fake ivory, and one key ingredient came from trees.",
+      "onwardLinkText": "camphor",
+      "nextPage": "Camphor"
     },
     {
-      "page": "Billiard ball",
-      "url": "https://en.wikipedia.org/wiki/Billiard_ball",
-      "revision": 1375598391,
-      "section": "History",
-      "passage": "However, Hyatt's composite had problems. One of the most relevant is cellulose nitrate flammability, not because of making the billiard balls explode, as is often claimed, but because of the dangers of handling it in its pure form during manufacturing. Another problem was related to camphor mass exploitation, leading to the devastation of Taiwan's forests and displacement of indigenous communities.",
-      "hatnote": "Saving elephants came at a cost somewhere else.",
+      "page": "Camphor",
+      "url": "https://en.wikipedia.org/wiki/Camphor",
+      "revision": 1381327227,
+      "section": "Natural camphor",
+      "passage": "By the early 19th century, most camphor tree reserves had been depleted with the remaining large stands in Japan and Taiwan, with Taiwanese production greatly exceeding Japanese. Camphor was one of the primary resources extracted by Taiwan's colonial powers as well as one of the most lucrative. First the Chinese and then the Japanese established monopolies on Taiwanese camphor.",
+      "hatnote": "Camphor came from trees, and the last big forests grew in Taiwan.",
       "onwardLinkText": null,
-      "nextPage": "Billiard ball"
+      "nextPage": "Camphor"
+    },
+    {
+      "page": "Camphor",
+      "url": "https://en.wikipedia.org/wiki/Camphor",
+      "revision": 1381327227,
+      "section": "History of synthetic camphor",
+      "passage": "This ongoing check on price growth was confirmed in 1942 in a monograph on DuPont's history, where William S. Dutton said, \"Indispensable in the manufacture of pyroxylin plastics, natural camphor imported from Formosa and selling normally for about 50 cents a pound, reached the high price of $3.75 in 1918 [amid the global trade disruption and high explosives demand that World War I created]. The organic chemists at DuPont replied by synthesizing camphor from the turpentine of southern US pine stumps, with the result that the price of industrial camphor sold in carload lots in 1939 was between 32 cents and 35 cents a pound.\"",
+      "hatnote": "Formosa is Taiwan. When the price of its camphor soared, chemists found a way out.",
+      "onwardLinkText": null,
+      "nextPage": "Camphor"
     }
   ],
-  "payoff": "To spare elephants' teeth, billiards turned to camphor plastic, and the bill landed on Taiwan's camphor forests and the people who lived in them.",
+  "payoff": "Ivory ran short, so billiards turned to camphor plastic; Taiwan's camphor trees became a colonial prize until chemists made camphor from pine stumps.",
   "caveats": []
 }

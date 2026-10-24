@@ -8,10 +8,10 @@
     "image": "snapshots/images/Tears.webp"
   },
   "end": {
-    "title": "The Travels of Sir John Mandeville",
-    "page": "The Travels of Sir John Mandeville",
-    "description": "14th-century travel memoir",
-    "image": "snapshots/images/The-Travels-of-Sir-John-Mandeville.webp"
+    "title": "Crocodile tears",
+    "page": "Crocodile tears",
+    "description": "False, insincere display of emotion",
+    "image": "snapshots/images/Crocodile-tears.webp"
   },
   "knots": [
     {
@@ -28,16 +28,6 @@
       "page": "Crocodile tears",
       "url": "https://en.wikipedia.org/wiki/Crocodile_tears",
       "revision": 1374209247,
-      "section": "Actual crocodile behaviour",
-      "passage": "In 2006, neurologist Malcolm Shaner, assisted by Kent Vliet, a researcher at the University of Florida, decided to test the story that crocodiles, or their close relatives alligators and caimans, were likely to \"weep\" while feeding. Studying animals in Florida's St. Augustine Alligator Farm Zoological Park, Vliet recorded seven caimans feeding. He chose to use caimans rather than crocodiles because at the sanctuary they could be observed feeding on dry land. Five of the seven animals were seen \"weeping\", leading to the conclusion that the story describes a real phenomenon.",
-      "hatnote": "In 2006 a neurologist decided to watch reptiles eat and find out.",
-      "onwardLinkText": null,
-      "nextPage": "Crocodile tears"
-    },
-    {
-      "page": "Crocodile tears",
-      "url": "https://en.wikipedia.org/wiki/Crocodile_tears",
-      "revision": 1374209247,
       "section": "History and usage",
       "passage": "This tale was first spread widely in English in the stories of the travels of Sir John Mandeville in the 14th century.",
       "hatnote": "So who told English readers the story in the first place?",
@@ -48,9 +38,9 @@
       "page": "The Travels of Sir John Mandeville",
       "url": "https://en.wikipedia.org/wiki/The_Travels_of_Sir_John_Mandeville",
       "revision": 1376639559,
-      "section": "lead",
-      "passage": "The Travels of Sir John Mandeville or Mandeville's Travels is a book written between 1357 and 1371 that purports to be the travelogue of an Englishman named Sir John Mandeville around the world through many fanstastical locations. The earliest-surviving text is in French, followed by translations into many other languages; the work acquired extraordinary popularity. Despite the extremely unreliable and often fantastical nature of the travels it describes, it was used as a work of reference: Christopher Columbus, for example, was heavily influenced by both this work and Marco Polo's earlier Travels.",
-      "hatnote": "A knight's travel book, packed with wonders, became a medieval bestseller.",
+      "section": "Authorship",
+      "passage": "In the preface, the compiler calls himself a knight, and states that he was born and bred in England, in the town of St Albans. Although the book is real, it is widely believed that \"Sir John Mandeville\" himself was not. Common theories point to a Frenchman by the name of Jehan à la Barbe.",
+      "hatnote": "The book claimed to be one English knight's eyewitness travels. About that knight...",
       "onwardLinkText": null,
       "nextPage": "The Travels of Sir John Mandeville"
     },
@@ -58,14 +48,24 @@
       "page": "The Travels of Sir John Mandeville",
       "url": "https://en.wikipedia.org/wiki/The_Travels_of_Sir_John_Mandeville",
       "revision": 1376639559,
-      "section": "Authorship",
-      "passage": "In the preface, the compiler calls himself a knight, and states that he was born and bred in England, in the town of St Albans. Although the book is real, it is widely believed that \"Sir John Mandeville\" himself was not. Common theories point to a Frenchman by the name of Jehan à la Barbe.",
-      "hatnote": "But its eyewitness narrator has a problem of his own.",
+      "section": "Giovanni da Pian del Carpine and Vincent de Beauvais",
+      "passage": "Many fabulous stories of monsters, such as Cyclopes, sciapodes, hippopodes, anthropophagi, monoscelides, and men whose heads did grow beneath their shoulders; of the phoenix and the weeping crocodile, such as Pliny has collected, are introduced here and there, possibly inspired by him, Solinus, the bestiaries, or the Speculum naturale of Vincent de Beauvais.",
+      "hatnote": "And his 'eyewitness' wonders were mostly lifted from older books.",
+      "onwardLinkText": "weeping crocodile",
+      "nextPage": "Crocodile tears"
+    },
+    {
+      "page": "Crocodile tears",
+      "url": "https://en.wikipedia.org/wiki/Crocodile_tears",
+      "revision": 1374209247,
+      "section": "Actual crocodile behaviour",
+      "passage": "In 2006, neurologist Malcolm Shaner, assisted by Kent Vliet, a researcher at the University of Florida, decided to test the story that crocodiles, or their close relatives alligators and caimans, were likely to \"weep\" while feeding. Studying animals in Florida's St. Augustine Alligator Farm Zoological Park, Vliet recorded seven caimans feeding. He chose to use caimans rather than crocodiles because at the sanctuary they could be observed feeding on dry land. Five of the seven animals were seen \"weeping\", leading to the conclusion that the story describes a real phenomenon. The researchers suggest that the \"weeping\" may be caused by the hissing of warm air during feeding, which is forced through the sinuses, stimulating the animals' tear glands into emptying fluid into the eye.",
+      "hatnote": "Six centuries later, a neurologist decided to watch reptiles eat and find out.",
       "onwardLinkText": null,
-      "nextPage": "The Travels of Sir John Mandeville"
+      "nextPage": "Crocodile tears"
     }
   ],
-  "payoff": "The weeping crocodile turned out to be real; the knight who swore he'd seen it almost certainly wasn't.",
+  "payoff": "The knight who swore he'd seen weeping crocodiles never existed, but in 2006 the tears turned out to be real, squeezed out by hissing.",
   "caveats": [
     "The 2006 study used caimans, close relatives of crocodiles, not true crocodiles."
   ]

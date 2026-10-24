@@ -1,0 +1,72 @@
+{
+  "id": "reading-copy-41",
+  "claim": "Byzantium broke China's silk monopoly with two monks and some hollow canes.",
+  "start": {
+    "title": "Silk",
+    "page": "Silk",
+    "description": "Fine, lustrous, natural fiber produced by various arthropods",
+    "image": "snapshots/images/Silk.webp"
+  },
+  "end": {
+    "title": "Smuggling of silkworm eggs into the East Roman Empire",
+    "page": "Smuggling of silkworm eggs into the East Roman Empire",
+    "description": "",
+    "image": "snapshots/images/Smuggling-of-silkworm-eggs-into-the-East-Roman-Empire.webp"
+  },
+  "knots": [
+    {
+      "page": "Silk",
+      "url": "https://en.wikipedia.org/wiki/Silk",
+      "revision": 1380989048,
+      "section": "China",
+      "passage": "The Chinese emperors strove to keep knowledge of sericulture secret to maintain the Chinese monopoly. Nonetheless, sericulture partially reached Korea with technological aid from China around 200 BC, the ancient Kingdom of Khotan by AD 50, and India by AD 140.",
+      "hatnote": "For centuries, how to make silk was a Chinese state secret.",
+      "onwardLinkText": null,
+      "nextPage": "Silk"
+    },
+    {
+      "page": "Silk",
+      "url": "https://en.wikipedia.org/wiki/Silk",
+      "revision": 1380989048,
+      "section": "China",
+      "passage": "The first evidence of the long distance silk trade is the finding of silk in the hair of an Egyptian mummy of the 21st dynasty, c.1070 BC. The silk trade reached as far as the Indian subcontinent, the Middle East, Europe, and North Africa. This trade was so extensive that the major set of trade routes between Europe and Asia came to be known as the Silk Road.",
+      "hatnote": "The cloth travelled the world; the know-how stayed home.",
+      "onwardLinkText": "Silk Road",
+      "nextPage": "Silk Road"
+    },
+    {
+      "page": "Silk Road",
+      "url": "https://en.wikipedia.org/wiki/Silk_Road",
+      "revision": 1379074984,
+      "section": "Byzantine Empire (6th–14th centuries)",
+      "passage": "Byzantine Greek historian Procopius stated that two Nestorian Christian monks eventually uncovered the way silk was made. From this revelation, monks were sent by the Byzantine Emperor Justinian (ruled 527–565) as spies on the Silk Road from Constantinople to China and back to steal the silkworm eggs, resulting in silk production in the Mediterranean, particularly in Thrace in northern Greece, and giving the Byzantine Empire a monopoly on silk production in medieval Europe.",
+      "hatnote": "Then two monks learned the secret, and Byzantium wanted it.",
+      "onwardLinkText": "steal the silkworm eggs",
+      "nextPage": "Smuggling of silkworm eggs into the East Roman Empire"
+    },
+    {
+      "page": "Smuggling of silkworm eggs into the East Roman Empire",
+      "url": "https://en.wikipedia.org/wiki/Smuggling_of_silkworm_eggs_into_the_East_Roman_Empire",
+      "revision": 1374091438,
+      "section": "Expedition",
+      "passage": "Since adult silkworms are rather fragile and have to be constantly kept at an ideal temperature, lest they perish, they used their contacts in Sogdiana to smuggle out silkworm eggs or very young larvae instead, which they hid within their bamboo canes. Mulberry bushes, which are required for silkworms, were either given to the monks or already imported into the Eastern Roman Empire. All in all, it is estimated that the entire expedition lasted two years.",
+      "hatnote": "Live silkworms would never survive the trip. The monks found a workaround.",
+      "onwardLinkText": null,
+      "nextPage": "Smuggling of silkworm eggs into the East Roman Empire"
+    },
+    {
+      "page": "Smuggling of silkworm eggs into the East Roman Empire",
+      "url": "https://en.wikipedia.org/wiki/Smuggling_of_silkworm_eggs_into_the_East_Roman_Empire",
+      "revision": 1374091438,
+      "section": "Impact",
+      "passage": "The resulting monopoly was a foundation for the Eastern Roman economy for the next 650 years until its demise in 1204. Silk clothes, especially those dyed in imperial purple, were almost always reserved for the elite in Byzantium, and their wearing was codified in sumptuary laws.",
+      "hatnote": "A few hidden eggs paid off for centuries.",
+      "onwardLinkText": null,
+      "nextPage": "Smuggling of silkworm eggs into the East Roman Empire"
+    }
+  ],
+  "payoff": "China's closely kept secret walked out inside bamboo canes, and those smuggled eggs fed Byzantium's own silk monopoly for 650 years.",
+  "caveats": [
+    "The heist is known mainly from Procopius; the monks are unidentified."
+  ]
+}

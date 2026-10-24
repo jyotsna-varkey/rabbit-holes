@@ -1,0 +1,80 @@
+{
+  "id": "wooden-spoon-mathematical-tripos",
+  "claim": "Sport's 'wooden spoon' for last place began as a Cambridge maths joke.",
+  "start": {
+    "title": "Wooden spoon",
+    "page": "Wooden spoon",
+    "description": "Utensil commonly used in food preparation",
+    "image": "snapshots/images/Wooden-spoon.webp"
+  },
+  "end": {
+    "title": "Philippa Fawcett",
+    "page": "Philippa Fawcett",
+    "description": "English mathematician and educator (1868–1948)",
+    "image": "snapshots/images/Philippa-Fawcett.webp"
+  },
+  "knots": [
+    {
+      "page": "Wooden spoon",
+      "url": "https://en.wikipedia.org/wiki/Wooden_spoon",
+      "revision": 1372819932,
+      "section": "Sporting culture",
+      "passage": "In some regions, particularly British-influenced ones of the Commonwealth and the United States, the \"wooden spoon\" is a booby prize for the team or individual finishing a competition in last position.",
+      "hatnote": "Finish bottom of the league and you 'win' a kitchen utensil.",
+      "onwardLinkText": "wooden spoon",
+      "nextPage": "Wooden spoon (award)"
+    },
+    {
+      "page": "Wooden spoon (award)",
+      "url": "https://en.wikipedia.org/wiki/Wooden_spoon_(award)",
+      "revision": 1368651329,
+      "section": "At the University of Cambridge",
+      "passage": "The wooden spoon was presented originally at the University of Cambridge as a booby prize awarded by students to the candidate for the Mathematical Tripos who achieved the lowest marks while still earning a third-class degree (a junior optime).",
+      "hatnote": "The original losers were not athletes.",
+      "onwardLinkText": "Mathematical Tripos",
+      "nextPage": "Mathematical Tripos"
+    },
+    {
+      "page": "Mathematical Tripos",
+      "url": "https://en.wikipedia.org/wiki/Mathematical_Tripos",
+      "revision": 1364015301,
+      "section": "Origin",
+      "passage": "The actual marks for the exams were never published, but there is reference to an exam in the 1860s where, out of a total possible mark of 17,000, the senior wrangler achieved 7,634, the second wrangler 4,123, the lowest wrangler around 1,500 and the lowest scoring candidate obtaining honours (the wooden spoon) 237; about 100 candidates were awarded honours. The 300-odd candidates below that level did not earn honours and were known as poll men.",
+      "hatnote": "Cambridge's maths exam ranked every candidate, from the top man to the spoon.",
+      "onwardLinkText": null,
+      "nextPage": "Mathematical Tripos"
+    },
+    {
+      "page": "Mathematical Tripos",
+      "url": "https://en.wikipedia.org/wiki/Mathematical_Tripos",
+      "revision": 1364015301,
+      "section": "Women",
+      "passage": "In 1890, Philippa Fawcett became the first woman to obtain the top score in the Mathematical Tripos, but since she could not receive a degree from Cambridge due to being a woman, she could not be the senior wrangler. Cambridge did not offer degrees to women until 1948.",
+      "hatnote": "In 1890 the top score went to someone barred from the top title.",
+      "onwardLinkText": "Philippa Fawcett",
+      "nextPage": "Philippa Fawcett"
+    },
+    {
+      "page": "Philippa Fawcett",
+      "url": "https://en.wikipedia.org/wiki/Philippa_Fawcett",
+      "revision": 1372330781,
+      "section": "Family",
+      "passage": "Philippa Garrett Fawcett was born on 4 April 1868, the daughter of the suffragist Millicent Fawcett (née Garrett) and Henry Fawcett MP, Professor of Political Economy at Cambridge and Postmaster General in Gladstone's second government. Her aunt was Elizabeth Garrett Anderson, the first English female doctor.",
+      "hatnote": "She came from a family used to breaking barriers.",
+      "onwardLinkText": null,
+      "nextPage": "Philippa Fawcett"
+    },
+    {
+      "page": "Philippa Fawcett",
+      "url": "https://en.wikipedia.org/wiki/Philippa_Fawcett",
+      "revision": 1372330781,
+      "section": "Education",
+      "passage": "Once again has woman demonstrated her superiority in the face of an incredulous and somewhat unsympathetic world ... And now the last trench has been carried by Amazonian assault, and the whole citadel of learning lies open and defenceless before the victorious students of Newnham and Girton. There is no longer any field of learning in which the lady student does not excel.",
+      "hatnote": "Her win made world news. The Telegraph's lead story the next day:",
+      "onwardLinkText": null,
+      "nextPage": "Philippa Fawcett"
+    }
+  ],
+  "payoff": "The exam that handed its last man a spoon couldn't hand its best student the top title, because she was a woman.",
+  "caveats": []
+}

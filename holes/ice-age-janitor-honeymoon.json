@@ -8,10 +8,10 @@
     "image": "snapshots/images/Ice-age.webp"
   },
   "end": {
-    "title": "Milutin Milanković",
-    "page": "Milutin Milanković",
-    "description": "Serbian scientist and professor (1879–1958)",
-    "image": "snapshots/images/Milutin-Milankovi.webp"
+    "title": "Milankovitch cycles",
+    "page": "Milankovitch cycles",
+    "description": "Global climate cycles",
+    "image": "snapshots/images/Milankovitch-cycles.webp"
   },
   "knots": [
     {
@@ -19,8 +19,8 @@
       "url": "https://en.wikipedia.org/wiki/Ice_age",
       "revision": 1379522088,
       "section": "History of research",
-      "passage": "In order to persuade the skeptics, Agassiz embarked on geological fieldwork. He published his book Study on Glaciers (\"Études sur les glaciers\") in 1840. It took several decades before the ice age theory was fully accepted by scientists. This happened on an international scale in the second half of the 1870s, following the work of James Croll, including the publication of Climate and Time, in Their Geological Relations in 1875, which provided a credible explanation for the causes of ice ages.",
-      "hatnote": "Even once geologists saw the ice had been there, nobody could say why.",
+      "passage": "It took several decades before the ice age theory was fully accepted by scientists. This happened on an international scale in the second half of the 1870s, following the work of James Croll, including the publication of Climate and Time, in Their Geological Relations in 1875, which provided a credible explanation for the causes of ice ages.",
+      "hatnote": "Geologists could see the ice had been there. Nobody could say why.",
       "onwardLinkText": "James Croll",
       "nextPage": "James Croll"
     },
@@ -58,13 +58,23 @@
       "page": "Milutin Milanković",
       "url": "https://en.wikipedia.org/wiki/Milutin_Milankovi%C4%87",
       "revision": 1380979512,
-      "section": "Planet's insolation",
-      "passage": "Immediately after arriving in Budapest, Milanković met the Director of the Library of the Hungarian Academy of Science, Kálmán Szily who, as a mathematician, eagerly accepted Milanković and enabled him to work undisturbed in the Academy's library and the Central Meteorological Institute. Milanković spent four years in Budapest, almost the entire war.",
-      "hatnote": "Released into enforced exile, he got something better than freedom.",
+      "section": "Later life",
+      "passage": "This tome was entitled \"Canon of Insolation of the Earth and Its Application to the Problem of the Ice Ages\", which covered his nearly three decades of research, including a large number of formulas, calculations and schemes, but also summarized universal laws through which it was possible to explain cyclical climate change – his namesake Milankovitch cycles.",
+      "hatnote": "Prison didn't stop the sums. Decades later he gathered them into one huge book.",
+      "onwardLinkText": "Milankovitch cycles",
+      "nextPage": "Milankovitch cycles"
+    },
+    {
+      "page": "Milankovitch cycles",
+      "url": "https://en.wikipedia.org/wiki/Milankovitch_cycles",
+      "revision": 1381115026,
+      "section": "Theory constraints",
+      "passage": "Materials taken from the Earth have been studied to infer the cycles of past climate. Antarctic ice cores contain trapped air bubbles whose ratios of different oxygen isotopes are a reliable proxy for global temperatures around the time the ice was formed. Study of this data concluded that the climatic response documented in the ice cores was driven by northern hemisphere insolation as proposed by the Milankovitch hypothesis. Similar astronomical hypotheses had been advanced in the 19th century by Joseph Adhemar, James Croll, and others.",
+      "hatnote": "Was he right? The answer was buried in Antarctic ice.",
       "onwardLinkText": null,
-      "nextPage": "Milutin Milanković"
+      "nextPage": "Milankovitch cycles"
     }
   ],
-  "payoff": "The orbital idea behind the ice ages came from a self-taught janitor, and was carried forward by a prisoner of war in a library.",
+  "payoff": "A janitor's forgotten idea, rebuilt by a prisoner of war, was finally confirmed by air bubbles trapped in Antarctic ice.",
   "caveats": []
 }

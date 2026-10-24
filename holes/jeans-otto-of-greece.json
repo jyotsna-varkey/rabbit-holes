@@ -1,0 +1,80 @@
+{
+  "id": "jeans-otto-of-greece",
+  "claim": "The man behind the name 'blue jeans' helped pick Greece's first king.",
+  "start": {
+    "title": "Jeans",
+    "page": "Jeans",
+    "description": "Pants/trousers made from denim or dungaree cloth",
+    "image": "snapshots/images/Jeans.webp"
+  },
+  "end": {
+    "title": "Otto of Greece",
+    "page": "Otto of Greece",
+    "description": "King of Greece from 1832 to 1862",
+    "image": "snapshots/images/Otto-of-Greece.webp"
+  },
+  "knots": [
+    {
+      "page": "Jeans",
+      "url": "https://en.wikipedia.org/wiki/Jeans",
+      "revision": 1376607310,
+      "section": "Fabrics",
+      "passage": "Research on the trade of jean fabric shows that it emerged in the city of Genoa, Italy, in the 16th century, followed by Nîmes, France, in the 17th century. Genoa's jeans fabric was a fustian textile of \"medium quality and of reasonable cost\", very similar to cotton corduroy for which Genoa was famous, and was \"used for work clothes in general\". The Genoese navy equipped its sailors with jeans, as they needed a fabric that could be worn wet or dry. Gênes, the French word for Genoa, is the origin of the word \"jeans\".",
+      "hatnote": "Jeans are named after a city.",
+      "onwardLinkText": null,
+      "nextPage": "Jeans"
+    },
+    {
+      "page": "Jeans",
+      "url": "https://en.wikipedia.org/wiki/Jeans",
+      "revision": 1376607310,
+      "section": "Rivets",
+      "passage": "The term jeans appears first in 1795, when a Swiss banker by the name Jean-Gabriel Eynard and his brother Jacques went to Genoa and both were soon heading a flourishing commercial concern. In 1800 Massena's troops entered the town and Jean-Gabriel was entrusted with their supply. In particular he furnished them with uniforms cut from blue cloth called \"bleu de Genes\" whence later derives the famous garment known worldwide as \"blue jeans\".",
+      "hatnote": "And the 'blue' part came with an army.",
+      "onwardLinkText": "Jean-Gabriel Eynard",
+      "nextPage": "Jean-Gabriel Eynard"
+    },
+    {
+      "page": "Jean-Gabriel Eynard",
+      "url": "https://en.wikipedia.org/wiki/Jean-Gabriel_Eynard",
+      "revision": 1367639929,
+      "section": "Biography",
+      "passage": "In 1801, he entered in a speculative and hazardous financial venture becoming the sole subscriber to a bond issued by the king Louis I of Etruria. That move succeeded and constituted the foundation of his fortune.",
+      "hatnote": "The uniform supplier then made a very risky bet.",
+      "onwardLinkText": null,
+      "nextPage": "Jean-Gabriel Eynard"
+    },
+    {
+      "page": "Jean-Gabriel Eynard",
+      "url": "https://en.wikipedia.org/wiki/Jean-Gabriel_Eynard",
+      "revision": 1367639929,
+      "section": "Biography",
+      "passage": "Being a friend of Ioannis Kapodistrias, he was very enthusiastic for the cause of the Greeks during the Greek War of Independence. He was the chief of the philhellenes community in Europe, and aided the revolutionaries financially. For his services to this cause, he was made a Greek citizen. He advised the new state. His recommendation of Otho of Bavaria for the throne of Greece was adopted. In 1842, he became one of the co-founders of the National Bank of Greece.",
+      "hatnote": "Rich now, he poured money into a revolution.",
+      "onwardLinkText": "Otho of Bavaria",
+      "nextPage": "Otto of Greece"
+    },
+    {
+      "page": "Otto of Greece",
+      "url": "https://en.wikipedia.org/wiki/Otto_of_Greece",
+      "revision": 1380024048,
+      "section": "lead",
+      "passage": "The second son of King Ludwig I of Bavaria, Otto ascended the newly created throne of Greece at age 17. His government was initially run by a three-man regency council made up of Bavarian court officials. Upon reaching his majority, Otto removed the regents when they proved unpopular with the people, and he ruled as an absolute monarch.",
+      "hatnote": "His pick for king was a Bavarian teenager.",
+      "onwardLinkText": null,
+      "nextPage": "Otto of Greece"
+    },
+    {
+      "page": "Otto of Greece",
+      "url": "https://en.wikipedia.org/wiki/Otto_of_Greece",
+      "revision": 1380024048,
+      "section": "Exile and death",
+      "passage": "Otto died in the palace of the former bishops of Bamberg, Germany, and was buried in the Theatiner Church in Munich. During his retirement, he would still wear the Greek traditional uniform, nowadays worn only by the evzones (Presidential Guards). Αccording to witnesses, Otto's last words were \"Greece, my Greece, my beloved Greece.\"",
+      "hatnote": "His reign ended in 1862, but his love for Greece didn't.",
+      "onwardLinkText": null,
+      "nextPage": "Otto of Greece"
+    }
+  ],
+  "payoff": "The banker who dressed an army in 'bleu de Gênes' picked a Bavarian teen for Greece's throne, who wore Greek uniform even in retirement.",
+  "caveats": []
+}

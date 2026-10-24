@@ -1,0 +1,82 @@
+{
+  "id": "slinky-wycliffe-sil-language-codes",
+  "claim": "The Slinky's inventor quit the toy to help write down unwritten languages.",
+  "start": {
+    "title": "Slinky",
+    "page": "Slinky",
+    "description": "Helical spring toy",
+    "image": "snapshots/images/Slinky.webp"
+  },
+  "end": {
+    "title": "Pirahã language",
+    "page": "Pirahã language",
+    "description": "Muran language",
+    "image": ""
+  },
+  "knots": [
+    {
+      "page": "Slinky",
+      "url": "https://en.wikipedia.org/wiki/Slinky",
+      "revision": 1380921124,
+      "section": "Creation",
+      "passage": "In 1943, Richard T. James, a naval mechanical engineer, observed a spring \"stepping\" downward after being knocked off a shelf, then coming to rest in a vertical position. James's wife Betty later recalled, \"He came home and said, 'I think if I got the right property of steel and the right tension, I could make it walk.'\" James experimented with different types of steel wire over the next year, and finally found a spring that would \"walk\". Betty was skeptical, but changed her mind when the toy was fine-tuned and neighborhood children expressed an excited interest in it.",
+      "hatnote": "In 1943, a naval engineer watched a dropped spring walk.",
+      "onwardLinkText": null,
+      "nextPage": "Slinky"
+    },
+    {
+      "page": "Slinky",
+      "url": "https://en.wikipedia.org/wiki/Slinky",
+      "revision": 1380921124,
+      "section": "Subsequent developments",
+      "passage": "In 1960, he told Betty that he was going to become an evangelical missionary in Bolivia with Wycliffe Bible Translators. Rather than going with him or selling the company, Betty decided to remain, divorce Richard, and take over the company.",
+      "hatnote": "The toy was a hit. Then its inventor found a different calling.",
+      "onwardLinkText": "Wycliffe Bible Translators",
+      "nextPage": "Wycliffe USA"
+    },
+    {
+      "page": "Wycliffe USA",
+      "url": "https://en.wikipedia.org/wiki/Wycliffe_USA",
+      "revision": 1348628331,
+      "section": "Methodology",
+      "passage": "Wycliffe missionaries develop alphabets, help preliterate people learn to read and write, and translate the Bible into written versions of currently spoken languages. By developing written languages, the organization is helping to \"save lost and dying languages.\"",
+      "hatnote": "Richard had joined missionaries who give spoken languages their first alphabets.",
+      "onwardLinkText": null,
+      "nextPage": "Wycliffe USA"
+    },
+    {
+      "page": "Wycliffe USA",
+      "url": "https://en.wikipedia.org/wiki/Wycliffe_USA",
+      "revision": 1348628331,
+      "section": "Associated organizations",
+      "passage": "SIL International, originally the Summer Institute of Linguistics, began as a small summer training session for missionaries in Arkansas in 1934. It is a partner organization of the Wycliffe Global Alliance and Wycliffe USA.",
+      "hatnote": "Their linguists are trained by a partner that started as a summer school.",
+      "onwardLinkText": "SIL International",
+      "nextPage": "SIL Global"
+    },
+    {
+      "page": "SIL Global",
+      "url": "https://en.wikipedia.org/wiki/SIL_Global",
+      "revision": 1378958414,
+      "section": "Contributions",
+      "passage": "SIL's principal contribution to linguistics has been the data that have been gathered and analyzed from over 1,000 minority and endangered languages, many of which had not been previously studied academically. SIL endeavors to share both its data and the results of its analysis to contribute to the overall knowledge of language. This has resulted in publications on languages such as Hixkaryana and Pirahã, which have challenged the universality of some linguistic theories. SIL's work has resulted in over 20,000 technical publications, all of which are listed in the SIL Bibliography. Most of these are a reflection of linguistic fieldwork.",
+      "hatnote": "SIL's linguists have studied over a thousand little-known languages, some of them startling.",
+      "onwardLinkText": "Pirahã",
+      "nextPage": "Pirahã language"
+    },
+    {
+      "page": "Pirahã language",
+      "url": "https://en.wikipedia.org/wiki/Pirah%C3%A3_language",
+      "revision": 1381351890,
+      "section": "Tone",
+      "passage": "Pirahã can be whistled, hummed, or encoded in music. In fact, Keren Everett believes that current research on the language misses much of its meaning by paying little attention to the language's prosody. Consonants and vowels may be omitted altogether and the meaning conveyed solely through variations in pitch, stress, and rhythm. She says that mothers teach their children the language through constantly singing the same musical patterns.",
+      "hatnote": "One of them, Pirahã, can manage without its consonants and vowels.",
+      "onwardLinkText": null,
+      "nextPage": "Pirahã language"
+    }
+  ],
+  "payoff": "Richard left his walking spring for Wycliffe, whose partner SIL studies languages so unusual that one can be whistled, hummed or sung.",
+  "caveats": [
+    "Richard James joined Wycliffe Bible Translators; SIL is its partner organisation, not the same body. SIL's missionary work is also controversial (see its page's criticism sections)."
+  ]
+}

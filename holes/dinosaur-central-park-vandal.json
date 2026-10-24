@@ -1,0 +1,70 @@
+{
+  "id": "dinosaur-central-park-vandal",
+  "claim": "For over a century, the wrong man was blamed for smashing New York's dinosaurs.",
+  "start": {
+    "title": "Dinosaur",
+    "page": "Dinosaur",
+    "description": "Diverse clade of specialized reptiles",
+    "image": "snapshots/images/Dinosaur.webp"
+  },
+  "end": {
+    "title": "Henry Hilton",
+    "page": "Henry Hilton",
+    "description": "American jurist and businessman",
+    "image": ""
+  },
+  "knots": [
+    {
+      "page": "Dinosaur",
+      "url": "https://en.wikipedia.org/wiki/Dinosaur",
+      "revision": 1380974415,
+      "section": "Cultural depictions",
+      "passage": "Public enthusiasm for dinosaurs first developed in Victorian England, where in 1854, three decades after the first scientific descriptions of dinosaur remains, a menagerie of lifelike dinosaur sculptures was unveiled in London's Crystal Palace Park.",
+      "hatnote": "Dinomania began with life-size statues in a London park.",
+      "onwardLinkText": "dinosaur sculptures",
+      "nextPage": "Crystal Palace Dinosaurs"
+    },
+    {
+      "page": "Crystal Palace Dinosaurs",
+      "url": "https://en.wikipedia.org/wiki/Crystal_Palace_Dinosaurs",
+      "revision": 1361976997,
+      "section": "lead",
+      "passage": "The dinosaur sculptures, inaccurate by modern standards, were designed by Benjamin Waterhouse Hawkins under the scientific direction of Sir Richard Owen, representing the latest scientific knowledge at the time. They are also known as the Geological Court or Dinosaur Court, were classed as Grade II listed buildings from 1973, extensively restored in 2002, and upgraded to Grade I listed in 2007.",
+      "hatnote": "The sculptures had a single maker.",
+      "onwardLinkText": "Benjamin Waterhouse Hawkins",
+      "nextPage": "Benjamin Waterhouse Hawkins"
+    },
+    {
+      "page": "Benjamin Waterhouse Hawkins",
+      "url": "https://en.wikipedia.org/wiki/Benjamin_Waterhouse_Hawkins",
+      "revision": 1375077036,
+      "section": "United States",
+      "passage": "In 1868, he traveled to the United States to deliver a series of lectures. Working with the scientist Joseph Leidy, Hawkins designed and cast an almost complete skeleton of Hadrosaurus foulkii which was then displayed at the Academy of Natural Sciences in Philadelphia. Supported on an iron framework in a lifelike pose, this was the world's first mounted dinosaur skeleton.",
+      "hatnote": "America wanted dinosaurs too.",
+      "onwardLinkText": null,
+      "nextPage": "Benjamin Waterhouse Hawkins"
+    },
+    {
+      "page": "Benjamin Waterhouse Hawkins",
+      "url": "https://en.wikipedia.org/wiki/Benjamin_Waterhouse_Hawkins",
+      "revision": 1375077036,
+      "section": "United States",
+      "passage": "The museum was to have been in Central Park. His work was all destroyed in 1871 by Henry Hilton, the corrupt and bizarre-acting Treasurer and VP of Central Park, but was for many decades thought to have been the work of Hilton's employer, William \"Boss\" Tweed, a corrupt politician who wasn't adequately compensated for his patronage. However, Tweed himself was fighting scandals regarding his corrupt dealings at the time, and was later proved innocent of the destruction of Hawkins' models in 2023, when the real culprit was revealed through reexamination of historical records and annual reports and minutes.",
+      "hatnote": "Next he planned a whole dinosaur museum for Manhattan.",
+      "onwardLinkText": "Henry Hilton",
+      "nextPage": "Henry Hilton"
+    },
+    {
+      "page": "Henry Hilton",
+      "url": "https://en.wikipedia.org/wiki/Henry_Hilton",
+      "revision": 1283548031,
+      "section": "Hawkins controversy",
+      "passage": "This vandalism was one of many strange acts perpetrated by Hilton, as he had a habit of whitewashing priceless artifacts, and believed that Hawkins' fascination with what he considered to be \"dead animals\" pointless considering that \"there was enough to do among the living\". As a result of the destruction, the museum was never built.",
+      "hatnote": "Why would a park official smash dinosaurs?",
+      "onwardLinkText": null,
+      "nextPage": "Henry Hilton"
+    }
+  ],
+  "payoff": "Boss Tweed took the blame, but Henry Hilton smashed Central Park's dinosaurs, seeing no point in 'dead animals', so the museum never opened.",
+  "caveats": []
+}

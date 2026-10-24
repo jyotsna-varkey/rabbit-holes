@@ -1,0 +1,72 @@
+{
+  "id": "sphinx-nose-alexandrian-crusade",
+  "claim": "Medieval Egyptians blamed a crusade on the Sphinx losing its nose.",
+  "start": {
+    "title": "Great Sphinx of Giza",
+    "page": "Great Sphinx of Giza",
+    "description": "Limestone statue of a resting sphinx",
+    "image": "snapshots/images/Great-Sphinx-of-Giza.webp"
+  },
+  "end": {
+    "title": "Peter I of Cyprus",
+    "page": "Peter I of Cyprus",
+    "description": "King of Cyprus from 1358 to 1369",
+    "image": "snapshots/images/Peter-I-of-Cyprus.webp"
+  },
+  "knots": [
+    {
+      "page": "Great Sphinx of Giza",
+      "url": "https://en.wikipedia.org/wiki/Great_Sphinx_of_Giza",
+      "revision": 1381187733,
+      "section": "lead",
+      "passage": "The circumstances of the destruction of the Sphinx's nose are unknown, but examinations of the face have shown evidence of a deliberate act with rods or chisels. Contrary to a popular myth, the nose was not destroyed by cannonfire from Napoleon's troops during his 1798 Egyptian campaign.",
+      "hatnote": "Someone took a chisel to the Sphinx's face. Who?",
+      "onwardLinkText": null,
+      "nextPage": "Great Sphinx of Giza"
+    },
+    {
+      "page": "Great Sphinx of Giza",
+      "url": "https://en.wikipedia.org/wiki/Great_Sphinx_of_Giza",
+      "revision": 1381187733,
+      "section": "Missing nose",
+      "passage": "Writing in the early 15th century, Arab historian al-Maqrīzī attributed the loss of the nose to Muhammad Sa'im al-Dahr, a Sufi Muslim from the khanqah of Sa'id al-Su'ada in 1378. According to al-Maqrīzī, Sa'im al-Dahr saw local peasants making offerings to the Sphinx in the hope of increasing their harvest and defaced the Sphinx in an act of iconoclasm. According to al-Maqrīzī, people living in the area believed the sand covering the Giza Plateau was retribution for al-Dahr's act of defacement. Al-Minufi (1443–1527) wrote the Alexandrian Crusade in 1365 was, \"...divine retribution for Muhammad Sa'im al-Dahr's breaking off the nose of a sphinx.\"",
+      "hatnote": "Medieval Egyptian writers named a culprit, and a punishment.",
+      "onwardLinkText": "Alexandrian Crusade",
+      "nextPage": "Alexandrian Crusade"
+    },
+    {
+      "page": "Alexandrian Crusade",
+      "url": "https://en.wikipedia.org/wiki/Alexandrian_Crusade",
+      "revision": 1374204826,
+      "section": "lead",
+      "passage": "The brief Alexandrian Crusade, also called the sack of Alexandria, occurred in October 1365 and was led by King Peter I of Cyprus against Alexandria in Egypt. The Crusade was sanctioned by Pope Urban V at the request of Peter I. Although often referred to as and counted among the Crusades, it was relatively devoid of religious impetus and differs from the more prominent Crusades in that it seems to have been motivated largely by economic interests.",
+      "hatnote": "The 'divine retribution' was less holy war than a trade raid.",
+      "onwardLinkText": "Peter I of Cyprus",
+      "nextPage": "Peter I of Cyprus"
+    },
+    {
+      "page": "Peter I of Cyprus",
+      "url": "https://en.wikipedia.org/wiki/Peter_I_of_Cyprus",
+      "revision": 1376759446,
+      "section": "Tour of Europe",
+      "passage": "Taking advantage of his trip in Europe, he tried to convince powerful rulers to strengthen him by organizing a crusade to liberate the Holy Land and the Kingdom of Jerusalem which belonged to him. This was discussed with the newly elected pope, after the death of the previous incumbent. For the same reason he travelled to England, Germany, and France. During his visit in England the historical Banquet of the Five Kings took place.",
+      "hatnote": "Its king had toured Europe's courts drumming up support.",
+      "onwardLinkText": null,
+      "nextPage": "Peter I of Cyprus"
+    },
+    {
+      "page": "Peter I of Cyprus",
+      "url": "https://en.wikipedia.org/wiki/Peter_I_of_Cyprus",
+      "revision": 1376759446,
+      "section": "Alexandria Crusade",
+      "passage": "On 11 October 1365 Peter led a mixed Cypriot and Western force of Crusaders on 70 ships to sack Alexandria. However, the mercenary troops refused to remain in Alexandria, and he was obliged to return to Cyprus, the only permanent result of his expedition being the enmity of the Sultan of Egypt. Reprisals followed against Christian merchants in Syria and Egypt, and Pope Urban V advised Peter to make peace with the Sultan after unsuccessfully attempting to raise support among the European monarchs.",
+      "hatnote": "So what did the great raid, years in the planning, actually achieve?",
+      "onwardLinkText": null,
+      "nextPage": "Peter I of Cyprus"
+    }
+  ],
+  "payoff": "Note the dates: by al-Maqrīzī's account the nose came off in 1378, thirteen years after the 1365 raid it was blamed for.",
+  "caveats": [
+    "The Sphinx page reports these as medieval accounts; the real circumstances of the nose's destruction are unknown."
+  ]
+}

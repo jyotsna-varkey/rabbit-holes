@@ -1,0 +1,70 @@
+{
+  "id": "tattoo-electric-pen-copier",
+  "claim": "Wealthy Americans went off tattoos because of an Edison office gadget.",
+  "start": {
+    "title": "Tattoo",
+    "page": "Tattoo",
+    "description": "Skin modification using ink to create designs",
+    "image": "snapshots/images/Tattoo.webp"
+  },
+  "end": {
+    "title": "Electric pen",
+    "page": "Electric pen",
+    "description": "Part of a device for duplicating handwritten documents",
+    "image": "snapshots/images/Electric-pen.webp"
+  },
+  "knots": [
+    {
+      "page": "Tattoo",
+      "url": "https://en.wikipedia.org/wiki/Tattoo",
+      "revision": 1379853280,
+      "section": "North America",
+      "passage": "Soon after the Civil War, tattoos became fashionable among upper-class young adults. This trend lasted until the beginning of World War I. The invention of the electric tattoo machine caused popularity of tattoos among the wealthy to drop off. The machine made the tattooing procedure both much easier and cheaper, thus, eliminating the status symbol tattoos previously held, as they were now affordable for all socioeconomic classes.",
+      "hatnote": "For a few decades, a tattoo was a rich person's luxury.",
+      "onwardLinkText": null,
+      "nextPage": "Tattoo"
+    },
+    {
+      "page": "Tattoo",
+      "url": "https://en.wikipedia.org/wiki/Tattoo",
+      "revision": 1379853280,
+      "section": "Equipment",
+      "passage": "The most common method of tattooing in modern times is the electric tattoo machine, which inserts ink into the skin via a single needle or a group of needles that are soldered onto a bar, which is attached to an oscillating unit. The unit rapidly and repeatedly drives the needles in and out of the skin, usually 80 to 150 times a second.",
+      "hatnote": "The machine that made tattoos cheap still buzzes in every parlour.",
+      "onwardLinkText": "tattoo machine",
+      "nextPage": "Tattoo machine"
+    },
+    {
+      "page": "Tattoo machine",
+      "url": "https://en.wikipedia.org/wiki/Tattoo_machine",
+      "revision": 1360740692,
+      "section": "History",
+      "passage": "The predecessor to the tattoo machine was Thomas Edison's electric pen, patented under the title Stencil-Pens in Newark, New Jersey, United States in 1876. It was originally intended to be used as a duplicating device, but in 1891, Samuel O'Reilly discovered that Edison's machine could be modified and used to introduce ink into the skin, and later patented a tube and needle system to provide an ink reservoir.",
+      "hatnote": "Its ancestor was built for paperwork, not skin.",
+      "onwardLinkText": "electric pen",
+      "nextPage": "Electric pen"
+    },
+    {
+      "page": "Electric pen",
+      "url": "https://en.wikipedia.org/wiki/Electric_pen",
+      "revision": 1376089051,
+      "section": "Design and use",
+      "passage": "The hand-held electric pen was powered by a wet cell battery, which was wired to an electric motor mounted on top of a pen-like shaft. According to the manual, the motor drove a reciprocating needle that could make 50 punctures per second or 3,000 per minute. The user was instructed to place the stencil on firm blotting paper on a flat surface, then use the pen to write or draw naturally to form words and designs as a series of minute perforations in the stencil.",
+      "hatnote": "Edison's pen wrote by punching holes, not by leaving ink.",
+      "onwardLinkText": null,
+      "nextPage": "Electric pen"
+    },
+    {
+      "page": "Electric pen",
+      "url": "https://en.wikipedia.org/wiki/Electric_pen",
+      "revision": 1376089051,
+      "section": "Competition",
+      "passage": "The need for batteries in the electric pen ultimately caused its steady decline, as mechanical pens that did not require batteries to operate took over the market by 1880. These pens, along with other cheaper and simpler stencil-making technologies quickly became more popular and widely used, until all were eventually overtaken by the typewriter by the late 1880s.",
+      "hatnote": "In the office, though, it was a short-lived gadget.",
+      "onwardLinkText": null,
+      "nextPage": "Electric pen"
+    }
+  ],
+  "payoff": "Edison's copying pen soon lost the office to the typewriter, but reborn as a tattoo needle it made tattoos too cheap to be posh.",
+  "caveats": []
+}

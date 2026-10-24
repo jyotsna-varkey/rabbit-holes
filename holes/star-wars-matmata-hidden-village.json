@@ -1,0 +1,60 @@
+{
+  "id": "star-wars-matmata-hidden-village",
+  "claim": "Star Wars filmed in a village the world barely knew existed until 1969.",
+  "start": {
+    "title": "Star Wars (film)",
+    "page": "Star Wars (film)",
+    "description": "1977 film by George Lucas",
+    "image": "snapshots/images/Star-Wars-film.webp"
+  },
+  "end": {
+    "title": "Matmata, Tunisia",
+    "page": "Matmata, Tunisia",
+    "description": "Town in Tunisia",
+    "image": "snapshots/images/Matmata-Tunisia.webp"
+  },
+  "knots": [
+    {
+      "page": "Star Wars (film)",
+      "url": "https://en.wikipedia.org/wiki/Star_Wars_(film)",
+      "revision": 1379161000,
+      "section": "Plot",
+      "passage": "Leia is taken prisoner, but the droids R2-D2 and C-3PO escape with the plans, crash-landing on the nearby desert planet of Tatooine.",
+      "hatnote": "The story's first stop is a desert world.",
+      "onwardLinkText": "Tatooine",
+      "nextPage": "Tatooine"
+    },
+    {
+      "page": "Tatooine",
+      "url": "https://en.wikipedia.org/wiki/Tatooine",
+      "revision": 1377455087,
+      "section": "Development",
+      "passage": "Lucas was also keen to shoot at the Hotel Sidi Driss in Matmata, a decision which extended the shoot, and consequently the budget, by a day. Filming in Tunisia began on March 22, 1976, and immediately ran into difficulty: the region was experiencing its first heavy rainfall in seven years, which disrupted the setting of an arid desert planet. The Matmata hotel consisted of a troglodyte dwelling in a large hole in the ground. Combined with shots at Chott el Djerid, near Nefta, this formed the setting for the Lars homestead and moisture farm.",
+      "hatnote": "Lucas found his desert planet in southern Tunisia.",
+      "onwardLinkText": "Matmata",
+      "nextPage": "Matmata, Tunisia"
+    },
+    {
+      "page": "Matmata, Tunisia",
+      "url": "https://en.wikipedia.org/wiki/Matmata%2C_Tunisia",
+      "revision": 1349049891,
+      "section": "lead",
+      "passage": "The structures typical for the village are created by digging a large pit in the ground. Around the perimeter of this pit artificial caves are then dug to be used as rooms, with some homes comprising multiple pits, connected by trench-like passageways.",
+      "hatnote": "That hole in the ground was not a film set.",
+      "onwardLinkText": null,
+      "nextPage": "Matmata, Tunisia"
+    },
+    {
+      "page": "Matmata, Tunisia",
+      "url": "https://en.wikipedia.org/wiki/Matmata%2C_Tunisia",
+      "revision": 1349049891,
+      "section": "History",
+      "passage": "It was not generally known until 1969 that there were regular settlements in this area besides wandering nomadic tribes. That year, intensive rains that lasted for 22 days inundated the troglodyte homes and caused many of them to collapse. In order to get help from the authorities, a delegation was sent to the community center of the region in the town of Gabès. The visit came as a surprise, but help was provided, and the above-ground settlement of Matmâta was built. However, most of the people continued their lives in re-built underground homes, and only a few of the families moved to the new surface dwellings.",
+      "hatnote": "And until recently, almost nobody outside knew it was there.",
+      "onwardLinkText": null,
+      "nextPage": "Matmata, Tunisia"
+    }
+  ],
+  "payoff": "The Lars homestead on Tatooine is a real pit-home, in a village outsiders noticed only when rain collapsed it; most families simply rebuilt underground.",
+  "caveats": []
+}

@@ -1,0 +1,80 @@
+{
+  "id": "fingerprint-yakov-zeldovich",
+  "claim": "The maths behind your fingerprints was first spotted in flames by a Soviet bomb-maker.",
+  "start": {
+    "title": "Fingerprint",
+    "page": "Fingerprint",
+    "description": "Biometric identifier",
+    "image": "snapshots/images/Fingerprint.webp"
+  },
+  "end": {
+    "title": "Nicolas Bourbaki",
+    "page": "Nicolas Bourbaki",
+    "description": "Pseudonym of a group of mathematicians",
+    "image": ""
+  },
+  "knots": [
+    {
+      "page": "Fingerprint",
+      "url": "https://en.wikipedia.org/wiki/Fingerprint",
+      "revision": 1368560109,
+      "section": "Genetics",
+      "passage": "In February 2023, a study identified WNT, BMP and EDAR as signaling pathways regulating the formation of primary ridges on fingerprints, with the first two having an opposite relationship established by a Turing reaction-diffusion system.",
+      "hatnote": "Your ridges are drawn by chemical signals pushing against each other.",
+      "onwardLinkText": "Turing reaction-diffusion system",
+      "nextPage": "Turing pattern"
+    },
+    {
+      "page": "Turing pattern",
+      "url": "https://en.wikipedia.org/wiki/Turing_pattern",
+      "revision": 1368892492,
+      "section": "Overview",
+      "passage": "Before Turing, Yakov Zeldovich in 1944 discovered this instability mechanism in connection with the cellular structures observed in lean hydrogen flames. Zeldovich explained the cellular structure as a consequence of hydrogen's diffusion coefficient being larger than the thermal diffusion coefficient. In combustion literature, Turing instability is referred to as diffusive–thermal instability.",
+      "hatnote": "Alan Turing described this pattern-maker in 1952. But someone saw it first.",
+      "onwardLinkText": "Yakov Zeldovich",
+      "nextPage": "Yakov Zeldovich"
+    },
+    {
+      "page": "Yakov Zeldovich",
+      "url": "https://en.wikipedia.org/wiki/Yakov_Zeldovich",
+      "revision": 1372855846,
+      "section": "lead",
+      "passage": "From 1943, Zeldovich, a self-taught physicist, started his career by playing a crucial role in the development of the former Soviet program of nuclear weapons. In 1963, he returned to academia to embark on pioneering contributions on the fundamental understanding of the thermodynamics of black holes and expanding the scope of physical cosmology.",
+      "hatnote": "The flame man was self-taught, and had a secret day job.",
+      "onwardLinkText": null,
+      "nextPage": "Yakov Zeldovich"
+    },
+    {
+      "page": "Yakov Zeldovich",
+      "url": "https://en.wikipedia.org/wiki/Yakov_Zeldovich",
+      "revision": 1372855846,
+      "section": "Awards and honors",
+      "passage": "Igor Kurchatov called him a \"genius\" and Andrei Sakharov named him \"a man of universal scientific interests.\" After the first meeting in Moscow, Stephen W. Hawking wrote to Zeldovich: \"now I know that you are a real person and not a group of scientists like Bourbaki.\"",
+      "hatnote": "He published so widely that Stephen Hawking doubted he was one person.",
+      "onwardLinkText": "Bourbaki",
+      "nextPage": "Nicolas Bourbaki"
+    },
+    {
+      "page": "Nicolas Bourbaki",
+      "url": "https://en.wikipedia.org/wiki/Nicolas_Bourbaki",
+      "revision": 1381078319,
+      "section": "lead",
+      "passage": "Nicolas Bourbaki (French: [nikola buʁbaki]) is the collective pseudonym of a group of mathematicians, predominantly French alumni of the École normale supérieure (ENS). Founded in 1934–1935, the Bourbaki group originally intended to prepare a new textbook in analysis. Over time the project became much more ambitious, growing into a large series of textbooks published under the Bourbaki name, meant to treat modern pure mathematics.",
+      "hatnote": "Hawking's joke made sense: one famous mathematician really was a crowd.",
+      "onwardLinkText": null,
+      "nextPage": "Nicolas Bourbaki"
+    },
+    {
+      "page": "Nicolas Bourbaki",
+      "url": "https://en.wikipedia.org/wiki/Nicolas_Bourbaki",
+      "revision": 1381078319,
+      "section": "lead",
+      "passage": "The group's name derives from the 19th-century French general Charles-Denis Bourbaki, who had a career of successful military campaigns before suffering a dramatic defeat in the Franco-Prussian War. The name was therefore familiar to early 20th-century French students. Weil remembered an ENS student prank in which an upperclassman posed as a professor and presented a \"theorem of Bourbaki\"; the name was later adopted.",
+      "hatnote": "Founder André Weil traced the fake name to a student prank.",
+      "onwardLinkText": null,
+      "nextPage": "Nicolas Bourbaki"
+    }
+  ],
+  "payoff": "The flame physicist who beat Turing to fingerprint maths was so prolific that Hawking suspected he was a Bourbaki: a crowd posing as one man.",
+  "caveats": []
+}

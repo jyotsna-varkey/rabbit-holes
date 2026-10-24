@@ -1,0 +1,70 @@
+{
+  "id": "reading-copy-82",
+  "claim": "Vanilla refused to fruit outside Mexico until a 12-year-old cracked it.",
+  "start": {
+    "title": "Chocolate",
+    "page": "Chocolate",
+    "description": "Food produced from cacao seeds",
+    "image": "snapshots/images/Chocolate.webp"
+  },
+  "end": {
+    "title": "Edmond Albius",
+    "page": "Edmond Albius",
+    "description": "Réunion horticulturalist (1829–1880)",
+    "image": "snapshots/images/Edmond-Albius.webp"
+  },
+  "knots": [
+    {
+      "page": "Chocolate",
+      "url": "https://en.wikipedia.org/wiki/Chocolate",
+      "revision": 1381046833,
+      "section": "History",
+      "passage": "Chocolate was extremely important to several Mesoamerican societies, and cacao was considered a gift from the gods by the Mayans and the Aztecs. The cocoa bean was used as a currency across civilizations and was used in ceremonies, as a tribute to leaders and gods and as a medicine. Chocolate in Mesoamerica was a bitter drink, flavored with additives such as vanilla, earflower and chili, and was capped with a dark brown foam created by pouring the liquid from a height between containers.",
+      "hatnote": "The first chocolate was a bitter drink, and vanilla was in it.",
+      "onwardLinkText": "vanilla",
+      "nextPage": "Vanilla"
+    },
+    {
+      "page": "Vanilla",
+      "url": "https://en.wikipedia.org/wiki/Vanilla",
+      "revision": 1378215951,
+      "section": "Vanilla orchid",
+      "passage": "The first vanilla orchid to flower in Europe was in the London collection of the Honourable Charles Greville in 1806. Cuttings from that plant went to Netherlands and Paris, from which the French first transplanted the vines to their overseas colonies. The vines grew, but would not fruit outside Mexico. The only known way to produce fruits is artificial pollination.",
+      "hatnote": "The vine reached Europe, then French colonies, but bore no fruit.",
+      "onwardLinkText": null,
+      "nextPage": "Vanilla"
+    },
+    {
+      "page": "Vanilla",
+      "url": "https://en.wikipedia.org/wiki/Vanilla",
+      "revision": 1378215951,
+      "section": "Vanilla orchid",
+      "passage": "In 1837, botanist Charles François Antoine Morren began experimenting with hand pollination of Vanilla orchids in cultivation in Europe. The method proved financially unworkable and was not deployed commercially. A few years later in 1841, a simple and efficient artificial hand-pollination method was developed by a 12-year-old slave named Edmond Albius on Réunion, a method still used today.",
+      "hatnote": "A botanist tried first. A boy on an island did it better.",
+      "onwardLinkText": "Edmond Albius",
+      "nextPage": "Edmond Albius"
+    },
+    {
+      "page": "Edmond Albius",
+      "url": "https://en.wikipedia.org/wiki/Edmond_Albius",
+      "revision": 1374599788,
+      "section": "Vanilla pollination",
+      "passage": "Albius's owner, Mr. Beaumont, taught him the basics of botany, including how to fertilize flowers. In 1841, Albius invented a method to quickly pollinate the vanilla orchid using a thin stick or blade of grass and a simple thumb gesture. Using the stick or grass blade, field hands lift the rostellum, the flap that separates the male anther from the female stigma, and then, with their thumbs, smear the sticky pollen from the anther over the stigma.",
+      "hatnote": "His trick needed only a stick and a thumb.",
+      "onwardLinkText": null,
+      "nextPage": "Edmond Albius"
+    },
+    {
+      "page": "Edmond Albius",
+      "url": "https://en.wikipedia.org/wiki/Edmond_Albius",
+      "revision": 1374599788,
+      "section": "Vanilla pollination",
+      "passage": "Albius's manual pollination method is still used today, as nearly all vanilla is pollinated by hand. After Albius's discovery, Réunion became for a time the world's largest supplier of vanilla. French colonists used Albius's technique in Madagascar to cultivate vanilla, and Madagascar remains the world's chief vanilla producer.",
+      "hatnote": "That one gesture moved the world's vanilla supply.",
+      "onwardLinkText": null,
+      "nextPage": "Edmond Albius"
+    }
+  ],
+  "payoff": "Chocolate's ancient flavouring now grows half a world away, still pollinated by hand with the stick-and-thumb trick a boy worked out in 1841.",
+  "caveats": []
+}

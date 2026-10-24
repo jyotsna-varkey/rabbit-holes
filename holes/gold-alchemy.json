@@ -19,7 +19,7 @@
       "url": "https://en.wikipedia.org/wiki/Gold",
       "revision": 1378929640,
       "section": "Monetary use",
-      "passage": "After World War II gold was replaced by a system of nominally convertible currencies related by fixed exchange rates following the Bretton Woods system. Gold standards and the direct convertibility of currencies to gold have been abandoned by world governments, led in 1971 by the United States' refusal to redeem its dollars in gold. Fiat currency now fills most monetary roles. Switzerland was the last country to tie its currency to gold; this was ended by a referendum in 1999.",
+      "passage": "Gold standards and the direct convertibility of currencies to gold have been abandoned by world governments, led in 1971 by the United States' refusal to redeem its dollars in gold. Fiat currency now fills most monetary roles. Switzerland was the last country to tie its currency to gold; this was ended by a referendum in 1999.",
       "hatnote": "Gold stopped backing money in the 20th century; Switzerland held out until 1999.",
       "onwardLinkText": "Gold standards",
       "nextPage": "Gold standard"
@@ -27,34 +27,46 @@
     {
       "page": "Gold standard",
       "url": "https://en.wikipedia.org/wiki/Gold_standard",
-      "revision": 1375978719,
+      "revision": 1381221405,
       "section": "lead",
-      "passage": "Historically, the silver standard and bimetallism have been more common than the gold standard. The shift to an international monetary system based on a gold standard reflected accident, network externalities, and path dependence. Great Britain accidentally adopted a de facto gold standard in 1717 when Isaac Newton, master of the Royal Mint, set the exchange rate of silver to gold too low, thus causing silver coins to go out of circulation. As Great Britain became the world's leading financial and commercial power in the 19th century, other states increasingly adopted Britain's monetary system.",
-      "hatnote": "Britain's gold standard began with Newton pricing silver too low.",
+      "passage": "The shift to an international monetary system based on a gold standard reflected accident, network externalities, and path dependence. Great Britain accidentally adopted a de facto gold standard in 1717 when Isaac Newton, master of the Royal Mint, set the exchange rate of silver to gold too low, thus causing silver coins to go out of circulation.",
+      "hatnote": "So how did the world end up on gold at all? Partly by accident.",
       "onwardLinkText": "Isaac Newton",
       "nextPage": "Isaac Newton"
     },
     {
       "page": "Isaac Newton",
       "url": "https://en.wikipedia.org/wiki/Isaac_Newton",
-      "revision": 1378734104,
+      "revision": 1381306318,
+      "section": "Knighthood",
+      "passage": "As a result of a report written by Newton on 21 September 1717 to the Lords Commissioners of His Majesty's Treasury, the bimetallic relationship between gold coins and silver coins was changed by royal proclamation on 22 December 1717, forbidding the exchange of gold guineas for more than 21 silver shillings. This inadvertently resulted in a silver shortage as silver coins were used to pay for imports, while exports were paid for in gold, effectively moving Britain from the silver standard to its first gold standard. It is a matter of debate as to whether he intended to do this or not. It has been argued that Newton viewed his work at the Mint as a continuation of his alchemical work.",
+      "hatnote": "The Master of the Mint's report changed what a guinea was worth.",
+      "onwardLinkText": null,
+      "nextPage": "Isaac Newton"
+    },
+    {
+      "page": "Isaac Newton",
+      "url": "https://en.wikipedia.org/wiki/Isaac_Newton",
+      "revision": 1381306318,
       "section": "Alchemy",
       "passage": "Of an estimated ten million words of writing in Newton's papers, about one million deal with alchemy. Many of Newton's writings on alchemy are copies of other manuscripts, with his own annotations. Alchemical texts mix artisanal knowledge with philosophical speculation, often hidden behind layers of wordplay, allegory, and imagery to protect craft secrets. Some of the content contained in Newton's papers could have been considered heretical by the church.",
-      "hatnote": "Newton wrote about a million words on alchemy.",
+      "hatnote": "And Newton's private papers show just how seriously he took alchemy.",
       "onwardLinkText": "alchemy",
       "nextPage": "Alchemy"
     },
     {
       "page": "Alchemy",
       "url": "https://en.wikipedia.org/wiki/Alchemy",
-      "revision": 1377992715,
-      "section": "Renaissance and early modern Europe",
-      "passage": "The terms \"chemia\" and \"alchemia\" were used as synonyms in the early modern period, and the differences between alchemy, chemistry and small-scale assaying and metallurgy were not as neat as in the present day. There were important overlaps between practitioners, and trying to classify them into alchemists, chemists and craftsmen is anachronistic. For example, Tycho Brahe (1546–1601), an alchemist better known for his astronomical and astrological investigations, had a laboratory built at his Uraniborg observatory/research institute. Michael Sendivogius (Michał Sędziwój, 1566–1636), a Polish alchemist, philosopher, medical doctor and pioneer of chemistry wrote mystical works but is also credited with distilling oxygen in a lab sometime around 1600. Sendivogious taught his technique to Cornelius Drebbel who, in 1621, applied this in a submarine. Isaac Newton devoted considerably more of his writing to the study of alchemy (see Isaac Newton's occult studies) than he did to either optics or physics. Other early modern alchemists who were eminent in their other studies include Robert Boyle, and Jan Baptist van Helmont. Their Hermeticism complemented rather than precluded their practical achievements in medicine and science.",
-      "hatnote": "In his day, alchemy and chemistry weren't separate fields.",
+      "revision": 1381006097,
+      "section": "lead",
+      "passage": "Alchemists attempted to purify, mature, and perfect certain materials. Common aims were chrysopoeia, the transmutation of \"base metals\" (e.g., lead) into \"noble metals\" (particularly gold); the creation of an elixir of immortality; and the creation of panaceas able to cure any disease. The perfection of the human body and soul was thought to result from the alchemical magnum opus (\"Great Work\"). The concept of creating the philosopher's stone was variously connected with all of these projects.",
+      "hatnote": "And what were alchemists chasing?",
       "onwardLinkText": null,
       "nextPage": "Alchemy"
     }
   ],
-  "payoff": "The man who accidentally tied Britain to gold wrote more about alchemy than about optics or physics.",
-  "caveats": []
+  "payoff": "The man who accidentally tied Britain's money to gold spent a million words on alchemy, whose great aim was turning base metals into gold.",
+  "caveats": [
+    "The Gold standard page calls the 1717 shift accidental; the Newton page says it is debated whether he intended it."
+  ]
 }

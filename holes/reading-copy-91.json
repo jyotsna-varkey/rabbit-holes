@@ -1,0 +1,70 @@
+{
+  "id": "reading-copy-91",
+  "claim": "Playing cards began as dice. One famous fortune-telling deck circled right back.",
+  "start": {
+    "title": "Dice",
+    "page": "Dice",
+    "description": "Marked objects for finding random numbers",
+    "image": "snapshots/images/Dice.webp"
+  },
+  "end": {
+    "title": "Marie Anne Lenormand",
+    "page": "Marie Anne Lenormand",
+    "description": "French bookseller, necromancer, fortune-teller and cartomancer",
+    "image": "snapshots/images/Marie-Anne-Lenormand.webp"
+  },
+  "knots": [
+    {
+      "page": "Dice",
+      "url": "https://en.wikipedia.org/wiki/Dice",
+      "revision": 1374143626,
+      "section": "History",
+      "passage": "Dominoes and playing cards originated in China as developments from dice. The transition from dice to playing cards occurred in China around the Tang dynasty (618–907 CE), and coincides with the technological transition from rolls of manuscripts to block printed books.",
+      "hatnote": "Playing cards have a surprising ancestor.",
+      "onwardLinkText": "playing cards",
+      "nextPage": "Playing card"
+    },
+    {
+      "page": "Playing card",
+      "url": "https://en.wikipedia.org/wiki/Playing_card",
+      "revision": 1379215145,
+      "section": "lead",
+      "passage": "Tarot cards (also known locally as Tarocks or tarocchi) are an old genre of playing card that is still very popular in France, central and Eastern Europe and Italy. Customised tarot card decks are also used for divination; including tarot card reading and cartomancy.",
+      "hatnote": "Some card decks ended up being used to tell fortunes.",
+      "onwardLinkText": "tarot card reading",
+      "nextPage": "Tarot card reading"
+    },
+    {
+      "page": "Tarot card reading",
+      "url": "https://en.wikipedia.org/wiki/Tarot_card_reading",
+      "revision": 1375909837,
+      "section": "Marie Anne Lenormand",
+      "passage": "Mlle Marie-Anne Adelaide Lenormand outshone even Etteilla and was the first cartomancer to people in high places, through her claims to be the personal confidant of Empress Josephine, Napoleon and other notables. Lenormand used both regular playing cards, in particular the Piquet pack, as well as tarot cards likely derived from the Tarot de Marseille.",
+      "hatnote": "Paris's most famous card reader claimed an empress and an emperor as clients.",
+      "onwardLinkText": "Mlle Marie-Anne Adelaide Lenormand",
+      "nextPage": "Marie Anne Lenormand"
+    },
+    {
+      "page": "Marie Anne Lenormand",
+      "url": "https://en.wikipedia.org/wiki/Marie_Anne_Lenormand",
+      "revision": 1372964384,
+      "section": "Death",
+      "passage": "Lenormand died in Paris on 25 June 1843 and is buried in Division 3 of Père Lachaise Cemetery. She left behind a fortune of 500,000 Francs, and left no heirs other than a nephew who, at the time of her death, was in the army. A devout Catholic, her nephew burned all of her occult paraphernalia, taking only the monetary fortune that she left behind.",
+      "hatnote": "Fortune-telling made her rich, though her heir had other ideas.",
+      "onwardLinkText": null,
+      "nextPage": "Marie Anne Lenormand"
+    },
+    {
+      "page": "Marie Anne Lenormand",
+      "url": "https://en.wikipedia.org/wiki/Marie_Anne_Lenormand",
+      "revision": 1372964384,
+      "section": "Das Spiel der Hoffnung",
+      "passage": "The 36-card Petite Lenormand tarot deck is modelled on a deck of cards published circa 1799 called Das Spiel der Hoffnung (The Game of Hope), a game of chance designed by Johann Kaspar Hechtel of Nuremberg. It was originally meant to be laid out in a 6 x 6 grid of cards and played as a boardgame, with #1 (The Rider) as the start and #35 (The Anchor / Hope) as the end. Movement was determined with a pair of standard six-sided dice.",
+      "hatnote": "The deck later sold under her name had an unexpected source.",
+      "onwardLinkText": null,
+      "nextPage": "Marie Anne Lenormand"
+    }
+  ],
+  "payoff": "Cards grew out of dice, and the fortune-telling deck sold under Lenormand's name began as a board game played with dice.",
+  "caveats": []
+}

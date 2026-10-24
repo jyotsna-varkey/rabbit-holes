@@ -1,6 +1,6 @@
 {
   "id": "tennis-french-revolution",
-  "claim": "A tennis court helped start the French Revolution.",
+  "claim": "A king's love of indoor tennis gave the French Revolution its first stage.",
   "start": {
     "title": "Tennis",
     "page": "Tennis",
@@ -8,55 +8,63 @@
     "image": "snapshots/images/Tennis.webp"
   },
   "end": {
-    "title": "French Revolution",
-    "page": "French Revolution",
-    "description": "1789–1799 sociopolitical change in France",
-    "image": "snapshots/images/French-Revolution.webp"
+    "title": "Jeu de paume",
+    "page": "Jeu de paume",
+    "description": "Indoor precursor of tennis",
+    "image": "snapshots/images/Jeu-de-paume.webp"
   },
   "knots": [
     {
       "page": "Tennis",
       "url": "https://en.wikipedia.org/wiki/Tennis",
-      "revision": 1375888835,
+      "revision": 1380872774,
       "section": "Predecessors",
-      "passage": "Historians believe that the game's ancient origin lay in 12th-century northern France, where a ball was struck with the palm of the hand. Louis X of France was a keen player of jeu de paume (\"game of the palm\"), which evolved into real tennis, and became notable as the first person to construct indoor tennis courts in the modern style. Louis was unhappy with playing tennis outdoors and accordingly had indoor, enclosed courts made in Paris \"around the end of the 13th century\". In due course this design spread across royal palaces all over Europe. In June 1316 at Vincennes, Val-de-Marne, and following a particularly exhausting game, Louis drank a large quantity of cooled wine and subsequently died of either pneumonia or pleurisy, although there was also suspicion of poisoning. Because of the contemporary accounts of his death, Louis X is history's first tennis player known by name. Another of the early enthusiasts of the game was King Charles V of France, who had a court set up at the Louvre Palace.",
-      "hatnote": "The first tennis player known by name was a king, who died after a game.",
+      "passage": "Louis X of France was a keen player of jeu de paume (\"game of the palm\"), which evolved into real tennis, and became notable as the first person to construct indoor tennis courts in the modern style. Louis was unhappy with playing tennis outdoors and accordingly had indoor, enclosed courts made in Paris \"around the end of the 13th century\". In due course this design spread across royal palaces all over Europe.",
+      "hatnote": "Tennis began in France, and a medieval king moved it indoors.",
       "onwardLinkText": "real tennis",
       "nextPage": "Real tennis"
     },
     {
       "page": "Real tennis",
       "url": "https://en.wikipedia.org/wiki/Real_tennis",
-      "revision": 1377175488,
+      "revision": 1379323960,
       "section": "History",
-      "passage": "The game thrived among the 17th-century nobility in France, Spain, Italy, the Netherlands, and the Habsburg Empire, but suffered under English Puritanism, as it was heavily associated with gambling. By the Age of Napoleon, the royal families of Europe were besieged and real tennis, a court game, was largely abandoned. Real tennis played a role in the history of the French Revolution, through the Tennis Court Oath, a pledge signed by French deputies in a real tennis court, which formed a decisive early step in starting the revolution.",
-      "hatnote": "The game moved indoors, and one of its courts made history.",
+      "passage": "Real tennis played a role in the history of the French Revolution, through the Tennis Court Oath, a pledge signed by French deputies in a real tennis court, which formed a decisive early step in starting the revolution.",
+      "hatnote": "Royal indoor tennis faded, but one court earned a place in history.",
       "onwardLinkText": "Tennis Court Oath",
       "nextPage": "Tennis Court Oath"
     },
     {
       "page": "Tennis Court Oath",
       "url": "https://en.wikipedia.org/wiki/Tennis_Court_Oath",
-      "revision": 1377143981,
-      "section": "Background",
-      "passage": "Before the Revolution, French society—aside from royalty—was divided into three estates. The First Estate comprised the clergy; the Second Estate was the nobility. The rest of France—some 97 per cent of the population—was the Third Estate, which ranged from very wealthy city merchants to impoverished rural farmers. The three estates had historically met in the Estates General, a legislative assembly, but this had not happened since 1614, under the reign of Louis XIII. It was the last of the Estates General of the Kingdom of France. Summoned by King Louis XVI, the Estates General of 1789 ended when the Third Estate formed the National Assembly and, against the wishes of the king, invited the other two estates to join. This signaled the outbreak of the French Revolution.",
-      "hatnote": "The Third Estate, 97 per cent of France, broke away.",
-      "onwardLinkText": "Revolution",
-      "nextPage": "French Revolution"
+      "revision": 1380114137,
+      "section": "lead",
+      "passage": "On the morning of 20 June the deputies were shocked to discover that the door of the Salle des Menus-Plaisir was locked and guarded by soldiers. They immediately feared the worst and were anxious that an attack was imminent from King Louis XVI, so upon the suggestion of one of their members Joseph-Ignace Guillotin, the deputies congregated in an indoor tennis court near the Palace of Versailles.",
+      "hatnote": "Why a tennis court? In June 1789, the commoners' deputies found themselves locked out.",
+      "onwardLinkText": null,
+      "nextPage": "Tennis Court Oath"
     },
     {
-      "page": "French Revolution",
-      "url": "https://en.wikipedia.org/wiki/French_Revolution",
-      "revision": 1379258701,
-      "section": "Proclamation of the First Republic",
-      "passage": "On 20 September, the French defeated the Prussians at the Battle of Valmy, in what was the first major victory by the army of France during the Revolutionary Wars. Emboldened by this, on 22 September the Convention replaced the monarchy with the French First Republic and introduced a new calendar, with 1792 becoming \"Year One\". The next few months were taken up with the trial of Citoyen Louis Capet, formerly Louis XVI. While evenly divided on the question of his guilt, members of the convention were increasingly influenced by radicals based within the Jacobin clubs and Paris Commune. The Brunswick Manifesto made it easy to portray Louis as a threat to the Revolution, especially when extracts from his personal correspondence showed him conspiring with Royalist exiles.",
-      "hatnote": "Within a few years, the king was on trial.",
+      "page": "Tennis Court Oath",
+      "url": "https://en.wikipedia.org/wiki/Tennis_Court_Oath",
+      "revision": 1380114137,
+      "section": "lead",
+      "passage": "The Tennis Court Oath (French: Serment du Jeu de Paume, pronounced [sɛʁmɑ̃ dy ʒø də pom]) was taken on 20 June 1789 by the members of the French Third Estate in the hall of an indoor tennis court in the grounds of Versailles. Their vow \"not to separate and to reassemble wherever necessary until the constitution of the kingdom is established\" became a pivotal event in the French Revolution.",
+      "hatnote": "Among the tennis walls, they swore not to go home.",
+      "onwardLinkText": "Jeu de Paume",
+      "nextPage": "Jeu de paume"
+    },
+    {
+      "page": "Jeu de paume",
+      "url": "https://en.wikipedia.org/wiki/Jeu_de_paume",
+      "revision": 1372245551,
+      "section": "Cultural references",
+      "passage": "The painter Jacques-Louis David's famous sketch, le Serment du jeu de paume ('the Tennis Court Oath') now hangs in the court of the Palace of Versailles. It depicts a seminal moment of the French Revolution, when, on 20 June 1789, deputies of the Estates-General met at the court and vowed that they would not disband before the proclamation of a formal Constitution for France.",
+      "hatnote": "And the court itself still remembers.",
       "onwardLinkText": null,
-      "nextPage": "French Revolution"
+      "nextPage": "Jeu de paume"
     }
   ],
-  "payoff": "Kings built indoor tennis courts; in one of them, the Revolution that ended the monarchy took its first step.",
-  "caveats": [
-    "Knot 1: Louis X died of pneumonia or pleurisy, though poisoning was suspected."
-  ]
+  "payoff": "Louis X took tennis indoors; centuries later, deputies locked out by a king swore their oath in such a court, where David's sketch now hangs.",
+  "caveats": []
 }

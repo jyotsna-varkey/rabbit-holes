@@ -1,0 +1,72 @@
+{
+  "id": "pyramid-meta-romuli-indulgence",
+  "claim": "A pope once offered spiritual pardons to anyone who'd help demolish a pyramid.",
+  "start": {
+    "title": "Pyramid",
+    "page": "Pyramid",
+    "description": "Structure shaped as a geometric pyramid",
+    "image": "snapshots/images/Pyramid.webp"
+  },
+  "end": {
+    "title": "Meta Romuli",
+    "page": "Meta Romuli",
+    "description": "Pyramid in ancient Rome",
+    "image": "snapshots/images/Meta-Romuli.webp"
+  },
+  "knots": [
+    {
+      "page": "Pyramid",
+      "url": "https://en.wikipedia.org/wiki/Pyramid",
+      "revision": 1376368760,
+      "section": "Roman Empire",
+      "passage": "The 27-metre-high Pyramid of Cestius was built by the end of the 1st century BC and survives close to the Porta San Paolo. Another, named Meta Romuli, stood in the Ager Vaticanus (today's Borgo), but was destroyed at the end of the 15th century.",
+      "hatnote": "Ancient Rome had pyramids of its own.",
+      "onwardLinkText": "Pyramid of Cestius",
+      "nextPage": "Pyramid of Cestius"
+    },
+    {
+      "page": "Pyramid of Cestius",
+      "url": "https://en.wikipedia.org/wiki/Pyramid_of_Cestius",
+      "revision": 1377471320,
+      "section": "History",
+      "passage": "The origins of the pyramid were forgotten during the Middle Ages. The inhabitants of Rome came to believe that it was the tomb of Remus (Meta Remi) and that its counterpart near the Vatican was the tomb of Romulus, a belief recorded by Petrarch.",
+      "hatnote": "Medieval Romans invented a grand story for them.",
+      "onwardLinkText": null,
+      "nextPage": "Pyramid of Cestius"
+    },
+    {
+      "page": "Pyramid of Cestius",
+      "url": "https://en.wikipedia.org/wiki/Pyramid_of_Cestius",
+      "revision": 1377471320,
+      "section": "History",
+      "passage": "His pyramid was not the only one in Rome; a larger one—the \"pyramid of Romulus\" — of similar form but unknown origins stood between the Vatican and the Mausoleum of Hadrian but was dismantled in the 16th century by Pope Alexander VI and the marble was used for the steps of St. Peter's Basilica.",
+      "hatnote": "The 'tomb of Romulus' was even bigger, and it's gone.",
+      "onwardLinkText": "pyramid of Romulus",
+      "nextPage": "Meta Romuli"
+    },
+    {
+      "page": "Meta Romuli",
+      "url": "https://en.wikipedia.org/wiki/Meta_Romuli",
+      "revision": 1365547779,
+      "section": "History",
+      "passage": "The cella of the pyramid was used for centuries as a granary by the Chapter of Saint Peter, which owned it from the 13th century until its destruction. At the beginning of the 15th century, the pyramid's pinnacle was demolished; on the platform which resulted were garrisoned soldiers of the nearby Castle, who got their supplies thorough a system of ropes hanging to the fortress.",
+      "hatnote": "Before it vanished, it lived some odd second lives.",
+      "onwardLinkText": null,
+      "nextPage": "Meta Romuli"
+    },
+    {
+      "page": "Meta Romuli",
+      "url": "https://en.wikipedia.org/wiki/Meta_Romuli",
+      "revision": 1365547779,
+      "section": "History",
+      "passage": "Despite its importance for the city and for the church, Pope Alexander VI ordered its demolition on 26 November 1498 for the opening of the new Via Alessandrina (later known as Borgo Nuovo), a road which connected the Vatican area with the bridge crossing the Tiber. Due to the difficulty of the undertaking, the pope conceded a plenary indulgence to the men willing to help.",
+      "hatnote": "Then a pope wanted a new road, and it was in the way.",
+      "onwardLinkText": null,
+      "nextPage": "Meta Romuli"
+    }
+  ],
+  "payoff": "Rome's 'tomb of Romulus' was a granary and a soldiers' perch, then a road obstacle so stubborn that its demolition earned a plenary indulgence.",
+  "caveats": [
+    "Pages differ on timing: Pyramid says destroyed at the end of the 15th century, Pyramid of Cestius says 16th; the Meta Romuli article explains demolition began 1498 and remains were still visible in 1519."
+  ]
+}

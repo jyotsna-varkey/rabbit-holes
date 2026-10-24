@@ -1,0 +1,72 @@
+{
+  "id": "lottery-madame-durfe",
+  "claim": "The man who sold France its lottery promised a widow she'd be reborn.",
+  "start": {
+    "title": "Lottery",
+    "page": "Lottery",
+    "description": "Gambling that involves the drawing of numbers at random for a prize",
+    "image": "snapshots/images/Lottery.webp"
+  },
+  "end": {
+    "title": "Jeanne Camus de Pontcarré",
+    "page": "Jeanne Camus de Pontcarré",
+    "description": "French aristocrat and eccentric widow",
+    "image": ""
+  },
+  "knots": [
+    {
+      "page": "Lottery",
+      "url": "https://en.wikipedia.org/wiki/Lottery",
+      "revision": 1375512957,
+      "section": "France, 1539–1836",
+      "passage": "Between 1757 and 1836, for a period of about 80 years with some interruption during the French Revolution, the French state ran a profitable Loterie. The project was born out a series of initiatives to fund the École militaire. Instrumental to the birth of the Loterie were Giacomo Casanova and the Calzabigi brothers (Giovanni and Ranieri).",
+      "hatnote": "Early modern states loved lotteries. France's had an unlikely founding father.",
+      "onwardLinkText": "Giacomo Casanova",
+      "nextPage": "Giacomo Casanova"
+    },
+    {
+      "page": "Giacomo Casanova",
+      "url": "https://en.wikipedia.org/wiki/Giacomo_Casanova",
+      "revision": 1380870980,
+      "section": "Return to Paris",
+      "passage": "Casanova promptly became one of the trustees of the first state lottery, and one of its best ticket salesmen. The enterprise earned him a large fortune quickly. With money in hand, he traveled in high circles and undertook new seductions. He duped many socialites with his occultism, particularly the Marquise Jeanne d'Urfé, using his excellent memory which made him appear to have a sorcerer's power of numerology.",
+      "hatnote": "Yes, that Casanova. And selling tickets was only his day job.",
+      "onwardLinkText": "Jeanne d'Urfé",
+      "nextPage": "Jeanne Camus de Pontcarré"
+    },
+    {
+      "page": "Jeanne Camus de Pontcarré",
+      "url": "https://en.wikipedia.org/wiki/Jeanne_Camus_de_Pontcarr%C3%A9",
+      "revision": 1372229178,
+      "section": "Widowhood",
+      "passage": "In 1757, she lived in Paris on the Quai des Théatins (Quai Voltaire since 1791), next to the Hotel de Bouillon, where she met Casanova. By the middle of that year, Casanova had successfully treated the sciatica of her nephew, Nicolas de la Tour d'Auvergne (1720-?), with a pentagram and a few magic words. Excited by this accomplishment, de la Tour d'Auvergne introduced Casanova to his aunt, the Marquise d'Urfé.",
+      "hatnote": "A magic cure for her nephew opened a rich widow's door.",
+      "onwardLinkText": null,
+      "nextPage": "Jeanne Camus de Pontcarré"
+    },
+    {
+      "page": "Jeanne Camus de Pontcarré",
+      "url": "https://en.wikipedia.org/wiki/Jeanne_Camus_de_Pontcarr%C3%A9",
+      "revision": 1372229178,
+      "section": "Widowhood",
+      "passage": "According to his memoirs, Casanova convinced her that he possessed occult powers, and agreed to help her be reborn in a new body. For this endeavour, Madame d'Urfé (also his occasional lover) went on to finance his travels and research, also giving addresses and letters of recommendation. \"She ended up falling into the hands of another Italian impostor, named Casanova, who had the delicacy to never ask her for money, but only for expensive gemstones in order to form constellations,\" said the Marquise de Créquy.",
+      "hatnote": "She wanted more than a cure for sciatica.",
+      "onwardLinkText": null,
+      "nextPage": "Jeanne Camus de Pontcarré"
+    },
+    {
+      "page": "Jeanne Camus de Pontcarré",
+      "url": "https://en.wikipedia.org/wiki/Jeanne_Camus_de_Pontcarr%C3%A9",
+      "revision": 1372229178,
+      "section": "Widowhood",
+      "passage": "She broke off her relationship with him the same year, when a former accomplice of Casanova denounced his treachery in order to become her new wizard. In his memoirs, Casanova concealed this fact by alleging that Madame d'Urfé died that year.",
+      "hatnote": "By 1763 she wanted her rebirth. Then a rival wizard turned up.",
+      "onwardLinkText": null,
+      "nextPage": "Jeanne Camus de Pontcarré"
+    }
+  ],
+  "payoff": "France's lottery salesman sold a rich widow her own rebirth; when she left him for a new wizard, his memoirs simply killed her off.",
+  "caveats": [
+    "The rebirth scheme and the 'occult powers' come largely from Casanova's own memoirs, as the page notes."
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "ampersand-trithemius",
+  "claim": "Follow the & sign back and you meet a monk who 'raised the dead'.",
+  "start": {
+    "title": "Ampersand",
+    "page": "Ampersand",
+    "description": "Symbol representing the word \"and\" (&)",
+    "image": "snapshots/images/Ampersand.webp"
+  },
+  "end": {
+    "title": "Johannes Trithemius",
+    "page": "Johannes Trithemius",
+    "description": "German Benedictine abbot and polymath (1462–1516)",
+    "image": "snapshots/images/Johannes-Trithemius.webp"
+  },
+  "knots": [
+    {
+      "page": "Ampersand",
+      "url": "https://en.wikipedia.org/wiki/Ampersand",
+      "revision": 1379009586,
+      "section": "Similar characters",
+      "passage": "In the Irish and Scottish Gaelic languages, the character ⁊ (U+204A ⁊ TIRONIAN SIGN ET) is equivalent to the ampersand in English. This character is a survival of Tironian notes, a medieval shorthand system. This character is known as the Tironian Et in English, the agus in Irish, and the agusan in Scottish Gaelic.",
+      "hatnote": "The & has a cousin that is still painted on Irish signs.",
+      "onwardLinkText": "Tironian notes",
+      "nextPage": "Tironian notes"
+    },
+    {
+      "page": "Tironian notes",
+      "url": "https://en.wikipedia.org/wiki/Tironian_notes",
+      "revision": 1372133984,
+      "section": "lead",
+      "passage": "Tironian notes (Latin: notae Tironianae) are a form of thousands of signs that were formerly used in a system of shorthand (Tironian shorthand) dating from the 1st century BCE and named after Tiro, a personal secretary to Marcus Tullius Cicero, who is often credited as their inventor. Tiro's system consisted of about 4,000 signs, extended to 5,000 signs by others. During the medieval period, Tiro's notation system was taught in European monasteries and expanded to a total of about 13,000 signs. The use of Tironian notes lasted into the 17th century. A few Tironian signs are still used today.",
+      "hatnote": "It is the last survivor of shorthand invented for Cicero.",
+      "onwardLinkText": null,
+      "nextPage": "Tironian notes"
+    },
+    {
+      "page": "Tironian notes",
+      "url": "https://en.wikipedia.org/wiki/Tironian_notes",
+      "revision": 1372133984,
+      "section": "Use in the Middle Ages",
+      "passage": "Entering the Middle Ages, Tiro's shorthand was often used in combination with other abbreviations and the original symbols were expanded to 14,000 symbols during the Carolingian dynasty, but it fell out of favor as shorthand and was forgotten until interest was rekindled by Thomas Becket, archbishop of Canterbury, in the 12th century. In the 15th century Johannes Trithemius, abbot of the Benedictine abbey of Sponheim in Germany, discovered the notae Benenses: a psalm and a Ciceronian lexicon written in Tironian shorthand.",
+      "hatnote": "Forgotten for centuries, the code was dug up again by a German abbot.",
+      "onwardLinkText": "Johannes Trithemius",
+      "nextPage": "Johannes Trithemius"
+    },
+    {
+      "page": "Johannes Trithemius",
+      "url": "https://en.wikipedia.org/wiki/Johannes_Trithemius",
+      "revision": 1372021791,
+      "section": "The Faust legend",
+      "passage": "In his 1585 account, Augustin Lercheimer (1522–1603) writes that after Mary's death, Trithemius was summoned to console a devastated Maximilian. Trithemius conjured a shade of Mary, who looked exactly like her when alive. Maximilian also recognized a birthmark on her neck, that only he knew about. He was distraught by the experience though, and ordered Trithemius never to do it again.",
+      "hatnote": "That abbot had a strange reputation: an emperor's necromancer.",
+      "onwardLinkText": null,
+      "nextPage": "Johannes Trithemius"
+    },
+    {
+      "page": "Johannes Trithemius",
+      "url": "https://en.wikipedia.org/wiki/Johannes_Trithemius",
+      "revision": 1372021791,
+      "section": "Steganographia",
+      "passage": "Trithemius' most famous work, Steganographia (written c. 1499; published Frankfurt, 1606), was placed on the Index Librorum Prohibitorum in 1609 and removed in 1900. This book is in three volumes, and appears to be about magic—specifically, about using spirits to communicate over long distances. Since the publication of the decryption key to the first two volumes in 1606, they have been known to be actually concerned with cryptography and steganography. Until the 1990s, the third volume was widely still believed to be solely about magic, but the \"magical\" formulae have now been shown to be covertexts for yet more cryptographic content.",
+      "hatnote": "His banned book of spirit messages hid a secret of its own.",
+      "onwardLinkText": null,
+      "nextPage": "Johannes Trithemius"
+    }
+  ],
+  "payoff": "The man who rescued Cicero's shorthand wrote 'spirit magic' that turned out to be code: fitting for a trail that began with &.",
+  "caveats": [
+    "The conjuring of Mary of Burgundy is a legend recorded decades after Trithemius's death."
+  ]
+}

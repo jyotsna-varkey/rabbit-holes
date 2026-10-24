@@ -1,0 +1,82 @@
+{
+  "id": "light-bulb-heinrich-gobel",
+  "claim": "Edison's rival credited his bulb to a teacher sharing a famous liar's name.",
+  "start": {
+    "title": "Electric light",
+    "page": "Electric light",
+    "description": "Device for producing light from electricity",
+    "image": "snapshots/images/Electric-light.webp"
+  },
+  "end": {
+    "title": "Rudolf Erich Raspe",
+    "page": "Rudolf Erich Raspe",
+    "description": "German author and scientist (1736–1794)",
+    "image": "snapshots/images/Rudolf-Erich-Raspe.webp"
+  },
+  "knots": [
+    {
+      "page": "Electric light",
+      "url": "https://en.wikipedia.org/wiki/Electric_light",
+      "revision": 1377806390,
+      "section": "History",
+      "passage": "In 1840, Warren de la Rue enclosed a platinum coil in a vacuum tube and passed an electric current through it, thus creating one of the world's first electric light bulbs.",
+      "hatnote": "Edison didn't make the first bulb, and nobody agrees who did.",
+      "onwardLinkText": "electric light bulbs",
+      "nextPage": "Incandescent light bulb"
+    },
+    {
+      "page": "Incandescent light bulb",
+      "url": "https://en.wikipedia.org/wiki/Incandescent_light_bulb",
+      "revision": 1376330712,
+      "section": "Carbon filament and vacuum",
+      "passage": "In 1893, Heinrich Göbel claimed he had designed the first incandescent light bulb in 1854, with a thin carbonized bamboo filament of high resistance, platinum lead-in wires in an all-glass envelope, and a high vacuum. Judges of four courts raised doubts about the alleged Göbel anticipation, but there was never a decision in a final hearing due to the expiration of Edison's patent. Research work published in 2007 concluded that the story of the Göbel lamps in the 1850s is fictitious.",
+      "hatnote": "One rival claim arrived suspiciously late, just as lawyers needed it.",
+      "onwardLinkText": "Heinrich Göbel",
+      "nextPage": "Heinrich Göbel"
+    },
+    {
+      "page": "Heinrich Göbel",
+      "url": "https://en.wikipedia.org/wiki/Heinrich_G%C3%B6bel",
+      "revision": 1339544690,
+      "section": "Historical extrajudicial investigations and views on the anticipation claim",
+      "passage": "The journalist A. M. Tanner from London visited Springe, Göbel's native town, and interviewed some people there. In his article published in The Electrical Review in February 1894 he wrote, that nobody had confirmed the alleged work of Göbel related to electricity before leaving Germany. Tanner reported that Göbel's alleged teacher in the field of electricity and electric lamps, Professor Münchhausen, was an unknown person in Springe and Hanover.",
+      "hatnote": "A reporter went to his hometown to check the backstory.",
+      "onwardLinkText": null,
+      "nextPage": "Heinrich Göbel"
+    },
+    {
+      "page": "Heinrich Göbel",
+      "url": "https://en.wikipedia.org/wiki/Heinrich_G%C3%B6bel",
+      "revision": 1339544690,
+      "section": "Investigations in recent years",
+      "passage": "Münchhausen is a rare family name in Germany and Münchhausen is the name of a literary figure in a collection of tales with title The Surprising Adventures of Baron Munchausen of Rudolf Erich Raspe (published 1785) and in another version of Gottfried August Bürger (published 1786), a popular book in Germany; a man telling lies and incredible stories. A thesis on this is, that Henry Goebel, an old man, was under pressure of lawyers to provide affidavits and got pangs of conscience and this was his way to indicate the story was untrue.",
+      "hatnote": "Why would Göbel name a teacher called Münchhausen? Germans would get the joke.",
+      "onwardLinkText": "Rudolf Erich Raspe",
+      "nextPage": "Rudolf Erich Raspe"
+    },
+    {
+      "page": "Rudolf Erich Raspe",
+      "url": "https://en.wikipedia.org/wiki/Rudolf_Erich_Raspe",
+      "revision": 1372782465,
+      "section": "Life and work",
+      "passage": "Raspe then went to Scotland, and in Caithness found a patron in Sir John Sinclair of Ulbster, whose mineralogical proclivities he proceeded to impose upon by pretending to discover valuable and workable veins on his estates. Raspe had \"salted\" the ground himself, and on the verge of exposure, he absconded.",
+      "hatnote": "The man who wrote down Munchausen's lies, Raspe, told some whoppers himself.",
+      "onwardLinkText": null,
+      "nextPage": "Rudolf Erich Raspe"
+    },
+    {
+      "page": "Rudolf Erich Raspe",
+      "url": "https://en.wikipedia.org/wiki/Rudolf_Erich_Raspe",
+      "revision": 1372782465,
+      "section": "Life and work",
+      "passage": "Raspe's dubious mining activities in Scotland provided the model for the character of Herman Dousterswivel, a German mining swindler in Walter Scott's novel The Antiquary (1816), which was set in Scotland in the late 18th century. In a preface to the novel, Scott himself noted that the Dousterswivel character might seem \"forced and improbable\", but wrote: \"... the reader may be assured that this part of the narrative is founded on a fact of actual occurrence.\"",
+      "hatnote": "His con was so good it ended up in a novel.",
+      "onwardLinkText": null,
+      "nextPage": "Rudolf Erich Raspe"
+    }
+  ],
+  "payoff": "Göbel's untraceable mentor shared a name with literature's great liar, whose real author, Raspe, swindled so well that Walter Scott put him in a novel.",
+  "caveats": [
+    "That 'Münchhausen' was Göbel's hint his story was untrue is presented on the page as one thesis, not an established fact."
+  ]
+}

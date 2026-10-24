@@ -38,16 +38,6 @@
       "page": "Jan Baptist van Helmont",
       "url": "https://en.wikipedia.org/wiki/Jan_Baptist_van_Helmont",
       "revision": 1376368236,
-      "section": "Willow tree experiment",
-      "passage": "Helmont grew a willow tree and measured the amount of soil, the weight of the tree and the water he added. After five years the plant had gained about 164 lbs (74 kg). Since the amount of soil was nearly the same as it had been when he started his experiment (it lost only 57 grams), he deduced that the tree's weight gain had come entirely from water.",
-      "hatnote": "He was also a patient, careful experimenter.",
-      "onwardLinkText": null,
-      "nextPage": "Jan Baptist van Helmont"
-    },
-    {
-      "page": "Jan Baptist van Helmont",
-      "url": "https://en.wikipedia.org/wiki/Jan_Baptist_van_Helmont",
-      "revision": 1376368236,
       "section": "Spontaneous generation",
       "passage": "Van Helmont described a recipe for the spontaneous generation of mice (a piece of dirty cloth plus wheat for 21 days) and scorpions (basil, placed between two bricks and left in sunlight). His notes suggest he may have attempted to do these things.",
       "hatnote": "Yet the same man wrote down something much stranger.",
@@ -63,8 +53,18 @@
       "hatnote": "Within a generation, someone tested such ideas properly.",
       "onwardLinkText": null,
       "nextPage": "Spontaneous generation"
+    },
+    {
+      "page": "Spontaneous generation",
+      "url": "https://en.wikipedia.org/wiki/Spontaneous_generation",
+      "revision": 1378985738,
+      "section": "Pasteur and Tyndall",
+      "passage": "Louis Pasteur's experiment's in the late 1850s are widely seen as having settled the question of spontaneous generation. He boiled a meat broth in a swan neck flask; the bend in the neck of the flask prevented falling particles from reaching the broth, while still allowing the free flow of air. The flask remained free of growth for an extended period. When the flask was turned so that particles could fall down the bends, the broth quickly became clouded.",
+      "hatnote": "The idea clung on for nearly two centuries, until a flask with a bent neck.",
+      "onwardLinkText": null,
+      "nextPage": "Spontaneous generation"
     }
   ],
-  "payoff": "The father of 'gas' measured a willow for five years, yet believed dirty cloth and wheat could breed mice; Redi's veiled meat began the fightback.",
+  "payoff": "The man who named gas wrote a recipe for mice; Redi's veiled meat began the fightback and Pasteur's swan-neck flask finished it.",
   "caveats": []
 }

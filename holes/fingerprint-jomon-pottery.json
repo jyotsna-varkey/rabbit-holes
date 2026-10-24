@@ -1,0 +1,72 @@
+{
+  "id": "fingerprint-jomon-pottery",
+  "claim": "Fingerprint forensics began when a doctor spotted prints on ancient Japanese pottery.",
+  "start": {
+    "title": "Fingerprint",
+    "page": "Fingerprint",
+    "description": "Biometric identifier",
+    "image": "snapshots/images/Fingerprint.webp"
+  },
+  "end": {
+    "title": "Jōmon pottery",
+    "page": "Jōmon pottery",
+    "description": "Japanese ancient pottery",
+    "image": "snapshots/images/J-mon-pottery.webp"
+  },
+  "knots": [
+    {
+      "page": "Fingerprint",
+      "url": "https://en.wikipedia.org/wiki/Fingerprint",
+      "revision": 1368560109,
+      "section": "19th century",
+      "passage": "In 1880, Henry Faulds, a Scottish surgeon in a Tokyo hospital, published his first paper on the usefulness of fingerprints for identification and proposed a method to record them with printing ink. Henry Faulds also suggested, based on his studies, that fingerprints are unique to a human. Returning to Great Britain in 1886, he offered the concept to the Metropolitan Police in London but it was dismissed at that time.",
+      "hatnote": "The first paper on fingerprints for identification came from an unexpected place: Tokyo.",
+      "onwardLinkText": "Henry Faulds",
+      "nextPage": "Henry Faulds"
+    },
+    {
+      "page": "Henry Faulds",
+      "url": "https://en.wikipedia.org/wiki/Henry_Faulds",
+      "revision": 1372291603,
+      "section": "Life in Japan",
+      "passage": "Whilst accompanying a friend (American archaeologist, Edward S. Morse) to an archaeological dig he noticed how the delicate impressions left by craftsmen could be discerned in ancient clay fragments. Examining his own fingertips and those of friends, he became convinced that the pattern of ridges was unique to each individual.",
+      "hatnote": "A Scottish missionary doctor, an American friend, and an archaeological dig.",
+      "onwardLinkText": "Edward S. Morse",
+      "nextPage": "Edward S. Morse"
+    },
+    {
+      "page": "Edward S. Morse",
+      "url": "https://en.wikipedia.org/wiki/Edward_S._Morse",
+      "revision": 1371683768,
+      "section": "Japan",
+      "passage": "While looking out of a window on a train between Yokohama and Tokyo, Morse discovered the Ōmori shell mound, the excavation of which opened the study in archaeology and anthropology in Japan and shed much light on the material culture of prehistoric Japan. He returned to Japan in 1882–3 to present a report of his findings to Tokyo Imperial University.",
+      "hatnote": "Morse was a shell expert who had come to Japan looking for sea creatures.",
+      "onwardLinkText": null,
+      "nextPage": "Edward S. Morse"
+    },
+    {
+      "page": "Edward S. Morse",
+      "url": "https://en.wikipedia.org/wiki/Edward_S._Morse",
+      "revision": 1371683768,
+      "section": "Japan",
+      "passage": "Morse had much interest in Japanese ceramics, making a collection of over 5,000 pieces of Japanese pottery. On his 1882-3 visit to Japan he collected clay samples as well as finished ceramics. He devised the term \"cord-marked\" for the sherds of Stone Age pottery, decorated by impressing cords into the wet clay. The Japanese translation, \"Jōmon,\" now gives its name to the whole Jōmon period as well as Jōmon pottery.",
+      "hatnote": "And the clay he dug up came with marks of its own.",
+      "onwardLinkText": "Jōmon pottery",
+      "nextPage": "Jōmon pottery"
+    },
+    {
+      "page": "Jōmon pottery",
+      "url": "https://en.wikipedia.org/wiki/J%C5%8Dmon_pottery",
+      "revision": 1375196528,
+      "section": "lead",
+      "passage": "14000 years ago, hunter-gatherer communities in prehistoric Japan produced some of the earliest known examples of pottery. They formed clay into basic vessels and decorated their surfaces with patterns that resembled woven textiles, giving rise to the term “Jōmon” meaning “cord-patterned.” This early development of pottery is particularly significant because, in many other regions, pottery emerged considerably later, following the transition to settled agricultural societies.",
+      "hatnote": "Those cord-marked pots turned out to be astonishingly old.",
+      "onwardLinkText": null,
+      "nextPage": "Jōmon pottery"
+    }
+  ],
+  "payoff": "The pots that taught Faulds to read fingertip ridges were named for marks pressed into clay, by people who potted before farming.",
+  "caveats": [
+    "Faulds' page says only that he visited Morse's dig and saw 'ancient clay fragments'; it does not name the site. Morse's own famous excavation was the Ōmori shell mound, whose pottery he named 'cord-marked' (Jōmon)."
+  ]
+}

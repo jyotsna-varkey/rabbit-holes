@@ -1,0 +1,60 @@
+{
+  "id": "reading-copy-24",
+  "claim": "America's yellow fever hero kept insisting the credit belonged to a Cuban.",
+  "start": {
+    "title": "Mosquito",
+    "page": "Mosquito",
+    "description": "Family of flies",
+    "image": "snapshots/images/Mosquito.webp"
+  },
+  "end": {
+    "title": "Carlos Finlay",
+    "page": "Carlos Finlay",
+    "description": "Cuban epidemiologist, yellow fever researcher (1833-1914)",
+    "image": "snapshots/images/Carlos-Finlay.webp"
+  },
+  "knots": [
+    {
+      "page": "Mosquito",
+      "url": "https://en.wikipedia.org/wiki/Mosquito",
+      "revision": 1379666382,
+      "section": "Taxonomy",
+      "passage": "There are over 3,700 species of mosquitoes; 112 genera have been described. They are traditionally divided into two subfamilies, the Anophelinae and the Culicinae, which carry different diseases. Roughly speaking, protozoal diseases like malaria are transmitted by anophelines, while viral diseases such as yellow fever and dengue fever are transmitted by culicines.",
+      "hatnote": "Not every mosquito carries the same diseases.",
+      "onwardLinkText": "yellow fever",
+      "nextPage": "Yellow fever"
+    },
+    {
+      "page": "Yellow fever",
+      "url": "https://en.wikipedia.org/wiki/Yellow_fever",
+      "revision": 1380935170,
+      "section": "Causes and transmission",
+      "passage": "Carlos Finlay, a Cuban-Spanish doctor and scientist, proposed in 1881 that yellow fever might be transmitted by previously infected mosquitoes rather than by direct contact from person to person, as had long been believed. Since the losses from yellow fever in the Spanish–American War in the 1890s were extremely high, U.S. Army doctors began research experiments with a team led by Walter Reed, and composed of doctors James Carroll, Aristides Agramonte, and Jesse William Lazear. They successfully proved Finlay's \"mosquito hypothesis\".",
+      "hatnote": "Doctors blamed person-to-person contact. A Cuban doctor suspected the mosquito.",
+      "onwardLinkText": "Walter Reed",
+      "nextPage": "Walter Reed"
+    },
+    {
+      "page": "Walter Reed",
+      "url": "https://en.wikipedia.org/wiki/Walter_Reed",
+      "revision": 1373753598,
+      "section": "U.S. Army Medical Corps",
+      "passage": "Although Reed received much of the credit for \"beating\" yellow fever, Reed himself credited Cuban medical scientist Carlos Finlay with identifying a mosquito as the vector of yellow fever and proposing how the disease might be controlled. Reed often cited Finlay in his own articles and gave him credit for the idea in his personal correspondence. The Cuban physician was a persistent advocate of the hypothesis that mosquitos were the vector of yellow fever and correctly identified the species that transmits the disease. His experiments to prove the hypothesis were discounted by many medical experts, but served as the basis for Reed's research.",
+      "hatnote": "Reed became the famous name. He kept pointing elsewhere.",
+      "onwardLinkText": "Carlos Finlay",
+      "nextPage": "Carlos Finlay"
+    },
+    {
+      "page": "Carlos Finlay",
+      "url": "https://en.wikipedia.org/wiki/Carlos_Finlay",
+      "revision": 1376433675,
+      "section": "Professional career",
+      "passage": "His main interest, however, was yellow fever, and he was the author of 40 articles on this disease. His theory that an intermediary host was responsible for the spread of the disease was treated with ridicule for years. A humane man, he often took on patients who could not afford medical care. As a result of his work, Finlay was nominated seven times for the Nobel Prize in Physiology or Medicine, although he was never awarded the prize.",
+      "hatnote": "So who was the doctor Reed kept crediting?",
+      "onwardLinkText": null,
+      "nextPage": "Carlos Finlay"
+    }
+  ],
+  "payoff": "Finlay was ridiculed for blaming mosquitoes, proved right by Reed's team, credited by Reed himself, and nominated for a Nobel seven times without winning.",
+  "caveats": []
+}

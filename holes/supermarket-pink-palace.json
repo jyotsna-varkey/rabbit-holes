@@ -1,6 +1,6 @@
 {
   "id": "supermarket-pink-palace",
-  "claim": "Why a Memphis museum keeps a 1916 grocery shop inside a pink marble mansion.",
+  "claim": "The man who invented self-service shopping lost his mansion, then foresaw self-checkout.",
   "start": {
     "title": "Supermarket",
     "page": "Supermarket",
@@ -8,10 +8,10 @@
     "image": "snapshots/images/Supermarket.webp"
   },
   "end": {
-    "title": "Pink Palace Museum and Planetarium",
-    "page": "Pink Palace Museum and Planetarium",
-    "description": "Museum in Memphis, Tennessee, US",
-    "image": "snapshots/images/Pink-Palace-Museum-and-Planetarium.webp"
+    "title": "Keedoozle",
+    "page": "Keedoozle",
+    "description": "First automated American grocery store",
+    "image": "snapshots/images/Keedoozle.webp"
   },
   "knots": [
     {
@@ -28,29 +28,9 @@
       "page": "Clarence Saunders",
       "url": "https://en.wikipedia.org/wiki/Clarence_Saunders",
       "revision": 1375748609,
-      "section": "Piggly Wiggly",
-      "passage": "The store incorporated shopping baskets, self-service branded products, and checkouts at the front. Removing unnecessary clerks, creating elaborate aisle displays, and rearranging the store to force customers to view all of the merchandise in a continuous path, were just some of the characteristics of the early Piggly Wiggly stores.",
-      "hatnote": "His first stores already looked a lot like a modern supermarket.",
-      "onwardLinkText": null,
-      "nextPage": "Clarence Saunders"
-    },
-    {
-      "page": "Clarence Saunders",
-      "url": "https://en.wikipedia.org/wiki/Clarence_Saunders",
-      "revision": 1375748609,
-      "section": "Wall Street raid",
-      "passage": "In the early 1920s Saunders began construction of a pink marble mansion in Memphis. Then, in early 1923, a group of franchised outlets in New York failed. Merrill Lynch and other speculators on Wall Street attempted a bear raid on the price of Piggly Wiggly stock, gambling the price would fall. With a loan of $10 million from a number of Southern bankers, plus a bit of his own money, Saunders counteracted by buying a large amount of Piggly Wiggly stock in hopes of driving up the price.",
-      "hatnote": "Rich and flamboyant, Saunders picked a fight with Wall Street.",
-      "onwardLinkText": null,
-      "nextPage": "Clarence Saunders"
-    },
-    {
-      "page": "Clarence Saunders",
-      "url": "https://en.wikipedia.org/wiki/Clarence_Saunders",
-      "revision": 1375748609,
       "section": "Wall Street raid",
       "passage": "Saunders bought Piggly Wiggly stock until he had orders for 196,000 of the 200,000 outstanding shares. The firm's share price went from a low of $39 in late 1922 to $124 by March 20, 1923. Pressured by the 'bears', the New York Stock Exchange declared a 'corner' existed (see cornering the market), and gave the 'bears' five days rather than the usual 24 hours to deliver the stock Saunders had bought. The additional time meant \"a flood of stock poured [in] from distant points and gave the shorts opportunity to deliver.\"",
-      "hatnote": "He almost won. Then the rules changed.",
+      "hatnote": "Wall Street bet his stock would fall, so Saunders tried to buy every share.",
       "onwardLinkText": null,
       "nextPage": "Clarence Saunders"
     },
@@ -70,11 +50,31 @@
       "revision": 1363574867,
       "section": "Exhibits",
       "passage": "The museum contains a variety of exhibits relating to Memphis history. One exhibit features a replica of the original Piggly Wiggly store, the first self-service grocery store, commemorating the invention of the supermarket by Memphian Clarence Saunders in 1916.",
-      "hatnote": "His Pink Palace is now a Memphis museum.",
+      "hatnote": "His pink marble mansion is now a Memphis museum, with a nod to its builder.",
+      "onwardLinkText": "Piggly Wiggly",
+      "nextPage": "Piggly Wiggly"
+    },
+    {
+      "page": "Piggly Wiggly",
+      "url": "https://en.wikipedia.org/wiki/Piggly_Wiggly",
+      "revision": 1380457360,
+      "section": "1920s and 1930s",
+      "passage": "After losing control of Piggly Wiggly, Saunders had no further association with the company. However, he remained interested in automated shopping, with which he experimented initially with the Keedoozle store until he died in 1953.",
+      "hatnote": "Broke and out of his own company, Saunders still wasn't finished.",
+      "onwardLinkText": "Keedoozle",
+      "nextPage": "Keedoozle"
+    },
+    {
+      "page": "Keedoozle",
+      "url": "https://en.wikipedia.org/wiki/Keedoozle",
+      "revision": 1366402000,
+      "section": "Technology",
+      "passage": "The concept instead has evolved into the self checkout shopping environment. Historians say Saunders' concept was fifty years ahead of its time. Some say the concept could likely return. Automation in Marketing said that \"the technology exists, and the mood in America is ripe for this concept.\"",
+      "hatnote": "The Keedoozle was a fully automated grocery store, decades too early.",
       "onwardLinkText": null,
-      "nextPage": "Pink Palace Museum and Planetarium"
+      "nextPage": "Keedoozle"
     }
   ],
-  "payoff": "Saunders lost his marble mansion after taking on Wall Street; today it is a museum, with a replica of his first self-service store inside.",
+  "payoff": "Saunders invented self-service, lost his pink mansion fighting Wall Street, saw it become a museum of his store, and still dreamed up self-checkout.",
   "caveats": []
 }

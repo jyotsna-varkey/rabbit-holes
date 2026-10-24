@@ -1,6 +1,6 @@
 {
   "id": "ballpoint-pen-bic-cristal",
-  "claim": "Why does a ballpoint pen need a hole in its cap—and another in its barrel?",
+  "claim": "Why the world's best-selling pen has a hole in its cap and barrel.",
   "start": {
     "title": "Ballpoint pen",
     "page": "Ballpoint pen",
@@ -29,8 +29,28 @@
       "url": "https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_B%C3%ADr%C3%B3",
       "revision": 1363796003,
       "section": "Invention of the ballpoint pen",
-      "passage": "In 1945, Marcel Bich bought the patent for the pen from Bíró. The resulting designs, including the Bic Cristal, became the main products of his company Société Bic S.A., which has since sold more than 100 billion ballpoint pens worldwide. In November of that same year, promoter Milton Reynolds introduced a gravity-fed pen to the US market, to try to get around Biro's patent, which was based on capillary action, where fresh ink is drawn out of the reservoir of the pen as ink is deposited on the paper. Because the Reynolds workaround depended on a gravity feed, it did not infringe, but required thinner ink and a larger barrel.",
-      "hatnote": "How did the invention become a mass-market pen?",
+      "passage": "In 1930 he observed children playing with marbles in a puddle, noticing that the marbles left a trail of water in their wake. This gave him an idea: Why not use a ball-shaped metal nib for writing, which became the initial design idea for the ball pen.",
+      "hatnote": "Quick-drying ink was half the answer. Children at play supplied the rest.",
+      "onwardLinkText": null,
+      "nextPage": "László Bíró"
+    },
+    {
+      "page": "László Bíró",
+      "url": "https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_B%C3%ADr%C3%B3",
+      "revision": 1363796003,
+      "section": "Invention of the ballpoint pen",
+      "passage": "In 1945, Marcel Bich bought the patent for the pen from Bíró. The resulting designs, including the Bic Cristal, became the main products of his company Société Bic S.A., which has since sold more than 100 billion ballpoint pens worldwide.",
+      "hatnote": "Then a Frenchman bought the idea, and sold it by the billion.",
+      "onwardLinkText": "Marcel Bich",
+      "nextPage": "Marcel Bich"
+    },
+    {
+      "page": "Marcel Bich",
+      "url": "https://en.wikipedia.org/wiki/Marcel_Bich",
+      "revision": 1361650243,
+      "section": "Business success",
+      "passage": "Using Swiss watchmaking tools, he devised a manufacturing process that produced stainless-steel balls for the tip of the pen, and the Bic Cristal ballpoint pen became his first product in 1950. The Bic Cristal ballpoint pen went on to become a worldwide best-seller.",
+      "hatnote": "A pen built on a tiny ball needed perfect balls, so he borrowed watchmakers' tools.",
       "onwardLinkText": "Bic Cristal",
       "nextPage": "Bic Cristal"
     },
@@ -55,7 +75,7 @@
       "nextPage": "Bic Cristal"
     }
   ],
-  "payoff": "Bíró's smudge-free pen became the Bic Cristal, whose two holes balance the air pressure and let you breathe if you swallow the cap.",
+  "payoff": "From marbles in a puddle to watchmakers' tools, the world's best-selling pen ends in two tiny holes: one for air, one for safety.",
   "caveats": [
     "From Rabbit Hole Studio (GPT), rh-085, rank 79; hook is GPT's, hatnotes/payoff drafted by Claude.",
     "GPT's second Ballpoint pen paragraph was dropped (the onward link sits in the first); its 270-word Bic Cristal passage was three paragraphs, now cut to two single-paragraph knots."

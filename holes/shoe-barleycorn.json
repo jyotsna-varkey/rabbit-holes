@@ -1,0 +1,70 @@
+{
+  "id": "shoe-barleycorn",
+  "claim": "Your shoe size is still counted in grains of barley.",
+  "start": {
+    "title": "Shoe",
+    "page": "Shoe",
+    "description": "Footwear",
+    "image": "snapshots/images/Shoe.webp"
+  },
+  "end": {
+    "title": "Barleycorn (unit)",
+    "page": "Barleycorn (unit)",
+    "description": "Historic unit of length, basis of shoe sizes",
+    "image": "snapshots/images/Barleycorn-unit.webp"
+  },
+  "knots": [
+    {
+      "page": "Shoe",
+      "url": "https://en.wikipedia.org/wiki/Shoe",
+      "revision": 1378212813,
+      "section": "Measures and sizes",
+      "passage": "Shoe sizes are indicated by a numerical value representing the length of the shoe, with different systems used globally. European sizes are measured in Paris Points, while the UK and American units are based on whole-number sizes spaced at one barleycorn (1/3 inch) with UK adult sizes starting at size 1 = 8+2⁄3 in (22.0 cm). In the US, this is size 2. Men's and women's shoe sizes often use different scales, and some systems are measured using a Brannock Device which considers the width and length size values of the feet.",
+      "hatnote": "Shoe sizes go up in strangely specific steps.",
+      "onwardLinkText": "Brannock Device",
+      "nextPage": "Brannock Device"
+    },
+    {
+      "page": "Brannock Device",
+      "url": "https://en.wikipedia.org/wiki/Brannock_Device",
+      "revision": 1356918829,
+      "section": "lead",
+      "passage": "The Brannock Device is a measuring instrument invented by Charles F. Brannock for measuring a person's shoe size. Brannock spent two years developing a simple means of measuring the length, width, and arch length of the human foot. He eventually improved on the wooden RITZ Stick, the industry standard of the day, patenting his first prototype in 1925 and an improved version in 1927.",
+      "hatnote": "That metal foot-plate in the shoe shop has an inventor.",
+      "onwardLinkText": "shoe size",
+      "nextPage": "Shoe size"
+    },
+    {
+      "page": "Shoe size",
+      "url": "https://en.wikipedia.org/wiki/Shoe_size",
+      "revision": 1379055916,
+      "section": "United Kingdom",
+      "passage": "Shoe size in the United Kingdom, Ireland, India, Pakistan and South Africa is based on the length of the last used to make the shoes, measured in barleycorns (1⁄3 inch) starting from the smallest size deemed practical, which is called size zero. It is not formally standardised.",
+      "hatnote": "But what it measures is older than any machine.",
+      "onwardLinkText": "barleycorns",
+      "nextPage": "Barleycorn (unit)"
+    },
+    {
+      "page": "Barleycorn (unit)",
+      "url": "https://en.wikipedia.org/wiki/Barleycorn_(unit)",
+      "revision": 1350753661,
+      "section": "History",
+      "passage": "Under the 1300 Composition of Yards and Perches, one of the statutes of uncertain date that was notionally in force until the 1824 Weights and Measures Act, \"3 barly cornes dry and rounde\" were to serve as the basis for the inch and thence the larger units of feet, yards, perches and thus of the acre, an important unit of area. The notion of three barleycorns composing an inch certainly predates this statute, however, appearing in the 10th-century Welsh Laws of Hywel Dda.",
+      "hatnote": "A barleycorn really was a grain of barley, and it built a whole system.",
+      "onwardLinkText": null,
+      "nextPage": "Barleycorn (unit)"
+    },
+    {
+      "page": "Barleycorn (unit)",
+      "url": "https://en.wikipedia.org/wiki/Barleycorn_(unit)",
+      "revision": 1350753661,
+      "section": "History",
+      "passage": "As modern studies show, the actual length of a kernel of barley varies from as short as 0.16–0.28 in (4–7 mm) to as long as 0.47–0.59 in (12–15 mm) depending on the cultivar.",
+      "hatnote": "There was just one problem with grain as a standard.",
+      "onwardLinkText": null,
+      "nextPage": "Barleycorn (unit)"
+    }
+  ],
+  "payoff": "Each shoe size is one barleycorn, the grain that once defined the inch, yard and acre, though real grains vary threefold.",
+  "caveats": []
+}

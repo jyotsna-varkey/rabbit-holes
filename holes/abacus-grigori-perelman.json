@@ -1,0 +1,60 @@
+{
+  "id": "abacus-grigori-perelman",
+  "claim": "A science puzzle book inspired the mathematician who turned down a million dollars.",
+  "start": {
+    "title": "Abacus",
+    "page": "Abacus",
+    "description": "Calculating tool",
+    "image": "snapshots/images/Abacus.webp"
+  },
+  "end": {
+    "title": "Grigori Perelman",
+    "page": "Grigori Perelman",
+    "description": "Russian mathematician (born 1966)",
+    "image": "snapshots/images/Grigori-Perelman.webp"
+  },
+  "knots": [
+    {
+      "page": "Abacus",
+      "url": "https://en.wikipedia.org/wiki/Abacus",
+      "revision": 1380168627,
+      "section": "Russia",
+      "passage": "The Russian abacus was in use in shops and markets throughout the former Soviet Union, and its usage was taught in most schools until the 1990s. Even the 1874 invention of mechanical calculator, Odhner arithmometer, had not replaced them in Russia. According to Yakov Perelman, some businessmen attempting to import calculators into the Russian Empire were known to leave in despair after watching a skilled abacus operator. Likewise, the mass production of Felix arithmometers since 1924 did not significantly reduce abacus use in the Soviet Union. The Russian abacus began to lose popularity only after the mass production of domestic microcalculators in 1974.",
+      "hatnote": "In Russia, the beads beat the machines for a century.",
+      "onwardLinkText": "Yakov Perelman",
+      "nextPage": "Yakov Perelman"
+    },
+    {
+      "page": "Yakov Perelman",
+      "url": "https://en.wikipedia.org/wiki/Yakov_Perelman",
+      "revision": 1380978022,
+      "section": "Physics for Entertainment",
+      "passage": "Among the book's notable topics was the idea of a perpetual machine: a hypothetical machine which could run incessantly performing useful work. The author discusses perpetual motion, highlighting many attempts to build such a machine, and explains why they failed. Other topics included how to jump from a moving car, and why, “according to the law of buoyancy, we would never drown in the Dead Sea.”",
+      "hatnote": "The source of that story wrote science as puzzles, in Physics for Entertainment.",
+      "onwardLinkText": null,
+      "nextPage": "Yakov Perelman"
+    },
+    {
+      "page": "Yakov Perelman",
+      "url": "https://en.wikipedia.org/wiki/Yakov_Perelman",
+      "revision": 1380978022,
+      "section": "Life and work",
+      "passage": "His older brother Yosif was a writer who published under the pseudonym Osip Dymov. He is not related to the Russian mathematician Grigori Perelman, who was born in 1966 to a different Yakov Perelman. However, Grigori Perelman told The New Yorker that his father gave him Physics for Entertainment, and it inspired his interest in mathematics.",
+      "hatnote": "His book reached a boy with the very same surname.",
+      "onwardLinkText": "Grigori Perelman",
+      "nextPage": "Grigori Perelman"
+    },
+    {
+      "page": "Grigori Perelman",
+      "url": "https://en.wikipedia.org/wiki/Grigori_Perelman",
+      "revision": 1380977562,
+      "section": "lead",
+      "passage": "On 18 March 2010, it was announced that he had met the criteria to receive the first Clay Millennium Prize for resolution of the Poincaré conjecture. On 1 July 2010, he rejected the prize of one million dollars, saying that he considered the decision of the board of the Clay Institute to be unfair, in that his contribution to solving the Poincaré conjecture was no greater than that of Richard S. Hamilton, the mathematician who pioneered the Ricci flow partly with the aim of attacking the conjecture.",
+      "hatnote": "That boy grew up to solve one of maths' great open problems.",
+      "onwardLinkText": null,
+      "nextPage": "Grigori Perelman"
+    }
+  ],
+  "payoff": "The writer who told of abacus wizards beating calculators also wrote the puzzle book that set Grigori Perelman on the road to Poincaré.",
+  "caveats": []
+}

@@ -8,10 +8,10 @@
     "image": ""
   },
   "end": {
-    "title": "Karlgeorg Hoefer",
-    "page": "Karlgeorg Hoefer",
-    "description": "German calligrapher and typographer",
-    "image": ""
+    "title": "Automatic number-plate recognition",
+    "page": "Automatic number-plate recognition",
+    "description": "Optical character recognition technology",
+    "image": "snapshots/images/Automatic-number-plate-recognition.webp"
   },
   "knots": [
     {
@@ -19,18 +19,8 @@
       "url": "https://en.wikipedia.org/wiki/0",
       "revision": 1380088650,
       "section": "Symbols and representations",
-      "passage": "Today, the numerical digit 0 is usually written as a circle or ellipse. Traditionally, many print typefaces made the capital letter O more rounded than the narrower, elliptical digit 0. Typewriters originally made no distinction in shape between O and 0; some models did not even have a separate key for the digit 0. The distinction came into prominence on modern character displays.",
-      "hatnote": "Zero and the letter O look almost alike, and that has always caused trouble.",
-      "onwardLinkText": null,
-      "nextPage": "0"
-    },
-    {
-      "page": "0",
-      "url": "https://en.wikipedia.org/wiki/0",
-      "revision": 1380088650,
-      "section": "Symbols and representations",
       "passage": "Some fonts designed for use with computers made the \"0\" character more squared at the edges, like a rectangle, and the \"O\" character more rounded. A further distinction is made in falsification-hindering typeface as used on German car number plates by slitting open the digit 0 on the upper right side. In some systems either the letter O or the numeral 0, or both, are excluded from use, to avoid confusion.",
-      "hatnote": "Each field found its own fix. German number plates chose the oddest.",
+      "hatnote": "Zero and capital O look nearly alike, so every field found its own fix.",
       "onwardLinkText": "falsification-hindering typeface",
       "nextPage": "FE-Schrift"
     },
@@ -51,21 +41,31 @@
       "section": "Development",
       "passage": "The original design for the FE-Schrift typeface was created by Karlgeorg Hoefer who was working for the Bundesanstalt für Straßenwesen (Federal Highway Institute of Germany) at the time. The typeface was slightly modified according to the results of tests that lasted from 1978 to 1980 at the University of Giessen (Department of Physiology and Cybernetic Psychology). For example, the initial slashed zero ( ∅ {\\displaystyle \\emptyset } ) could be mistaken for an 8, so Hoefer replaced it by a design with a reduced white slash in the upper right corner.",
       "hatnote": "The new font's own first zero had a flaw, so it got a nick.",
-      "onwardLinkText": "Karlgeorg Hoefer",
-      "nextPage": "Karlgeorg Hoefer"
+      "onwardLinkText": null,
+      "nextPage": "FE-Schrift"
     },
     {
-      "page": "Karlgeorg Hoefer",
-      "url": "https://en.wikipedia.org/wiki/Karlgeorg_Hoefer",
-      "revision": 1339710666,
-      "section": "lead",
-      "passage": "Today, his most commonly seen font is the FE-Schrift, the standard font for German number plates.",
-      "hatnote": "The man behind that nick was a calligrapher.",
+      "page": "FE-Schrift",
+      "url": "https://en.wikipedia.org/wiki/FE-Schrift",
+      "revision": 1357716247,
+      "section": "Adoption process",
+      "passage": "With the fall of the Iron Curtain there was again a spike in the theft rate of license plates, including cars being stolen and moved to Eastern Europe. Again there was a motivation to prevent that with new regulations on license plates. In the new process the officials found the FE-Schrift which was fully developed and a perfect match for the automatic number-plate recognition technology that had developed to a usable state at the time.",
+      "hatnote": "Finished in 1980, the font waited a decade for its moment.",
+      "onwardLinkText": "automatic number-plate recognition",
+      "nextPage": "Automatic number-plate recognition"
+    },
+    {
+      "page": "Automatic number-plate recognition",
+      "url": "https://en.wikipedia.org/wiki/Automatic_number-plate_recognition",
+      "revision": 1381362515,
+      "section": "Technology",
+      "passage": "ANPR uses optical character recognition (OCR) on images taken by cameras. When Dutch vehicle registration plates switched to a different style in 2002, one of the changes made was to the font, introducing small gaps in some letters (such as P and R) to make them more distinct and therefore more legible to such systems.",
+      "hatnote": "Built to beat tape, the font now had to please cameras too.",
       "onwardLinkText": null,
-      "nextPage": "Karlgeorg Hoefer"
+      "nextPage": "Automatic number-plate recognition"
     }
   ],
-  "payoff": "The nick stops a slashed zero being read as an 8, and a calligrapher's tape-proof font put it on every German plate.",
+  "payoff": "The nick stops a slashed zero reading as an 8; a font built to beat tape forgers turned out perfect for plate-reading cameras.",
   "caveats": [
     "The '()' in the FE-Schrift passage is where Wikipedia shows an inline image of a slashed zero."
   ]

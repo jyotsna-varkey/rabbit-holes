@@ -1,0 +1,82 @@
+{
+  "id": "wheelbarrow-simon-stevin",
+  "claim": "Chinese wheelbarrows once ran under sail, and Europe was dazzled.",
+  "start": {
+    "title": "Wheelbarrow",
+    "page": "Wheelbarrow",
+    "description": "Small hand-propelled vehicle",
+    "image": "snapshots/images/Wheelbarrow.webp"
+  },
+  "end": {
+    "title": "Land sailing",
+    "page": "Land sailing",
+    "description": "Wind-powered ground transportation",
+    "image": "snapshots/images/Land-sailing.webp"
+  },
+  "knots": [
+    {
+      "page": "Wheelbarrow",
+      "url": "https://en.wikipedia.org/wiki/Wheelbarrow",
+      "revision": 1357904673,
+      "section": "Chinese sailing carriage",
+      "passage": "But judge by my surprise when today I saw a whole fleet of wheelbarrows of the same size. I say, with deliberation, a fleet, for each of them had a sail, mounted on a small mast exactly fixed in a socket arranged at the forward end of the barrow. The sail, made of matting, or more often of cloth, is five or six feet (152 or 183 cm) high, and three or four feet (91 or 122 cm) broad, with stays, sheets, and halyards, just as on a Chinese ship.",
+      "hatnote": "A Dutch traveller in China, 1797, meets some unusual traffic.",
+      "onwardLinkText": null,
+      "nextPage": "Wheelbarrow"
+    },
+    {
+      "page": "Wheelbarrow",
+      "url": "https://en.wikipedia.org/wiki/Wheelbarrow",
+      "revision": 1357904673,
+      "section": "Chinese sailing carriage",
+      "passage": "Although there are records of Chinese sailing carriages from the 6th century these land sailing vehicles were not wheelbarrows, and the date of which the sail assisted wheelbarrow was invented is uncertain.",
+      "hatnote": "Sails on land were nothing new in China.",
+      "onwardLinkText": "sailing carriages",
+      "nextPage": "Land sailing"
+    },
+    {
+      "page": "Land sailing",
+      "url": "https://en.wikipedia.org/wiki/Land_sailing",
+      "revision": 1377402403,
+      "section": "Sailing carriage",
+      "passage": "European travelers from the 16th century onwards mentioned sailing carriages with surprise. In 1585, during the Chinese Ming Dynasty, Gonzales de Mendoza wrote that the Chinese had many coaches and wagons mounted with sails, and even depicted them in artwork of silk hanfu robes and on earthenware vessels. In the 1584 atlas Theatrum Orbis Terrarum written by the cartographer Abraham Ortelius (1527–1598), there are large Chinese carriages depicted with sails and masts.",
+      "hatnote": "Europeans had been hearing about them for two centuries.",
+      "onwardLinkText": null,
+      "nextPage": "Land sailing"
+    },
+    {
+      "page": "Land sailing",
+      "url": "https://en.wikipedia.org/wiki/Land_sailing",
+      "revision": 1377402403,
+      "section": "Early yachts",
+      "passage": "The precursor to the modern land yacht was invented in the summer of the year 1600 by the Flemish scientist Simon Stevin in Flanders as a commission for Prince Maurice of Orange. It was used by Prince Maurice for entertaining his guests.",
+      "hatnote": "Then a European built one.",
+      "onwardLinkText": "Simon Stevin",
+      "nextPage": "Simon Stevin"
+    },
+    {
+      "page": "Simon Stevin",
+      "url": "https://en.wikipedia.org/wiki/Simon_Stevin",
+      "revision": 1371407601,
+      "section": "Discoveries and inventions",
+      "passage": "His contemporaries were most struck by his invention of a so-called land yacht, a carriage with sails, of which a model was preserved in Scheveningen until 1802. The carriage itself had been lost long before. Around the year 1600 Stevin, with Prince Maurice of Orange and twenty-six others, used the carriage on the beach between Scheveningen and Petten. The carriage was propelled solely by the force of wind and acquired a speed which exceeded that of horses.",
+      "hatnote": "A mathematician's party trick outran the fastest thing on four legs.",
+      "onwardLinkText": "land yacht",
+      "nextPage": "Land sailing"
+    },
+    {
+      "page": "Land sailing",
+      "url": "https://en.wikipedia.org/wiki/Land_sailing",
+      "revision": 1377402403,
+      "section": "Speed record",
+      "passage": "The world land speed record for a wind-powered vehicle was broken on 11 December 2022 by Emirates Team New Zealand with Australian Pilot Glenn Ashby with a speed of 222.43 km/h (138.21 mph).",
+      "hatnote": "Stevin's horse-beating carriage has some fast descendants.",
+      "onwardLinkText": null,
+      "nextPage": "Land sailing"
+    }
+  ],
+  "payoff": "China put sails on carriages and wheelbarrows; Stevin's copy beat horses on a Dutch beach, and today's land yachts top 222 km/h.",
+  "caveats": [
+    "The pages do not say Stevin was directly inspired by Chinese sailing carriages; the hole presents them side by side."
+  ]
+}

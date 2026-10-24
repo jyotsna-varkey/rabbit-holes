@@ -1,0 +1,70 @@
+{
+  "id": "fever-agostino-bassi",
+  "claim": "Grasshoppers run fevers to fight the fungus that first proved germs cause disease.",
+  "start": {
+    "title": "Fever",
+    "page": "Fever",
+    "description": "Raised body temperature caused by disease",
+    "image": "snapshots/images/Fever.webp"
+  },
+  "end": {
+    "title": "Agostino Bassi",
+    "page": "Agostino Bassi",
+    "description": "Italian entomologist (1773-1856)",
+    "image": "snapshots/images/Agostino-Bassi.webp"
+  },
+  "knots": [
+    {
+      "page": "Fever",
+      "url": "https://en.wikipedia.org/wiki/Fever",
+      "revision": 1379108781,
+      "section": "Other animals",
+      "passage": "Fever can also be behaviorally induced by invertebrates that do not have immune-system based fever. For instance, some species of grasshopper will thermoregulate to achieve body temperatures that are 2–5 °C higher than normal to inhibit the growth of fungal pathogens such as Beauveria bassiana and Metarhizium acridum. Honeybee colonies are also able to induce a fever in response to a fungal parasite Ascosphaera apis.",
+      "hatnote": "Fever isn't only a mammal thing. Insects without our immune system fake one.",
+      "onwardLinkText": "Beauveria bassiana",
+      "nextPage": "Beauveria bassiana"
+    },
+    {
+      "page": "Beauveria bassiana",
+      "url": "https://en.wikipedia.org/wiki/Beauveria_bassiana",
+      "revision": 1354677661,
+      "section": "Ecology",
+      "passage": "The insect disease caused by the fungus is a muscardine, which has been called white muscardine disease. When the microscopic spores of the fungus come into contact with the body of an insect host, they germinate, penetrate the cuticle, and grow inside, killing the insect within a matter of days. Afterwards, a white mold emerges from the cadaver and produces new spores.",
+      "hatnote": "What the grasshoppers are running from is a grisly killer.",
+      "onwardLinkText": null,
+      "nextPage": "Beauveria bassiana"
+    },
+    {
+      "page": "Beauveria bassiana",
+      "url": "https://en.wikipedia.org/wiki/Beauveria_bassiana",
+      "revision": 1354677661,
+      "section": "Taxonomy",
+      "passage": "The species is named after Italian entomologist Agostino Bassi, who discovered it in 1835 in silkworms (Bombyx mori). Bassi performed the first infection experiments, and determined the fungus to be the cause of the muscardine disease, which then led to carriers transmitting it by airborne means. Later the same year, the fungus was named Botrytis bassiana by Giuseppe Gabriel Balsamo-Crivelli. The species epithet honours Bassi, the discoverer.",
+      "hatnote": "Its name hides a story about silk.",
+      "onwardLinkText": "Agostino Bassi",
+      "nextPage": "Agostino Bassi"
+    },
+    {
+      "page": "Agostino Bassi",
+      "url": "https://en.wikipedia.org/wiki/Agostino_Bassi",
+      "revision": 1371961871,
+      "section": "Career",
+      "passage": "His studies of 1807 concerned mal de segno (also known as muscardine, after a French candy), a lethal disease of domestic silkworms (Bombyx mori). Infected caterpillars are covered with a fine white powder and die. This disease initially appeared in Italy around 1805; then in France by 1841. After 1849, the silk farms were almost all abandoned because of this devastating disease. Giacomo Maria Foscarini had proved that muscardine was contagious. The research to find the cause of the disease took Bassi 25 years.",
+      "hatnote": "Bassi spent a quarter-century on a disease that was wiping out silk farms.",
+      "onwardLinkText": null,
+      "nextPage": "Agostino Bassi"
+    },
+    {
+      "page": "Agostino Bassi",
+      "url": "https://en.wikipedia.org/wiki/Agostino_Bassi",
+      "revision": 1371961871,
+      "section": "Career",
+      "passage": "From this work, he expanded on a theory explaining that many diseases of plants, animals and human beings were caused by pathogenic organisms. He thus preceded the work of Louis Pasteur and Robert Koch. He was also the author of work on the culture of potatoes, on cheese, wine making, leprosy and cholera. His work greatly influenced Louis Pasteur (1822–1895). Pasteur had the portraits of both Spallanzani and Bassi in his office.",
+      "hatnote": "A dead caterpillar's white dust pointed to something much bigger.",
+      "onwardLinkText": null,
+      "nextPage": "Agostino Bassi"
+    }
+  ],
+  "payoff": "The fungus grasshoppers burn off with a fever is the one that showed Bassi, before Pasteur, that living germs cause disease.",
+  "caveats": []
+}

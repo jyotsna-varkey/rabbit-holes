@@ -63,10 +63,20 @@
       "hatnote": "The first big message down the sap-wrapped cable came from Queen Victoria herself.",
       "onwardLinkText": null,
       "nextPage": "Transatlantic telegraph cable"
+    },
+    {
+      "page": "Transatlantic telegraph cable",
+      "url": "https://en.wikipedia.org/wiki/Transatlantic_telegraph_cable",
+      "revision": 1379924695,
+      "section": "Cable is damaged and Whitehouse dismissed",
+      "passage": "In September 1858, after several days of progressive deterioration of the insulation, the cable failed altogether. The reaction to the news was tremendous. Some writers even hinted that the line was a mere hoax; others pronounced it a stock-exchange speculation.",
+      "hatnote": "Three weeks after the party, the line went quiet.",
+      "onwardLinkText": null,
+      "nextPage": "Transatlantic telegraph cable"
     }
   ],
-  "payoff": "Ten years after the guttie, the same Malaysian sap carried the Queen's words under the Atlantic: slowly, but New York partied anyway.",
+  "payoff": "Ten years after the guttie, the same Malaysian sap carried the Queen's words under the Atlantic; New York partied, then the cable died.",
   "caveats": [
-    "The 1858 cable failed within weeks; a lasting connection came in 1866."
+    "A lasting transatlantic connection came only in 1866."
   ]
 }

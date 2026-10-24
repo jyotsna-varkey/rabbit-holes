@@ -1,0 +1,80 @@
+{
+  "id": "comet-whiston-longitude",
+  "claim": "The longitude prize was pushed through by a man who predicted doomsday.",
+  "start": {
+    "title": "Comet",
+    "page": "Comet",
+    "description": "Natural object in space that releases gas",
+    "image": "snapshots/images/Comet.webp"
+  },
+  "end": {
+    "title": "John Harrison",
+    "page": "John Harrison",
+    "description": "English clockmaker (1693–1776)",
+    "image": "snapshots/images/John-Harrison.webp"
+  },
+  "knots": [
+    {
+      "page": "Comet",
+      "url": "https://en.wikipedia.org/wiki/Comet",
+      "revision": 1380541014,
+      "section": "Fear of comets",
+      "passage": "By 1700 most scholars concluded that such events occurred whether a comet was seen or not. Using Edmond Halley's records of comet sightings, however, William Whiston in 1711 wrote that the Great Comet of 1680 had a periodicity of 574 years and was responsible for the worldwide flood in the Book of Genesis, by pouring water on Earth. His announcement revived for another century fear of comets, now as direct threats to the world instead of signs of disasters.",
+      "hatnote": "Comets were long blamed for disasters, but by 1700 scholars were losing faith.",
+      "onwardLinkText": "William Whiston",
+      "nextPage": "William Whiston"
+    },
+    {
+      "page": "William Whiston",
+      "url": "https://en.wikipedia.org/wiki/William_Whiston",
+      "revision": 1379607950,
+      "section": "Broader natural philosophy",
+      "passage": "In 1736, he caused widespread anxiety among London's citizens when he predicted the world would end on 16 October that year because a comet would hit the earth. William Wake as Archbishop of Canterbury officially denied this prediction to calm the public.",
+      "hatnote": "He didn't stop at explaining the past.",
+      "onwardLinkText": null,
+      "nextPage": "William Whiston"
+    },
+    {
+      "page": "William Whiston",
+      "url": "https://en.wikipedia.org/wiki/William_Whiston",
+      "revision": 1379607950,
+      "section": "Longitude",
+      "passage": "In 1714, he was instrumental in the passing of the Longitude Act, which established the Board of Longitude. In collaboration with Humphrey Ditton he published A New Method for Discovering the Longitude, both at Sea and Land, which was widely referenced and discussed. For the next forty years he continued to propose a range of methods to solve the longitude reward, which earned him widespread ridicule, particularly from the group of writers known as the Scriblerians.",
+      "hatnote": "Yet his most lasting legacy came from the sea, not the sky.",
+      "onwardLinkText": "Longitude Act",
+      "nextPage": "Longitude Act"
+    },
+    {
+      "page": "Longitude Act",
+      "url": "https://en.wikipedia.org/wiki/Longitude_Act",
+      "revision": 1380927979,
+      "section": "Background",
+      "passage": "While determining latitude was relatively easy, early ocean navigators had to rely on dead reckoning to find longitude. This was particularly inaccurate on long voyages without sight of land and could sometimes lead to tragedy, as during the Scilly naval disaster of 1707, which claimed the lives of nearly 2,000 sailors. This brought the problem of measuring longitude at sea into sharp focus once more. Following the Merchants and Seamen Petition, which called for finding an adequate solution and was presented to Parliament in May 1714, the Longitude Act was passed in July 1714.",
+      "hatnote": "Ships were being wrecked for want of one number.",
+      "onwardLinkText": null,
+      "nextPage": "Longitude Act"
+    },
+    {
+      "page": "Longitude Act",
+      "url": "https://en.wikipedia.org/wiki/Longitude_Act",
+      "revision": 1380927979,
+      "section": "The rewards",
+      "passage": "Many rewards were paid out over the 114 years of the Board of Longitude's existence. John Harrison received more money than any other individual, with several rewards from the 1730s–1750s, and £10,000 in 1765.",
+      "hatnote": "The prize outlived everyone involved in starting it.",
+      "onwardLinkText": "John Harrison",
+      "nextPage": "John Harrison"
+    },
+    {
+      "page": "John Harrison",
+      "url": "https://en.wikipedia.org/wiki/John_Harrison",
+      "revision": 1379697337,
+      "section": "H4",
+      "passage": "By the early 19th century, navigation at sea without one was considered unwise to unthinkable. Using a chronometer to aid navigation simply saved lives and ships – the insurance industry, self-interest, and common sense did the rest in making the device a universal tool of maritime trade.",
+      "hatnote": "Harrison's answer was a sea clock, and it changed sailing for good.",
+      "onwardLinkText": null,
+      "nextPage": "John Harrison"
+    }
+  ],
+  "payoff": "Whiston's doomsday comet never came, but the prize he pushed for paid out most to Harrison, whose sea clocks made voyages far safer.",
+  "caveats": []
+}

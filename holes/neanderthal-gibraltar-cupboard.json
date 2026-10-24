@@ -1,0 +1,72 @@
+{
+  "id": "neanderthal-gibraltar-cupboard",
+  "claim": "Why aren't Neanderthals named after Gibraltar?",
+  "start": {
+    "title": "Neanderthal",
+    "page": "Neanderthal",
+    "description": "Extinct species of human",
+    "image": ""
+  },
+  "end": {
+    "title": "Neanderthals in Gibraltar",
+    "page": "Neanderthals in Gibraltar",
+    "description": "",
+    "image": "snapshots/images/Neanderthals-in-Gibraltar.webp"
+  },
+  "knots": [
+    {
+      "page": "Neanderthal",
+      "url": "https://en.wikipedia.org/wiki/Neanderthal",
+      "revision": 1380988308,
+      "section": "Discovery",
+      "passage": "A number of fossilized Neanderthal remains were discovered prior to the modern understanding of their taxonomy. The earliest known—Engis 2 (a skull)—was discovered in 1829 by the Belgian prehistorian Philippe-Charles Schmerling–often considered the founder of paleontology–in the Grottes d'Engis, Belgium. Schmerling described the remains as morphologically human but \"poorly developed\". In 1848, Gibraltar 1 from Forbes' Quarry was presented to the Gibraltar Scientific Society by then-Secretary Lieutenant Edmund Henry Réné Flint, but was classified as a modern human.",
+      "hatnote": "The Neander Valley skull of 1856 wasn't actually the first.",
+      "onwardLinkText": "Gibraltar 1",
+      "nextPage": "Gibraltar 1"
+    },
+    {
+      "page": "Gibraltar 1",
+      "url": "https://en.wikipedia.org/wiki/Gibraltar_1",
+      "revision": 1379232872,
+      "section": "In 19th century science",
+      "passage": "Found more than ten years before the publication of Charles Darwin's Origin of Species and eight years prior to the famous discovery in the Neander Valley, the significance of the find was not understood at the time, and the skull was simply labelled as \"an ancient human, died before the universal flood\" and remained forgotten inside a cupboard at the Garrison Library for many years.",
+      "hatnote": "Nobody realised what had been found on the Rock.",
+      "onwardLinkText": null,
+      "nextPage": "Gibraltar 1"
+    },
+    {
+      "page": "Gibraltar 1",
+      "url": "https://en.wikipedia.org/wiki/Gibraltar_1",
+      "revision": 1379232872,
+      "section": "Gibraltar as a refuge",
+      "passage": "Until the late twentieth century, it was believed that the last Neanderthals disappeared about 35,000 years ago. However, studies have suggested that Neanderthals survived in southern Iberia and Gibraltar to less than 30,000 years before the present. Radiocarbon dating performed on charcoal in Gorham's Cave in Gibraltar in 2006 suggests that Neanderthals lived there 24,000 to 28,000 years ago, well after the arrival of Homo sapiens in Europe 40,000 years ago. Vanguard Cave and Gorham's Cave are still the sites of active archaeological excavation in 2012. These caves may have represented the refugium of Gibraltar's Neanderthals.",
+      "hatnote": "Gibraltar turned out to matter for Neanderthals in another way.",
+      "onwardLinkText": "Gibraltar's Neanderthals",
+      "nextPage": "Neanderthals in Gibraltar"
+    },
+    {
+      "page": "Neanderthals in Gibraltar",
+      "url": "https://en.wikipedia.org/wiki/Neanderthals_in_Gibraltar",
+      "revision": 1315884619,
+      "section": "lead",
+      "passage": "The skull of a Neanderthal woman, discovered in a quarry in 1848, was only the second Neanderthal skull ever found and the first adult Neanderthal skull to be discovered, eight years before the discovery of the skull for which the species was named in Neandertal, Germany; had it been recognised as a separate species, it might have been called Calpican (or Gibraltarian) rather than Neanderthal Man.",
+      "hatnote": "So what nearly happened to the name?",
+      "onwardLinkText": null,
+      "nextPage": "Neanderthals in Gibraltar"
+    },
+    {
+      "page": "Neanderthals in Gibraltar",
+      "url": "https://en.wikipedia.org/wiki/Neanderthals_in_Gibraltar",
+      "revision": 1315884619,
+      "section": "Occupation sites",
+      "passage": "In July 2012, archaeologists discovered an engraving in Gorham's Cave, buried under 39,000-year-old sediments, which has been called \"the oldest known example of abstract art\". Consisting of a series of intersecting lines, the engraving is located about 100 metres (330 ft) inside the cave on a ledge that is thought to have been used by Neanderthals as a sleeping place. Its meaning (or whether it had any meaning) is not known but researchers have described it as providing the first evidence that Neanderthals had the cognitive ability to produce abstract art.",
+      "hatnote": "And the Rock had one more surprise in its caves.",
+      "onwardLinkText": null,
+      "nextPage": "Neanderthals in Gibraltar"
+    }
+  ],
+  "payoff": "Gibraltar had both the first adult Neanderthal skull and some of the last Neanderthals, but a cupboard handed the name to a German valley.",
+  "caveats": [
+    "Gibraltar 1 page dates the last Gibraltar Neanderthals to 24,000–28,000 years ago; Neanderthals in Gibraltar page says around 42,000 years ago. Dates disagree between pages."
+  ]
+}

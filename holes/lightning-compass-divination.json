@@ -1,0 +1,70 @@
+{
+  "id": "lightning-compass-divination",
+  "claim": "Lightning may have made the first compasses, and fortune-tellers used them first.",
+  "start": {
+    "title": "Lightning",
+    "page": "Lightning",
+    "description": "Weather phenomenon involving electrostatic discharge",
+    "image": "snapshots/images/Lightning.webp"
+  },
+  "end": {
+    "title": "Compass",
+    "page": "Compass",
+    "description": "Instrument used for navigation and orientation",
+    "image": "snapshots/images/Compass.webp"
+  },
+  "knots": [
+    {
+      "page": "Lightning",
+      "url": "https://en.wikipedia.org/wiki/Lightning",
+      "revision": 1374814050,
+      "section": "Induced permanent magnetism",
+      "passage": "The intense currents of a lightning discharge create a fleeting but very strong magnetic field. Where the lightning current path passes through rock, soil, or metal these materials can become permanently magnetized. This effect is known as lightning-induced remanent magnetism, or LIRM. These currents follow the least resistive path, often horizontally near the surface but sometimes vertically, where faults, ore bodies, or ground water offers a less resistive path. One theory suggests that lodestones, natural magnets encountered in ancient times, were created in this manner.",
+      "hatnote": "A lightning bolt leaves more behind than scorched ground.",
+      "onwardLinkText": "lodestones",
+      "nextPage": "Lodestone"
+    },
+    {
+      "page": "Lodestone",
+      "url": "https://en.wikipedia.org/wiki/Lodestone",
+      "revision": 1353339228,
+      "section": "Origin",
+      "passage": "The other question is how lodestones get magnetized. The Earth's magnetic field at 0.5 gauss is too weak to magnetize a lodestone by itself. The leading theory is that lodestones are magnetized by the strong magnetic fields surrounding lightning bolts. Magnetite is a ferrimagnetic material, so a lightning strike can align its magnetic domains and create a lodestone. This is supported by the observation that they are mostly found near the surface of the Earth, rather than buried at great depth.",
+      "hatnote": "Geologists think the bolt is the best explanation for natural magnets.",
+      "onwardLinkText": null,
+      "nextPage": "Lodestone"
+    },
+    {
+      "page": "Lodestone",
+      "url": "https://en.wikipedia.org/wiki/Lodestone",
+      "revision": 1353339228,
+      "section": "lead",
+      "passage": "Lodestones are naturally magnetized pieces of the mineral magnetite. They are naturally occurring magnets, which can attract iron. The property of magnetism was first discovered in antiquity through lodestones. Pieces of lodestone, suspended so they could turn, were the first magnetic compasses, and their importance to early navigation is indicated by the name lodestone, which in Middle English means \"course stone\" or \"leading stone\", from the now-obsolete meaning of lode as \"journey, way\".",
+      "hatnote": "Those lightning-made stones went on to change travel.",
+      "onwardLinkText": "magnetic compasses",
+      "nextPage": "Compass"
+    },
+    {
+      "page": "Compass",
+      "url": "https://en.wikipedia.org/wiki/Compass",
+      "revision": 1376670463,
+      "section": "lead",
+      "passage": "Among the Four Great Inventions, the magnetic compass was first invented as a device for divination as early as the Chinese Han dynasty (since c. 206 BC), and later adopted for navigation by the Song dynasty Chinese during the 11th century. The first usage of a compass recorded in Western Europe occurred around 1190 and in the Islamic world in the 13th century.",
+      "hatnote": "But the compass wasn't invented to find the way.",
+      "onwardLinkText": null,
+      "nextPage": "Compass"
+    },
+    {
+      "page": "Compass",
+      "url": "https://en.wikipedia.org/wiki/Compass",
+      "revision": 1376670463,
+      "section": "Divination Device",
+      "passage": "In the 2nd century BC, Chinese geomancers were experimenting with the magnetic properties of lodestone to make a \"south-pointing spoon\" for divination. When it is placed on a smooth bronze plate, the spoon would invariably rotate to a north–south axis. While this has been shown to work, archaeologists have yet to discover an actual spoon made of magnetite in a Han tomb.",
+      "hatnote": "Its ancestor was a spoon for reading the future.",
+      "onwardLinkText": null,
+      "nextPage": "Compass"
+    }
+  ],
+  "payoff": "From a lightning strike to a magnetised stone to a fortune-teller's spinning spoon: navigation was the compass's second career.",
+  "caveats": []
+}

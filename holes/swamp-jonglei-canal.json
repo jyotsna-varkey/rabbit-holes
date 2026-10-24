@@ -18,19 +18,9 @@
       "page": "Swamp",
       "url": "https://en.wikipedia.org/wiki/Swamp",
       "revision": 1377457944,
-      "section": "lead",
-      "passage": "A swamp is a forested wetland. Swamps are considered to be transition zones because both land and water play a role in creating this environment. Swamps vary in size and are located all around the world.",
-      "hatnote": "A swamp is neither land nor lake, but both at once.",
-      "onwardLinkText": null,
-      "nextPage": "Swamp"
-    },
-    {
-      "page": "Swamp",
-      "url": "https://en.wikipedia.org/wiki/Swamp",
-      "revision": 1377457944,
       "section": "Africa",
-      "passage": "The Sudd and the Okavango Delta are Africa's best known marshland areas.",
-      "hatnote": "One African swamp is famous for keeping people out.",
+      "passage": "The Sudd and the Okavango Delta are Africa's best known marshland areas. The Bangweulu Floodplains make up Africa's largest swamp.",
+      "hatnote": "Swamps are half land, half water. Africa has some giants.",
       "onwardLinkText": "Sudd",
       "nextPage": "Sudd"
     },
@@ -39,18 +29,8 @@
       "url": "https://en.wikipedia.org/wiki/Sudd",
       "revision": 1377609567,
       "section": "lead",
-      "passage": "The Sudd (Arabic: السد, romanized: as-Sudd, Nuer: Baki̱ec, Dinka: Toc) is a vast swamp in South Sudan, formed by the White Nile's Baḥr al-Jabal section. The Arabic word sudd is derived from sadd (سد), meaning \"barrier\" or \"obstruction\". The term \"the sudd\" has come to refer to any large solid floating vegetation island or mat. The area which the swamp covers is one of the world's largest wetlands and the largest freshwater wetland in the Nile Basin.",
-      "hatnote": "Its very name is a warning.",
-      "onwardLinkText": null,
-      "nextPage": "Sudd"
-    },
-    {
-      "page": "Sudd",
-      "url": "https://en.wikipedia.org/wiki/Sudd",
-      "revision": 1377609567,
-      "section": "lead",
       "passage": "For many centuries the swamp, and especially its thicket of vegetation, proved an impenetrable barrier to navigation along the Nile. The ancient Egyptians failed to penetrate the Sudd and reach the areas south of it. In AD 61, a party of Roman soldiers sent by the Emperor Nero proceeded up the White Nile but were not able to get beyond the Sudd, which marked the limit of Roman penetration into equatorial Africa.",
-      "hatnote": "The barrier held for thousands of years.",
+      "hatnote": "In South Sudan, the Sudd swamp was the Nile's great wall for centuries.",
       "onwardLinkText": null,
       "nextPage": "Sudd"
     },
@@ -83,9 +63,19 @@
       "hatnote": "The canal's giant digger never left.",
       "onwardLinkText": null,
       "nextPage": "Jonglei Canal"
+    },
+    {
+      "page": "Jonglei Canal",
+      "url": "https://en.wikipedia.org/wiki/Jonglei_Canal",
+      "revision": 1375262323,
+      "section": "Planning and construction",
+      "passage": "The independence of South Sudan in 2011 effectively ended the role of the Sudanese Government in regard to the canal. The project has been discussed, but there is currently no agreement on resuming the project.",
+      "hatnote": "Then the map itself changed.",
+      "onwardLinkText": null,
+      "nextPage": "Jonglei Canal"
     }
   ],
-  "payoff": "The swamp whose name means 'barrier' stopped Nero's soldiers, then stopped the twentieth century's diggers too, leaving Sarah stranded two-thirds of the way through.",
+  "payoff": "The swamp that stopped Nero's soldiers stopped the twentieth century's diggers too, leaving Sarah rusting two-thirds of the way through.",
   "caveats": [
     "Sudd page says the machine was nicknamed 'Sarah' or 'Lucy'; the Jonglei Canal page says 'Sarah'."
   ]

@@ -1,0 +1,60 @@
+{
+  "id": "electric-guitar-rickenbacker-spy",
+  "claim": "The Rickenbacker guitar's spelling was borrowed from a suspected German spy.",
+  "start": {
+    "title": "Electric guitar",
+    "page": "Electric guitar",
+    "description": "Electrical string musical instrument",
+    "image": ""
+  },
+  "end": {
+    "title": "Eddie Rickenbacker",
+    "page": "Eddie Rickenbacker",
+    "description": "American World War I aviator (1890–1973)",
+    "image": "snapshots/images/Eddie-Rickenbacker.webp"
+  },
+  "knots": [
+    {
+      "page": "Electric guitar",
+      "url": "https://en.wikipedia.org/wiki/Electric_guitar",
+      "revision": 1375185466,
+      "section": "History",
+      "passage": "The first electrically amplified stringed instrument to be marketed commercially was a cast aluminium lap steel guitar nicknamed the \"Frying Pan\" designed in 1931 by George Beauchamp, the general manager of the National Stringed Instrument Corporation, with Paul Barth, who was vice president. George Beauchamp, along with Adolph Rickenbacker, invented the electromagnetic pickups.",
+      "hatnote": "The electric guitar started life as a 'Frying Pan'.",
+      "onwardLinkText": "Adolph Rickenbacker",
+      "nextPage": "Adolph Rickenbacker"
+    },
+    {
+      "page": "Adolph Rickenbacker",
+      "url": "https://en.wikipedia.org/wiki/Adolph_Rickenbacker",
+      "revision": 1368670573,
+      "section": "lead",
+      "passage": "He Anglicized both his own name, and that of his company's brand, to Rickenbacker to capitalize on the popularity of his second cousin, America's top scoring flying ace of the First World War, Eddie Rickenbacker, who due to the wave of anti-German sentiment caused by the war, had felt pressure to change the spelling of his surname in an effort to \"take the Hun out of his name.\" Eddie was already well known as a racing driver at the time, and his change received wide publicity. \"From then on\", as he wrote in his autobiography, \"most Rickenbachers were practically forced to spell their name in the way I had...\"",
+      "hatnote": "His name, and his guitars, are spelled with a 'k'. They weren't always.",
+      "onwardLinkText": "Eddie Rickenbacker",
+      "nextPage": "Eddie Rickenbacker"
+    },
+    {
+      "page": "Eddie Rickenbacker",
+      "url": "https://en.wikipedia.org/wiki/Eddie_Rickenbacker",
+      "revision": 1376001601,
+      "section": "Automobile racing",
+      "passage": "Signing with the British Sunbeam team for the upcoming season, Rickenbacker sailed to England to work to develop a new race car. Following his arrival at Liverpool for his new job with Sunbeam, Rickenbacker was briefly detained by two plainclothes agents from the Metropolitan Police prior to disembarking from his ship. A 1914 Los Angeles Times article had falsely claimed that the young driver was Baron Rickenbacher, \"the disowned son of a Prussian noble.\" Amidst the ongoing First World War, this led the police to suspect Rickenbacker of being a German spy.",
+      "hatnote": "Eddie's spelling change came with the war, and it didn't fool everyone.",
+      "onwardLinkText": null,
+      "nextPage": "Eddie Rickenbacker"
+    },
+    {
+      "page": "Eddie Rickenbacker",
+      "url": "https://en.wikipedia.org/wiki/Eddie_Rickenbacker",
+      "revision": 1376001601,
+      "section": "lead",
+      "passage": "Edward Vernon Rickenbacker (born Edward Rickenbacher, October 8, 1890 – July 23, 1973) was an American fighter pilot in World War I and a Medal of Honor recipient. With 26 aerial victories, he was the most successful and most decorated United States flying ace of the war.",
+      "hatnote": "The suspected spy went on to fight Germany instead.",
+      "onwardLinkText": null,
+      "nextPage": "Eddie Rickenbacker"
+    }
+  ],
+  "payoff": "The 'k' in Rickenbacker guitars comes from a racing driver Britain once detained as a German spy, who became America's top ace.",
+  "caveats": []
+}

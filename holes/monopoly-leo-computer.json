@@ -1,0 +1,60 @@
+{
+  "id": "monopoly-leo-computer",
+  "claim": "One cheap Monopoly square leads to the world's first business computer.",
+  "start": {
+    "title": "Monopoly (game)",
+    "page": "Monopoly (game)",
+    "description": "Property-trading board game",
+    "image": "snapshots/images/Monopoly-game.webp"
+  },
+  "end": {
+    "title": "LEO (computer)",
+    "page": "LEO (computer)",
+    "description": "1951 British computer",
+    "image": "snapshots/images/LEO-computer.webp"
+  },
+  "knots": [
+    {
+      "page": "Monopoly (game)",
+      "url": "https://en.wikipedia.org/wiki/Monopoly_(game)",
+      "revision": 1379540842,
+      "section": "UK version",
+      "passage": "The Angel, Islington is not a street in London, but a building (which also gave its name to the road intersection where it is located, as well as an area of the city and a Tube station). It had been a coaching inn that stood on the Great North Road. By the 1930s, the inn had become a J. Lyons and Co. tea room and is today offices and a Co-operative Bank.",
+      "hatnote": "The British Monopoly board has one odd square among its streets.",
+      "onwardLinkText": "J. Lyons and Co.",
+      "nextPage": "J. Lyons and Co."
+    },
+    {
+      "page": "J. Lyons and Co.",
+      "url": "https://en.wikipedia.org/wiki/J._Lyons_and_Co.",
+      "revision": 1372869094,
+      "section": "Pioneering use of computers in business",
+      "passage": "The top management of Lyons, with its background in the use of mechanical adding machines, saw the necessity of new electrical computers for organising the distribution of cakes and other highly perishable goods. They, therefore, substantially financed the University of Cambridge's Electronic Delay Storage Automatic Calculator (EDSAC) which was the second electronic digital stored-program computer to go into regular service, and built their own programmable digital computers. They became the first user of these in businesses, with the LEO I digital computer: the Lyons Electronic Office I, designed and built by Dr John Pinkerton under the leadership of John Simmons.",
+      "hatnote": "Lyons sold tea and cakes. Cakes go stale fast.",
+      "onwardLinkText": "LEO I",
+      "nextPage": "LEO (computer)"
+    },
+    {
+      "page": "LEO (computer)",
+      "url": "https://en.wikipedia.org/wiki/LEO_(computer)",
+      "revision": 1371435546,
+      "section": "Origins and initial design",
+      "passage": "In 1947, two of its senior managers, Oliver Standingford and Raymond Thompson, were sent to the United States to look at new business methods developed during World War II. During the visit, they met Herman Goldstine who was one of the original developers of ENIAC, the first general-purpose electronic computer. Standingford and Thompson saw the potential of computers to help solve the problem of administering a major business enterprise. They also learned from Goldstine that, back in the UK, Douglas Hartree and Maurice Wilkes were actually building another such machine, the pioneering EDSAC computer, at the University of Cambridge.",
+      "hatnote": "How did a tea-shop chain end up building computers?",
+      "onwardLinkText": null,
+      "nextPage": "LEO (computer)"
+    },
+    {
+      "page": "LEO (computer)",
+      "url": "https://en.wikipedia.org/wiki/LEO_(computer)",
+      "revision": 1371435546,
+      "section": "Origins and initial design",
+      "passage": "On 15 February 1951 the computer, carrying out a simple test program, was shown to HRH Princess Elizabeth. The first business application to be run on LEO was Bakery Valuations, which computed the costs of ingredients used in bread and cakes. This was successfully run on 5 September 1951, and LEO took over Bakery Valuations calculations completely on 29–30 November 1951.",
+      "hatnote": "So what was the first job of the first business computer?",
+      "onwardLinkText": null,
+      "nextPage": "LEO (computer)"
+    }
+  ],
+  "payoff": "The world's first office computer was built by a tea-shop chain, and its first job was costing bread and cakes.",
+  "caveats": []
+}

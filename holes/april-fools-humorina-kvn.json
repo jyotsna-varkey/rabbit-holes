@@ -1,0 +1,70 @@
+{
+  "id": "april-fools-humorina-kvn",
+  "claim": "Odesa's April Fools' festival began as a protest against Soviet censors.",
+  "start": {
+    "title": "April Fools' Day",
+    "page": "April Fools' Day",
+    "description": "Annual celebration on 1 April",
+    "image": "snapshots/images/April-Fools-Day.webp"
+  },
+  "end": {
+    "title": "KVN",
+    "page": "KVN",
+    "description": "Soviet and Russian television program",
+    "image": ""
+  },
+  "knots": [
+    {
+      "page": "April Fools' Day",
+      "url": "https://en.wikipedia.org/wiki/April_Fools'_Day",
+      "revision": 1379391198,
+      "section": "Ukraine",
+      "passage": "April Fools' Day is widely celebrated in Odesa and has the special local name Humorina (in Ukrainian Гуморина, Humorina). This holiday arose in 1973. An April Fool prank is revealed by saying \"Перше квітня — брехня всесвітня\" (\"Pershe kvitnya — brekhnya vsesvitnya\", translating as \"First of April — worldwide lies\") to the recipient.",
+      "hatnote": "In Odesa, April Fools' Day is a city-wide festival with its own name.",
+      "onwardLinkText": "Humorina",
+      "nextPage": "Humorina"
+    },
+    {
+      "page": "Humorina",
+      "url": "https://en.wikipedia.org/wiki/Humorina",
+      "revision": 1286621333,
+      "section": "History",
+      "passage": "The festival became so popular that more and more people gathered for it every year. Frightened by a huge, self-organizing crowd, the city authorities banned the celebration of Laughter Day.",
+      "hatnote": "Soviet officials did not find it funny.",
+      "onwardLinkText": null,
+      "nextPage": "Humorina"
+    },
+    {
+      "page": "Humorina",
+      "url": "https://en.wikipedia.org/wiki/Humorina",
+      "revision": 1286621333,
+      "section": "History",
+      "passage": "It was created in 1972 by the Odesa KVN team after the all-Union KVN contests and the corresponding TV show were discontinued. Young members of the team in protest decided to come up with a special festival of laughter. The name arose by analogy with the Kinomarina (English: Filmarina) film festival taking place at that time, and so the name appeared – Humorina.",
+      "hatnote": "The festival had itself been born out of a ban.",
+      "onwardLinkText": "KVN",
+      "nextPage": "KVN"
+    },
+    {
+      "page": "KVN",
+      "url": "https://en.wikipedia.org/wiki/KVN",
+      "revision": 1379374474,
+      "section": "lead",
+      "passage": "In 1972, Soviet censors, who found the students' impromptu jokes offensive and anti-Soviet, banned KVN. The show was revived in 1986 during the perestroika era, with Alexander Maslyakov as its host. It is one of the longest-running programs on Russian television; its anniversary on 8 November is celebrated by KVN players every year since its inception and was widely celebrated for the first time in 2001.",
+      "hatnote": "The show the students missed had been silenced from above, but not for ever.",
+      "onwardLinkText": null,
+      "nextPage": "KVN"
+    },
+    {
+      "page": "KVN",
+      "url": "https://en.wikipedia.org/wiki/KVN",
+      "revision": 1379374474,
+      "section": "lead",
+      "passage": "During the perestroika era (c. 1985-1991), KVN spread to Russian expatriate communities. In 1992, an Israeli team played against the Commonwealth of Independent States (CIS) team. The game became a success, and more international games followed: the CIS team visited Israel, Germany and the United States. In 1994, the first KVN World Festival was held in Israel; it featured four teams representing the United States, Israel, the CIS and Germany.",
+      "hatnote": "Revived, the comedy contest went global.",
+      "onwardLinkText": null,
+      "nextPage": "KVN"
+    }
+  ],
+  "payoff": "Students mourning a banned comedy show invented Odesa's Humorina; the show itself came back and spread as far as Israel and America.",
+  "caveats": []
+}

@@ -39,6 +39,16 @@
       "url": "https://en.wikipedia.org/wiki/Prickly_pears_in_Australia",
       "revision": 1313070552,
       "section": "lead",
+      "passage": "Prickly pears (mostly Opuntia stricta) were imported into Australia in the First Fleet as hosts of cochineal insects, used in the dye industry. Many of these, especially the tiger pear, quickly became widespread invasive species, rendering 40,000 km (15,000 mi) of farming land unproductive. The moth Cactoblastis cactorum from Argentina, whose larvae eat prickly pear, was introduced in 1925 and almost wiped out the prickly pear. This case is often cited as an example of successful biological pest control.",
+      "hatnote": "The cactus came with the very first fleet of settlers, and spread.",
+      "onwardLinkText": null,
+      "nextPage": "Prickly pears in Australia"
+    },
+    {
+      "page": "Prickly pears in Australia",
+      "url": "https://en.wikipedia.org/wiki/Prickly_pears_in_Australia",
+      "revision": 1313070552,
+      "section": "lead",
       "passage": "A monument to Cactoblastis cactorum was erected in Dalby, Queensland, commemorating the eradication of the prickly pear in the region. The Cactoblastis Memorial Hall in Boonarga, Queensland, also commemorates the eradication.",
       "hatnote": "Australians did not just thank the moth. They built it things.",
       "onwardLinkText": "Cactoblastis Memorial Hall",
@@ -49,18 +59,8 @@
       "url": "https://en.wikipedia.org/wiki/Cactoblastis_Memorial_Hall",
       "revision": 1364806115,
       "section": "History",
-      "passage": "Prickly pear was declared a noxious weed in Queensland in 1893. By 1900 approximately 10,000,000 acres (4,000,000 ha) were affected by prickly pear; an area which had extended to an estimated 58,000,000 acres (23,000,000 ha) by 1920. About half of this area was so densely covered by prickly pear that the land was useless for production. The costs of mechanical and chemical methods of eradication exceeded the value of the land and therefore did not prove economically viable for controlling the spread of prickly pear.",
-      "hatnote": "To understand the gratitude, consider the scale of the problem.",
-      "onwardLinkText": null,
-      "nextPage": "Cactoblastis Memorial Hall"
-    },
-    {
-      "page": "Cactoblastis Memorial Hall",
-      "url": "https://en.wikipedia.org/wiki/Cactoblastis_Memorial_Hall",
-      "revision": 1364806115,
-      "section": "History",
       "passage": "In 1925, 3000 cactoblastis eggs were imported from South America. These eggs were divided between the Sherwood laboratory, and the Chinchilla Field Station which had been established in 1923 as one of four Queensland field stations responsible for rearing and distributing insect supplies. The first prickly pear plant was destroyed by the cactoblastis moth at Chinchilla in September 1926. The last extensive area of prickly pear in Queensland was destroyed in 1933, and the Chinchilla Field Station was closed at the end of 1936.",
-      "hatnote": "Then came the caterpillars.",
+      "hatnote": "Then came the caterpillars, starting from a few thousand eggs.",
       "onwardLinkText": null,
       "nextPage": "Cactoblastis Memorial Hall"
     },
@@ -75,7 +75,7 @@
       "nextPage": "Cactoblastis Memorial Hall"
     }
   ],
-  "payoff": "Prickly pear smothered millions of acres; 3,000 moth eggs cleared it within a decade, and a Queensland town named its hall in thanks.",
+  "payoff": "Prickly pear smothered vast farmlands; moth eggs from South America cleared it within a decade, and a Queensland town named its hall in thanks.",
   "caveats": [
     "The moth is now itself an invasive threat to native cacti in the Americas."
   ]

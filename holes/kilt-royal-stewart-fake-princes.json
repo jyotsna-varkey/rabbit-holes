@@ -1,0 +1,82 @@
+{
+  "id": "kilt-royal-stewart-fake-princes",
+  "claim": "The British monarch's own tartan was probably designed by two fake princes.",
+  "start": {
+    "title": "Kilt",
+    "page": "Kilt",
+    "description": "Scottish skirt",
+    "image": "snapshots/images/Kilt.webp"
+  },
+  "end": {
+    "title": "Vestiarium Scoticum",
+    "page": "Vestiarium Scoticum",
+    "description": "Work by John Sobieski Stuart",
+    "image": ""
+  },
+  "knots": [
+    {
+      "page": "Kilt",
+      "url": "https://en.wikipedia.org/wiki/Kilt",
+      "revision": 1371141257,
+      "section": "Setts",
+      "passage": "One of the most-distinctive features of the authentic Scots kilt is the tartan pattern, the sett, it exhibits. The association of particular patterns with individual clans and families can be traced back perhaps one or two centuries. It was only in the 19th-century Victorian era that the system of named tartans known today began to be systematically recorded and formalised, mostly by weaving companies for mercantile purposes. Up until this point, Highland tartans held regional associations rather than being identified with any particular clan.",
+      "hatnote": "Clan tartans feel ancient. Most are younger than the railway.",
+      "onwardLinkText": "tartan",
+      "nextPage": "Tartan"
+    },
+    {
+      "page": "Tartan",
+      "url": "https://en.wikipedia.org/wiki/Tartan",
+      "revision": 1376538390,
+      "section": "Popular designs",
+      "passage": "One of the most popular tartans is the royal Stewart, ostensibly the personal tartan of the British monarch, since George IV declared it his own (though it was probably designed by the Sobieski Stuarts, albeit based on mid-18th-century pattern called \"Prince Charles Edward Stuart\"). The \"royal\" sett was first published in 1831 in the book The Scottish Gaël by James Logan. In addition to its use in clothing, such as skirts and scarves, royal Stewart tartan has also appeared on biscuit tins for Scottish shortbread, and it has also long been favoured by the British punk scene.",
+      "hatnote": "Even the king's red tartan has a suspicious pedigree.",
+      "onwardLinkText": "Sobieski Stuarts",
+      "nextPage": "Sobieski Stuarts"
+    },
+    {
+      "page": "Sobieski Stuarts",
+      "url": "https://en.wikipedia.org/wiki/Sobieski_Stuarts",
+      "revision": 1375890687,
+      "section": "lead",
+      "passage": "In the 1820s, two brothers, John Carter Allen (1795–1872) and Charles Manning Allen (1802–1880) adopted the names John Sobieski Stuart and Charles Edward Stuart, moved to Scotland, converted to Catholicism, and about 1839 began to claim that their father, Thomas Allen (1767–1852), a former Lieutenant in the Royal Navy, had been born in Italy the only legitimate child of Prince Charles Edward Stuart and his wife Princess Louise of Stolberg-Gedern.",
+      "hatnote": "So who were the Sobieski Stuarts? Two brothers named Allen.",
+      "onwardLinkText": null,
+      "nextPage": "Sobieski Stuarts"
+    },
+    {
+      "page": "Sobieski Stuarts",
+      "url": "https://en.wikipedia.org/wiki/Sobieski_Stuarts",
+      "revision": 1375890687,
+      "section": "lead",
+      "passage": "The brothers' two publications, Vestiarium Scoticum (Edinburgh, 1842) and The Costume of the Clans (Edinburgh, 1845), described by the historian Hugh Trevor-Roper as \"shot through with pure fantasy and bare faced forgery\", have been sources widely used by the tartan industry in Scotland.",
+      "hatnote": "Their lasting work, though, was two lavish books on Highland dress.",
+      "onwardLinkText": "Vestiarium Scoticum",
+      "nextPage": "Vestiarium Scoticum"
+    },
+    {
+      "page": "Vestiarium Scoticum",
+      "url": "https://en.wikipedia.org/wiki/Vestiarium_Scoticum",
+      "revision": 1368711714,
+      "section": "lead",
+      "passage": "The book itself is purported to be a reproduction, with colour illustrations, of a 15th-century manuscript on the clan tartans of Scottish families. Shortly after its publication it was denounced as a forgery, and the \"Stuart\" brothers who brought it forth were also denounced as impostors for claiming to be the grandsons of Bonnie Prince Charlie. It is generally accepted today that neither the brothers themselves nor the Vestiarium are what they were purported to be.",
+      "hatnote": "The star book claimed to copy an old manuscript of clan tartans.",
+      "onwardLinkText": null,
+      "nextPage": "Vestiarium Scoticum"
+    },
+    {
+      "page": "Vestiarium Scoticum",
+      "url": "https://en.wikipedia.org/wiki/Vestiarium_Scoticum",
+      "revision": 1368711714,
+      "section": "lead",
+      "passage": "Nevertheless, the role of the book in the history of Scottish tartans is immense, with many of the designs and patterns contained therein passing into the realm of \"official\" clan tartans.",
+      "hatnote": "Exposed as fakes, the brothers still won in the end.",
+      "onwardLinkText": null,
+      "nextPage": "Vestiarium Scoticum"
+    }
+  ],
+  "payoff": "Two brothers posing as Stuart princes forged an 'ancient' tartan book, yet its patterns became 'official' clan tartans, maybe even the monarch's.",
+  "caveats": [
+    "Tartan says the royal Stewart was 'probably' designed by the Sobieski Stuarts; it was first published in 1831 by James Logan."
+  ]
+}

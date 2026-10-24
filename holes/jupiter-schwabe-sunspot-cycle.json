@@ -8,10 +8,10 @@
     "image": "snapshots/images/Jupiter.webp"
   },
   "end": {
-    "title": "Heinrich Schwabe",
-    "page": "Heinrich Schwabe",
-    "description": "German astronomer (1789–1875)",
-    "image": "snapshots/images/Heinrich-Schwabe.webp"
+    "title": "Solar cycle",
+    "page": "Solar cycle",
+    "description": "Periodic change in the Sun's activity",
+    "image": "snapshots/images/Solar-cycle.webp"
   },
   "knots": [
     {
@@ -61,13 +61,23 @@
       "section": "Life and work",
       "passage": "Although he did not find any planet transiting the solar disc he noticed the regular variation in the number of sunspots and published his findings in a short article entitled \"Solar Observations during 1843\". In it he made the suggestion of a probable ten-year period (i.e. that at every tenth year the number of spots reached a maximum).",
       "hatnote": "Seventeen years of staring at the Sun, and no planet. But he kept seeing spots.",
+      "onwardLinkText": "regular variation in the number of sunspots",
+      "nextPage": "Solar cycle"
+    },
+    {
+      "page": "Solar cycle",
+      "url": "https://en.wikipedia.org/wiki/Solar_cycle",
+      "revision": 1376614955,
+      "section": "lead",
+      "passage": "The Solar cycle, also known as the solar magnetic activity cycle, sunspot cycle, or Schwabe cycle, is a periodic 11-year change in the Sun's activity measured in terms of variations in the number of observed sunspots on the Sun's surface.",
+      "hatnote": "His sideline became one of the Sun's basic rhythms, and it carries his name.",
       "onwardLinkText": null,
-      "nextPage": "Heinrich Schwabe"
+      "nextPage": "Solar cycle"
     }
   ],
-  "payoff": "Schwabe never found Vulcan, but the same patient telescope gave us the Red Spot's first drawing and the Sun's ten-year rhythm.",
+  "payoff": "Schwabe never found Vulcan, but his telescope gave Jupiter's Red Spot its earliest known drawing and the Sun a cycle named after him.",
   "caveats": [
-    "Schwabe proposed a ten-year period; the modern solar cycle averages about 11 years.",
+    "Schwabe proposed a ten-year period; the Solar cycle page gives about 11 years.",
     "Vulcan was later shown not to exist (Einstein's general relativity explained Mercury's orbit); the passages show only that it was never found."
   ]
 }

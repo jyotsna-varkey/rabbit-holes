@@ -1,0 +1,70 @@
+{
+  "id": "thumb-signal-double-seven",
+  "claim": "A thumbs-up leads to a cola killed by an election grudge.",
+  "start": {
+    "title": "Thumb signal",
+    "page": "Thumb signal",
+    "description": "Hand gesture indicating approval or disapproval",
+    "image": "snapshots/images/Thumb-signal.webp"
+  },
+  "end": {
+    "title": "Double Seven (soft drink)",
+    "page": "Double Seven (soft drink)",
+    "description": "Indian soft drink brand",
+    "image": "snapshots/images/Double-Seven-soft-drink.webp"
+  },
+  "knots": [
+    {
+      "page": "Thumb signal",
+      "url": "https://en.wikipedia.org/wiki/Thumb_signal",
+      "revision": 1379150002,
+      "section": "Cultural meanings",
+      "passage": "The thumbs-up gesture is used on the logo of Thums Up, a popular brand of cola from India. Starting in 2007, the thumbs-up also appeared on India's one-rupee coin.",
+      "hatnote": "In India, the thumbs-up sells soft drinks and even appears on money.",
+      "onwardLinkText": "Thums Up",
+      "nextPage": "Thums Up"
+    },
+    {
+      "page": "Thums Up",
+      "url": "https://en.wikipedia.org/wiki/Thums_Up",
+      "revision": 1380272158,
+      "section": "History",
+      "passage": "Thums Up was created in 1977, after the American company Coca-Cola withdrew from India due to regulations requiring it to disclose its formula and sell 60% of its equity to an Indian company under a government plan for foreign-owned companies to share stakes with domestic partners. The Chauhan brothers owned part of the Parle company and already had two other brands of soda, Limca and Gold Spot, which were popular in India at the time. Thums Up quickly became the most popular cola brand in India and achieved a near-monopoly among cola products in India during the 1980s, standing above other cola products such as Campa Cola, Double Seven, Dukes and United Breweries Group's McDowell's Crush.",
+      "hatnote": "The cola was born in a hurry, after Coca-Cola walked out of India.",
+      "onwardLinkText": "Double Seven",
+      "nextPage": "Double Seven (soft drink)"
+    },
+    {
+      "page": "Double Seven (soft drink)",
+      "url": "https://en.wikipedia.org/wiki/Double_Seven_(soft_drink)",
+      "revision": 1375224073,
+      "section": "lead",
+      "passage": "Developed to fill the void left by Coca-Cola, Double Seven was quickly designed, manufactured and marketed by Modern Food Industries, a government-owned company. Double Seven was the winning name in a national competition to name the drink. The formula for the concentrate of Double Seven was developed at Central Food Technological Research Institute, Mysore. Despite government backing, Double Seven could not dominate the Indian soft drinks market, but the programme was successful in filling the void left by Coca-Cola.",
+      "hatnote": "One rival was brewed by the government itself.",
+      "onwardLinkText": null,
+      "nextPage": "Double Seven (soft drink)"
+    },
+    {
+      "page": "Double Seven (soft drink)",
+      "url": "https://en.wikipedia.org/wiki/Double_Seven_(soft_drink)",
+      "revision": 1375224073,
+      "section": "lead",
+      "passage": "The drink lost market share as Indira Gandhi's government came to power in 1980 and was not interested in supporting a product which reminded them of 1977, the year when Indira Gandhi lost the national elections. During this period, other drinks like Thums Up became very popular. Modern Food Industries gradually slipped into the red and was taken over by Hindustan Lever Limited in January 2000.",
+      "hatnote": "Its name turned out to be a political liability.",
+      "onwardLinkText": null,
+      "nextPage": "Double Seven (soft drink)"
+    },
+    {
+      "page": "Double Seven (soft drink)",
+      "url": "https://en.wikipedia.org/wiki/Double_Seven_(soft_drink)",
+      "revision": 1375224073,
+      "section": "lead",
+      "passage": "Thums Up, which was also launched in 1977 after the departure of Coca-Cola, continued to thrive until its eventual takeover by Coca-Cola.",
+      "hatnote": "The thumbs-up cola had the last laugh, of a kind.",
+      "onwardLinkText": null,
+      "nextPage": "Double Seven (soft drink)"
+    }
+  ],
+  "payoff": "Coca-Cola left India, the government named its stand-in cola for 1977, the next government let it die, and Coca-Cola took over Thums Up.",
+  "caveats": []
+}

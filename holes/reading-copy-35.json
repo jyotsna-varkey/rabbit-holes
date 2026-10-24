@@ -1,0 +1,70 @@
+{
+  "id": "reading-copy-35",
+  "claim": "A lump of salty mud scooped from a beach shook the British Empire.",
+  "start": {
+    "title": "Salt",
+    "page": "Salt",
+    "description": "Mineral composed of sodium chloride",
+    "image": "snapshots/images/Salt.webp"
+  },
+  "end": {
+    "title": "Salt March",
+    "page": "Salt March",
+    "description": "1930 Indian protest led by Mahatma Gandhi",
+    "image": "snapshots/images/Salt-March.webp"
+  },
+  "knots": [
+    {
+      "page": "Salt",
+      "url": "https://en.wikipedia.org/wiki/Salt",
+      "revision": 1381040669,
+      "section": "History",
+      "passage": "In 1930, Mahatma Gandhi led a crowd of 100,000 protestors on the \"Dandi March\" or \"Salt Satyagraha\", during which they made their own salt from the sea as a demonstration of their opposition to the colonial salt tax. This act of civil disobedience inspired numerous Indians and transformed the Indian independence movement into a national struggle.",
+      "hatnote": "In 1930, a march to the sea turned salt into a weapon.",
+      "onwardLinkText": "colonial salt tax",
+      "nextPage": "History of the salt tax in British India"
+    },
+    {
+      "page": "History of the salt tax in British India",
+      "url": "https://en.wikipedia.org/wiki/History_of_the_salt_tax_in_British_India",
+      "revision": 1359306677,
+      "section": "Taxation of salt by the British East India Company",
+      "passage": "In the early 19th century, to make the salt tax more profitable and reduce smuggling, the East India Company established customs checkpoints throughout Bengal. G. H. Smith established a \"customs line\", which was the boundary across which salt transportation involved payment of high customs duties. In the 1840s a thorn fence was erected along the western frontiers of Bengal province to prevent salt smuggling. Eventually, after 1857, the thorn fence grew to be 2,500 miles long.",
+      "hatnote": "Under British rule, salt became so valuable it needed a border.",
+      "onwardLinkText": null,
+      "nextPage": "History of the salt tax in British India"
+    },
+    {
+      "page": "History of the salt tax in British India",
+      "url": "https://en.wikipedia.org/wiki/History_of_the_salt_tax_in_British_India",
+      "revision": 1359306677,
+      "section": "lead",
+      "passage": "The stringent salt taxes imposed by the British were vehemently condemned by the Indian public. In 1885, at the first session of the Indian National Congress in Bombay, a prominent Congress Leader, S. A. Swaminatha Iyer, raised the issue of the salt tax. There were further protests throughout the late 19th and early 20th centuries culminating in Mahatma Gandhi's Salt Satyagraha in 1930. This satyagraha was followed by other satyagrahas in other parts of the country.",
+      "hatnote": "Indians protested the tax for decades before one march changed everything.",
+      "onwardLinkText": "Salt Satyagraha",
+      "nextPage": "Salt March"
+    },
+    {
+      "page": "Salt March",
+      "url": "https://en.wikipedia.org/wiki/Salt_March",
+      "revision": 1376805527,
+      "section": "March to Dandi",
+      "passage": "The following morning, after a prayer, Gandhi raised a lump of salty mud and declared, \"With this, I am shaking the foundations of the British Empire.\" He then boiled it in seawater, producing illegal salt. He implored his thousands of followers to likewise begin making salt along the seashore, \"wherever it is convenient\" and to instruct villagers in making illegal, but necessary, salt. The others followed him and Sarojini Naidu addressing Gandhi, shouted 'Hail, law breaker.'",
+      "hatnote": "After a 24-day walk to the sea, he reached down to the shore.",
+      "onwardLinkText": null,
+      "nextPage": "Salt March"
+    },
+    {
+      "page": "Salt March",
+      "url": "https://en.wikipedia.org/wiki/Salt_March",
+      "revision": 1376805527,
+      "section": "Mass civil disobedience",
+      "passage": "Mass civil disobedience spread throughout India as millions broke the salt laws by making salt or buying illegal salt. Salt was sold illegally all over the coast of India. A pinch of salt made by Gandhi himself sold for 1,600 rupees (equivalent to $750 at the time). In reaction, the British government arrested over sixty thousand people by the end of the month.",
+      "hatnote": "One handful started it. Millions copied him.",
+      "onwardLinkText": null,
+      "nextPage": "Salt March"
+    }
+  ],
+  "payoff": "Britain fenced salt with a 2,500-mile thorn hedge; Gandhi answered with a lump of mud, and millions of Indians began making salt.",
+  "caveats": []
+}

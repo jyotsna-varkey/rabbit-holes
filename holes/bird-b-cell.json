@@ -38,19 +38,9 @@
       "page": "Bursa of Fabricius",
       "url": "https://en.wikipedia.org/wiki/Bursa_of_Fabricius",
       "revision": 1329208693,
-      "section": "Research history",
-      "passage": "In 1956, Bruce Glick showed that removal of the bursa in newly hatched chicks severely impaired the ability of the adult birds to produce antibodies. In contrast, removal of the bursa in adult chickens has little effect on the immune system. This was a serendipitous discovery that came about when a fellow graduate, Timothy S. Chang, who was teaching a course on antibody production obtained chickens from Glick that had been bursectomised (removal of the bursa).",
-      "hatnote": "Its job was a mystery until two students borrowed some birds.",
-      "onwardLinkText": null,
-      "nextPage": "Bursa of Fabricius"
-    },
-    {
-      "page": "Bursa of Fabricius",
-      "url": "https://en.wikipedia.org/wiki/Bursa_of_Fabricius",
-      "revision": 1329208693,
       "section": "lead",
-      "passage": "It is a specialized organ that, as first demonstrated by Bruce Glick and later by Max Dale Cooper and Robert Good, is necessary for B cell (part of the immune system) development in birds.",
-      "hatnote": "Today the organ's very definition credits Glick.",
+      "passage": "It is a specialized organ that, as first demonstrated by Bruce Glick and later by Max Dale Cooper and Robert Good, is necessary for B cell (part of the immune system) development in birds. Mammals generally do not have an equivalent organ; the bone marrow is often the site of both hematopoiesis and B cell development.",
+      "hatnote": "Its job was cracked by a young poultry scientist, Bruce Glick.",
       "onwardLinkText": "Bruce Glick",
       "nextPage": "Bruce Glick"
     },
@@ -59,8 +49,8 @@
       "url": "https://en.wikipedia.org/wiki/Bruce_Glick",
       "revision": 1377277891,
       "section": "Early life and education",
-      "passage": "Glick and Chang wrote up the results of this study and were unable to get it published in Science, so it was published in Poultry Science in 1956. Their publication, considered a landmark paper, is one of the most cited works from Poultry Science.",
-      "hatnote": "The top journal said no, so it went somewhere far humbler.",
+      "passage": "A fellow graduate student, Timothy Chang, worked with Glick's geese in a different study, and noticed that the birds without the Bursa of Fabricius did not produce expected antibodies. Glick and Chang wrote up the results of this study and were unable to get it published in Science, so it was published in Poultry Science in 1956. Their publication, considered a landmark paper, is one of the most cited works from Poultry Science.",
+      "hatnote": "The discovery was an accident, and the top journal turned it down.",
       "onwardLinkText": null,
       "nextPage": "Bruce Glick"
     },
@@ -85,8 +75,6 @@
       "nextPage": "B cell"
     }
   ],
-  "payoff": "Every antibody-making B cell in your body is named after a pouch in a chicken's rear, found by students borrowing birds.",
-  "caveats": [
-    "Bursa of Fabricius page says chickens; Bruce Glick page says geese. Both are birds Glick worked with."
-  ]
+  "payoff": "Every B cell in your body is named after a pouch in a bird's rear, found by accident and first rejected by Science.",
+  "caveats": []
 }

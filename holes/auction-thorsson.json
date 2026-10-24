@@ -39,16 +39,6 @@
       "url": "https://en.wikipedia.org/wiki/Child_auction",
       "revision": 1360647060,
       "section": "lead",
-      "passage": "Child auctions were prohibited in Sweden in 1918 and in Finland in 1923. However, auctions were still organized in Finland until the late 1930s. The last known child auction was held in 1935.",
-      "hatnote": "This was not the Middle Ages.",
-      "onwardLinkText": null,
-      "nextPage": "Child auction"
-    },
-    {
-      "page": "Child auction",
-      "url": "https://en.wikipedia.org/wiki/Child_auction",
-      "revision": 1360647060,
-      "section": "lead",
       "passage": "Among the notable people who were sold in child auctions are the Swedish politician Fredrik Vilhelm Thorsson, who later became the Minister for Finance of Sweden, Swedish school founder Hanna Lindmark, Finnish politicians Eino Kujanpää, Jukka Lankila and Vasili Suosaari, and Finnish author Joel Lehtonen.",
       "hatnote": "Some of the auctioned children went far.",
       "onwardLinkText": "Fredrik Vilhelm Thorsson",
@@ -73,20 +63,8 @@
       "hatnote": "Decades later, the auctioned orphan was in charge of Sweden's money.",
       "onwardLinkText": null,
       "nextPage": "Fredrik Vilhelm Thorsson"
-    },
-    {
-      "page": "Fredrik Vilhelm Thorsson",
-      "url": "https://en.wikipedia.org/wiki/Fredrik_Vilhelm_Thorsson",
-      "revision": 1349574065,
-      "section": "Legacy",
-      "passage": "Fredrik Ström wrote an account of Thorsson in the small volume Skomakaren, som blev kungens skattmästare, which was printed the year after Ström's death.",
-      "hatnote": "A later book about him bore a fitting title: The Shoemaker Who Became the King's Treasurer.",
-      "onwardLinkText": null,
-      "nextPage": "Fredrik Vilhelm Thorsson"
     }
   ],
-  "payoff": "An orphan auctioned to the lowest bidder became Sweden's finance minister in 1918, the very year Sweden banned child auctions.",
-  "caveats": [
-    "The pages do not say Thorsson had any part in the 1918 ban; the timing is a coincidence as far as they show."
-  ]
+  "payoff": "An orphan handed to whoever would raise him most cheaply grew up to run Sweden's finances.",
+  "caveats": []
 }

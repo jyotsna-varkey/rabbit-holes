@@ -1,0 +1,72 @@
+{
+  "id": "salt-varna-necropolis",
+  "claim": "The world's oldest gold treasure may have been paid for in salt.",
+  "start": {
+    "title": "Salt",
+    "page": "Salt",
+    "description": "Mineral composed of sodium chloride",
+    "image": "snapshots/images/Salt.webp"
+  },
+  "end": {
+    "title": "Varna Necropolis",
+    "page": "Varna Necropolis",
+    "description": "Pre-historic burial site in Bulgaria",
+    "image": "snapshots/images/Varna-Necropolis.webp"
+  },
+  "knots": [
+    {
+      "page": "Salt",
+      "url": "https://en.wikipedia.org/wiki/Salt",
+      "revision": 1381040669,
+      "section": "History",
+      "passage": "What is now thought to have been the first city in Europe is Solnitsata, in Bulgaria, which was a salt mine, providing the area now known as the Balkans with salt since 5400 BC.",
+      "hatnote": "Salt has always been precious. How precious? Look at Europe's first town.",
+      "onwardLinkText": "Solnitsata",
+      "nextPage": "Solnitsata"
+    },
+    {
+      "page": "Solnitsata",
+      "url": "https://en.wikipedia.org/wiki/Solnitsata",
+      "revision": 1373685284,
+      "section": "lead",
+      "passage": "It is the oldest salt production center in continental Europe (5500‑4200 BC). It was the first prehistoric urban center in Europe. Solnitsata was a fortified stone settlement - citadelle, inner and outer city with pottery production site and the site of a salt production facility; it flourished c. 4700–4200 BC. The settlement was walled to protect the salt, a crucial commodity in antiquity.",
+      "hatnote": "It wasn't a market town or a fort. It was a salt works with walls.",
+      "onwardLinkText": null,
+      "nextPage": "Solnitsata"
+    },
+    {
+      "page": "Solnitsata",
+      "url": "https://en.wikipedia.org/wiki/Solnitsata",
+      "revision": 1373685284,
+      "section": "lead",
+      "passage": "Salt production drove Solnitsata's economy, and the town is believed to have supplied salt throughout the Balkans. A large collection of gold objects nearby has led archaeologists to consider that this trade resulted in great wealth for the town's residents — Varna Necropolis.",
+      "hatnote": "Salt, it turns out, made people very rich.",
+      "onwardLinkText": "Varna Necropolis",
+      "nextPage": "Varna Necropolis"
+    },
+    {
+      "page": "Varna Necropolis",
+      "url": "https://en.wikipedia.org/wiki/Varna_Necropolis",
+      "revision": 1359109704,
+      "section": "Burial rites",
+      "passage": "Some graves do not contain a skeleton, but grave gifts (cenotaphs). These symbolic (empty) graves are the richest in gold artifacts. Three thousand gold artifacts have been found, with a weight of approximately six kilograms. Grave 43 contained more gold than has been found in the entire rest of the world for that epoch. It was initially identified as the grave of a prince, but is now thought to be that of a smith.",
+      "hatnote": "A few kilometres away, an excavator driver hit a cemetery in 1972.",
+      "onwardLinkText": null,
+      "nextPage": "Varna Necropolis"
+    },
+    {
+      "page": "Varna Necropolis",
+      "url": "https://en.wikipedia.org/wiki/Varna_Necropolis",
+      "revision": 1359109704,
+      "section": "Burial rites",
+      "passage": "The findings showed that the Varna culture had trade relations with distant lands (possibly including the lower Volga and the Cyclades), perhaps exporting metal goods and salt from the Provadiya rock salt mine — Solnitsata. The copper ore used in the artifacts originated from a Sredna Gora mine near Stara Zagora, and Mediterranean Spondylus shells found in the graves may have served as primitive currency.",
+      "hatnote": "So where did all that wealth come from?",
+      "onwardLinkText": null,
+      "nextPage": "Varna Necropolis"
+    }
+  ],
+  "payoff": "Before gold had a price, salt did: Europe's first town guarded a salt spring, and its trade likely filled the world's oldest golden graves.",
+  "caveats": [
+    "The Varna page says the culture was 'perhaps' exporting salt from Solnitsata; the salt-for-gold link is a likely explanation, not a proven one."
+  ]
+}

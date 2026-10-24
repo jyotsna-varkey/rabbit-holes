@@ -1,0 +1,73 @@
+{
+  "id": "dracula-harald-sohlman",
+  "claim": "Sweden's 1899 Dracula is twice as long, and nobody knows who wrote it.",
+  "start": {
+    "title": "Dracula",
+    "page": "Dracula",
+    "description": "1897 novel by Bram Stoker",
+    "image": "snapshots/images/Dracula.webp"
+  },
+  "end": {
+    "title": "Powers of Darkness (Iceland)",
+    "page": "Powers of Darkness (Iceland)",
+    "description": "Early Icelandic version of Dracula",
+    "image": "snapshots/images/Powers-of-Darkness-Iceland.webp"
+  },
+  "knots": [
+    {
+      "page": "Dracula",
+      "url": "https://en.wikipedia.org/wiki/Dracula",
+      "revision": 1380156729,
+      "section": "Adaptations",
+      "passage": "A Swedish newspaper serialised an adaptation from June 1899 to February 1900 as Mörkrets Makter (\"Powers of Darkness\"). This version is almost twice as long as Stoker's novel, containing elements included in Stoker's notes but not in the published novel. The adaptation contains an author's preface signed \"B. S\", which Eighteen-Bisang and Miller conclude was not written by Stoker. The Swedish adaptation was rediscovered and republished in 2017.",
+      "hatnote": "Two years after Dracula, Sweden got its own, much longer version.",
+      "onwardLinkText": "Powers of Darkness",
+      "nextPage": "Powers of Darkness"
+    },
+    {
+      "page": "Powers of Darkness",
+      "url": "https://en.wikipedia.org/wiki/Powers_of_Darkness",
+      "revision": 1377659084,
+      "section": "lead",
+      "passage": "Powers of Darkness (Swedish Mörkrets makter) is an anonymous 1899 Swedish version of Bram Stoker's 1897 novel Dracula, serialised in the newspaper Dagen and credited only to Bram Stoker and the still-unidentified \"A—e.\"",
+      "hatnote": "Its author signed with just two letters and a dash.",
+      "onwardLinkText": null,
+      "nextPage": "Powers of Darkness"
+    },
+    {
+      "page": "Powers of Darkness",
+      "url": "https://en.wikipedia.org/wiki/Powers_of_Darkness",
+      "revision": 1377659084,
+      "section": "lead",
+      "passage": "It is a variant or adaptation rather than a direct translation, with added characters, new plot elements and significant differences from the original. It served as the basis of a shorter Icelandic version under the same title the following year (Icelandic: Makt Myrkranna), which appeared as both a newspaper serial and a book.",
+      "hatnote": "Whoever wrote it, the story soon travelled further north.",
+      "onwardLinkText": "Icelandic version",
+      "nextPage": "Powers of Darkness (Iceland)"
+    },
+    {
+      "page": "Powers of Darkness (Iceland)",
+      "url": "https://en.wikipedia.org/wiki/Powers_of_Darkness_(Iceland)",
+      "revision": 1371041375,
+      "section": "lead",
+      "passage": "Powers of Darkness (Icelandic: Makt myrkranna) is an Icelandic gothic horror novel by Valdimar Ásmundsson serialised in 1900–1901 that claims to be a translation of the English-language novel Dracula by Bram Stoker. Instead, it was in fact based on an earlier Swedish adaptation of Dracula, even with the same title — Mörkrets makter (\"Powers of Darkness\"), by \"A—e\", specifically the shortened version. Both adaptations differ significantly from Dracula, and are believed to have used an early draft of Stoker's novel as partial basis for the translation.",
+      "hatnote": "Iceland's version passed itself off as Stoker's own.",
+      "onwardLinkText": null,
+      "nextPage": "Powers of Darkness (Iceland)"
+    },
+    {
+      "page": "Powers of Darkness (Iceland)",
+      "url": "https://en.wikipedia.org/wiki/Powers_of_Darkness_(Iceland)",
+      "revision": 1371041375,
+      "section": "Reception of Makt myrkranna in Iceland",
+      "passage": "Despite the lack of positive reviews, Makt myrkranna became a household name in Iceland after Dracula with Bela Lugosi (1931) had been shown in a Reykjavík cinema in 1932, becoming the generic name for a whole series of vampire movies.",
+      "hatnote": "Iceland's critics hated it. Iceland's readers did not.",
+      "onwardLinkText": null,
+      "nextPage": "Powers of Darkness (Iceland)"
+    }
+  ],
+  "payoff": "Nobody knows who 'A—e' was, yet their unauthorised Dracula became Iceland's everyday name for vampire films.",
+  "caveats": [
+    "The Dracula page says the Swedish preface was signed 'B. S'; the Powers of Darkness page says the serial was credited to Stoker and 'A—e'.",
+    "File id kept from the earlier version; the hole no longer visits Harald Sohlman."
+  ]
+}

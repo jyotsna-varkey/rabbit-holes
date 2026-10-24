@@ -8,10 +8,10 @@
     "image": "snapshots/images/Aurora.webp"
   },
   "end": {
-    "title": "993–994 carbon-14 spike",
-    "page": "993–994 carbon-14 spike",
-    "description": "Solar storm",
-    "image": "snapshots/images/993-994-carbon-14-spike.webp"
+    "title": "L'Anse aux Meadows",
+    "page": "L'Anse aux Meadows",
+    "description": "Norse archaeological site in Newfoundland, Canada",
+    "image": "snapshots/images/L-Anse-aux-Meadows.webp"
   },
   "knots": [
     {
@@ -51,10 +51,20 @@
       "section": "lead",
       "passage": "In 2021, a scientific paper used the 993–994 carbon-14 spike as a benchmark in dendrochronology (tree-ring studies) to precisely determine that Vikings were present in L'Anse aux Meadows in Newfoundland exactly 1,000 years prior, in 1021.",
       "hatnote": "That storm left a timestamp in every tree alive at the time.",
+      "onwardLinkText": "L'Anse aux Meadows",
+      "nextPage": "L'Anse aux Meadows"
+    },
+    {
+      "page": "L'Anse aux Meadows",
+      "url": "https://en.wikipedia.org/wiki/L'Anse_aux_Meadows",
+      "revision": 1380499184,
+      "section": "Discovery and significance (1960–1968)",
+      "passage": "L'Anse aux Meadows is the only confirmed Norse site in North America outside Greenland, and represents the farthest known extent of European exploration and settlement of the New World before the voyages of Christopher Columbus almost 500 years later.",
+      "hatnote": "And this little camp in Newfoundland is no ordinary ruin.",
       "onwardLinkText": null,
-      "nextPage": "993–994 carbon-14 spike"
+      "nextPage": "L'Anse aux Meadows"
     }
   ],
-  "payoff": "A solar outburst stamped a marker into tree rings worldwide; Viking timber in Newfoundland carried it, dating their stay to 1021.",
+  "payoff": "A solar outburst stamped every tree ring of its year; Viking timber in Newfoundland carried it, fixing Europeans in America at 1021, centuries before Columbus.",
   "caveats": []
 }

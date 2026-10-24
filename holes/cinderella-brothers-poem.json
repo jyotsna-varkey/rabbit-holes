@@ -1,0 +1,70 @@
+{
+  "id": "cinderella-brothers-poem",
+  "claim": "The first Cinderella was freed by the brother of a famous poet.",
+  "start": {
+    "title": "Cinderella",
+    "page": "Cinderella",
+    "description": "European folk tale",
+    "image": "snapshots/images/Cinderella.webp"
+  },
+  "end": {
+    "title": "Brothers Poem",
+    "page": "Brothers Poem",
+    "description": "Poem written by Sappho",
+    "image": "snapshots/images/Brothers-Poem.webp"
+  },
+  "knots": [
+    {
+      "page": "Cinderella",
+      "url": "https://en.wikipedia.org/wiki/Cinderella",
+      "revision": 1378226760,
+      "section": "lead",
+      "passage": "The earliest known version of the Cinderella story is usually considered to be the Greek story of Rhodopis, as described by the scholar Strabo sometime between 7 BC and 23 AD, about a Greek slave girl who marries the king of Egypt.",
+      "hatnote": "The oldest Cinderella is a Greek slave girl in Egypt.",
+      "onwardLinkText": "Rhodopis",
+      "nextPage": "Rhodopis"
+    },
+    {
+      "page": "Rhodopis",
+      "url": "https://en.wikipedia.org/wiki/Rhodopis",
+      "revision": 1376722462,
+      "section": "Life",
+      "passage": "According to Herodotus, Rhodopis was a Thracian by birth. She was a slave of a man from Samos, Iadmon, alongside the fable-teller Aesop, before being brought to Naucratis as a slave by another Samian man, Xanthes. While in Naucratis, she had her freedom bought by Charaxos, the brother of the poet Sappho; as a free hetaira she became rich and subsequently dedicated one tenth of her wealth at Delphi in the form of iron spits. Herodotus' description of Rhodopis is the earliest use of the word hetaira in Greek literature to denote a kind of sex-worker.",
+      "hatnote": "Rhodopis may have been a real woman, with famous company.",
+      "onwardLinkText": null,
+      "nextPage": "Rhodopis"
+    },
+    {
+      "page": "Rhodopis",
+      "url": "https://en.wikipedia.org/wiki/Rhodopis",
+      "revision": 1376722462,
+      "section": "Sappho and Charaxos",
+      "passage": "Though several fragments of Sappho's surviving poetry apparently deal with Charaxos and his voyage to Naucratis (particularly fr. 5 and the Brothers Poem discovered in 2014), none of them can be identified with certainty with the critical poem mentioned by Herodotus, Athenaeus, and Strabo.",
+      "hatnote": "Sappho supposedly wrote about her brother's affair.",
+      "onwardLinkText": "Brothers Poem",
+      "nextPage": "Brothers Poem"
+    },
+    {
+      "page": "Brothers Poem",
+      "url": "https://en.wikipedia.org/wiki/Brothers_Poem",
+      "revision": 1376717041,
+      "section": "lead",
+      "passage": "The poem is structured as an address – possibly by Sappho herself – to an unknown person. The speaker chastises the addressee for saying repeatedly that Charaxos will return (possibly from a trading voyage), maintaining that his safety is in the hands of the gods and offering to pray to Hera for his return. The narrative then switches focus from Charaxos to Larichos, who the speaker hopes will relieve the family of their troubles when he becomes a man.",
+      "hatnote": "The poem lost since antiquity surfaced in 2014, fretting over Charaxos at sea.",
+      "onwardLinkText": null,
+      "nextPage": "Brothers Poem"
+    },
+    {
+      "page": "Brothers Poem",
+      "url": "https://en.wikipedia.org/wiki/Brothers_Poem",
+      "revision": 1376717041,
+      "section": "Reception",
+      "passage": "Despite scholars' disappointment over its quality, the Brothers Poem is valuable for the historical and biographical information it contains. It is the first fragment of Sappho discovered to mention the names \"Charaxos\" and \"Larichos\", both described as Sappho's brothers by ancient sources but not in any of her previously known writings. Before the poem was found, scholars had doubted that Sappho ever mentioned Charaxos.",
+      "hatnote": "Critics found it weak poetry. But it settled an old question.",
+      "onwardLinkText": null,
+      "nextPage": "Brothers Poem"
+    }
+  ],
+  "payoff": "Rhodopis, the first Cinderella, was freed by Sappho's brother Charaxos, a man Sappho was doubted to have named until a lost poem surfaced in 2014.",
+  "caveats": []
+}

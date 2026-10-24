@@ -1,0 +1,80 @@
+{
+  "id": "reading-copy-32",
+  "claim": "Australia fought its rabbit plague with a virus, delivered by a hormone-reading flea.",
+  "start": {
+    "title": "Rabbit",
+    "page": "Rabbit",
+    "description": "Mammals of the family Leporidae",
+    "image": "snapshots/images/Rabbit.webp"
+  },
+  "end": {
+    "title": "Spilopsyllus cuniculi",
+    "page": "Spilopsyllus cuniculi",
+    "description": "Species of flea",
+    "image": ""
+  },
+  "knots": [
+    {
+      "page": "Rabbit",
+      "url": "https://en.wikipedia.org/wiki/Rabbit",
+      "revision": 1378626872,
+      "section": "lead",
+      "passage": "They reproduce quickly, having short pregnancies, large litters of four to twelve kits, and no particular mating season; however, the mortality rate of rabbit embryos is high, and there exist several widespread diseases that affect rabbits, such as rabbit hemorrhagic disease and myxomatosis. In some regions, especially Australia, rabbits have caused ecological problems and are regarded as a pest.",
+      "hatnote": "Rabbits are built to breed fast, which matters a lot in the wrong place.",
+      "onwardLinkText": null,
+      "nextPage": "Rabbit"
+    },
+    {
+      "page": "Rabbit",
+      "url": "https://en.wikipedia.org/wiki/Rabbit",
+      "revision": 1378626872,
+      "section": "Environmental problems",
+      "passage": "Rabbits in Australia and New Zealand are considered to be such a pest that landowners are legally obliged to control them.",
+      "hatnote": "In one country, that breeding turned into a legal problem.",
+      "onwardLinkText": "Rabbits in Australia",
+      "nextPage": "Rabbits in Australia"
+    },
+    {
+      "page": "Rabbits in Australia",
+      "url": "https://en.wikipedia.org/wiki/Rabbits_in_Australia",
+      "revision": 1379883330,
+      "section": "History",
+      "passage": "Upon arriving in Australia, which had no native rabbit population, Austin asked his nephew William Austin in England to send him 12 grey rabbits, five hares, 72 partridges, and some sparrows so he could continue his hobby in Australia by creating a local population of the species. At the time, he had stated, \"The introduction of a few rabbits could do little harm and might provide a touch of home, in addition to a spot of hunting\".",
+      "hatnote": "It started with Thomas Austin, an English settler who missed hunting.",
+      "onwardLinkText": null,
+      "nextPage": "Rabbits in Australia"
+    },
+    {
+      "page": "Rabbits in Australia",
+      "url": "https://en.wikipedia.org/wiki/Rabbits_in_Australia",
+      "revision": 1379883330,
+      "section": "lead",
+      "passage": "Various methods in the 20th century have been attempted to control the Australian rabbit population. Conventional methods include shooting rabbits and destroying their warrens, but these had only limited success. From 1901 to 1907, a rabbit-proof fence was built in Western Australia in an unsuccessful attempt to contain the rabbits. The myxoma virus, which causes myxomatosis, was introduced into the rabbit population in the 1950s and had the effect of severely reducing the rabbit population. However, the survivors have since adapted and partially recovered their previous numbers. Domesticated rabbits are banned as pets in the state of Queensland.",
+      "hatnote": "'Little harm' turned out to be a century of fences and failures.",
+      "onwardLinkText": "myxomatosis",
+      "nextPage": "Myxomatosis"
+    },
+    {
+      "page": "Myxomatosis",
+      "url": "https://en.wikipedia.org/wiki/Myxomatosis",
+      "revision": 1378436096,
+      "section": "Transmission",
+      "passage": "Myxomatosis is transmitted primarily by hematophagic arthropods. The myxoma virus does not replicate in these arthropod hosts, but is physically carried by biting arthropods from one rabbit to another. In North America mosquitoes are the primary mode of pathogen transmission, and multiple species of mosquito can carry the virus. In Europe and Australia the rabbit flea is the primary means of transmission, with the virus able to survive 3–4 months in the flea.",
+      "hatnote": "The virus can't travel on its own. It needs a ride.",
+      "onwardLinkText": "rabbit flea",
+      "nextPage": "Spilopsyllus cuniculi"
+    },
+    {
+      "page": "Spilopsyllus cuniculi",
+      "url": "https://en.wikipedia.org/wiki/Spilopsyllus_cuniculi",
+      "revision": 1355340118,
+      "section": "Life cycle",
+      "passage": "Adult female rabbit fleas can detect the changing levels of certain hormones in a female rabbit's blood that show that she is near to parturition. This triggers sexual maturity in the fleas and they mate and start producing eggs. As soon as the young rabbits are born, the fleas move onto them and start feeding, mating and laying eggs. About twelve days later, they return to the mother rabbit.",
+      "hatnote": "And the flea has its own trick for keeping up with fast-breeding rabbits.",
+      "onwardLinkText": null,
+      "nextPage": "Spilopsyllus cuniculi"
+    }
+  ],
+  "payoff": "Rabbits conquered Australia by breeding fast; the flea that carries their virus breeds in step with them, reading each mother's hormones.",
+  "caveats": []
+}

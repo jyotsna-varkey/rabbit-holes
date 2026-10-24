@@ -1,0 +1,70 @@
+{
+  "id": "bell-fabian-stedman",
+  "claim": "Ringing every possible pattern on twelve church bells would take thirty years.",
+  "start": {
+    "title": "Bell",
+    "page": "Bell",
+    "description": "Percussion instrument",
+    "image": "snapshots/images/Bell.webp"
+  },
+  "end": {
+    "title": "Fabian Stedman",
+    "page": "Fabian Stedman",
+    "description": "English author, mathematician, and bellringer",
+    "image": ""
+  },
+  "knots": [
+    {
+      "page": "Bell",
+      "url": "https://en.wikipedia.org/wiki/Bell",
+      "revision": 1378305102,
+      "section": "Usage as musical instruments",
+      "passage": "A \"ring of bells\" is a set of four to twelve or more bells used in change ringing, a particular method of ringing bells in patterns. A peal in changing ringing may have bells playing for several hours, playing 5,000 or more patterns without a break or repetition.",
+      "hatnote": "English church bells don't play tunes. They play patterns.",
+      "onwardLinkText": "change ringing",
+      "nextPage": "Change ringing"
+    },
+    {
+      "page": "Change ringing",
+      "url": "https://en.wikipedia.org/wiki/Change_ringing",
+      "revision": 1367974907,
+      "section": "Peals and quarter peals",
+      "passage": "For example, while six bells have 720 permutations, eight bells have 40,320; furthermore, 10! = 3,628,800, and 12! = 479,001,600. Estimating two seconds for each change (a reasonable pace), one finds that while an extent on six bells can be accomplished in half an hour, an extent on eight bells should take nearly twenty-two and a half hours. (When in 1963 ringers in Loughborough became the only band in history to achieve this feat on tower bells, it took them just under 18 hours.) An extent on 12 bells would take over thirty years.",
+      "hatnote": "Ringers' holy grail is every possible order, once each. The numbers explode.",
+      "onwardLinkText": null,
+      "nextPage": "Change ringing"
+    },
+    {
+      "page": "Change ringing",
+      "url": "https://en.wikipedia.org/wiki/Change_ringing",
+      "revision": 1367974907,
+      "section": "History and modern culture",
+      "passage": "The recreation began to flourish in earnest in the Restoration era; an important milestone in the development of method ringing as a careful science was the 1668 publication by Richard Duckworth and Fabian Stedman of their book Tintinnalogia, which promised in its subtitle to lay down \"plain and easie Rules for Ringing all sorts of Plain Changes\". Stedman followed this in 1677 with another famous early guide, Campanalogia.",
+      "hatnote": "So ringers needed rules to walk through the orders without repeats.",
+      "onwardLinkText": "Fabian Stedman",
+      "nextPage": "Fabian Stedman"
+    },
+    {
+      "page": "Fabian Stedman",
+      "url": "https://en.wikipedia.org/wiki/Fabian_Stedman",
+      "revision": 1376719678,
+      "section": "Campanalogia",
+      "passage": "The major advance was in the publication of many new methods. Stedman devised 53 of his own methods on five, six, seven and eight bells. Among the five-bell methods was \"Stedman's Principle\", which is widely rung today. The publishing of ringing methods stimulated their use and development further, and in 1684 the College Youths rang three 720s, a total of 2,160 changes without standing their bells, at St Mary Overy.",
+      "hatnote": "In his 1677 Campanalogia, Stedman didn't just record methods. He invented them.",
+      "onwardLinkText": null,
+      "nextPage": "Fabian Stedman"
+    },
+    {
+      "page": "Fabian Stedman",
+      "url": "https://en.wikipedia.org/wiki/Fabian_Stedman",
+      "revision": 1376719678,
+      "section": "Primer on early English change ringing",
+      "passage": "As more bells were added to towers, Stedman's methods were adapted to higher numbers. Since the number of possible changes varies with the factorial ( n! ) of the number of bells, it became impractical to ring extents on numbers above 7 (the extent on 10 bells would take around three months). Any performance of 5,000 (approximately 7!) changes or more became recognised as a peal, but still with the traditional restrictions that no change may be repeated and that a bell may exchange only with one adjacent in the row. Nowadays many hundreds of methods are practised; all, in some degree, owe a debt to Stedman's pioneering work which has value as well in mathematics (group theory) as well as bell-ringing.",
+      "hatnote": "Bigger towers brought back the hook's problem: too many orders to ever finish.",
+      "onwardLinkText": null,
+      "nextPage": "Fabian Stedman"
+    }
+  ],
+  "payoff": "Since no band can ring every order on many bells, ringers settle for 5,000-change peals, using methods that trace back to Stedman and into maths.",
+  "caveats": []
+}

@@ -1,0 +1,70 @@
+{
+  "id": "reading-copy-49",
+  "claim": "Cinema began with an argument about how horses run.",
+  "start": {
+    "title": "Film",
+    "page": "Film",
+    "description": "Visual art consisting of moving images",
+    "image": "snapshots/images/Film.webp"
+  },
+  "end": {
+    "title": "The Horse in Motion",
+    "page": "The Horse in Motion",
+    "description": "1878 photographs by Eadweard Muybridge",
+    "image": "snapshots/images/The-Horse-in-Motion.webp"
+  },
+  "knots": [
+    {
+      "page": "Film",
+      "url": "https://en.wikipedia.org/wiki/Film",
+      "revision": 1381314774,
+      "section": "1830s–1880s: Before celluloid",
+      "passage": "In the late 1840s, the first examples of instantaneous photography came about. This provided hope that motion photography would soon be possible, but it took a few decades before it was successfully combined with a method to record series of sequential images in real-time. In 1878, Eadweard Muybridge managed to take a series of photographs of a running horse with a battery of cameras in a line along the track and published the results as The Horse in Motion on cabinet cards.",
+      "hatnote": "Before movies, photography first had to freeze a moment.",
+      "onwardLinkText": "Eadweard Muybridge",
+      "nextPage": "Eadweard Muybridge"
+    },
+    {
+      "page": "Eadweard Muybridge",
+      "url": "https://en.wikipedia.org/wiki/Eadweard_Muybridge",
+      "revision": 1376480153,
+      "section": "1872–1879: Stanford and horse gaits",
+      "passage": "Stanford also wanted a proper picture of the horse at full speed, and was frustrated that the existing depictions and descriptions seemed incorrect. The human eye could not fully break down the action at the quick gaits of the trot and gallop. Up until this time, most artists painted horses at a trot with one foot always on the ground; and at a full gallop with the front legs extended forward and the hind legs extended to the rear, and all feet off the ground. There are stories that Stanford had made a $25,000 bet on his theories about horse locomotion, but no evidence has been found of such a wager.",
+      "hatnote": "The horse belonged to a rich man who thought every painter had it wrong.",
+      "onwardLinkText": null,
+      "nextPage": "Eadweard Muybridge"
+    },
+    {
+      "page": "Eadweard Muybridge",
+      "url": "https://en.wikipedia.org/wiki/Eadweard_Muybridge",
+      "revision": 1376480153,
+      "section": "1872–1879: Stanford and horse gaits",
+      "passage": "The Daily Alta California reported that Muybridge first exhibited magic lantern projected slides of the photographs at the San Francisco Art Association on 8 July 1878. Newspapers were not yet able to reproduce detailed photographs, so the images were widely printed as woodcut engravings. Scientific American was among the publications at the time that carried reports and engravings of Muybridge's groundbreaking images. Six different series were soon published as cabinet cards, titled The Horse in Motion.",
+      "hatnote": "The 1878 photos caused a sensation, even before newspapers could print them.",
+      "onwardLinkText": "The Horse in Motion",
+      "nextPage": "The Horse in Motion"
+    },
+    {
+      "page": "The Horse in Motion",
+      "url": "https://en.wikipedia.org/wiki/The_Horse_in_Motion",
+      "revision": 1377295031,
+      "section": "1878: The series",
+      "passage": "Muybridge made several series of different horses performing several gaits over the next week. The photographs showed that all four feet are sometimes simultaneously off the ground and that when galloping this occurs when the feet are \"gathered\" beneath the body, not when the fore and hindlimbs are \"extended\" as sometimes depicted in older paintings.",
+      "hatnote": "The photographs settled the question, and the painters lost.",
+      "onwardLinkText": null,
+      "nextPage": "The Horse in Motion"
+    },
+    {
+      "page": "The Horse in Motion",
+      "url": "https://en.wikipedia.org/wiki/The_Horse_in_Motion",
+      "revision": 1377295031,
+      "section": "lead",
+      "passage": "The series became the first example of chronophotography, an early method to photographically record the passing of time, mainly used to document the different phases of locomotion for scientific study. It formed a very influential step in the development of motion pictures. One of the cards (often retitled Sallie Gardner at a Gallop) has even been hailed as \"the world's first bit of cinema\".",
+      "hatnote": "The cards did more than fix horse paintings.",
+      "onwardLinkText": null,
+      "nextPage": "The Horse in Motion"
+    }
+  ],
+  "payoff": "To prove painters drew galloping horses wrong, Stanford had Muybridge photograph one, and the result is hailed as the world's first bit of cinema.",
+  "caveats": []
+}

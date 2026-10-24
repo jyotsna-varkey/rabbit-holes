@@ -8,10 +8,10 @@
     "image": "snapshots/images/Cave.webp"
   },
   "end": {
-    "title": "Piltdown Man",
-    "page": "Piltdown Man",
-    "description": "1912 paleoanthropological hoax",
-    "image": "snapshots/images/Piltdown-Man.webp"
+    "title": "Charles Dawson",
+    "page": "Charles Dawson",
+    "description": "British archaeologist and fraudster (1864–1916)",
+    "image": "snapshots/images/Charles-Dawson.webp"
   },
   "knots": [
     {
@@ -19,18 +19,8 @@
       "url": "https://en.wikipedia.org/wiki/Cave",
       "revision": 1373031936,
       "section": "Archaeological and cultural importance",
-      "passage": "The earliest human fossils found in caves come from a series of caves near Krugersdorp and Mokopane in South Africa. The cave sites of Sterkfontein, Swartkrans, Kromdraai B, Drimolen, Malapa, Cooper's D, Gladysvale, Gondolin and Makapansgat have yielded a range of early human species dating back to between three and one million years ago, including Australopithecus africanus, Australopithecus sediba and Paranthropus robustus. However, it is not generally thought that these early humans were living in the caves, but that they were brought into the caves by carnivores that had killed them.",
-      "hatnote": "South Africa's caves hold some of the oldest human fossils on Earth.",
-      "onwardLinkText": null,
-      "nextPage": "Cave"
-    },
-    {
-      "page": "Cave",
-      "url": "https://en.wikipedia.org/wiki/Cave",
-      "revision": 1373031936,
-      "section": "Archaeological and cultural importance",
-      "passage": "The first early hominid ever found in Africa, the Taung Child in 1924, was also thought for many years to come from a cave, where it had been deposited after being predated on by an eagle. However, this is now debated (Hopley et al., 2013; Am. J. Phys. Anthrop.).",
-      "hatnote": "The very first one, though, may not have come from a cave at all.",
+      "passage": "The first early hominid ever found in Africa, the Taung Child in 1924, was also thought for many years to come from a cave, where it had been deposited after being predated on by an eagle.",
+      "hatnote": "South Africa's caves hold some of the oldest human fossils, and one famous skull.",
       "onwardLinkText": "Taung Child",
       "nextPage": "Taung Child"
     },
@@ -63,9 +53,29 @@
       "hatnote": "The fake that had misled them finally came apart in 1953.",
       "onwardLinkText": null,
       "nextPage": "Piltdown Man"
+    },
+    {
+      "page": "Piltdown Man",
+      "url": "https://en.wikipedia.org/wiki/Piltdown_Man",
+      "revision": 1380281079,
+      "section": "lead",
+      "passage": "An extensive scientific review in 2016 established that the hoax had been perpetrated by amateur archaeologist Charles Dawson, apparently in pursuit of recognition from other archaeologists.",
+      "hatnote": "So who made it?",
+      "onwardLinkText": "Charles Dawson",
+      "nextPage": "Charles Dawson"
+    },
+    {
+      "page": "Charles Dawson",
+      "url": "https://en.wikipedia.org/wiki/Charles_Dawson",
+      "revision": 1373873704,
+      "section": "Alleged discoveries",
+      "passage": "Investigating unusual elements of the natural world, Dawson presented a petrified toad inside a flint nodule, discovered a large supply of natural gas at Heathfield in East Sussex, reported on a sea-serpent in the English Channel, observed a new species of human, and found a strange goldfish/carp hybrid. It was even reported that he was experimenting with phosphorescent bullets as a hindrance to Zeppelin attacks on London during the First World War.",
+      "hatnote": "Piltdown wasn't Dawson's only astonishing discovery.",
+      "onwardLinkText": null,
+      "nextPage": "Charles Dawson"
     }
   ],
-  "payoff": "Africa's first hominid fossil was shrugged off for decades because Britain's experts had already been fooled by a forgery.",
+  "payoff": "Africa's real ancestor sat on a mantelpiece while Britain trusted a forgery, made by a man who also 'found' a toad sealed in flint.",
   "caveats": [
     "The Cave page notes that the Taung Child's cave origin, and its eagle predator, are debated."
   ]

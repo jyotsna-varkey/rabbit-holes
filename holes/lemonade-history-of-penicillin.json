@@ -49,8 +49,8 @@
       "url": "https://en.wikipedia.org/wiki/Pfizer",
       "revision": 1378286412,
       "section": "1849–1950: Early history",
-      "passage": "World War I caused a shortage of calcium citrate. Pfizer imported the compound from Italy for the manufacture of citric acid, and due to the disruption in supply, the company began a search for an alternative. They found this in the form of a fungus capable of fermenting sugar to citric acid. By 1919, the company was able to commercialize production of citric acid from this source. The company developed expertise in fermentation technology as a result. These skills were applied to the deep-submergence mass production of penicillin, an antibiotic, during World War II in response to the need to treat injured Allied soldiers.",
-      "hatnote": "Pfizer's lemon problem became a skill.",
+      "passage": "By 1919, the company was able to commercialize production of citric acid from this source. The company developed expertise in fermentation technology as a result. These skills were applied to the deep-submergence mass production of penicillin, an antibiotic, during World War II in response to the need to treat injured Allied soldiers.",
+      "hatnote": "Pfizer turned its lemon problem into a skill.",
       "onwardLinkText": "deep-submergence mass production",
       "nextPage": "History of penicillin"
     },
@@ -60,12 +60,22 @@
       "revision": 1376463778,
       "section": "Deep submergence",
       "passage": "Pfizer was a small New York company that specialised in making citric acid, for which it had developed deep submergence techniques. This involved converting molasses to citric acid by fermenting it in a large tank in which it was stirred and the pH was carefully controlled. Pfizer's vice president, John L. Smith, whose daughter had died from an infection, put all of Pfizer's resources into the development of a practical deep submergence technique.",
-      "hatnote": "The penicillin push came from an unlikely, and grieving, small company.",
+      "hatnote": "Pfizer bet the company on it, for a personal reason.",
+      "onwardLinkText": null,
+      "nextPage": "History of penicillin"
+    },
+    {
+      "page": "History of penicillin",
+      "url": "https://en.wikipedia.org/wiki/History_of_penicillin",
+      "revision": 1376463778,
+      "section": "Deep submergence",
+      "passage": "Pfizer opened a pilot plant with a 7,600-litre (2,000 US gal) fermentor in August 1943 and Ratajak delivered the first penicillin liquor from it on 27 August. The one tank was soon producing half the company's output. Smith then decided to construct a full-scale production plant. The nearby Rubel Ice plant was acquired on 20 September 1943 and converted into the first deep-submergence production plant, with fourteen 130,000-litre (34,000 US gal) tanks. The work was carried out in five months under the leadership of John E. McKeen and Edward J. Goett, and the plant opened on 1 March 1944.",
+      "hatnote": "It worked, and an ice factory became a penicillin factory.",
       "onwardLinkText": null,
       "nextPage": "History of penicillin"
     }
   ],
-  "payoff": "Brewing lemonade's acid from mould, instead of Italian lemons, gave Pfizer the vats and know-how to brew penicillin for the war.",
+  "payoff": "Brewing lemonade's acid from mould, not Italian lemons, gave Pfizer the tanks and know-how to brew wartime penicillin by the vatful.",
   "caveats": [
     "Pages differ slightly on whether Wehmer's mould was Penicillium; Pfizer's process used Aspergillus niger."
   ]

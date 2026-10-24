@@ -1,0 +1,70 @@
+{
+  "id": "fork-suvali-beach",
+  "claim": "The man who brought England the fork started a craze mocked in 'Yankee Doodle'.",
+  "start": {
+    "title": "Fork",
+    "page": "Fork",
+    "description": "Eating utensil",
+    "image": "snapshots/images/Fork.webp"
+  },
+  "end": {
+    "title": "Macaroni (fashion)",
+    "page": "Macaroni (fashion)",
+    "description": "Outlandishly fashionable man",
+    "image": "snapshots/images/Macaroni-fashion.webp"
+  },
+  "knots": [
+    {
+      "page": "Fork",
+      "url": "https://en.wikipedia.org/wiki/Fork",
+      "revision": 1376246875,
+      "section": "History",
+      "passage": "The fork's adoption in northern Europe was slower. Its use was first described in English by Thomas Coryat in a volume of writings on his Italian travels (1611), but for many years it was viewed as an unmanly Italian affectation.",
+      "hatnote": "Seventeenth-century Englishmen ate with knives and fingers.",
+      "onwardLinkText": "Thomas Coryat",
+      "nextPage": "Thomas Coryat"
+    },
+    {
+      "page": "Thomas Coryat",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Coryat",
+      "revision": 1373913552,
+      "section": "lead",
+      "passage": "He is often credited with introducing the table fork to England, with \"Furcifer\" (Latin: fork-bearer, rascal) becoming one of his nicknames. His description of how the Italians shielded themselves from the sun resulted in the word \"umbrella\" being introduced into English.",
+      "hatnote": "Thomas Coryat brought the fork home, and earned a rude nickname for it.",
+      "onwardLinkText": null,
+      "nextPage": "Thomas Coryat"
+    },
+    {
+      "page": "Thomas Coryat",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Coryat",
+      "revision": 1373913552,
+      "section": "Life and writings",
+      "passage": "Coryat's writings were hugely popular at the time. His accounts of inscriptions, many of which are now lost, were valuable; and his accounts of Italian customs and manners—including the use of the table fork—were influential in England at a time when other aspects of Italian culture, such as the madrigal, had already been in vogue for more than twenty years. He is considered by many to have been the first Briton to do a Grand Tour of Europe; a practice which became a mainstay of the education of upper class Englishmen in the 18th century.",
+      "hatnote": "His travel books were bestsellers, and set a fashion for the rich.",
+      "onwardLinkText": "Grand Tour",
+      "nextPage": "Grand Tour"
+    },
+    {
+      "page": "Grand Tour",
+      "url": "https://en.wikipedia.org/wiki/Grand_Tour",
+      "revision": 1378862176,
+      "section": "History",
+      "passage": "The Grand Tour was said to reinforce the old preconceptions and prejudices about national characteristics, as Jean Gailhard's Compleat Gentleman (1678) observes: \"French courteous. Spanish lordly. Italian amorous. German clownish.\" The deep suspicion with which Tour was viewed at home in England, where it was feared that the very experiences that completed the British gentleman might well undo him, were epitomised in the sarcastic nativist view of the ostentatiously \"well-travelled\" maccaroni of the 1760s and 1770s.",
+      "hatnote": "Not everyone at home admired the well-travelled young men.",
+      "onwardLinkText": "maccaroni",
+      "nextPage": "Macaroni (fashion)"
+    },
+    {
+      "page": "Macaroni (fashion)",
+      "url": "https://en.wikipedia.org/wiki/Macaroni_(fashion)",
+      "revision": 1364402815,
+      "section": "Examples of usage",
+      "passage": "The song \"Yankee Doodle\" from the time of the American Revolutionary War mentions a man who \"stuck a feather in his hat and called it macaroni\". Dr. Richard Shuckburgh was a British surgeon and also the author of the song's lyrics; the joke which he was making was that the Yankees were naive and unsophisticated enough to believe that a feather in the hat was a sufficient mark of a macaroni. Whether or not these were alternative lyrics sung in the British army, they were enthusiastically taken up by the Americans themselves.",
+      "hatnote": "The sneer crossed the Atlantic and ended up in a famous song.",
+      "onwardLinkText": null,
+      "nextPage": "Macaroni (fashion)"
+    }
+  ],
+  "payoff": "Coryat was mocked as a fork-bearing 'rascal'; the Grand Tourists who followed him were mocked as 'macaronis', right into 'Yankee Doodle'.",
+  "caveats": []
+}

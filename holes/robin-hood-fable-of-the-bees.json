@@ -1,0 +1,82 @@
+{
+  "id": "robin-hood-fable-of-the-bees",
+  "claim": "The man who made Robin Hood give to the poor went vegetarian over bees.",
+  "start": {
+    "title": "Robin Hood",
+    "page": "Robin Hood",
+    "description": "Heroic outlaw in English folklore",
+    "image": "snapshots/images/Robin-Hood.webp"
+  },
+  "end": {
+    "title": "The Fable of the Bees",
+    "page": "The Fable of the Bees",
+    "description": "1714 book by Bernard Mandeville",
+    "image": "snapshots/images/The-Fable-of-the-Bees.webp"
+  },
+  "knots": [
+    {
+      "page": "Robin Hood",
+      "url": "https://en.wikipedia.org/wiki/Robin_Hood",
+      "revision": 1378692534,
+      "section": "Early ballads",
+      "passage": "No extant early ballad actually shows Robin Hood \"giving to the poor\", although in \"A Gest of Robyn Hode\" Robin does make a large loan to an unfortunate knight, which he does not in the end require to be repaid; and later in the same ballad Robin Hood states his intention of giving money to the next traveller to come down the road if he happens to be poor.",
+      "hatnote": "The earliest Robin Hood didn't give to the poor at all.",
+      "onwardLinkText": null,
+      "nextPage": "Robin Hood"
+    },
+    {
+      "page": "Robin Hood",
+      "url": "https://en.wikipedia.org/wiki/Robin_Hood",
+      "revision": 1378692534,
+      "section": "Rediscovery: Percy and Ritson",
+      "passage": "In 1795, Joseph Ritson published an enormously influential edition of the Robin Hood ballads Robin Hood: A collection of all the Ancient Poems Songs and Ballads now extant, relative to that celebrated Outlaw.",
+      "hatnote": "Then, in 1795, an antiquary gathered every ballad he could find.",
+      "onwardLinkText": "Joseph Ritson",
+      "nextPage": "Joseph Ritson"
+    },
+    {
+      "page": "Joseph Ritson",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Ritson",
+      "revision": 1372380490,
+      "section": "Writing career",
+      "passage": "However, unlike the other works he edited, he gave in to his own political prejudices as a Jacobin when he included the idea, uncommon until then, that Robin Hood robbed the rich and gave to the poor rather than simply robbing the bishops and the Sheriff of Nottingham. When Ritson was asked who gave Robin Hood a commission to rob from the rich and give to the poor, he replied \"That same power which authorises kings to take it where it can be worst spared, and give it where it is least wanted.\"",
+      "hatnote": "He slipped his own politics into the legend.",
+      "onwardLinkText": null,
+      "nextPage": "Joseph Ritson"
+    },
+    {
+      "page": "Joseph Ritson",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Ritson",
+      "revision": 1372380490,
+      "section": "Vegetarianism",
+      "passage": "Ritson was an early vegetarianism activist. He became a vegetarian in 1772 after reading Bernard Mandeville's The Fable of the Bees and adopted a diet that was based on vegetables and milk. His ideas were criticised in his day, but were influential to many vegetarians who came after him. Ritson has been described as a pioneer of animal rights.",
+      "hatnote": "He also had strong views about dinner.",
+      "onwardLinkText": "The Fable of the Bees",
+      "nextPage": "The Fable of the Bees"
+    },
+    {
+      "page": "The Fable of the Bees",
+      "url": "https://en.wikipedia.org/wiki/The_Fable_of_the_Bees",
+      "revision": 1381117192,
+      "section": "lead",
+      "passage": "In The Grumbling Hive, Mandeville describes a bee community that thrives until the bees decide to live by honesty and virtue. As they abandon their desire for personal gain, the economy of their hive collapses, and they go on to live simple, \"virtuous\" lives in a hollow tree. Mandeville's implication—that private vices create social benefits—caused a scandal when public attention turned to the work, especially after its 1723 edition.",
+      "hatnote": "The book that converted him was a strange choice: a poem about bees.",
+      "onwardLinkText": null,
+      "nextPage": "The Fable of the Bees"
+    },
+    {
+      "page": "The Fable of the Bees",
+      "url": "https://en.wikipedia.org/wiki/The_Fable_of_the_Bees",
+      "revision": 1381117192,
+      "section": "Critique of meat consumption",
+      "passage": "I have often thought, if it was not for this tyranny which custom usurps over us, that men of any tolerable good-nature could never be reconciled to the killing of so many animals for their daily food, as long as the bountiful earth so plentifully provides them with varieties of vegetable dainties.",
+      "hatnote": "So why did a scandal about greedy bees turn Ritson vegetarian? This passage.",
+      "onwardLinkText": null,
+      "nextPage": "The Fable of the Bees"
+    }
+  ],
+  "payoff": "Ritson made Robin Hood give to the poor, then gave up meat because a scandalous book about greedy bees pitied the animals we eat.",
+  "caveats": [
+    "Robin Hood's page says John Stow first stated the rob-the-rich idea in 1592; Ritson's page calls it 'uncommon until then', i.e. he popularised rather than invented it."
+  ]
+}

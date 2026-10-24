@@ -1,0 +1,80 @@
+{
+  "id": "smile-the-expression-of-the-emotions",
+  "claim": "Our six basic emotions began with a Frenchman giving faces electric shocks.",
+  "start": {
+    "title": "Smile",
+    "page": "Smile",
+    "description": "Conscious or unconscious facial muscular movement conveying happiness or pleasure",
+    "image": "snapshots/images/Smile.webp"
+  },
+  "end": {
+    "title": "Paul Ekman",
+    "page": "Paul Ekman",
+    "description": "American psychologist (1934–2025)",
+    "image": "snapshots/images/Paul-Ekman.webp"
+  },
+  "knots": [
+    {
+      "page": "Smile",
+      "url": "https://en.wikipedia.org/wiki/Smile",
+      "revision": 1375776924,
+      "section": "Duchenne smile",
+      "passage": "While conducting research on the physiology of facial expressions in the mid-19th century, French neurologist Guillaume Duchenne identified two distinct types of smiles. A Duchenne smile involves contraction of both the zygomatic major muscle (which raises the corners of the mouth) and the orbicularis oculi muscle (which raises the cheeks and forms crow's feet around the eyes).",
+      "hatnote": "Scientists can tell a real smile from a polite one. Someone worked out how.",
+      "onwardLinkText": "Guillaume Duchenne",
+      "nextPage": "Guillaume Duchenne de Boulogne"
+    },
+    {
+      "page": "Guillaume Duchenne de Boulogne",
+      "url": "https://en.wikipedia.org/wiki/Guillaume_Duchenne_de_Boulogne",
+      "revision": 1372001565,
+      "section": "The Mechanism of Human Facial Expression",
+      "passage": "He is known, in particular, for the way he triggered muscular contractions with electrical probes, recording the resulting distorted and often grotesque expressions with the recently invented camera. He published his findings in 1862, together with extraordinary photographs of the induced expressions, in the book Mecanisme de la physionomie Humaine (The Mechanism of Human Facial Expression, also known as The Mechanism of Human Physiognomy).",
+      "hatnote": "His method was shocking, literally.",
+      "onwardLinkText": null,
+      "nextPage": "Guillaume Duchenne de Boulogne"
+    },
+    {
+      "page": "Guillaume Duchenne de Boulogne",
+      "url": "https://en.wikipedia.org/wiki/Guillaume_Duchenne_de_Boulogne",
+      "revision": 1372001565,
+      "section": "Duchenne's influence",
+      "passage": "Darwin's The Expression of the Emotions in Man and Animals written, in part, as a refutation of Sir Charles Bell's theologically doctrinaire physiognomy, was published in 1872. This book elaborated on Darwin's theory of evolution by natural selection and concentrated on the genetic aspects of human behaviour. Darwin's text carried illustrations drawn from Duchenne's photographs, and Darwin and Duchenne corresponded briefly.",
+      "hatnote": "The eerie photographs found a famous reader.",
+      "onwardLinkText": "The Expression of the Emotions in Man and Animals",
+      "nextPage": "The Expression of the Emotions in Man and Animals"
+    },
+    {
+      "page": "The Expression of the Emotions in Man and Animals",
+      "url": "https://en.wikipedia.org/wiki/The_Expression_of_the_Emotions_in_Man_and_Animals",
+      "revision": 1379752251,
+      "section": "Darwin's sources on emotional expression",
+      "passage": "As a result of his domestic psychology experiments, Darwin reduced the number of commonly observed emotions from Duchenne's calculation of more than sixty facial expressions to six \"core\" expressions: anger, fear, surprise, disgust, happiness, and sadness.",
+      "hatnote": "Darwin then ran experiments of his own, on family and friends.",
+      "onwardLinkText": null,
+      "nextPage": "The Expression of the Emotions in Man and Animals"
+    },
+    {
+      "page": "The Expression of the Emotions in Man and Animals",
+      "url": "https://en.wikipedia.org/wiki/The_Expression_of_the_Emotions_in_Man_and_Animals",
+      "revision": 1379752251,
+      "section": "lead",
+      "passage": "Though Expression has never been out of print since its first publication, it has also been described as Darwin's \"forgotten masterpiece\". Psychologist Paul Ekman has argued that Expression is the foundational text for modern scientific psychology.",
+      "hatnote": "The book faded, until a modern psychologist picked it up.",
+      "onwardLinkText": "Paul Ekman",
+      "nextPage": "Paul Ekman"
+    },
+    {
+      "page": "Paul Ekman",
+      "url": "https://en.wikipedia.org/wiki/Paul_Ekman",
+      "revision": 1371673388,
+      "section": "Emotions as universal categories",
+      "passage": "Working with Wallace V. Friesen, Ekman demonstrated that the findings extended to preliterate Fore tribesmen in Papua New Guinea, whose members could not have learned the meaning of expressions from exposure to media depictions of emotion.",
+      "hatnote": "Were those expressions universal, or learned? Ekman went looking for an answer.",
+      "onwardLinkText": null,
+      "nextPage": "Paul Ekman"
+    }
+  ],
+  "payoff": "Duchenne's shocked faces fed Darwin's six core emotions, and Ekman later found remote New Guinea tribesmen reading faces the same way.",
+  "caveats": []
+}

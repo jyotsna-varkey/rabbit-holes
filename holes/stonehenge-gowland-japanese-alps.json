@@ -1,0 +1,60 @@
+{
+  "id": "stonehenge-gowland-japanese-alps",
+  "claim": "The man who straightened Stonehenge gave Japan's highest mountains their English name.",
+  "start": {
+    "title": "Stonehenge",
+    "page": "Stonehenge",
+    "description": "Prehistoric monument in England",
+    "image": "snapshots/images/Stonehenge.webp"
+  },
+  "end": {
+    "title": "Japanese Alps",
+    "page": "Japanese Alps",
+    "description": "Series of mountain ranges in Japan",
+    "image": "snapshots/images/Japanese-Alps.webp"
+  },
+  "knots": [
+    {
+      "page": "Stonehenge",
+      "url": "https://en.wikipedia.org/wiki/Stonehenge",
+      "revision": 1377824638,
+      "section": "1901–2000",
+      "passage": "William Gowland oversaw the first major restoration of the monument in 1901. That involved straightening and concrete-setting of sarsen stone number 56, which was in danger of falling. In straightening the stone, he moved it about half a metre from its original position. Gowland also took the opportunity to further excavate the monument in what was the most scientific dig to date, revealing more about the erection of the stones than the previous 100 years of work had done.",
+      "hatnote": "In 1900 a storm toppled a stone, and a rescue began.",
+      "onwardLinkText": "William Gowland",
+      "nextPage": "William Gowland"
+    },
+    {
+      "page": "William Gowland",
+      "url": "https://en.wikipedia.org/wiki/William_Gowland",
+      "revision": 1351675343,
+      "section": "Biography",
+      "passage": "Gowland was born in Sunderland, County Durham, in northern England. He attended the Royal College of Chemistry and Royal School of Mines at South Kensington, specialising in metallurgy, and worked as a chemist and as a metallurgist at the Broughton Copper Company from 1870 to 1872. However, in 1872, at the age of 30, he was recruited by the Meiji government of the Empire of Japan as a foreign engineering advisor at the Osaka Zōheikyoku, the forerunner of the Japan Mint.",
+      "hatnote": "Gowland was no archaeologist. His day job was money.",
+      "onwardLinkText": null,
+      "nextPage": "William Gowland"
+    },
+    {
+      "page": "William Gowland",
+      "url": "https://en.wikipedia.org/wiki/William_Gowland",
+      "revision": 1351675343,
+      "section": "In Japan (1872–88)",
+      "passage": "During his spare time in Japan, Gowland enjoyed mountaineering, making the first recorded ascent on several peaks of the Japanese Alps, a name which Gowland coined and which was published in 1888 by Basil Hall Chamberlain in his Japan Guide. The name was later popularised by English missionary Walter Weston. Gowland also claimed to have been the first foreigner to have climbed Yarigatake in 1874.",
+      "hatnote": "In his spare time in Japan, he went straight up.",
+      "onwardLinkText": "Japanese Alps",
+      "nextPage": "Japanese Alps"
+    },
+    {
+      "page": "Japanese Alps",
+      "url": "https://en.wikipedia.org/wiki/Japanese_Alps",
+      "revision": 1369301187,
+      "section": "History",
+      "passage": "In 1907, Yoshitaro Shibasaki and others succeeded in climbing Mount Tsurugi, which is said to be the last unexplored peak in Japan and the most difficult to climb. On this occasion, they found the ornaments of a metal shugenja cane and a sword on the top of the mountain. A scientific investigation later confirmed that the ornaments of the cane and the sword were from the late Nara period to the early Heian period. It turned out that Mount Tsurugi had already been climbed by shugenja more than 1,000 years ago.",
+      "hatnote": "The 'unclimbed' peaks held a surprise for the pioneers.",
+      "onwardLinkText": null,
+      "nextPage": "Japanese Alps"
+    }
+  ],
+  "payoff": "A Victorian mint engineer named Japan's Alps, but the sword on Mount Tsurugi shows monks had reached the top a thousand years earlier.",
+  "caveats": []
+}

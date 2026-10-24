@@ -1,0 +1,72 @@
+{
+  "id": "mary-poppins-hidden-twin",
+  "claim": "Mary Poppins's creator adopted one twin and turned the other away.",
+  "start": {
+    "title": "Mary Poppins (film)",
+    "page": "Mary Poppins (film)",
+    "description": "1964 musical fantasy comedy film",
+    "image": "snapshots/images/Mary-Poppins-film.webp"
+  },
+  "end": {
+    "title": "Hubert Butler",
+    "page": "Hubert Butler",
+    "description": "Irish essayist (1900–1991)",
+    "image": ""
+  },
+  "knots": [
+    {
+      "page": "Mary Poppins (film)",
+      "url": "https://en.wikipedia.org/wiki/Mary_Poppins_(film)",
+      "revision": 1379356303,
+      "section": "lead",
+      "passage": "Mary Poppins is a 1964 American musical comedy film directed by Robert Stevenson and produced by Walt Disney, with songs written and composed by the Sherman Brothers. The screenplay is by Bill Walsh and Don DaGradi, based on P. L. Travers's book series Mary Poppins.",
+      "hatnote": "Disney's nanny came from the books of a famously private author.",
+      "onwardLinkText": "P. L. Travers",
+      "nextPage": "P. L. Travers"
+    },
+    {
+      "page": "P. L. Travers",
+      "url": "https://en.wikipedia.org/wiki/P._L._Travers",
+      "revision": 1371775295,
+      "section": "Personal life",
+      "passage": "At the age of 40, two years after moving out on her own, Travers adopted a baby boy from Ireland whom she named Camillus Travers. He was the grandchild of Joseph Hone, the first biographer of George Moore and W. B. Yeats, who was raising his seven grandchildren with his wife. Camillus was unaware of his true parentage (Travers had told him she was his mother) or the existence of any siblings until the age of 17, when Anthony Hone, his twin brother, came to London and knocked on the door of Travers's house at 50 Smith Street, Chelsea.",
+      "hatnote": "Travers, unmarried, became a mother in an unusual way.",
+      "onwardLinkText": null,
+      "nextPage": "P. L. Travers"
+    },
+    {
+      "page": "P. L. Travers",
+      "url": "https://en.wikipedia.org/wiki/P._L._Travers",
+      "revision": 1371775295,
+      "section": "Personal life",
+      "passage": "He had been drinking and demanded to see his brother. Travers refused and threatened to call the police. Anthony left but, soon after, following an argument with Travers, Camillus went looking for his brother and found him in a pub on Chelsea's King's Road. Anthony had been fostered and raised by the family of the essayist Hubert Butler in Ireland.",
+      "hatnote": "The author of the perfect nanny did not open the door.",
+      "onwardLinkText": "Hubert Butler",
+      "nextPage": "Hubert Butler"
+    },
+    {
+      "page": "Hubert Butler",
+      "url": "https://en.wikipedia.org/wiki/Hubert_Butler",
+      "revision": 1376859652,
+      "section": "lead",
+      "passage": "Hubert Marshal Butler (23 October 1900 – 5 January 1991) was an Irish essayist who wrote on a wide range of topics, from local history and archaeology to the political and religious affairs of eastern Europe before and during World War II. He also travelled to Nazi Austria on his own initiative and at his own expense and helped save Jews from being sent to concentration camps.",
+      "hatnote": "The other twin had grown up in a remarkable household.",
+      "onwardLinkText": null,
+      "nextPage": "Hubert Butler"
+    },
+    {
+      "page": "Hubert Butler",
+      "url": "https://en.wikipedia.org/wiki/Hubert_Butler",
+      "revision": 1376859652,
+      "section": "Post WW2",
+      "passage": "Butler was a keen market gardener as well as a writer and his circle of friends included the Mary Poppins creator Pamela Travers, the journalist Claud Cockburn, and the poet Padraic Colum.",
+      "hatnote": "And one last twist.",
+      "onwardLinkText": null,
+      "nextPage": "Hubert Butler"
+    }
+  ],
+  "payoff": "The twin Mary Poppins's author kept from her son was raised by the family of a man who rescued Jews from Nazi Austria, and who counted her as a friend.",
+  "caveats": [
+    "The Travers article says Anthony was raised by 'the family of' Hubert Butler."
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "woolly-mammoth-mammoth-priest",
+  "claim": "Why a Baptist preacher was nicknamed 'the Mammoth Priest'.",
+  "start": {
+    "title": "Woolly mammoth",
+    "page": "Woolly mammoth",
+    "description": "Extinct species of mammoth",
+    "image": "snapshots/images/Woolly-mammoth.webp"
+  },
+  "end": {
+    "title": "John Leland (Baptist)",
+    "page": "John Leland (Baptist)",
+    "description": "American Baptist minister (1754–1841)",
+    "image": "snapshots/images/John-Leland-Baptist.webp"
+  },
+  "knots": [
+    {
+      "page": "Woolly mammoth",
+      "url": "https://en.wikipedia.org/wiki/Woolly_mammoth",
+      "revision": 1380409560,
+      "section": "Taxonomy",
+      "passage": "The American president Thomas Jefferson, who had a keen interest in palaeontology, was partially responsible for transforming the word mammoth from a noun describing the prehistoric elephant to an adjective describing anything of surprisingly large size. The first recorded use of the word as an adjective was in a description of a wheel of cheese (the \"Cheshire Mammoth Cheese\") given to Jefferson in 1802.",
+      "hatnote": "'Mammoth' wasn't always an everyday word for 'huge'.",
+      "onwardLinkText": "Cheshire Mammoth Cheese",
+      "nextPage": "Cheshire Mammoth Cheese"
+    },
+    {
+      "page": "Cheshire Mammoth Cheese",
+      "url": "https://en.wikipedia.org/wiki/Cheshire_Mammoth_Cheese",
+      "revision": 1378896074,
+      "section": "Making the cheese",
+      "passage": "John Leland, believing that his efforts had helped Thomas Jefferson win the presidency, encouraged his townspeople to make a unique gesture to Jefferson. He urged each member of his congregation \"who owned a cow to bring every quart of milk given on a given day, or all the curd it would make, to a great cider mill...\" He also insisted that \"no Federal cow\" (cow owned by a Federalist farmer) be allowed to offer any milk, \"lest it should leaven the whole lump with a distasteful savour.\"",
+      "hatnote": "The cheese was a political thank-you, organised by a local pastor.",
+      "onwardLinkText": "John Leland",
+      "nextPage": "John Leland (Baptist)"
+    },
+    {
+      "page": "John Leland (Baptist)",
+      "url": "https://en.wikipedia.org/wiki/John_Leland_(Baptist)",
+      "revision": 1378888425,
+      "section": "Public life and views",
+      "passage": "Leland took the block from Cheshire to Washington, D.C., and presented it to Jefferson on January 1, 1802. While there, Leland was invited to preach to the Congress and the President. Of this incident he wrote that \"In November, 1801 I journeyed to the south, as far as Washington, in charge of a cheese, sent to President Jefferson. Notwithstanding my trust, I preached all the way there and on my return. I had large congregations; let in part by curiosity to hear the Mammoth Priest, as I was called.\"",
+      "hatnote": "Leland delivered the half-ton cheese himself.",
+      "onwardLinkText": null,
+      "nextPage": "John Leland (Baptist)"
+    },
+    {
+      "page": "John Leland (Baptist)",
+      "url": "https://en.wikipedia.org/wiki/John_Leland_(Baptist)",
+      "revision": 1378888425,
+      "section": "Public life and views",
+      "passage": "During the 1788–89 House of Representatives election, while still living in Virginia, Leland met with James Madison at the modern day location of Leland–Madison Memorial Park. There, Leland agreed not to oppose Madison in exchange for guarantees for religious freedom in the new Constitution. Madison was seated in the first Congress that same year and secured religious liberty in what became the First Amendment to the United States Constitution.",
+      "hatnote": "Years earlier, the same preacher had struck a deal with James Madison.",
+      "onwardLinkText": null,
+      "nextPage": "John Leland (Baptist)"
+    },
+    {
+      "page": "John Leland (Baptist)",
+      "url": "https://en.wikipedia.org/wiki/John_Leland_(Baptist)",
+      "revision": 1378888425,
+      "section": "Public life and views",
+      "passage": "Back in New England, Leland helped to found several Baptist congregations in Connecticut, to which President Thomas Jefferson would later write his famous letter to the Baptists of Danbury, Connecticut in 1802 regarding religious freedom.",
+      "hatnote": "And his Baptist friends got a famous reply from the cheese's recipient.",
+      "onwardLinkText": null,
+      "nextPage": "John Leland (Baptist)"
+    }
+  ],
+  "payoff": "The 'Mammoth Priest' who carted Jefferson's giant cheese had bargained for the First Amendment, and founded churches Jefferson famously wrote to.",
+  "caveats": []
+}

@@ -1,6 +1,6 @@
 {
   "id": "rose-itching-powder",
-  "claim": "What connects a rose garden, a childhood prank and itch research?",
+  "claim": "Roses hide a prank ingredient, and the prank itself began as medicine.",
   "start": {
     "title": "Rose",
     "page": "Rose",
@@ -17,10 +17,10 @@
     {
       "page": "Rose",
       "url": "https://en.wikipedia.org/wiki/Rose",
-      "revision": 1376625769,
+      "revision": 1381294744,
       "section": "Reproduction",
-      "passage": "Roses are insect-pollinated in nature. A fertilized ovary forms a berry-like aggregate fruit called a \"hip\". The hips of most species are red, but a few (e.g. Rosa pimpinellifolia) have dark purple to black hips. Each hip comprises an outer fleshy layer, the hypanthium, which contains 5–160 \"seeds\" (technically dry single-seeded fruits called achenes) embedded in a matrix of fine, but stiff, hairs. Rose hips of some species, especially the dog rose (Rosa canina) and rugosa rose (R. rugosa), are very rich in vitamin C, among the richest sources of any plant. The hips are eaten by fruit-eating birds such as thrushes and waxwings, which then disperse the seeds in their droppings.",
-      "hatnote": "Rose hips are packed with vitamin C, and something else.",
+      "passage": "Roses are insect-pollinated in nature. A fertilized ovary forms a berry-like aggregate fruit called a \"hip\". The hips of most species are red, but a few (e.g. Rosa pimpinellifolia) have dark purple to black hips. Each hip comprises an outer fleshy layer, the hypanthium, which contains 5–160 \"seeds\" (technically dry single-seeded fruits called achenes) embedded in a matrix of fine, but stiff, hairs.",
+      "hatnote": "Every rose hip is stuffed with seeds, and with something prickly.",
       "onwardLinkText": "hip",
       "nextPage": "Rose hip"
     },
@@ -30,7 +30,7 @@
       "revision": 1368231794,
       "section": "Uses",
       "passage": "Rose hips can be eaten raw, like berries, if care is taken to avoid the hairs inside the fruit. These urticating hairs are used as itching powder. It is often recommended to harvest rose hips after a first frost has softened the fruits for a sweeter flavor.",
-      "hatnote": "Which part of the fruit produces the irritating effect?",
+      "hatnote": "Those stiff hairs have a well-known second career.",
       "onwardLinkText": "itching powder",
       "nextPage": "Itching powder"
     },
@@ -40,12 +40,32 @@
       "revision": 1367011799,
       "section": "Description and uses",
       "passage": "The cause of the irritation can be mechanical, such as products containing ground rose hips. Another common ingredient is Mucuna pruriens, a type of legume that produces seedpods coated with thousands of detachable spicules (needle-like hairs). The spicules contain an enzyme, mucunain, that causes severe itching, and they have been sold commercially as itching powder. Mucuna pruriens has been used to test the efficacy of anti-itch drugs.",
-      "hatnote": "How does a prank material lead to the study of itch?",
+      "hatnote": "Rose hips are not the only plant behind the prank.",
+      "onwardLinkText": "Mucuna pruriens",
+      "nextPage": "Mucuna pruriens"
+    },
+    {
+      "page": "Mucuna pruriens",
+      "url": "https://en.wikipedia.org/wiki/Mucuna_pruriens",
+      "revision": 1380115310,
+      "section": "Itch-inducing properties",
+      "passage": "The hairs lining the seed pods contain serotonin and the protein mucunain, which cause severe itching when the pods are touched. The calyx below the flowers is also a source of itchy spicules and the stinging hairs on the outside of the seed pods are used in some brands of itching powder.",
+      "hatnote": "The bean's pods are covered in itch-triggering hairs.",
+      "onwardLinkText": "itching powder",
+      "nextPage": "Itching powder"
+    },
+    {
+      "page": "Itching powder",
+      "url": "https://en.wikipedia.org/wiki/Itching_powder",
+      "revision": 1367011799,
+      "section": "Description and uses",
+      "passage": "Itching powder was created from Mucuna pruriens in the early-19th century as a cure for lost feeling in the epidermis. When a person would lose feeling on their skin in conditions such as paralysis, the powder (mixed with lard to form an ointment) was used as a local stimulant believed to treat the condition.",
+      "hatnote": "But the powder was not invented as a joke.",
       "onwardLinkText": null,
       "nextPage": "Itching powder"
     }
   ],
-  "payoff": "The hairs inside a rose hip became itching powder, and a cousin itch-plant now tests anti-itch drugs.",
+  "payoff": "Rose-hip hairs and itchy bean pods fill the prankster's powder, which began life as an ointment to wake up numb skin.",
   "caveats": [
     "From Rabbit Hole Studio (GPT), rh-036, rank 76; hook is GPT's, hatnotes/payoff drafted by Claude."
   ]

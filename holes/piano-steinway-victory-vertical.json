@@ -1,0 +1,60 @@
+{
+  "id": "piano-steinway-victory-vertical",
+  "claim": "The Allies bombed one Steinway factory while the other built their gliders.",
+  "start": {
+    "title": "Piano",
+    "page": "Piano",
+    "description": "Keyboard instrument",
+    "image": "snapshots/images/Piano.webp"
+  },
+  "end": {
+    "title": "Victory Vertical",
+    "page": "Victory Vertical",
+    "description": "World War II piano manufactured by Steinway & Sons",
+    "image": "snapshots/images/Victory-Vertical.webp"
+  },
+  "knots": [
+    {
+      "page": "Piano",
+      "url": "https://en.wikipedia.org/wiki/Piano",
+      "revision": 1380900933,
+      "section": "Construction and components",
+      "passage": "The thick wooden posts on the underside (grands) or back (uprights) of the piano stabilize the rim structure and are made of softwood for stability. The requirement of structural strength, fulfilled by stout hardwood and thick metal, makes a piano heavy. Even a small upright can weigh 136 kg (300 lb). The Steinway concert grand (Model D) weighs 480 kg (1,060 lb). The largest piano available on the general market, the Fazioli F308, weighs 570 kg (1,260 lb).",
+      "hatnote": "A piano is built to be heavy, and Steinway's biggest is very heavy.",
+      "onwardLinkText": "Steinway",
+      "nextPage": "Steinway & Sons"
+    },
+    {
+      "page": "Steinway & Sons",
+      "url": "https://en.wikipedia.org/wiki/Steinway_%26_Sons",
+      "revision": 1378353868,
+      "section": "Expansion",
+      "passage": "The factory in Hamburg, Germany, could sell very few pianos during World War II. No more than a hundred pianos per year left the factory. In the later years of the war, the company was ordered to give up all the prepared and dried wood their lumber yard held for war production. In an air raid over Hamburg, several Allied bombs hit the factory and nearly destroyed it. After the war, Steinway restored the Hamburg factory with help from the Marshall Plan.",
+      "hatnote": "Steinway had two factories, one on each side of the coming war.",
+      "onwardLinkText": null,
+      "nextPage": "Steinway & Sons"
+    },
+    {
+      "page": "Steinway & Sons",
+      "url": "https://en.wikipedia.org/wiki/Steinway_%26_Sons",
+      "revision": 1378353868,
+      "section": "Expansion",
+      "passage": "During World War II, the Steinway factory in New York received orders from the Allied Armies to build wooden gliders to convey troops behind enemy lines. Steinway could make few normal pianos, but built 2,436 special models called the Victory Vertical or G.I. Piano. It was a small piano that four men could lift, painted olive drab, gray, or blue, designed to be carried aboard ships or dropped by parachute from an airplane to bring music to the soldiers.",
+      "hatnote": "Its New York factory, meanwhile, was building for the Allies.",
+      "onwardLinkText": "Victory Vertical",
+      "nextPage": "Victory Vertical"
+    },
+    {
+      "page": "Victory Vertical",
+      "url": "https://en.wikipedia.org/wiki/Victory_Vertical",
+      "revision": 1361374852,
+      "section": "Piano",
+      "passage": "The piano was approved and an initial order was placed for 405 models. Eight months later a follow-on order was made for an additional 800 and by the time production ended in 1953 some 2,436 had been shipped to the US military. Those intended for the US Army received \"three coats of olive drab lacquer, slightly dulled\" while others in blue or grey went to the Navy, Marine Corps, Army Air Corps and Coast Guard. The Victory Vertical was used in all theaters of the war and could fit in the bomb bay of a Boeing B-17 Flying Fortress.",
+      "hatnote": "The soldiers' piano served in every theatre of the war, and travelled like a bomb.",
+      "onwardLinkText": null,
+      "nextPage": "Victory Vertical"
+    }
+  ],
+  "payoff": "A firm famous for half-tonne concert grands spent the war building pianos to parachute to soldiers, slim enough for a B-17's bomb bay.",
+  "caveats": []
+}

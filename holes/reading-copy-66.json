@@ -1,0 +1,60 @@
+{
+  "id": "reading-copy-66",
+  "claim": "A Roman general looted one thing from Syracuse: Archimedes' model of the heavens.",
+  "start": {
+    "title": "Computer",
+    "page": "Computer",
+    "description": "Programmable machine that processes data",
+    "image": "snapshots/images/Computer.webp"
+  },
+  "end": {
+    "title": "Archimedes",
+    "page": "Archimedes",
+    "description": "Greek mathematician and physicist (c. 287 – 212 BC)",
+    "image": "snapshots/images/Archimedes.webp"
+  },
+  "knots": [
+    {
+      "page": "Computer",
+      "url": "https://en.wikipedia.org/wiki/Computer",
+      "revision": 1374584850,
+      "section": "Pre-20th century",
+      "passage": "The Antikythera mechanism is believed to be the earliest known mechanical analog computer, according to Derek J. de Solla Price. It was designed to calculate astronomical positions. It was discovered in 1901 in the Antikythera wreck off the Greek island of Antikythera, between Kythera and Crete, and has been dated to approximately c. 100 BCE. Devices of comparable complexity to the Antikythera mechanism would not reappear until the fourteenth century.",
+      "hatnote": "The first computer wasn't electronic. It came out of a Greek shipwreck.",
+      "onwardLinkText": "Antikythera mechanism",
+      "nextPage": "Antikythera mechanism"
+    },
+    {
+      "page": "Antikythera mechanism",
+      "url": "https://en.wikipedia.org/wiki/Antikythera_mechanism",
+      "revision": 1380887152,
+      "section": "Roman world",
+      "passage": "Cicero's De re publica (54–51 BC), a first century BC philosophical dialogue, mentions two machines that some modern authors consider as some kind of planetarium or orrery, predicting the movements of the Sun, the Moon, and the five planets known at that time. They were both built by Archimedes and brought to Rome by the Roman general Marcus Claudius Marcellus after the death of Archimedes at the siege of Syracuse in 212 BC. Marcellus had great respect for Archimedes and one of these machines was the only item he kept from the siege (the second was placed in the Temple of Virtue).",
+      "hatnote": "Ancient writers describe sky-machines like it, built by a famous name.",
+      "onwardLinkText": "Archimedes",
+      "nextPage": "Archimedes"
+    },
+    {
+      "page": "Archimedes",
+      "url": "https://en.wikipedia.org/wiki/Archimedes",
+      "revision": 1376063220,
+      "section": "lead",
+      "passage": "In astronomy, he made measurements of the apparent diameter of the Sun and the size of the universe. He is also said to have built a planetarium device that demonstrated the movements of the known celestial bodies, and may have been a precursor to the Antikythera mechanism.",
+      "hatnote": "Archimedes measured the sky as well as building models of it.",
+      "onwardLinkText": null,
+      "nextPage": "Archimedes"
+    },
+    {
+      "page": "Archimedes",
+      "url": "https://en.wikipedia.org/wiki/Archimedes",
+      "revision": 1376063220,
+      "section": "Renaissance and early modern Europe",
+      "passage": "Italian numismatist and archaeologist Filippo Paruta and Leonardo Agostini reported on a bronze coin in Sicily with the portrait of Archimedes on the obverse and a cylinder and sphere with the monogram ARMD in Latin on the reverse. Although the coin is now lost and its date is not precisely known, Ivo Schneider described the reverse as \"a sphere resting on a base – probably a rough image of one of the planetaria created by Archimedes,\" and suggested it might have been minted in Rome for Marcellus who \"according to ancient reports, brought two spheres of Archimedes with him to Rome\".",
+      "hatnote": "Marcellus may even have put his prize on a coin.",
+      "onwardLinkText": null,
+      "nextPage": "Archimedes"
+    }
+  ],
+  "payoff": "The shipwrecked 'first computer' had a famous ancestor: Archimedes' sky-machine, the one prize Marcellus kept and perhaps even stamped on a coin.",
+  "caveats": []
+}

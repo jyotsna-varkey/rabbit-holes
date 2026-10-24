@@ -1,0 +1,72 @@
+{
+  "id": "mango-evolutionary-anachronism",
+  "claim": "Your mango may be waiting for an animal that no longer exists.",
+  "start": {
+    "title": "Mango",
+    "page": "Mango",
+    "description": "Tropical fruit",
+    "image": "snapshots/images/Mango.webp"
+  },
+  "end": {
+    "title": "Jubaea",
+    "page": "Jubaea",
+    "description": "Genus of palms",
+    "image": "snapshots/images/Jubaea.webp"
+  },
+  "knots": [
+    {
+      "page": "Mango",
+      "url": "https://en.wikipedia.org/wiki/Mango",
+      "revision": 1377525185,
+      "section": "Taxonomy",
+      "passage": "Mangoes originated from the region between northwestern Myanmar, Bangladesh, and northeastern India. The mango is considered an evolutionary anachronism, whereby seed dispersal was once accomplished by a now-extinct evolutionary forager, such as a megafauna mammal.",
+      "hatnote": "The mango's big stone hints at a missing partner.",
+      "onwardLinkText": "evolutionary anachronism",
+      "nextPage": "Evolutionary anachronism"
+    },
+    {
+      "page": "Evolutionary anachronism",
+      "url": "https://en.wikipedia.org/wiki/Evolutionary_anachronism",
+      "revision": 1375742975,
+      "section": "lead",
+      "passage": "Evolutionary anachronism, also known as \"ecological anachronism\", is a term initially referring to attributes of certain plant species that possess traits seemed best explained as having been favorably selected in the past due to their coevolution with plant-eating megafauna that are now extinct. By far the most famous of these is the avocado, which is native to the Tropical Americas, but contains pits too large for even the largest currently living native frugivore, certain tapirs, but is readily consumed by Pleistocene megafaunal analogs (elephants, rhinos) if introduced to Africa and India.",
+      "hatnote": "The mango isn't alone: some fruits seem made for diners now extinct.",
+      "onwardLinkText": null,
+      "nextPage": "Evolutionary anachronism"
+    },
+    {
+      "page": "Evolutionary anachronism",
+      "url": "https://en.wikipedia.org/wiki/Evolutionary_anachronism",
+      "revision": 1375742975,
+      "section": "lead",
+      "passage": "Claims of gomphothere fruit consumption were validated in 2025 when teeth of the South American gomphothere Notiomastodon were found with the residue of Chilean cocopalm (Jubaea chilensis) fruit.",
+      "hatnote": "Scientists guessed elephant-like 'gomphotheres' ate such fruits. Then someone checked their teeth.",
+      "onwardLinkText": "Chilean cocopalm",
+      "nextPage": "Jubaea"
+    },
+    {
+      "page": "Jubaea",
+      "url": "https://en.wikipedia.org/wiki/Jubaea",
+      "revision": 1369932434,
+      "section": "History",
+      "passage": "In 1843, a specimen was grown from seed at Kew Gardens, London, England, and was moved into the Temperate House in 1863, eventually growing to 19 metres (62 ft). It was believed to be the world's tallest indoor plant, until it had to be felled in 2013 because it had outgrown the space available and could not be moved. It has been replaced by seedlings from the original tree.",
+      "hatnote": "That palm is no obscure plant: one grew famous in London.",
+      "onwardLinkText": null,
+      "nextPage": "Jubaea"
+    },
+    {
+      "page": "Jubaea",
+      "url": "https://en.wikipedia.org/wiki/Jubaea",
+      "revision": 1369932434,
+      "section": "Conservation",
+      "passage": "Analysis of tooth residue of the extinct gomphothere (elephant relative) Notiomastodon platensis, which became extinct around 12,000 years ago as part of the end-Pleistocene extinction event, found that it consumed Chilean wine palm fruit and probably acted as a seed disperser for the species, suggesting that the dispersal ability of Chilean wine palm had already been impacted prior to modern times.",
+      "hatnote": "In the wild, though, its fruit had lost its old courier long ago.",
+      "onwardLinkText": null,
+      "nextPage": "Jubaea"
+    }
+  ],
+  "payoff": "Like the mango, Chile's wine palm grows fruit for a missing partner, and a giant's 12,000-year-old teeth prove who used to eat it.",
+  "caveats": [
+    "The pronghorn 'ghost predator' idea is disputed, as the final passage shows."
+  ]
+}

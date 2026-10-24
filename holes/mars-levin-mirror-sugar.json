@@ -1,0 +1,82 @@
+{
+  "id": "mars-levin-mirror-sugar",
+  "claim": "A Viking Mars scientist tried to sell a sugar living things can't use.",
+  "start": {
+    "title": "Mars",
+    "page": "Mars",
+    "description": "Fourth planet from the Sun",
+    "image": "snapshots/images/Mars.webp"
+  },
+  "end": {
+    "title": "L-Glucose",
+    "page": "L-Glucose",
+    "description": "L-isomer of glucose",
+    "image": "snapshots/images/L-Glucose.webp"
+  },
+  "knots": [
+    {
+      "page": "Mars",
+      "url": "https://en.wikipedia.org/wiki/Mars",
+      "revision": 1379497097,
+      "section": "Habitability and habitation",
+      "passage": "The Viking probes of the mid-1970s carried experiments designed to detect microorganisms in Martian soil at their respective landing sites and had positive results, including a temporary increase in CO2 production on exposure to water and nutrients. This sign of life was later disputed by scientists, resulting in a continuing debate, with NASA scientist Gilbert Levin asserting that Viking may have found life.",
+      "hatnote": "In 1976, two NASA landers asked Martian soil a simple question: is anything alive?",
+      "onwardLinkText": "Gilbert Levin",
+      "nextPage": "Gilbert Levin"
+    },
+    {
+      "page": "Gilbert Levin",
+      "url": "https://en.wikipedia.org/wiki/Gilbert_Levin",
+      "revision": 1372943140,
+      "section": "lead",
+      "passage": "In 1997, Levin published his conclusion that a 1976 Viking lander had discovered living microorganisms on Mars. He is noted for still claiming that his experiment on board the 1976 Viking Mars landers to detect microscopic life on Mars rendered a true positive result. On April 12, 2012, an international team including Levin reported their analysis \"support the interpretation that the Viking LR experiment did detect extant microbial life on Mars.\" The team used cluster analysis of the Labeled Release experiments of the Viking program.",
+      "hatnote": "The man behind that experiment never backed down.",
+      "onwardLinkText": null,
+      "nextPage": "Gilbert Levin"
+    },
+    {
+      "page": "Gilbert Levin",
+      "url": "https://en.wikipedia.org/wiki/Gilbert_Levin",
+      "revision": 1372943140,
+      "section": "lead",
+      "passage": "He also patented an inexpensive method to make tagatose, an artificial sweetener, in 1988.",
+      "hatnote": "But his other legacy is in the kitchen.",
+      "onwardLinkText": "tagatose",
+      "nextPage": "Tagatose"
+    },
+    {
+      "page": "Tagatose",
+      "url": "https://en.wikipedia.org/wiki/Tagatose",
+      "revision": 1341155937,
+      "section": "Development as a sweetener",
+      "passage": "D-Tagatose was proposed as a sweetener by Gilbert Levin, after unsuccessful attempts to market L-glucose for that application.",
+      "hatnote": "Tagatose wasn't his first try at a better sugar.",
+      "onwardLinkText": "L-glucose",
+      "nextPage": "L-Glucose"
+    },
+    {
+      "page": "L-Glucose",
+      "url": "https://en.wikipedia.org/wiki/L-Glucose",
+      "revision": 1359376560,
+      "section": "lead",
+      "passage": "l-Glucose does not occur naturally in living organisms, but can be synthesized in the laboratory. l-Glucose is indistinguishable in taste from d-glucose, but cannot be used by living organisms as a source of energy because it cannot be phosphorylated by hexokinase, the first enzyme in the glycolysis pathway.",
+      "hatnote": "His first candidate was glucose's mirror image.",
+      "onwardLinkText": null,
+      "nextPage": "L-Glucose"
+    },
+    {
+      "page": "L-Glucose",
+      "url": "https://en.wikipedia.org/wiki/L-Glucose",
+      "revision": 1359376560,
+      "section": "Uses",
+      "passage": "l-Glucose was once proposed as a low-calorie sweetener and it is suitable for patients with diabetes mellitus, but it was never marketed due to excessive manufacturing costs.",
+      "hatnote": "So why is it not in your coffee?",
+      "onwardLinkText": null,
+      "nextPage": "L-Glucose"
+    }
+  ],
+  "payoff": "The man who fed Martian soil nutrients to catch life eating them also championed a mirror-image sugar that life on Earth cannot eat.",
+  "caveats": [
+    "Whether Viking detected life is disputed; most scientists think it did not."
+  ]
+}

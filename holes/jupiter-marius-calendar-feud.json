@@ -1,0 +1,60 @@
+{
+  "id": "jupiter-marius-calendar-feud",
+  "claim": "Jupiter's moons are named by the man Galileo called a 'poisonous reptile'.",
+  "start": {
+    "title": "Jupiter",
+    "page": "Jupiter",
+    "description": "Fifth planet from the Sun",
+    "image": "snapshots/images/Jupiter.webp"
+  },
+  "end": {
+    "title": "Gregorian calendar",
+    "page": "Gregorian calendar",
+    "description": "Internationally accepted civil calendar",
+    "image": ""
+  },
+  "knots": [
+    {
+      "page": "Jupiter",
+      "url": "https://en.wikipedia.org/wiki/Jupiter",
+      "revision": 1380352046,
+      "section": "Ground-based telescope research",
+      "passage": "In 1610, Italian polymath Galileo Galilei discovered the four largest moons of Jupiter (now known as the Galilean moons) using a telescope. This is thought to be the first telescopic observation of moons other than Earth's. Just one day after Galileo, Simon Marius independently discovered moons around Jupiter, though he did not publish his discovery in a book until 1614. It was Marius's names for the major moons, however, that stuck: Io, Europa, Ganymede, and Callisto.",
+      "hatnote": "Galileo found Jupiter's big moons, but someone else named them.",
+      "onwardLinkText": "Simon Marius",
+      "nextPage": "Simon Marius"
+    },
+    {
+      "page": "Simon Marius",
+      "url": "https://en.wikipedia.org/wiki/Simon_Marius",
+      "revision": 1371996516,
+      "section": "Dispute with Galileo",
+      "passage": "Capra published another book in 1607 that he had plagiarised from Galileo. Marius was implicated in the act due to his prior association with Capra, even though this was after Marius had left Padua. Galileo certainly was under that impression, as he referred to his \"old adversary\" (without explicitly naming Marius) as a \"poisonous reptile\", and an \"enemy of all mankind\".",
+      "hatnote": "Galileo did not take kindly to the competition.",
+      "onwardLinkText": null,
+      "nextPage": "Simon Marius"
+    },
+    {
+      "page": "Simon Marius",
+      "url": "https://en.wikipedia.org/wiki/Simon_Marius",
+      "revision": 1371996516,
+      "section": "Dispute with Galileo",
+      "passage": "Because of Galileo's stature in the scientific community, for nearly 300 years, Marius's reputation was tainted by Galileo's accusations. However, a scientific committee in the Netherlands in 1903 examined the evidence extensively and ruled in favor of Marius's independent discoveries, with results published by Johannes Bosscha in 1907. Marius had discovered the moons independently but had not noted it until 29 December 1609. Marius used the Julian calendar, and that date is equivalent to 8 January 1610, in the Gregorian one used by Galileo, one day after Galileo's letter in which he first described the moons.",
+      "hatnote": "For three centuries Galileo's version stuck. Then someone checked the dates.",
+      "onwardLinkText": "Gregorian",
+      "nextPage": "Gregorian calendar"
+    },
+    {
+      "page": "Gregorian calendar",
+      "url": "https://en.wikipedia.org/wiki/Gregorian_calendar",
+      "revision": 1380886632,
+      "section": "Adoption",
+      "passage": "Many Protestant countries initially objected to adopting a Catholic innovation; some Protestants feared the new calendar was part of a plot to return them to the Catholic fold. For example, the British could not bring themselves to adopt the Catholic system explicitly: the Annexe to their Calendar (New Style) Act 1750 established a computation for the date of Easter that achieved the same result as Gregory's rules, without actually referring to him.",
+      "hatnote": "Why were the two astronomers on different calendars at all?",
+      "onwardLinkText": null,
+      "nextPage": "Gregorian calendar"
+    }
+  ],
+  "payoff": "Marius dated his sighting in the old Julian calendar Protestants clung to; converted, it fell a day after Galileo's, and both were honest.",
+  "caveats": []
+}

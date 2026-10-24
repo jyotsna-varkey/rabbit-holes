@@ -49,8 +49,8 @@ describe('bundled images', () => {
     expect(files.filter((f) => !/\.(webp|svg)$/i.test(f)).map((f) => f.slice(ROOT.length))).toEqual([]);
   });
 
-  it('stay within a 90 MB budget (owner, 2026-10-21: raised while all 132 holes are under review)', () => {
+  it('stay within a 140 MB budget (owner, 2026-10-24: 242 holes; article images at quality 60)', () => {
     const total = files.reduce((n, f) => n + statSync(f).size, 0);
-    expect(total / 1048576).toBeLessThan(90);
+    expect(total / 1048576).toBeLessThan(140);
   });
 });

@@ -1,0 +1,80 @@
+{
+  "id": "dragon-franz-nopcsa",
+  "claim": "On an island of dwarf dinosaurs, the top predator was a giant 'dragon'.",
+  "start": {
+    "title": "Dragon",
+    "page": "Dragon",
+    "description": "Legendary creature",
+    "image": "snapshots/images/Dragon.webp"
+  },
+  "end": {
+    "title": "Hațeg Island",
+    "page": "Hațeg Island",
+    "description": "Prehistoric island",
+    "image": "snapshots/images/Ha-eg-Island.webp"
+  },
+  "knots": [
+    {
+      "page": "Dragon",
+      "url": "https://en.wikipedia.org/wiki/Dragon",
+      "revision": 1380896561,
+      "section": "Iran",
+      "passage": "Azhi Dahaka (Avestan Great Snake) is a dragon or demonic figure in the texts and mythology of Zoroastrian Persia, where he is one of the subordinates of Angra Mainyu. Alternate names include Azi Dahak, Dahaka, and Dahak. Aži (nominative ažiš) is the Avestan word for \"serpent\" or \"dragon.",
+      "hatnote": "Ancient Persia had its own great dragon, a demonic serpent.",
+      "onwardLinkText": null,
+      "nextPage": "Dragon"
+    },
+    {
+      "page": "Dragon",
+      "url": "https://en.wikipedia.org/wiki/Dragon",
+      "revision": 1380896561,
+      "section": "Iran",
+      "passage": "The Azhdarchid group of pterosaurs are named from a Persian word for \"dragon\" that ultimately comes from Aži Dahāka.",
+      "hatnote": "That Persian dragon now names a family of real flying reptiles.",
+      "onwardLinkText": "Azhdarchid",
+      "nextPage": "Azhdarchidae"
+    },
+    {
+      "page": "Azhdarchidae",
+      "url": "https://en.wikipedia.org/wiki/Azhdarchidae",
+      "revision": 1379242893,
+      "section": "Description",
+      "passage": "Most large azhdarchids probably fed on small prey, including hatchling and small dinosaurs; in an unusual modification of the azhdarchid bodyplan, the robust Hatzegopteryx may have tackled larger prey as the apex predator in its ecosystem.",
+      "hatnote": "Azhdarchids were giant pterosaurs, and one broke the family mould.",
+      "onwardLinkText": "Hatzegopteryx",
+      "nextPage": "Hatzegopteryx"
+    },
+    {
+      "page": "Hatzegopteryx",
+      "url": "https://en.wikipedia.org/wiki/Hatzegopteryx",
+      "revision": 1352273204,
+      "section": "lead",
+      "passage": "Unusually among giant azhdarchids, Hatzegopteryx had a very wide skull bearing large muscular attachments, bones with a spongy internal texture instead of being hollow, and a short, robust, and heavily muscled neck measuring 1.5 m (5 ft) long, which was about half the length of other azhdarchids with comparable wingspans and was capable of withstanding strong bending forces. Hatzegopteryx inhabited Hațeg Island, an island situated in the Cretaceous subtropics within the prehistoric Tethys Sea. In the absence of large theropods, Hatzegopteryx was likely the apex predator of Hațeg Island, tackling proportionally larger prey (including dwarf titanosaurs and iguanodontians) than other azhdarchids.",
+      "hatnote": "Hatzegopteryx was built like a bruiser, and lived on an island.",
+      "onwardLinkText": "Hațeg Island",
+      "nextPage": "Hațeg Island"
+    },
+    {
+      "page": "Hațeg Island",
+      "url": "https://en.wikipedia.org/wiki/Ha%C8%9Beg_Island",
+      "revision": 1378815624,
+      "section": "lead",
+      "passage": "The Hungarian paleontologist Franz Nopcsa theorized that \"limited resources\" found on the island commonly have an effect of \"reducing the size of animals\" over the generations, producing a localized form of dwarfism. Nopcsa's theory of insular dwarfism—also known as the island rule—is today widely accepted.",
+      "hatnote": "Hațeg's dinosaurs were oddly small. A Hungarian palaeontologist worked out why.",
+      "onwardLinkText": null,
+      "nextPage": "Hațeg Island"
+    },
+    {
+      "page": "Hațeg Island",
+      "url": "https://en.wikipedia.org/wiki/Ha%C8%9Beg_Island",
+      "revision": 1378815624,
+      "section": "Paleofauna",
+      "passage": "About nine species of dinosaurs and several species of pterosaur are thought to have been indigenous to the island. The azhdarchid pterosaurs were rather common predators on this island. These insular reptiles differed from their continental relatives due to island syndrome, which describes the differences in morphology, ecology and physiology seen in insular species compared to their continental relatives. Many of them exhibit island dwarfism, becoming much smaller than their mainland relatives. For example the titanosaur, Magyarosaurus dacus, had a body mass of only 900 kilograms (2,000 lb) while mainland titanosaurs like Patagotitan could reach 69 tonnes (76 tons). Conversely Hatzegopteryx exhibited island gigantism, becoming one of the largest pterosaurs ever to have lived.",
+      "hatnote": "Shrinking was the island's rule, with one spectacular exception.",
+      "onwardLinkText": null,
+      "nextPage": "Hațeg Island"
+    }
+  ],
+  "payoff": "Named after Persia's dragon, Hatzegopteryx grew into one of the biggest flyers ever on the very island where nearly everything else shrank.",
+  "caveats": []
+}

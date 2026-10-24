@@ -1,0 +1,72 @@
+{
+  "id": "elevator-oriel-chambers",
+  "claim": "A Liverpool office with the first nonstop lift may have shaped Chicago's skyscrapers.",
+  "start": {
+    "title": "Elevator",
+    "page": "Elevator",
+    "description": "Vertical transport machine",
+    "image": "snapshots/images/Elevator.webp"
+  },
+  "end": {
+    "title": "Oriel Chambers",
+    "page": "Oriel Chambers",
+    "description": "Listed building in Liverpool, England",
+    "image": ""
+  },
+  "knots": [
+    {
+      "page": "Elevator",
+      "url": "https://en.wikipedia.org/wiki/Elevator",
+      "revision": 1380465810,
+      "section": "Paternoster",
+      "passage": "A special type of elevator is the paternoster, a constantly moving chain of boxes that revolve on a track. A similar concept, called the manlift or humanlift, moves only a small platform, which the rider mounts while using a handhold seen in multi-story industrial plants.",
+      "hatnote": "Some lifts never stop: you just step on as a box goes by.",
+      "onwardLinkText": null,
+      "nextPage": "Elevator"
+    },
+    {
+      "page": "Elevator",
+      "url": "https://en.wikipedia.org/wiki/Elevator",
+      "revision": 1380465810,
+      "section": "Industrial era",
+      "passage": "Peter Ellis, an English architect, installed the first elevators that could be described as paternoster elevators in Oriel Chambers in Liverpool in 1868.",
+      "hatnote": "The first of these nonstop lifts went into one Liverpool office block.",
+      "onwardLinkText": "Peter Ellis",
+      "nextPage": "Peter Ellis (architect)"
+    },
+    {
+      "page": "Peter Ellis (architect)",
+      "url": "https://en.wikipedia.org/wiki/Peter_Ellis_(architect)",
+      "revision": 1377473552,
+      "section": "lead",
+      "passage": "Peter Ellis (1805–1884) was a British architect from Liverpool and inventor of the paternoster lift. He is best known for designing Oriel Chambers, built in 1864, which is the world's first building to feature a metal-framed glass curtain wall. For this achievement he appears in the Guinness Book of Records.",
+      "hatnote": "His lift is a footnote. His building made the record books.",
+      "onwardLinkText": "Oriel Chambers",
+      "nextPage": "Oriel Chambers"
+    },
+    {
+      "page": "Oriel Chambers",
+      "url": "https://en.wikipedia.org/wiki/Oriel_Chambers",
+      "revision": 1380365184,
+      "section": "History",
+      "passage": "The plainest brick warehouse in town is infinitely superior as a building to that large agglomeration of protruding plate-glass bubbles in Water Street termed Oriel Chambers. Did we not see this vast abortion – which would be depressing were it not ludicrous – with our own eyes, we should have doubted the possibility of its existence. Where and in what are their beauties supposed to lie?",
+      "hatnote": "In 1866 a building magazine gave its verdict on all that glass.",
+      "onwardLinkText": null,
+      "nextPage": "Oriel Chambers"
+    },
+    {
+      "page": "Oriel Chambers",
+      "url": "https://en.wikipedia.org/wiki/Oriel_Chambers",
+      "revision": 1380365184,
+      "section": "History",
+      "passage": "However, the potential of Ellis's design was not lost on all of his contemporaries. John Wellborn Root studied in Liverpool as a teenaged boy, having been sent there by his father to be safe from the American Civil War following the Atlanta campaign in 1864. In all likelihood, he studied the then-brand-new Oriel Chambers and put the lessons learned to good use when he developed into an important architect of the Chicago School of Architecture, exporting Ellis's ideas across the Atlantic Ocean. Long rows of bay windows (of which oriels are a type) characterise some of Burnham and Root's 1880s American skyscrapers.",
+      "hatnote": "But one teenage visitor from America was paying attention.",
+      "onwardLinkText": null,
+      "nextPage": "Oriel Chambers"
+    }
+  ],
+  "payoff": "Critics called Ellis's glass-walled office a 'vast abortion', but a refugee boy from America likely carried its ideas to Chicago's skyscrapers.",
+  "caveats": [
+    "Root's debt to Oriel Chambers is a likelihood, not documented fact: the article says 'in all likelihood'. The hook says 'may'."
+  ]
+}

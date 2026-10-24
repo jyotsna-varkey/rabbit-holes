@@ -1,0 +1,80 @@
+{
+  "id": "reading-copy-36",
+  "claim": "The first battery grew out of an argument about frogs' legs.",
+  "start": {
+    "title": "Frog",
+    "page": "Frog",
+    "description": "Order of amphibians",
+    "image": "snapshots/images/Frog.webp"
+  },
+  "end": {
+    "title": "Electrophorus voltai",
+    "page": "Electrophorus voltai",
+    "description": "Species of electric eel",
+    "image": ""
+  },
+  "knots": [
+    {
+      "page": "Frog",
+      "url": "https://en.wikipedia.org/wiki/Frog",
+      "revision": 1381001026,
+      "section": "Scientific research",
+      "passage": "Frogs have served as experimental animals throughout the history of science. Eighteenth-century biologist Luigi Galvani discovered the link between electricity and the nervous system by studying frogs. He created one of the first tools for measuring electric current out of a frog leg.",
+      "hatnote": "Frogs have done a lot for science, starting with their legs.",
+      "onwardLinkText": "electricity",
+      "nextPage": "Electricity"
+    },
+    {
+      "page": "Electricity",
+      "url": "https://en.wikipedia.org/wiki/Electricity",
+      "revision": 1379297547,
+      "section": "History",
+      "passage": "In 1791, Luigi Galvani published his discovery of bioelectromagnetics, demonstrating that electricity was the medium by which neurons passed signals to the muscles. Alessandro Volta's battery, or voltaic pile, of 1800, made from alternating layers of zinc and copper, provided scientists with a more reliable source of electrical energy than the electrostatic machines previously used.",
+      "hatnote": "Galvani's frogs set off a chain reaction in physics.",
+      "onwardLinkText": "voltaic pile",
+      "nextPage": "Voltaic pile"
+    },
+    {
+      "page": "Voltaic pile",
+      "url": "https://en.wikipedia.org/wiki/Voltaic_pile",
+      "revision": 1378596071,
+      "section": "lead",
+      "passage": "The voltaic pile was the first electrical battery that could continuously provide an electric current to a circuit. It was invented by Italian chemist Alessandro Volta, who published his experiments in 1799. Its invention can be traced back to an argument between Volta and Luigi Galvani, Volta's fellow Italian scientist who had conducted experiments on frogs' legs.",
+      "hatnote": "Volta's battery began as a disagreement.",
+      "onwardLinkText": "Alessandro Volta",
+      "nextPage": "Alessandro Volta"
+    },
+    {
+      "page": "Alessandro Volta",
+      "url": "https://en.wikipedia.org/wiki/Alessandro_Volta",
+      "revision": 1378066820,
+      "section": "Volta and Galvani",
+      "passage": "In 1780, Luigi Galvani, an Italian physicist, discovered something he named \"animal electricity\" when two different metals were connected in series with a frog's leg and to one another. Volta realised that the frog's leg served as both a conductor of electricity (what we would now call an electrolyte) and as a detector of electricity. He also understood that the frog's legs were irrelevant to the electric current, which was caused by the two differing metals. He replaced the frog's leg with brine-soaked paper and detected the flow of electricity by other means familiar to him from his previous studies.",
+      "hatnote": "Galvani thought the electricity came from the frog. Volta disagreed.",
+      "onwardLinkText": null,
+      "nextPage": "Alessandro Volta"
+    },
+    {
+      "page": "Alessandro Volta",
+      "url": "https://en.wikipedia.org/wiki/Alessandro_Volta",
+      "revision": 1378066820,
+      "section": "Legacy",
+      "passage": "The electric eel species Electrophorus voltai, described in 2019 as the strongest bioelectricity producer in nature, was named after Volta.",
+      "hatnote": "Two centuries later, biologists paid him an ironic tribute.",
+      "onwardLinkText": "Electrophorus voltai",
+      "nextPage": "Electrophorus voltai"
+    },
+    {
+      "page": "Electrophorus voltai",
+      "url": "https://en.wikipedia.org/wiki/Electrophorus_voltai",
+      "revision": 1369099621,
+      "section": "lead",
+      "passage": "Electrophorus voltai, or Volta's electric eel, is a species of electric eel found in South America. It is the strongest known bioelectricity generator in nature, producing up to 860 volts.",
+      "hatnote": "It is no ordinary fish.",
+      "onwardLinkText": null,
+      "nextPage": "Electrophorus voltai"
+    }
+  ],
+  "payoff": "Volta proved the frog's leg didn't matter and built the battery without it; his namesake is nature's strongest known electric animal.",
+  "caveats": []
+}

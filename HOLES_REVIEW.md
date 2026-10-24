@@ -1,17 +1,20 @@
-# Holes review (after the darkness, connection and balance pass)
+# Holes review (after the endings, chains, pacing and hooks pass)
 
-Owner's notes on the first 16 holes set the rules: cut anything as dark as Ugolino, the Fallen Astronaut or Fustat;
-fix holes whose pages are joined by coincidence (Dodo, Tornado) or where one page takes over (the Bezoar).
+Your notes on rows 17–56 (abrupt endings, one-fact holes, lingering on one page, weak hooks) became five rules, applied to every hole still standing.
 
-| | In the app | Not in the app | Total |
-|---|---|---|---|
-| Kept as is | 82 | 99 | 181 |
-| Salvaged (reconnected, rebalanced, new hook) | 29 | 63 | 92 |
-| Recommend cut (unsalvageable or duplicate) | 3 | 52 | 55 |
-| **Cut as too dark** (holes-cut-dark.csv) | 18 | 33 | 51 |
+- **Refined:** 183 of 273 holes changed (the rest already met the rules). Your 11 commented holes were done first.
+- **Quality check before adding:** two independent judges scored the 162 refined holes that weren't in the app, with 20 of the holes you'd approved mixed in blind as a yardstick.
+  128 cleared the bar (104 straight away, 24 after a fix pass); the rest are listed as left out, with the judges' reasons.
 
-Of the recommended cuts, 42 duplicate a better hole and 13 could not be made to hang together.
+| | Holes |
+|---|---|
+| In the app now | **242** |
+| …already there | 111 |
+| …newly added | 128 |
+| …recommended cut, your call | 3 |
+| Left out (below the bar, unfixable, duplicates, recommended cuts) | 86 |
+| Cut earlier as too dark (holes-cut-dark.csv) | 51 |
 
-- **holes-review.csv**: every hole still standing, with its full content, sorted: in the app, then not in the app, then recommended cuts.
-  Columns `verdict` and `what changed` say what happened to each. Leave `feedback` empty to keep; write `cut` or `edit: …`.
-- **holes-cut-dark.csv**: the 51 cut as too dark, with the reason; 14 are marked as rescuable by dropping one passage.
+Holes in the app: 255–532 words (median 333); pages per hole: 3 pages: 131, 4 pages: 93, 5 pages: 18.
+
+- **holes-review.csv**: every hole with full content, same row order as before. `in the app?` says whether it's in and why not if it isn't; `this pass` says what changed. Feedback column as before: empty = keep, `cut`, or `edit: …`.

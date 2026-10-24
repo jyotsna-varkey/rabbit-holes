@@ -1,0 +1,60 @@
+{
+  "id": "reading-copy-46",
+  "claim": "Did a Shakespeare fan really fill America with starlings?",
+  "start": {
+    "title": "Starling",
+    "page": "Starling",
+    "description": "Family of birds",
+    "image": "snapshots/images/Starling.webp"
+  },
+  "end": {
+    "title": "Common starling",
+    "page": "Common starling",
+    "description": "Species of passerine birds",
+    "image": "snapshots/images/Common-starling.webp"
+  },
+  "knots": [
+    {
+      "page": "Starling",
+      "url": "https://en.wikipedia.org/wiki/Starling",
+      "revision": 1373832144,
+      "section": "Distribution, habitat and movements",
+      "passage": "The European starling was purposely introduced to North America in the 1870s through the 1890s by multiple acclimatisation societies, organizations dedicated to introducing European flora and fauna into North America for cultural and economic reasons. A persistent story alleges that Eugene Schieffelin, chairman of the American Acclimatization Society, decided all birds mentioned by William Shakespeare should be in North America, leading to the introduction of the starling to the U.S.; however, this claim is more fiction than fact.",
+      "hatnote": "America's starlings came with a famous origin story.",
+      "onwardLinkText": "Eugene Schieffelin",
+      "nextPage": "Eugene Schieffelin"
+    },
+    {
+      "page": "Eugene Schieffelin",
+      "url": "https://en.wikipedia.org/wiki/Eugene_Schieffelin",
+      "revision": 1374536793,
+      "section": "lead",
+      "passage": "In 1877, he became chairman of the American Acclimatization Society and joined their efforts to introduce non-native species to North America for economic and cultural reasons. His 1890 release of European starlings in Central Park resulted in the first successful starling nesting in North America to be observed by naturalists.",
+      "hatnote": "The release in Central Park was real, even if the motive wasn't.",
+      "onwardLinkText": "European starlings",
+      "nextPage": "Common starling"
+    },
+    {
+      "page": "Common starling",
+      "url": "https://en.wikipedia.org/wiki/Common_starling",
+      "revision": 1380659736,
+      "section": "North America",
+      "passage": "It has been widely reported that he had tried to introduce every bird species mentioned in the works of William Shakespeare into North America, but this claim has been traced to an essay in 1948 by naturalist Edwin Way Teale, whose notes appear to indicate that it was speculation. About the same date, the Portland Song Bird Club released 35 pairs of common starlings in Portland, Oregon. Earlier introductions are recorded to have died out within a few years, with the 1890 New York and Portland introductions reported as being the most successful.",
+      "hatnote": "So where did the Shakespeare story come from?",
+      "onwardLinkText": null,
+      "nextPage": "Common starling"
+    },
+    {
+      "page": "Common starling",
+      "url": "https://en.wikipedia.org/wiki/Common_starling",
+      "revision": 1380659736,
+      "section": "In science and culture",
+      "passage": "Pliny the Elder claimed that these birds could be taught to speak whole sentences in Latin and Greek, and in Henry IV, William Shakespeare had Hotspur declare \"The king forbade my tongue to speak of Mortimer. But I will find him when he is asleep, and in his ear I'll holler 'Mortimer!' Nay I'll have a starling shall be taught to speak nothing but Mortimer, and give it to him to keep his anger still in motion.\"",
+      "hatnote": "And what did Shakespeare actually say about starlings?",
+      "onwardLinkText": null,
+      "nextPage": "Common starling"
+    }
+  ],
+  "payoff": "The Shakespeare plan was a 1948 guess; the bard's real starling is a talking bird Hotspur would train to nag the king.",
+  "caveats": []
+}

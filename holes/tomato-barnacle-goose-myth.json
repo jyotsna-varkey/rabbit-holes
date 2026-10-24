@@ -1,0 +1,62 @@
+{
+  "id": "tomato-barnacle-goose-myth",
+  "claim": "The man who told England tomatoes were poison believed geese grew on trees.",
+  "start": {
+    "title": "Tomato",
+    "page": "Tomato",
+    "description": "Edible berry",
+    "image": "snapshots/images/Tomato.webp"
+  },
+  "end": {
+    "title": "Barnacle goose",
+    "page": "Barnacle goose",
+    "description": "Species of bird",
+    "image": "snapshots/images/Barnacle-goose.webp"
+  },
+  "knots": [
+    {
+      "page": "Tomato",
+      "url": "https://en.wikipedia.org/wiki/Tomato",
+      "revision": 1380709062,
+      "section": "History",
+      "passage": "The Spanish first introduced tomatoes to Europe, where they became used in Spanish food. Elsewhere in Europe, its first use was ornamental, not least because it was understood to be related to the nightshades and assumed to be poisonous.",
+      "hatnote": "Spain ate tomatoes; the rest of Europe was nervous.",
+      "onwardLinkText": null,
+      "nextPage": "Tomato"
+    },
+    {
+      "page": "Tomato",
+      "url": "https://en.wikipedia.org/wiki/Tomato",
+      "revision": 1380709062,
+      "section": "Britain",
+      "passage": "Tomatoes were not grown in England until the 1590s. One of the earliest cultivators was John Gerard, a barber-surgeon. Gerard's Herbal, published in 1597, and largely plagiarized from continental sources, is also one of the earliest discussions of the tomato in England. Gerard knew the tomato was eaten in Spain and Italy. Nonetheless, he believed it was poisonous. Gerard's views were influential, and the tomato was considered unfit for eating for many years in Britain and its North American colonies.",
+      "hatnote": "In England, one barber-surgeon's book sealed the tomato's fate.",
+      "onwardLinkText": "John Gerard",
+      "nextPage": "John Gerard"
+    },
+    {
+      "page": "John Gerard",
+      "url": "https://en.wikipedia.org/wiki/John_Gerard",
+      "revision": 1333823588,
+      "section": "Herball 1597",
+      "passage": "Gerard's lack of scientific training and knowledge led him to frequent inclusion of material that was incorrect, folkloric or mythical, such as the barnacle tree that bore geese (see illustration). Nevertheless, the work, including over 1,000 plants in 167 chapters remained popular, providing in English information about the names, habits and uses (\"vertues\") of many plants known and rare. It was seen as the best and most exhaustive work of its kind and a standard reference for some time.",
+      "hatnote": "Gerard was cautious about tomatoes, but not about everything.",
+      "onwardLinkText": "geese",
+      "nextPage": "Barnacle goose"
+    },
+    {
+      "page": "Barnacle goose",
+      "url": "https://en.wikipedia.org/wiki/Barnacle_goose",
+      "revision": 1369802615,
+      "section": "Taxonomy and naming",
+      "passage": "In the mediaeval period, the barnacle goose and the similar brant goose were not distinguished, and were formerly believed to spawn from the goose barnacle. This gave rise to the English name of the barnacle goose and the scientific name of the brant. The barnacle myth can be dated back to at least the 12th century. Gerald of Wales claimed to have seen these birds hanging down from pieces of timber, William Turner accepted the theory, and John Gerard claimed to have seen the birds emerging from their shells. The legend persisted until the end of the 18th century. In County Kerry, until relatively recently, Catholics abstaining from meat during Lent could still eat this bird because it was considered as fish.",
+      "hatnote": "The geese on Gerard's tree were real birds with a very strange reputation.",
+      "onwardLinkText": null,
+      "nextPage": "Barnacle goose"
+    }
+  ],
+  "payoff": "Gerard wouldn't trust a tomato that Spain and Italy ate, yet swore he'd seen geese hatch from shells; some still ate the goose as fish.",
+  "caveats": [
+    "The tomato page says Gerard's poison verdict was influential; another passage notes the belief Americans feared tomatoes was never widespread."
+  ]
+}

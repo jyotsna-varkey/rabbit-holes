@@ -1,6 +1,6 @@
 {
   "id": "wine-great-french-wine-blight",
-  "claim": "Why did European vineyards need help from the continent that brought their pest?",
+  "claim": "How Cognac ended up twinned with a small town in Texas.",
   "start": {
     "title": "Wine",
     "page": "Wine",
@@ -8,10 +8,10 @@
     "image": "snapshots/images/Wine.webp"
   },
   "end": {
-    "title": "Great French Wine Blight",
-    "page": "Great French Wine Blight",
-    "description": "Mid-19th century blight by Phylloxera",
-    "image": "snapshots/images/Great-French-Wine-Blight.webp"
+    "title": "Thomas Volney Munson",
+    "page": "Thomas Volney Munson",
+    "description": "American horticulturist and breeder of grapes",
+    "image": "snapshots/images/Thomas-Volney-Munson.webp"
   },
   "knots": [
     {
@@ -27,10 +27,10 @@
     {
       "page": "Phylloxera",
       "url": "https://en.wikipedia.org/wiki/Phylloxera",
-      "revision": 1379247038,
+      "revision": 1380008238,
       "section": "Fighting the \"phylloxera plague\"",
-      "passage": "In the late 19th century, a phylloxera epidemic destroyed most of the vineyards for wine grapes in Europe, most notably in France. Phylloxera was introduced to Europe when avid botanists in Victorian England collected specimens of American vines in the 1850s. Because phylloxera is native to North America, the native grape species are at least partially resistant. By contrast, the European wine grape V. vinifera is very susceptible to the insect. The epidemic devastated vineyards in Britain and then moved to the European mainland, destroying most of the European grape-growing industry. In 1863, the first vines began to deteriorate inexplicably in the southern Rhône region of France. The problem spread rapidly across the continent. In France alone, total wine production fell from 84.5 million hectolitres in 1875 to only 23.4 million hectolitres in 1889. Some estimates hold that between two-thirds and nine-tenths of all European vineyards were destroyed.",
-      "hatnote": "How did the insect damage vines, and why did some American vines resist it?",
+      "passage": "In the late 19th century, a phylloxera epidemic destroyed most of the vineyards for wine grapes in Europe, most notably in France. Phylloxera was introduced to Europe when avid botanists in Victorian England collected specimens of American vines in the 1850s. Because phylloxera is native to North America, the native grape species are at least partially resistant. By contrast, the European wine grape V. vinifera is very susceptible to the insect.",
+      "hatnote": "In the 1850s, that louse crossed the Atlantic, and Europe's vines had no defence.",
       "onwardLinkText": "in France",
       "nextPage": "Great French Wine Blight"
     },
@@ -38,16 +38,35 @@
       "page": "Great French Wine Blight",
       "url": "https://en.wikipedia.org/wiki/Great_French_Wine_Blight",
       "revision": 1375293002,
-      "section": "Prize",
-      "passage": "The French government had offered over 320,000 Francs as a reward to whoever could discover a cure for the blight. Having reportedly been the first to suggest the possibility of using the resistant American rootstock, Leo Laliman tried to claim the money, but the French government refused to award it, with the rationale that he had not cured the blight, but rather stopped it from occurring. However, there may have been other reasons for the government denying Laliman the prize: he was mistrusted by several notable parties, and he was thought by many to have originally introduced the pest.",
-      "hatnote": "Why was a practical solution not accepted as the promised cure?",
+      "section": "Solution",
+      "passage": "Many growers resorted to their own methods in attempt to resolve the issue. Chemicals and pesticides were used to no avail. In desperation, some growers positioned toads under each vine, and others allowed their poultry to roam free in the hope they would eat the insects. None of these methods were successful.",
+      "hatnote": "French growers tried everything they could think of.",
       "onwardLinkText": null,
       "nextPage": "Great French Wine Blight"
+    },
+    {
+      "page": "Great French Wine Blight",
+      "url": "https://en.wikipedia.org/wiki/Great_French_Wine_Blight",
+      "revision": 1375293002,
+      "section": "Solution",
+      "passage": "After Charles Valentine Riley, Missouri's state entomologist, confirmed Planchon's theory, Leo Laliman and Gaston Bazille [fr], two French wine growers, both suggested the possibility that if vinifera vines could be combined, by means of grafting, with the aphid-resistant American vines, then the problem might be solved. Thomas Volney Munson was consulted and provided native Texan rootstocks for grafting. Because of Munson's role, the French government in 1888 sent a delegation to Denison, Texas, to confer on him the French Legion of Honor Chevalier du Mérite Agricole.",
+      "hatnote": "The answer was to borrow American roots, and one Texan supplied them.",
+      "onwardLinkText": "Thomas Volney Munson",
+      "nextPage": "Thomas Volney Munson"
+    },
+    {
+      "page": "Thomas Volney Munson",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Volney_Munson",
+      "revision": 1348569895,
+      "section": "Career",
+      "passage": "Though breeding for wine quality seems to have occupied a great proportion of his effort, his work on rootstock development had the greatest impact on viticulture. This work provided European grape growers with phylloxera-resistant rootstocks, allowing them to recover from the devastating epidemic of the late 19th century while still growing the ancient Vitis vinifera cultivars. These rootstocks are still used worldwide. In honor of this work, the French government named him Chevalier du Merite Agricole, and Cognac, France, became a sister city to Munson's home of Denison.",
+      "hatnote": "Texas grapes, it turned out, were exactly what Europe's vineyards needed.",
+      "onwardLinkText": null,
+      "nextPage": "Thomas Volney Munson"
     }
   ],
-  "payoff": "American roots saved Europe's wine, but the man who suggested them was refused the prize: he'd stopped the blight, not cured it.",
+  "payoff": "An American louse nearly killed French wine; toads and chemicals failed, Texan rootstocks worked, and Cognac became sister city to Munson's Denison.",
   "caveats": [
-    "From Rabbit Hole Studio (GPT), rh-029, rank 44; hook is GPT's, hatnotes/payoff drafted by Claude.",
-    "GPT's toad paragraph (Phylloxera) was dropped: the app needs the last passage on a page to hold the onward link."
+    "From Rabbit Hole Studio (GPT), rh-029; reworked in the refine pass with a new hook and end page."
   ]
 }

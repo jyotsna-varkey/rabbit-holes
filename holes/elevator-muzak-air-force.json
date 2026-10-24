@@ -1,0 +1,72 @@
+{
+  "id": "elevator-muzak-air-force",
+  "claim": "Elevator music was invented by a general who helped found the US Air Force.",
+  "start": {
+    "title": "Elevator",
+    "page": "Elevator",
+    "description": "Vertical transport machine",
+    "image": "snapshots/images/Elevator.webp"
+  },
+  "end": {
+    "title": "George Owen Squier",
+    "page": "George Owen Squier",
+    "description": "United States Army general and inventor",
+    "image": "snapshots/images/George-Owen-Squier.webp"
+  },
+  "knots": [
+    {
+      "page": "Elevator",
+      "url": "https://en.wikipedia.org/wiki/Elevator",
+      "revision": 1380465810,
+      "section": "Industrial era",
+      "passage": "By 1900, completely automated elevators were available, but passengers were reluctant to use them. Throughout the 1920s, “automatic elevators” were regularly being installed in even average residential or mixed use buildings. Their adoption was aided by a 1945 elevator operator strike in New York City, and the addition of an emergency stop button, emergency telephone, and a soothing explanatory automated voice. Also around this time saw the installation of radios and later Muzak piped music to fill background voids.",
+      "hatnote": "Early passengers didn't trust lifts with no operator in them.",
+      "onwardLinkText": "Muzak",
+      "nextPage": "Muzak"
+    },
+    {
+      "page": "Muzak",
+      "url": "https://en.wikipedia.org/wiki/Muzak",
+      "revision": 1380488296,
+      "section": "lead",
+      "passage": "Muzak may also be referred to as \"elevator music\" or \"lift music\" (see also music on hold). Though Muzak Holdings was for many years the best-known supplier of background music, and is commonly associated with elevator music, the company itself did not supply music to elevators.",
+      "hatnote": "One brand's name became a sneer, and a misunderstanding.",
+      "onwardLinkText": null,
+      "nextPage": "Muzak"
+    },
+    {
+      "page": "Muzak",
+      "url": "https://en.wikipedia.org/wiki/Muzak",
+      "revision": 1380488296,
+      "section": "Stimulus progression (1950–1986)",
+      "passage": "The company began customizing the pace and style of the music provided throughout the workday in an effort to maintain productivity. The music was programmed in 15-minute blocks, gradually getting faster in tempo and louder and brassier in instrumentation, to encourage workers to speed up their pace. Following the completion of a 15-minute segment, the music would fall silent for 15 minutes. This was partly done for technical reasons, but company-funded research also showed that alternating music with silence limited listener fatigue, and made the \"stimulus\" effect of Stimulus Progression more effective.",
+      "hatnote": "Its real target was the workplace, and the music had a job.",
+      "onwardLinkText": null,
+      "nextPage": "Muzak"
+    },
+    {
+      "page": "Muzak",
+      "url": "https://en.wikipedia.org/wiki/Muzak",
+      "revision": 1380488296,
+      "section": "History",
+      "passage": "Inventor George Owen Squier, credited with inventing telephone carrier multiplexing in 1910, developed the original technical basis for Muzak. He was granted several US patents in the 1920s related to transmission of information signals, among them U.S. patent 1,641,608 a system for the transmission and distribution of signals over electrical lines.",
+      "hatnote": "The technology behind it came from an unexpected inventor.",
+      "onwardLinkText": "George Owen Squier",
+      "nextPage": "George Owen Squier"
+    },
+    {
+      "page": "George Owen Squier",
+      "url": "https://en.wikipedia.org/wiki/George_Owen_Squier",
+      "revision": 1379822841,
+      "section": "Life and military career",
+      "passage": "As executive officer to the Chief Signal Officer, U.S. Signal Corps in 1907, Squier was instrumental in the establishment of the Aeronautical Division, U.S. Signal Corps, the first organizational ancestor of the U.S. Air Force. He also was the first military passenger in an airplane on September 12, 1908, and, working with the Wright Brothers, was responsible for the purchase of the first airplanes by the US Army in 1909.",
+      "hatnote": "Squier's day job was in the Army, and it involved aeroplanes.",
+      "onwardLinkText": null,
+      "nextPage": "George Owen Squier"
+    }
+  ],
+  "payoff": "The man who piped soothing tunes into offices and lifts had earlier helped put the US Army into the air.",
+  "caveats": [
+    "'Invented' follows Squier's article, which credits him with inventing and popularizing Muzak; the Muzak article says he developed its technical basis."
+  ]
+}

@@ -8,10 +8,10 @@
     "image": "snapshots/images/Toast-honor.webp"
   },
   "end": {
-    "title": "John A. Costello",
-    "page": "John A. Costello",
-    "description": "Taoiseach (1948–1951, 1954–1957)",
-    "image": "snapshots/images/John-A-Costello.webp"
+    "title": "The Republic of Ireland Act 1948",
+    "page": "The Republic of Ireland Act 1948",
+    "description": "Law establishing the Republic of Ireland and severing political ties to the UK",
+    "image": "snapshots/images/The-Republic-of-Ireland-Act-1948.webp"
   },
   "knots": [
     {
@@ -49,13 +49,23 @@
       "url": "https://en.wikipedia.org/wiki/John_A._Costello",
       "revision": 1364976882,
       "section": "Declaration of the republic",
-      "passage": "Ireland left the Commonwealth on 18 April 1949, when the Republic of Ireland Act 1948 came into force. Frederick Henry Boland, Secretary of the Department of External Affairs, said caustically that the affair demonstrated that \"the Taoiseach has as much notion of diplomacy as I have of astrology.\"",
-      "hatnote": "Not everyone admired the timing.",
+      "passage": "Ireland left the Commonwealth on 18 April 1949, when the Republic of Ireland Act 1948 came into force. Frederick Henry Boland, Secretary of the Department of External Affairs, said caustically that the affair demonstrated that \"the Taoiseach has as much notion of diplomacy as I have of astrology.\" The British envoy Lord Rugby was equally critical of what he called a \"slipshod and amateur\" move.",
+      "hatnote": "Within months it was done, and not everyone admired the timing.",
+      "onwardLinkText": "Republic of Ireland Act 1948",
+      "nextPage": "The Republic of Ireland Act 1948"
+    },
+    {
+      "page": "The Republic of Ireland Act 1948",
+      "url": "https://en.wikipedia.org/wiki/The_Republic_of_Ireland_Act_1948",
+      "revision": 1377250381,
+      "section": "Republic of Ireland description",
+      "passage": "The Act did not declare Ireland to be a republic, nor did it change the official name of the state which continued to be Éire (in Irish) and Ireland (in English) as prescribed in the Constitution. The Act provided for a description for the State. The distinction between a description and a name has sometimes caused confusion.",
+      "hatnote": "And the famous Act itself held one last surprise.",
       "onwardLinkText": null,
-      "nextPage": "John A. Costello"
+      "nextPage": "The Republic of Ireland Act 1948"
     }
   ],
-  "payoff": "A snub over a toast, an irked Taoiseach, and within months Ireland was a republic, whether the slight caused it or merely timed it.",
+  "payoff": "A snubbed toast, an irked Taoiseach, and Ireland quit the Commonwealth, through an Act that never actually declared Ireland a republic.",
   "caveats": [
     "Costello later said in his memoirs that the governor general had been perfectly civil and the decision to repeal the External Relations Act had already been made; the Costello article presents the dinner slight as a suggestion."
   ]

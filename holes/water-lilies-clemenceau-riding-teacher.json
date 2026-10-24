@@ -1,0 +1,80 @@
+{
+  "id": "water-lilies-clemenceau-riding-teacher",
+  "claim": "Monet's water lilies turned bluer after a French statesman talked him into surgery.",
+  "start": {
+    "title": "Water Lilies (Monet series)",
+    "page": "Water Lilies (Monet series)",
+    "description": "Series of paintings by Claude Monet",
+    "image": "snapshots/images/Water-Lilies-Monet-series.webp"
+  },
+  "end": {
+    "title": "Claude Monet",
+    "page": "Claude Monet",
+    "description": "French painter (1840–1926)",
+    "image": "snapshots/images/Claude-Monet.webp"
+  },
+  "knots": [
+    {
+      "page": "Water Lilies (Monet series)",
+      "url": "https://en.wikipedia.org/wiki/Water_Lilies_(Monet_series)",
+      "revision": 1380937872,
+      "section": "lead",
+      "passage": "Water Lilies (French: Nymphéas [nɛ̃.fe.a]) is a series of approximately 250 oil paintings by French Impressionist Claude Monet (1840–1926). The paintings depict his flower garden at his home in Giverny, and were the main focus of his artistic production during the last 31 years of his life. Many of the works were painted while Monet suffered from cataracts.",
+      "hatnote": "Monet painted one pond for three decades, while his eyes slowly failed.",
+      "onwardLinkText": null,
+      "nextPage": "Water Lilies (Monet series)"
+    },
+    {
+      "page": "Water Lilies (Monet series)",
+      "url": "https://en.wikipedia.org/wiki/Water_Lilies_(Monet_series)",
+      "revision": 1380937872,
+      "section": "Background",
+      "passage": "During the 1920s, the state of France built a pair of oval rooms at the Musée de l'Orangerie as a permanent home for eight large water lily murals by Monet. The exhibit opened to the public on 16 May 1927, a few months after Monet's death. Sixty water lily paintings from around the globe were assembled for a special exhibition at the Musée de l'Orangerie in 1999.",
+      "hatnote": "The biggest lilies needed a building of their own.",
+      "onwardLinkText": "Musée de l'Orangerie",
+      "nextPage": "Musée de l'Orangerie"
+    },
+    {
+      "page": "Musée de l'Orangerie",
+      "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_de_l'Orangerie",
+      "revision": 1356168549,
+      "section": "Monet's Water Lilies",
+      "passage": "After World War I, changes came to the Orangerie. In 1921, the State gave the building to the Under-Secretariat of State for Fine Arts along with another building, the Jeu de Paume. The goal for these two buildings was to provide a space for living artists to display their works. At the time, Claude Monet (1840–1926) was painting a series of Water Lilies (Nymphéas) paintings for the State that were destined for another museum, the Musée Rodin. The President of the Council, Georges Clemenceau (1841–1929), wanted the paintings placed in the Orangerie instead.",
+      "hatnote": "They were meant for another museum, until France's leader stepped in.",
+      "onwardLinkText": "Georges Clemenceau",
+      "nextPage": "Georges Clemenceau"
+    },
+    {
+      "page": "Georges Clemenceau",
+      "url": "https://en.wikipedia.org/wiki/Georges_Clemenceau",
+      "revision": 1380898467,
+      "section": "Personal life",
+      "passage": "Clemenceau was a long-time friend and supporter of the impressionist painter Claude Monet. He was instrumental in persuading Monet to have a cataract operation in 1923. For more than a decade, Clemenceau encouraged Monet to complete his donation to the French state of the large Les Nymphéas (Water Lilies) paintings that now are on display in the Paris Musée de l'Orangerie. They are housed in specially constructed oval galleries that opened to the public in 1927.",
+      "hatnote": "The statesman was also Monet's old friend, and a persistent one.",
+      "onwardLinkText": "Claude Monet",
+      "nextPage": "Claude Monet"
+    },
+    {
+      "page": "Claude Monet",
+      "url": "https://en.wikipedia.org/wiki/Claude_Monet",
+      "revision": 1380476228,
+      "section": "Failing sight",
+      "passage": "Cataract surgery was once again recommended, this time by Clemenceau. Monet—who was apprehensive, following Honoré Daumier and Mary Cassatt's botched surgeries—stated that he would rather have poor sight and perhaps abandon painting than forego \"a little of these things that I love\".",
+      "hatnote": "Monet dreaded the operation his friend kept urging.",
+      "onwardLinkText": null,
+      "nextPage": "Claude Monet"
+    },
+    {
+      "page": "Claude Monet",
+      "url": "https://en.wikipedia.org/wiki/Claude_Monet",
+      "revision": 1380476228,
+      "section": "Failing sight",
+      "passage": "In 1922 a prescription of mydriatics provided short-lived relief. He eventually underwent cataract surgery in 1923. Persistent cyanopsia and aphakic spectacles proved to be a struggle. Now \"able to see the real colours\", he began to destroy canvases from his pre-operative period. Upon receiving tinted Zeiss lenses, Monet was laudatory, although his left eye soon had to be entirely covered by a black lens. By 1925, his visual impairment was improved and he began to retouch some of his pre-operative works, with bluer water lilies than before.",
+      "hatnote": "He gave in at last. The world he saw afterwards looked different.",
+      "onwardLinkText": null,
+      "nextPage": "Claude Monet"
+    }
+  ],
+  "payoff": "Clemenceau won the lilies their oval rooms and pushed Monet into the operation that let him see, and repaint them, bluer.",
+  "caveats": []
+}

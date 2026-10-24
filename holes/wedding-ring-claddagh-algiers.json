@@ -1,0 +1,72 @@
+{
+  "id": "wedding-ring-claddagh-algiers",
+  "claim": "Ireland's famous love ring is credited to a man enslaved in Algiers.",
+  "start": {
+    "title": "Wedding ring",
+    "page": "Wedding ring",
+    "description": "Finger ring which indicates that its wearer is married",
+    "image": "snapshots/images/Wedding-ring.webp"
+  },
+  "end": {
+    "title": "Richard Joyce (goldsmith)",
+    "page": "Richard Joyce (goldsmith)",
+    "description": "Irish goldsmith (c. 1660 – c. 1737)",
+    "image": ""
+  },
+  "knots": [
+    {
+      "page": "Wedding ring",
+      "url": "https://en.wikipedia.org/wiki/Wedding_ring",
+      "revision": 1367608589,
+      "section": "Gimmel rings",
+      "passage": "During the 16th and 17th centuries, European husbands bestowed a gimmel ring upon their wives. Similar to the puzzle ring, the gimmel ring consisted of two interlocking bands. The bride and groom both wore one of these bands after their engagement, and the two bands were reunited during the wedding ceremony. Subsequently, the wife wore the combined ring.",
+      "hatnote": "Before matching bands, some couples split one ring in two.",
+      "onwardLinkText": "gimmel ring",
+      "nextPage": "Gimmal ring"
+    },
+    {
+      "page": "Gimmal ring",
+      "url": "https://en.wikipedia.org/wiki/Gimmal_ring",
+      "revision": 1328155490,
+      "section": "lead",
+      "passage": "An early gimmal band, consisting of two interlocked rings sculpted to form a single ring, is to be found in the Victoria and Albert Museum, dated to 1350. Henry III of England met the Count of Gynes in 1202 and gave him a gimmal ring set with a ruby and two emeralds. Martin Luther wed Catherine Bora in 1525 with a gimmal ring inscribed \"Whom God has joined together, Let no man put asunder\".",
+      "hatnote": "These puzzle-like rings sealed some famous marriages.",
+      "onwardLinkText": null,
+      "nextPage": "Gimmal ring"
+    },
+    {
+      "page": "Gimmal ring",
+      "url": "https://en.wikipedia.org/wiki/Gimmal_ring",
+      "revision": 1328155490,
+      "section": "lead",
+      "passage": "Around 1600, the gimmal ring began to sometimes incorporate the clasped hands of the fede ring and a third symbol, a heart, was added, sometimes with a third shank. Designs involving clasped hands, and sometimes a heart, remained popular after the Renaissance. Similar imagery is found on other love rings, including claddagh rings.",
+      "hatnote": "Later versions added hands and a heart, a design that travelled west.",
+      "onwardLinkText": "claddagh rings",
+      "nextPage": "Claddagh ring"
+    },
+    {
+      "page": "Claddagh ring",
+      "url": "https://en.wikipedia.org/wiki/Claddagh_ring",
+      "revision": 1367706518,
+      "section": "Origins",
+      "passage": "There are many legends about the origins of the ring, particularly concerning Richard Joyce, a silversmith from Galway circa 1700, who is said to have invented the Claddagh design. Legend has it that Joyce was captured and enslaved by Algerian Corsairs around 1675 while on a passage to the West Indies; he was sold into slavery to a Moorish goldsmith who taught him the craft.",
+      "hatnote": "Galway's ring comes with a dramatic origin story.",
+      "onwardLinkText": "Richard Joyce",
+      "nextPage": "Richard Joyce (goldsmith)"
+    },
+    {
+      "page": "Richard Joyce (goldsmith)",
+      "url": "https://en.wikipedia.org/wiki/Richard_Joyce_(goldsmith)",
+      "revision": 1370169947,
+      "section": "Life",
+      "passage": "In 1689, William III became King of England and enforced a request upon the Algerians to release all of his subjects enslaved in the country. Joyce's master offered him half the business and his daughter's hand in marriage if he stayed, but he refused and returned to Galway. There, he is said to have created the original Claddagh ring. Examples of his work from the early 1700s are still extant. He settled near Rahoon, then outside the town, married and had three daughters.",
+      "hatnote": "Freedom came by royal demand, and with a tempting offer to stay.",
+      "onwardLinkText": null,
+      "nextPage": "Richard Joyce (goldsmith)"
+    }
+  ],
+  "payoff": "Galway's love ring, heir to clasped-hand gimmal rings, is credited to a man enslaved in Algiers who turned down his master's daughter to go home.",
+  "caveats": [
+    "The Richard Joyce origin is presented by Wikipedia as legend."
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "reading-copy-70",
+  "claim": "An octopus ages on a hormone timer. Some pond animals may never age.",
+  "start": {
+    "title": "Octopus",
+    "page": "Octopus",
+    "description": "Soft-bodied eight-limbed order of molluscs",
+    "image": "snapshots/images/Octopus.webp"
+  },
+  "end": {
+    "title": "Hydra (genus)",
+    "page": "Hydra (genus)",
+    "description": "Genus of cnidarians",
+    "image": "snapshots/images/Hydra-genus.webp"
+  },
+  "knots": [
+    {
+      "page": "Octopus",
+      "url": "https://en.wikipedia.org/wiki/Octopus",
+      "revision": 1376790243,
+      "section": "Reproduction",
+      "passage": "An optic gland creates hormones that cause the octopus to mature and age and stimulate gamete production. The timing of reproduction and lifespan depends on environmental conditions such as temperature, light and nutrition, which trigger the gland.",
+      "hatnote": "Deep in an octopus's head sits a gland that runs its life clock.",
+      "onwardLinkText": null,
+      "nextPage": "Octopus"
+    },
+    {
+      "page": "Octopus",
+      "url": "https://en.wikipedia.org/wiki/Octopus",
+      "revision": 1376790243,
+      "section": "lead",
+      "passage": "Most species grow quickly, mature early, and are short-lived. In most species, the male uses a specially-adapted arm to deliver sperm directly into the female's mantle cavity, after which he becomes senescent and dies, while the female deposits fertilised eggs in a den and cares for them until they hatch, after which she also dies.",
+      "hatnote": "That clock runs fast: most octopuses breed once, and then it stops.",
+      "onwardLinkText": "senescent",
+      "nextPage": "Senescence"
+    },
+    {
+      "page": "Senescence",
+      "url": "https://en.wikipedia.org/wiki/Senescence",
+      "revision": 1380050784,
+      "section": "lead",
+      "passage": "Senescence (/ˌsɪˈnɛsəns/) or biological aging is the gradual deterioration of functional characteristics in living organisms. Whole organism senescence involves an increase in death rates or a decrease in fecundity with increasing age, at least in the later part of an organism's life cycle. However, the effects of senescence can be delayed. The 1934 discovery that calorie restriction can extend lifespans by 50% in rats, the existence of species having negligible senescence, and the existence of potentially immortal organisms such as members of the genus Hydra have motivated research into delaying senescence and thus age-related diseases. Rare human mutations can cause accelerated aging diseases.",
+      "hatnote": "Almost everything ages. But biologists have found some exceptions.",
+      "onwardLinkText": "Hydra",
+      "nextPage": "Hydra (genus)"
+    },
+    {
+      "page": "Hydra (genus)",
+      "url": "https://en.wikipedia.org/wiki/Hydra_(genus)",
+      "revision": 1377609891,
+      "section": "lead",
+      "passage": "Hydra (/ˈhaɪdrə/ HY-drə) is a genus of small freshwater hydrozoans in the phylum Cnidaria. They are solitary, carnivorous jellyfish-like animals, native to the temperate and tropical regions. The genus was named by Linnaeus in 1758 after the Hydra, the mythical many-headed beast that was defeated by Heracles, as when the animal has a part severed, it will regenerate much like the mythical Hydra's heads. Biologists are especially interested in Hydra because of their regenerative ability; they do not appear to die of old age, or to age at all.",
+      "hatnote": "Meet a tiny freshwater animal with a monster's name.",
+      "onwardLinkText": null,
+      "nextPage": "Hydra (genus)"
+    },
+    {
+      "page": "Hydra (genus)",
+      "url": "https://en.wikipedia.org/wiki/Hydra_(genus)",
+      "revision": 1377609891,
+      "section": "Non-senescence",
+      "passage": "Daniel Martinez claimed in an article in Experimental Gerontology in 1998 that Hydra are biologically immortal. This publication has been widely cited as evidence that Hydra do not senesce (i.e., do not age), and that they are proof of the existence of non-senescing organisms generally.",
+      "hatnote": "In 1998, one biologist made a bold claim about it.",
+      "onwardLinkText": null,
+      "nextPage": "Hydra (genus)"
+    }
+  ],
+  "payoff": "Octopuses burn out on a gland's schedule, while Hydra, named for a monster that regrows its heads, may simply never grow old.",
+  "caveats": []
+}

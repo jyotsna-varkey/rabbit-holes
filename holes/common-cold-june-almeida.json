@@ -1,0 +1,70 @@
+{
+  "id": "common-cold-june-almeida",
+  "claim": "A unit that paid volunteers to catch colds found the first human coronavirus.",
+  "start": {
+    "title": "Common cold",
+    "page": "Common cold",
+    "description": "Common viral infection of the upper respiratory tract",
+    "image": "snapshots/images/Common-cold.webp"
+  },
+  "end": {
+    "title": "June Almeida",
+    "page": "June Almeida",
+    "description": "Scottish virologist (1930–2007)",
+    "image": "snapshots/images/June-Almeida.webp"
+  },
+  "knots": [
+    {
+      "page": "Common cold",
+      "url": "https://en.wikipedia.org/wiki/Common_cold",
+      "revision": 1377844322,
+      "section": "History",
+      "passage": "In the United Kingdom, the Common Cold Unit (CCU) was set up by the Medical Research Council in 1946 and it was where the rhinovirus was discovered in 1956.",
+      "hatnote": "Britain once ran a whole research unit devoted to the sniffles.",
+      "onwardLinkText": "Common Cold Unit",
+      "nextPage": "Common Cold Unit"
+    },
+    {
+      "page": "Common Cold Unit",
+      "url": "https://en.wikipedia.org/wiki/Common_Cold_Unit",
+      "revision": 1378438737,
+      "section": "The Volunteers' experience",
+      "passage": "Twenty to thirty volunteers were required every fortnight during Common Cold trial periods. The unit advertised in newspapers and magazines for volunteers, who were paid a small amount. A stay at the unit was presented in these advertisements as an unusual holiday opportunity.",
+      "hatnote": "It needed a steady supply of people willing to get sick.",
+      "onwardLinkText": null,
+      "nextPage": "Common Cold Unit"
+    },
+    {
+      "page": "Common Cold Unit",
+      "url": "https://en.wikipedia.org/wiki/Common_Cold_Unit",
+      "revision": 1378438737,
+      "section": "Discoveries",
+      "passage": "The first coronavirus (B814) was found in washes from a boy with typical common cold symptoms in 1960 during the study led by virologist David Tyrrell at the Common Cold Unit. After washes were inoculated to volunteers and tested for known viruses none was found. Publication about first human coronavirus was published in The BMJ in 1965. Later virologist June Almeida imaged virus for the first time and group of eight virologists including June Almeida named it coronavirus in their publication in 1968.",
+      "hatnote": "In 1960 one boy's runny nose held something new.",
+      "onwardLinkText": "June Almeida",
+      "nextPage": "June Almeida"
+    },
+    {
+      "page": "June Almeida",
+      "url": "https://en.wikipedia.org/wiki/June_Almeida",
+      "revision": 1369122952,
+      "section": "St Thomas's Hospital Medical School",
+      "passage": "When she examined the samples through her microscope grids, \"she recognized all the known viruses, and her pictures revealed their structure beautifully. But more importantly, she also saw virus particles in the B814 sample.\" she told Tyrrell that the B814 specimens had reminded her of particles she had previously studied in a \"disease called infectious bronchitis of chickens\" and in another disease—\"mouse hepatitis liver inflammation.\" Almeida's papers on these had been rejected because the referees considered her electron micrographs to be \"bad pictures\" of known influenza virus particles. Almeida told him she now knew that these \"three viruses were something quite new.\"",
+      "hatnote": "Tyrrell's team posted her samples, including their mystery cold virus, B814.",
+      "onwardLinkText": null,
+      "nextPage": "June Almeida"
+    },
+    {
+      "page": "June Almeida",
+      "url": "https://en.wikipedia.org/wiki/June_Almeida",
+      "revision": 1369122952,
+      "section": "Legacy",
+      "passage": "Almeida's work received new attention during the early months of the COVID-19 pandemic. Her little-known story was first published by the Herald in Scotland on 7 March 2020, the BBC on 15 April 2020 the National Geographic on April 17, 2020, and later her research noted in The National on 19 May 2020. According to professor of bacteriology Hugh Pennington, Chinese scientists credited Almeida's work, including techniques she developed, with the early identification of coronavirus disease 2019.",
+      "hatnote": "For decades her name was barely known. Then came 2020.",
+      "onwardLinkText": null,
+      "nextPage": "June Almeida"
+    }
+  ],
+  "payoff": "Paid cold-catchers yielded virus B814; a microscopist whose pictures had been rejected as 'bad' saw it was new, and COVID-19 finally made her famous.",
+  "caveats": []
+}

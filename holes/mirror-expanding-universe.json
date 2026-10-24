@@ -1,0 +1,70 @@
+{
+  "id": "mirror-expanding-universe",
+  "claim": "The mirror factory built to beat Venice helped prove the universe is expanding.",
+  "start": {
+    "title": "Mirror",
+    "page": "Mirror",
+    "description": "Object that reflects an image",
+    "image": "snapshots/images/Mirror.webp"
+  },
+  "end": {
+    "title": "Mount Wilson Observatory",
+    "page": "Mount Wilson Observatory",
+    "description": "Astronomical observatory in Los Angeles County, California, US",
+    "image": "snapshots/images/Mount-Wilson-Observatory.webp"
+  },
+  "knots": [
+    {
+      "page": "Mirror",
+      "url": "https://en.wikipedia.org/wiki/Mirror",
+      "revision": 1381375722,
+      "section": "Middle Ages and Renaissance",
+      "passage": "Venice retained its monopoly on the tin amalgam technique for a century. Venetian mirrors in richly decorated frames served as luxury decorations for palaces throughout Europe, and were very expensive. For example, in the late seventeenth century, the Countess de Fiesque was reported to have traded an entire wheat farm for a mirror, considering it a bargain. However, by the end of that century the secret was leaked through industrial espionage. French workshops succeeded in large-scale industrialization of the process, eventually making mirrors affordable to the masses, in spite of the toxicity of mercury's vapor.",
+      "hatnote": "Once, a good mirror was worth more than farmland.",
+      "onwardLinkText": null,
+      "nextPage": "Mirror"
+    },
+    {
+      "page": "Mirror",
+      "url": "https://en.wikipedia.org/wiki/Mirror",
+      "revision": 1381375722,
+      "section": "Industrial Revolution",
+      "passage": "The invention of the ribbon machine in the late Industrial Revolution allowed modern glass panes to be produced in bulk. The Saint-Gobain factory, founded by royal initiative in France, was an important manufacturer, and Bohemian and German glass, often rather cheaper, was also important.",
+      "hatnote": "One French maker of that era is still going.",
+      "onwardLinkText": "Saint-Gobain",
+      "nextPage": "Saint-Gobain"
+    },
+    {
+      "page": "Saint-Gobain",
+      "url": "https://en.wikipedia.org/wiki/Saint-Gobain",
+      "revision": 1371684730,
+      "section": "1665–1789: Manufacture royale",
+      "passage": "To compete with the Italian mirror industry, Colbert commissioned several Venetian glassworkers he had enticed to Paris to work for the company. The first unblemished mirrors were produced in 1666. Soon the mirrors created in the Faubourg Saint-Antoine, under the French company, began to rival those of Venice. The French company was capable of producing mirrors that were 40 to 45 inches long (1.0 to 1.1 m), which at the time, was considered impressive. Competition between France and the Venetians became so fierce that Venice considered it a crime for any glass artisan to leave and practice their trade elsewhere, especially in foreign territory.",
+      "hatnote": "It began as a royal plot to steal Venice's secret.",
+      "onwardLinkText": null,
+      "nextPage": "Saint-Gobain"
+    },
+    {
+      "page": "Saint-Gobain",
+      "url": "https://en.wikipedia.org/wiki/Saint-Gobain",
+      "revision": 1371684730,
+      "section": "1789–1910: Industrial Revolution",
+      "passage": "Saint-Gobain cast the glass blanks of some of the largest optical reflecting telescopes of the early 20th century, including the ground-breaking 60-inch (1.5 m) Hale telescope (online in 1908), the 61-inch (1.54 m) Bosque Alegre telescope built in 1912, for the Argentine National Observatory, directed by Charles D. Perrine, and 100 inch (2.5 m) Hooker telescope (online 1917) at Mount Wilson Observatory (United States), and the 72-inch (1.8 m) Plaskett telescope (online in 1918) at Dominion Astrophysical Observatory (Canada).",
+      "hatnote": "Two centuries later, the same firm was casting much bigger mirrors.",
+      "onwardLinkText": "Mount Wilson Observatory",
+      "nextPage": "Mount Wilson Observatory"
+    },
+    {
+      "page": "Mount Wilson Observatory",
+      "url": "https://en.wikipedia.org/wiki/Mount_Wilson_Observatory",
+      "revision": 1367899801,
+      "section": "100-inch Hooker telescope",
+      "passage": "The 100-inch (2.5 m) Hooker telescope was completed in 1917, and was the world's largest telescope until 1949. It is one of the most famous telescopes in observational astronomy of the 20th century. It was used by Edwin Hubble to make observations with which he produced two fundamental results which changed the scientific view of the Universe. Using observations he made in 1922–1923, Hubble was able to prove that the Universe extends beyond the Milky Way galaxy, and that several nebulae were millions of light-years away. He then showed that the universe was expanding.",
+      "hatnote": "One of those glass blanks went to a mountain above Los Angeles.",
+      "onwardLinkText": null,
+      "nextPage": "Mount Wilson Observatory"
+    }
+  ],
+  "payoff": "A French firm born of industrial espionage against Venice ended up casting the glass through which Hubble saw the universe expand.",
+  "caveats": []
+}

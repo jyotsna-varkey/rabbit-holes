@@ -8,10 +8,10 @@
     "image": "snapshots/images/Coca-Cola.webp"
   },
   "end": {
-    "title": "Melvin Belli",
-    "page": "Melvin Belli",
-    "description": "American lawyer (1907–1996)",
-    "image": "snapshots/images/Melvin-Belli.webp"
+    "title": "Ralph Nader",
+    "page": "Ralph Nader",
+    "description": "American lawyer and activist (born 1934)",
+    "image": "snapshots/images/Ralph-Nader.webp"
   },
   "knots": [
     {
@@ -51,21 +51,31 @@
       "section": "Career",
       "passage": "Besides his personal injury cases, which earned for him his byname \"King of Torts,\" Belli was instrumental in setting up some of the foundations of modern consumer rights law, arguing several cases in the 1940s and 1950s that formed the basis for later lawsuits and landmark litigation by Ralph Nader.",
       "hatnote": "Cases like hers became Belli's speciality, and his nickname.",
-      "onwardLinkText": null,
-      "nextPage": "Melvin Belli"
+      "onwardLinkText": "Ralph Nader",
+      "nextPage": "Ralph Nader"
     },
     {
-      "page": "Melvin Belli",
-      "url": "https://en.wikipedia.org/wiki/Melvin_Belli",
-      "revision": 1375334594,
-      "section": "Career",
-      "passage": "After winning a court case, Belli would raise a Jolly Roger flag over his office building in the Barbary Coast district of San Francisco (which Belli claimed had been a Gold Rush-era brothel) and fire a cannon, mounted on his office roof, to announce the victory and the impending party. This former law office was at the Belli Building in the Jackson Square neighborhood of San Francisco.",
-      "hatnote": "The 'King of Torts' was never quiet about winning.",
+      "page": "Ralph Nader",
+      "url": "https://en.wikipedia.org/wiki/Ralph_Nader",
+      "revision": 1380556154,
+      "section": "Unsafe at Any Speed",
+      "passage": "Nader gained national attention with the 1965 publication of his journalistic exposé Unsafe at Any Speed. The book, critical of the automotive industry, argued that many American automobiles were generally unsafe to operate. For the book, Nader researched case files from more than a hundred lawsuits then pending against General Motors' Chevrolet Corvair to support his assertions.",
+      "hatnote": "Nader took the lawsuit habit and pointed it at Detroit.",
       "onwardLinkText": null,
-      "nextPage": "Melvin Belli"
+      "nextPage": "Ralph Nader"
+    },
+    {
+      "page": "Ralph Nader",
+      "url": "https://en.wikipedia.org/wiki/Ralph_Nader",
+      "revision": 1380556154,
+      "section": "Unsafe at Any Speed",
+      "passage": "A year following the publication of Unsafe at Any Speed, Congress unanimously enacted the National Traffic and Motor Vehicle Safety Act. Speaker of the United States House of Representatives John William McCormack said the passage of the National Traffic and Motor Vehicle Safety Act was brought about by the \"crusading spirit of one individual who believed he could do something: Ralph Nader\".",
+      "hatnote": "Within a year, the book had changed the law.",
+      "onwardLinkText": null,
+      "nextPage": "Ralph Nader"
     }
   ],
-  "payoff": "One burst bottle gave America strict product liability, and gave its young lawyer a career firing a rooftop cannon after every win.",
+  "payoff": "One burst bottle gave America strict product liability; its lawyer's consumer cases paved the way for Nader, whose lawsuit-built book forced car-safety law.",
   "caveats": [
     "The Coca-Cola page credits Justice Traynor's concurring opinion with the doctrine; Belli's page says his arguments in the case gave birth to it."
   ]

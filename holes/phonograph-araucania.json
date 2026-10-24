@@ -1,0 +1,80 @@
+{
+  "id": "phonograph-araucania",
+  "claim": "Edison's forgotten French rival wanted to write on Mars. His niece was a queen.",
+  "start": {
+    "title": "Phonograph",
+    "page": "Phonograph",
+    "description": "Device for analogue recording of sound",
+    "image": "snapshots/images/Phonograph.webp"
+  },
+  "end": {
+    "title": "Kingdom of Araucanía and Patagonia",
+    "page": "Kingdom of Araucanía and Patagonia",
+    "description": "Self proclaimed unrecognized state",
+    "image": "snapshots/images/Kingdom-of-Araucan-a-and-Patagonia.webp"
+  },
+  "knots": [
+    {
+      "page": "Phonograph",
+      "url": "https://en.wikipedia.org/wiki/Phonograph",
+      "revision": 1378477866,
+      "section": "The early phonographs",
+      "passage": "Thomas Edison conceived the principle of recording and reproducing sound between May and July 1877 as a byproduct of his efforts to \"play back\" recorded telegraph messages and to automate speech sounds for transmission by telephone. His first experiments were with waxed paper.",
+      "hatnote": "Everyone knows Edison invented the phonograph in 1877.",
+      "onwardLinkText": null,
+      "nextPage": "Phonograph"
+    },
+    {
+      "page": "Phonograph",
+      "url": "https://en.wikipedia.org/wiki/Phonograph",
+      "revision": 1378477866,
+      "section": "Paleophone",
+      "passage": "Charles Cros, a French poet and inventor, is the first person known to have made the conceptual leap from recording sound as a traced line to the theoretical possibility of reproducing the sound from the tracing and then to devising a definite method for accomplishing the reproduction. On April 30, 1877, he deposited a sealed envelope containing a summary of his ideas with the French Academy of Sciences, a standard procedure used by scientists and inventors to establish priority of conception of unpublished ideas in the event of any later dispute.",
+      "hatnote": "But weeks earlier, a Parisian poet had sealed the same idea in an envelope.",
+      "onwardLinkText": "Charles Cros",
+      "nextPage": "Charles Cros"
+    },
+    {
+      "page": "Charles Cros",
+      "url": "https://en.wikipedia.org/wiki/Charles_Cros",
+      "revision": 1377914294,
+      "section": "Martian communication mirror",
+      "passage": "Cros was convinced that pinpoints of light observed on Mars and Venus, probably high clouds illuminated by the sun, were the lights of large cities on those planets. He spent years petitioning the French government to build a giant mirror that could be used to communicate with the Martians and Venusians by burning giant lines on the deserts of those planets. He was never convinced that the Martians were not a proven fact, nor that the mirror he wanted was technically impossible to build.",
+      "hatnote": "Edison got the credit. Cros had an even bigger idea.",
+      "onwardLinkText": null,
+      "nextPage": "Charles Cros"
+    },
+    {
+      "page": "Charles Cros",
+      "url": "https://en.wikipedia.org/wiki/Charles_Cros",
+      "revision": 1377914294,
+      "section": "Early life and education",
+      "passage": "Cros was the brother of the painter and sculptor Henry Cros [fr] and of Antoine-Hippolyte Cros, a surgeon who was also a pretender to the throne of the defunct Kingdom of Araucanía and Patagonia from 6 March 1902 until 1 November 1903, and the uncle of Laure-Therese Cros who was the Queen of Araucania and Patagonia from 1 November 1903 until 12 February 1916.",
+      "hatnote": "Unrecognised grand claims ran in the family.",
+      "onwardLinkText": "Kingdom of Araucanía and Patagonia",
+      "nextPage": "Kingdom of Araucanía and Patagonia"
+    },
+    {
+      "page": "Kingdom of Araucanía and Patagonia",
+      "url": "https://en.wikipedia.org/wiki/Kingdom_of_Araucan%C3%ADa_and_Patagonia",
+      "revision": 1377822730,
+      "section": "History",
+      "passage": "In 1858, Antoine de Tounens, a former lawyer in Périgueux, France, who had read the book La Araucana by Alonso de Ercilla, decided to go to Araucanía, inspired to become its king after reading the book. He landed at the port of Coquimbo in Chile and met some loncos (Mapuche tribal leaders) after arriving South to the Biobío.",
+      "hatnote": "A South American kingdom with French royals? It started with a book.",
+      "onwardLinkText": null,
+      "nextPage": "Kingdom of Araucanía and Patagonia"
+    },
+    {
+      "page": "Kingdom of Araucanía and Patagonia",
+      "url": "https://en.wikipedia.org/wiki/Kingdom_of_Araucan%C3%ADa_and_Patagonia",
+      "revision": 1377822730,
+      "section": "After de Tounens (1873–present)",
+      "passage": "A French champagne salesman, Gustave Laviarde, impressed by the story, decided to assume the vacant throne as Aquiles I. He was appointed heir to the throne by Orélie-Antoine. The pretenders to the throne of Araucanía and Patagonia have been called monarchs and sovereigns of fantasy, \"having only fanciful claims to a kingdom without legal existence and having no international recognition\".",
+      "hatnote": "Chile threw him out, but Frenchmen kept passing the crown along.",
+      "onwardLinkText": null,
+      "nextPage": "Kingdom of Araucanía and Patagonia"
+    }
+  ],
+  "payoff": "Cros sealed the phonograph before Edison and dreamed of signalling Mars; his brother and niece wore a crown no country ever recognised.",
+  "caveats": []
+}

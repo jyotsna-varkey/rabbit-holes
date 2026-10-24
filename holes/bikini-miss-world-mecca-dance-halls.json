@@ -1,0 +1,70 @@
+{
+  "id": "bikini-miss-world-mecca-dance-halls",
+  "claim": "Miss World began as a sales gimmick for a chain of dance halls.",
+  "start": {
+    "title": "Bikini",
+    "page": "Bikini",
+    "description": "Two-piece swimwear",
+    "image": "snapshots/images/Bikini.webp"
+  },
+  "end": {
+    "title": "Strictly Come Dancing",
+    "page": "Strictly Come Dancing",
+    "description": "British television series",
+    "image": "snapshots/images/Strictly-Come-Dancing.webp"
+  },
+  "knots": [
+    {
+      "page": "Bikini",
+      "url": "https://en.wikipedia.org/wiki/Bikini",
+      "revision": 1380957569,
+      "section": "Social resistance",
+      "passage": "That same year, Eric Morley organized the Festival Bikini Contest, a beauty contest and swimwear advertising opportunity at that year's Festival of Britain. The press, welcoming the spectacle, referred to it as Miss World, a name Morley registered as a trademark. The winner was Kiki Håkansson of Sweden, who was crowned in a bikini. After the crowning, Håkansson was condemned by Pope Pius XII, while Spain and Ireland threatened to withdraw from the pageant.",
+      "hatnote": "In 1951 the bikini was still scandalous. Someone built a contest around it.",
+      "onwardLinkText": "Eric Morley",
+      "nextPage": "Eric Morley"
+    },
+    {
+      "page": "Eric Morley",
+      "url": "https://en.wikipedia.org/wiki/Eric_Morley",
+      "revision": 1377661912,
+      "section": "Mecca",
+      "passage": "Morley had adapted the seaside beauty contest into fashion shows at Mecca dance halls; he developed this into a national beauty pageant and a TV concept. 'Miss Festival of Britain' began in 1951 as a promotional tool for Mecca and once international contestants arrived in London for the event, the press dubbed it 'Miss World', initially holding the competitions in Mecca halls. The first competition coincided with the Festival of Britain.",
+      "hatnote": "The man behind the contest ran dance halls.",
+      "onwardLinkText": null,
+      "nextPage": "Eric Morley"
+    },
+    {
+      "page": "Eric Morley",
+      "url": "https://en.wikipedia.org/wiki/Eric_Morley",
+      "revision": 1377661912,
+      "section": "Mecca",
+      "passage": "Morley started his career in the entertainment business in 1945 when he resigned his commission to manage a travelling show in Scotland. In 1949, he introduced ballroom dancing onto BBC television through the Come Dancing programme, encouraging viewers to visit Mecca's dance halls.",
+      "hatnote": "It wasn't his only TV idea for filling the dance floors.",
+      "onwardLinkText": "Come Dancing",
+      "nextPage": "Come Dancing"
+    },
+    {
+      "page": "Come Dancing",
+      "url": "https://en.wikipedia.org/wiki/Come_Dancing",
+      "revision": 1368630572,
+      "section": "lead",
+      "passage": "Come Dancing is a British ballroom dancing competition show made by the British Broadcasting Corporation (BBC), which aired on BBC One at various intervals from 1950 to 1998. Unlike its subsequent follow-up show, Strictly Come Dancing, contestants were neither celebrities nor professionals.",
+      "hatnote": "Come Dancing ran for nearly fifty years, with ordinary couples.",
+      "onwardLinkText": "Strictly Come Dancing",
+      "nextPage": "Strictly Come Dancing"
+    },
+    {
+      "page": "Strictly Come Dancing",
+      "url": "https://en.wikipedia.org/wiki/Strictly_Come_Dancing",
+      "revision": 1379937711,
+      "section": "lead",
+      "passage": "Strictly Come Dancing (commonly referred to as Strictly) is a British dance contest show in which celebrities partner with professional dancers to compete in mainly ballroom and Latin dance. Each couple is scored by a panel of judges. The title of the show is an amalgamation of 1992 film Strictly Ballroom and long-running TV series Come Dancing. The format has been exported to 60 other countries under the title Dancing with the Stars, licensed by BBC Worldwide, and led to a modern dance-themed spin-off Strictly Dance Fever. The Guinness World Records named Strictly as the world's most successful reality television format in 2010.",
+      "hatnote": "In 2004 the BBC brought it back, this time with celebrities.",
+      "onwardLinkText": null,
+      "nextPage": "Strictly Come Dancing"
+    }
+  ],
+  "payoff": "Miss World and Come Dancing were both ads for Mecca's dance halls; one came back as Strictly, the world's most successful reality format.",
+  "caveats": []
+}

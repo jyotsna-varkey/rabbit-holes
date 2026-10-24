@@ -1,6 +1,6 @@
 {
   "id": "roller-coaster-jim-thorpe",
-  "claim": "An early roller coaster's town swapped its name for a corpse.",
+  "claim": "An early roller coaster's town renamed itself after an Olympian who never visited.",
   "start": {
     "title": "Roller coaster",
     "page": "Roller coaster",
@@ -28,16 +28,6 @@
       "page": "Mauch Chunk Switchback Railway",
       "url": "https://en.wikipedia.org/wiki/Mauch_Chunk_Switchback_Railway",
       "revision": 1373375393,
-      "section": "Early days: 1827-1845",
-      "passage": "Like its rival the B&O Railroad, the Mauch Chunk at first used animal power. Mules hauled the empty coal tubs to the summit and were sent down in the last batch of cars; the return trip required 4–5 hours.",
-      "hatnote": "Its first passengers weren't tourists. They were mules.",
-      "onwardLinkText": null,
-      "nextPage": "Mauch Chunk Switchback Railway"
-    },
-    {
-      "page": "Mauch Chunk Switchback Railway",
-      "url": "https://en.wikipedia.org/wiki/Mauch_Chunk_Switchback_Railway",
-      "revision": 1373375393,
       "section": "lead",
       "passage": "Pennsylvania's first railroad and first anthracite carrier opened on Saturday, May 5th, 1827, when seven cars of coal passed from the Summit Hill mines of the L.C.&N. Company to their canal at Jim Thorpe, Pennsylvania, descending 936 feet (285 m) in the nine-mile (14 km) trip.",
       "hatnote": "Note the name of the town at the bottom of the hill.",
@@ -51,17 +41,17 @@
       "section": "lead",
       "passage": "Jim Thorpe, known as Mauch Chunk and East Mauch Chunk until 1954, is a borough and the county seat of Carbon County, Pennsylvania, United States. It is part of Northeastern Pennsylvania. It is the burial site of Native American sports legend Jim Thorpe, who had no connection with the borough in his lifetime.",
       "hatnote": "The town wasn't always called that.",
-      "onwardLinkText": null,
-      "nextPage": "Jim Thorpe, Pennsylvania"
+      "onwardLinkText": "Jim Thorpe",
+      "nextPage": "Jim Thorpe"
     },
     {
-      "page": "Jim Thorpe, Pennsylvania",
-      "url": "https://en.wikipedia.org/wiki/Jim_Thorpe%2C_Pennsylvania",
-      "revision": 1380940680,
-      "section": "Major historical events",
-      "passage": "On Sept. 1 Mrs. Thorpe, saying she feared Jim would be buried in a potter's field, shipped the body to Tulsa where she said the Chamber of Commerce was going to build a proper memorial, which was not true. When she heard that the boroughs of Mauch Chunk and East Mauch Chunk were desperately seeking to attract business, she made a deal with civic officials. According to Jim Thorpe's son, Jack, Patricia was motivated by money in seeking the deal.",
-      "hatnote": "In 1953 the Olympian died, and his widow went shopping for a memorial.",
-      "onwardLinkText": null,
+      "page": "Jim Thorpe",
+      "url": "https://en.wikipedia.org/wiki/Jim_Thorpe",
+      "revision": 1381354320,
+      "section": "Jim Thorpe, Pennsylvania",
+      "passage": "Meanwhile, Thorpe's third wife, unbeknownst to the rest of his family, took Thorpe's body and had it shipped to Pennsylvania when she heard that the small Pennsylvania towns of Mauch Chunk and East Mauch Chunk were seeking to attract business. She made a deal with officials which, according to Thorpe's son Jack, was made by the widowed Patricia for monetary considerations. This deal was made in May 1954, a year after Thorpe had died. The towns \"bought\" Thorpe's remains, which were interred there in 1957, erected a monument to him at the grave, merged, and renamed the newly united town in his honor as Jim Thorpe, Pennsylvania. Thorpe had never been there.",
+      "hatnote": "After the Olympian died in 1953, his widow found the towns a deal.",
+      "onwardLinkText": "Jim Thorpe, Pennsylvania",
       "nextPage": "Jim Thorpe, Pennsylvania"
     },
     {
@@ -69,14 +59,14 @@
       "url": "https://en.wikipedia.org/wiki/Jim_Thorpe%2C_Pennsylvania",
       "revision": 1380940680,
       "section": "Renaming to Jim Thorpe",
-      "passage": "The two cross-river boroughs merged in 1954 and renamed the new municipality Jim Thorpe in his honor, despite Thorpe never setting foot in the Borough while alive. The municipality then obtained the athlete's remains from his widow and erected a monument to the Oklahoma native, who began his sports career 100 miles (161 kilometres) southwest, as a student at the Carlisle Indian Industrial School in Carlisle, Pennsylvania.",
-      "hatnote": "The coal towns took the deal.",
+      "passage": "The decision to rename the borough saw a mixed reaction by the borough's residents, many of whom still refer to the borough as Mauch Chunk. Detractors to the new name claim that the renaming was a \"Tourist Lure\" and protested that Jim Thorpe had never even set eyes on the borough while he was alive. There were several movements to rename the borough back to Mauch Chunk, first in 1964 after the expected boost in tourism never came and another in 1992 as Jim Thorpe's popularity waned and locals referred to renaming the borough after a dead Native American to boost tourism revenues as \"crass commercialism\" while Thorpe's family called for his remains to be returned to Oklahoma.",
+      "hatnote": "Not everyone in town loved the new name.",
       "onwardLinkText": null,
       "nextPage": "Jim Thorpe, Pennsylvania"
     }
   ],
-  "payoff": "The coal town at the foot of an early thrill ride later renamed itself after a famous athlete, to get his grave.",
+  "payoff": "The coal town at the foot of a thrill ride bought an Olympian's grave and name, then waited for tourists who didn't come.",
   "caveats": [
-    "The son's claim that the widow was motivated by money is reported as his view in the article."
+    "The son's claim that the widow acted for money is reported as his view."
   ]
 }

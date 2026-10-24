@@ -1,0 +1,72 @@
+{
+  "id": "seat-belt-foulois-collier",
+  "claim": "The first aeroplane seat belt was borrowed from a horse.",
+  "start": {
+    "title": "Seat belt",
+    "page": "Seat belt",
+    "description": "Vehicle safety device to protect against injury during collisions and sudden stop",
+    "image": "snapshots/images/Seat-belt.webp"
+  },
+  "end": {
+    "title": "Girth (tack)",
+    "page": "Girth (tack)",
+    "description": "Strap used to keep the saddle in place on a horse",
+    "image": "snapshots/images/Girth-tack.webp"
+  },
+  "knots": [
+    {
+      "page": "Seat belt",
+      "url": "https://en.wikipedia.org/wiki/Seat_belt",
+      "revision": 1377417586,
+      "section": "Two-point airplane seat belts",
+      "passage": "An airplane seat belt is designed to protect from up and down movement and to keep passengers in their seats during turbulence or collisions on the runway. A simple strap was first used March 12, 1910, by pilot Benjamin Foulois, a pioneering aviator with the Aeronautical Division, U.S. Signal Corps, so he might remain at the controls during turbulence.",
+      "hatnote": "In aeroplanes, the belt story begins with one Army pilot.",
+      "onwardLinkText": "Benjamin Foulois",
+      "nextPage": "Benjamin Foulois"
+    },
+    {
+      "page": "Benjamin Foulois",
+      "url": "https://en.wikipedia.org/wiki/Benjamin_Foulois",
+      "revision": 1381065079,
+      "section": "lead",
+      "passage": "Benjamin Delahauf Foulois (December 9, 1879 – April 25, 1967) was a United States Army general who learned to fly the first military planes purchased from the Wright brothers. He became the first military aviator as an airship pilot, and achieved numerous other military aviation \"firsts\". He led strategic development of the Air Force in the United States.",
+      "hatnote": "The pilot behind that strap was a pioneer of military flying.",
+      "onwardLinkText": null,
+      "nextPage": "Benjamin Foulois"
+    },
+    {
+      "page": "Benjamin Foulois",
+      "url": "https://en.wikipedia.org/wiki/Benjamin_Foulois",
+      "revision": 1381065079,
+      "section": "Duty in Texas",
+      "passage": "To end the requirement of using a 60-foot launch rail to take off, he drew up plans for and installed wheels in place of skids, and equipped the S.C. No. 1 with the first seat belt, using a four-foot leather cinch obtained from the cavalry saddlery. According to Foulois: \"The second flight I made after crashing the first time I took it up I got almost thrown out; landed; the artillery officer came up there and I told him, Fred, I wanted to get a belt to keep me in that damn plane. He said, whaddya want? and I said a strap about four feet long, something I can lash myself to the seat with. That was the first safety belt invented.\"",
+      "hatnote": "Taught by nobody, he crashed, nearly fell out, and asked for a strap.",
+      "onwardLinkText": "cinch",
+      "nextPage": "Girth (tack)"
+    },
+    {
+      "page": "Girth (tack)",
+      "url": "https://en.wikipedia.org/wiki/Girth_(tack)",
+      "revision": 1362956252,
+      "section": "lead",
+      "passage": "A girth, sometimes called a cinch (Western riding), is a piece of equipment used to keep the saddle in place on a horse or other animal. It passes under the barrel of the equine, attached to the saddle on both sides by two or three leather straps called billets.",
+      "hatnote": "A cinch is horse gear, borrowed straight from the saddle.",
+      "onwardLinkText": null,
+      "nextPage": "Girth (tack)"
+    },
+    {
+      "page": "Girth (tack)",
+      "url": "https://en.wikipedia.org/wiki/Girth_(tack)",
+      "revision": 1362956252,
+      "section": "lead",
+      "passage": "Studies have shown that, although girths may restrict the movement of the ribcage in the horse, they have no effect on the horse's ability to take in air.",
+      "hatnote": "It holds tight, yet the horse still breathes freely.",
+      "onwardLinkText": null,
+      "nextPage": "Girth (tack)"
+    }
+  ],
+  "payoff": "The Army's first aeroplane seat belt was a four-foot cavalry cinch: the strap that keeps a saddle on a horse.",
+  "caveats": [
+    "Foulois's claim to have invented the 'first safety belt' is his own quote; the Seat belt article credits George Cayley with seat belts on his glider in the 19th century, so the hook says 'aeroplane'."
+  ]
+}

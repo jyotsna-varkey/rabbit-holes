@@ -1,0 +1,80 @@
+{
+  "id": "machu-picchu-yma-sumac-theremin",
+  "claim": "Indiana Jones's look came from a 1954 film whose singer was rumoured fake.",
+  "start": {
+    "title": "Machu Picchu",
+    "page": "Machu Picchu",
+    "description": "15th-century Inca citadel in Peru",
+    "image": "snapshots/images/Machu-Picchu.webp"
+  },
+  "end": {
+    "title": "Yma Sumac",
+    "page": "Yma Sumac",
+    "description": "Peruvian singer (1922–2008)",
+    "image": "snapshots/images/Yma-Sumac.webp"
+  },
+  "knots": [
+    {
+      "page": "Machu Picchu",
+      "url": "https://en.wikipedia.org/wiki/Machu_Picchu",
+      "revision": 1380992747,
+      "section": "In popular culture",
+      "passage": "Machu Picchu has appeared in several films, television programmes and music productions. The Paramount Pictures film Secret of the Incas (1954), starring Charlton Heston and Yma Sumac, was filmed on location at Machu Picchu and Cusco, marking the first time a major Hollywood studio shot on site.",
+      "hatnote": "Hollywood first came to the Inca citadel in 1953.",
+      "onwardLinkText": "Secret of the Incas",
+      "nextPage": "Secret of the Incas"
+    },
+    {
+      "page": "Secret of the Incas",
+      "url": "https://en.wikipedia.org/wiki/Secret_of_the_Incas",
+      "revision": 1379942662,
+      "section": "Influence on Raiders of the Lost Ark",
+      "passage": "The film is often cited by film buffs as a direct inspiration for the Indiana Jones film franchise, with many of the scenes in Raiders of the Lost Ark bearing a striking resemblance in tone and structure to scenes in Secret of the Incas. Throughout Secret of the Incas, the main character, Harry Steele, can be seen wearing what would later become known as the \"Indiana Jones\" outfit: brown leather jacket, fedora, tan pants, an over-the-shoulder bag, and revolver.",
+      "hatnote": "Its hero's wardrobe will look very familiar.",
+      "onwardLinkText": null,
+      "nextPage": "Secret of the Incas"
+    },
+    {
+      "page": "Secret of the Incas",
+      "url": "https://en.wikipedia.org/wiki/Secret_of_the_Incas",
+      "revision": 1379942662,
+      "section": "lead",
+      "passage": "The supporting cast features Robert Young, Nicole Maurey, and Thomas Mitchell, as well as a rare film appearance by Peruvian singer Yma Sumac.",
+      "hatnote": "But the real star turn was a voice.",
+      "onwardLinkText": "Yma Sumac",
+      "nextPage": "Yma Sumac"
+    },
+    {
+      "page": "Yma Sumac",
+      "url": "https://en.wikipedia.org/wiki/Yma_Sumac",
+      "revision": 1377258006,
+      "section": "Career",
+      "passage": "She was discovered by American composer Les Baxter, a pioneer of exotica, and signed to Capitol Records in 1950, at which time she adopted the name Yma Sumac. Her first album, Voice of the Xtabay, launched a period of fame that included performances at the Hollywood Bowl and Carnegie Hall.",
+      "hatnote": "Sumac had become a recording star a few years before the film.",
+      "onwardLinkText": null,
+      "nextPage": "Yma Sumac"
+    },
+    {
+      "page": "Yma Sumac",
+      "url": "https://en.wikipedia.org/wiki/Yma_Sumac",
+      "revision": 1377258006,
+      "section": "Vocal range",
+      "passage": "Sumac had a five-octave vocal range according to some reports, but other reports (and recordings) document four-and-a-half at the peak of her singing career. Shortly after her death, the BBC noted that a typical trained singer has a range of about three octaves.",
+      "hatnote": "Her voice was the real special effect.",
+      "onwardLinkText": null,
+      "nextPage": "Yma Sumac"
+    },
+    {
+      "page": "Yma Sumac",
+      "url": "https://en.wikipedia.org/wiki/Yma_Sumac",
+      "revision": 1377258006,
+      "section": "Myths",
+      "passage": "For years, rumors circulated that Sumac was a housewife from Brooklyn whose real name was \"Amy Camus\", which she reversed to become Yma Sumac. The origin of the rumor may plausibly be traced to a December 1950 review by influential jazz critic Leonard Feather, which also suggested that Sumac's recorded voice was in fact a theremin and that \"Xtabay\" was Pig Latin for \"Baxter\".",
+      "hatnote": "A range that big made some people doubt she was real at all.",
+      "onwardLinkText": null,
+      "nextPage": "Yma Sumac"
+    }
+  ],
+  "payoff": "Hollywood's first Machu Picchu film dressed Indiana Jones, and starred a voice so vast that a critic called it a theremin.",
+  "caveats": []
+}

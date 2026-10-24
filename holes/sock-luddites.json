@@ -1,0 +1,82 @@
+{
+  "id": "sock-luddites",
+  "claim": "The word 'Luddite' traces back to a smashed sock-making machine.",
+  "start": {
+    "title": "Sock",
+    "page": "Sock",
+    "description": "Item of clothing for the feet",
+    "image": "snapshots/images/Sock.webp"
+  },
+  "end": {
+    "title": "Luddites",
+    "page": "Luddites",
+    "description": "19th-century English anti-automation group",
+    "image": "snapshots/images/Luddites.webp"
+  },
+  "knots": [
+    {
+      "page": "Sock",
+      "url": "https://en.wikipedia.org/wiki/Sock",
+      "revision": 1376736436,
+      "section": "History",
+      "passage": "From the 16th century onwards, an ornamental design on the ankle or side of a sock has been called a \"clock\". The invention of a knitting machine in 1589 meant that socks could be knitted faster.",
+      "hatnote": "Socks were hand-knitted luxuries, until 1589.",
+      "onwardLinkText": "knitting machine",
+      "nextPage": "Knitting machine"
+    },
+    {
+      "page": "Knitting machine",
+      "url": "https://en.wikipedia.org/wiki/Knitting_machine",
+      "revision": 1358641999,
+      "section": "lead",
+      "passage": "A knitting machine is a device used to create knitted fabrics in a semi or fully automated fashion. There are numerous types of knitting machines, ranging from simple spool or board templates with no moving parts to highly complex mechanisms controlled by electronics.",
+      "hatnote": "Today knitting machines range from simple toys to computers.",
+      "onwardLinkText": "knitted",
+      "nextPage": "Knitting"
+    },
+    {
+      "page": "Knitting",
+      "url": "https://en.wikipedia.org/wiki/Knitting",
+      "revision": 1381201773,
+      "section": "History and culture",
+      "passage": "In 1589, William Lee of Nottinghamshire invented the first stocking frame, which was an early form of the knitting machine. Lee petitioned Queen Elizabeth I for a patent but was denied due to the coarse nature of the frame-knit fabric and the fear that frame knitting would take away the jobs of hand knitters in England.",
+      "hatnote": "The very first one was turned down by a queen.",
+      "onwardLinkText": "stocking frame",
+      "nextPage": "Stocking frame"
+    },
+    {
+      "page": "Stocking frame",
+      "url": "https://en.wikipedia.org/wiki/Stocking_frame",
+      "revision": 1334513183,
+      "section": "lead",
+      "passage": "A stocking frame was a mechanical knitting machine used in the textiles industry. It was invented by William Lee of Calverton near Nottingham in 1589. Its use, known traditionally as framework knitting, was the first major stage in the mechanisation of the textile industry, and played an important part in the early history of the Industrial Revolution.",
+      "hatnote": "Lee's sock machine started something enormous.",
+      "onwardLinkText": null,
+      "nextPage": "Stocking frame"
+    },
+    {
+      "page": "Stocking frame",
+      "url": "https://en.wikipedia.org/wiki/Stocking_frame",
+      "revision": 1334513183,
+      "section": "England",
+      "passage": "The industrialisation and spread of stocking frames provoked social tensions. The British government passed the Protection of Stocking Frames, etc. Act 1788 in response to widespread Luddite unrest and the destruction of knitting machinery by displaced workers.",
+      "hatnote": "Two centuries later, the queen's fear came true.",
+      "onwardLinkText": "Luddite",
+      "nextPage": "Luddites"
+    },
+    {
+      "page": "Luddites",
+      "url": "https://en.wikipedia.org/wiki/Luddites",
+      "revision": 1379839664,
+      "section": "Etymology",
+      "passage": "They utilised the eponym of Ned Ludd, an apocryphal apprentice who allegedly smashed two stocking frames in 1779 after being criticised and instructed to change his method. The name often appears as Captain, General, or King Ludd. Different versions of the legends place his residence in Anstey, near Leicester, or Sherwood Forest.",
+      "hatnote": "The Luddite rebels borrowed their name from a local legend.",
+      "onwardLinkText": null,
+      "nextPage": "Luddites"
+    }
+  ],
+  "payoff": "Today's word for anyone who fears new technology honours a probably imaginary apprentice who smashed two sock machines.",
+  "caveats": [
+    "Ned Ludd is described as apocryphal; the frame-smashing story is alleged."
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "statue-of-liberty-droit-de-suite",
+  "claim": "The Statue of Liberty's copper donor helped win artists a cut of every resale.",
+  "start": {
+    "title": "Statue of Liberty",
+    "page": "Statue of Liberty",
+    "description": "Colossal sculpture in New York Harbor",
+    "image": "snapshots/images/Statue-of-Liberty.webp"
+  },
+  "end": {
+    "title": "Droit de suite",
+    "page": "Droit de suite",
+    "description": "Right granted to artists to receive resale fee",
+    "image": ""
+  },
+  "knots": [
+    {
+      "page": "Statue of Liberty",
+      "url": "https://en.wikipedia.org/wiki/Statue_of_Liberty",
+      "revision": 1380786529,
+      "section": "Announcement and early work",
+      "passage": "The copper may have come from multiple sources and some of it is said to have come from a mine in Visnes, Norway, though this has not been conclusively determined after testing samples. According to Cara Sutherland in her book on the statue for the Museum of the City of New York, 200,000 pounds (91,000 kg) was needed to build the statue, and the French copper industrialist Eugène Secrétan donated 128,000 pounds (58,000 kg) of copper.",
+      "hatnote": "Lady Liberty's skin had to come from somewhere.",
+      "onwardLinkText": "Eugène Secrétan",
+      "nextPage": "Eugène Secrétan"
+    },
+    {
+      "page": "Eugène Secrétan",
+      "url": "https://en.wikipedia.org/wiki/Eug%C3%A8ne_Secr%C3%A9tan",
+      "revision": 1371843365,
+      "section": "Biography",
+      "passage": "According to the Museum of the City of New York he was a French copper industrialist who made his fortune in copper production. He donated 60,000 kilos of copper in the 1870s to make Liberty Enlightening the World, commonly known as the Statue of Liberty. He later lost his wealth in the copper crash of 1889 when his \"Société industrielle et commerciale des métaux\" went bankrupt after an attempt to corner the market on copper.",
+      "hatnote": "The generous donor then tried to own all the copper.",
+      "onwardLinkText": null,
+      "nextPage": "Eugène Secrétan"
+    },
+    {
+      "page": "Eugène Secrétan",
+      "url": "https://en.wikipedia.org/wiki/Eug%C3%A8ne_Secr%C3%A9tan",
+      "revision": 1371843365,
+      "section": "Biography",
+      "passage": "After the copper crash in March 1889, he sold his extended art collection in Charles Sedelmeyer's Galerie Sedelmeyer after printing and publicizing a catalogue in French and English to attract American investors. He timed the sale to coincide with the peak of the Exposition Universelle (1889), exhibiting the Eiffel Tower, which attracted many wealthy Americans. A French-American bidding war during the auction on L'Angélus, a work by the popular French painter Jean-François Millet of the Barbizon school, forced the price up to a record-breaking amount of 553,000 francs by Antonin Proust, who was bidding for the Louvre. Proust only had 180,000 francs however, and after spending a day trying to save the work for France, he called James F. Sutton of the American Art Association to buy it from him for 552,000.",
+      "hatnote": "To pay his creditors, he sold his paintings, with perfect timing.",
+      "onwardLinkText": "L'Angélus",
+      "nextPage": "The Angelus (painting)"
+    },
+    {
+      "page": "The Angelus (painting)",
+      "url": "https://en.wikipedia.org/wiki/The_Angelus_(painting)",
+      "revision": 1380483415,
+      "section": "Legacy",
+      "passage": "A month after the Secretan sale, The Gleaners was sold for 300,000 francs, and the contrast between the auction prices of Millet's paintings on the art market and the value of Millet's estate for his surviving family led to the droit de suite (French for \"right to follow\"), a French law that compensates artists or their heirs when artworks are resold.",
+      "hatnote": "The record price looked obscene next to what Millet's family had.",
+      "onwardLinkText": "droit de suite",
+      "nextPage": "Droit de suite"
+    },
+    {
+      "page": "Droit de suite",
+      "url": "https://en.wikipedia.org/wiki/Droit_de_suite",
+      "revision": 1357278675,
+      "section": "lead",
+      "passage": "Droit de suite (French for \"right to follow\") or Artist's Resale Right (ARR) is a right granted to artists or their heirs, in some jurisdictions, to receive a fee on the resale of their works of art. This should be contrasted with policies such as the American first-sale doctrine, where artists do not have the right to control or profit from subsequent sales.",
+      "hatnote": "The idea spread across Europe. The country of the buyers is another story.",
+      "onwardLinkText": null,
+      "nextPage": "Droit de suite"
+    }
+  ],
+  "payoff": "Secrétan's copper crash forced the sale; the Angelus's record price, beside Millet's struggling heirs, inspired a resale royalty that America still doesn't have.",
+  "caveats": [
+    "The Statue of Liberty article gives 128,000 pounds of copper; Secrétan's article says 60,000 kilos. Both are quoted as they appear.",
+    "Droit de suite's history section says the right was first proposed around 1893 and enacted in France in 1920; the Secretan sale is cited as its trigger, not its only cause."
+  ]
+}
