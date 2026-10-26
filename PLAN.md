@@ -257,7 +257,7 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
-36–39 done (not deployed). Owner reviews the 132 holes in holes-review.csv
+36–39 done; deploy in progress (Vercel daily upload cap, retrying daily). Owner reviews the 132 holes in holes-review.csv
 (keep / edit / cut); then trim, tighten the image budget, redeploy. Still
 open: 29 (owner sets Supabase URLs), then 15. Open owner decisions are listed
 under "Handover" below.
@@ -443,6 +443,10 @@ under "Handover" below.
 - Article images at WebP quality 60, card images at 70 (owner, 2026-10-24).
 
 ## Known issues
+- Deploys: Vercel's free plan uploads at most 5,000 files a day; step 39's
+  release has ~12,000 new image files, so it goes live over 2–3 daily
+  retries (`npx vercel@48 deploy --prod --yes`; uploaded files are kept).
+  Any future image re-encode will hit the same cap.
 - GPT studio hooks are questions, so "[citation needed]" after them reads
   oddly; Ballpoint pen and Bic Cristal cards show the same photo.
 - Overlapping trails (flagged in the review sheet): red-cactoblastis-cactorum
