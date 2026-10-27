@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { mergeShelves } from '../../src/lib/shelfSync';
+import { mergeShelves, signInRedirect } from '../../src/lib/shelfSync';
 
 // PLAN step 28: joining a device's shelf with the one saved to the reader's account.
 describe('mergeShelves', () => {
@@ -24,5 +24,16 @@ describe('mergeShelves', () => {
   it('ignores anything that is not a shelf entry', () => {
     const merged = mergeShelves([{ id: 'a', kept: '2026-10-09' }], [{ nope: true }, 'x', { id: 3 }] as unknown[]);
     expect(merged).toEqual([{ id: 'a', kept: '2026-10-09' }]);
+  });
+});
+
+// PLAN step 40: the emailed sign-in link must come back to the app, which on
+// GitHub Pages lives under /rabbit-holes/, not at the domain root.
+describe('signInRedirect', () => {
+  it('returns to the app under its base path', () => {
+    expect(signInRedirect('https://jyotsna-varkey.github.io', '/rabbit-holes/')).toBe('https://jyotsna-varkey.github.io/rabbit-holes/?shelf');
+  });
+  it('is unchanged for a site at the domain root', () => {
+    expect(signInRedirect('https://rabbit-holes-gules.vercel.app', '/')).toBe('https://rabbit-holes-gules.vercel.app/?shelf');
   });
 });

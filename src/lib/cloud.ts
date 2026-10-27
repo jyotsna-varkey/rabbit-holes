@@ -5,7 +5,7 @@
 
 import type { SupabaseClient } from '@supabase/supabase-js';
 import { getShelf, setShelf, type ShelfEntry } from './storage';
-import { mergeShelves } from './shelfSync';
+import { mergeShelves, signInRedirect } from './shelfSync';
 
 const SUPABASE_URL = 'https://zqrfcmdhbdatrjooipif.supabase.co';
 const SUPABASE_KEY = 'sb_publishable_7-3afzNB6_STjqk6ila_HQ_mbJoC7Ut';
@@ -36,7 +36,7 @@ export function maybeSignedIn() {
 export async function sendSignInLink(email: string) {
   const { error } = await (await client()).auth.signInWithOtp({
     email,
-    options: { emailRedirectTo: `${location.origin}/?shelf` },
+    options: { emailRedirectTo: signInRedirect(location.origin, import.meta.env.BASE_URL) },
   });
   if (error) throw error;
 }

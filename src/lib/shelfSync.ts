@@ -16,3 +16,6 @@ export function mergeShelves(a: readonly unknown[], b: readonly unknown[]): Shel
   }
   return [...byId.values()].sort((x, y) => (x.kept < y.kept ? 1 : x.kept > y.kept ? -1 : 0));
 }
+
+/** Where the emailed sign-in link returns: the app (at its base path), opening the shelf. */
+export const signInRedirect = (origin: string, base: string) => `${origin}${base}?shelf`;
