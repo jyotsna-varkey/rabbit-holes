@@ -252,20 +252,30 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          133.9 → 122.2 MB; image budget test 90 → 140 MB. Bundle size test
          now builds in production mode (it measured React's development
          build under the test runner); real entry 227 KB, budget unchanged.
+- [x] 40. Hosting moved to GitHub Pages (owner, 2026-10-27): public repo
+         https://github.com/jyotsna-varkey/rabbit-holes; every push to main
+         builds with --base=/rabbit-holes/ and deploys
+         (.github/workflows/pages.yml). Live:
+         https://jyotsna-varkey.github.io/rabbit-holes/ (steps 36–40). The
+         emailed sign-in link now returns to the app's base path
+         (signInRedirect, tested). Checked live: cards, a hole and its
+         article images load with no errors.
 - [ ] 15. Cover the remaining [~] steps with tests: swipe left sends the card
          to the back (8); "Back to the thread" re-centres and blur returns (3);
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
-36–39 done; deploy in progress (Vercel daily upload cap, retrying daily). Owner reviews the 132 holes in holes-review.csv
+36–40 done and live on GitHub Pages. Owner reviews the 132 holes in holes-review.csv
 (keep / edit / cut); then trim, tighten the image budget, redeploy. Still
 open: 29 (owner sets Supabase URLs), then 15. Open owner decisions are listed
 under "Handover" below.
 
 ## Handover (for a new session)
-- Live: https://rabbit-holes-gules.vercel.app (Vercel project rabbit-holes,
-  team "Jyotsna Varkey's projects"). Republish: `npx vercel@48 deploy --prod`
-  (CLI is logged in on this Mac). Check live: `BASE_URL=… npm run test:e2e
+- Live: https://jyotsna-varkey.github.io/rabbit-holes/ (GitHub Pages; repo
+  https://github.com/jyotsna-varkey/rabbit-holes, public). Republish: push
+  to main. The old Vercel site (rabbit-holes-gules.vercel.app) still serves
+  the 24-hole version; Vercel's free plan can't take this release (5,000
+  file uploads a day). Check live: `BASE_URL=… npm run test:e2e
   -- --workers=1`.
 - Local: `npm run dev -- --host` (phone: http://192.168.0.2:5173).
   Tests: `npm test` (500 unit/data), `npm run test:e2e` (102 browser).
@@ -275,7 +285,8 @@ under "Handover" below.
 - Supabase: project rabbit-holes, id zqrfcmdhbdatrjooipif, org
   jyotsna-varkey, table public.shelves (RLS). Publishable key is in
   src/lib/cloud.ts (public by design).
-- Git: no remote; history was rewritten on 2026-10-10. Backup bundle
+- Git: remote origin = GitHub (public); history was rewritten on 2026-10-10,
+  before the first push. Backup bundle
   ../rabbit_holes-backup-2026-10-10.bundle can be deleted once happy.
 - Waiting on the owner:
   1. Supabase → Authentication → URL Configuration (step 29; values in
@@ -442,11 +453,16 @@ under "Handover" below.
   after two judges rate them at least as good as holes the owner approved.
 - Article images at WebP quality 60, card images at 70 (owner, 2026-10-24).
 
+- Hosting (owner, 2026-10-27): GitHub Pages from a public repo, instead of
+  Vercel, whose free plan caps uploads at 5,000 files a day.
+
 ## Known issues
-- Deploys: Vercel's free plan uploads at most 5,000 files a day; step 39's
-  release has ~12,000 new image files, so it goes live over 2–3 daily
-  retries (`npx vercel@48 deploy --prod --yes`; uploaded files are kept).
-  Any future image re-encode will hit the same cap.
+- Supabase sign-in: add https://jyotsna-varkey.github.io/rabbit-holes/ to
+  Authentication → URL Configuration (Site URL / Redirect URLs), or emailed
+  links will be refused (owner, with step 29).
+- Live browser tests (BASE_URL=…) assume the site is at a domain root; on
+  GitHub Pages' /rabbit-holes/ they'd need a base-aware goto. Checked by a
+  scripted run instead for step 40.
 - GPT studio hooks are questions, so "[citation needed]" after them reads
   oddly; Ballpoint pen and Bic Cristal cards show the same photo.
 - Overlapping trails (flagged in the review sheet): red-cactoblastis-cactorum
@@ -561,3 +577,5 @@ under "Handover" below.
 - 2026-10-24: Step 39: second content pass; app 242 holes; fetch survives dropped
   connections; images shrunk a step. 4659 unit + 322 browser tests pass.
   Not deployed. Next: owner reviews holes-review.csv.
+- 2026-10-27: Step 40: moved to GitHub Pages; pushed; steps 36–40 live at
+  https://jyotsna-varkey.github.io/rabbit-holes/ (242 holes).
