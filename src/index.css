@@ -318,6 +318,27 @@ sup.cited { color: var(--visited); }
 .phase-tumble .bead,
 .phase-ending .bead { opacity: 0; }
 
+/* Reading the article (PLAN step 46): the way back is the whole thread. The
+   beads and the thread can be clicked, the beads breathe like the docked knot,
+   a glint runs up the thread (HoleView), the thread thickens on hover, and the
+   passage gently pulses. */
+.hole-thread .thread-hit { fill: none; stroke: transparent; stroke-width: 28; stroke-linecap: round; pointer-events: none; }
+.hole.is-reading .hole-thread .thread-hit { pointer-events: stroke; cursor: pointer; }
+.hole.is-reading .hole-thread g:hover .thread-main { stroke-width: 3.4px; }
+.hole.is-reading .bead { pointer-events: auto; cursor: pointer; animation: bead-breathe 1.8s ease-in-out infinite; }
+@keyframes bead-breathe {
+  0%, 100% { box-shadow: 0 0 0 2px var(--paper), 0 0 0 3.5px var(--thread), 0 0 0 3.5px rgba(51, 102, 204, 0.45); }
+  50% { box-shadow: 0 0 0 2px var(--paper), 0 0 0 3.5px var(--thread), 0 0 0 13px rgba(51, 102, 204, 0); }
+}
+.hole.is-reading .rh-passage { cursor: pointer; animation: passage-glow 2.4s ease-in-out infinite; }
+@keyframes passage-glow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(51, 102, 204, 0); }
+  50% { box-shadow: 0 0 0 4px rgba(51, 102, 204, 0.18); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hole.is-reading .bead, .hole.is-reading .rh-passage { animation: none; }
+}
+
 /* Phone: a wider left margin holds the thread and its beads. */
 @media (max-width: 760px) {
   .page:not(.ending) .page-scroll { padding-left: 46px; }

@@ -170,6 +170,28 @@ test('reading the article, the thread runs to a docked knot; clicking it comes b
   await expect(dock).toBeHidden();
 });
 
+// PLAN step 46 (owner, 2026-10-28): reading the article, the whole thread is the
+// way back — the passage, any bead, or the thread itself.
+test('reading the article, clicking a bead or the thread itself goes back to the thread', async ({ page }) => {
+  await open(page);
+  await readArticle(page);
+  await expect(page.locator('.hole')).toHaveClass(/is-reading/);
+  await page.locator('.bead.is-current').click();
+  await expect(current(page)).toHaveClass(/is-focused/);
+
+  await page.waitForTimeout(1600);
+  await readArticle(page);
+  // A point on the thread's lower half (between this page's bead and the dock).
+  const pt = await page.locator('.hole-thread [data-span="lo"][data-role="main"]').evaluate((p) => {
+    const path = p as SVGPathElement;
+    const q = path.getPointAtLength(path.getTotalLength() * 0.6);
+    const box = path.ownerSVGElement!.getBoundingClientRect();
+    return { x: box.left + q.x, y: box.top + q.y };
+  });
+  await page.mouse.click(pt.x, pt.y);
+  await expect(current(page)).toHaveClass(/is-focused/);
+});
+
 test('reading the article, Esc goes back to the thread', async ({ page }) => {
   await open(page);
   await readArticle(page);
@@ -229,6 +251,51 @@ test('moving on during the first-time tug still lands on the next page', async (
   await expect(page.locator('.page[aria-current="page"] .rh-hatnote')).toBeInViewport();
   await page.waitForTimeout(1200);
   expect(await trackY(page)).toBeCloseTo(-page.viewportSize()!.height, 0);
+});
+
+// Owner, 2026-10-28: on a laptop, a second swipe had to wait seconds. A Mac
+// trackpad keeps sending fading "coasting" events after the fingers lift; a
+// new swipe while it coasts must still move on.
+test('a new trackpad swipe moves on straight away, even while the last one coasts', async ({ page }) => {
+  await open(page);
+  await page.evaluate(async () => {
+    // Like a real trackpad: each event goes to whatever is under the cursor (the
+    // next page once it has slid in).
+    const send = async (d: number) => {
+      const el = document.elementFromPoint(innerWidth / 2, innerHeight / 2)!;
+      el.dispatchEvent(new WheelEvent('wheel', { deltaY: d, bubbles: true, cancelable: true }));
+      await new Promise((r) => setTimeout(r, 16));
+    };
+    for (let i = 0; i < 8; i++) await send(25);                 // swipe: moves on
+    for (let d = 24; d > 3; d *= 0.9) await send(Math.round(d)); // coasting, fading out
+    for (const d of [6, 14, 26, 30, 30, 30, 30]) await send(d);  // a new swipe while it coasts
+  });
+  await expect(page.locator('.bar-count')).toHaveText('3 / 4');
+});
+
+// A quick flick moves on even if it's short; a slow drag of the same length
+// that pauses before lifting drops back. (Pointer events sent inside the page,
+// 16 ms apart, so the timing is exact.)
+test('a quick flick moves on; the same distance dragged slowly drops back', async ({ page }) => {
+  await open(page);
+  const gesture = (ys: number[], pause = 0) => page.evaluate(async ({ ys, pause }) => {
+    const x = innerWidth / 2;
+    const el = document.elementFromPoint(x, ys[0])!;
+    const opts = (y: number) => ({ pointerId: 7, pointerType: 'touch', isPrimary: true, clientX: x, clientY: y, bubbles: true, cancelable: true });
+    el.dispatchEvent(new PointerEvent('pointerdown', opts(ys[0])));
+    for (const y of ys.slice(1)) {
+      await new Promise((r) => setTimeout(r, 16));
+      window.dispatchEvent(new PointerEvent('pointermove', opts(y)));
+    }
+    if (pause) await new Promise((r) => setTimeout(r, pause));
+    window.dispatchEvent(new PointerEvent('pointerup', opts(ys[ys.length - 1])));
+  }, { ys, pause });
+  const y0 = page.viewportSize()!.height * 0.6;
+  await gesture([0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50].map((d) => y0 - d), 250);
+  await page.waitForTimeout(700);
+  await expect(page.locator('.bar-count')).toHaveText('1 / 4');
+  await gesture([0, 12, 30, 50].map((d) => y0 - d));
+  await expect(page.locator('.bar-count')).toHaveText('2 / 4');
 });
 
 test.describe('touch', () => {

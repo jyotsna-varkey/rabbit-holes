@@ -215,7 +215,10 @@ export function HoleView({ hole, from, fling = 0, onClose, onNext, onSettled }: 
   };
   const onPull = (raw: number, kind: PullKind) => {
     const L = live.current, S = pullState.current;
-    if (L.busy || (L.phase !== 'reading' && L.phase !== 'ending')) return true;
+    if (L.phase !== 'reading' && L.phase !== 'ending') return true;
+    // Just after a move the page is still landing: hold this pull for a moment
+    // rather than discarding the gesture, so a quick second swipe still counts.
+    if (L.busy) return false;
     if (kind === 'wheel') {
       if (raw >= WHEEL_SNAP && canForward()) { go(1, 90); return true; }
       if (raw <= -WHEEL_SNAP && canBack()) { go(-1, 90); return true; }
@@ -385,7 +388,12 @@ export function HoleView({ hole, from, fling = 0, onClose, onNext, onSettled }: 
             const role = el.dataset.role;
             if (role === 'main') el.setAttribute('stroke-width', (2.4 - 1.3 * w).toFixed(2));
             if (role === 'shadow') el.setAttribute('stroke-width', (3.4 - 1.3 * w).toFixed(2));
-            if (role === 'glint') { el.setAttribute('opacity', (w * 0.95).toFixed(2)); el.setAttribute('stroke-dashoffset', (-secs * 90).toFixed(1)); }
+            // Taut, a glint runs along it. Reading the article, a glint keeps running
+            // up the thread towards the passage: the way back.
+            if (role === 'glint') {
+              el.setAttribute('opacity', (reading ? 0.9 : w * 0.95).toFixed(2));
+              el.setAttribute('stroke-dashoffset', ((reading ? 1 : -1) * secs * 90).toFixed(1));
+            }
           }
         };
         set('up', upD, tu);
@@ -416,12 +424,16 @@ export function HoleView({ hole, from, fling = 0, onClose, onNext, onSettled }: 
   }, [n, offset, base]);
 
   const { h } = size;
+  // Reading the whole article: the passage, any bead, the thread or the docked
+  // knot all go back to the thread, and all of them say so (PLAN step 46).
+  const reading = !focused && phase === 'reading';
+  const backToThread = () => pages.current.get(index)?.recenter();
   const shown = [index - 1, index, index + 1].filter((k) => k >= 0 && k < n);
   /** A bead shows its page's picture. */
   const beadStyle = (k: number) => { const f = k >= 0 && k < n ? pageOf(hole.knots[k].page)?.image?.file : undefined; const src = f ? holesAsset(f) : null; return src ? { backgroundImage: `url(${src})` } : undefined; };
 
   return (
-    <div ref={root} className={`hole phase-${phase}`} role="dialog" aria-label={hole.claim}>
+    <div ref={root} className={`hole phase-${phase}${reading ? ' is-reading' : ''}`} role="dialog" aria-label={hole.claim}>
       <motion.div className="hole-backdrop" style={{ opacity: backdrop }} />
       <motion.div className="tumbler" style={{ transform: tumbleTransform, clipPath: tumbleClip, opacity: tumbleOpacity }}>
         <motion.div className="track" style={{ y: trackY }}>
@@ -466,6 +478,8 @@ export function HoleView({ hole, from, fling = 0, onClose, onNext, onSettled }: 
             <path data-span={id} data-role="shadow" className="thread-shadow" transform="translate(1 2)" />
             <path data-span={id} data-role="main" className="thread-main" />
             <path data-span={id} data-role="glint" className="thread-glint" />
+            {/* Reading the article: the thread itself takes you back (a wide, invisible hit line). */}
+            <path data-span={id} data-role="hit" className="thread-hit" onClick={backToThread} />
           </g>
         ))}
         <circle data-role="halo" className="thread-halo" r="16" />
@@ -477,6 +491,7 @@ export function HoleView({ hole, from, fling = 0, onClose, onNext, onSettled }: 
           className={`bead ${slot === 1 ? 'is-current' : ''}`}
           style={beadStyle(k)}
           aria-hidden="true"
+          onClick={backToThread}
         />
       ))}
       {/* Reading the article: the thread runs down to this knot. Click it to go back to the thread. */}
@@ -485,7 +500,7 @@ export function HoleView({ hole, from, fling = 0, onClose, onNext, onSettled }: 
         className={`thread-dock ${!focused && phase === 'reading' ? 'is-shown' : ''}`}
         tabIndex={!focused && phase === 'reading' ? 0 : -1}
         aria-label="Back to the thread"
-        onClick={() => pages.current.get(index)?.recenter()}
+        onClick={backToThread}
       >
         <span className="thread-dock-knot" />
       </button>

@@ -367,12 +367,32 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          Owner-approved test updates: "thinner and tighter as you pull",
          "hangs loose at rest, straighter while you pull", "thread and
          beads stay in the margin". New: tests/unit/margin-rope.test.ts.
+- [x] 46. The way back from the article (owner, 2026-10-28: "needs to be very
+         clear"): reading the article, the passage, any bead and the thread
+         itself (a wide invisible hit line) all go back to the thread, as do
+         the docked knot and Esc. Nudges, no text: all beads breathe, a
+         glint keeps running up the thread towards the passage, the passage
+         softly pulses, the thread thickens on hover. Test: scroll-pull
+         "clicking a bead or the thread itself goes back".
+- [x] 47. No wait between scrolls (owner, 2026-10-28: "I have to wait a
+         couple of seconds before each scroll"). Cause: a Mac trackpad keeps
+         sending fading "coasting" wheel events after the fingers lift; each
+         page tracked wheel gestures on its own, so after a move the
+         coasting landed on the new page as a fresh scroll, and the app
+         blocked all wheel input until it died out. Now one wheel gesture is
+         shared by all pages (coasting after a move is ignored wherever it
+         lands) and a sharp rise in scroll speed starts a new gesture at
+         once. Also: flick speed is measured over the last ~0.1 s, or the
+         whole gesture when it's quick (a slow short drag could count as a
+         flick). Tests: scroll-pull "a new trackpad swipe moves on straight
+         away, even while the last one coasts", "a quick flick moves on; the
+         same distance dragged slowly drops back".
 - [ ] 15. Cover the remaining [~] steps with tests: swipe left sends the card
          to the back (8); "Back to the thread" re-centres and blur returns (3);
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
-43–45 done; deploy (owner asked), then owner feedback. Before:
+43–47 done and live. Owner feedback next. Before:
 41–42 done and pushed to GitHub (live). Owner tries them on phone and
 laptop and gives feedback. 41 done (not pushed: pushing main republishes the site). Next:
 owner tries it; possible step 42, the stack card's idle lean-right nudge
@@ -718,3 +738,6 @@ under "Handover" below.
   margin, picture beads). Steps 43–45 built it into the app with the
   smooth entry, nudges and the fall into the journey; everything else
   unchanged.
+- 2026-10-28 (later): Owner: scrolls needed a wait (trackpad coasting, step
+  47) and the way back from the article wasn't clear enough (step 46). Both
+  fixed and deployed.

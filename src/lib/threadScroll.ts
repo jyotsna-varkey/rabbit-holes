@@ -51,6 +51,13 @@ if (typeof window !== 'undefined') {
   }, true);
 }
 
+// One wheel gesture at a time, shared by every page: after a pull moves on, the
+// trackpad's coasting lands on the next page, and must still count as the
+// finished gesture (or it would pull again).
+type WheelGesture = { v: number; pull: number; done: boolean; last: number; prev: number; el: HTMLElement; release(g: WheelGesture): void };
+let wheel: WheelGesture | null = null;
+let wheelTimer = 0;
+
 export function threadScroll(el: HTMLElement, o: ThreadScrollOptions): () => void {
   /** One gesture: `v` is where the page would be (scrollTop plus any pull). */
   type Gesture = { v: number; pull: number; done: boolean };
@@ -72,7 +79,9 @@ export function threadScroll(el: HTMLElement, o: ThreadScrollOptions): () => voi
   // Pointer: finger, mouse or pen. A press that moves is a drag; one held
   // still reels; a quick one is left to the page's click (tap the passage).
   type Press = Gesture & {
-    id: number; x0: number; y0: number; y: number; t: number; vy: number;
+    id: number; x0: number; y0: number; y: number; t: number; down: number;
+    /** Recent finger positions, for a steady measure of flick speed. */
+    trail: { t: number; y: number }[];
     dragging: boolean; holding: boolean; timer: number;
   };
   let press: Press | null = null;
@@ -81,8 +90,8 @@ export function threadScroll(el: HTMLElement, o: ThreadScrollOptions): () => voi
     // Presses on links still drag and hold (a quick tap on one is left to the click).
     if ((e.target as Element).closest?.('button')) return;
     press = {
-      ...begin(), id: e.pointerId, x0: e.clientX, y0: e.clientY, y: e.clientY, t: performance.now(), vy: 0,
-      dragging: false, holding: false, timer: 0,
+      ...begin(), id: e.pointerId, x0: e.clientX, y0: e.clientY, y: e.clientY, t: performance.now(), down: performance.now(),
+      trail: [{ t: performance.now(), y: e.clientY }], dragging: false, holding: false, timer: 0,
     };
     const p = press;
     p.timer = window.setTimeout(() => {
@@ -103,8 +112,9 @@ export function threadScroll(el: HTMLElement, o: ThreadScrollOptions): () => voi
     }
     e.preventDefault();
     const now = performance.now();
-    p.vy = (p.y - e.clientY) / Math.max(1, now - p.t); // px/ms, > 0 = finger moving up = towards next
     p.t = now;
+    p.trail.push({ t: now, y: e.clientY });
+    while (p.trail.length > 2 && now - p.trail[0].t > 120) p.trail.shift();
     move(p, p.y - e.clientY, 'touch');
     p.y = e.clientY;
   };
@@ -116,29 +126,47 @@ export function threadScroll(el: HTMLElement, o: ThreadScrollOptions): () => voi
     if (p.holding) { o.onHoldEnd?.(); swallowNextClick(); return; }
     if (!p.dragging) return; // a tap: the page's click handles it
     swallowNextClick();
-    if (!p.done) o.onRelease(p.pull, 'touch', performance.now() - p.t < 80 ? p.vy : 0);
+    // Flick speed (px/ms, > 0 = finger moving up), only if the finger was still
+    // moving when it lifted: over the whole gesture when it was quick (under
+    // 0.25 s — a flick, however coarsely the device reports it), otherwise over
+    // the last ~0.1 s of movement.
+    const now = performance.now();
+    const first = p.trail[0], lastPt = p.trail[p.trail.length - 1];
+    const span = lastPt.t - first.t;
+    const moving = now - p.t < 80;
+    const quick = now - p.down < 250;
+    const vy = !moving ? 0 : quick ? (p.y0 - lastPt.y) / Math.max(1, lastPt.t - p.down) : span >= 30 ? (first.y - lastPt.y) / span : 0;
+    if (!p.done) o.onRelease(p.pull, 'touch', vy);
   };
 
-  let w: (Gesture & { last: number }) | null = null;
-  let wheelTimer = 0;
   const onWheel = (e: WheelEvent) => {
     const now = performance.now();
-    if (!w || now - w.last > WHEEL_GAP) {
+    const unit = e.deltaMode === 1 ? 32 : e.deltaMode === 2 ? el.clientHeight : 1;
+    const size = Math.abs(e.deltaY * unit);
+    // A Mac trackpad keeps "coasting" after the fingers lift: events that only
+    // ever fade. A new swipe makes them jump back up, so a sharp rise after a
+    // finished pull is a new gesture, not more of the old one (owner, 2026-10-28:
+    // otherwise the next swipe had to wait seconds for the coasting to stop).
+    const fresh = !!wheel && wheel.done && size >= 6 && size > wheel.prev * 1.5;
+    if (!wheel || now - wheel.last > WHEEL_GAP || fresh || (!wheel.done && wheel.el !== el)) {
       if (!o.enabled()) {
-        w = null;
+        if (wheel?.done) { wheel.last = now; wheel.prev = size; e.preventDefault(); return; }
+        wheel = null;
         return;
       }
-      w = { ...begin(), last: now };
+      wheel = { ...begin(), last: now, prev: 0, el, release: (g) => { if (!g.done) o.onRelease(g.pull, 'wheel', 0); } };
     }
+    const w = wheel;
     w.last = now;
+    w.prev = size;
     e.preventDefault();
-    const unit = e.deltaMode === 1 ? 32 : e.deltaMode === 2 ? el.clientHeight : 1;
+    if (w.done) return; // the rest of a gesture that already moved a page (its coasting)
+    if (w.el !== el) return;
     move(w, e.deltaY * unit, 'wheel');
     clearTimeout(wheelTimer);
-    const g = w;
     wheelTimer = window.setTimeout(() => {
-      if (!g.done) o.onRelease(g.pull, 'wheel', 0);
-      if (w === g) w = null;
+      w.release(w);
+      if (wheel === w) wheel = null;
     }, WHEEL_GAP);
   };
 
@@ -148,7 +176,7 @@ export function threadScroll(el: HTMLElement, o: ThreadScrollOptions): () => voi
   window.addEventListener('pointercancel', onUp);
   el.addEventListener('wheel', onWheel, { passive: false });
   return () => {
-    clearTimeout(wheelTimer);
+    if (wheel?.el === el) { clearTimeout(wheelTimer); wheel = null; }
     if (press) clearTimeout(press.timer);
     el.removeEventListener('pointerdown', onDown);
     window.removeEventListener('pointermove', onMove);
