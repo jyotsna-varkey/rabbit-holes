@@ -101,3 +101,8 @@ export function setSessionOrder(ids: string[]) {
     // ignore
   }
 }
+
+// Whether this reader has ever pulled the thread; until then the first page
+// shows a small pull by itself.
+export const hasPulled = () => read<boolean>('rh.pulled', false);
+export const markPulled = () => write('rh.pulled', true);

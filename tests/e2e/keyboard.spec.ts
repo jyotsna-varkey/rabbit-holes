@@ -30,10 +30,3 @@ test('left arrow on the ending goes back to the last knot', async ({ page }) => 
   await expect(page.locator('.bar-count')).toHaveText('4 / 4');
   await expect(page.getByText('The plan: put the whole painted temple on rails and push it uphill.').first()).toBeInViewport();
 });
-
-test('clicking the knot pulls, like the down arrow', async ({ page }) => {
-  await page.goto('/?hole=tutankhamun-noblecourt-amada-rails');
-  await enterTopHole(page);
-  await page.locator('.knot').click();
-  await expect(page.locator('.bar-count')).toHaveText('2 / 4');
-});

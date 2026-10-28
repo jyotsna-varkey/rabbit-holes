@@ -46,3 +46,18 @@ describe('Rope', () => {
     expect(rope.ends()).toEqual([a, b]);
   });
 });
+
+// PLAN step 41: when the reader leaves the thread to read the article, it hangs
+// loose from the onward link.
+describe('Rope.stepHanging', () => {
+  it('hangs straight down from its pinned end, at its own length', () => {
+    const a = { x: 100, y: 50 };
+    const rope = new Rope(12, a, { x: 200, y: 50 });
+    for (let i = 0; i < 1200; i++) rope.stepHanging(a, 150, 1 / 120);
+    const [top, end] = rope.ends();
+    expect(top).toEqual(a);
+    expect(Math.abs(end.x - a.x)).toBeLessThan(3);
+    expect(end.y - a.y).toBeGreaterThan(140);
+    expect(end.y - a.y).toBeLessThan(152);
+  });
+});

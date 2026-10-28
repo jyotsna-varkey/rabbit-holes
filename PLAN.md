@@ -260,12 +260,55 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          emailed sign-in link now returns to the app's base path
          (signInRedirect, tested). Checked live: cards, a hole and its
          article images load with no errors.
+- [x] 41. Scrolling is the pull (owner, 2026-10-28). The knot handle goes:
+         the reader scrolls through the passage and keeps scrolling past
+         its end to pull the thread (pull-to-refresh style): the thread
+         tightens from the onward link, the page resists, let go past the
+         point → snap to the next page; short → drops back. Scrolling up
+         past the passage's start pulls back to the previous page.
+         Tactile thread: slack at rest, tightens, brightens and thickens as
+         you pull, trembles near the snap, haptic ticks; on the snap one
+         crisp buzz, recoil with overshoot, the new link "catches" it.
+         The blur is the way out: tap the blurred text to read the whole
+         article (blur lifts from the tap; scrolling no longer pulls; the
+         thread hangs slack from the onward link). Tap the passage or the
+         hanging thread to come back. Blur lighter near the passage.
+         No new notes. Replaces "Back to the thread" and the knot handle;
+         SPEC core experience 3–4 change. The 2026-10-27 reel-in work is
+         parked on branch thread-reel (commit fab41673).
+         Done: src/lib/edgePull.ts (touch + wheel, only a gesture that
+         starts at the edge pulls; snap at 72 px of finger / 110 px of
+         wheel, without letting go); ArticlePage folds the article under
+         the passage (.page-inner height), dissolves the blur over 180 px
+         of upward scroll, taps on the blur reveal from the tap point, taps
+         on the passage come back; HoleView: no knot handle, thread runs
+         link → next page's hatnote with a small knot at the link, tension
+         drives thickness/colour/tremble, haptic ticks at 1/3 and 2/3,
+         recoil + knot pop after a snap, loose hanging end (Rope.stepHanging)
+         with a tap target; visited knots in the top bar go back; the
+         ending pulls back by scrolling up past its top; first-time
+         readers get one demo tug after the passage lands (rh.pulled).
+         Found while testing: the wheel "gesture ended" timer was shorter
+         than the gap that starts a new gesture, so a slow trackpad or a
+         notched mouse cancelled pulls mid-way (fixed, both 260 ms); the
+         resting slack sagged 30–60 px over the long span (1.012 → 1.0001);
+         moving on (↓ or a top-bar knot) during the first-time demo tug
+         left the screen on the old page, because the tug kept setting the
+         position (found by the every-hole test; now any move stops it).
+         Tests: tests/e2e/scroll-pull.spec.ts (15), rope.test (hanging).
+         Owner-approved test changes: pullKnot helper now scrolls past the
+         passage (negative = top-bar knot back); removed pull-back.spec,
+         thread-tug.spec, and the knot-click / short-tug / pull-label
+         tests; taut.spec → "slight give at rest, straight while pulling".
+         Page you're on carries aria-current="page".
 - [ ] 15. Cover the remaining [~] steps with tests: swipe left sends the card
          to the back (8); "Back to the thread" re-centres and blur returns (3);
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
-36–40 done and live on GitHub Pages. Owner reviews the 132 holes in holes-review.csv
+41 done locally (not pushed: pushing main republishes the site). Next:
+owner tries it; possible step 42, the stack card's idle lean-right nudge
+(idea 3, not built yet). Before that: 36–40 done and live on GitHub Pages. Owner reviews the 132 holes in holes-review.csv
 (keep / edit / cut); then trim, tighten the image budget, redeploy. Still
 open: 29 (owner sets Supabase URLs), then 15. Open owner decisions are listed
 under "Handover" below.
@@ -278,7 +321,7 @@ under "Handover" below.
   file uploads a day). Check live: `BASE_URL=… npm run test:e2e
   -- --workers=1`.
 - Local: `npm run dev -- --host` (phone: http://192.168.0.2:5173).
-  Tests: `npm test` (500 unit/data), `npm run test:e2e` (102 browser).
+  Tests: `npm test` (4662 unit/data), `npm run test:e2e` (572 browser incl. 484 all-holes; phone-only ones skip on laptop).
 - Content: 242 holes in holes/*.json (step 39); review sheet HOLES_REVIEW.md; import more from "Rabbit Holes — Reading
   Copy.txt" with `node scripts/import-holes.mjs "<txt>" 21-40`, then
   `node scripts/fetch-content.mjs`, then write claim/hatnotes/payoff.
@@ -415,6 +458,11 @@ under "Handover" below.
   Tried before: pages following the finger (4x when going back) with a
   26%-of-screen threshold; it read as lag, springs back, and slid page 1
   into a blank screen.
+- Scrolling is the pull (owner, 2026-10-28): replaces the knot handle.
+  Going back = visited knots in the top bar, ←, or scrolling up past the
+  top of the ending (scrolling up on a page reads the article instead).
+  Tried before and parked: reel-in drag with a peek tab (branch
+  thread-reel); knot handle (steps 25, 33).
 - Current page name sits centred in the top bar above the progress knots
   (serif, like a Wikipedia title; long names get an ellipsis); on the ending
   it reads "The whole thread".
@@ -519,6 +567,11 @@ under "Handover" below.
 - Mid-move the rope can show a small hook by the onward link for a frame
   or two (rope settling). Thread moves not yet tried on a real iPhone /
   Safari; checked in Chrome with emulated touch.
+- The test suite is slow when the Mac is busy (the Claude app at 100%+
+  CPU): 30–60 s per browser test, timeouts in data tests. Run browser
+  tests with --workers=1 --timeout=60000 then; all-holes takes ~10 min.
+- Scroll-pull on a real iPhone / Safari not tried yet (touch checked in
+  Chrome with emulated touch events).
 - iOS haptics use the iOS 18 switch-control workaround; untested on a device.
 
 
@@ -579,3 +632,8 @@ under "Handover" below.
   Not deployed. Next: owner reviews holes-review.csv.
 - 2026-10-27: Step 40: moved to GitHub Pages; pushed; steps 36–40 live at
   https://jyotsna-varkey.github.io/rabbit-holes/ (242 holes).
+- 2026-10-28: Owner: the thread felt unintuitive. Step 41: scrolling is the
+  pull, tactile thread, tap the blur to read the article. Old knot tests
+  replaced with owner approval. 4662 unit/data tests, all browser specs,
+  and all 242 holes end to end pass (machine was overloaded, so run with
+  1–2 workers). Not pushed.

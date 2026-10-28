@@ -7,6 +7,7 @@ import { Thread, type ThreadHandle } from '../components/Thread';
 import { isKept, keep, markFinished, unkeep } from '../lib/storage';
 import { tick } from '../lib/haptics';
 import type { Pt } from '../lib/rope';
+import { edgePull, type PullKind } from '../lib/edgePull';
 
 export type EndingHandle = {
   /** Where the hole's thread plugs into the destination card. */
@@ -19,6 +20,9 @@ type Props = {
   height: number;
   active: boolean;
   onNext(): void;
+  /** Scrolling up past the top of the ending pulls back to the last page. */
+  onPull(dist: number, kind: PullKind): boolean | void;
+  onPullEnd(dist: number, kind: PullKind): void;
 };
 
 /** Centre of a dot inside the journey list, in the list's own coordinates. */
@@ -33,9 +37,18 @@ function dotCentre(dot: HTMLElement | null, list: HTMLElement | null): Pt | null
 const sectionLabel = (section: string) => (section === 'lead' ? 'Introduction' : section);
 
 export const Ending = forwardRef<EndingHandle, Props>(function Ending(
-  { hole, top, height, active, onNext },
+  { hole, top, height, active, onNext, onPull, onPullEnd },
   ref,
 ) {
+  const scroller = useRef<HTMLDivElement>(null);
+  const cb = useRef({ active, onPull, onPullEnd });
+  cb.current = { active, onPull, onPullEnd };
+  useEffect(() => edgePull(scroller.current!, {
+    edge: 'top',
+    enabled: () => cb.current.active,
+    onMove: (d, kind) => cb.current.onPull(d, kind),
+    onEnd: (d, kind) => cb.current.onPullEnd(d, kind),
+  }), []);
   const journey = useRef<HTMLOListElement>(null);
   const right = useRef<HTMLElement>(null);
   const thread = useRef<ThreadHandle>(null);
@@ -111,7 +124,7 @@ export const Ending = forwardRef<EndingHandle, Props>(function Ending(
 
   return (
     <section className={`page ending stage-${stage}`} style={{ top, height }} aria-label="The hole, cited">
-      <div className="page-scroll">
+      <div ref={scroller} className="page-scroll">
         <p className="end-kicker">Rabbit hole · {n} knots</p>
         <h1 className="end-claim">
           {hole.claim}

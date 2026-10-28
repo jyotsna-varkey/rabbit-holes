@@ -85,6 +85,44 @@ export class Rope {
     }
   }
 
+  /**
+   * Advance one step with only the first end pinned: a loose end of `length` px
+   * hanging from `a` and swinging as `a` moves.
+   */
+  stepHanging(a: Pt, length: number, dt: number, gx = 0, gy = 2200) {
+    const { n, x, y, px, py } = this;
+    const damping = 0.965;
+    for (let i = 1; i < n; i++) {
+      const vx = (x[i] - px[i]) * damping;
+      const vy = (y[i] - py[i]) * damping;
+      px[i] = x[i];
+      py[i] = y[i];
+      x[i] += vx + gx * dt * dt;
+      y[i] += vy + gy * dt * dt;
+    }
+    x[0] = px[0] = a.x;
+    y[0] = py[0] = a.y;
+    const seg = length / (n - 1);
+    for (let it = 0; it < ITERATIONS; it++) {
+      for (let i = 0; i < n - 1; i++) {
+        const dx = x[i + 1] - x[i];
+        const dy = y[i + 1] - y[i];
+        const d = Math.hypot(dx, dy) || 0.0001;
+        if (d <= seg) continue;
+        const diff = (d - seg) / d;
+        if (i === 0) {
+          x[i + 1] -= dx * diff;
+          y[i + 1] -= dy * diff;
+        } else {
+          x[i] += dx * diff * 0.5;
+          y[i] += dy * diff * 0.5;
+          x[i + 1] -= dx * diff * 0.5;
+          y[i + 1] -= dy * diff * 0.5;
+        }
+      }
+    }
+  }
+
   /** Smooth SVG path through the rope's points. */
   path() {
     const { n, x, y } = this;

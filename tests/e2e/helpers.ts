@@ -20,14 +20,22 @@ export async function enterTopHole(page: Page) {
   await expect(page.locator('.page.is-focused').first()).toBeVisible({ timeout: 10_000 });
 }
 
-/** Drag the knot handle upward by `by` pixels. */
+/**
+ * Pull the thread (PLAN step 41: scrolling is the pull). Scrolls on past the
+ * passage like a trackpad: a stream of small wheel events 16 ms apart, sent
+ * inside the page. A negative `by` goes back a page with the top bar's last
+ * visited knot. (Was: drag the knot handle, removed in step 41.)
+ */
 export async function pullKnot(page: Page, by = 400) {
-  const knot = page.locator('.knot');
-  const box = (await knot.boundingBox())!;
-  const x = box.x + box.width / 2;
-  const y = box.y + box.height / 2;
-  await page.mouse.move(x, y);
-  await page.mouse.down();
-  for (let i = 1; i <= 10; i++) await page.mouse.move(x, y - (by * i) / 10, { steps: 2 });
-  await page.mouse.up();
+  if (by < 0) {
+    await page.locator('.progress .progress-back').last().click();
+    return;
+  }
+  await expect(page.locator('.page.is-landing')).toHaveCount(0, { timeout: 10_000 });
+  await page.locator('.page[aria-current="page"] .page-scroll').evaluate(async (el, total) => {
+    for (let done = 0; done < total; done += 10) {
+      el.dispatchEvent(new WheelEvent('wheel', { deltaY: 10, bubbles: true, cancelable: true }));
+      await new Promise((r) => setTimeout(r, 16));
+    }
+  }, by);
 }

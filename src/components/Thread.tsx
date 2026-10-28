@@ -6,7 +6,9 @@ export type ThreadHandle = {
    * Pin the thread to `pins` (consecutive pairs make spans) and advance the
    * physics by `frameDt` seconds. `slack` is per span or shared.
    */
-  update(pins: Pt[], slack: number | number[], frameDt: number, gravity?: Pt): void;
+  update(pins: Pt[], slack: number | number[], frameDt: number, gravity?: Pt, hang?: (number | null)[]): void;
+  /** Where span s ends now (for a hanging span, its loose end). */
+  end(s: number): Pt | null;
   /** Drop the first k spans and keep the rest, so a thread can move on without snapping. */
   shift(k: number): void;
   /** Forget every span; each is laid straight on the next update and falls into place. */
@@ -31,9 +33,10 @@ export const Thread = forwardRef<ThreadHandle, Props>(function Thread(
   const mains = useRef<(SVGPathElement | null)[]>([]);
   const shadows = useRef<(SVGPathElement | null)[]>([]);
   const carry = useRef(0);
+  const hanging = useRef<boolean[]>([]);
 
   useImperativeHandle(ref, () => ({
-    update(pins, slack, frameDt, gravity) {
+    update(pins, slack, frameDt, gravity, hang) {
       carry.current = Math.min(carry.current + frameDt, STEP * 6);
       let steps = 0;
       while (carry.current >= STEP) {
@@ -44,6 +47,25 @@ export const Thread = forwardRef<ThreadHandle, Props>(function Thread(
         const a = pins[s];
         const b = pins[s + 1];
         if (!a || !b) continue;
+        const loose = hang?.[s];
+        if (loose != null) {
+          // A loose end hanging from a: it swings as a moves, and falls from straight when it starts.
+          let rope = ropes.current[s];
+          if (!rope || hanging.current[s] !== true) {
+            rope = ropes.current[s] = new Rope(points, a, { x: a.x + 1, y: a.y + loose });
+            hanging.current[s] = true;
+          }
+          for (let i = 0; i < steps; i++) rope.stepHanging(a, loose, STEP, gravity?.x ?? 0, gravity?.y ?? 2200);
+          const d = rope.path();
+          mains.current[s]?.setAttribute('d', d);
+          shadows.current[s]?.setAttribute('d', d);
+          continue;
+        }
+        if (hanging.current[s]) {
+          // Picked up again: lay it straight between its pins.
+          ropes.current[s] = null;
+          hanging.current[s] = false;
+        }
         let rope = ropes.current[s];
         if (!rope) rope = ropes.current[s] = new Rope(points, a, b);
         // If an end jumped (a page changed under it), start the span straight and let it fall.
@@ -58,11 +80,17 @@ export const Thread = forwardRef<ThreadHandle, Props>(function Thread(
         shadows.current[s]?.setAttribute('d', d);
       }
     },
+    end(s) {
+      const rope = ropes.current[s];
+      return rope ? rope.ends()[1] : null;
+    },
     shift(k) {
       ropes.current = ropes.current.slice(k);
+      hanging.current = hanging.current.slice(k);
     },
     reset() {
       ropes.current = [];
+      hanging.current = [];
     },
   }), [spans, points]);
 
