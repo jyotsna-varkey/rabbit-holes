@@ -11,12 +11,19 @@ export type ArticlePageHandle = {
   anchor(): Pt | null;
   /** Called every frame while visible: keeps the focus veils on the passage. */
   tick(): void;
-  /** First arrival: scroll once from the top of the article down to the passage. */
+  /** First arrival: settle onto the passage from just above it, while the page grows in. */
   arrive(): void;
   /** Back to the thread: glide to the passage and bring the blur back. */
   recenter(): void;
   /** Whether the passage has landed and the page is resting on the thread. */
   settled(): boolean;
+  /**
+   * Where this page's bead sits: in the margin left of the text, level with the
+   * middle of the passage (viewport coordinates), and the margin's edges.
+   */
+  bead(): { x: number; y: number; textLeft: number } | null;
+  /** Lift the passage (and its bridge line) by px while the thread is pulled. */
+  lift(px: number): void;
 };
 
 type Props = {
@@ -28,9 +35,14 @@ type Props = {
   /** The page the reader is on (only it can be pulled). */
   active: boolean;
   onFocusChange(focused: boolean): void;
-  /** Scrolling on the thread: > 0 towards the next page, < 0 the previous. Return true once it moved. */
+  /** Pulling on the thread: > 0 towards the next page, < 0 the previous. Return true once it moved. */
   onPull(pull: number, kind: PullKind): boolean | void;
-  onPullEnd(pull: number, kind: PullKind): void;
+  onPullEnd(pull: number, kind: PullKind, velocity: number): void;
+  /** A press held still on the page: reel the thread in. */
+  onHold(): void;
+  onHoldEnd(): void;
+  /** A tap on the passage (not a link in it): move on. */
+  onTapPassage(): void;
 };
 
 // The band of the screen the passage is centred in: below the top bar, with
@@ -40,11 +52,13 @@ const BAND_BOTTOM = 110;
 // On the thread the article doesn't scroll; a passage taller than the screen
 // scrolls until this much room is left under it, then scrolling pulls.
 const TAIL = 40;
+// The first arrival starts this far above the passage and settles onto it.
+const APPROACH = 160;
 
 const ease = (t: number) => (t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2);
 
 export const ArticlePage = forwardRef<ArticlePageHandle, Props>(function ArticlePage(
-  { knot, top, height, arriveFromTop, active, onFocusChange, onPull, onPullEnd },
+  { knot, top, height, arriveFromTop, active, onFocusChange, onPull, onPullEnd, onHold, onHoldEnd, onTapPassage },
   ref,
 ) {
   const article = pageOf(knot.page);
@@ -67,8 +81,8 @@ export const ArticlePage = forwardRef<ArticlePageHandle, Props>(function Article
     arrived: !arriveFromTop,
     arrivePending: false,
   });
-  const cb = useRef({ onFocusChange, onPull, onPullEnd, active });
-  cb.current = { onFocusChange, onPull, onPullEnd, active };
+  const cb = useRef({ onFocusChange, onPull, onPullEnd, onHold, onHoldEnd, onTapPassage, active });
+  cb.current = { onFocusChange, onPull, onPullEnd, onHold, onHoldEnd, onTapPassage, active };
 
   useEffect(() => {
     let live = true;
@@ -82,14 +96,21 @@ export const ArticlePage = forwardRef<ArticlePageHandle, Props>(function Article
   /** Where the hatnote should sit so hatnote + passage are centred in the band. */
   const restingOffset = () => {
     const st = s.current;
-    if (!st.hatnote || !st.passage || !scroller.current) return null;
-    const box = scroller.current.getBoundingClientRect();
-    const blockTop = st.hatnote.getBoundingClientRect().top - box.top;
-    const blockBottom = st.passage.block.getBoundingClientRect().bottom - box.top;
+    const el = scroller.current;
+    if (!st.hatnote || !st.passage || !el) return null;
+    // Layout offsets, not screen positions: the page may still be growing out of
+    // the card (scaled) when this is measured.
+    const within = (node: HTMLElement) => {
+      let y = 0;
+      for (let e: HTMLElement | null = node; e && e !== el; e = e.offsetParent as HTMLElement | null) y += e.offsetTop;
+      return y;
+    };
+    const blockTop = within(st.hatnote);
+    const blockBottom = within(st.passage.block) + st.passage.block.offsetHeight;
     const band = height - BAND_TOP - BAND_BOTTOM;
     const tall = blockBottom - blockTop;
     const want = tall < band ? BAND_TOP + (band - tall) * 0.42 : BAND_TOP;
-    return scroller.current.scrollTop + blockTop - want;
+    return blockTop - want;
   };
 
   const setFocus = (on: boolean) => {
@@ -148,10 +169,21 @@ export const ArticlePage = forwardRef<ArticlePageHandle, Props>(function Article
     st.auto = requestAnimationFrame(step);
   };
 
-  const goToPassage = (animated: boolean) => {
+  /**
+   * Glide to the passage. `approach`: the first arrival, while the page grows out
+   * of the card — it starts just above the passage and settles onto it, so the
+   * whole entry is one motion.
+   */
+  const goToPassage = (animated: boolean, approach = false) => {
     const target = restingOffset();
     if (target == null || !scroller.current) return;
     s.current.touched = false;
+    if (approach && animated && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      scroller.current.scrollTop = Math.max(0, target - APPROACH);
+      setFocus(true);
+      scrollTo(target, 700);
+      return;
+    }
     if (!animated || matchMedia('(prefers-reduced-motion: reduce)').matches) {
       scroller.current.scrollTop = target;
       s.current.restTop = scroller.current.scrollTop;
@@ -214,8 +246,8 @@ export const ArticlePage = forwardRef<ArticlePageHandle, Props>(function Article
     block.parentNode!.insertBefore(hatnote, block);
     st.hatnote = hatnote;
 
-    if (st.arrived) goToPassage(false);
-    else if (st.arrivePending) goToPassage(true);
+    if (st.arrived && !st.arrivePending) goToPassage(false);
+    else if (st.arrivePending) { st.arrivePending = false; goToPassage(true, true); }
   }, [html, knot]);
 
   // Reading vs. being moved: any scroll the reader makes lifts the focus.
@@ -231,7 +263,8 @@ export const ArticlePage = forwardRef<ArticlePageHandle, Props>(function Article
         section.current?.classList.remove('is-landing');
       }
     };
-    // On the thread, a tap on the blur opens the article (links there don't fire
+    // On the thread, a tap on the passage moves on (links in it still open
+    // Wikipedia) and a tap on the blur opens the article (links there don't fire
     // yet); reading the article, a tap on the passage goes back to the thread.
     const onClick = (e: MouseEvent) => {
       if (!st.passage || !st.arrived || st.autoActive) return;
@@ -239,7 +272,10 @@ export const ArticlePage = forwardRef<ArticlePageHandle, Props>(function Article
       const target = e.target as Element;
       const inPassage = st.passage.block.contains(target) || !!st.hatnote?.contains(target);
       if (st.focused) {
-        if (inPassage) return;
+        if (inPassage) {
+          if (!target.closest('a') && cb.current.active) cb.current.onTapPassage();
+          return;
+        }
         e.preventDefault();
         e.stopPropagation();
         reveal(e.clientX, e.clientY);
@@ -251,7 +287,6 @@ export const ArticlePage = forwardRef<ArticlePageHandle, Props>(function Article
     el.addEventListener('wheel', touch, { passive: true });
     el.addEventListener('pointerdown', touch);
     el.addEventListener('keydown', touch);
-    el.addEventListener('click', onClick, true);
     const stopPull = threadScroll(el, {
       enabled: () => cb.current.active && st.focused && st.arrived && !!st.passage,
       range: passageRange,
@@ -265,8 +300,12 @@ export const ArticlePage = forwardRef<ArticlePageHandle, Props>(function Article
         }
         return cb.current.onPull(d, kind);
       },
-      onRelease: (d, kind) => cb.current.onPullEnd(d, kind),
+      onRelease: (d, kind, v) => cb.current.onPullEnd(d, kind, v),
+      onHold: () => cb.current.onHold(),
+      onHoldEnd: () => cb.current.onHoldEnd(),
     });
+    // After threadScroll's own click check, so the click ending a drag isn't a tap.
+    el.addEventListener('click', onClick, true);
     return () => {
       cancelAnimationFrame(st.auto);
       stopPull();
@@ -314,7 +353,7 @@ export const ArticlePage = forwardRef<ArticlePageHandle, Props>(function Article
       const st = s.current;
       if (st.arrived) return;
       st.arrived = true;
-      if (st.passage) goToPassage(true);
+      if (st.passage) goToPassage(true, true);
       else st.arrivePending = true;
     },
     recenter() {
@@ -323,6 +362,19 @@ export const ArticlePage = forwardRef<ArticlePageHandle, Props>(function Article
     settled() {
       const st = s.current;
       return !!st.passage && st.arrived && st.focused && !st.autoActive;
+    },
+    bead() {
+      const st = s.current;
+      if (!st.passage || !body.current) return null;
+      const r = st.passage.block.getBoundingClientRect();
+      const textLeft = body.current.getBoundingClientRect().left;
+      return { x: textLeft - 24, y: (r.top + r.bottom) / 2, textLeft };
+    },
+    lift(px) {
+      const st = s.current;
+      const t = px ? `translateY(${(-px).toFixed(2)}px)` : '';
+      if (st.passage) st.passage.block.style.transform = t;
+      if (st.hatnote) st.hatnote.style.transform = t;
     },
   }), [height]);
 

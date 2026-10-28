@@ -294,39 +294,45 @@ sup.cited { color: var(--visited); }
 .phase-tumble .hole-thread,
 .phase-ending .hole-thread { opacity: 0; }
 
-/* The thread tightens as you pull: thicker and brighter, link blue → a deeper blue. */
+/* The margin thread (PLAN step 43). HoleView sets its path and width each frame:
+   loose and 2.4 px at rest, thinner as it's pulled taut, with a glint running
+   along it when tight. */
 .hole { --tension: 0; }
-.hole-thread {
-  --thread-live: color-mix(in srgb, var(--thread), #0a3fd6 calc(var(--tension) * 70%));
-}
-.hole-thread .thread-main { stroke-width: calc(2px + var(--tension) * 1.4px); }
+.hole-thread .thread-main { stroke: var(--thread); }
+.hole-thread .thread-glint { fill: none; stroke: #fff; stroke-width: 1.1; stroke-dasharray: 2 10; stroke-linecap: round; opacity: 0; }
+.hole-thread .thread-halo { fill: var(--thread); opacity: 0.14; }
 
-/* The knot where the thread leaves the passage (moved and popped from HoleView). */
-.thread-knot {
+/* Beads on the thread: each page's picture in a small circle; this page's is larger. */
+.bead {
   position: absolute;
   left: 0;
   top: 0;
-  width: 10px;
-  height: 10px;
-  margin: -5px 0 0 -5px;
-  border-radius: 50%;
-  background: var(--thread);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
   z-index: 6;
+  border-radius: 50%;
+  background: var(--thread) center / cover no-repeat;
+  box-shadow: 0 0 0 1.5px var(--paper), 0 0 0 2.5px var(--thread), 0 2px 4px rgba(0, 0, 0, 0.2);
   pointer-events: none;
+  visibility: hidden;
 }
-.phase-tumble .thread-knot,
-.phase-ending .thread-knot { visibility: hidden; }
+.bead.is-current { box-shadow: 0 0 0 2px var(--paper), 0 0 0 3.5px var(--thread), 0 3px 8px rgba(0, 0, 0, 0.28); }
+.phase-tumble .bead,
+.phase-ending .bead { opacity: 0; }
+
+/* Phone: a wider left margin holds the thread and its beads. */
+@media (max-width: 760px) {
+  .page:not(.ending) .page-scroll { padding-left: 46px; }
+}
 
 /* Reading the article: the thread runs down to this knot, docked at the bottom.
    It breathes so it reads as something to grab; click it to go back to the thread. */
 .thread-dock {
+  /* placed each frame at the bottom of the margin, where the thread ends */
   position: absolute;
-  left: 50%;
-  bottom: calc(28px + env(safe-area-inset-bottom));
-  width: 64px;
-  height: 64px;
-  margin-left: -32px;
+  left: 0;
+  top: 0;
+  width: 56px;
+  height: 56px;
+  margin: -28px 0 0 -28px;
   z-index: 7;
   display: none;
   place-items: center;
@@ -669,7 +675,7 @@ a.rh-onward mark.rh-hl { color: var(--link); }
 }
 .ending:not(.stage-0) .journey .end-right { transform: none; }
 .end-thread { opacity: 0; transition: opacity 0.4s; }
-.ending:not(.stage-0):not(.stage-1) .end-thread { opacity: 1; }
+.ending:not(.stage-0) .end-thread { opacity: 1; }
 
 /* Where the thread leaves the start card (bottom middle) and meets the end card (top middle). */
 .j-cap {

@@ -8,7 +8,7 @@ import { stackOrder } from './lib/order';
 
 type View =
   | { name: 'home' }
-  | { name: 'hole'; id: string; from: DOMRect | null; run: number }
+  | { name: 'hole'; id: string; from: DOMRect | null; fling?: number; run: number }
   | { name: 'shelf' };
 
 // A fresh shuffle on every visit, unopened holes first, kept through refreshes;
@@ -106,8 +106,8 @@ export default function App() {
     }
   };
 
-  const enter = (id: string, from: DOMRect | null) => {
-    go({ name: 'hole', id, from, run: Date.now() });
+  const enter = (id: string, from: DOMRect | null, fling = 0) => {
+    go({ name: 'hole', id, from, fling, run: Date.now() });
   };
 
   const openHole = (id: string) => {
@@ -139,6 +139,7 @@ export default function App() {
           key={`${view.id}:${view.run}`}
           hole={shownHole}
           from={view.from}
+          fling={view.fling ?? 0}
           onClose={goHome}
           onNext={next}
           onSettled={() => setHomeHidden(true)}

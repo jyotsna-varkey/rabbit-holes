@@ -83,12 +83,14 @@ test('a short scroll past the passage drops back', async ({ page }) => {
   expect(await trackY(page)).toBeCloseTo(0, 0);
 });
 
-test('the thread tightens as you pull', async ({ page }) => {
+// Owner-approved (step 43): replaces "the thread tightens as you pull", which
+// expected the old thread to get thicker. The approved thread thins as it's pulled taut.
+test('the thread gets thinner and tighter as you pull', async ({ page }) => {
   await open(page);
-  const width = () => page.locator('.hole-thread .thread-main').nth(2).evaluate((el) => parseFloat(getComputedStyle(el).strokeWidth));
+  const width = () => page.locator('.hole-thread [data-span="lo"][data-role="main"]').evaluate((el) => parseFloat(el.getAttribute('stroke-width') ?? '0'));
   const before = await width();
   expect(await trackpad(page, 80)).toBeGreaterThan(0.5);
-  expect(await width()).toBeGreaterThan(before);
+  expect(await width()).toBeLessThan(before);
 });
 
 // Owner-approved: replaces "a scroll already moving stops at the passage

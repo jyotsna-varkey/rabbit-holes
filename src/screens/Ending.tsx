@@ -68,16 +68,53 @@ export const Ending = forwardRef<EndingHandle, Props>(function Ending(
     },
   }));
 
+  // The fall (PLAN step 45): the beads you followed down the margin drop, on
+  // their thread, into the diagonal journey. Each starts where it hung in the
+  // margin column (the last one beside where its passage was) and falls into
+  // its place on the diagonal; the thread is drawn through them all the way.
+  const falling = useRef(false);
+  const fall = () => {
+    const section = journey.current?.closest('section');
+    if (!section || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const box = section.getBoundingClientRect();
+    const claim = section.querySelector('.end-claim')?.getBoundingClientRect();
+    const marginX = Math.max(22, (claim ? claim.left - box.left : 16) - 24);
+    const restY = box.height * 0.42;
+    falling.current = true;
+    for (let k = 0; k < n; k++) {
+      const bead = dots.current[k + 1];
+      if (!bead) continue;
+      const r = bead.getBoundingClientRect();
+      const fx = r.left - box.left + r.width / 2, fy = r.top - box.top + r.height / 2;
+      const sx = marginX + (k % 2 ? 3 : -3), sy = restY - (n - 1 - k) * 46;
+      bead.style.transition = 'none';
+      bead.style.transform = `translate(${(sx - fx).toFixed(1)}px, ${(sy - fy).toFixed(1)}px)`;
+    }
+    void journey.current?.offsetWidth; // start from the margin before falling
+    requestAnimationFrame(() => {
+      for (let k = 0; k < n; k++) {
+        const bead = dots.current[k + 1];
+        if (!bead) continue;
+        // Held a beat in the margin column while the page lands, then they drop.
+        bead.style.transition = `transform 1.05s cubic-bezier(0.34, 1.2, 0.5, 1) ${300 + k * 70}ms, box-shadow 0.35s ${260 * k + 900}ms`;
+        bead.style.transform = '';
+      }
+      setTimeout(() => { falling.current = false; }, 1350 + n * 70);
+    });
+  };
+
   useEffect(() => {
     if (!active) return;
     markFinished(hole.id);
+    fall();
     const timers = [
       setTimeout(() => setStage(1), 40),
-      setTimeout(() => { setStage(2); tick(); }, 520),
-      setTimeout(() => setStage(3), 520 + 260 * n + 300),
-      setTimeout(() => setStage(4), 520 + 260 * n + 800),
+      setTimeout(() => { setStage(2); tick(); }, 1300),
+      setTimeout(() => setStage(3), 1300 + 260 * n + 300),
+      setTimeout(() => setStage(4), 1300 + 260 * n + 800),
     ];
     return () => timers.forEach(clearTimeout);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [active, hole.id, n]);
 
   // The pages sit on one straight diagonal, from the start card (top left) to
@@ -108,7 +145,8 @@ export const Ending = forwardRef<EndingHandle, Props>(function Ending(
       last = now;
       placeOnDiagonal();
       const pins = dots.current.map((d) => dotCentre(d, journey.current));
-      if (pins.length === n + 2 && pins.every(Boolean)) thread.current?.update(pins as Pt[], 1.0, dt);
+      // While the beads fall the thread hangs a little loose, then pulls taut.
+      if (pins.length === n + 2 && pins.every(Boolean)) thread.current?.update(pins as Pt[], falling.current ? 1.03 : 1.0, dt);
       raf = requestAnimationFrame(frame);
     };
     raf = requestAnimationFrame(frame);

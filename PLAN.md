@@ -323,11 +323,56 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          opened at the top of the article, off the thread (likely what the
          owner hit). Tests: scroll-pull.spec (16), 4 owner-approved
          replacements + 2 new (first-page return, Esc).
+- Thread rebuild from the approved preview (owner, 2026-10-28; preview at
+  https://claude.ai/artifact/Nf8VdcwCitcUN65egT2gR6, source
+  mockups/thread-preview.html, based on the owner's "D2 spine, one pin per
+  passage" exploration). Only the thread and its animations change;
+  everything else (Wikipedia look, stack, ending layout, blur) stays.
+- [x] 43. Margin thread: D2 rope physics (Verlet, slight slack, thins and
+         glints when taut) held inside the left margin so it never crosses
+         text; picture beads (current larger, previous and next smaller,
+         slight zigzag; none before the first, a loose tail after the last;
+         previous/next rest at the screen edges until their passage is on
+         screen). Reading the article: thread runs to the docked knot,
+         now at the bottom left. Phone margin widens to 46 px.
+- [x] 44. Gestures and motion: swipe/drag up (or flick), scroll down, tap
+         the passage, hold (ratchet reel with speeding haptic ticks) all
+         move on; swipe down / scroll up go back; resistance and a ready
+         buzz; pages glide on a spring carrying the gesture's speed. Nudges:
+         the thread tugs up every few seconds until the first pull; the
+         stack card leans right then left until the first swipe. Stack →
+         hole: the whole card grows into the page on one spring (uniform
+         scale + clip, carries the swipe's speed), no pause.
+- [x] 45. The fall: on reaching the ending, the beads drop from the margin
+         into the diagonal journey, the thread following them.
+         Done (43–45, one commit): src/lib/marginRope.ts (Verlet rope kept in
+         the margin band, loose tail for the last page; unit-tested);
+         threadScroll.ts now pointer-based (drag, flick velocity, hold,
+         wheel); HoleView pull model from the preview (resistance 200,
+         READY 70, wheel 110, track follows 0.35, passage lifts 0.3, glide
+         spring 150/17, gestures re-enabled 260 ms after a move while the
+         glide finishes); beads show page pictures; dock at the bottom of
+         the margin; stack nudge (Home) and whole-card spring entry with
+         the swipe's speed, page settling onto the passage while it grows
+         (resting position now measured from layout, not the scaled
+         screen); Ending: beads fall from a margin column into the
+         diagonal (CSS transitions on .end-knot, staggered), thread loose
+         while falling. Phone article margin 46 px (not the ending).
+         Found while testing: a held reel's lift-off click opened the next
+         page's article (now swallowed on any page); the rope crashed the
+         frame loop going from the last page's tail back to a full rope;
+         the stack nudge snapped a swiped card back to centre; presses on
+         links didn't pull; the tug was too faint (now a deliberate 40 px
+         lift-and-release every ~4 s until the first pull).
+         Owner-approved test updates: "thinner and tighter as you pull",
+         "hangs loose at rest, straighter while you pull", "thread and
+         beads stay in the margin". New: tests/unit/margin-rope.test.ts.
 - [ ] 15. Cover the remaining [~] steps with tests: swipe left sends the card
          to the back (8); "Back to the thread" re-centres and blur returns (3);
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
+43–45 done; deploy (owner asked), then owner feedback. Before:
 41–42 done and pushed to GitHub (live). Owner tries them on phone and
 laptop and gives feedback. 41 done (not pushed: pushing main republishes the site). Next:
 owner tries it; possible step 42, the stack card's idle lean-right nudge
@@ -669,3 +714,7 @@ under "Handover" below.
   fell into the article with no way back. Step 42: every scroll moves
   between pages, only the blur opens the article, a docked knot brings you
   back; fixed the first-page rebuild bug. Pushed (owner asked).
+- 2026-10-28 (later): Owner approved the thread preview (D2 physics in the
+  margin, picture beads). Steps 43–45 built it into the app with the
+  smooth entry, nudges and the fall into the journey; everything else
+  unchanged.

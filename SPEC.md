@@ -19,28 +19,39 @@ Trivia, not homework. Never self-important.
    "N knots · about M min".
    - Swipe right: enter the hole.
    - Swipe left: "not now" — card goes to the back of the stack, not deleted.
-2. Tumble: on swipe right, the thread snaps taut and the start card expands
-   into the first Wikipedia page.
+2. Tumble: on swipe right, the whole card grows into the first Wikipedia page
+   on one spring that carries the swipe's speed, settling onto the passage as
+   it grows (owner, 2026-10-28: "smooth like butter").
+   - Nudge: until a reader's first swipe, the top card leans right, then
+     left, now and then, showing both ways.
 3. Page: looks like real Wikipedia. Auto-scrolls once to the passage, then
    stops. Text above and below is softly blurred; the passage is sharp with a
    faint highlight. One bridge line sits above it, styled as a Wikipedia
-   hatnote. The onward link in the passage is where the thread passes through;
-   a small knot sits where it leaves.
+   hatnote. The onward link keeps its thread-blue underline.
+   - The thread (owner, 2026-10-28, from the approved "D2 spine" preview)
+     runs down the left margin, never across text: a bead beside the passage
+     shows this page's picture, smaller beads above and below show the
+     previous and next pages' (they rest at the screen edges until their
+     passage is on screen). No bead above the first passage; a loose tail
+     below the last. The beads zigzag slightly.
    - The blur is the way out (owner, 2026-10-28): only a click or tap on the
-     blurred text opens the whole article. Then the thread runs from its knot
-     down to a knot docked at the bottom of the screen, gently breathing:
-     click it (or the passage, or press Esc) to come back. No note for this.
-4. Pull: scrolling is the pull (owner, 2026-10-28). On the thread, any scroll
-   (wheel, trackpad, swipe), starting anywhere, moves between pages: down
-   pulls the next page in, up pulls the previous one back. The thread
-   tightens, the page resists, and past a short distance it snaps; short of
-   that, letting go drops back. One gesture moves one page. The article
+     blurred text opens the whole article. Then the thread runs down the
+     margin to a knot docked at the bottom, gently breathing: click it (or
+     the passage, or press Esc) to come back. No note for this.
+4. Pull (owner, 2026-10-28): on the thread, any of these moves on — drag or
+   swipe up (or a quick flick), scroll down, tap the passage, or hold it
+   (the thread reels in, ticks speeding up, then lands). Drag/swipe down or
+   scroll up goes back. The pull meets growing resistance; past the point
+   there's a buzz and letting go moves on; short of it, everything springs
+   back. Pages glide on a spring carrying the gesture's speed. The article
    itself doesn't scroll on the thread (a passage taller than the screen
-   scrolls first). On the first page, scrolling up only gives a little.
+   scrolls first). On the first page, pulling back only gives a little.
    Reading the whole article never pulls. Also back: tap a visited knot in
    the top bar, or scroll up past the top of the ending.
 5. Progress: small knots along the screen edge — visited purple, unvisited grey.
-6. Ending: the end card swings in, the thread locks, the claim changes from
+6. Ending: the beads fall from the margin, on their thread, into the
+   diagonal journey (owner, 2026-10-28); the end card swings in, the thread
+   locks, the claim changes from
    [citation needed] to [1–N], and a Wikipedia-style references list replays
    the hole one line per knot.
 7. After the ending, three options only: Go deeper (open real Wikipedia at
@@ -58,11 +69,13 @@ Trivia, not homework. Never self-important.
   - [citation needed] → unproven claim, unvisited knots
   - Footnote superscripts [1–N] → proven claim
   - References list → recap and shelf
-- The thread is the only thing with physics: a slight give at rest; pulling
-  draws it straight, thicker and brighter, trembling just before it snaps;
-  after a snap it recoils and the new knot pops as it catches it (owner,
-  2026-10-28; was "always taut", 2026-10-11). Thread colour is link blue.
-- Nudges, not notes: a first-time reader's thread gives a small tug by itself.
+- The thread is the only thing with physics: a rope that hangs loose at
+  rest, gets thinner and tighter as it's pulled (a glint runs along it when
+  taut), and recoils when a page lands (owner, 2026-10-28; was "always
+  taut", 2026-10-11). Thread colour is link blue.
+- Nudges, not notes: until a reader's first pull, the thread tugs the
+  passage up every few seconds; until the first swipe, the stack card leans
+  both ways.
 - Motion only for the thread, the focus blur, and the tumble.
 - No stickies, badges, points, streaks, or emoji.
 - One deliberate exception (owner, 2026-10-09): a handwritten swipe hint on
