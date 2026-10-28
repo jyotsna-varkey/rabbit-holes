@@ -593,6 +593,11 @@ under "Handover" below.
 - The test suite is slow when the Mac is busy (the Claude app at 100%+
   CPU): 30–60 s per browser test, timeouts in data tests. Run browser
   tests with --workers=1 --timeout=60000 then; all-holes takes ~10 min.
+- Live checks against GitHub Pages: the browser tests open "/?hole=…",
+  which on https://jyotsna-varkey.github.io/rabbit-holes/ points at the
+  domain root, so `BASE_URL=… npm run test:e2e` times out there. Step 42
+  was checked live with a script instead (all flows pass). Fix: make the
+  tests' paths relative ("./?hole=…") or add a goto helper.
 - Scroll-pull on a real iPhone / Safari not tried yet (touch checked in
   Chrome with emulated touch events).
 - iOS haptics use the iOS 18 switch-control workaround; untested on a device.
