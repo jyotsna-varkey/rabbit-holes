@@ -301,12 +301,35 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          thread-tug.spec, and the knot-click / short-tug / pull-label
          tests; taut.spec → "slight give at rest, straight while pulling".
          Page you're on carries aria-current="page".
+- [x] 42. Scrolling always moves between pages (owner, 2026-10-28, after
+         trying 41 on a laptop: scrolling "hit a wall", scrolling up fell
+         into the article with no clear way back). On the thread, any
+         scroll (wheel, trackpad, swipe) goes down = next page, up =
+         previous page, from anywhere, no wall; the article itself doesn't
+         scroll (a passage taller than the screen scrolls first). Only a
+         click/tap on the blur opens the article. Reading the article, the
+         thread runs down to a knot docked at the bottom, gently pulsing:
+         click it (or the passage, or Esc) to go back. Same on phone. Push
+         to GitHub when green (owner asked).
+         Done: src/lib/threadScroll.ts replaces edgePull on pages (every
+         gesture: first scrolls a tall passage within its range, the rest
+         is the pull, signed; overflow hidden + touch-action none on the
+         thread). edgePull (ending) now starts a pull mid-gesture when the
+         scroll reaches the top. Docked knot (.thread-dock) with a breathing
+         ring replaces the loose end; ↑ = previous page; Esc from the
+         article = back to the thread. Fold wrapper and scroll-up dissolve
+         removed. Found and fixed: coming back to the first page rebuilt it
+         and it waited for a first-arrival glide that never came, so it
+         opened at the top of the article, off the thread (likely what the
+         owner hit). Tests: scroll-pull.spec (16), 4 owner-approved
+         replacements + 2 new (first-page return, Esc).
 - [ ] 15. Cover the remaining [~] steps with tests: swipe left sends the card
          to the back (8); "Back to the thread" re-centres and blur returns (3);
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
-41 done locally (not pushed: pushing main republishes the site). Next:
+41–42 done and pushed to GitHub (live). Owner tries them on phone and
+laptop and gives feedback. 41 done (not pushed: pushing main republishes the site). Next:
 owner tries it; possible step 42, the stack card's idle lean-right nudge
 (idea 3, not built yet). Before that: 36–40 done and live on GitHub Pages. Owner reviews the 132 holes in holes-review.csv
 (keep / edit / cut); then trim, tighten the image budget, redeploy. Still
@@ -637,3 +660,7 @@ under "Handover" below.
   replaced with owner approval. 4662 unit/data tests, all browser specs,
   and all 242 holes end to end pass (machine was overloaded, so run with
   1–2 workers). Not pushed.
+- 2026-10-28 (later): Owner tried 41 on a laptop: scrolling hit a wall and
+  fell into the article with no way back. Step 42: every scroll moves
+  between pages, only the blur opens the article, a docked knot brings you
+  back; fixed the first-page rebuild bug. Pushed (owner asked).

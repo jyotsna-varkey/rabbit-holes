@@ -26,18 +26,19 @@ Trivia, not homework. Never self-important.
    faint highlight. One bridge line sits above it, styled as a Wikipedia
    hatnote. The onward link in the passage is where the thread passes through;
    a small knot sits where it leaves.
-   - The blur is the way out (owner, 2026-10-28): tap the blurred text, or
-     scroll up into it (the blur dissolves as you go), to read the whole
-     article; the thread then hangs loose from its knot. Tap the passage or
-     the loose thread to come back. No button or note for this.
-4. Pull: scrolling is the pull (owner, 2026-10-28). On the thread, the article
-   is folded away just under the passage, so the passage is the end of the
-   scroll. A fresh swipe or scroll that starts there and keeps going pulls the
-   thread: it tightens, the page resists, and past a short distance it snaps
-   the next page in. Short of that, letting go drops back. A scroll already
-   moving stops at the passage and never pulls. Reading the whole article
-   never pulls. Back: tap a visited knot in the top bar, or scroll up past the
-   top of the ending.
+   - The blur is the way out (owner, 2026-10-28): only a click or tap on the
+     blurred text opens the whole article. Then the thread runs from its knot
+     down to a knot docked at the bottom of the screen, gently breathing:
+     click it (or the passage, or press Esc) to come back. No note for this.
+4. Pull: scrolling is the pull (owner, 2026-10-28). On the thread, any scroll
+   (wheel, trackpad, swipe), starting anywhere, moves between pages: down
+   pulls the next page in, up pulls the previous one back. The thread
+   tightens, the page resists, and past a short distance it snaps; short of
+   that, letting go drops back. One gesture moves one page. The article
+   itself doesn't scroll on the thread (a passage taller than the screen
+   scrolls first). On the first page, scrolling up only gives a little.
+   Reading the whole article never pulls. Also back: tap a visited knot in
+   the top bar, or scroll up past the top of the ending.
 5. Progress: small knots along the screen edge — visited purple, unvisited grey.
 6. Ending: the end card swings in, the thread locks, the claim changes from
    [citation needed] to [1–N], and a Wikipedia-style references list replays
@@ -71,8 +72,9 @@ Trivia, not homework. Never self-important.
 
 ## Platforms
 - Web app first, phone-first. Must also work on laptop:
-  scroll (trackpad or wheel) past the passage or down arrow = pull, left
-  arrow = back.
+  scroll (trackpad or wheel) down / down arrow = next page, scroll up / up
+  arrow = previous page, left arrow = back, Esc = back to the thread from
+  the article (or leave the hole from the thread).
 - Installable to home screen later (PWA). Not in v1.
 
 ## Content

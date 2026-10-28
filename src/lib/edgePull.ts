@@ -1,7 +1,6 @@
-// Scrolling is the pull (PLAN step 41). A scroller's edge becomes the thread:
-// a fresh swipe or wheel scroll that starts at the edge and keeps going past it
-// pulls, like pull-to-refresh. A scroll already under way (a flick's momentum)
-// stops at the edge and never pulls, so reading can't advance by accident.
+// Pulling past the edge of a scroller that scrolls normally (the ending: past
+// its top goes back). Once the scroll reaches the edge, scrolling on in the
+// same direction pulls, in the same gesture: no wall to hit (PLAN step 42).
 
 export type PullKind = 'touch' | 'wheel';
 
@@ -31,26 +30,25 @@ export function edgePull(el: HTMLElement, o: EdgePullOptions): () => void {
   const atEdge = () =>
     o.edge === 'bottom' ? el.scrollTop >= el.scrollHeight - el.clientHeight - 1 : el.scrollTop <= 1;
 
-  let t: { y0: number; armed: boolean; pulling: boolean; done: boolean; dist: number } | null = null;
+  let t: { y: number; pulling: boolean; done: boolean; dist: number } | null = null;
   const onTouchStart = (e: TouchEvent) => {
-    t = e.touches.length === 1
-      ? { y0: e.touches[0].clientY, armed: o.enabled() && atEdge(), pulling: false, done: false, dist: 0 }
-      : null;
+    t = e.touches.length === 1 ? { y: e.touches[0].clientY, pulling: false, done: false, dist: 0 } : null;
   };
   const onTouchMove = (e: TouchEvent) => {
-    if (!t || !t.armed) return;
+    if (!t) return;
+    const y = e.touches[0].clientY;
+    const dy = dir * (t.y - y);
+    t.y = y;
     if (t.done) {
       if (e.cancelable) e.preventDefault();
       return;
     }
-    const dy = dir * (t.y0 - e.touches[0].clientY);
     if (!t.pulling) {
-      if (dy > 0) t.pulling = true;
-      else if (dy < -4) t.armed = false; // scrolling back into the page: ordinary reading
-      if (!t.pulling) return;
+      if (dy > 0 && o.enabled() && atEdge()) t.pulling = true;
+      else return;
     }
     if (e.cancelable) e.preventDefault();
-    t.dist = Math.max(0, dy);
+    t.dist = Math.max(0, t.dist + dy);
     if (o.onMove(t.dist, 'touch')) t.done = true;
   };
   const onTouchEnd = () => {
@@ -58,13 +56,12 @@ export function edgePull(el: HTMLElement, o: EdgePullOptions): () => void {
     t = null;
   };
 
-  let w = { last: 0, armed: false, pulling: false, done: false, dist: 0 };
+  let w = { last: 0, pulling: false, done: false, dist: 0 };
   let wheelTimer = 0;
   const onWheel = (e: WheelEvent) => {
     const now = performance.now();
-    if (now - w.last > WHEEL_GAP) w = { last: now, armed: o.enabled() && atEdge(), pulling: false, done: false, dist: 0 };
+    if (now - w.last > WHEEL_GAP) w = { last: now, pulling: false, done: false, dist: 0 };
     w.last = now;
-    if (!w.armed) return;
     if (w.done) {
       e.preventDefault();
       return;
@@ -72,20 +69,17 @@ export function edgePull(el: HTMLElement, o: EdgePullOptions): () => void {
     const unit = e.deltaMode === 1 ? 32 : e.deltaMode === 2 ? el.clientHeight : 1;
     const dy = dir * e.deltaY * unit;
     if (!w.pulling) {
-      if (dy > 0) w.pulling = true;
-      else {
-        w.armed = false;
-        return;
-      }
+      if (dy > 0 && o.enabled() && atEdge()) w.pulling = true;
+      else return;
     }
     e.preventDefault();
     w.dist = Math.max(0, w.dist + dy);
     if (o.onMove(w.dist, 'wheel')) w.done = true;
     clearTimeout(wheelTimer);
+    const g = w;
     wheelTimer = window.setTimeout(() => {
-      if (w.pulling && !w.done) o.onEnd(w.dist, 'wheel');
-      w.pulling = false;
-      w.armed = false;
+      if (g.pulling && !g.done) o.onEnd(g.dist, 'wheel');
+      g.pulling = false;
     }, WHEEL_GAP);
   };
 

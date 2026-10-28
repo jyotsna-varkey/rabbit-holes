@@ -276,10 +276,10 @@ sup.cited { color: var(--visited); }
   padding: 0 var(--gutter);
   outline: none;
 }
-.page-scroll > :not(.page-inner),
-.page-inner > * { max-width: 680px; margin-left: auto; margin-right: auto; }
-/* On the thread the article is folded away just under the passage (height set in ArticlePage). */
-.page-inner { overflow: hidden; }
+.page-scroll > * { max-width: 680px; margin-left: auto; margin-right: auto; }
+/* On the thread the article doesn't scroll: scrolling moves between pages (threadScroll.ts). */
+.page.is-focused .page-scroll { overflow-y: hidden; touch-action: none; }
+.page-scroll { scrollbar-gutter: stable; }
 
 .hole-thread {
   position: absolute;
@@ -318,19 +318,49 @@ sup.cited { color: var(--visited); }
 .phase-tumble .thread-knot,
 .phase-ending .thread-knot { visibility: hidden; }
 
-/* Reading the article: the loose end of the thread, tap it to go back to the thread. */
-.thread-tag {
+/* Reading the article: the thread runs down to this knot, docked at the bottom.
+   It breathes so it reads as something to grab; click it to go back to the thread. */
+.thread-dock {
   position: absolute;
-  left: 0;
-  top: 0;
-  width: 48px;
+  left: 50%;
+  bottom: calc(28px + env(safe-area-inset-bottom));
+  width: 64px;
   height: 64px;
-  margin: -48px 0 0 -24px;
-  z-index: 6;
-  background: none;
-  border: 0;
+  margin-left: -32px;
+  z-index: 7;
+  display: none;
+  place-items: center;
   padding: 0;
+  border: 0;
+  background: none;
   cursor: pointer;
+}
+.thread-dock.is-shown { display: grid; }
+.thread-dock-knot {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--thread);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.28);
+  position: relative;
+}
+.thread-dock.is-shown .thread-dock-knot { animation: dock-breathe 1.8s ease-in-out infinite; }
+.thread-dock-knot::after {
+  /* the twist in the knot */
+  content: '';
+  position: absolute;
+  inset: 6px 4px;
+  border-top: 2px solid rgba(255, 255, 255, 0.85);
+  border-radius: 50%;
+  transform: rotate(-20deg);
+}
+.thread-dock:hover .thread-dock-knot { transform: scale(1.15); }
+@keyframes dock-breathe {
+  0%, 100% { box-shadow: 0 2px 6px rgba(0, 0, 0, 0.28), 0 0 0 0 rgba(51, 102, 204, 0.45); }
+  50% { box-shadow: 0 2px 6px rgba(0, 0, 0, 0.28), 0 0 0 12px rgba(51, 102, 204, 0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .thread-dock.is-shown .thread-dock-knot { animation: none; }
 }
 
 /* Top bar with progress knots */
@@ -434,7 +464,7 @@ sup.cited { color: var(--visited); }
 }
 .veil-top { height: 0; }
 .veil-bottom { height: 100%; transform: translateY(100%); }
-.page.is-focused .veil { opacity: var(--veil, 1); }
+.page.is-focused .veil { opacity: 1; }
 .page.is-focused.is-landing .veil { opacity: 0; }
 /* Lighter right next to the passage, so the text around it half-reads and invites a tap. */
 .veil-top { -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.35), #000 140px); mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.35), #000 140px); }

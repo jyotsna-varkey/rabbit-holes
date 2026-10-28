@@ -23,8 +23,9 @@ type Phase = 'tumble' | 'reading' | 'ending';
 // The thread at rest is this much longer than the gap it spans: a slight give
 // (a few px of sag over a screen-long span; more read as stretched and loose).
 const REST_SLACK = 1.0001;
-// Reading the article, the thread hangs this far down from its knot.
-const HANG = 120;
+// Reading the article, the thread runs from its knot down to a docked knot
+// with this much give, like a line paid out.
+const DOCK_SLACK = 1.04;
 const lerp = (a: number, b: number, t: number) => a + (b - a) * t;
 
 export function HoleView({ hole, from, onClose, onNext, onSettled }: Props) {
@@ -50,7 +51,7 @@ export function HoleView({ hole, from, onClose, onNext, onSettled }: Props) {
   const ending = useRef<EndingHandle>(null);
   const thread = useRef<ThreadHandle>(null);
   const knotEl = useRef<HTMLSpanElement>(null);
-  const tag = useRef<HTMLButtonElement>(null);
+  const dock = useRef<HTMLButtonElement>(null);
 
   useLayoutEffect(() => {
     const el = root.current!;
@@ -78,8 +79,12 @@ export function HoleView({ hole, from, onClose, onNext, onSettled }: Props) {
   });
   const backdrop = useTransform(grow, [0, 0.5], [0, 1]);
 
+  // Only the first arrival glides down from the top of the article. Coming back
+  // to the first page later (it is rebuilt) opens straight on the passage.
+  const entered = useRef(false);
   useEffect(() => {
     const arrive = () => {
+      entered.current = true;
       setPhase('reading');
       onSettled();
       // Let the expanded page paint before it starts to scroll.
@@ -208,7 +213,19 @@ export function HoleView({ hole, from, onClose, onNext, onSettled }: Props) {
     settle();
     if (!live.current.busy) cancel();
   };
-  const onPagePull = (dist: number, kind: PullKind) => (live.current.phase === 'reading' ? pull(dist, kind, 1) : true);
+  // Scrolling on the thread (PLAN step 42): down pulls towards the next page, up
+  // towards the previous one. The first page has nothing before it: it gives a
+  // little and settles.
+  const onPagePull = (p: number, kind: PullKind) => {
+    const L = live.current;
+    if (L.phase !== 'reading') return true;
+    if (p >= 0) return pull(p, kind, 1);
+    if (L.index > 0) return pull(-p, kind, -1);
+    if (L.busy) return true;
+    settle();
+    offset.set(-Math.min(18, -p * 0.15));
+    return false;
+  };
   const onEndingPull = (dist: number, kind: PullKind) => (live.current.phase === 'ending' ? pull(dist, kind, -1) : true);
 
   // A first-time reader sees the thread give a small tug by itself once the
@@ -249,10 +266,19 @@ export function HoleView({ hole, from, onClose, onNext, onSettled }: Props) {
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') onClose();
+      // Reading the article, Esc goes back to the thread; on the thread it leaves the hole.
+      if (e.key === 'Escape') {
+        if (!focusedRef.current && live.current.phase === 'reading') pages.current.get(live.current.index)?.recenter();
+        else onClose();
+      }
+      if (!focusedRef.current) return; // reading the article: arrows scroll it
       if (e.key === 'ArrowDown' && live.current.phase === 'reading') {
         e.preventDefault();
         commit();
+      }
+      if (e.key === 'ArrowUp' && live.current.phase === 'reading' && live.current.index > 0) {
+        e.preventDefault();
+        back();
       }
       if (e.key === 'ArrowLeft') {
         e.preventDefault();
@@ -271,7 +297,8 @@ export function HoleView({ hole, from, onClose, onNext, onSettled }: Props) {
   // page's hatnote. Slightly slack at rest; pulling draws it dead straight,
   // thicker and brighter, trembling just before it snaps. After a snap it
   // recoils, and the new knot pops as it catches the thread. Reading the
-  // article, the thread hangs loose from the knot; tap it to come back.
+  // article, the thread runs down to a knot docked at the bottom: click it to
+  // come back.
   useEffect(() => {
     let raf = 0;
     let last = performance.now();
@@ -300,26 +327,24 @@ export function HoleView({ hole, from, onClose, onNext, onSettled }: Props) {
       // Trembling near the snap.
       const shake = t > 0.66 ? ((t - 0.66) / 0.34) * 3 : 0;
       const far = clampPt({ x: nextIn.x + (Math.random() - 0.5) * 2 * shake, y: nextIn.y + (Math.random() - 0.5) * shake }, h);
+      // Reading the article, the thread runs from its knot to the docked knot instead.
+      const reading = !focusedRef.current && L.phase === 'reading';
+      const dockBox = reading ? dock.current?.getBoundingClientRect() : null;
+      const docked = dockBox ? local({ x: dockBox.left + dockBox.width / 2, y: dockBox.top + dockBox.height / 2 })! : null;
       const pins = [
-        { x: gx, y: -40 }, clampPt(curIn, h), clampPt(curOut, h), far, clampPt(nextOut, h), { x: nextOut.x, y: h + 320 },
+        { x: gx, y: -40 }, clampPt(curIn, h), clampPt(curOut, h), docked ?? far, clampPt(nextOut, h), { x: nextOut.x, y: h + 320 },
       ];
       // The recoil: a burst of slack just after a snap that settles back to rest.
       const since = (now - recoilAt.current) / 1000;
       const recoil = since < 0.9 ? 0.05 * (1 - since / 0.9) : 0;
       const slack = Math.max(1.0, REST_SLACK + recoil - (REST_SLACK - 1) * t * 1.4);
-      const loose = !focusedRef.current && L.phase === 'reading';
-      thread.current?.update(pins, [1.0, 1.0, slack, 1.0, 1.0], dt, undefined, [null, null, loose ? HANG : null, null, null]);
+      thread.current?.update(pins, [1.0, 1.0, docked ? DOCK_SLACK : slack, 1.0, 1.0], dt);
       root.current!.style.setProperty('--tension', t.toFixed(3));
 
       // The knot where the thread leaves the passage; it pops when it catches the thread.
       if (knotEl.current) {
         const pop = since < 0.45 ? 1 + 0.7 * Math.sin((since / 0.45) * Math.PI) * (1 - since / 0.45) : 1;
         knotEl.current.style.transform = `translate(${curOut.x}px, ${curOut.y}px) scale(${pop.toFixed(3)})`;
-      }
-      // Reading the article: the loose end is a tap target that brings the thread back.
-      const end = loose ? thread.current?.end(2) : null;
-      if (tag.current) {
-        tag.current.style.transform = end ? `translate(${end.x}px, ${end.y}px)` : 'translate(-200px, -200px)';
       }
       raf = requestAnimationFrame(frame);
     };
@@ -345,7 +370,7 @@ export function HoleView({ hole, from, onClose, onNext, onSettled }: Props) {
               knot={hole.knots[k]}
               top={k * h}
               height={h}
-              arriveFromTop={k === 0}
+              arriveFromTop={k === 0 && !entered.current}
               active={k === index && phase === 'reading'}
               onFocusChange={(f) => { if (k === live.current.index) setFocused(f); }}
               onPull={onPagePull}
@@ -374,13 +399,16 @@ export function HoleView({ hole, from, onClose, onNext, onSettled }: Props) {
         className="hole-thread"
       />
       <span ref={knotEl} className="thread-knot" aria-hidden="true" />
+      {/* Reading the article: the thread runs down to this knot. Click it to go back to the thread. */}
       <button
-        ref={tag}
-        className="thread-tag"
-        tabIndex={-1}
+        ref={dock}
+        className={`thread-dock ${!focused && phase === 'reading' ? 'is-shown' : ''}`}
+        tabIndex={!focused && phase === 'reading' ? 0 : -1}
         aria-label="Back to the thread"
         onClick={() => pages.current.get(index)?.recenter()}
-      />
+      >
+        <span className="thread-dock-knot" />
+      </button>
 
       <header className="hole-bar">
         <button className="bar-close" onClick={onClose} aria-label="Back to the stack">

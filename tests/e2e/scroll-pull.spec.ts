@@ -1,10 +1,11 @@
 import { expect, test, type Page } from '@playwright/test';
 import { enterTopHole } from './helpers';
 
-// PLAN step 41 (owner, 2026-10-28): scrolling is the pull. On the thread the
-// article ends just under the passage; scrolling on past it pulls the thread to
-// the next page. Tap the blur to read the whole article; tap the passage or the
-// loose thread to come back. Visited knots in the top bar go back; so does
+// PLAN steps 41–42 (owner, 2026-10-28): scrolling is the pull. On the thread,
+// any scroll moves between pages — down to the next, up to the previous — and
+// the article itself doesn't scroll. Only a click or tap on the blur opens the
+// article; then the thread runs down to a docked knot: click it (or the
+// passage, or Esc) to come back. Visited knots in the top bar go back; so does
 // scrolling up past the top of the ending.
 
 const HOLE = '/?hole=tutankhamun-noblecourt-amada-rails';
@@ -41,8 +42,8 @@ async function wheel(page: Page, total: number, step = 15) {
  */
 const trackpad = (page: Page, total: number) =>
   current(page).locator('.page-scroll').evaluate(async (el, total) => {
-    for (let done = 0; done < total; done += 10) {
-      el.dispatchEvent(new WheelEvent('wheel', { deltaY: 10, bubbles: true, cancelable: true }));
+    for (let done = 0; done < Math.abs(total); done += 10) {
+      el.dispatchEvent(new WheelEvent('wheel', { deltaY: Math.sign(total) * 10, bubbles: true, cancelable: true }));
       await new Promise((r) => setTimeout(r, 16));
     }
     return Number(document.querySelector<HTMLElement>('.hole')!.style.getPropertyValue('--tension'));
@@ -51,10 +52,17 @@ const trackpad = (page: Page, total: number) =>
 const trackY = (page: Page) =>
   page.locator('.track').evaluate((el) => new DOMMatrix(getComputedStyle(el).transform).m42);
 
-test('on the thread, the passage is the end of the scroll', async ({ page }) => {
+// Owner-approved: replaces "on the thread, the passage is the end of the scroll".
+test('on the thread, scrolling never moves the article itself', async ({ page }) => {
   await open(page);
-  const s = await scroller(page).evaluate((el) => ({ top: el.scrollTop, max: el.scrollHeight - el.clientHeight }));
-  expect(s.max - s.top).toBeLessThan(2);
+  const top = () => scroller(page).evaluate((el) => Math.round(el.scrollTop));
+  const before = await top();
+  await wheel(page, 45); // short of a page: drops back
+  await page.waitForTimeout(600);
+  await wheel(page, -45);
+  await page.waitForTimeout(600);
+  expect(await top()).toBe(before);
+  await expect(current(page)).toHaveClass(/is-focused/);
   await expect(current(page).locator('.rh-passage')).toBeInViewport();
 });
 
@@ -83,22 +91,14 @@ test('the thread tightens as you pull', async ({ page }) => {
   expect(await width()).toBeGreaterThan(before);
 });
 
-test('a scroll already moving stops at the passage instead of pulling', async ({ page }) => {
+// Owner-approved: replaces "a scroll already moving stops at the passage
+// instead of pulling" (it felt like hitting a wall).
+test('one long scroll always moves on, one page, no wall', async ({ page }) => {
   await open(page);
-  await wheel(page, -120);
-  await page.waitForTimeout(400);
-  // One trackpad gesture from above the passage, running on well past it:
-  // events 16 ms apart, each scrolling the page as the browser would.
-  await scroller(page).evaluate(async (el) => {
-    for (let i = 0; i < 50; i++) {
-      const e = new WheelEvent('wheel', { deltaY: 10, bubbles: true, cancelable: true });
-      el.dispatchEvent(e);
-      if (!e.defaultPrevented) el.scrollTop += 10;
-      await new Promise((r) => setTimeout(r, 16));
-    }
-  });
+  await trackpad(page, 600);
+  await expect(page.locator('.bar-count')).toHaveText('2 / 4');
   await page.waitForTimeout(600);
-  await expect(page.locator('.bar-count')).toHaveText('1 / 4');
+  await expect(page.locator('.bar-count')).toHaveText('2 / 4');
 });
 
 test('tapping the blur opens the whole article, and scrolling it never pulls', async ({ page, context }) => {
@@ -116,36 +116,70 @@ test('tapping the blur opens the whole article, and scrolling it never pulls', a
   await expect(page.locator('.bar-count')).toHaveText('1 / 4');
 });
 
-test('scrolling up into the article dissolves the blur', async ({ page }) => {
+// Owner-approved: replaces "scrolling up into the article dissolves the blur".
+test('scrolling up goes to the previous page; on the first page it only gives a little', async ({ page }) => {
   await open(page);
-  await wheel(page, -90);
-  const veil = Number(await page.locator('.page').first().evaluate((el) => (el as HTMLElement).style.getPropertyValue('--veil')));
-  expect(veil).toBeGreaterThan(0);
-  expect(veil).toBeLessThan(0.8);
-  await wheel(page, -300);
-  await expect(page.locator('.page').first()).not.toHaveClass(/is-focused/);
+  await trackpad(page, 150);
+  await expect(page.locator('.bar-count')).toHaveText('2 / 4');
+  await page.waitForTimeout(500);
+  await trackpad(page, -150);
+  await expect(page.locator('.bar-count')).toHaveText('1 / 4');
+  await page.waitForTimeout(500);
+  await trackpad(page, -300);
+  await page.waitForTimeout(500);
+  await expect(page.locator('.bar-count')).toHaveText('1 / 4');
+  await expect(current(page)).toHaveClass(/is-focused/);
 });
 
-test('reading the article, the thread hangs loose; tapping it comes back', async ({ page }) => {
+// Coming back to the first page used to open the article at its top, off the
+// thread (the page is rebuilt and waited for a first-arrival glide).
+test('coming back to the first page lands on its passage, on the thread', async ({ page }) => {
   await open(page);
-  await wheel(page, -400);
-  const first = page.locator('.page').first();
-  await expect(first).not.toHaveClass(/is-focused/);
-  await wheel(page, 250);
-  // The loose end hangs below the knot.
-  const knot = (await page.locator('.thread-knot').boundingBox())!;
-  const tag = (await page.locator('.thread-tag').boundingBox())!;
-  expect(tag.y + tag.height).toBeGreaterThan(knot.y + 60);
-  await page.locator('.thread-tag').click();
-  await expect(first).toHaveClass(/is-focused/);
-  await expect(first.locator('.rh-passage')).toBeInViewport({ timeout: 6000 });
+  for (const label of ['2 / 4', '3 / 4']) {
+    await trackpad(page, 150);
+    await expect(page.locator('.bar-count')).toHaveText(label);
+    await page.waitForTimeout(500);
+  }
+  await page.locator('.progress .progress-back').first().click();
+  await expect(page.locator('.bar-count')).toHaveText('1 / 4');
+  await expect(current(page)).toHaveClass(/is-focused/);
+  await expect(current(page).locator('.rh-hatnote')).toBeInViewport();
+});
+
+/** Open the article by clicking the blur above the passage. */
+async function readArticle(page: Page) {
+  const hatnote = (await current(page).locator('.rh-hatnote').boundingBox())!;
+  await page.mouse.click(page.viewportSize()!.width / 2, Math.max(70, hatnote.y - 60));
+  await expect(current(page)).not.toHaveClass(/is-focused/);
+}
+
+// Owner-approved: replaces "reading the article, the thread hangs loose; tapping it comes back".
+test('reading the article, the thread runs to a docked knot; clicking it comes back', async ({ page }) => {
+  await open(page);
+  await readArticle(page);
+  const dock = page.locator('.thread-dock');
+  await expect(dock).toBeVisible();
+  await wheel(page, 400); // the article scrolls normally
+  await expect(page.locator('.bar-count')).toHaveText('1 / 4');
+  await expect(dock).toBeInViewport();
+  await dock.click();
+  await expect(current(page)).toHaveClass(/is-focused/);
+  await expect(current(page).locator('.rh-passage')).toBeInViewport({ timeout: 6000 });
+  await expect(dock).toBeHidden();
+});
+
+test('reading the article, Esc goes back to the thread', async ({ page }) => {
+  await open(page);
+  await readArticle(page);
+  await page.keyboard.press('Escape');
+  await expect(current(page)).toHaveClass(/is-focused/);
+  await expect(page.locator('.hole')).toHaveCount(1);
 });
 
 test('reading the article, tapping the passage comes back to the thread', async ({ page }) => {
   await open(page);
   const first = page.locator('.page').first();
-  await wheel(page, -400);
-  await expect(first).not.toHaveClass(/is-focused/);
+  await readArticle(page);
   const passage = first.locator('.rh-passage');
   await passage.scrollIntoViewIfNeeded();
   const box = (await passage.boundingBox())!;
