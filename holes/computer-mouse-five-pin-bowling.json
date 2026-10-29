@@ -8,10 +8,10 @@
     "image": "snapshots/images/Computer-mouse.webp"
   },
   "end": {
-    "title": "Five-pin bowling",
-    "page": "Five-pin bowling",
-    "description": "Form of bowling",
-    "image": "snapshots/images/Five-pin-bowling.webp"
+    "title": "Ball mouse",
+    "page": "Computer mouse",
+    "description": "A trackball turned upside down",
+    "image": "snapshots/images/Computer-mouse.webp"
   },
   "knots": [
     {
@@ -50,7 +50,7 @@
       "revision": 1353156876,
       "section": "The DATAR prototype",
       "passage": "In a production setting, only one ship in a task force would carry the DATAR computer. The rest of the ships had computer terminals that allowed the operators to use a trackball based on a Canadian five-pin bowling ball and trigger to send position info over the PCM links to the DATAR.",
-      "hatnote": "And what did DATAR's operators roll to point at targets?",
+      "hatnote": "To mark a target on that shared radar picture, operators had to point at it. With what?",
       "onwardLinkText": "five-pin bowling",
       "nextPage": "Five-pin bowling"
     },
@@ -63,8 +63,28 @@
       "hatnote": "Why was there a hand-sized bowling ball lying around Canada?",
       "onwardLinkText": null,
       "nextPage": "Five-pin bowling"
+    },
+    {
+      "page": "Five-pin bowling",
+      "url": "https://en.wikipedia.org/wiki/Five-pin_bowling",
+      "revision": 1379907624,
+      "section": "Gameplay",
+      "passage": "The balls in five pin bowling are small enough to fit in the hand and therefore typically have no fingerholes, although the Canadian 5 Pin Bowlers Association (C5PBA) has approved balls with thumb holes.",
+      "hatnote": "And a five-pin ball has one more thing going for it: no finger holes to snag your palm.",
+      "onwardLinkText": null,
+      "nextPage": "Computer mouse"
+    },
+    {
+      "page": "Computer mouse",
+      "url": "https://en.wikipedia.org/wiki/Computer_mouse",
+      "revision": 1379467431,
+      "section": "Mechanical mice",
+      "passage": "The ball mouse replaced the external wheels with a single ball that could rotate in any direction. It came as part of the hardware package of the Xerox Alto computer. Perpendicular chopper wheels housed inside the mouse's body chopped beams of light on the way to light sensors, thus detecting in their turn the motion of the ball. This variant of the mouse resembled an inverted trackball and became the predominant form used with personal computers throughout the 1980s and 1990s.",
+      "hatnote": "Back where we started: flip a trackball over, and you get a mouse with a ball inside.",
+      "onwardLinkText": null,
+      "nextPage": "Computer mouse"
     }
   ],
-  "payoff": "The navy's pioneering 'mouse' rolled on a five-pin ball, from a game invented because Toronto bowlers found ten-pin too strenuous.",
+  "payoff": "The navy's first 'mouse' rolled on a five-pin ball, small enough to fit a hand; flip a trackball over and you get the ball mouse of the 1980s and '90s.",
   "caveats": []
 }

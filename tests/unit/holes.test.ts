@@ -12,6 +12,10 @@ const manifest = JSON.parse(readFileSync(`${ROOT}holes/snapshots/manifest.json`,
 const HOLE_KEYS = ['caveats', 'claim', 'end', 'id', 'knots', 'payoff', 'start'];
 const ENDPOINT_KEYS = ['description', 'image', 'page', 'title'];
 const KNOT_KEYS = ['hatnote', 'nextPage', 'onwardLinkText', 'page', 'passage', 'revision', 'section', 'url'];
+// Knots allowed to move to another page without an onward link in their passage.
+// Owner, 2026-10-29: the mouse hole may loop from Five-pin bowling back to Computer
+// mouse, since that article has no link back and the loop is the payoff.
+const LINKLESS_RETURNS: Record<string, number[]> = { 'computer-mouse-five-pin-bowling': [6] };
 
 it('has hole files in /holes', () => {
   expect(files.length).toBeGreaterThanOrEqual(4);
@@ -89,7 +93,7 @@ describe.each(holes)('$file', ({ file, hole }) => {
     const missing = hole.knots
       .map((k: { page: string; nextPage: string; onwardLinkText: string | null }, i: number) => ({ ...k, n: i + 1 }))
       .filter((k: { n: number; page: string; nextPage: string; onwardLinkText: string | null }) =>
-        k.n < hole.knots.length && k.nextPage !== k.page && !k.onwardLinkText)
+        k.n < hole.knots.length && k.nextPage !== k.page && !k.onwardLinkText && !LINKLESS_RETURNS[hole.id]?.includes(k.n))
       .map((k: { n: number; page: string; nextPage: string }) => `knot ${k.n}: ${k.page} → ${k.nextPage}`);
     expect(missing).toEqual([]);
   });

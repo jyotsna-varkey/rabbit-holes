@@ -387,12 +387,26 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          flick). Tests: scroll-pull "a new trackpad swipe moves on straight
          away, even while the last one coasts", "a quick flick moves on; the
          same distance dragged slowly drops back".
+- [x] 48. The mouse hole explains itself (owner, 2026-10-29, while making the
+         launch film: why a radar needed a "mouse", and why five-pin, were
+         unclear, and the ending fell flat). computer-mouse-five-pin-bowling
+         now has 7 knots: knot 4's hatnote says operators had to point at
+         radar targets; new knot 6 (Five-pin bowling, Gameplay: balls fit in
+         the hand, no finger holes); new knot 7 (Computer mouse, Mechanical
+         mice: the ball mouse "resembled an inverted trackball"). End card is
+         "Ball mouse" (page Computer mouse); payoff rewritten. Five-pin
+         bowling has no link back, so knot 6 moves on without an onward link:
+         owner allowed this one exception, listed in LINKLESS_RETURNS in
+         tests/unit/holes.test.ts (the rule stays for every other knot).
+         Tried first: a hook-first order that keeps the rule; owner preferred
+         the loop ending. Checked: npm test, all-holes e2e for this hole.
 - [ ] 15. Cover the remaining [~] steps with tests: swipe left sends the card
          to the back (8); "Back to the thread" re-centres and blur returns (3);
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
-43–47 done and live. Owner feedback next. Before:
+48 done (not pushed). Launch film work lives in launch-video/ (not part of the app).
+Before: 43–47 done and live. Owner feedback next. Before:
 41–42 done and pushed to GitHub (live). Owner tries them on phone and
 laptop and gives feedback. 41 done (not pushed: pushing main republishes the site). Next:
 owner tries it; possible step 42, the stack card's idle lean-right nudge
@@ -593,6 +607,9 @@ under "Handover" below.
   Vercel, whose free plan caps uploads at 5,000 files a day.
 
 ## Known issues
+- A drag up on some pages (seen on the mouse hole's page 5 of 7, and on the
+  last page before the ending) doesn't move on, though a wheel scroll does.
+  Found while scripting the launch-film capture; not yet reproduced by hand.
 - Supabase sign-in: add https://jyotsna-varkey.github.io/rabbit-holes/ to
   Authentication → URL Configuration (Site URL / Redirect URLs), or emailed
   links will be refused (owner, with step 29).
@@ -741,3 +758,4 @@ under "Handover" below.
 - 2026-10-28 (later): Owner: scrolls needed a wait (trackpad coasting, step
   47) and the way back from the article wasn't clear enough (step 46). Both
   fixed and deployed.
+- 2026-10-29: Launch film (risograph, Navy Mouse hole) built in launch-video/. Owner found the mouse hole unclear; step 48 added two knots and a loop ending (one owner-approved onward-link exception).
