@@ -1,0 +1,93 @@
+{
+  "id": "fortune-cookie-kau-chim",
+  "claim": "Why do Chinese restaurants hand out a Japanese cookie?",
+  "start": {
+    "title": "American Chinese cuisine",
+    "page": "American Chinese cuisine",
+    "description": "Chinese cuisine developed by Chinese Americans",
+    "image": "snapshots/images/American-Chinese-cuisine.webp"
+  },
+  "end": {
+    "title": "Kau chim",
+    "page": "Kau chim",
+    "description": "Chinese fortune telling practice",
+    "image": "snapshots/images/Kau-chim.webp"
+  },
+  "knots": [
+    {
+      "page": "American Chinese cuisine",
+      "url": "https://en.wikipedia.org/wiki/American_Chinese_cuisine",
+      "revision": 1386361308,
+      "section": "Differences from other regional cuisines in China",
+      "passage": "Many of the dishes that are commonly recognized as \"Chinese food\" were actually developed in America and bear little resemblance to traditional Chinese cuisine. Examples include fortune cookies, crab rangoon, and General Tso's chicken, none of which originated in China. Instead, these dishes were crafted to suit American palates, often characterized by sweetness, bold sauces, and deep-fried dishes.",
+      "hatnote": "Your takeout bag holds a few impostors.",
+      "onwardLinkText": "fortune cookies",
+      "nextPage": "Fortune cookie"
+    },
+    {
+      "page": "Fortune cookie",
+      "url": "https://en.wikipedia.org/wiki/Fortune_cookie",
+      "revision": 1385325760,
+      "section": "Marketing",
+      "passage": "In 1989, fortune cookies were reportedly imported into Hong Kong and sold as \"genuine American fortune cookies\". Wonton Food attempted to expand its fortune cookie business into China in 1992, but gave up after fortune cookies were considered \"too American\".",
+      "hatnote": "When the cookie tried to go ‘home’, China didn’t want it.",
+      "onwardLinkText": "",
+      "nextPage": "Fortune cookie"
+    },
+    {
+      "page": "Fortune cookie",
+      "url": "https://en.wikipedia.org/wiki/Fortune_cookie",
+      "revision": 1385325760,
+      "section": "History",
+      "passage": "David Jung, founder of the Hong Kong Noodle Company in Los Angeles, made a competing claim that he invented the cookie in 1918. San Francisco's Court of Historical Review attempted to settle the dispute in 1983. During the proceedings, a fortune cookie was introduced as a piece of evidence with a message reading, \"S.F. Judge who rules for L.A. Not Very Smart Cookie\". A federal judge of the Court of Historical Review, from San Francisco themselves, determined that the cookie originated with Hagiwara and the court ruled in favor of San Francisco. The city of Los Angeles condemned the decision.",
+      "hatnote": "San Francisco backed a Japanese gardener, Hagiwara. Los Angeles backed a noodle maker.",
+      "onwardLinkText": "",
+      "nextPage": "Fortune cookie"
+    },
+    {
+      "page": "Fortune cookie",
+      "url": "https://en.wikipedia.org/wiki/Fortune_cookie",
+      "revision": 1385325760,
+      "section": "History",
+      "passage": "Seiichi Kito, the founder of Fugetsu-do of Little Tokyo in Los Angeles, also claims to have invented the cookie. Kito claims to have gotten the idea of putting a message in a cookie from Omikuji (fortune slip) which are sold at temples and shrines in Japan. According to his story, he sold his cookies to Chinese restaurants where they were greeted with much enthusiasm in both the Los Angeles and San Francisco areas, before spreading.",
+      "hatnote": "Los Angeles had a third claimant: a Japanese sweet-maker.",
+      "onwardLinkText": "Omikuji",
+      "nextPage": "O-mikuji"
+    },
+    {
+      "page": "O-mikuji",
+      "url": "https://en.wikipedia.org/wiki/O-mikuji",
+      "revision": 1382352668,
+      "section": "lead",
+      "passage": "When the prediction is bad, it is a custom to fold up the strip of paper and attach it to a pine tree or a wall of metal wires alongside other bad fortunes in the temple or shrine grounds. A purported reason for this custom is a pun on the word for pine tree (松, matsu) and the verb 'to wait' (待つ, matsu), the idea being that the bad luck will wait by the tree rather than attach itself to the bearer.",
+      "hatnote": "In Japan, you don’t have to keep a bad fortune.",
+      "onwardLinkText": "",
+      "nextPage": "O-mikuji"
+    },
+    {
+      "page": "O-mikuji",
+      "url": "https://en.wikipedia.org/wiki/O-mikuji",
+      "revision": 1382352668,
+      "section": "History",
+      "passage": "Historically, however, the Japanese omikuji system is thought to have been modeled after the Chinese kau chim, a similar form of divination involving a tube full of bamboo sticks and a sequence of written or printed oracles.",
+      "hatnote": "But the shrine fortunes weren’t Japanese to begin with.",
+      "onwardLinkText": "kau chim",
+      "nextPage": "Kau chim"
+    },
+    {
+      "page": "Kau chim",
+      "url": "https://en.wikipedia.org/wiki/Kau_chim",
+      "revision": 1380175068,
+      "section": "Locale",
+      "passage": "In 1915, kau chim sticks were introduced to the United States under the trade name \"Chi Chi Chinese Fortune Teller\" by the Pacific Dry Goods Company of San Francisco, California, where a large population of Cantonese Chinese immigrants had settled. The Chi Chi sticks, 78 in number, were made in China of bamboo but they were marked with Arabic numerals instead of Chinese characters, and were packaged in a bright yellow and red chipboard tube with a black lid (like a modern mailing tube).",
+      "hatnote": "And the Chinese original had already reached San Francisco.",
+      "onwardLinkText": "",
+      "nextPage": "Kau chim"
+    }
+  ],
+  "payoff": "Follow the fortune in a cookie back far enough and it was Chinese all along, by way of Japan.",
+  "caveats": [
+    "Who invented the American fortune cookie is disputed; the Fortune cookie page names Makoto Hagiwara, David Jung and Seiichi Kito.",
+    "O-mikuji says the omikuji system is 'thought to have been' modelled on kau chim, not certain."
+  ]
+}

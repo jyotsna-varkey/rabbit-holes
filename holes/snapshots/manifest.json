@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-23",
+  "fetched": "2026-11-25",
   "pages": {
     "0": {
       "title": "0",
@@ -3142,7 +3142,8 @@
         }
       },
       "fragments": {
-        "Another early trackball was built by Kenyon Taylor, a British electrical enginee": "Another early trackball was built by Kenyon Taylor, a British"
+        "Another early trackball was built by Kenyon Taylor, a British electrical enginee": "Another early trackball was built by Kenyon Taylor, a British",
+        "The ball mouse replaced the external wheels with a single ball that could rotate": "The ball mouse replaced the external wheels with a single"
       }
     },
     "DATAR": {
@@ -3190,7 +3191,8 @@
         }
       },
       "fragments": {
-        "Five-pin bowling is a bowling variant which is played in Canada, where many bowl": "Five-pin bowling is a bowling variant which is played in"
+        "Five-pin bowling is a bowling variant which is played in Canada, where many bowl": "Five-pin bowling is a bowling variant which is played in",
+        "The balls in five pin bowling are small enough to fit in the hand and therefore ": "The balls in five pin bowling are small enough to"
       }
     },
     "Cotton": {
@@ -5255,6 +5257,101 @@
       },
       "fragments": {
         "The song \"Yankee Doodle\" from the time of the American Revolutionary War mention": "The song \"Yankee Doodle\" from the time of the American"
+      }
+    },
+    "American-Chinese-cuisine": {
+      "title": "American Chinese cuisine",
+      "description": "Chinese cuisine developed by Chinese Americans",
+      "revision": 1386361308,
+      "url": "https://en.wikipedia.org/wiki/American_Chinese_cuisine",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=American_Chinese_cuisine&oldid=1386361308",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/American-Chinese-cuisine.webp",
+        "width": 330,
+        "height": 248,
+        "credit": {
+          "file": "Chopsueywithrice.jpg",
+          "artist": "Eli Hodapp from Naperville, United States",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Chopsueywithrice.jpg"
+        }
+      },
+      "fragments": {
+        "Many of the dishes that are commonly recognized as \"Chinese food\" were actually ": "Many of the dishes that are commonly recognized as \"Chinese"
+      }
+    },
+    "Fortune-cookie": {
+      "title": "Fortune cookie",
+      "description": "Cookie with printed paper fortune inside",
+      "revision": 1385325760,
+      "url": "https://en.wikipedia.org/wiki/Fortune_cookie",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Fortune_cookie&oldid=1385325760",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Fortune-cookie.webp",
+        "width": 330,
+        "height": 221,
+        "credit": {
+          "file": "Fortune_cookies.jpg",
+          "artist": "Ksayer1",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Fortune_cookies.jpg"
+        }
+      },
+      "fragments": {
+        "In 1989, fortune cookies were reportedly imported into Hong Kong and sold as \"ge": "In 1989, fortune cookies were reportedly imported into Hong Kong",
+        "David Jung, founder of the Hong Kong Noodle Company in Los Angeles, made a compe": "David Jung, founder of the Hong Kong Noodle Company in",
+        "Seiichi Kito, the founder of Fugetsu-do of Little Tokyo in Los Angeles, also cla": "Seiichi Kito, the founder of Fugetsu-do of Little Tokyo in"
+      }
+    },
+    "O-mikuji": {
+      "title": "O-mikuji",
+      "description": "Fortunes written on paper at shrines and temples in Japan",
+      "revision": 1382352668,
+      "url": "https://en.wikipedia.org/wiki/O-mikuji",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=O-mikuji&oldid=1382352668",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/O-mikuji.webp",
+        "width": 330,
+        "height": 440,
+        "credit": {
+          "file": "Omikuji.jpg",
+          "artist": "C121749n",
+          "license": "Public domain",
+          "licenseUrl": null,
+          "filePage": "https://commons.wikimedia.org/wiki/File:Omikuji.jpg"
+        }
+      },
+      "fragments": {
+        "When the prediction is bad, it is a custom to fold up the strip of paper and att": "When the prediction is bad, it is a custom to",
+        "Historically, however, the Japanese omikuji system is thought to have been model": "Historically, however, the Japanese omikuji system is thought to have"
+      }
+    },
+    "Kau-chim": {
+      "title": "Kau chim",
+      "description": "Chinese fortune telling practice",
+      "revision": 1380175068,
+      "url": "https://en.wikipedia.org/wiki/Kau_chim",
+      "permalink": "https://en.wikipedia.org/w/index.php?title=Kau_chim&oldid=1380175068",
+      "snapshot": true,
+      "image": {
+        "file": "snapshots/images/Kau-chim.webp",
+        "width": 330,
+        "height": 213,
+        "credit": {
+          "file": "Chien_Tung_sticks,_cylindrical_container_with_18_inscribed_s_Wellcome_L0057487.jpg",
+          "artist": "Unknown author",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "filePage": "https://commons.wikimedia.org/wiki/File:Chien_Tung_sticks%2C_cylindrical_container_with_18_inscribed_s_Wellcome_L0057487.jpg"
+        }
+      },
+      "fragments": {
+        "In 1915, kau chim sticks were introduced to the United States under the trade na": "In 1915, kau chim sticks were introduced to the United"
       }
     },
     "Fossil": {

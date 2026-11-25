@@ -400,11 +400,23 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          tests/unit/holes.test.ts (the rule stays for every other knot).
          Tried first: a hook-first order that keeps the rule; owner preferred
          the loop ending. Checked: npm test, all-holes e2e for this hole.
+- [x] 49. New hole: fortune-cookie-kau-chim (owner, 2026-11-25: current
+         holes "a bit boring"; wants organic chains where each page answers
+         the last). "Why do Chinese restaurants hand out a Japanese cookie?"
+         American Chinese cuisine → Fortune cookie (too American for China;
+         SF vs LA mock court; Kito and omikuji) → O-mikuji (bad fortunes tied
+         to pine trees; modelled on kau chim) → Kau chim (Chinese fortune
+         sticks sold in San Francisco from 1915). 7 knots, ~476 words. Built in
+         ~/Documents/rabbit_hole_library/candidates/fresh/ and verified there.
+         Tried first: an ending at the Japanese Tea Garden (internment); owner
+         didn't like that direction. Owner approved the hook and the phone
+         preview. Checked: npm test, all-holes e2e for this hole.
 - [ ] 15. Cover the remaining [~] steps with tests: swipe left sends the card
          to the back (8); "Back to the thread" re-centres and blur returns (3);
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
+49 done (not pushed). Next: the nightmare hole (owner asked 2026-11-25). Before:
 48 done (not pushed). Launch film work lives in launch-video/ (not part of the app).
 Before: 43–47 done and live. Owner feedback next. Before:
 41–42 done and pushed to GitHub (live). Owner tries them on phone and
@@ -759,3 +771,4 @@ under "Handover" below.
   47) and the way back from the article wasn't clear enough (step 46). Both
   fixed and deployed.
 - 2026-10-29: Launch film (risograph, Navy Mouse hole) built in launch-video/. Owner found the mouse hole unclear; step 48 added two knots and a loop ending (one owner-approved onward-link exception).
+- 2026-11-25: Owner found the holes boring; explored fresh Wikipedia threads, owner wants organic "each page answers the last" chains. Step 49 added the fortune cookie → kau chim hole. Not pushed.
