@@ -1,5 +1,5 @@
 {
-  "id": "nightmare-polish-plait",
+  "id": "nightmare-mare",
   "claim": "The ‘mare’ in nightmare is not a horse. What is it and why did it want your hair?",
   "start": {
     "title": "Nightmare",
@@ -8,10 +8,10 @@
     "image": "snapshots/images/Nightmare.webp"
   },
   "end": {
-    "title": "Polish plait",
-    "page": "Polish plait",
-    "description": "Formation of hair",
-    "image": "snapshots/images/Polish-plait.webp"
+    "title": "Mare (folklore)",
+    "page": "Mare (folklore)",
+    "description": "Malicious entity in Germanic and Slavic folklore",
+    "image": "snapshots/images/Mare-folklore.webp"
   },
   "knots": [
     {
@@ -61,22 +61,20 @@
       "section": "Beliefs",
       "passage": "The mare was believed to ride horses, which left them exhausted and covered in sweat by the morning. She could also entangle the hair of the sleeping man or beast, resulting in \"marelocks\", called marflätor ('mare-braids') or martovor ('mare-tangles') in Swedish or marefletter and marefloker in Norwegian. The belief probably originated as an explanation to the Polish plait phenomenon, a hair disease.",
       "hatnote": "It didn’t only sit on sleepers. It tangled their hair.",
-      "onwardLinkText": "Polish plait",
-      "nextPage": "Polish plait"
+      "onwardLinkText": "",
+      "nextPage": "Mare (folklore)"
     },
     {
-      "page": "Polish plait",
-      "url": "https://en.wikipedia.org/wiki/Polish_plait",
-      "revision": 1385021846,
-      "section": "History",
-      "passage": "British diarist Hester Thrale, in her book Observations and Reflections Made in the Course of a Journey through France, Italy, and Germany, described a Polish plait she saw in 1786 in the collection of the Elector of Saxony in Dresden: \"the size and weight of it was enormous, its length four yards and a half [about 4.1 m]; the person who was killed by its growth was a Polish lady of quality well known in King Augustus's court.\"",
-      "hatnote": "Some of those tangles grew to an enormous size.",
+      "page": "Mare (folklore)",
+      "url": "https://en.wikipedia.org/wiki/Mare_(folklore)",
+      "revision": 1385084321,
+      "section": "Beliefs",
+      "passage": "Even trees were thought to be ridden by the mare, resulting in branches being entangled. The undersized, twisted pine-trees growing on coastal rocks and on wet grounds are known in Sweden as martallar ('mare-pines') or in German as Alptraum-Kiefer ('nightmare pine').",
+      "hatnote": "It didn’t stop at people and horses.",
       "onwardLinkText": "",
-      "nextPage": "Polish plait"
+      "nextPage": "Mare (folklore)"
     }
   ],
-  "payoff": "The mare was sleep paralysis given a face, and it was even blamed for hair so tangled it could kill.",
-  "caveats": [
-    "The plait that 'killed' its owner is Hester Thrale's 1786 account, not a medical finding."
-  ]
+  "payoff": "The mare was sleep paralysis given a face, and people saw its work everywhere: in tangled hair, sweaty horses and twisted pines.",
+  "caveats": []
 }

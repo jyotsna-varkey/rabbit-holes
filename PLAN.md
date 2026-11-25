@@ -433,12 +433,17 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          paragraph can't be used: the app's snapshot has an "[it]"
          interlanguage marker inside it, so it never matches word for word.
          Checked: npm test, all-holes e2e for this hole.
+- [x] 52. Nightmare hole drops the Polish plait (owner, 2026-11-25: its picture
+         is "absolutely disgusting"). Renamed nightmare-polish-plait →
+         nightmare-mare; now ends on Mare (folklore) with the "nightmare pine"
+         passage (trees the mare rode). Polish plait snapshot/images removed.
+         6 knots, ~478 words. Checked: npm test, all-holes e2e for this hole.
 - [ ] 15. Cover the remaining [~] steps with tests: swipe left sends the card
          to the back (8); "Back to the thread" re-centres and blur returns (3);
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
-49–51 done (not pushed). Next: owner feedback on more fresh holes. Before:
+49–52 done (not pushed). Next: owner feedback on more fresh holes. Before:
 48 done (not pushed). Launch film work lives in launch-video/ (not part of the app).
 Before: 43–47 done and live. Owner feedback next. Before:
 41–42 done and pushed to GitHub (live). Owner tries them on phone and
@@ -796,3 +801,4 @@ under "Handover" below.
 - 2026-11-25: Owner found the holes boring; explored fresh Wikipedia threads, owner wants organic "each page answers the last" chains. Step 49 added the fortune cookie → kau chim hole. Not pushed.
 - 2026-11-25 (later): Step 50 added the nightmare → Polish plait hole; owner rewrote the hook (surprising fact + question). Not pushed.
 - 2026-11-25 (later): Step 51 reworked the nightmare hole around sleep paralysis and folklore, trimmed to 6 knots. Not pushed.
+- 2026-11-25 (later): Step 52 ended the nightmare hole on the Mare page (nightmare pines) instead of the Polish plait. Not pushed.
