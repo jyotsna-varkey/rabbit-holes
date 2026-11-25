@@ -21,17 +21,37 @@
       "section": "Etymology",
       "passage": "The word nightmare is derived from the European folklorical \"mare\" (cf. Old English: mare, mære, Old Norse: mara), a mythological female demon or thereof, which sits on the chest of sleeping people and brings on frightening dreams. The term has no known etymological connection with the Modern English word for a female horse (cf. cognate Swedish: märr).",
       "hatnote": "A nightmare used to be something that sat on you.",
-      "onwardLinkText": "mare",
-      "nextPage": "Mare (folklore)"
+      "onwardLinkText": "",
+      "nextPage": "Nightmare"
     },
     {
-      "page": "Mare (folklore)",
-      "url": "https://en.wikipedia.org/wiki/Mare_(folklore)",
-      "revision": 1385084321,
-      "section": "Nordic folklore",
-      "passage": "The mare is attested as early as in the Norse Ynglinga saga from the 13th century. Here, King Vanlandi Sveigðisson of Uppsala lost his life to a nightmare (mara) conjured by the Finnish sorceress Huld or Hulda, hired by the king's abandoned wife Drífa. The king had broken his promise to return within three years, and after ten years had elapsed the wife engaged the sorceress to either lure the king back to her, or failing that, to assassinate him. Vanlandi had scarcely gone to sleep when he complained that the nightmare \"rode him\"; when the men held the king's head it \"trod on his legs\" on the point of breaking, and when the retinue then \"seized his feet\", the creature fatally \"pressed down on his head\".",
-      "hatnote": "The oldest story about it ends with a dead Swedish king.",
+      "page": "Nightmare",
+      "url": "https://en.wikipedia.org/wiki/Nightmare",
+      "revision": 1383356956,
+      "section": "Etymology",
+      "passage": "Originally, \"mare\" or \"nightmare\" referred more specifically to sleep paralysis, in which an experience of terror and paralysis during sleep can be associated with a sense of pressure on the chest and the dreamed presence of entities often pictured as demons, sometimes sitting on the chest. The words also referred to such a \"demon,\" which was also referred to as a hag and the experience as being \"hag-ridden.\" The meaning of \"nightmare\" had generalized from sleep paralysis to any bad dream by 1829.",
+      "hatnote": "It was the name for a very real, very strange experience.",
+      "onwardLinkText": "sleep paralysis",
+      "nextPage": "Sleep paralysis"
+    },
+    {
+      "page": "Sleep paralysis",
+      "url": "https://en.wikipedia.org/wiki/Sleep_paralysis",
+      "revision": 1386692788,
+      "section": "Newfoundland",
+      "passage": "In Newfoundland, which is in eastern Canada, sleep paralysis is referred to as the Old Hag, and victims of a hagging are said to be hag-ridden upon awakening. Victims report being completely conscious, but unable to speak or move, and report a person or an animal which sits upon their chest. Despite the name, the attacker can be either male or female. Some suggested cures or preventions for the Old Hag include sleeping with a Bible under the pillow, calling the sleeper's name backwards or in an extreme example, sleeping with a shingle or board embedded with nails strapped to the chest. This object was called a Hag Board.",
+      "hatnote": "Every culture has its own chest-sitter, and its own defences.",
       "onwardLinkText": "",
+      "nextPage": "Sleep paralysis"
+    },
+    {
+      "page": "Sleep paralysis",
+      "url": "https://en.wikipedia.org/wiki/Sleep_paralysis",
+      "revision": 1386692788,
+      "section": "Etymology",
+      "passage": "Such sleep paralysis was widely considered the work of demons, and more specifically incubi, which were thought to sit on the chests of sleepers. In Old English, the name for these beings was mare or mære (from a proto-Germanic *marōn, cf. Old Norse mara), hence comes the mare in the word nightmare. The word might be cognate to Greek Marōn (in the Odyssey) and Sanskrit Māra.",
+      "hatnote": "The English name for it may have relatives in Greek and Sanskrit.",
+      "onwardLinkText": "mara",
       "nextPage": "Mare (folklore)"
     },
     {
@@ -49,35 +69,14 @@
       "url": "https://en.wikipedia.org/wiki/Polish_plait",
       "revision": 1385021846,
       "section": "History",
-      "passage": "Initially the plait was considered an amulet to keep illness away from the body, as it was believed that when disease resolved it left the body to live in the hair, resulting in lessened suffering. For this reason people not only allowed it to develop but even encouraged it.",
-      "hatnote": "Those tangles were real, and people grew them on purpose.",
-      "onwardLinkText": "",
-      "nextPage": "Polish plait"
-    },
-    {
-      "page": "Polish plait",
-      "url": "https://en.wikipedia.org/wiki/Polish_plait",
-      "revision": 1385021846,
-      "section": "History",
-      "passage": "A growing plait was supposed to take the illness out of the body and therefore it was rarely cut off; in addition the belief that a cut-off plait could avenge itself and bring an even greater illness discouraged some from attacking it.",
-      "hatnote": "Cutting one off was thought to be dangerous.",
-      "onwardLinkText": "",
-      "nextPage": "Polish plait"
-    },
-    {
-      "page": "Polish plait",
-      "url": "https://en.wikipedia.org/wiki/Polish_plait",
-      "revision": 1385021846,
-      "section": "History",
       "passage": "British diarist Hester Thrale, in her book Observations and Reflections Made in the Course of a Journey through France, Italy, and Germany, described a Polish plait she saw in 1786 in the collection of the Elector of Saxony in Dresden: \"the size and weight of it was enormous, its length four yards and a half [about 4.1 m]; the person who was killed by its growth was a Polish lady of quality well known in King Augustus's court.\"",
-      "hatnote": "One ended up in a royal collection, with a grim story attached.",
+      "hatnote": "Some of those tangles grew to an enormous size.",
       "onwardLinkText": "",
       "nextPage": "Polish plait"
     }
   ],
-  "payoff": "The demon in the word nightmare was blamed for real tangles, and people let them grow until the hair itself became the danger.",
+  "payoff": "The mare was sleep paralysis given a face, and it was even blamed for hair so tangled it could kill.",
   "caveats": [
-    "Vanlandi's death is from a 13th-century saga, i.e. legend, not history.",
     "The plait that 'killed' its owner is Hester Thrale's 1786 account, not a medical finding."
   ]
 }
