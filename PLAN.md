@@ -411,12 +411,23 @@ browser, but not yet covered by tests. It becomes [x] once tests cover it.
          Tried first: an ending at the Japanese Tea Garden (internment); owner
          didn't like that direction. Owner approved the hook and the phone
          preview. Checked: npm test, all-holes e2e for this hole.
+- [x] 50. New hole: nightmare-polish-plait (owner, 2026-11-25). Hook (owner's
+         wording): "The 'mare' in nightmare is not a horse. What is it and why
+         did it want your hair?" Nightmare (the mare is a chest-sitting demon)
+         → Mare (folklore) (the saga king it killed; it tangled hair, likely
+         explaining the Polish plait) → Polish plait (illness lived in the
+         hair; cutting it was feared; a 4 m plait in Dresden "killed" its
+         owner). 6 knots, 415 words. Tried first: ending on the king
+         (Vanlandi), but his page is too thin and a 3-page hole needs a third
+         page. Hook lesson from the owner: lead with the genuinely
+         surprising fact, then a question that rounds it off. Checked: npm
+         test, all-holes e2e for this hole.
 - [ ] 15. Cover the remaining [~] steps with tests: swipe left sends the card
          to the back (8); "Back to the thread" re-centres and blur returns (3);
          progress knot colours (6); the tumble lands on the first passage (9).
 
 ## Current step
-49 done (not pushed). Next: the nightmare hole (owner asked 2026-11-25). Before:
+49–50 done (not pushed). Next: owner feedback on more fresh holes. Before:
 48 done (not pushed). Launch film work lives in launch-video/ (not part of the app).
 Before: 43–47 done and live. Owner feedback next. Before:
 41–42 done and pushed to GitHub (live). Owner tries them on phone and
@@ -772,3 +783,4 @@ under "Handover" below.
   fixed and deployed.
 - 2026-10-29: Launch film (risograph, Navy Mouse hole) built in launch-video/. Owner found the mouse hole unclear; step 48 added two knots and a loop ending (one owner-approved onward-link exception).
 - 2026-11-25: Owner found the holes boring; explored fresh Wikipedia threads, owner wants organic "each page answers the last" chains. Step 49 added the fortune cookie → kau chim hole. Not pushed.
+- 2026-11-25 (later): Step 50 added the nightmare → Polish plait hole; owner rewrote the hook (surprising fact + question). Not pushed.
